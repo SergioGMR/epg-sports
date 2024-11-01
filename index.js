@@ -63,13 +63,25 @@ const selectors = {
 };
 
 async function scrapeMatches(sport) {
-    const browser = await chromium.launch({ headless: true });
-    const page = await browser.newPage();
+    const browser = await chromium.launch({
+        headless: true, // Ejecutar en modo no headless
+        ignoreHTTPSErrors: true,
+        args: [
+            '--disable-blink-features=AutomationControlled', // Desactivar características de automatización
+            '--no-sandbox',
+            '--disable-setuid-sandbox'
+        ],
+    });
+    const context = await browser.newContext({
+        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)',
+        viewport: { width: 1280, height: 800 },
+    });
+    const page = await context.newPage();
 
     try {
         const url = `${baseUrl}${sport}`;
         console.log(`Scraping ${url}...`);
-        await page.goto(url);
+        await page.goto(url, { timeout: 60000, waitUntil: 'networkidle' });
         console.log('Página cargada');
 
         // Intentar aceptar cookies
@@ -81,7 +93,7 @@ async function scrapeMatches(sport) {
         }
 
         console.log('Empezamos con la tabla de deporte...');
-        const table = await page.waitForSelector(selectors.tabla, { timeout: 5000 });
+        const table = await page.waitForSelector(selectors.tabla, { timeout: 60000, waitUntil: 'networkidle' });
         const rawDay = await table.$eval(selectors.head, el => el.innerText);
         const day = rawDay.split(', ')[1].trim();
 
