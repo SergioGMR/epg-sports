@@ -57,55 +57,65 @@ const selectors = {
 };
 
 async function scrapeMatches(sport) {
+    browser = await puppeteer.launch();
+    page = await browser.newPage();
+
     try {
         const url = `${baseUrl}${sport}`;
         console.log(`Scraping ${url}...`);
-        const browser = await puppeteer.launch();
-        const page = await browser.newPage();
-        await page.goto(url, {timeout: 5000});
+        await page.goto(url, { timeout: 5000 });
         console.log('Página cargada');
-        await page.waitForSelector(selectors.cookieButton, { timeout: 5000 });
-        await page.click(selectors.cookieButton);
-        console.log('Botón de cookies encontrado y pulsado');
+
+        // Intentar aceptar cookies
+        try {
+            await page.waitForSelector(selectors.cookieButton, { timeout: 5000 });
+            await page.click(selectors.cookieButton);
+            console.log('Botón de cookies encontrado y pulsado');
+        } catch (error) {
+            console.error('Cookie button not found');
+        }
+
+        // Intentar hacer clic en el input de hora
+        try {
+            await page.waitForSelector(selectors.hourInput, { timeout: 5000 });
+            await page.click(selectors.hourInput);
+            console.log('Botón de hora encontrado y pulsado');
+        } catch (error) {
+            console.error('Hour input not found');
+        }
+
+        console.log('Empezamos con la tabla de deporte...');
+        const table = await page.waitForSelector(selectors.tabla);
+        const rawDay = await table.$eval(selectors.head, el => el.innerText);
+        const day = rawDay.split(', ')[1].trim();
+
+        const matches = [];
+        const rows = await table.$$(selectors.rows);
+
+        for (const row of rows) {
+            let matchSkeleton = {
+                date: {},
+                details: {},
+                teams: {
+                    local: {},
+                    visitor: {}
+                },
+                channels: [],
+                event: {}
+            };
+            const match = await scrapeMatch(row, day, matchSkeleton);
+            matches.push(match);
+        }
+
+        return matches;
     } catch (error) {
-        console.error('Cookie button not found');
+        console.error(`Error al procesar ${sport}:`, error);
+        return [];
+    } finally {
+        if (browser) await browser.close();
     }
-
-    try {
-        await page.waitForSelector(selectors.hourInput, { timeout: 5000 });
-        await page.click(selectors.hourInput);
-        console.log('Botón de hora encontrado y pulsado');
-    } catch (error) {
-        console.error('Hour input not found');
-    }
-
-    console.log('Empezamos con la tabla de deporte...');
-    const table = await page.waitForSelector(selectors.tabla);
-    const rawDay = await table.$eval(selectors.head, el => el.innerText);
-    const day = rawDay.split(', ')[1].trim();
-
-    const matches = [];
-    const rows = await table.$$(selectors.rows);
-
-    for (const row of rows) {
-        let matchSkeleton = {
-            date: {},
-            details: {},
-            teams: {
-                local: {},
-                visitor: {}
-            },
-            channels: [],
-            event: {}
-        };
-        const match = await scrapeMatch(row, day, matchSkeleton);
-        matches.push(match);
-    }
-
-    await browser.close();
-
-    return matches;
 }
+
 
 async function scrapeMatch(row, day, match) {
     const horaElement = await row.$(selectors.hour);
