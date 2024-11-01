@@ -1,6 +1,12 @@
-import puppeteer from 'puppeteer';
-import fs from 'fs';
+// index.js
+
+import { chromium } from 'playwright';
+import fs from 'fs/promises';
 import path from 'path';
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const baseUrl = 'https://www.futbolenlatv.es/deporte/';
 const sports = [
@@ -22,8 +28,8 @@ const sports = [
 ];
 
 const selectors = {
+    adButton: '#dismiss-button',
     cookieButton: '#ez-accept-all',
-    hourInput: '#hora',
     tabla: 'table.tablaPrincipal',
     head: 'tr.cabeceraTabla > td',
     rows: 'tr:nth-child(n+2)',
@@ -57,70 +63,57 @@ const selectors = {
 };
 
 async function scrapeMatches(sport) {
-    const browser = await puppeteer.launch();
+    const browser = await chromium.launch({ headless: true });
     const page = await browser.newPage();
 
     try {
         const url = `${baseUrl}${sport}`;
         console.log(`Scraping ${url}...`);
-        await page.goto(url, { timeout: 5000 });
+        await page.goto(url);
         console.log('Página cargada');
 
         // Intentar aceptar cookies
         try {
-            await page.waitForSelector(selectors.cookieButton, { timeout: 30000 });
             await page.click(selectors.cookieButton);
             console.log('Botón de cookies encontrado y pulsado');
         } catch (error) {
-            console.error('Cookie button not found');
-        }
-
-        // Intentar hacer clic en el input de hora
-        try {
-            await page.waitForSelector(selectors.hourInput, { timeout: 5000 });
-            await page.click(selectors.hourInput);
-            console.log('Botón de hora encontrado y pulsado');
-        } catch (error) {
-            console.error('Hour input not found');
+            console.error('Botón de cookies no encontrado');
         }
 
         console.log('Empezamos con la tabla de deporte...');
-        const table = await page.waitForSelector(selectors.tabla);
+        const table = await page.waitForSelector(selectors.tabla, { timeout: 5000 });
         const rawDay = await table.$eval(selectors.head, el => el.innerText);
         const day = rawDay.split(', ')[1].trim();
 
-        const matches = [];
+        // await page.pause(); // Línea comentada después de la depuración
+
         const rows = await table.$$(selectors.rows);
+        const matches = await Promise.all(rows.map(row => scrapeMatch(row, day)));
 
-        for (const row of rows) {
-            let matchSkeleton = {
-                date: {},
-                details: {},
-                teams: {
-                    local: {},
-                    visitor: {}
-                },
-                channels: [],
-                event: {}
-            };
-            const match = await scrapeMatch(row, day, matchSkeleton);
-            matches.push(match);
-        }
-
+        await browser.close();
         return matches;
     } catch (error) {
-        console.error(`Error al procesar ${sport}:`, error);
-        return [];
-    } finally {
-        if (browser) await browser.close();
+        console.error(`Error al procesar ${sport}:`, error.stack);
+        await browser.close();
+        throw error; // Re-lanzar el error para detener la ejecución
     }
 }
 
+async function scrapeMatch(row, day) {
+    const match = {
+        date: {},
+        details: {},
+        teams: {
+            local: {},
+            visitor: {}
+        },
+        channels: [],
+        event: {}
+    };
 
-async function scrapeMatch(row, day, match) {
     const horaElement = await row.$(selectors.hour);
     if (horaElement) {
-        const horaText = await horaElement.evaluate(el => el.innerText);
+        const horaText = await horaElement.innerText();
         match.date.hour = horaText;
         match.date.day = day;
         match.date.zone = 'Europe/Madrid';
@@ -130,35 +123,35 @@ async function scrapeMatch(row, day, match) {
     if (detailsElement) {
         const competitionElement = await detailsElement.$(selectors.details.competition);
         if (competitionElement) {
-            match.details.competition = await competitionElement.evaluate(el => el.innerText);
+            match.details.competition = await competitionElement.innerText();
         }
         const roundElement = await detailsElement.$(selectors.details.round);
         if (roundElement) {
-            match.details.round = await roundElement.evaluate(el => el.innerText);
+            match.details.round = await roundElement.innerText();
         }
     }
 
     const localElement = await row.$(selectors.teams.local.name);
     if (localElement) {
-        match.teams.local.name = await localElement.evaluate(el => el.innerText);
+        match.teams.local.name = await localElement.innerText();
     }
     const localImageElement = await row.$(selectors.teams.local.image);
     if (localImageElement) {
-        match.teams.local.image = await localImageElement.evaluate(el => el.getAttribute('src'));
+        match.teams.local.image = await localImageElement.getAttribute('src');
     }
 
     const visitorElement = await row.$(selectors.teams.visitor.name);
     if (visitorElement) {
-        match.teams.visitor.name = await visitorElement.evaluate(el => el.innerText);
+        match.teams.visitor.name = await visitorElement.innerText();
     }
     const visitorImageElement = await row.$(selectors.teams.visitor.image);
     if (visitorImageElement) {
-        match.teams.visitor.image = await visitorImageElement.evaluate(el => el.getAttribute('src'));
+        match.teams.visitor.image = await visitorImageElement.getAttribute('src');
     }
 
     const channelsElements = await row.$$(selectors.channels.selector + ' > ' + selectors.channels.channel);
     for (const channelElement of channelsElements) {
-        const channelText = await channelElement.evaluate(el => el.innerText);
+        const channelText = await channelElement.innerText();
         const cleanedChannelText = channelText.replace(/\(.*?\)/g, '').trim();
         match.channels.push(cleanedChannelText);
     }
@@ -167,26 +160,26 @@ async function scrapeMatch(row, day, match) {
     if (eventElement) {
         const nameElement = await eventElement.$(selectors.event.name);
         if (nameElement) {
-            match.event.name = await nameElement.evaluate(el => el.getAttribute('content'));
+            match.event.name = await nameElement.getAttribute('content');
         }
         const descriptionElement = await eventElement.$(selectors.event.description);
         if (descriptionElement) {
-            match.event.description = await descriptionElement.evaluate(el => el.getAttribute('content'));
+            match.event.description = await descriptionElement.getAttribute('content');
         }
         const startDateElement = await eventElement.$(selectors.event.startDate);
         if (startDateElement) {
-            match.event.startDate = await startDateElement.evaluate(el => el.getAttribute('content'));
+            match.event.startDate = await startDateElement.getAttribute('content');
         }
         const durationElement = await eventElement.$(selectors.event.duration);
         if (durationElement) {
-            match.event.duration = await durationElement.evaluate(el => el.getAttribute('content'));
+            match.event.duration = await durationElement.getAttribute('content');
         }
     }
 
     return match;
 }
 
-function saveMatchesToFile(matches, fileName) {
+async function saveMatchesToFile(matches, fileName) {
     matches = matches.filter(match => match.date && Object.keys(match.date).length > 0);
     const data = {
         matches: matches,
@@ -194,21 +187,27 @@ function saveMatchesToFile(matches, fileName) {
     };
 
     const jsonData = JSON.stringify(data, null, 2);
-    const filePath = path.join(__dirname, `./preData/${fileName}.json`);
+    const dirPath = path.join(__dirname, 'preData');
+    const filePath = path.join(dirPath, `${fileName}.json`);
 
-    fs.writeFile(filePath, jsonData, 'utf8', (err) => {
-        if (err) {
-            console.error('Error writing file:', err);
-        } else {
-            console.log('File has been saved.');
-        }
-        
-    });
+    try {
+        await fs.mkdir(dirPath, { recursive: true });
+        await fs.writeFile(filePath, jsonData, 'utf8');
+        console.log(`El archivo ${fileName}.json ha sido guardado.`);
+    } catch (err) {
+        console.error('Error al escribir el archivo:', err);
+    }
 }
 
 (async () => {
-    for (const sport of sports) {
-        const matches = await scrapeMatches(sport);
-        saveMatchesToFile(matches, sport);
+    try {
+        const scrapeTasks = sports.map(async (sport) => {
+            const matches = await scrapeMatches(sport);
+            await saveMatchesToFile(matches, sport);
+        });
+        await Promise.all(scrapeTasks);
+        console.log('Todos los deportes han sido procesados y los datos guardados.');
+    } catch (error) {
+        console.error('Ocurrió un error durante el proceso de scraping:', error.stack);
     }
 })();
