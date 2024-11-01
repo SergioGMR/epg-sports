@@ -63,8 +63,8 @@ jobs:
       - name: Instalar dependencias con Bun
         run: bun install # Instala las dependencias de tu proyecto
 
-      - name: Instalar navegadores de Puppeteer
-        run: bunx @puppeteer/browsers install chrome@stable # Instala Chrome estable
+      - name: Instalar navegadores de Playwright
+        run: bunx playwright install
 
       - name: Ejecutar index.js
         run: bun index.js # Ejecuta tu script con Bun
