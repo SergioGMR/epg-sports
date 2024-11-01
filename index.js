@@ -57,13 +57,13 @@ const selectors = {
 };
 
 async function scrapeMatches(sport) {
-    const url = `${baseUrl}${sport}`;
-    console.log(`Scraping ${url}...`);
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
-    await page.goto(url);
-
     try {
+        const url = `${baseUrl}${sport}`;
+        console.log(`Scraping ${url}...`);
+        const browser = await puppeteer.launch();
+        const page = await browser.newPage();
+        await page.goto(url);
+        console.log('Página cargada');
         await page.waitForSelector(selectors.cookieButton, { timeout: 5000 });
         await page.click(selectors.cookieButton);
         console.log('Botón de cookies encontrado y pulsado');
