@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 0 * * *'  # Se ejecuta todos los días a las 00:00 horas
 
+      # Permite ejecutar manualmente este workflow desde GitHub Actions.
+  workflow_dispatch:
+
 permissions:
   contents: write  # Otorga permiso de escritura para hacer commits
 
