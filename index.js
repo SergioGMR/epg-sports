@@ -63,6 +63,7 @@ const selectors = {
 };
 
 async function scrapeMatches(sport) {
+    const waitTimeout = 5 * 60 * 1000; // 6 minutos
     const browser = await chromium.launch({
         headless: true, // Ejecutar en modo no headless
         ignoreHTTPSErrors: true,
@@ -81,7 +82,7 @@ async function scrapeMatches(sport) {
     try {
         const url = `${baseUrl}${sport}`;
         console.log(`Scraping ${url}...`);
-        await page.goto(url, { timeout: 60000, waitUntil: 'networkidle' });
+        await page.goto(url, { timeout: waitTimeout, waitUntil: 'domcontentloaded' });
         console.log('Página cargada');
 
         // Intentar aceptar cookies
@@ -93,8 +94,7 @@ async function scrapeMatches(sport) {
         }
 
         console.log('Empezamos con la tabla de deporte...');
-        const timeout = 5 * 60 * 1000; // 6 minutos
-        const table = await page.waitForSelector(selectors.tabla, { timeout: timeout, waitUntil: 'domcontentloaded' });
+        const table = await page.waitForSelector(selectors.tabla, { timeout: waitTimeout, waitUntil: 'domcontentloaded' });
         const rawDay = await table.$eval(selectors.head, el => el.innerText);
         const day = rawDay.split(', ')[1].trim();
 
