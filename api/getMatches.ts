@@ -1,13 +1,9 @@
-import fs from "fs";
-import path from "path";
+import alMatches from "../data/allMatches.json";
 
-export default function handler(req: any, res: any) {
-  const filePath = path.resolve(process.cwd(), "data/alMatches.json");
-  fs.readFile(filePath, "utf8", (err, data) => {
-    if (err) {
-      res.status(500).json({ error: "Failed to read data" });
-      return;
+export default function handler(_req: any, res: any) {
+    try {
+        res.status(200).json(alMatches);
+    } catch (e) {
+        res.status(500).json({ error: e });
     }
-    res.status(200).json(JSON.parse(data));
-  });
 }
