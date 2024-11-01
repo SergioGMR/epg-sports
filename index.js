@@ -62,7 +62,7 @@ async function scrapeMatches(sport) {
         console.log(`Scraping ${url}...`);
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
-        await page.goto(url);
+        await page.goto(url, {timeout: 5000});
         console.log('Página cargada');
         await page.waitForSelector(selectors.cookieButton, { timeout: 5000 });
         await page.click(selectors.cookieButton);
