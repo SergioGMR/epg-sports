@@ -49,7 +49,7 @@ allMatches.sort((a, b) => {
 
 // Escribe los encuentros ordenados en un nuevo archivo JSON
 const outputData = { matches: allMatches };
-const outputFilePath = path.join(__dirname, "./data/allMatches.json");
+const outputFilePath = path.join(__dirname, "data/allMatches.json");
 fs.writeFileSync(
     outputFilePath,
   JSON.stringify(outputData, null, 2),
