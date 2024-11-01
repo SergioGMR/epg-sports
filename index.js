@@ -68,7 +68,7 @@ async function scrapeMatches(sport) {
 
         // Intentar aceptar cookies
         try {
-            await page.waitForSelector(selectors.cookieButton, { timeout: 5000 });
+            await page.waitForSelector(selectors.cookieButton, { timeout: 30000 });
             await page.click(selectors.cookieButton);
             console.log('Botón de cookies encontrado y pulsado');
         } catch (error) {
@@ -202,6 +202,7 @@ function saveMatchesToFile(matches, fileName) {
         } else {
             console.log('File has been saved.');
         }
+        
     });
 }
 

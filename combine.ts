@@ -47,11 +47,19 @@ allMatches.sort((a, b) => {
   return dateA.getTime() - dateB.getTime();
 });
 
+// Asegúrate de que la carpeta "data" existe
+const dataDir = path.join(__dirname, 'data');
+if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir);
+}
+
 // Escribe los encuentros ordenados en un nuevo archivo JSON
 const outputData = { matches: allMatches };
-const outputFilePath = path.join(__dirname, "data/allMatches.json");
+const outputFilePath = path.join(dataDir, 'allMatches.json');
+
 fs.writeFileSync(
     outputFilePath,
-  JSON.stringify(outputData, null, 2),
-  "utf8"
+    JSON.stringify(outputData, null, 2),
+    'utf8'
 );
+console.log('Archivo allMatches.json guardado correctamente.');
