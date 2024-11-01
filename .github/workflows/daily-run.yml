@@ -19,7 +19,7 @@ jobs:
         with:
           persist-credentials: true # Mantiene las credenciales para poder hacer push
 
-      - name: Instalar dependencias del sistema para Puppeteer
+      - name: Instalar dependencias del sistema para Playwright
         run: |
           sudo apt-get update
           sudo apt-get install -y \
