@@ -57,8 +57,8 @@ const selectors = {
 };
 
 async function scrapeMatches(sport) {
-    browser = await puppeteer.launch();
-    page = await browser.newPage();
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
 
     try {
         const url = `${baseUrl}${sport}`;
