@@ -1,4 +1,4 @@
-import alMatches from "../data/allMatches.json";
+import alMatches from "../data/allMatches.json" assert { type: "json" };
 
 export default function handler(_req: any, res: any) {
     try {
