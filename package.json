@@ -3,8 +3,10 @@
   "module": "index.ts",
   "type": "module",
   "version": "1.0.0",
-  "devDependencies": {},
-  "peerDependencies": {},
+  "devDependencies": { "@types/bun": "latest" },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
   "dependencies": {
     "puppeteer": "^23.6.0"
   }

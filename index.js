@@ -184,7 +184,7 @@ function saveMatchesToFile(matches, fileName) {
     };
 
     const jsonData = JSON.stringify(data, null, 2);
-    const filePath = path.join(__dirname, `./data/${fileName}.json`);
+    const filePath = path.join(__dirname, `./preData/${fileName}.json`);
 
     fs.writeFile(filePath, jsonData, 'utf8', (err) => {
         if (err) {
