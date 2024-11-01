@@ -1,0 +1,37 @@
+name: Ejecución Diaria
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Se ejecuta todos los días a las 00:00 horas
+
+permissions:
+  contents: write  # Otorga permiso de escritura para hacer commits
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout del repositorio
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: true  # Mantiene las credenciales para poder hacer push
+
+    - name: Instalar Bun
+      uses: oven-sh/setup-bun@v1  # Instala Bun en el runner
+
+       # 3. Instalar dependencias con Bun.
+    - name: Instalar dependencias con Bun
+      run: bun install  # Instala las dependencias de tu proyecto
+
+    - name: Ejecutar index.js
+      run: bun index.js  # Ejecuta tu script con Bun
+
+    - name: Ejecutar combine.ts
+      run: bun combine.ts  # Ejecuta tu script con Bun
+
+    - name: Commit y Push de los cambios
+      uses: actions-js/push@v1.5
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
