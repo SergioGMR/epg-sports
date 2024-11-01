@@ -93,7 +93,8 @@ async function scrapeMatches(sport) {
         }
 
         console.log('Empezamos con la tabla de deporte...');
-        const table = await page.waitForSelector(selectors.tabla, { timeout: 60000, waitUntil: 'domcontentloaded' });
+        const timeout = 5 * 60 * 1000; // 6 minutos
+        const table = await page.waitForSelector(selectors.tabla, { timeout: timeout, waitUntil: 'domcontentloaded' });
         const rawDay = await table.$eval(selectors.head, el => el.innerText);
         const day = rawDay.split(', ')[1].trim();
 
