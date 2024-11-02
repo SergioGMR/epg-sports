@@ -37,6 +37,9 @@ jobs:
       - name: Ejecutar combine.ts
         run: bun combine.ts # Ejecuta tu script con Bun
 
+      - name: Ejecutar shuffler.ts
+        run: bun shuffler.ts # Ejecuta tu script con Bun 
+
       - name: Commit y Push de los cambios
         uses: actions-js/push@v1.5
         with:
