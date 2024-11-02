@@ -1,17 +1,23 @@
 {
   "matches": [
     {
+      "sport": "padel",
       "date": {
-        "hour": "12:00",
+        "hour": "11:00",
         "day": "02/11/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Mundial Femenino"
+        "competition": "Mundial Femenino",
+        "round": "Final"
       },
       "teams": {
-        "local": {},
-        "visitor": {}
+        "local": {
+          "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+        },
+        "visitor": {
+          "image": "https://static.futbolenlatv.com/img/32/20130204101418_argentina.webp"
+        }
       },
       "channels": [
         "International Padel Federation YouTube",
@@ -20,17 +26,23 @@
       "event": {}
     },
     {
+      "sport": "padel",
       "date": {
-        "hour": "16:00",
+        "hour": "15:30",
         "day": "02/11/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Campeonato del Mundo"
+        "competition": "Campeonato del Mundo",
+        "round": "Final"
       },
       "teams": {
-        "local": {},
-        "visitor": {}
+        "local": {
+          "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+        },
+        "visitor": {
+          "image": "https://static.futbolenlatv.com/img/32/20130204101418_argentina.webp"
+        }
       },
       "channels": [
         "International Padel Federation YouTube",
@@ -39,6 +51,7 @@
       "event": {}
     },
     {
+      "sport": "padel",
       "date": {
         "hour": "19:00",
         "day": "02/11/2024",
@@ -64,5 +77,5 @@
       "event": {}
     }
   ],
-  "updated": "2024-11-02T07:45:02.407Z"
+  "updated": "2024-11-02T22:51:26.433Z"
 }
