@@ -101,7 +101,7 @@ async function scrapeMatches(sport) {
         // await page.pause(); // Línea comentada después de la depuración
 
         const rows = await table.$$(selectors.rows);
-        const matches = await Promise.all(rows.map(row => scrapeMatch(row, day)));
+        const matches = await Promise.all(rows.map(row => scrapeMatch(row, day, sport)));
 
         await browser.close();
         return matches;
@@ -112,8 +112,9 @@ async function scrapeMatches(sport) {
     }
 }
 
-async function scrapeMatch(row, day) {
+async function scrapeMatch(row, day, sport) {
     const match = {
+        sport: sport,
         date: {},
         details: {},
         teams: {

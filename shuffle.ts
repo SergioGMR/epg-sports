@@ -2,6 +2,7 @@ import data from "./data/allMatches.json" assert { type: "json" };
 import fs from 'fs';
 
 interface Match {
+  sport: string;
   date: {
     hour: string;
     day: string;
