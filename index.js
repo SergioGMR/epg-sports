@@ -41,11 +41,11 @@ const selectors = {
     },
     teams: {
         local: {
-            name: 'td.local > a > span',
+            name: 'td.local > img',
             image: 'td.local > img'
         },
         visitor: {
-            name: 'td.visitante > a > span',
+            name: 'td.visitante > img',
             image: 'td.visitante > img'
         }
     },
@@ -147,7 +147,7 @@ async function scrapeMatch(row, day, sport) {
 
     const localElement = await row.$(selectors.teams.local.name);
     if (localElement) {
-        match.teams.local.name = await localElement.innerText();
+        match.teams.local.name = await localElement.getAttribute('alt');
     }
     const localImageElement = await row.$(selectors.teams.local.image);
     if (localImageElement) {
@@ -156,7 +156,7 @@ async function scrapeMatch(row, day, sport) {
 
     const visitorElement = await row.$(selectors.teams.visitor.name);
     if (visitorElement) {
-        match.teams.visitor.name = await visitorElement.innerText();
+        match.teams.visitor.name = await visitorElement.getAttribute('alt');
     }
     const visitorImageElement = await row.$(selectors.teams.visitor.image);
     if (visitorImageElement) {
