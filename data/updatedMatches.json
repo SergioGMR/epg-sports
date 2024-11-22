@@ -57,42 +57,6 @@
     "event": {}
   },
   {
-    "sport": "motociclismo",
-    "date": {
-      "hour": "10:00",
-      "day": "19/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {},
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "motociclismo",
-    "date": {
-      "hour": "14:00",
-      "day": "19/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "MotoGP"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
     "sport": "hockey-patines",
     "date": {
       "hour": "20:30",
@@ -133,10 +97,36 @@
     "event": {}
   },
   {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "00:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "FIBA AmeriCup",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Brasil",
+        "image": "https://static.futbolenlatv.com/img/32/20130204124155_brasil.webp"
+      },
+      "visitor": {
+        "name": "Uruguay",
+        "image": "https://static.futbolenlatv.com/img/32/20130108083741_uruguay.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
     "sport": "automovilismo",
     "date": {
-      "hour": "01:00",
-      "day": "21/11/2024",
+      "hour": "00:44",
+      "day": "22/11/2024",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -147,15 +137,16 @@
       "visitor": {}
     },
     "channels": [
-      "DAZN"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {}
   },
   {
     "sport": "baloncesto",
     "date": {
-      "hour": "01:30",
-      "day": "21/11/2024",
+      "hour": "01:00",
+      "day": "22/11/2024",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -164,12 +155,38 @@
     },
     "teams": {
       "local": {
-        "name": "Cleveland Cavaliers",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090553-cleveland-cavaliers.webp"
+        "name": "Charlotte Hornets",
+        "image": "https://static.futbolenlatv.com/img/32/20141024124231-charlotte-hornets.webp"
       },
       "visitor": {
-        "name": "New Orleans Pelicans",
-        "image": "https://static.futbolenlatv.com/img/32/20141024125153-new-orleans-pelicans.webp"
+        "name": "Detroit Pistons",
+        "image": "https://static.futbolenlatv.com/img/32/20191028090514-detroit-pistons.webp"
+      }
+    },
+    "channels": [
+      "NBA League Pass"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "01:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "NBA",
+      "round": "Liga Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "Toronto Raptors",
+        "image": "https://static.futbolenlatv.com/img/32/20201220190859-toronto-raptors.webp"
+      },
+      "visitor": {
+        "name": "Minnesota Timberwolves",
+        "image": "https://static.futbolenlatv.com/img/32/20201220190912-minnesota-timberwolves.webp"
       }
     },
     "channels": [
@@ -182,36 +199,10 @@
     ]
   },
   {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "01:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Milwaukee Bucks",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090415-milwaukee-bucks.webp"
-      },
-      "visitor": {
-        "name": "Chicago Bulls",
-        "image": "https://static.futbolenlatv.com/img/32/20130808083209-chicago-bulls.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {}
-  },
-  {
     "sport": "futbol",
     "date": {
       "hour": "01:30",
-      "day": "21/11/2024",
+      "day": "22/11/2024",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -219,12 +210,12 @@
     },
     "teams": {
       "local": {
-        "name": "Boca Juniors",
-        "image": "https://static.futbolenlatv.com/img/32/20121219051310_boca-juniors.webp"
+        "name": "Independiente Rivadavia",
+        "image": "https://static.futbolenlatv.com/img/32/20140815122429-independiente-rm.webp"
       },
       "visitor": {
-        "name": "Unión Santa Fe",
-        "image": "https://static.futbolenlatv.com/img/32/20160115093449-union-santa-fe.webp"
+        "name": "River Plate",
+        "image": "https://static.futbolenlatv.com/img/32/20121219051705_river-plate.webp"
       }
     },
     "channels": [
@@ -232,9 +223,9 @@
       "Fanatiz"
     ],
     "event": {
-      "name": "Boca Juniors - Unión Santa Fe",
-      "description": "Boca Juniors - Unión Santa Fe el jueves, 21 de noviembre de 2024 a las 1:30",
-      "startDate": "2024-11-21T00:30:00",
+      "name": "Independiente Rivadavia - River Plate",
+      "description": "Independiente Rivadavia - River Plate el viernes, 22 de noviembre de 2024 a las 1:30",
+      "startDate": "2024-11-22T00:30:00",
       "duration": "T1H45M"
     }
   },
@@ -242,7 +233,7 @@
     "sport": "baloncesto",
     "date": {
       "hour": "02:00",
-      "day": "21/11/2024",
+      "day": "22/11/2024",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -251,64 +242,12 @@
     },
     "teams": {
       "local": {
-        "name": "Houston Rockets",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090908-houston-rockets.webp"
+        "name": "San Antonio Spurs",
+        "image": "https://static.futbolenlatv.com/img/32/20191028090705-san-antonio-spurs.webp"
       },
       "visitor": {
-        "name": "Indiana Pacers",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090446-indiana-pacers.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "02:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Memphis Grizzlies",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090731-memphis-grizzlies.webp"
-      },
-      "visitor": {
-        "name": "Philadelphia 76ers",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090432-philadelphia-76ers.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "02:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Oklahoma C. Thunder",
-        "image": "https://static.futbolenlatv.com/img/32/20130808083758-oc-thunder.webp"
-      },
-      "visitor": {
-        "name": "Portland Trail Blazers",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090608-portland-trail-blazers.webp"
+        "name": "Utah Jazz",
+        "image": "https://static.futbolenlatv.com/img/32/20191028090654-utah-jazz.webp"
       }
     },
     "channels": [
@@ -320,7 +259,7 @@
     "sport": "golf",
     "date": {
       "hour": "02:00",
-      "day": "21/11/2024",
+      "day": "22/11/2024",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -343,494 +282,22 @@
   {
     "sport": "baloncesto",
     "date": {
-      "hour": "04:00",
-      "day": "21/11/2024",
+      "hour": "02:10",
+      "day": "22/11/2024",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Phoenix Suns",
-        "image": "https://static.futbolenlatv.com/img/32/20130808083815-phoenix-suns.webp"
-      },
-      "visitor": {
-        "name": "New York Knicks",
-        "image": "https://static.futbolenlatv.com/img/32/20130808083641-new-york-knicks.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "04:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Golden State Warriors",
-        "image": "https://static.futbolenlatv.com/img/32/20130808083832-gs-warriors.webp"
-      },
-      "visitor": {
-        "name": "Atlanta Hawks",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090539-atlanta-hawks.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "04:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Los Angeles Clippers",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090717-los-angeles-clippers.webp"
-      },
-      "visitor": {
-        "name": "Orlando Magic",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090502-orlando-magic.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "golf",
-    "date": {
-      "hour": "05:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Hong Kong Open"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "Movistar Golf 2"
-    ],
-    "event": {},
-    "links": [
-      "acestream://9a4f3ae6563668b7709dac509dedc709441b3fd9"
-    ]
-  },
-  {
-    "sport": "golf",
-    "date": {
-      "hour": "07:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {},
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "Movistar Golf"
-    ],
-    "event": {},
-    "links": [
-      "acestream://4f945b0ba4206fa2676b61e9eaa465ac3dcc8122",
-      "acestream://872608e734992db636eb79426802cd08f4029afb",
-      "acestream://858b3cf2842ebe394999275e5ebb0435f1af2ae4"
-    ]
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "10:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Davis Cup Finals",
-      "round": "1/4 de Final"
-    },
-    "teams": {
-      "local": {
-        "name": "Estados Unidos",
-        "image": "https://static.futbolenlatv.com/img/32/20130226100540_eeuu.webp"
-      },
-      "visitor": {
-        "name": "Australia",
-        "image": "https://static.futbolenlatv.com/img/32/20130501101148_australia.webp"
-      }
-    },
-    "channels": [
-      "M+ Vamos",
-      "M+ #Vamos Bar",
-      "Movistar+ Lite",
-      "M+ Deportes 2"
-    ],
-    "event": {},
-    "links": [
-      "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
-    ]
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "11:05",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "FIBA AsiaCup"
-    },
-    "teams": {
-      "local": {
-        "name": "Japón",
-        "image": "https://static.futbolenlatv.com/img/32/20130208071559_japon.webp"
-      },
-      "visitor": {
-        "name": "Mongolia",
-        "image": "https://static.futbolenlatv.com/img/32/20210721141212-mongolia.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "11:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "FIBA AsiaCup"
-    },
-    "teams": {
-      "local": {
-        "name": "Corea del Sur",
-        "image": "https://static.futbolenlatv.com/img/32/20130507121229_coreadelsur.webp"
-      },
-      "visitor": {
-        "name": "Indonesia",
-        "image": "https://static.futbolenlatv.com/img/32/20130606114453-indonesia.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "12:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "FIBA AsiaCup"
-    },
-    "teams": {
-      "local": {
-        "name": "China Taipéi",
-        "image": "https://static.futbolenlatv.com/img/32/20140910093809-china-taipei.webp"
-      },
-      "visitor": {
-        "name": "Hong Kong",
-        "image": "https://static.futbolenlatv.com/img/32/20131008054226-hong-kong.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "12:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Davis Cup Finals",
-      "round": "1/4 de Final"
-    },
-    "teams": {
-      "local": {
-        "name": "Estados Unidos",
-        "image": "https://static.futbolenlatv.com/img/32/20130226100540_eeuu.webp"
-      },
-      "visitor": {
-        "name": "Australia",
-        "image": "https://static.futbolenlatv.com/img/32/20130501101148_australia.webp"
-      }
-    },
-    "channels": [
-      "M+ Vamos",
-      "M+ #Vamos Bar",
-      "Movistar+ Lite",
-      "M+ Deportes 2"
-    ],
-    "event": {},
-    "links": [
-      "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
-    ]
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "12:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "FIBA AsiaCup"
-    },
-    "teams": {
-      "local": {
-        "name": "China",
-        "image": "https://static.futbolenlatv.com/img/32/20130221121827_china.webp"
-      },
-      "visitor": {
-        "name": "Guam",
-        "image": "https://static.futbolenlatv.com/img/32/20240216122055-guam.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "12:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "FIBA AsiaCup"
-    },
-    "teams": {
-      "local": {
-        "name": "Filipinas",
-        "image": "https://static.futbolenlatv.com/img/32/20140205023135-filipinas.webp"
-      },
-      "visitor": {
-        "name": "Nueva Zelanda",
-        "image": "https://static.futbolenlatv.com/img/32/20130523095300_nueva-zelanda.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "13:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "FIBA AsiaCup"
-    },
-    "teams": {
-      "local": {
-        "name": "Tailandia",
-        "image": "https://static.futbolenlatv.com/img/32/20130607094650-tailandia.webp"
-      },
-      "visitor": {
-        "name": "Australia",
-        "image": "https://static.futbolenlatv.com/img/32/20130501101148_australia.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "14:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Davis Cup Finals",
-      "round": "1/4 de Final"
-    },
-    "teams": {
-      "local": {
-        "name": "Estados Unidos",
-        "image": "https://static.futbolenlatv.com/img/32/20130226100540_eeuu.webp"
-      },
-      "visitor": {
-        "name": "Australia",
-        "image": "https://static.futbolenlatv.com/img/32/20130501101148_australia.webp"
-      }
-    },
-    "channels": [
-      "M+ Vamos",
-      "M+ #Vamos Bar",
-      "Movistar+ Lite",
-      "M+ Deportes 2"
-    ],
-    "event": {},
-    "links": [
-      "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
-    ]
-  },
-  {
-    "sport": "padel",
-    "date": {
-      "hour": "15:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "New York Open"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "DAZN",
-      "GolStadium Premium",
-      "Eurovision Sports TV",
-      "GolStadium"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "17:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurocup Women"
-    },
-    "teams": {
-      "local": {
-        "name": "BC Yerevan Foxes",
-        "image": "https://static.futbolenlatv.com/img/32/20240916182753-bc-yerevan-foxes.webp"
-      },
-      "visitor": {
-        "name": "Peac Pecs",
-        "image": "https://static.futbolenlatv.com/img/32/20191027084110-peac-pecs.webp"
-      }
-    },
-    "channels": [
-      "FIBA YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "17:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurocup Women"
-    },
-    "teams": {
-      "local": {
-        "name": "Bodrum Basketbol",
-        "image": "https://static.futbolenlatv.com/img/32/20241022175436-bodrum-basketbol.webp"
-      },
-      "visitor": {
-        "name": "Pieštanské Cajky",
-        "image": "https://static.futbolenlatv.com/img/32/20230831111112-piestanske-cajky.webp"
-      }
-    },
-    "channels": [
-      "FIBA YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "17:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Davis Cup Finals",
-      "round": "1/4 de Final"
-    },
-    "teams": {
-      "local": {
-        "name": "Italia",
-        "image": "https://static.futbolenlatv.com/img/32/20130111045624_italia.webp"
-      },
-      "visitor": {
-        "name": "Argentina",
-        "image": "https://static.futbolenlatv.com/img/32/20130204101418_argentina.webp"
-      }
-    },
-    "channels": [
-      "M+ Vamos",
-      "M+ #Vamos Bar",
-      "Movistar+ Lite",
-      "M+ Deportes 2"
-    ],
-    "event": {},
-    "links": [
-      "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
-    ]
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "18:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurobasket",
+      "competition": "FIBA AmeriCup",
       "round": "Fase de Clasificación"
     },
     "teams": {
       "local": {
-        "name": "Finlandia",
-        "image": "https://static.futbolenlatv.com/img/32/20130124053613_finlandia.webp"
+        "name": "Canadá",
+        "image": "https://static.futbolenlatv.com/img/32/20130625051127-Canada.webp"
       },
       "visitor": {
-        "name": "Georgia",
-        "image": "https://static.futbolenlatv.com/img/32/20130318120408_georgia.webp"
+        "name": "República Dominicana",
+        "image": "https://static.futbolenlatv.com/img/32/20131031024327-republica-dominicana.webp"
       }
     },
     "channels": [
@@ -841,1190 +308,22 @@
   {
     "sport": "baloncesto",
     "date": {
-      "hour": "18:00",
-      "day": "21/11/2024",
+      "hour": "02:10",
+      "day": "22/11/2024",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Eurobasket",
+      "competition": "FIBA AmeriCup",
       "round": "Fase de Clasificación"
     },
     "teams": {
       "local": {
-        "name": "Dinamarca",
-        "image": "https://static.futbolenlatv.com/img/32/20130207060752_dinamarca.webp"
+        "name": "Nicaragua",
+        "image": "https://static.futbolenlatv.com/img/32/20140903103529-nicaragua.webp"
       },
       "visitor": {
-        "name": "Serbia",
-        "image": "https://static.futbolenlatv.com/img/32/20130318120848_serbia.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "18:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurobasket",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "name": "Croacia",
-        "image": "https://static.futbolenlatv.com/img/32/20130317094139_croacia.webp"
-      },
-      "visitor": {
-        "name": "Bosnia",
-        "image": "https://static.futbolenlatv.com/img/32/20130204101318_bosnia.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "18:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurobasket",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "name": "República Checa",
-        "image": "https://static.futbolenlatv.com/img/32/20130410124454_republica-checa.webp"
-      },
-      "visitor": {
-        "name": "Holanda",
-        "image": "https://static.futbolenlatv.com/img/32/20130130075711_holanda.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "18:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurobasket",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "name": "Macedonia Norte",
-        "image": "https://static.futbolenlatv.com/img/32/20130528081503-Macedonia.webp"
-      },
-      "visitor": {
-        "name": "Lituania",
-        "image": "https://static.futbolenlatv.com/img/32/20130528084732-Lituania.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "18:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurobasket",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "name": "Polonia",
-        "image": "https://static.futbolenlatv.com/img/32/20130528084142-Polonia.webp"
-      },
-      "visitor": {
-        "name": "Estonia",
-        "image": "https://static.futbolenlatv.com/img/32/20130531113736-Estonia.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "18:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurobasket",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "name": "Chipre",
-        "image": "https://static.futbolenlatv.com/img/32/20130529043416-Chipre.webp"
-      },
-      "visitor": {
-        "name": "Francia",
-        "image": "https://static.futbolenlatv.com/img/32/20130124053558_francia.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "18:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurobasket",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "name": "Gran Bretaña",
-        "image": "https://static.futbolenlatv.com/img/32/20130625051918-reino-unido.webp"
-      },
-      "visitor": {
-        "name": "Grecia",
-        "image": "https://static.futbolenlatv.com/img/32/20140624094707-grecia.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "18:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "FIBA Copa Mundial",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "name": "República Irlanda",
-        "image": "https://static.futbolenlatv.com/img/32/20130521060225_republica-irlanda.webp"
-      },
-      "visitor": {
-        "name": "Azerbaiyán",
-        "image": "https://static.futbolenlatv.com/img/32/20130323115040_azerbaijan.webp"
-      }
-    },
-    "channels": [
-      "FIBA YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "18:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurocup Women"
-    },
-    "teams": {
-      "local": {
-        "name": "BC Neptunas",
-        "image": "https://static.futbolenlatv.com/img/32/20131006063854-bc-neptunas.webp"
-      },
-      "visitor": {
-        "name": "BCF Elfic Fribourg",
-        "image": "https://static.futbolenlatv.com/img/32/20241018094816-bcf-elfic-fribourg.webp"
-      }
-    },
-    "channels": [
-      "FIBA YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "18:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurocup Women"
-    },
-    "teams": {
-      "local": {
-        "name": "Zaglebie Sosnowiec",
-        "image": "https://static.futbolenlatv.com/img/32/20230831111124-zaglebie-sosnowiec.webp"
-      },
-      "visitor": {
-        "name": "TTT Riga",
-        "image": "https://static.futbolenlatv.com/img/32/20201130101638-ttt-riga.webp"
-      }
-    },
-    "channels": [
-      "FIBA YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "18:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurocup Women"
-    },
-    "teams": {
-      "local": {
-        "name": "AEL Limassol BC",
-        "image": "https://static.futbolenlatv.com/img/32/20241022175427-ael-limassol-bc.webp"
-      },
-      "visitor": {
-        "name": "Gorzów Basketball",
-        "image": "https://static.futbolenlatv.com/img/32/20221220170820-gorzow-wielkopolski.webp"
-      }
-    },
-    "channels": [
-      "FIBA YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "padel",
-    "date": {
-      "hour": "18:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Salta Open"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis",
-      "LaLiga+",
-      "LaLiga+ Plus",
-      "DAZN 4",
-      "MAX"
-    ],
-    "event": {},
-    "links": [
-      "acestream://2fcdf7a19c0858f686efdfabd3c8c2b92bf6bcfd"
-    ]
-  },
-  {
-    "sport": "golf",
-    "date": {
-      "hour": "18:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "The RSM Classic"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "Movistar Golf"
-    ],
-    "event": {},
-    "links": [
-      "acestream://4f945b0ba4206fa2676b61e9eaa465ac3dcc8122",
-      "acestream://872608e734992db636eb79426802cd08f4029afb",
-      "acestream://858b3cf2842ebe394999275e5ebb0435f1af2ae4"
-    ]
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "18:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Euroliga",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Anadolu Efes Istanbul",
-        "image": "https://static.futbolenlatv.com/img/32/20191001065117-anadolu-efes-istanbul.webp"
-      },
-      "visitor": {
-        "name": "Paris Basketball",
-        "image": "https://static.futbolenlatv.com/img/32/20220711185727-paris-basketball.webp"
-      }
-    },
-    "channels": [
-      "M+ Deportes 5"
-    ],
-    "event": {},
-    "links": [
-      "acestream://b1e5abc48195b7ca9b2ee1b352e790eb9f7292e3"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:45",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Champions League Femenina",
-      "round": "Fase de grupos"
-    },
-    "teams": {
-      "local": {
-        "name": "Vålerenga Kvinner",
-        "image": "https://static.futbolenlatv.com/img/32/20130426104133_valerenga.webp"
-      },
-      "visitor": {
-        "name": "FC Bayern Femenino",
-        "image": "https://static.futbolenlatv.com/img/32/20140731073126-bayern-munich.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis"
-    ],
-    "event": {
-      "name": "Vålerenga Kvinner - FC Bayern Femenino",
-      "description": "Vålerenga Kvinner - FC Bayern Femenino el jueves, 21 de noviembre de 2024 a las 18:45",
-      "startDate": "2024-11-21T17:45:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:45",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Champions League Femenina",
-      "round": "Fase de grupos"
-    },
-    "teams": {
-      "local": {
-        "name": "Hammarby Kvinnor",
-        "image": "https://static.futbolenlatv.com/img/32/20130716101621-hammarby.webp"
-      },
-      "visitor": {
-        "name": "Man City Femenino",
-        "image": "https://static.futbolenlatv.com/img/32/20210112220051-manchester-city-academy.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis",
-      "DAZN 1",
-      "DAZN 1 Bar",
-      "M+ Ellas Vamos",
-      "Movistar+ Lite"
-    ],
-    "event": {
-      "name": "Hammarby Kvinnor - Man City Femenino",
-      "description": "Hammarby Kvinnor - Man City Femenino el jueves, 21 de noviembre de 2024 a las 18:45",
-      "startDate": "2024-11-21T17:45:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://8ca07071b39185431f8e940ec98d1add9e561639",
-      "acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f"
-    ]
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "18:45",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "EHF Champions League",
-      "round": "Fase de grupos"
-    },
-    "teams": {
-      "local": {
-        "name": "Telekom Veszprem",
-        "image": "https://static.futbolenlatv.com/img/32/20130717104116-veszprem-kc.webp"
-      },
-      "visitor": {
-        "name": "Wisla Plock HB",
-        "image": "https://static.futbolenlatv.com/img/32/20130901053402-wisla-plock.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "18:45",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "EHF Champions League",
-      "round": "Fase de grupos"
-    },
-    "teams": {
-      "local": {
-        "name": "Füchse Berlin",
-        "image": "https://static.futbolenlatv.com/img/32/20210509110008-fuchse-berlin.webp"
-      },
-      "visitor": {
-        "name": "CS Dinamo București",
-        "image": "https://static.futbolenlatv.com/img/32/20210905103033-cs-dinamo-bucuresti.webp"
-      }
-    },
-    "channels": [
-      "EHF TV"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "19:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "FIBA Copa Mundial",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "name": "Noruega",
-        "image": "https://static.futbolenlatv.com/img/32/20171217021744-noruega.webp"
-      },
-      "visitor": {
-        "name": "Rumanía",
-        "image": "https://static.futbolenlatv.com/img/32/20130304045215_rumania.webp"
-      }
-    },
-    "channels": [
-      "FIBA YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "19:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Euroliga",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "AS Monaco Basket",
-        "image": "https://static.futbolenlatv.com/img/32/20191001090801-as-monaco-basket.webp"
-      },
-      "visitor": {
-        "name": "ASVEL Lyon-Villeurbanne",
-        "image": "https://static.futbolenlatv.com/img/32/20191001070955-asvel-lyon-villeurbanne.webp"
-      }
-    },
-    "channels": [
-      "M+ Deportes 6"
-    ],
-    "event": {},
-    "links": [
-      "acestream://8587ed8ac36ac477e1d4176d3159a38bd154d4ce"
-    ]
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "19:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Davis Cup Finals",
-      "round": "1/4 de Final"
-    },
-    "teams": {
-      "local": {
-        "name": "Italia",
-        "image": "https://static.futbolenlatv.com/img/32/20130111045624_italia.webp"
-      },
-      "visitor": {
-        "name": "Argentina",
-        "image": "https://static.futbolenlatv.com/img/32/20130204101418_argentina.webp"
-      }
-    },
-    "channels": [
-      "M+ Vamos",
-      "M+ #Vamos Bar",
-      "Movistar+ Lite",
-      "M+ Deportes 2"
-    ],
-    "event": {},
-    "links": [
-      "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
-    ]
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "19:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "FIBA Copa Mundial",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "name": "Suiza",
-        "image": "https://static.futbolenlatv.com/img/32/20130410124433_suiza.webp"
-      },
-      "visitor": {
-        "name": "Kosovo",
-        "image": "https://static.futbolenlatv.com/img/32/20160819080945-kosovo.webp"
-      }
-    },
-    "channels": [
-      "FIBA YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "19:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "FIBA Copa Mundial",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "name": "Albania",
-        "image": "https://static.futbolenlatv.com/img/32/20130529043729-Albania.webp"
-      },
-      "visitor": {
-        "name": "Austria",
-        "image": "https://static.futbolenlatv.com/img/32/20130410124536_austria.webp"
-      }
-    },
-    "channels": [
-      "FIBA YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "19:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurocup Women"
-    },
-    "teams": {
-      "local": {
-        "name": "Rutronik Stars Keltern",
-        "image": "https://static.futbolenlatv.com/img/32/20221018180955-rutronik-stars-keltern.webp"
-      },
-      "visitor": {
-        "name": "BC Constanta",
-        "image": "https://static.futbolenlatv.com/img/32/20231017094922-csm-constanta.webp"
-      }
-    },
-    "channels": [
-      "FIBA YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "20:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Euroliga",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Crvena Zvezda MTS Belgrade",
-        "image": "https://static.futbolenlatv.com/img/32/20130716013658-kk-estrella-roja.webp"
-      },
-      "visitor": {
-        "name": "BC Partizan Beograd",
-        "image": "https://static.futbolenlatv.com/img/32/20180818103738-bc-partizan-beograd.webp"
-      }
-    },
-    "channels": [
-      "M+ Deportes 4"
-    ],
-    "event": {},
-    "links": [
-      "acestream://42e83c337ece0af9ca7808859f84c7960e9cb6f5"
-    ]
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "20:15",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Euroliga",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Olympiacos Piraeus",
-        "image": "https://static.futbolenlatv.com/img/32/20130716014130-olympiacos-bc.webp"
-      },
-      "visitor": {
-        "name": "Baskonia",
-        "image": "https://static.futbolenlatv.com/img/32/20160907115208-baskonia.webp"
-      }
-    },
-    "channels": [
-      "M+ Deportes 3"
-    ],
-    "event": {},
-    "links": [
-      "acestream://aee0a595220e0f1c2fee725fd1dbc602d7152a9a"
-    ]
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "20:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurocup Women"
-    },
-    "teams": {
-      "local": {
-        "name": "Proteas Voulas",
-        "image": "https://static.futbolenlatv.com/img/32/20240916182814-proteas-voulas.webp"
-      },
-      "visitor": {
-        "name": "Crvena Zvezda MTS Belgrade",
-        "image": "https://static.futbolenlatv.com/img/32/20130716013658-kk-estrella-roja.webp"
-      }
-    },
-    "channels": [
-      "FIBA YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "20:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurocup Women"
-    },
-    "teams": {
-      "local": {
-        "name": "GEAS Basket",
-        "image": "https://static.futbolenlatv.com/img/32/20241018094805-geas-basket.webp"
-      },
-      "visitor": {
-        "name": "Basket Namur Capitale",
-        "image": "https://static.futbolenlatv.com/img/32/20191030104058-basket-namur-capitale.webp"
-      }
-    },
-    "channels": [
-      "FIBA YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "20:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Euroliga",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "AX Olimpia Milano",
-        "image": "https://static.futbolenlatv.com/img/32/20180129060055-ax-olimpia-milano.webp"
-      },
-      "visitor": {
-        "name": "Maccabi Tel Aviv BC",
-        "image": "https://static.futbolenlatv.com/img/32/20130716013716-maccabi-tel-aviv-bc.webp"
-      }
-    },
-    "channels": [
-      "M+ Deportes 7"
-    ],
-    "event": {},
-    "links": [
-      "acestream://2448f1d084f440eed2fbe847e24f1c02f5659a78"
-    ]
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "20:45",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Euroliga",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Real Madrid Baloncesto",
-        "image": "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp"
-      },
-      "visitor": {
-        "name": "ALBA Berlin",
-        "image": "https://static.futbolenlatv.com/img/32/20191001065721-alba-berlin.webp"
-      }
-    },
-    "channels": [
-      "Movistar Plus+",
-      "M+ Deportes"
-    ],
-    "event": {},
-    "links": [
-      "acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0",
-      "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
-      "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa"
-    ]
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "20:45",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "EHF Champions League",
-      "round": "Fase de grupos"
-    },
-    "teams": {
-      "local": {
-        "name": "KS Vive Kielce",
-        "image": "https://static.futbolenlatv.com/img/32/20130614063902-KS-Vive-Targi-Kielce.webp"
-      },
-      "visitor": {
-        "name": "SC Pick Szeged",
-        "image": "https://static.futbolenlatv.com/img/32/20140911021441-sc-pick-szeged.webp"
-      }
-    },
-    "channels": [
-      "EHF TV"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "20:45",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "EHF Champions League",
-      "round": "Fase de grupos"
-    },
-    "teams": {
-      "local": {
-        "name": "Barça BM",
-        "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
-      },
-      "visitor": {
-        "name": "HBC Nantes",
-        "image": "https://static.futbolenlatv.com/img/32/20140131110632-hbc-nantes.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN 2",
-      "DAZN 2 Bar",
-      "MAX",
-      "Esport3"
-    ],
-    "event": {},
-    "links": [
-      "acestream://60dbeeb299ec04bf02bc7426d827547599d3d9fc",
-      "acestream://7aa402bab9fff43258fbcf401881a39475f30aaf"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "21:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Champions League Femenina",
-      "round": "Fase de grupos"
-    },
-    "teams": {
-      "local": {
-        "name": "Arsenal Femenino",
-        "image": "https://static.futbolenlatv.com/img/32/20151020084333-arsenal.webp"
-      },
-      "visitor": {
-        "name": "Juventus Femminile",
-        "image": "https://static.futbolenlatv.com/img/32/20170117094900-juventus.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis",
-      "DAZN 3",
-      "Movistar Plus+ 2"
-    ],
-    "event": {
-      "name": "Arsenal Femenino - Juventus Femminile",
-      "description": "Arsenal Femenino - Juventus Femminile el jueves, 21 de noviembre de 2024 a las 21:00",
-      "startDate": "2024-11-21T20:00:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://a8ffddef56f082d4bb5c0be0d3d2fdd8c16dbd97",
-      "acestream://8ba764f6a3bce6eae87ec71208fad1aa3a20528d"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "21:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Champions League Femenina",
-      "round": "Fase de grupos"
-    },
-    "teams": {
-      "local": {
-        "name": "St. Polten Femenino",
-        "image": "https://static.futbolenlatv.com/img/32/20210526210537-st-polten-women.webp"
-      },
-      "visitor": {
-        "name": "FC Barcelona Femenino",
-        "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis",
-      "DAZN 1",
-      "DAZN 1 Bar",
-      "M+ Ellas Vamos",
-      "Movistar+ Lite"
-    ],
-    "event": {
-      "name": "St. Polten Femenino - FC Barcelona Femenino",
-      "description": "St. Polten Femenino - FC Barcelona Femenino el jueves, 21 de noviembre de 2024 a las 21:00",
-      "startDate": "2024-11-21T20:00:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://8ca07071b39185431f8e940ec98d1add9e561639",
-      "acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "21:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Copa del Rey",
-      "round": "1ª Ronda"
-    },
-    "teams": {
-      "local": {
-        "name": "Jove Español",
-        "image": "https://static.futbolenlatv.com/img/32/20140930105004-jove-espanyol.webp"
-      },
-      "visitor": {
-        "name": "Real Sociedad",
-        "image": "https://static.futbolenlatv.com/img/32/20121218093019_real-sociedad.webp"
-      }
-    },
-    "channels": [
-      "M+ Copa del Rey",
-      "LaLiga TV Bar"
-    ],
-    "event": {
-      "name": "Jove Español - Real Sociedad",
-      "description": "Jove Español - Real Sociedad el jueves, 21 de noviembre de 2024 a las 21:00",
-      "startDate": "2024-11-21T20:00:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280",
-      "acestream://512aeadf50d91603d15b32f1e408166536ec4ac9"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "21:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera División Argentina"
-    },
-    "teams": {
-      "local": {
-        "name": "Barracas Central",
-        "image": "https://static.futbolenlatv.com/img/32/20141118022620-barracas.webp"
-      },
-      "visitor": {
-        "name": "Belgrano",
-        "image": "https://static.futbolenlatv.com/img/32/20121219050908__belgrano.webp"
-      }
-    },
-    "channels": [
-      "AFA Play",
-      "Fanatiz"
-    ],
-    "event": {
-      "name": "Barracas Central - Belgrano",
-      "description": "Barracas Central - Belgrano el jueves, 21 de noviembre de 2024 a las 21:00",
-      "startDate": "2024-11-21T20:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "21:00",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Davis Cup Finals",
-      "round": "1/4 de Final"
-    },
-    "teams": {
-      "local": {
-        "name": "Italia",
-        "image": "https://static.futbolenlatv.com/img/32/20130111045624_italia.webp"
-      },
-      "visitor": {
-        "name": "Argentina",
-        "image": "https://static.futbolenlatv.com/img/32/20130204101418_argentina.webp"
-      }
-    },
-    "channels": [
-      "M+ Vamos",
-      "M+ #Vamos Bar",
-      "Movistar+ Lite",
-      "M+ Deportes 2"
-    ],
-    "event": {},
-    "links": [
-      "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
-    ]
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "21:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurocup Women"
-    },
-    "teams": {
-      "local": {
-        "name": "Benfica CB",
-        "image": "https://static.futbolenlatv.com/img/32/20200921100800-benfica-feminino.webp"
-      },
-      "visitor": {
-        "name": "Besiktas JK Istanbul",
-        "image": "https://static.futbolenlatv.com/img/32/20130815104433-besiktas.webp"
-      }
-    },
-    "channels": [
-      "FIBA YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "22:30",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Eurocup Women"
-    },
-    "teams": {
-      "local": {
-        "name": "Uniao Sportiva Azoris",
-        "image": "https://static.futbolenlatv.com/img/32/20240927155058-uniao-sportiva.webp"
-      },
-      "visitor": {
-        "name": "Galatasaray Istanbul",
-        "image": "https://static.futbolenlatv.com/img/32/20151015094401-galatasaray.webp"
-      }
-    },
-    "channels": [
-      "FIBA YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "23:15",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera División Argentina"
-    },
-    "teams": {
-      "local": {
-        "name": "Independiente",
-        "image": "https://static.futbolenlatv.com/img/32/20121219051437_independiente.webp"
-      },
-      "visitor": {
-        "name": "Gimnasia LP",
-        "image": "https://static.futbolenlatv.com/img/32/20130729045030-gimnasia-lp.webp"
-      }
-    },
-    "channels": [
-      "AFA Play",
-      "Fanatiz"
-    ],
-    "event": {
-      "name": "Independiente - Gimnasia LP",
-      "description": "Independiente - Gimnasia LP el jueves, 21 de noviembre de 2024 a las 23:15",
-      "startDate": "2024-11-21T22:15:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "23:15",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera División Argentina"
-    },
-    "teams": {
-      "local": {
-        "name": "Talleres Córdoba",
-        "image": "https://static.futbolenlatv.com/img/32/20160714102309-talleres-cordoba.webp"
-      },
-      "visitor": {
-        "name": "Sarmiento",
-        "image": "https://static.futbolenlatv.com/img/32/20140814114704-sarmiento.webp"
-      }
-    },
-    "channels": [
-      "AFA Play",
-      "Fanatiz"
-    ],
-    "event": {
-      "name": "Talleres Córdoba - Sarmiento",
-      "description": "Talleres Córdoba - Sarmiento el jueves, 21 de noviembre de 2024 a las 23:15",
-      "startDate": "2024-11-21T22:15:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "23:40",
-      "day": "21/11/2024",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "FIBA AmeriCup"
-    },
-    "teams": {
-      "local": {
-        "name": "Paraguay",
-        "image": "https://static.futbolenlatv.com/img/32/20130319095210_paraguay.webp"
-      },
-      "visitor": {
-        "name": "Panamá",
-        "image": "https://static.futbolenlatv.com/img/32/20190512093725-panama2.webp"
+        "name": "México",
+        "image": "https://static.futbolenlatv.com/img/32/20130208071540_mexico.webp"
       }
     },
     "channels": [
@@ -2063,6 +362,1482 @@
     ]
   },
   {
+    "sport": "automovilismo",
+    "date": {
+      "hour": "03:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Fórmula 1"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "DAZN",
+      "MAX",
+      "DAZN F1"
+    ],
+    "event": {},
+    "links": [
+      "acestream://5789ca155323664edd293b848606688edf803f4d",
+      "acestream://9dad717d99b29a05672166258a77c25b57713dd5",
+      "acestream://e1fcad9de0c782c157fde6377805c58297ab65c2"
+    ]
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "04:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga MX",
+      "round": "Play-In"
+    },
+    "teams": {
+      "local": {
+        "name": "Tijuana",
+        "image": "https://static.futbolenlatv.com/img/32/20130208052144_tijuana.webp"
+      },
+      "visitor": {
+        "name": "América",
+        "image": "https://static.futbolenlatv.com/img/32/20130208052205_america.webp"
+      }
+    },
+    "channels": [
+      "Caliente TV YouTube"
+    ],
+    "event": {
+      "name": "Tijuana - América",
+      "description": "Tijuana - América el viernes, 22 de noviembre de 2024 a las 4:00",
+      "startDate": "2024-11-22T03:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "04:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "NBA",
+      "round": "Liga Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "Los Angeles Lakers",
+        "image": "https://static.futbolenlatv.com/img/32/20130808083216-la-lakers.webp"
+      },
+      "visitor": {
+        "name": "Orlando Magic",
+        "image": "https://static.futbolenlatv.com/img/32/20191028090502-orlando-magic.webp"
+      }
+    },
+    "channels": [
+      "NBA League Pass"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "golf",
+    "date": {
+      "hour": "05:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Hong Kong Open"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "Movistar Golf 2"
+    ],
+    "event": {},
+    "links": [
+      "acestream://9a4f3ae6563668b7709dac509dedc709441b3fd9"
+    ]
+  },
+  {
+    "sport": "automovilismo",
+    "date": {
+      "hour": "07:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {},
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "DAZN",
+      "MAX",
+      "DAZN F1"
+    ],
+    "event": {},
+    "links": [
+      "acestream://5789ca155323664edd293b848606688edf803f4d",
+      "acestream://9dad717d99b29a05672166258a77c25b57713dd5",
+      "acestream://e1fcad9de0c782c157fde6377805c58297ab65c2"
+    ]
+  },
+  {
+    "sport": "golf",
+    "date": {
+      "hour": "07:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {},
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "Movistar Golf"
+    ],
+    "event": {},
+    "links": [
+      "acestream://4f945b0ba4206fa2676b61e9eaa465ac3dcc8122",
+      "acestream://872608e734992db636eb79426802cd08f4029afb",
+      "acestream://858b3cf2842ebe394999275e5ebb0435f1af2ae4"
+    ]
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "07:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "A-League"
+    },
+    "teams": {
+      "local": {
+        "name": "Perth Glory",
+        "image": "https://static.futbolenlatv.com/img/32/20140705101816-perth-glory.webp"
+      },
+      "visitor": {
+        "name": "Western United",
+        "image": "https://static.futbolenlatv.com/img/32/20191026122524-western-united.webp"
+      }
+    },
+    "channels": [
+      "A-Leagues YouTube"
+    ],
+    "event": {
+      "name": "Perth Glory - Western United",
+      "description": "Perth Glory - Western United el viernes, 22 de noviembre de 2024 a las 7:30",
+      "startDate": "2024-11-22T06:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "07:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "A-League Women"
+    },
+    "teams": {
+      "local": {
+        "name": "Adelaide Utd. Women",
+        "image": "https://static.futbolenlatv.com/img/32/20140706051737-adelaide-utd.webp"
+      },
+      "visitor": {
+        "name": "Wellington Phoenix Women",
+        "image": "https://static.futbolenlatv.com/img/32/20220906193754-wellington-phoenix.webp"
+      }
+    },
+    "channels": [
+      "A-Leagues YouTube"
+    ],
+    "event": {
+      "name": "Adelaide Utd. Women - Wellington Phoenix Women",
+      "description": "Adelaide Utd. Women - Wellington Phoenix Women el viernes, 22 de noviembre de 2024 a las 7:30",
+      "startDate": "2024-11-22T06:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "10:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "A-League"
+    },
+    "teams": {
+      "local": {
+        "name": "Newcastle Jets",
+        "image": "https://static.futbolenlatv.com/img/32/20151222015422-newcastle-jets.webp"
+      },
+      "visitor": {
+        "name": "Central Coast Mariners",
+        "image": "https://static.futbolenlatv.com/img/32/20140410105101-central-coast-mariners.webp"
+      }
+    },
+    "channels": [
+      "A-Leagues YouTube",
+      "LaLiga+",
+      "LaLiga+ Plus"
+    ],
+    "event": {
+      "name": "Newcastle Jets - Central Coast Mariners",
+      "description": "Newcastle Jets - Central Coast Mariners el viernes, 22 de noviembre de 2024 a las 10:00",
+      "startDate": "2024-11-22T09:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "10:15",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "A-League Women"
+    },
+    "teams": {
+      "local": {
+        "name": "Western Sydney Women",
+        "image": "https://static.futbolenlatv.com/img/32/20140326100732-western-sydney.webp"
+      },
+      "visitor": {
+        "name": "Brisbane Roar Women",
+        "image": "https://static.futbolenlatv.com/img/32/20150224110651-brisbane-roar.webp"
+      }
+    },
+    "channels": [
+      "A-Leagues YouTube"
+    ],
+    "event": {
+      "name": "Western Sydney Women - Brisbane Roar Women",
+      "description": "Western Sydney Women - Brisbane Roar Women el viernes, 22 de noviembre de 2024 a las 10:15",
+      "startDate": "2024-11-22T09:15:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "11:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Torneo de Alicante",
+      "round": "1/4 de Final"
+    },
+    "teams": {
+      "local": {
+        "name": "F. Fognini",
+        "image": "https://static.futbolenlatv.com/img/32/20130727123437-Italia.webp"
+      },
+      "visitor": {
+        "name": "D. Yevseyev",
+        "image": "https://static.futbolenlatv.com/img/32/20130318120627_kazajistan.webp"
+      }
+    },
+    "channels": [
+      "MAX",
+      "DAZN",
+      "Marca YouTube",
+      "Eurosport 2"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "12:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "UEFA Nations League"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "UEFA TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "12:45",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "EHF Europeo Femenino Sub-17",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Eslovaquia",
+        "image": "https://static.futbolenlatv.com/img/32/20130410124517_eslovaquia.webp"
+      },
+      "visitor": {
+        "name": "Italia",
+        "image": "https://static.futbolenlatv.com/img/32/20130111045624_italia.webp"
+      }
+    },
+    "channels": [
+      "EHF TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "13:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "FIBA AfroBasket",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Sudán del Sur",
+        "image": "https://static.futbolenlatv.com/img/32/20190322104937-sudan-del-sur.webp"
+      },
+      "visitor": {
+        "name": "Marruecos",
+        "image": "https://static.futbolenlatv.com/img/32/20130103114910_marruecos.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "13:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Torneo de Alicante",
+      "round": "1/4 de Final"
+    },
+    "teams": {
+      "local": {
+        "name": "P. Martin Tiffon",
+        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+      },
+      "visitor": {
+        "name": "A. Shelbayh",
+        "image": "https://static.futbolenlatv.com/img/32/20130304045112_jordania.webp"
+      }
+    },
+    "channels": [
+      "MAX",
+      "DAZN",
+      "Marca YouTube",
+      "Eurosport 2"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "13:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "FIBA AsiaCup",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "India",
+        "image": "https://static.futbolenlatv.com/img/32/20130805105405-India.webp"
+      },
+      "visitor": {
+        "name": "Catar",
+        "image": "https://static.futbolenlatv.com/img/32/20130513104334_qatar.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "14:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "FIBA AsiaCup",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Irán",
+        "image": "https://static.futbolenlatv.com/img/32/20130528074944-Iran.webp"
+      },
+      "visitor": {
+        "name": "Kazajistán",
+        "image": "https://static.futbolenlatv.com/img/32/20130318120627_kazajistan.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "15:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "EHF Europeo Femenino Sub-17",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Turquía",
+        "image": "https://static.futbolenlatv.com/img/32/20130513110846_turquia.webp"
+      },
+      "visitor": {
+        "name": "Ucrania",
+        "image": "https://static.futbolenlatv.com/img/32/20130304045244_ucrania.webp"
+      }
+    },
+    "channels": [
+      "EHF TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "15:35",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Saudi Women’s Premier League"
+    },
+    "teams": {
+      "local": {
+        "name": "Al Taraji Club",
+        "image": "https://static.futbolenlatv.com/img/32/20231004163101-al-taraji-club.webp"
+      },
+      "visitor": {
+        "name": "Al-Amal SC",
+        "image": "https://static.futbolenlatv.com/img/32/20241111195100-al-amal-sc.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {
+      "name": "Al Taraji Club - Al-Amal SC",
+      "description": "Al Taraji Club - Al-Amal SC el viernes, 22 de noviembre de 2024 a las 15:35",
+      "startDate": "2024-11-22T14:35:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "16:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "FIBA AfroBasket",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "R.D. Congo",
+        "image": "https://static.futbolenlatv.com/img/32/20130103115032_rep.-democrática-congo.webp"
+      },
+      "visitor": {
+        "name": "Mali",
+        "image": "https://static.futbolenlatv.com/img/32/20130103114840_mali.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "16:15",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "EHF Europeo Femenino Sub-17",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Lituania",
+        "image": "https://static.futbolenlatv.com/img/32/20130528084732-Lituania.webp"
+      },
+      "visitor": {
+        "name": "Israel",
+        "image": "https://static.futbolenlatv.com/img/32/20130311111216_israel.webp"
+      }
+    },
+    "channels": [
+      "EHF TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "16:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "FIBA AsiaCup",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "EAU",
+        "image": "https://static.futbolenlatv.com/img/32/20130723025224-emirato-arabes-unido.webp"
+      },
+      "visitor": {
+        "name": "Líbano",
+        "image": "https://static.futbolenlatv.com/img/32/20130530102039-Libano.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "17:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "FIBA AsiaCup",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Jordania",
+        "image": "https://static.futbolenlatv.com/img/32/20130304045112_jordania.webp"
+      },
+      "visitor": {
+        "name": "Irak",
+        "image": "https://static.futbolenlatv.com/img/32/20130513103718_irak.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "17:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "FIBA AsiaCup",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Baréin",
+        "image": "https://static.futbolenlatv.com/img/32/20131008054258-bahrein.webp"
+      },
+      "visitor": {
+        "name": "Siria",
+        "image": "https://static.futbolenlatv.com/img/32/20130807113238-siria.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "17:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Premier League Ucrania"
+    },
+    "teams": {
+      "local": {
+        "name": "Karpaty Lviv",
+        "image": "https://static.futbolenlatv.com/img/32/20131014104103-karpaty-lviv.webp"
+      },
+      "visitor": {
+        "name": "FC Kolos Kovalivka",
+        "image": "https://static.futbolenlatv.com/img/32/20220823143432-fc-kolos-kovalivka.webp"
+      }
+    },
+    "channels": [
+      "OneFootball PPV",
+      "LaLiga+ Plus",
+      "LaLiga+"
+    ],
+    "event": {
+      "name": "Karpaty Lviv - FC Kolos Kovalivka",
+      "description": "Karpaty Lviv - FC Kolos Kovalivka el viernes, 22 de noviembre de 2024 a las 17:00",
+      "startDate": "2024-11-22T16:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "17:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Davis Cup Finals",
+      "round": "Semifinal 1"
+    },
+    "teams": {
+      "local": {
+        "name": "Holanda",
+        "image": "https://static.futbolenlatv.com/img/32/20130130075711_holanda.webp"
+      },
+      "visitor": {
+        "name": "Alemania",
+        "image": "https://static.futbolenlatv.com/img/32/20130130075653_alemania.webp"
+      }
+    },
+    "channels": [
+      "Movistar Plus+",
+      "M+ Deportes 2"
+    ],
+    "event": {},
+    "links": [
+      "acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0",
+      "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
+    ]
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "17:45",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "FIBA AsiaCup",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Palestina",
+        "image": "https://static.futbolenlatv.com/img/32/20140519093504-palestina.webp"
+      },
+      "visitor": {
+        "name": "Arabia Saudí",
+        "image": "https://static.futbolenlatv.com/img/32/20130730010609-arabia-saudi.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "18:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Eurobasket",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Suecia",
+        "image": "https://static.futbolenlatv.com/img/32/20130204101348_suecia.webp"
+      },
+      "visitor": {
+        "name": "Alemania",
+        "image": "https://static.futbolenlatv.com/img/32/20130130075653_alemania.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "18:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Eurobasket",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Portugal",
+        "image": "https://static.futbolenlatv.com/img/32/20130204101449_portugal.webp"
+      },
+      "visitor": {
+        "name": "Eslovenia",
+        "image": "https://static.futbolenlatv.com/img/32/20130204101247_eslovenia.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "18:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Eurobasket",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Islandia",
+        "image": "https://static.futbolenlatv.com/img/32/20171107062145-islandia.webp"
+      },
+      "visitor": {
+        "name": "Italia",
+        "image": "https://static.futbolenlatv.com/img/32/20130111045624_italia.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "18:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Eurobasket",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Montenegro",
+        "image": "https://static.futbolenlatv.com/img/32/20130323114930_montenegro.webp"
+      },
+      "visitor": {
+        "name": "Bulgaria",
+        "image": "https://static.futbolenlatv.com/img/32/20130528081800-Bulgaria.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "18:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Eurobasket",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Eslovaquia",
+        "image": "https://static.futbolenlatv.com/img/32/20130410124517_eslovaquia.webp"
+      },
+      "visitor": {
+        "name": "España",
+        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "Teledeporte",
+      "RTVE Play"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "18:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Eurobasket",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Turquía",
+        "image": "https://static.futbolenlatv.com/img/32/20130513110846_turquia.webp"
+      },
+      "visitor": {
+        "name": "Hungría",
+        "image": "https://static.futbolenlatv.com/img/32/20130530093548-Hungria.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "18:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Eurobasket",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Letonia",
+        "image": "https://static.futbolenlatv.com/img/32/20130524093608_letonia.webp"
+      },
+      "visitor": {
+        "name": "Bélgica",
+        "image": "https://static.futbolenlatv.com/img/32/20130121023530_belgica.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "18:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Eurocup Women",
+      "round": "Liga Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "Elitzur Ramla",
+        "image": "https://static.futbolenlatv.com/img/32/20241022175414-elitzur-ramla.webp"
+      },
+      "visitor": {
+        "name": "Kibirkstis Vilnius",
+        "image": "https://static.futbolenlatv.com/img/32/20241022175404-kibirkstis-vilnius.webp"
+      }
+    },
+    "channels": [
+      "FIBA YouTube"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "18:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Superliga de Eslovaquia"
+    },
+    "teams": {
+      "local": {
+        "name": "FK Košice",
+        "image": "https://static.futbolenlatv.com/img/32/20230722121428-fk-kosice.webp"
+      },
+      "visitor": {
+        "name": "Slovan Bratislava",
+        "image": "https://static.futbolenlatv.com/img/32/20140720101911-slovan-bratislava.webp"
+      }
+    },
+    "channels": [
+      "OneFootball"
+    ],
+    "event": {
+      "name": "FK Košice - Slovan Bratislava",
+      "description": "FK Košice - Slovan Bratislava el viernes, 22 de noviembre de 2024 a las 18:00",
+      "startDate": "2024-11-22T17:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "18:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Saudi Pro League"
+    },
+    "teams": {
+      "local": {
+        "name": "Al Nassr",
+        "image": "https://static.futbolenlatv.com/img/32/20240522170910-al-nassr.webp"
+      },
+      "visitor": {
+        "name": "Al Qadisiya",
+        "image": "https://static.futbolenlatv.com/img/32/20240129094116-al-qadisiya-fc.webp"
+      }
+    },
+    "channels": [
+      "Marca.com"
+    ],
+    "event": {
+      "name": "Al Nassr - Al Qadisiya",
+      "description": "Al Nassr - Al Qadisiya el viernes, 22 de noviembre de 2024 a las 18:00",
+      "startDate": "2024-11-22T17:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "18:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Saudi Women’s Premier League"
+    },
+    "teams": {
+      "local": {
+        "name": "Al-Ittihad Jeddah Club",
+        "image": "https://static.futbolenlatv.com/img/32/20220416144007-al-ittihad-club-jeddah.webp"
+      },
+      "visitor": {
+        "name": "Al Nassr",
+        "image": "https://static.futbolenlatv.com/img/32/20240522170910-al-nassr.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {
+      "name": "Al-Ittihad Jeddah Club - Al Nassr",
+      "description": "Al-Ittihad Jeddah Club - Al Nassr el viernes, 22 de noviembre de 2024 a las 18:00",
+      "startDate": "2024-11-22T17:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "padel",
+    "date": {
+      "hour": "18:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Salta Open"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis",
+      "LaLiga+",
+      "LaLiga+ Plus",
+      "DAZN 2",
+      "DAZN 2 Bar"
+    ],
+    "event": {},
+    "links": [
+      "acestream://60dbeeb299ec04bf02bc7426d827547599d3d9fc",
+      "acestream://7aa402bab9fff43258fbcf401881a39475f30aaf"
+    ]
+  },
+  {
+    "sport": "golf",
+    "date": {
+      "hour": "18:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "The RSM Classic"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "Movistar Golf"
+    ],
+    "event": {},
+    "links": [
+      "acestream://4f945b0ba4206fa2676b61e9eaa465ac3dcc8122",
+      "acestream://872608e734992db636eb79426802cd08f4029afb",
+      "acestream://858b3cf2842ebe394999275e5ebb0435f1af2ae4"
+    ]
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "18:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "2. Bundesliga"
+    },
+    "teams": {
+      "local": {
+        "name": "Preußen Münster",
+        "image": "https://static.futbolenlatv.com/img/32/20140812085729-preuben-munster.webp"
+      },
+      "visitor": {
+        "name": "FC Köln",
+        "image": "https://static.futbolenlatv.com/img/32/20130126051303_colonia.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Preußen Münster - FC Köln",
+      "description": "Preußen Münster - FC Köln el viernes, 22 de noviembre de 2024 a las 18:30",
+      "startDate": "2024-11-22T17:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "18:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Copa de Alemania Femenina",
+      "round": "1/8 de final"
+    },
+    "teams": {
+      "local": {
+        "name": "1. FC Union Berlin Frauen",
+        "image": "https://static.futbolenlatv.com/img/32/20130126035044_union_berlin.webp"
+      },
+      "visitor": {
+        "name": "Eintracht Frankfurt Femenino",
+        "image": "https://static.futbolenlatv.com/img/32/20200815180042-eintracht-frankfurt-women.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {
+      "name": "1. FC Union Berlin Frauen - Eintracht Frankfurt Femenino",
+      "description": "1. FC Union Berlin Frauen - Eintracht Frankfurt Femenino el viernes, 22 de noviembre de 2024 a las 18:30",
+      "startDate": "2024-11-22T17:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "18:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "EHF Europeo Femenino Sub-17",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Polonia",
+        "image": "https://static.futbolenlatv.com/img/32/20130528084142-Polonia.webp"
+      },
+      "visitor": {
+        "name": "Finlandia",
+        "image": "https://static.futbolenlatv.com/img/32/20130124053613_finlandia.webp"
+      }
+    },
+    "channels": [
+      "EHF TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "19:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "FIBA AfroBasket",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Senegal",
+        "image": "https://static.futbolenlatv.com/img/32/20130716094920-senegal.webp"
+      },
+      "visitor": {
+        "name": "Ruanda",
+        "image": "https://static.futbolenlatv.com/img/32/20130714111327-ruanda.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "19:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Euroliga",
+      "round": "Liga Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "Zalgiris Kaunas",
+        "image": "https://static.futbolenlatv.com/img/32/20240318163809-zalgiris-kaunas.webp"
+      },
+      "visitor": {
+        "name": "Panathinaikos BC",
+        "image": "https://static.futbolenlatv.com/img/32/20130716013710-panathinaikos-bc.webp"
+      }
+    },
+    "channels": [
+      "M+ Deportes 3"
+    ],
+    "event": {},
+    "links": [
+      "acestream://aee0a595220e0f1c2fee725fd1dbc602d7152a9a"
+    ]
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "19:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Regionalliga"
+    },
+    "teams": {
+      "local": {
+        "name": "Astoria Walldorf",
+        "image": "https://static.futbolenlatv.com/img/32/20160525014756-astoria-walldorf.webp"
+      },
+      "visitor": {
+        "name": "Hoffenheim II",
+        "image": "https://static.futbolenlatv.com/img/32/20180913095700-hoffenheim.webp"
+      }
+    },
+    "channels": [
+      "OneFootball PPV"
+    ],
+    "event": {
+      "name": "Astoria Walldorf - Hoffenheim II",
+      "description": "Astoria Walldorf - Hoffenheim II el viernes, 22 de noviembre de 2024 a las 19:00",
+      "startDate": "2024-11-22T18:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "19:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "3. Liga"
+    },
+    "teams": {
+      "local": {
+        "name": "Viktoria Köln",
+        "image": "https://static.futbolenlatv.com/img/32/20130911093537-viktoria-koln.webp"
+      },
+      "visitor": {
+        "name": "Energie Cottbus",
+        "image": "https://static.futbolenlatv.com/img/32/20130404045206_energie-cottbus.webp"
+      }
+    },
+    "channels": [
+      "OneFootball PPV"
+    ],
+    "event": {
+      "name": "Viktoria Köln - Energie Cottbus",
+      "description": "Viktoria Köln - Energie Cottbus el viernes, 22 de noviembre de 2024 a las 19:00",
+      "startDate": "2024-11-22T18:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "19:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Davis Cup Finals",
+      "round": "Semifinal 1"
+    },
+    "teams": {
+      "local": {
+        "name": "Holanda",
+        "image": "https://static.futbolenlatv.com/img/32/20130130075711_holanda.webp"
+      },
+      "visitor": {
+        "name": "Alemania",
+        "image": "https://static.futbolenlatv.com/img/32/20130130075653_alemania.webp"
+      }
+    },
+    "channels": [
+      "Movistar Plus+",
+      "M+ Deportes 2"
+    ],
+    "event": {},
+    "links": [
+      "acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0",
+      "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
+    ]
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "20:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Euroliga",
+      "round": "Liga Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "FC Bayern Basketball",
+        "image": "https://static.futbolenlatv.com/img/32/20150901052257-fc-bayern-basketball.webp"
+      },
+      "visitor": {
+        "name": "Barça Basket",
+        "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
+      }
+    },
+    "channels": [
+      "M+ Vamos",
+      "M+ #Vamos Bar",
+      "Movistar+ Lite",
+      "M+ Deportes"
+    ],
+    "event": {},
+    "links": [
+      "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
+      "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa"
+    ]
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "20:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LaLiga Hypermotion"
+    },
+    "teams": {
+      "local": {
+        "name": "Racing Ferrol",
+        "image": "https://static.futbolenlatv.com/img/32/20121219085055_racing-ferrol.webp"
+      },
+      "visitor": {
+        "name": "Levante",
+        "image": "https://static.futbolenlatv.com/img/32/20121218092930_levante.webp"
+      }
+    },
+    "channels": [
+      "LALIGA TV Hypermotion",
+      "Amazon Prime Video",
+      "DAZN",
+      "GolStadium Premium",
+      "LaLiga TV M2"
+    ],
+    "event": {
+      "name": "Racing Ferrol - Levante",
+      "description": "Racing Ferrol - Levante el viernes, 22 de noviembre de 2024 a las 20:30",
+      "startDate": "2024-11-22T19:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "20:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga Polaca"
+    },
+    "teams": {
+      "local": {
+        "name": "Jagiellonia Bialystok ",
+        "image": "https://static.futbolenlatv.com/img/32/20240923181110-jagiellonia-bialystok.webp"
+      },
+      "visitor": {
+        "name": "Slask Wroclaw",
+        "image": "https://static.futbolenlatv.com/img/32/20130809015802-slaskwroclaw.webp"
+      }
+    },
+    "channels": [
+      "OneFootball"
+    ],
+    "event": {
+      "name": "Jagiellonia Bialystok - Slask Wroclaw",
+      "description": "Jagiellonia Bialystok - Slask Wroclaw el viernes, 22 de noviembre de 2024 a las 20:30",
+      "startDate": "2024-11-22T19:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "20:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera Federación",
+      "round": "Grupo 1"
+    },
+    "teams": {
+      "local": {
+        "name": "Zamora",
+        "image": "https://static.futbolenlatv.com/img/32/20121219074334_zamora.webp"
+      },
+      "visitor": {
+        "name": "Lugo",
+        "image": "https://static.futbolenlatv.com/img/32/20121218094035_lugo.webp"
+      }
+    },
+    "channels": [
+      "FEF TV"
+    ],
+    "event": {
+      "name": "Zamora - Lugo",
+      "description": "Zamora - Lugo el viernes, 22 de noviembre de 2024 a las 20:30",
+      "startDate": "2024-11-22T19:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "20:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Bundesliga"
+    },
+    "teams": {
+      "local": {
+        "name": "FC Bayern",
+        "image": "https://static.futbolenlatv.com/img/32/20121218101641_bayern-munich.webp"
+      },
+      "visitor": {
+        "name": "Augsburg",
+        "image": "https://static.futbolenlatv.com/img/32/20121218101607_augsburgo.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {
+      "name": "FC Bayern - Augsburg",
+      "description": "FC Bayern - Augsburg el viernes, 22 de noviembre de 2024 a las 20:30",
+      "startDate": "2024-11-22T19:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
     "sport": "futbol-sala",
     "date": {
       "hour": "20:30",
@@ -2088,6 +1863,129 @@
     "event": {}
   },
   {
+    "sport": "balonmano",
+    "date": {
+      "hour": "20:30",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga ASOBAL"
+    },
+    "teams": {
+      "local": {
+        "name": "BM Benidorm",
+        "image": "https://static.futbolenlatv.com/img/32/20130903071448-club-balonmano-benidorm.webp"
+      },
+      "visitor": {
+        "name": "Bada Huesca",
+        "image": "https://static.futbolenlatv.com/img/32/20141003083333-bm-huesca.webp"
+      }
+    },
+    "channels": [
+      "LaLiga+ Plus",
+      "LaLiga+ TV",
+      "LALIGA+ YouTube"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "20:45",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Amistoso Femenino"
+    },
+    "teams": {
+      "local": {
+        "name": "Francia",
+        "image": "https://static.futbolenlatv.com/img/32/20130124053558_francia.webp"
+      },
+      "visitor": {
+        "name": "España",
+        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+      }
+    },
+    "channels": [
+      "Teledeporte",
+      "RTVE Play"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "21:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "D1 Féminine"
+    },
+    "teams": {
+      "local": {
+        "name": "FC Fleury Femenino",
+        "image": "https://static.futbolenlatv.com/img/32/20200203052859-fc-fleury-feminine.webp"
+      },
+      "visitor": {
+        "name": "Paris FC Femenino",
+        "image": "https://static.futbolenlatv.com/img/32/20200203052645-paris-fc.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {
+      "name": "FC Fleury Femenino - Paris FC Femenino",
+      "description": "FC Fleury Femenino - Paris FC Femenino el viernes, 22 de noviembre de 2024 a las 21:00",
+      "startDate": "2024-11-22T20:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "21:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "La Liga EA Sports"
+    },
+    "teams": {
+      "local": {
+        "name": "Getafe",
+        "image": "https://static.futbolenlatv.com/img/32/20190410094027-getafe.webp"
+      },
+      "visitor": {
+        "name": "Real Valladolid",
+        "image": "https://static.futbolenlatv.com/img/32/20240711222109-valladolid.webp"
+      }
+    },
+    "channels": [
+      "M+ LaLiga TV",
+      "LaLiga TV Bar"
+    ],
+    "event": {
+      "name": "Getafe - Real Valladolid",
+      "description": "Getafe - Real Valladolid el viernes, 22 de noviembre de 2024 a las 21:00",
+      "startDate": "2024-11-22T20:00:00",
+      "duration": "T1H45M"
+    },
+    "links": [
+      "acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280",
+      "acestream://512aeadf50d91603d15b32f1e408166536ec4ac9",
+      "acestream://1969c27658d4c8333ab2c0670802546121a774a5",
+      "acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280",
+      "acestream://7d8c87e057be98f00f22e23b23fbf08999e4b02f",
+      "acestream://f031f5728b32f6089dda28edebe990cf198108d8"
+    ]
+  },
+  {
     "sport": "futbol-sala",
     "date": {
       "hour": "21:00",
@@ -2109,6 +2007,146 @@
     },
     "channels": [
       "FEF TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "21:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Davis Cup Finals",
+      "round": "Semifinal 1"
+    },
+    "teams": {
+      "local": {
+        "name": "Holanda",
+        "image": "https://static.futbolenlatv.com/img/32/20130130075711_holanda.webp"
+      },
+      "visitor": {
+        "name": "Alemania",
+        "image": "https://static.futbolenlatv.com/img/32/20130130075653_alemania.webp"
+      }
+    },
+    "channels": [
+      "Movistar Plus+",
+      "M+ Deportes 2"
+    ],
+    "event": {},
+    "links": [
+      "acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0",
+      "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
+    ]
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "22:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "FIBA AfroBasket",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "Camerún",
+        "image": "https://static.futbolenlatv.com/img/32/20130528114257-Camerun.webp"
+      },
+      "visitor": {
+        "name": "Gabón",
+        "image": "https://static.futbolenlatv.com/img/32/20130403093849_gabon.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "padel",
+    "date": {
+      "hour": "22:00",
+      "day": "22/11/2024",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "New York Open"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "DAZN",
+      "GolStadium Premium",
+      "Eurovision Sports TV",
+      "Tennis Channel",
+      "GolStadium"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "motociclismo",
+    "date": {
+      "hour": "PD",
+      "day": "02/03/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Moto2"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "MotoGP Videopass",
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "motociclismo",
+    "date": {
+      "hour": "PD",
+      "day": "02/03/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Moto3"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "MotoGP Videopass",
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "motociclismo",
+    "date": {
+      "hour": "PD",
+      "day": "02/03/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "MotoGP"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "MotoGP Videopass",
+      "DAZN"
     ],
     "event": {}
   },
