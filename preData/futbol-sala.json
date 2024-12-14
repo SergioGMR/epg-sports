@@ -122,7 +122,8 @@
         }
       },
       "channels": [
-        "RFEF.es"
+        "RFEF.es",
+        "TV Melilla"
       ],
       "event": {}
     },
@@ -188,31 +189,6 @@
       },
       "teams": {
         "local": {
-          "name": "FSF O Castro",
-          "image": "https://static.futbolenlatv.com/img/32/20230824112301-fsf-o-castro-futsal.webp"
-        },
-        "visitor": {
-          "name": "Ourense FSF",
-          "image": "https://static.futbolenlatv.com/img/32/20200616224125-ourense-fsf.webp"
-        }
-      },
-      "channels": [
-        "RFEF.es"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "futbol-sala",
-      "date": {
-        "hour": "19:30",
-        "day": "14/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera Federación Femenina"
-      },
-      "teams": {
-        "local": {
           "name": "Alcorcón FS",
           "image": "https://static.futbolenlatv.com/img/32/20160707112332-alcorcon.webp"
         },
@@ -225,7 +201,32 @@
         "RFEF.es"
       ],
       "event": {}
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "19:00",
+        "day": "14/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Femenina"
+      },
+      "teams": {
+        "local": {
+          "name": "FSF O Castro",
+          "image": "https://static.futbolenlatv.com/img/32/20230824112301-fsf-o-castro-futsal.webp"
+        },
+        "visitor": {
+          "name": "Ourense FSF",
+          "image": "https://static.futbolenlatv.com/img/32/20200616224125-ourense-fsf.webp"
+        }
+      },
+      "channels": [
+        "RFEF.es"
+      ],
+      "event": {}
     }
   ],
-  "updated": "2024-12-13T00:12:34.258Z"
+  "updated": "2024-12-14T00:12:03.861Z"
 }
