@@ -3,6 +3,25 @@
     {
       "sport": "beisbol",
       "date": {
+        "hour": "05:00",
+        "day": "18/11/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WBSC Premier 12"
+      },
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "beisbol",
+      "date": {
         "hour": "11:00",
         "day": "18/11/2024",
         "zone": "Europe/Madrid"
@@ -39,48 +58,10 @@
       "event": {}
     },
     {
-      "sport": "rugby",
-      "date": {
-        "hour": "12:00",
-        "day": "15/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Iberdrola Femenina"
-      },
-      "teams": {
-        "local": {},
-        "visitor": {}
-      },
-      "channels": [
-        "TVG2"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "rugby",
-      "date": {
-        "hour": "16:15",
-        "day": "15/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Champions Cup"
-      },
-      "teams": {
-        "local": {},
-        "visitor": {}
-      },
-      "channels": [
-        "M+ Deportes 4"
-      ],
-      "event": {}
-    },
-    {
       "sport": "baloncesto",
       "date": {
-        "hour": "00:00",
-        "day": "16/12/2024",
+        "hour": "01:00",
+        "day": "17/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -89,42 +70,16 @@
       },
       "teams": {
         "local": {
-          "name": "Orlando Magic",
-          "image": "https://static.futbolenlatv.com/img/32/20191028090502-orlando-magic.webp"
+          "name": "Detroit Pistons",
+          "image": "https://static.futbolenlatv.com/img/32/20191028090514-detroit-pistons.webp"
         },
         "visitor": {
-          "name": "New York Knicks",
-          "image": "https://static.futbolenlatv.com/img/32/20130808083641-new-york-knicks.webp"
+          "name": "Miami Heat",
+          "image": "https://static.futbolenlatv.com/img/32/20130614063349-Miami-Heat.webp"
         }
       },
       "channels": [
-        "NBA League Pass"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "00:00",
-        "day": "16/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Washington Wizards",
-          "image": "https://static.futbolenlatv.com/img/32/20191028090528-washington-wizards.webp"
-        },
-        "visitor": {
-          "name": "Boston Celtics",
-          "image": "https://static.futbolenlatv.com/img/32/20130808083552-boston-celtics.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
+        "M+ Deportes"
       ],
       "event": {}
     },
@@ -132,7 +87,7 @@
       "sport": "baloncesto",
       "date": {
         "hour": "01:00",
-        "day": "16/12/2024",
+        "day": "17/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -141,12 +96,100 @@
       },
       "teams": {
         "local": {
-          "name": "San Antonio Spurs",
-          "image": "https://static.futbolenlatv.com/img/32/20191028090705-san-antonio-spurs.webp"
+          "name": "Charlotte Hornets",
+          "image": "https://static.futbolenlatv.com/img/32/20141024124231-charlotte-hornets.webp"
         },
         "visitor": {
-          "name": "Minnesota Timberwolves",
-          "image": "https://static.futbolenlatv.com/img/32/20201220190912-minnesota-timberwolves.webp"
+          "name": "Philadelphia 76ers",
+          "image": "https://static.futbolenlatv.com/img/32/20191028090432-philadelphia-76ers.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:00",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera División Argentina"
+      },
+      "teams": {
+        "local": {
+          "name": "Atlético Tucumán",
+          "image": "https://static.futbolenlatv.com/img/32/20140815121718-atletico-tucuman.webp"
+        },
+        "visitor": {
+          "name": "Central Córdoba",
+          "image": "https://static.futbolenlatv.com/img/32/20140822080941-central-cordoba.webp"
+        }
+      },
+      "channels": [
+        "AFA Play",
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Atlético Tucumán - Central Córdoba",
+        "description": "Atlético Tucumán - Central Córdoba el martes, 17 de diciembre de 2024 a las 1:00",
+        "startDate": "2024-12-17T00:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:00",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera División Argentina"
+      },
+      "teams": {
+        "local": {
+          "name": "Independiente Rivadavia",
+          "image": "https://static.futbolenlatv.com/img/32/20140815122429-independiente-rm.webp"
+        },
+        "visitor": {
+          "name": "Deportivo Riestra",
+          "image": "https://static.futbolenlatv.com/img/32/20141205114007-deportivo-riestra.webp"
+        }
+      },
+      "channels": [
+        "AFA Play",
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Independiente Rivadavia - Deportivo Riestra",
+        "description": "Independiente Rivadavia - Deportivo Riestra el martes, 17 de diciembre de 2024 a las 1:00",
+        "startDate": "2024-12-17T00:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:30",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Brooklyn Nets",
+          "image": "https://static.futbolenlatv.com/img/32/20130808083530-brooklyn-nets.webp"
+        },
+        "visitor": {
+          "name": "Cleveland Cavaliers",
+          "image": "https://static.futbolenlatv.com/img/32/20191028090553-cleveland-cavaliers.webp"
         }
       },
       "channels": [
@@ -157,8 +200,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "02:00",
-        "day": "16/12/2024",
+        "hour": "01:30",
+        "day": "17/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -167,12 +210,12 @@
       },
       "teams": {
         "local": {
-          "name": "Phoenix Suns",
-          "image": "https://static.futbolenlatv.com/img/32/20130808083815-phoenix-suns.webp"
+          "name": "Toronto Raptors",
+          "image": "https://static.futbolenlatv.com/img/32/20201220190859-toronto-raptors.webp"
         },
         "visitor": {
-          "name": "Portland Trail Blazers",
-          "image": "https://static.futbolenlatv.com/img/32/20191028090608-portland-trail-blazers.webp"
+          "name": "Chicago Bulls",
+          "image": "https://static.futbolenlatv.com/img/32/20130808083209-chicago-bulls.webp"
         }
       },
       "channels": [
@@ -183,8 +226,8 @@
     {
       "sport": "futbol-americano",
       "date": {
-        "hour": "02:20",
-        "day": "16/12/2024",
+        "hour": "02:00",
+        "day": "17/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -193,26 +236,53 @@
       },
       "teams": {
         "local": {
-          "name": "Seattle Seahawks",
-          "image": "https://static.futbolenlatv.com/img/32/20130911094053-seattle-seahawks.webp"
+          "name": "Minnesota Vikings",
+          "image": "https://static.futbolenlatv.com/img/32/20130924045457-minnesota-vikings.webp"
         },
         "visitor": {
-          "name": "Green Bay Packers",
-          "image": "https://static.futbolenlatv.com/img/32/20130901061901-green-bay-packers.webp"
+          "name": "Chicago Bears",
+          "image": "https://static.futbolenlatv.com/img/32/20130918094424-chicago-bears.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol-americano",
+      "date": {
+        "hour": "02:30",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NFL",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Las Vegas Raiders",
+          "image": "https://static.futbolenlatv.com/img/32/20130918094419-oakland-raiders.webp"
+        },
+        "visitor": {
+          "name": "Atlanta Falcons",
+          "image": "https://static.futbolenlatv.com/img/32/20130901062022-atlanta-falcons.webp"
         }
       },
       "channels": [
         "DAZN",
-        "Movistar Plus+",
-        "M+ Deportes"
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite"
       ],
       "event": {}
     },
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "02:30",
-        "day": "16/12/2024",
+        "hour": "04:00",
+        "day": "17/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -221,12 +291,12 @@
       },
       "teams": {
         "local": {
-          "name": "Golden State Warriors",
-          "image": "https://static.futbolenlatv.com/img/32/20130808083832-gs-warriors.webp"
+          "name": "Sacramento Kings",
+          "image": "https://static.futbolenlatv.com/img/32/20201220190924-sacramento-kings.webp"
         },
         "visitor": {
-          "name": "Dallas Mavericks",
-          "image": "https://static.futbolenlatv.com/img/32/20130808083728-dallas-mavericks.webp"
+          "name": "Denver Nuggets",
+          "image": "https://static.futbolenlatv.com/img/32/20191028090619-denver-nuggets.webp"
         }
       },
       "channels": [
@@ -237,8 +307,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "03:30",
-        "day": "16/12/2024",
+        "hour": "04:30",
+        "day": "17/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -247,12 +317,12 @@
       },
       "teams": {
         "local": {
-          "name": "Los Angeles Lakers",
-          "image": "https://static.futbolenlatv.com/img/32/20130808083216-la-lakers.webp"
+          "name": "Los Angeles Clippers",
+          "image": "https://static.futbolenlatv.com/img/32/20191028090717-los-angeles-clippers.webp"
         },
         "visitor": {
-          "name": "Memphis Grizzlies",
-          "image": "https://static.futbolenlatv.com/img/32/20191028090731-memphis-grizzlies.webp"
+          "name": "Utah Jazz",
+          "image": "https://static.futbolenlatv.com/img/32/20191028090654-utah-jazz.webp"
         }
       },
       "channels": [
@@ -263,178 +333,405 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "12:00",
-        "day": "16/12/2024",
+        "hour": "15:00",
+        "day": "17/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Premier League Ucrania"
+        "competition": "Indian Super League"
       },
       "teams": {
         "local": {
-          "name": "Dynamo Kyiv",
-          "image": "https://static.futbolenlatv.com/img/32/20121221103707_dynamo-kiev.webp"
+          "name": "East Bengals",
+          "image": "https://static.futbolenlatv.com/img/32/20130911052525-east-bengals.webp"
         },
         "visitor": {
-          "name": "NK Veres Rivne",
-          "image": "https://static.futbolenlatv.com/img/32/20220823143342-nk-veres-rivne.webp"
+          "name": "RoundGlass Punjab FC",
+          "image": "https://static.futbolenlatv.com/img/32/20221216093114-roundglass-punjab-fc.webp"
         }
       },
       "channels": [
-        "OneFootball PPV"
+        "OneFootball"
       ],
       "event": {
-        "name": "Dynamo Kyiv - NK Veres Rivne",
-        "description": "Dynamo Kyiv - NK Veres Rivne el lunes, 16 de diciembre de 2024 a las 12:00",
-        "startDate": "2024-12-16T11:00:00",
+        "name": "East Bengals - RoundGlass Punjab FC",
+        "description": "East Bengals - RoundGlass Punjab FC el martes, 17 de diciembre de 2024 a las 15:00",
+        "startDate": "2024-12-17T14:00:00",
         "duration": "T1H45M"
       }
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "17:00",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Eurocup",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Bahçeşehir Koleji",
+          "image": "https://static.futbolenlatv.com/img/32/20200721000415-bahcesehir-koleji-sk.webp"
+        },
+        "visitor": {
+          "name": "Dreamland Gran Canaria",
+          "image": "https://static.futbolenlatv.com/img/32/20141001095538-gran-canaria.webp"
+        }
+      },
+      "channels": [
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite"
+      ],
+      "event": {}
     },
     {
       "sport": "futbol",
       "date": {
         "hour": "18:00",
-        "day": "16/12/2024",
+        "day": "17/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Eurocopa Femenina"
+        "competition": "The Best FIFA"
       },
       "teams": {
         "local": {},
         "visitor": {}
       },
       "channels": [
-        "UEFA TV",
-        "Teledeporte",
-        "RTVE Play"
+        "FIFA+"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:30",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Basketball Champions League",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "VEF Riga",
+          "image": "https://static.futbolenlatv.com/img/32/20131006064912-vef-riga.webp"
+        },
+        "visitor": {
+          "name": "Maccabi Ironi Ramat Gan",
+          "image": "https://static.futbolenlatv.com/img/32/20240929112649-maccabi-ironi-ramat-gan.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:30",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Basketball Champions League",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "AEK BC",
+          "image": "https://static.futbolenlatv.com/img/32/20161021044329-aek-bc.webp"
+        },
+        "visitor": {
+          "name": "Telekom Baskets Bonn",
+          "image": "https://static.futbolenlatv.com/img/32/20130911093045-telekom-baskets-bonn.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
       ],
       "event": {}
     },
     {
       "sport": "futbol",
       "date": {
-        "hour": "18:00",
-        "day": "16/12/2024",
+        "hour": "18:45",
+        "day": "17/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Bundesliga Femenina"
+        "competition": "Champions League Femenina",
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
-          "name": "FC Köln Femenino",
-          "image": "https://static.futbolenlatv.com/img/32/20190317041550-Colonia.webp"
+          "name": "Real Madrid Femenino",
+          "image": "https://static.futbolenlatv.com/img/32/20200916192901-real-madrid-femenino.webp"
         },
         "visitor": {
-          "name": "RB Leipzig Femenino",
-          "image": "https://static.futbolenlatv.com/img/32/20190912052302-rb-leipzig.webp"
+          "name": "Chelsea Femenino",
+          "image": "https://static.futbolenlatv.com/img/32/20150920013403-chelsea.webp"
         }
       },
       "channels": [
         "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {
-        "name": "FC Köln Femenino - RB Leipzig Femenino",
-        "description": "FC Köln Femenino - RB Leipzig Femenino el lunes, 16 de diciembre de 2024 a las 18:00",
-        "startDate": "2024-12-16T17:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:30",
-        "day": "16/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Serie C"
-      },
-      "teams": {
-        "local": {
-          "name": "Latina Calcio",
-          "image": "https://static.futbolenlatv.com/img/32/20160122041718-latina-calcio.webp"
-        },
-        "visitor": {
-          "name": "Audace Cerignola",
-          "image": "https://static.futbolenlatv.com/img/32/20200127053801-audace-cerignola.webp"
-        }
-      },
-      "channels": [
-        "FIFA+"
-      ],
-      "event": {
-        "name": "Latina Calcio - Audace Cerignola",
-        "description": "Latina Calcio - Audace Cerignola el lunes, 16 de diciembre de 2024 a las 20:30",
-        "startDate": "2024-12-16T19:30:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:45",
-        "day": "16/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Serie A Italiana"
-      },
-      "teams": {
-        "local": {
-          "name": "Lazio",
-          "image": "https://static.futbolenlatv.com/img/32/20121219035121_lazio.webp"
-        },
-        "visitor": {
-          "name": "Inter Milan",
-          "image": "https://static.futbolenlatv.com/img/32/20210330172154-inter-milan.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {
-        "name": "Lazio - Inter Milan",
-        "description": "Lazio - Inter Milan el lunes, 16 de diciembre de 2024 a las 20:45",
-        "startDate": "2024-12-16T19:45:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:00",
-        "day": "16/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Premier League"
-      },
-      "teams": {
-        "local": {
-          "name": "Bournemouth",
-          "image": "https://static.futbolenlatv.com/img/32/20130704095739-bournemouth.webp"
-        },
-        "visitor": {
-          "name": "West Ham",
-          "image": "https://static.futbolenlatv.com/img/32/20160826122526-west-ham.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
+        "DAZN App Gratis",
+        "DAZN Women's Football YouTube",
         "DAZN 1",
         "DAZN 1 Bar",
+        "M+ Ellas Vamos",
+        "Movistar+ Lite",
         "MAX"
       ],
       "event": {
-        "name": "Bournemouth - West Ham",
-        "description": "Bournemouth - West Ham el lunes, 16 de diciembre de 2024 a las 21:00",
-        "startDate": "2024-12-16T20:00:00",
+        "name": "Real Madrid Femenino - Chelsea Femenino",
+        "description": "Real Madrid Femenino - Chelsea Femenino el martes, 17 de diciembre de 2024 a las 18:45",
+        "startDate": "2024-12-17T17:45:00",
         "duration": "T1H45M"
       }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:45",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League Femenina",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Twente Femenino",
+          "image": "https://static.futbolenlatv.com/img/32/20210908141217-twente-women.webp"
+        },
+        "visitor": {
+          "name": "Celtic Femenino",
+          "image": "https://static.futbolenlatv.com/img/32/20210702175223-celtic-women.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {
+        "name": "Twente Femenino - Celtic Femenino",
+        "description": "Twente Femenino - Celtic Femenino el martes, 17 de diciembre de 2024 a las 18:45",
+        "startDate": "2024-12-17T17:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "19:00",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Euroliga",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "AS Monaco Basket",
+          "image": "https://static.futbolenlatv.com/img/32/20191001090801-as-monaco-basket.webp"
+        },
+        "visitor": {
+          "name": "FC Bayern Basketball",
+          "image": "https://static.futbolenlatv.com/img/32/20150901052257-fc-bayern-basketball.webp"
+        }
+      },
+      "channels": [
+        "M+ Deportes 3"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Hypermotion"
+      },
+      "teams": {
+        "local": {
+          "name": "Granada CF",
+          "image": "https://static.futbolenlatv.com/img/32/20190417031704-granada-cf.webp"
+        },
+        "visitor": {
+          "name": "FC Cartagena",
+          "image": "https://static.futbolenlatv.com/img/32/20130108015117_cartagena.webp"
+        }
+      },
+      "channels": [
+        "Amazon Prime Video",
+        "DAZN",
+        "GolStadium Premium",
+        "LALIGA TV Hypermotion 2",
+        "LaLiga TV M2"
+      ],
+      "event": {
+        "name": "Granada CF - FC Cartagena",
+        "description": "Granada CF - FC Cartagena el martes, 17 de diciembre de 2024 a las 19:00",
+        "startDate": "2024-12-17T18:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Hypermotion",
+        "round": "Estadio de Fútbol Carlos Belmonte, Albacete"
+      },
+      "teams": {
+        "local": {
+          "name": "Albacete",
+          "image": "https://static.futbolenlatv.com/img/32/20121227103702_albacete.webp"
+        },
+        "visitor": {
+          "name": "Levante",
+          "image": "https://static.futbolenlatv.com/img/32/20121218092930_levante.webp"
+        }
+      },
+      "channels": [
+        "LALIGA TV Hypermotion",
+        "Amazon Prime Video",
+        "DAZN",
+        "GolStadium Premium",
+        "LaLiga TV Bar"
+      ],
+      "event": {
+        "name": "Albacete - Levante",
+        "description": "Albacete - Levante el martes, 17 de diciembre de 2024 a las 19:00",
+        "startDate": "2024-12-17T18:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "19:15",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Euroliga Femenina",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Valencia Basket",
+          "image": "https://static.futbolenlatv.com/img/32/20130803090213-valencia-basket.webp"
+        },
+        "visitor": {
+          "name": "Casademont Zaragoza",
+          "image": "https://static.futbolenlatv.com/img/32/20190925100947-casademont-zaragoza.webp"
+        }
+      },
+      "channels": [
+        "EuroLeague Women YouTube",
+        "Aragón Deporte",
+        "À Punt",
+        "Aragón TV"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:00",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Basketball Champions League",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Filou Oostende",
+          "image": "https://static.futbolenlatv.com/img/32/20191110112116-filou-oostende.webp"
+        },
+        "visitor": {
+          "name": "Petkimspor Kulübü",
+          "image": "https://static.futbolenlatv.com/img/32/20240923182237-petkimspor-kulubu.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:00",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Basketball Champions League",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "King Szczecin",
+          "image": "https://static.futbolenlatv.com/img/32/20231121164048-king-szczecin.webp"
+        },
+        "visitor": {
+          "name": "Unicaja Málaga",
+          "image": "https://static.futbolenlatv.com/img/32/20240318163823-unicaja-malaga.webp"
+        }
+      },
+      "channels": [
+        "101 TV",
+        "DAZN"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "20:00",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa de la Reina",
+        "round": "1/8 de final"
+      },
+      "teams": {
+        "local": {
+          "name": "Naturpellet Segovia",
+          "image": "https://static.futbolenlatv.com/img/32/20170821102800-naturpellet-segovia.webp"
+        },
+        "visitor": {
+          "name": "Ourense FSF",
+          "image": "https://static.futbolenlatv.com/img/32/20200616224125-ourense-fsf.webp"
+        }
+      },
+      "channels": [
+        "RFEF.es",
+        "RFEF TV YouTube"
+      ],
+      "event": {}
     },
     {
       "sport": "balonmano",
@@ -458,6 +755,272 @@
       },
       "channels": [
         "LaLiga+ Plus"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:05",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Euroliga",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Maccabi Tel Aviv BC",
+          "image": "https://static.futbolenlatv.com/img/32/20130716013716-maccabi-tel-aviv-bc.webp"
+        },
+        "visitor": {
+          "name": "Baskonia",
+          "image": "https://static.futbolenlatv.com/img/32/20160907115208-baskonia.webp"
+        }
+      },
+      "channels": [
+        "M+ Deportes 2"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:15",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Euroliga",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Panathinaikos BC",
+          "image": "https://static.futbolenlatv.com/img/32/20130716013710-panathinaikos-bc.webp"
+        },
+        "visitor": {
+          "name": "AX Olimpia Milano",
+          "image": "https://static.futbolenlatv.com/img/32/20180129060055-ax-olimpia-milano.webp"
+        }
+      },
+      "channels": [
+        "M+ Deportes 4"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:30",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Basketball Champions League",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "CEZl Nymburk",
+          "image": "https://static.futbolenlatv.com/img/32/20131006072337-basketball-nymburk.webp"
+        },
+        "visitor": {
+          "name": "Promitheas Patras BC",
+          "image": "https://static.futbolenlatv.com/img/32/20190211103344-promitheas-patras-bc.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:30",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Basketball Champions League",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "BAXI Manresa",
+          "image": "https://static.futbolenlatv.com/img/32/20180803094908-baxi-manresa.webp"
+        },
+        "visitor": {
+          "name": "Derthona Basket",
+          "image": "https://static.futbolenlatv.com/img/32/20230731142220-derthona-basket.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "Esport3"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:30",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Basketball Champions League",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Rasta Vechta",
+          "image": "https://static.futbolenlatv.com/img/32/20191117071652-rasta-vechta.webp"
+        },
+        "visitor": {
+          "name": "Galatasaray Istanbul",
+          "image": "https://static.futbolenlatv.com/img/32/20151015094401-galatasaray.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:30",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Basketball Champions League",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Benfica CB",
+          "image": "https://static.futbolenlatv.com/img/32/20200921100800-benfica-feminino.webp"
+        },
+        "visitor": {
+          "name": "NINERS Chemnitz",
+          "image": "https://static.futbolenlatv.com/img/32/20240208182658-niners-chemnitz.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:30",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Euroliga",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Barça Basket",
+          "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
+        },
+        "visitor": {
+          "name": "Fenerbahce Istanbul",
+          "image": "https://static.futbolenlatv.com/img/32/20130716022542-fenerbahce-ulker.webp"
+        }
+      },
+      "channels": [
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:30",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Euroliga",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Paris Basketball",
+          "image": "https://static.futbolenlatv.com/img/32/20220711185727-paris-basketball.webp"
+        },
+        "visitor": {
+          "name": "Real Madrid Baloncesto",
+          "image": "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp"
+        }
+      },
+      "channels": [
+        "Movistar Plus+",
+        "M+ Deportes"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "20:30",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa de la Reina",
+        "round": "1/8 de final"
+      },
+      "teams": {
+        "local": {
+          "name": "At. Navalcarnero FS",
+          "image": "https://static.futbolenlatv.com/img/32/20220620083331-atletico-navalcarnero-fs.webp"
+        },
+        "visitor": {
+          "name": "Roldán FSF",
+          "image": "https://static.futbolenlatv.com/img/32/20220427201904-roldan-fsf.webp"
+        }
+      },
+      "channels": [
+        "RFEF.es",
+        "RFEF TV YouTube"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "20:30",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa de la Reina",
+        "round": "1/8 de final"
+      },
+      "teams": {
+        "local": {
+          "name": "FSF Cando",
+          "image": "https://static.futbolenlatv.com/img/32/20241216180003-fsf-cando.webp"
+        },
+        "visitor": {
+          "name": "Rubí FS",
+          "image": "https://static.futbolenlatv.com/img/32/20240907111500-esportiu-rubi-fs.webp"
+        }
+      },
+      "channels": [
+        "RFEF.es",
+        "RFEF TV YouTube"
       ],
       "event": {}
     },
@@ -487,6 +1050,331 @@
       "event": {}
     },
     {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:45",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Euroliga",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "ALBA Berlin",
+          "image": "https://static.futbolenlatv.com/img/32/20191001065721-alba-berlin.webp"
+        },
+        "visitor": {
+          "name": "Zalgiris Kaunas",
+          "image": "https://static.futbolenlatv.com/img/32/20240318163809-zalgiris-kaunas.webp"
+        }
+      },
+      "channels": [
+        "M+ Deportes 6"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:45",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Euroliga",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "BC Partizan Beograd",
+          "image": "https://static.futbolenlatv.com/img/32/20180818103738-bc-partizan-beograd.webp"
+        },
+        "visitor": {
+          "name": "ASVEL Lyon-Villeurbanne",
+          "image": "https://static.futbolenlatv.com/img/32/20191001070955-asvel-lyon-villeurbanne.webp"
+        }
+      },
+      "channels": [
+        "M+ Deportes 5"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League"
+      },
+      "teams": {
+        "local": {
+          "name": "AFC Rochdale",
+          "image": "https://static.futbolenlatv.com/img/32/20140101010739-afc-rochdale.webp"
+        },
+        "visitor": {
+          "name": "Tamworth FC",
+          "image": "https://static.futbolenlatv.com/img/32/20240211193519-tamworth-fc.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "AFC Rochdale - Tamworth FC",
+        "description": "AFC Rochdale - Tamworth FC el martes, 17 de diciembre de 2024 a las 20:45",
+        "startDate": "2024-12-17T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Northern Irish Premiership"
+      },
+      "teams": {
+        "local": {
+          "name": "Dungannon Swifts",
+          "image": "https://static.futbolenlatv.com/img/32/20180216100650-dungannon-swifts.webp"
+        },
+        "visitor": {
+          "name": "Linfield",
+          "image": "https://static.futbolenlatv.com/img/32/20160504125233-linfield.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Dungannon Swifts - Linfield",
+        "description": "Dungannon Swifts - Linfield el martes, 17 de diciembre de 2024 a las 20:45",
+        "startDate": "2024-12-17T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League North"
+      },
+      "teams": {
+        "local": {
+          "name": "Hereford",
+          "image": "https://static.futbolenlatv.com/img/32/20160506024458-hereford.webp"
+        },
+        "visitor": {
+          "name": "Scarborough Athletic",
+          "image": "https://static.futbolenlatv.com/img/32/20241111195043-scarborough-athletic.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Hereford - Scarborough Athletic",
+        "description": "Hereford - Scarborough Athletic el martes, 17 de diciembre de 2024 a las 20:45",
+        "startDate": "2024-12-17T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League South"
+      },
+      "teams": {
+        "local": {
+          "name": "Salisbury City",
+          "image": "https://static.futbolenlatv.com/img/32/20190905110904-salisbury-city.webp"
+        },
+        "visitor": {
+          "name": "Maidstone Utd",
+          "image": "https://static.futbolenlatv.com/img/32/20160120070700-maidstone-utd.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Salisbury City - Maidstone Utd",
+        "description": "Salisbury City - Maidstone Utd el martes, 17 de diciembre de 2024 a las 20:45",
+        "startDate": "2024-12-17T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "20:45",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Eurocopa",
+        "round": "Fase de Clasificación"
+      },
+      "teams": {
+        "local": {
+          "name": "España",
+          "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+        },
+        "visitor": {
+          "name": "Bosnia",
+          "image": "https://static.futbolenlatv.com/img/32/20130204101318_bosnia.webp"
+        }
+      },
+      "channels": [
+        "Teledeporte",
+        "RTVE Play"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League Femenina",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "O. Lyonnais Femenino",
+          "image": "https://static.futbolenlatv.com/img/32/20150914072922-Lyon.webp"
+        },
+        "visitor": {
+          "name": "Wolfsburg Femenino",
+          "image": "https://static.futbolenlatv.com/img/32/20150916064728-Wolfsburgo.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis",
+        "DAZN 1",
+        "DAZN 1 Bar",
+        "M+ Ellas Vamos",
+        "Movistar+ Lite",
+        "MAX"
+      ],
+      "event": {
+        "name": "O. Lyonnais Femenino - Wolfsburg Femenino",
+        "description": "O. Lyonnais Femenino - Wolfsburg Femenino el martes, 17 de diciembre de 2024 a las 21:00",
+        "startDate": "2024-12-17T20:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League Femenina",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "AS Roma Femenino",
+          "image": "https://static.futbolenlatv.com/img/32/20150914073021-Roma.webp"
+        },
+        "visitor": {
+          "name": "Galatasaray Women",
+          "image": "https://static.futbolenlatv.com/img/32/20151015094401-galatasaray.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {
+        "name": "AS Roma Femenino - Galatasaray Women",
+        "description": "AS Roma Femenino - Galatasaray Women el martes, 17 de diciembre de 2024 a las 21:00",
+        "startDate": "2024-12-17T20:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Coppa Italia"
+      },
+      "teams": {
+        "local": {
+          "name": "Juventus",
+          "image": "https://static.futbolenlatv.com/img/32/20170117094900-juventus.webp"
+        },
+        "visitor": {
+          "name": "Cagliari",
+          "image": "https://static.futbolenlatv.com/img/32/20170205100747-cagliari.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Juventus - Cagliari",
+        "description": "Juventus - Cagliari el martes, 17 de diciembre de 2024 a las 21:00",
+        "startDate": "2024-12-17T20:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "21:00",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa de la Reina",
+        "round": "1/8 de final"
+      },
+      "teams": {
+        "local": {
+          "name": "LBTL Alcantarilla FS",
+          "image": "https://static.futbolenlatv.com/img/32/20220908171656-la-boca-te-lia-alcantarilla.webp"
+        },
+        "visitor": {
+          "name": "Torreblanca Melilla",
+          "image": "https://static.futbolenlatv.com/img/32/20230823170304-torreblanca-melilla-futsal.webp"
+        }
+      },
+      "channels": [
+        "RFEF.es",
+        "RFEF TV YouTube"
+      ],
+      "event": {}
+    },
+    {
       "sport": "balonmano",
       "date": {
         "hour": "21:00",
@@ -510,6 +1398,74 @@
         "LaLiga+ Plus"
       ],
       "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:15",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Hypermotion"
+      },
+      "teams": {
+        "local": {
+          "name": "Córdoba",
+          "image": "https://static.futbolenlatv.com/img/32/20160724122218-cordoba-cf.webp"
+        },
+        "visitor": {
+          "name": "Eibar",
+          "image": "https://static.futbolenlatv.com/img/32/20121219071513_eibar.webp"
+        }
+      },
+      "channels": [
+        "Amazon Prime Video",
+        "DAZN",
+        "GolStadium Premium",
+        "LALIGA TV Hypermotion 2",
+        "LaLiga TV M2"
+      ],
+      "event": {
+        "name": "Córdoba - Eibar",
+        "description": "Córdoba - Eibar el martes, 17 de diciembre de 2024 a las 21:15",
+        "startDate": "2024-12-17T20:15:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:15",
+        "day": "17/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Hypermotion"
+      },
+      "teams": {
+        "local": {
+          "name": "Real Zaragoza",
+          "image": "https://static.futbolenlatv.com/img/32/20121218093634_zaragoza.webp"
+        },
+        "visitor": {
+          "name": "Real Oviedo",
+          "image": "https://static.futbolenlatv.com/img/32/20121219073017_oviedo.webp"
+        }
+      },
+      "channels": [
+        "LALIGA TV Hypermotion",
+        "Amazon Prime Video",
+        "DAZN",
+        "GolStadium Premium",
+        "LaLiga TV Bar"
+      ],
+      "event": {
+        "name": "Real Zaragoza - Real Oviedo",
+        "description": "Real Zaragoza - Real Oviedo el martes, 17 de diciembre de 2024 a las 21:15",
+        "startDate": "2024-12-17T20:15:00",
+        "duration": "T1H45M"
+      }
     },
     {
       "sport": "balonmano",
@@ -558,7 +1514,8 @@
         }
       },
       "channels": [
-        "ATP Tennis TV"
+        "ATP Tennis TV",
+        "M+ Deportes 4"
       ],
       "event": {}
     },
@@ -584,7 +1541,8 @@
         }
       },
       "channels": [
-        "ATP Tennis TV"
+        "ATP Tennis TV",
+        "M+ Deportes 4"
       ],
       "event": {}
     },
@@ -610,7 +1568,8 @@
         }
       },
       "channels": [
-        "ATP Tennis TV"
+        "ATP Tennis TV",
+        "M+ Deportes 4"
       ],
       "event": {}
     },
@@ -636,7 +1595,8 @@
         }
       },
       "channels": [
-        "ATP Tennis TV"
+        "ATP Tennis TV",
+        "M+ Deportes 4"
       ],
       "event": {}
     },
@@ -660,6 +1620,89 @@
       "event": {}
     },
     {
+      "sport": "padel",
+      "date": {
+        "hour": "14:00",
+        "day": "19/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Master Final"
+      },
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "Red Bull TV",
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite",
+        "M+ Ellas Vamos",
+        "M+ Deportes 2"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "padel",
+      "date": {
+        "hour": "16:00",
+        "day": "19/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {},
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "Red Bull TV",
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite",
+        "M+ Deportes 2"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "padel",
+      "date": {
+        "hour": "18:00",
+        "day": "19/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {},
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "Red Bull TV",
+        "M+ Ellas Vamos",
+        "Movistar+ Lite",
+        "M+ Deportes 2"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "padel",
+      "date": {
+        "hour": "20:00",
+        "day": "19/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {},
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "Red Bull TV",
+        "M+ Deportes 2"
+      ],
+      "event": {}
+    },
+    {
       "sport": "automovilismo",
       "date": {
         "hour": "21:00",
@@ -672,72 +1715,6 @@
       "teams": {
         "local": {},
         "visitor": {}
-      },
-      "channels": [
-        "Teledeporte",
-        "RTVE Play"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "padel",
-      "date": {
-        "hour": "PD",
-        "day": "22/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Master Final"
-      },
-      "teams": {
-        "local": {},
-        "visitor": {}
-      },
-      "channels": [
-        "Red Bull TV",
-        "Movistar+"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "beisbol",
-      "date": {
-        "hour": "05:00",
-        "day": "18/11/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "WBSC Premier 12"
-      },
-      "teams": {
-        "local": {},
-        "visitor": {}
-      },
-      "channels": [
-        "DAZN"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "futbol-sala",
-      "date": {
-        "hour": "20:45",
-        "day": "17/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Eurocopa",
-        "round": "Fase de Clasificación"
-      },
-      "teams": {
-        "local": {
-          "name": "España",
-          "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
-        },
-        "visitor": {
-          "name": "Bosnia",
-          "image": "https://static.futbolenlatv.com/img/32/20130204101318_bosnia.webp"
-        }
       },
       "channels": [
         "Teledeporte",
@@ -781,6 +1758,44 @@
       },
       "channels": [
         "Barça One"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "rugby",
+      "date": {
+        "hour": "12:00",
+        "day": "15/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Iberdrola Femenina"
+      },
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "TVG2"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "rugby",
+      "date": {
+        "hour": "16:15",
+        "day": "15/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions Cup"
+      },
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "M+ Deportes 4"
       ],
       "event": {}
     },
