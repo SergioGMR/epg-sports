@@ -3,8 +3,38 @@
     {
       "sport": "futbol",
       "date": {
+        "hour": "05:00",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "A-League"
+      },
+      "teams": {
+        "local": {
+          "name": "Wellington Phoenix",
+          "image": "https://static.futbolenlatv.com/img/32/20220906193754-wellington-phoenix.webp"
+        },
+        "visitor": {
+          "name": "Newcastle Jets",
+          "image": "https://static.futbolenlatv.com/img/32/20151222015422-newcastle-jets.webp"
+        }
+      },
+      "channels": [
+        "A-Leagues YouTube"
+      ],
+      "event": {
+        "name": "Wellington Phoenix - Newcastle Jets",
+        "description": "Wellington Phoenix - Newcastle Jets el sábado, 28 de diciembre de 2024 a las 5:00",
+        "startDate": "2024-12-28T04:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
         "hour": "06:50",
-        "day": "27/12/2024",
+        "day": "28/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -12,21 +42,81 @@
       },
       "teams": {
         "local": {
-          "name": "Adelaide Utd. Women",
-          "image": "https://static.futbolenlatv.com/img/32/20140706051737-adelaide-utd.webp"
+          "name": "Sydney FC Women",
+          "image": "https://static.futbolenlatv.com/img/32/20171008093928-sydney.webp"
         },
         "visitor": {
-          "name": "Western Sydney Women",
-          "image": "https://static.futbolenlatv.com/img/32/20140326100732-western-sydney.webp"
+          "name": "Melbourne Victory Women",
+          "image": "https://static.futbolenlatv.com/img/32/20130716043228-melbourne-victory.webp"
         }
       },
       "channels": [
         "A-Leagues YouTube"
       ],
       "event": {
-        "name": "Adelaide Utd. Women - Western Sydney Women",
-        "description": "Adelaide Utd. Women - Western Sydney Women el viernes, 27 de diciembre de 2024 a las 6:50",
-        "startDate": "2024-12-27T05:50:00",
+        "name": "Sydney FC Women - Melbourne Victory Women",
+        "description": "Sydney FC Women - Melbourne Victory Women el sábado, 28 de diciembre de 2024 a las 6:50",
+        "startDate": "2024-12-28T05:50:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "07:00",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "A-League"
+      },
+      "teams": {
+        "local": {
+          "name": "Central Coast Mariners",
+          "image": "https://static.futbolenlatv.com/img/32/20140410105101-central-coast-mariners.webp"
+        },
+        "visitor": {
+          "name": "Auckland FC",
+          "image": "https://static.futbolenlatv.com/img/32/20240807092831-auckland-fc.webp"
+        }
+      },
+      "channels": [
+        "A-Leagues YouTube"
+      ],
+      "event": {
+        "name": "Central Coast Mariners - Auckland FC",
+        "description": "Central Coast Mariners - Auckland FC el sábado, 28 de diciembre de 2024 a las 7:00",
+        "startDate": "2024-12-28T06:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "07:00",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "A-League Women"
+      },
+      "teams": {
+        "local": {
+          "name": "Melbourne City Women",
+          "image": "https://static.futbolenlatv.com/img/32/20150717031722-melbourne-city.webp"
+        },
+        "visitor": {
+          "name": "Wellington Phoenix Women",
+          "image": "https://static.futbolenlatv.com/img/32/20220906193754-wellington-phoenix.webp"
+        }
+      },
+      "channels": [
+        "A-Leagues YouTube"
+      ],
+      "event": {
+        "name": "Melbourne City Women - Wellington Phoenix Women",
+        "description": "Melbourne City Women - Wellington Phoenix Women el sábado, 28 de diciembre de 2024 a las 7:00",
+        "startDate": "2024-12-28T06:00:00",
         "duration": "T1H45M"
       }
     },
@@ -34,7 +124,7 @@
       "sport": "futbol",
       "date": {
         "hour": "09:35",
-        "day": "27/12/2024",
+        "day": "28/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -42,12 +132,12 @@
       },
       "teams": {
         "local": {
-          "name": "Adelaide Utd.",
-          "image": "https://static.futbolenlatv.com/img/32/20140706051737-adelaide-utd.webp"
+          "name": "Sydney FC",
+          "image": "https://static.futbolenlatv.com/img/32/20171008093928-sydney.webp"
         },
         "visitor": {
-          "name": "Western Sydney",
-          "image": "https://static.futbolenlatv.com/img/32/20140326100732-western-sydney.webp"
+          "name": "Melbourne Victory",
+          "image": "https://static.futbolenlatv.com/img/32/20130716043228-melbourne-victory.webp"
         }
       },
       "channels": [
@@ -55,9 +145,9 @@
         "LaLiga+ Plus"
       ],
       "event": {
-        "name": "Adelaide Utd. - Western Sydney",
-        "description": "Adelaide Utd. - Western Sydney el viernes, 27 de diciembre de 2024 a las 9:35",
-        "startDate": "2024-12-27T08:35:00",
+        "name": "Sydney FC - Melbourne Victory",
+        "description": "Sydney FC - Melbourne Victory el sábado, 28 de diciembre de 2024 a las 9:35",
+        "startDate": "2024-12-28T08:35:00",
         "duration": "T1H45M"
       }
     },
@@ -65,29 +155,69 @@
       "sport": "futbol",
       "date": {
         "hour": "10:00",
-        "day": "27/12/2024",
+        "day": "28/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "A-League Women"
+        "competition": "Aragón Cup",
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
-          "name": "Perth Glory Women",
-          "image": "https://static.futbolenlatv.com/img/32/20140705101816-perth-glory.webp"
+          "name": "Huesca Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20190518055345-Huesca.webp"
         },
         "visitor": {
-          "name": "Central Coast Mariners Women",
-          "image": "https://static.futbolenlatv.com/img/32/20140410105101-central-coast-mariners.webp"
+          "name": "EM El Olivar",
+          "image": "https://static.futbolenlatv.com/img/32/20141226100609-em-el-olivar.webp"
         }
       },
       "channels": [
-        "A-Leagues YouTube"
+        "Aragón Deporte"
       ],
       "event": {
-        "name": "Perth Glory Women - Central Coast Mariners Women",
-        "description": "Perth Glory Women - Central Coast Mariners Women el viernes, 27 de diciembre de 2024 a las 10:00",
-        "startDate": "2024-12-27T09:00:00",
+        "name": "Huesca Academy - EM El Olivar",
+        "description": "Huesca Academy - EM El Olivar el sábado, 28 de diciembre de 2024 a las 10:00",
+        "startDate": "2024-12-28T09:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "10:30",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Futures",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Inter Milan Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20210330172154-inter-milan.webp"
+        },
+        "visitor": {
+          "name": "Valencia CF Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20151004120005-valencia.webp"
+        }
+      },
+      "channels": [
+        "M+ LaLiga TV",
+        "DAZN LaLiga",
+        "DAZN",
+        "DAZN App Gratis",
+        "MAX",
+        "GolStadium Premium",
+        "GOL PLAY",
+        "GolStadium",
+        "LaLiga TV Bar"
+      ],
+      "event": {
+        "name": "Inter Milan Academy - Valencia CF Academy",
+        "description": "Inter Milan Academy - Valencia CF Academy el sábado, 28 de diciembre de 2024 a las 10:30",
+        "startDate": "2024-12-28T09:30:00",
         "duration": "T1H45M"
       }
     },
@@ -95,7 +225,7 @@
       "sport": "futbol",
       "date": {
         "hour": "11:00",
-        "day": "27/12/2024",
+        "day": "28/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -104,600 +234,8 @@
       },
       "teams": {
         "local": {
-          "name": "Valencia CF Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20151004120005-valencia.webp"
-        },
-        "visitor": {
-          "name": "Las Palmas Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20130919094140-las-palmas.webp"
-        }
-      },
-      "channels": [
-        "M+ LaLiga TV",
-        "DAZN LaLiga",
-        "DAZN",
-        "DAZN App Gratis",
-        "MAX",
-        "GolStadium Premium",
-        "GOL PLAY",
-        "GolStadium",
-        "LaLiga TV Bar"
-      ],
-      "event": {
-        "name": "Valencia CF Academy - Las Palmas Academy",
-        "description": "Valencia CF Academy - Las Palmas Academy el viernes, 27 de diciembre de 2024 a las 11:00",
-        "startDate": "2024-12-27T10:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "11:30",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LaLiga Futures",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Real Betis Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20160830072242-real-betis.webp"
-        },
-        "visitor": {
-          "name": "B. Dortmund Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20170925010705-borussia-dortmund.webp"
-        }
-      },
-      "channels": [
-        "M+ LaLiga TV",
-        "DAZN LaLiga",
-        "DAZN",
-        "DAZN App Gratis",
-        "MAX",
-        "GolStadium Premium",
-        "GOL PLAY",
-        "GolStadium",
-        "LaLiga TV Bar"
-      ],
-      "event": {
-        "name": "Real Betis Academy - B. Dortmund Academy",
-        "description": "Real Betis Academy - B. Dortmund Academy el viernes, 27 de diciembre de 2024 a las 11:30",
-        "startDate": "2024-12-27T10:30:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "12:00",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LaLiga Futures",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Peñarol Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20130410092630_penarol.webp"
-        },
-        "visitor": {
-          "name": "At. Madrid Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20240712124125-atletico-madrid-cantera.webp"
-        }
-      },
-      "channels": [
-        "M+ LaLiga TV",
-        "DAZN LaLiga",
-        "DAZN",
-        "DAZN App Gratis",
-        "MAX",
-        "GolStadium Premium",
-        "GOL PLAY",
-        "GolStadium",
-        "LaLiga TV Bar"
-      ],
-      "event": {
-        "name": "Peñarol Academy - At. Madrid Academy",
-        "description": "Peñarol Academy - At. Madrid Academy el viernes, 27 de diciembre de 2024 a las 12:00",
-        "startDate": "2024-12-27T11:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "12:30",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LaLiga Futures",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Juventus Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20170117094900-juventus.webp"
-        },
-        "visitor": {
-          "name": "Inter Milan Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20210330172154-inter-milan.webp"
-        }
-      },
-      "channels": [
-        "M+ LaLiga TV",
-        "DAZN LaLiga",
-        "DAZN",
-        "DAZN App Gratis",
-        "MAX",
-        "GolStadium Premium",
-        "GOL PLAY",
-        "GolStadium",
-        "LaLiga TV Bar"
-      ],
-      "event": {
-        "name": "Juventus Academy - Inter Milan Academy",
-        "description": "Juventus Academy - Inter Milan Academy el viernes, 27 de diciembre de 2024 a las 12:30",
-        "startDate": "2024-12-27T11:30:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "12:45",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "A-League"
-      },
-      "teams": {
-        "local": {
-          "name": "Perth Glory",
-          "image": "https://static.futbolenlatv.com/img/32/20140705101816-perth-glory.webp"
-        },
-        "visitor": {
-          "name": "Macarthur FC",
-          "image": "https://static.futbolenlatv.com/img/32/20201211182311-macarthur-fc.webp"
-        }
-      },
-      "channels": [
-        "A-Leagues YouTube",
-        "LaLiga+ Plus"
-      ],
-      "event": {
-        "name": "Perth Glory - Macarthur FC",
-        "description": "Perth Glory - Macarthur FC el viernes, 27 de diciembre de 2024 a las 12:45",
-        "startDate": "2024-12-27T11:45:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "13:00",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LaLiga Futures",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "FC Barcelona Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
-        },
-        "visitor": {
           "name": "Sevilla FC Academy",
           "image": "https://static.futbolenlatv.com/img/32/20150914072039-Sevilla.webp"
-        }
-      },
-      "channels": [
-        "M+ LaLiga TV",
-        "DAZN LaLiga",
-        "DAZN",
-        "DAZN App Gratis",
-        "MAX",
-        "GolStadium Premium",
-        "GOL PLAY",
-        "GolStadium",
-        "LaLiga TV Bar"
-      ],
-      "event": {
-        "name": "FC Barcelona Academy - Sevilla FC Academy",
-        "description": "FC Barcelona Academy - Sevilla FC Academy el viernes, 27 de diciembre de 2024 a las 13:00",
-        "startDate": "2024-12-27T12:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "13:30",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LaLiga Futures",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Real Madrid Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp"
-        },
-        "visitor": {
-          "name": "Orlando City Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20150303075849-orlando-city.webp"
-        }
-      },
-      "channels": [
-        "M+ LaLiga TV",
-        "DAZN LaLiga",
-        "DAZN",
-        "DAZN App Gratis",
-        "MAX",
-        "GolStadium Premium",
-        "GOL PLAY",
-        "GolStadium",
-        "LaLiga TV Bar"
-      ],
-      "event": {
-        "name": "Real Madrid Academy - Orlando City Academy",
-        "description": "Real Madrid Academy - Orlando City Academy el viernes, 27 de diciembre de 2024 a las 13:30",
-        "startDate": "2024-12-27T12:30:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "14:05",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Saudi Women’s Premier League"
-      },
-      "teams": {
-        "local": {
-          "name": "Al-Amal SC",
-          "image": "https://static.futbolenlatv.com/img/32/20241111195100-al-amal-sc.webp"
-        },
-        "visitor": {
-          "name": "Al Shabab FC",
-          "image": "https://static.futbolenlatv.com/img/32/20130410092449_al-shabab-fc.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {
-        "name": "Al-Amal SC - Al Shabab FC",
-        "description": "Al-Amal SC - Al Shabab FC el viernes, 27 de diciembre de 2024 a las 14:05",
-        "startDate": "2024-12-27T13:05:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "15:00",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Indian Super League"
-      },
-      "teams": {
-        "local": {
-          "name": "Mohammedan Sporting Club",
-          "image": "https://static.futbolenlatv.com/img/32/20221216093204-mohammedan-sporting-club.webp"
-        },
-        "visitor": {
-          "name": "Odisha FC",
-          "image": "https://static.futbolenlatv.com/img/32/20201127113515-odisha-fc.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "Mohammedan Sporting Club - Odisha FC",
-        "description": "Mohammedan Sporting Club - Odisha FC el viernes, 27 de diciembre de 2024 a las 15:00",
-        "startDate": "2024-12-27T14:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "15:30",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Gulf Cup of Nations"
-      },
-      "teams": {
-        "local": {
-          "name": "Kuwait",
-          "image": "https://static.futbolenlatv.com/img/32/20130530093617-Kuwait.webp"
-        },
-        "visitor": {
-          "name": "Catar",
-          "image": "https://static.futbolenlatv.com/img/32/20130513104334_qatar.webp"
-        }
-      },
-      "channels": [
-        "OneFootball PPV"
-      ],
-      "event": {
-        "name": "Kuwait - Catar",
-        "description": "Kuwait - Catar el viernes, 27 de diciembre de 2024 a las 15:30",
-        "startDate": "2024-12-27T14:30:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "15:30",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Gulf Cup of Nations"
-      },
-      "teams": {
-        "local": {
-          "name": "EAU",
-          "image": "https://static.futbolenlatv.com/img/32/20130723025224-emirato-arabes-unido.webp"
-        },
-        "visitor": {
-          "name": "Omán",
-          "image": "https://static.futbolenlatv.com/img/32/20130513104856_oman.webp"
-        }
-      },
-      "channels": [
-        "OneFootball PPV"
-      ],
-      "event": {
-        "name": "EAU - Omán",
-        "description": "EAU - Omán el viernes, 27 de diciembre de 2024 a las 15:30",
-        "startDate": "2024-12-27T14:30:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "16:00",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Dubai Globe Soccer Awards"
-      },
-      "teams": {
-        "local": {},
-        "visitor": {}
-      },
-      "channels": [
-        "MAX"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "16:00",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Saudi Women’s Premier League"
-      },
-      "teams": {
-        "local": {
-          "name": "Al Taraji Club",
-          "image": "https://static.futbolenlatv.com/img/32/20231004163101-al-taraji-club.webp"
-        },
-        "visitor": {
-          "name": "Al Nassr",
-          "image": "https://static.futbolenlatv.com/img/32/20240522170910-al-nassr.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {
-        "name": "Al Taraji Club - Al Nassr",
-        "description": "Al Taraji Club - Al Nassr el viernes, 27 de diciembre de 2024 a las 16:00",
-        "startDate": "2024-12-27T15:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "17:30",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LaLiga Futures",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "At. Madrid Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20240712124125-atletico-madrid-cantera.webp"
-        },
-        "visitor": {
-          "name": "Girona Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20240214173657-girona-cantera.webp"
-        }
-      },
-      "channels": [
-        "M+ LaLiga TV",
-        "DAZN LaLiga",
-        "DAZN",
-        "DAZN App Gratis",
-        "MAX",
-        "GolStadium Premium",
-        "GOL PLAY",
-        "GolStadium",
-        "LaLiga TV Bar"
-      ],
-      "event": {
-        "name": "At. Madrid Academy - Girona Academy",
-        "description": "At. Madrid Academy - Girona Academy el viernes, 27 de diciembre de 2024 a las 17:30",
-        "startDate": "2024-12-27T16:30:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "18:00",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LaLiga Futures",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Athletic Club Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20151130110649-athletic.webp"
-        },
-        "visitor": {
-          "name": "Sevilla FC Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20150914072039-Sevilla.webp"
-        }
-      },
-      "channels": [
-        "M+ LaLiga TV",
-        "DAZN LaLiga",
-        "DAZN",
-        "DAZN App Gratis",
-        "MAX",
-        "GolStadium Premium",
-        "GOL PLAY",
-        "GolStadium",
-        "LaLiga TV Bar"
-      ],
-      "event": {
-        "name": "Athletic Club Academy - Sevilla FC Academy",
-        "description": "Athletic Club Academy - Sevilla FC Academy el viernes, 27 de diciembre de 2024 a las 18:00",
-        "startDate": "2024-12-27T17:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "18:30",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LaLiga Futures",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Real Betis Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20160830072242-real-betis.webp"
-        },
-        "visitor": {
-          "name": "Orlando City Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20150303075849-orlando-city.webp"
-        }
-      },
-      "channels": [
-        "M+ LaLiga TV",
-        "DAZN LaLiga",
-        "DAZN",
-        "DAZN App Gratis",
-        "MAX",
-        "GolStadium Premium",
-        "GOL PLAY",
-        "GolStadium",
-        "LaLiga TV Bar"
-      ],
-      "event": {
-        "name": "Real Betis Academy - Orlando City Academy",
-        "description": "Real Betis Academy - Orlando City Academy el viernes, 27 de diciembre de 2024 a las 18:30",
-        "startDate": "2024-12-27T17:30:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "19:00",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LaLiga Futures",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Peñarol Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20130410092630_penarol.webp"
-        },
-        "visitor": {
-          "name": "Villarreal Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20131007021135-villarreal.webp"
-        }
-      },
-      "channels": [
-        "M+ LaLiga TV",
-        "DAZN LaLiga",
-        "DAZN",
-        "DAZN App Gratis",
-        "MAX",
-        "GolStadium Premium",
-        "GOL PLAY",
-        "GolStadium",
-        "LaLiga TV Bar"
-      ],
-      "event": {
-        "name": "Peñarol Academy - Villarreal Academy",
-        "description": "Peñarol Academy - Villarreal Academy el viernes, 27 de diciembre de 2024 a las 19:00",
-        "startDate": "2024-12-27T18:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "19:30",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LaLiga Futures",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "FC Barcelona Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
         },
         "visitor": {
           "name": "PSG Academy",
@@ -716,17 +254,48 @@
         "LaLiga TV Bar"
       ],
       "event": {
-        "name": "FC Barcelona Academy - PSG Academy",
-        "description": "FC Barcelona Academy - PSG Academy el viernes, 27 de diciembre de 2024 a las 19:30",
-        "startDate": "2024-12-27T18:30:00",
+        "name": "Sevilla FC Academy - PSG Academy",
+        "description": "Sevilla FC Academy - PSG Academy el sábado, 28 de diciembre de 2024 a las 11:00",
+        "startDate": "2024-12-28T10:00:00",
         "duration": "T1H45M"
       }
     },
     {
       "sport": "futbol",
       "date": {
-        "hour": "20:00",
-        "day": "27/12/2024",
+        "hour": "11:00",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Aragón Cup",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Osasuna Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20160728062738-osasuna.webp"
+        },
+        "visitor": {
+          "name": "CD Ebro Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20201201163730-cd-ebro-academy.webp"
+        }
+      },
+      "channels": [
+        "Aragón Deporte"
+      ],
+      "event": {
+        "name": "Osasuna Academy - CD Ebro Academy",
+        "description": "Osasuna Academy - CD Ebro Academy el sábado, 28 de diciembre de 2024 a las 11:00",
+        "startDate": "2024-12-28T10:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "11:30",
+        "day": "28/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -735,12 +304,12 @@
       },
       "teams": {
         "local": {
-          "name": "Real Madrid Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp"
+          "name": "Juventus Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20170117094900-juventus.webp"
         },
         "visitor": {
-          "name": "B. Dortmund Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20170925010705-borussia-dortmund.webp"
+          "name": "Las Palmas Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20130919094140-las-palmas.webp"
         }
       },
       "channels": [
@@ -755,106 +324,616 @@
         "LaLiga TV Bar"
       ],
       "event": {
-        "name": "Real Madrid Academy - B. Dortmund Academy",
-        "description": "Real Madrid Academy - B. Dortmund Academy el viernes, 27 de diciembre de 2024 a las 20:00",
-        "startDate": "2024-12-27T19:00:00",
+        "name": "Juventus Academy - Las Palmas Academy",
+        "description": "Juventus Academy - Las Palmas Academy el sábado, 28 de diciembre de 2024 a las 11:30",
+        "startDate": "2024-12-28T10:30:00",
         "duration": "T1H45M"
       }
     },
     {
       "sport": "futbol",
       "date": {
-        "hour": "20:30",
-        "day": "27/12/2024",
+        "hour": "12:00",
+        "day": "28/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Premier League"
+        "competition": "LaLiga Futures",
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
-          "name": "Brighton",
-          "image": "https://static.futbolenlatv.com/img/32/20130126124919_brighton.webp"
+          "name": "Peñarol Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20130410092630_penarol.webp"
         },
         "visitor": {
-          "name": "Brentford",
-          "image": "https://static.futbolenlatv.com/img/32/20171127121055-brentford.webp"
+          "name": "Girona Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20240214173657-girona-cantera.webp"
+        }
+      },
+      "channels": [
+        "M+ LaLiga TV",
+        "DAZN LaLiga",
+        "DAZN",
+        "DAZN App Gratis",
+        "MAX",
+        "GolStadium Premium",
+        "GOL PLAY",
+        "GolStadium",
+        "LaLiga TV Bar"
+      ],
+      "event": {
+        "name": "Peñarol Academy - Girona Academy",
+        "description": "Peñarol Academy - Girona Academy el sábado, 28 de diciembre de 2024 a las 12:00",
+        "startDate": "2024-12-28T11:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "12:30",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Indian Super League"
+      },
+      "teams": {
+        "local": {
+          "name": "Hyderabad FC",
+          "image": "https://static.futbolenlatv.com/img/32/20221205195212-hyderabad-fc.webp"
+        },
+        "visitor": {
+          "name": "East Bengals",
+          "image": "https://static.futbolenlatv.com/img/32/20130911052525-east-bengals.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Hyderabad FC - East Bengals",
+        "description": "Hyderabad FC - East Bengals el sábado, 28 de diciembre de 2024 a las 12:30",
+        "startDate": "2024-12-28T11:30:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "12:30",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Futures",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "B. Dortmund Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20170925010705-borussia-dortmund.webp"
+        },
+        "visitor": {
+          "name": "Orlando City Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20150303075849-orlando-city.webp"
+        }
+      },
+      "channels": [
+        "M+ LaLiga TV",
+        "DAZN LaLiga",
+        "DAZN",
+        "DAZN App Gratis",
+        "MAX",
+        "GolStadium Premium",
+        "GOL PLAY",
+        "GolStadium",
+        "LaLiga TV Bar"
+      ],
+      "event": {
+        "name": "B. Dortmund Academy - Orlando City Academy",
+        "description": "B. Dortmund Academy - Orlando City Academy el sábado, 28 de diciembre de 2024 a las 12:30",
+        "startDate": "2024-12-28T11:30:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "13:00",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Futures",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "At. Madrid Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20240712124125-atletico-madrid-cantera.webp"
+        },
+        "visitor": {
+          "name": "Villarreal Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20131007021135-villarreal.webp"
+        }
+      },
+      "channels": [
+        "M+ LaLiga TV",
+        "DAZN LaLiga",
+        "DAZN",
+        "DAZN App Gratis",
+        "MAX",
+        "GolStadium Premium",
+        "GOL PLAY",
+        "GolStadium",
+        "LaLiga TV Bar"
+      ],
+      "event": {
+        "name": "At. Madrid Academy - Villarreal Academy",
+        "description": "At. Madrid Academy - Villarreal Academy el sábado, 28 de diciembre de 2024 a las 13:00",
+        "startDate": "2024-12-28T12:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "13:15",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Aragón Cup",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Stadium Casablanca",
+          "image": "https://static.futbolenlatv.com/img/32/20151030112355-stadium-casablanca.webp"
+        },
+        "visitor": {
+          "name": "Peñas Oscenses",
+          "image": "https://static.futbolenlatv.com/img/32/20141030021740-penyas-oscenses.webp"
+        }
+      },
+      "channels": [
+        "Aragón Deporte"
+      ],
+      "event": {
+        "name": "Stadium Casablanca - Peñas Oscenses",
+        "description": "Stadium Casablanca - Peñas Oscenses el sábado, 28 de diciembre de 2024 a las 13:15",
+        "startDate": "2024-12-28T12:15:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "13:30",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Futures",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Real Madrid Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp"
+        },
+        "visitor": {
+          "name": "Real Betis Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20160830072242-real-betis.webp"
+        }
+      },
+      "channels": [
+        "M+ LaLiga TV",
+        "DAZN LaLiga",
+        "DAZN",
+        "DAZN App Gratis",
+        "MAX",
+        "GolStadium Premium",
+        "GOL PLAY",
+        "GolStadium",
+        "LaLiga TV Bar"
+      ],
+      "event": {
+        "name": "Real Madrid Academy - Real Betis Academy",
+        "description": "Real Madrid Academy - Real Betis Academy el sábado, 28 de diciembre de 2024 a las 13:30",
+        "startDate": "2024-12-28T12:30:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Futures",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Athletic Club Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20151130110649-athletic.webp"
+        },
+        "visitor": {
+          "name": "FC Barcelona Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
+        }
+      },
+      "channels": [
+        "M+ LaLiga TV",
+        "DAZN LaLiga",
+        "DAZN",
+        "DAZN App Gratis",
+        "MAX",
+        "GolStadium Premium",
+        "GOL PLAY",
+        "GolStadium",
+        "LaLiga TV Bar"
+      ],
+      "event": {
+        "name": "Athletic Club Academy - FC Barcelona Academy",
+        "description": "Athletic Club Academy - FC Barcelona Academy el sábado, 28 de diciembre de 2024 a las 14:00",
+        "startDate": "2024-12-28T13:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:00",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Indian Super League"
+      },
+      "teams": {
+        "local": {
+          "name": "Chennaiyin",
+          "image": "https://static.futbolenlatv.com/img/32/20141014051748-chennaiyin.webp"
+        },
+        "visitor": {
+          "name": "Bengaluru",
+          "image": "https://static.futbolenlatv.com/img/32/20150521124536-bengaluru.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Chennaiyin - Bengaluru",
+        "description": "Chennaiyin - Bengaluru el sábado, 28 de diciembre de 2024 a las 15:00",
+        "startDate": "2024-12-28T14:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:00",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Italiana"
+      },
+      "teams": {
+        "local": {
+          "name": "Parma",
+          "image": "https://static.futbolenlatv.com/img/32/20121219035146_parma.webp"
+        },
+        "visitor": {
+          "name": "Monza",
+          "image": "https://static.futbolenlatv.com/img/32/20191029064703-monza.webp"
         }
       },
       "channels": [
         "DAZN",
-        "DAZN 2",
-        "DAZN 2 Bar"
+        "DAZN App Gratis"
       ],
       "event": {
-        "name": "Brighton - Brentford",
-        "description": "Brighton - Brentford el viernes, 27 de diciembre de 2024 a las 20:30",
-        "startDate": "2024-12-27T19:30:00",
+        "name": "Parma - Monza",
+        "description": "Parma - Monza el sábado, 28 de diciembre de 2024 a las 15:00",
+        "startDate": "2024-12-28T14:00:00",
         "duration": "T1H45M"
       }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:00",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Italiana"
+      },
+      "teams": {
+        "local": {
+          "name": "Empoli",
+          "image": "https://static.futbolenlatv.com/img/32/20200116063133-empoli.webp"
+        },
+        "visitor": {
+          "name": "Genoa",
+          "image": "https://static.futbolenlatv.com/img/32/20121219034524_génova.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {
+        "name": "Empoli - Genoa",
+        "description": "Empoli - Genoa el sábado, 28 de diciembre de 2024 a las 15:00",
+        "startDate": "2024-12-28T14:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:30",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Gulf Cup of Nations"
+      },
+      "teams": {
+        "local": {
+          "name": "Arabia Saudí",
+          "image": "https://static.futbolenlatv.com/img/32/20130730010609-arabia-saudi.webp"
+        },
+        "visitor": {
+          "name": "Irak",
+          "image": "https://static.futbolenlatv.com/img/32/20130513103718_irak.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Arabia Saudí - Irak",
+        "description": "Arabia Saudí - Irak el sábado, 28 de diciembre de 2024 a las 15:30",
+        "startDate": "2024-12-28T14:30:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:30",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Gulf Cup of Nations"
+      },
+      "teams": {
+        "local": {
+          "name": "Baréin",
+          "image": "https://static.futbolenlatv.com/img/32/20131008054258-bahrein.webp"
+        },
+        "visitor": {
+          "name": "Yemen",
+          "image": "https://static.futbolenlatv.com/img/32/20131008070520-yemen.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Baréin - Yemen",
+        "description": "Baréin - Yemen el sábado, 28 de diciembre de 2024 a las 15:30",
+        "startDate": "2024-12-28T14:30:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {},
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "Aragón Deporte"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {},
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "Aragón Deporte"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:00",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Italiana"
+      },
+      "teams": {
+        "local": {
+          "name": "Cagliari",
+          "image": "https://static.futbolenlatv.com/img/32/20170205100747-cagliari.webp"
+        },
+        "visitor": {
+          "name": "Inter Milan",
+          "image": "https://static.futbolenlatv.com/img/32/20210330172154-inter-milan.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {
+        "name": "Cagliari - Inter Milan",
+        "description": "Cagliari - Inter Milan el sábado, 28 de diciembre de 2024 a las 18:00",
+        "startDate": "2024-12-28T17:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:30",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {},
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "M+ LaLiga TV",
+        "DAZN LaLiga",
+        "DAZN",
+        "DAZN App Gratis",
+        "MAX",
+        "GolStadium Premium",
+        "GOL PLAY",
+        "GolStadium",
+        "LaLiga TV Bar"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {},
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "M+ LaLiga TV",
+        "DAZN LaLiga",
+        "DAZN",
+        "DAZN App Gratis",
+        "MAX",
+        "GolStadium Premium",
+        "GOL PLAY",
+        "GolStadium",
+        "LaLiga TV Bar"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:30",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {},
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "M+ LaLiga TV",
+        "DAZN LaLiga",
+        "DAZN",
+        "DAZN App Gratis",
+        "MAX",
+        "GolStadium Premium",
+        "GOL PLAY",
+        "GolStadium",
+        "LaLiga TV Bar"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:00",
+        "day": "28/12/2024",
+        "zone": "Europe/Madrid"
+      },
+      "details": {},
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "M+ LaLiga TV",
+        "DAZN LaLiga",
+        "DAZN",
+        "DAZN App Gratis",
+        "MAX",
+        "GolStadium Premium",
+        "GOL PLAY",
+        "GolStadium",
+        "LaLiga TV Bar"
+      ],
+      "event": {}
     },
     {
       "sport": "futbol",
       "date": {
         "hour": "20:45",
-        "day": "27/12/2024",
+        "day": "28/12/2024",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Jupiler Pro League"
+        "competition": "Serie A Italiana"
       },
       "teams": {
         "local": {
-          "name": "Anderlecht",
-          "image": "https://static.futbolenlatv.com/img/32/20121219090701_anderlecht.webp"
+          "name": "Lazio",
+          "image": "https://static.futbolenlatv.com/img/32/20121219035121_lazio.webp"
         },
         "visitor": {
-          "name": "FCV Dender EH",
-          "image": "https://static.futbolenlatv.com/img/32/20240813082701-fcv-dender-eh.webp"
-        }
-      },
-      "channels": [
-        "GolStadium Premium"
-      ],
-      "event": {
-        "name": "Anderlecht - FCV Dender EH",
-        "description": "Anderlecht - FCV Dender EH el viernes, 27 de diciembre de 2024 a las 20:45",
-        "startDate": "2024-12-27T19:45:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:15",
-        "day": "27/12/2024",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Premier League"
-      },
-      "teams": {
-        "local": {
-          "name": "Arsenal",
-          "image": "https://static.futbolenlatv.com/img/32/20121218091224_arsenal.webp"
-        },
-        "visitor": {
-          "name": "Ipswich Town",
-          "image": "https://static.futbolenlatv.com/img/32/20130824095319-ipswich-town.webp"
+          "name": "Atalanta",
+          "image": "https://static.futbolenlatv.com/img/32/20121219034958_atalanta.webp"
         }
       },
       "channels": [
         "DAZN",
-        "DAZN 1",
-        "DAZN 1 Bar"
+        "DAZN App Gratis"
       ],
       "event": {
-        "name": "Arsenal - Ipswich Town",
-        "description": "Arsenal - Ipswich Town el viernes, 27 de diciembre de 2024 a las 21:15",
-        "startDate": "2024-12-27T20:15:00",
+        "name": "Lazio - Atalanta",
+        "description": "Lazio - Atalanta el sábado, 28 de diciembre de 2024 a las 20:45",
+        "startDate": "2024-12-28T19:45:00",
         "duration": "T1H45M"
       }
     }
   ],
-  "updated": "2024-12-27T00:11:14.157Z"
+  "updated": "2024-12-28T00:11:24.386Z"
 }
