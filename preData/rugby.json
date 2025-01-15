@@ -3,54 +3,22 @@
     {
       "sport": "rugby",
       "date": {
-        "hour": "12:00",
-        "day": "12/01/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "División de Honor"
-      },
-      "teams": {
-        "local": {},
-        "visitor": {}
-      },
-      "channels": [
-        "La Xarxa+"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "rugby",
-      "date": {
-        "hour": "12:00",
-        "day": "12/01/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "División de Honor"
-      },
-      "teams": {
-        "local": {},
-        "visitor": {}
-      },
-      "channels": [
-        "La 7"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "rugby",
-      "date": {
         "hour": "16:15",
-        "day": "12/01/2025",
+        "day": "18/01/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Champions Cup"
       },
       "teams": {
-        "local": {},
-        "visitor": {}
+        "local": {
+          "name": "Northampton Saints",
+          "image": "https://static.futbolenlatv.com/img/32/20141015071730-northampton-s.webp"
+        },
+        "visitor": {
+          "name": "Munster",
+          "image": "https://static.futbolenlatv.com/img/32/20131225102007-munster-rugby.webp"
+        }
       },
       "channels": [
         "M+ Deportes 3"
@@ -58,5 +26,5 @@
       "event": {}
     }
   ],
-  "updated": "2025-01-13T00:12:55.903Z"
+  "updated": "2025-01-15T00:10:59.515Z"
 }
