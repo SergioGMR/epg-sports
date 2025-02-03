@@ -3,23 +3,55 @@
     {
       "sport": "futbol-sala",
       "date": {
-        "hour": "20:00",
-        "day": "02/02/2025",
+        "hour": "17:00",
+        "day": "04/02/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Supercopa España Femenina"
+        "competition": "Eurocopa",
+        "round": "Fase de Clasificación"
       },
       "teams": {
-        "local": {},
-        "visitor": {}
+        "local": {
+          "name": "Inglaterra",
+          "image": "https://static.futbolenlatv.com/img/32/20130204124525_inglaterra.webp"
+        },
+        "visitor": {
+          "name": "España",
+          "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+        }
       },
       "channels": [
-        "Teledeporte",
-        "RTVE Play"
+        "Canal por confirmar"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "17:00",
+        "day": "04/02/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Eurocopa",
+        "round": "Fase de Clasificación"
+      },
+      "teams": {
+        "local": {
+          "name": "Ucrania",
+          "image": "https://static.futbolenlatv.com/img/32/20130304045244_ucrania.webp"
+        },
+        "visitor": {
+          "name": "Alemania",
+          "image": "https://static.futbolenlatv.com/img/32/20130130075653_alemania.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
       ],
       "event": {}
     }
   ],
-  "updated": "2025-02-02T00:11:47.810Z"
+  "updated": "2025-02-03T00:11:38.899Z"
 }
