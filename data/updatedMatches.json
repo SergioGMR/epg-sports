@@ -88,7 +88,7 @@
     "sport": "tenis",
     "date": {
       "hour": "00:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -97,11 +97,11 @@
     },
     "teams": {
       "local": {
-        "name": "A. Shevchenko",
-        "image": "https://static.futbolenlatv.com/img/32/20240130193924-alexander-shevchenko.webp"
+        "name": "K. Nishikori",
+        "image": "https://static.futbolenlatv.com/img/32/20130727123249-Japon.webp"
       },
       "visitor": {
-        "name": "M. Mmoh",
+        "name": "M. McDonald",
         "image": "https://static.futbolenlatv.com/img/32/20130727120523-EEUU.webp"
       }
     },
@@ -114,7 +114,7 @@
     "sport": "tenis",
     "date": {
       "hour": "00:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -123,12 +123,12 @@
     },
     "teams": {
       "local": {
-        "name": "M. Navone",
-        "image": "https://static.futbolenlatv.com/img/32/20130204101418_argentina.webp"
+        "name": "D. Schwartzman",
+        "image": "https://static.futbolenlatv.com/img/32/20130727123852-Argentina.webp"
       },
       "visitor": {
-        "name": "F. Comesana",
-        "image": "https://static.futbolenlatv.com/img/32/20130727123852-Argentina.webp"
+        "name": "N. Jarry",
+        "image": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp"
       }
     },
     "channels": [
@@ -137,36 +137,135 @@
     "event": {}
   },
   {
-    "sport": "baloncesto",
+    "sport": "futbol",
     "date": {
-      "hour": "01:00",
-      "day": "11/02/2025",
+      "hour": "00:00",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
+      "competition": "Campeonato Paranaense"
     },
     "teams": {
       "local": {
-        "name": "Orlando Magic",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090502-orlando-magic.webp"
+        "name": "Coritiba",
+        "image": "https://static.futbolenlatv.com/img/32/20190925103005-coritiba.webp"
       },
       "visitor": {
-        "name": "Atlanta Hawks",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090539-atlanta-hawks.webp"
+        "name": "Operário PR",
+        "image": "https://static.futbolenlatv.com/img/32/20180825104315-operario-pr.webp"
       }
     },
     "channels": [
-      "NBA League Pass"
+      "Fanatiz"
     ],
-    "event": {}
+    "event": {
+      "name": "Coritiba - Operário PR",
+      "description": "Coritiba - Operário PR el miércoles, 12 de febrero de 2025 a las 0:00",
+      "startDate": "2025-02-11T23:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "00:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera División Argentina",
+      "round": "Torneo Apertura"
+    },
+    "teams": {
+      "local": {
+        "name": "Estudiantes LP",
+        "image": "https://static.futbolenlatv.com/img/32/20140830122106-estudiantes-lp.webp"
+      },
+      "visitor": {
+        "name": "Banfield",
+        "image": "https://static.futbolenlatv.com/img/32/20140621094222-banfield.webp"
+      }
+    },
+    "channels": [
+      "Fanatiz",
+      "AFA Play"
+    ],
+    "event": {
+      "name": "Estudiantes LP - Banfield",
+      "description": "Estudiantes LP - Banfield el miércoles, 12 de febrero de 2025 a las 0:00",
+      "startDate": "2025-02-11T23:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "00:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera División Argentina",
+      "round": "Torneo Apertura"
+    },
+    "teams": {
+      "local": {
+        "name": "Boca Juniors",
+        "image": "https://static.futbolenlatv.com/img/32/20121219051310_boca-juniors.webp"
+      },
+      "visitor": {
+        "name": "Independiente Rivadavia",
+        "image": "https://static.futbolenlatv.com/img/32/20140815122429-independiente-rm.webp"
+      }
+    },
+    "channels": [
+      "Fanatiz",
+      "AFA Play"
+    ],
+    "event": {
+      "name": "Boca Juniors - Independiente Rivadavia",
+      "description": "Boca Juniors - Independiente Rivadavia el miércoles, 12 de febrero de 2025 a las 0:00",
+      "startDate": "2025-02-11T23:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "00:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Campeonato Paulista"
+    },
+    "teams": {
+      "local": {
+        "name": "Botafogo SP",
+        "image": "https://static.futbolenlatv.com/img/32/20140129024719-botafogo.webp"
+      },
+      "visitor": {
+        "name": "RB Bragantino",
+        "image": "https://static.futbolenlatv.com/img/32/20200122125639-rb-bragantino.webp"
+      }
+    },
+    "channels": [
+      "Fanatiz",
+      "Brasileirão Play"
+    ],
+    "event": {
+      "name": "Botafogo SP - RB Bragantino",
+      "description": "Botafogo SP - RB Bragantino el miércoles, 12 de febrero de 2025 a las 0:00",
+      "startDate": "2025-02-11T23:00:00",
+      "duration": "T1H45M"
+    }
   },
   {
     "sport": "baloncesto",
     "date": {
       "hour": "01:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -175,38 +274,12 @@
     },
     "teams": {
       "local": {
-        "name": "Cleveland Cavaliers",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090553-cleveland-cavaliers.webp"
+        "name": "Philadelphia 76ers",
+        "image": "https://static.futbolenlatv.com/img/32/20191028090432-philadelphia-76ers.webp"
       },
       "visitor": {
-        "name": "Minnesota Timberwolves",
-        "image": "https://static.futbolenlatv.com/img/32/20201220190912-minnesota-timberwolves.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "01:00",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Washington Wizards",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090528-washington-wizards.webp"
-      },
-      "visitor": {
-        "name": "San Antonio Spurs",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090705-san-antonio-spurs.webp"
+        "name": "Toronto Raptors",
+        "image": "https://static.futbolenlatv.com/img/32/20201220190859-toronto-raptors.webp"
       }
     },
     "channels": [
@@ -218,7 +291,7 @@
     "sport": "baloncesto",
     "date": {
       "hour": "01:30",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -227,50 +300,28 @@
     },
     "teams": {
       "local": {
-        "name": "Miami Heat",
-        "image": "https://static.futbolenlatv.com/img/32/20130614063349-Miami-Heat.webp"
+        "name": "Indiana Pacers",
+        "image": "https://static.futbolenlatv.com/img/32/20191028090446-indiana-pacers.webp"
       },
       "visitor": {
-        "name": "Boston Celtics",
-        "image": "https://static.futbolenlatv.com/img/32/20130808083552-boston-celtics.webp"
+        "name": "New York Knicks",
+        "image": "https://static.futbolenlatv.com/img/32/20130808083641-new-york-knicks.webp"
       }
     },
     "channels": [
-      "NBA League Pass"
+      "M+ Deportes"
     ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "01:30",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Brooklyn Nets",
-        "image": "https://static.futbolenlatv.com/img/32/20130808083530-brooklyn-nets.webp"
-      },
-      "visitor": {
-        "name": "Charlotte Hornets",
-        "image": "https://static.futbolenlatv.com/img/32/20141024124231-charlotte-hornets.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {}
+    "event": {},
+    "links": [
+      "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
+      "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa"
+    ]
   },
   {
     "sport": "baloncesto",
     "date": {
       "hour": "02:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -279,38 +330,12 @@
     },
     "teams": {
       "local": {
-        "name": "Milwaukee Bucks",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090415-milwaukee-bucks.webp"
+        "name": "Chicago Bulls",
+        "image": "https://static.futbolenlatv.com/img/32/20130808083209-chicago-bulls.webp"
       },
       "visitor": {
-        "name": "Golden State Warriors",
-        "image": "https://static.futbolenlatv.com/img/32/20130808083832-gs-warriors.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "02:00",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Oklahoma C. Thunder",
-        "image": "https://static.futbolenlatv.com/img/32/20130808083758-oc-thunder.webp"
-      },
-      "visitor": {
-        "name": "New Orleans Pelicans",
-        "image": "https://static.futbolenlatv.com/img/32/20141024125153-new-orleans-pelicans.webp"
+        "name": "Detroit Pistons",
+        "image": "https://static.futbolenlatv.com/img/32/20191028090514-detroit-pistons.webp"
       }
     },
     "channels": [
@@ -322,7 +347,7 @@
     "sport": "tenis",
     "date": {
       "hour": "02:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -331,12 +356,12 @@
     },
     "teams": {
       "local": {
-        "name": "J. Trotter",
-        "image": "https://static.futbolenlatv.com/img/32/20130208071559_japon.webp"
+        "name": "C. Eubanks",
+        "image": "https://static.futbolenlatv.com/img/32/20130727120523-EEUU.webp"
       },
       "visitor": {
-        "name": "B. Nakashima",
-        "image": "https://static.futbolenlatv.com/img/32/20200528104619-motoamerica-superbike.webp"
+        "name": "R. Opelka",
+        "image": "https://static.futbolenlatv.com/img/32/20130727120523-EEUU.webp"
       }
     },
     "channels": [
@@ -345,10 +370,74 @@
     "event": {}
   },
   {
+    "sport": "futbol",
+    "date": {
+      "hour": "02:15",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera División Argentina",
+      "round": "Torneo Apertura"
+    },
+    "teams": {
+      "local": {
+        "name": "Belgrano",
+        "image": "https://static.futbolenlatv.com/img/32/20121219050908__belgrano.webp"
+      },
+      "visitor": {
+        "name": "Aldosivi",
+        "image": "https://static.futbolenlatv.com/img/32/20140826095110-aldosivi.webp"
+      }
+    },
+    "channels": [
+      "Fanatiz",
+      "AFA Play"
+    ],
+    "event": {
+      "name": "Belgrano - Aldosivi",
+      "description": "Belgrano - Aldosivi el miércoles, 12 de febrero de 2025 a las 2:15",
+      "startDate": "2025-02-12T01:15:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "02:15",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera División Argentina",
+      "round": "Torneo Apertura"
+    },
+    "teams": {
+      "local": {
+        "name": "Tigre",
+        "image": "https://static.futbolenlatv.com/img/32/20121219051849_tigre.webp"
+      },
+      "visitor": {
+        "name": "Racing Avellaneda",
+        "image": "https://static.futbolenlatv.com/img/32/20121219051639_racing-de-avellaneda.webp"
+      }
+    },
+    "channels": [
+      "Fanatiz",
+      "AFA Play"
+    ],
+    "event": {
+      "name": "Tigre - Racing Avellaneda",
+      "description": "Tigre - Racing Avellaneda el miércoles, 12 de febrero de 2025 a las 2:15",
+      "startDate": "2025-02-12T01:15:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
     "sport": "baloncesto",
     "date": {
-      "hour": "02:30",
-      "day": "11/02/2025",
+      "hour": "04:00",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -357,106 +446,46 @@
     },
     "teams": {
       "local": {
-        "name": "Dallas Mavericks",
-        "image": "https://static.futbolenlatv.com/img/32/20130808083728-dallas-mavericks.webp"
+        "name": "Phoenix Suns",
+        "image": "https://static.futbolenlatv.com/img/32/20130808083815-phoenix-suns.webp"
       },
       "visitor": {
-        "name": "Sacramento Kings",
-        "image": "https://static.futbolenlatv.com/img/32/20201220190924-sacramento-kings.webp"
+        "name": "Memphis Grizzlies",
+        "image": "https://static.futbolenlatv.com/img/32/20191028090731-memphis-grizzlies.webp"
       }
     },
     "channels": [
       "NBA League Pass"
     ],
     "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "03:00",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Denver Nuggets",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090619-denver-nuggets.webp"
-      },
-      "visitor": {
-        "name": "Portland Trail Blazers",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090608-portland-trail-blazers.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "04:30",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Los Angeles Lakers",
-        "image": "https://static.futbolenlatv.com/img/32/20130808083216-la-lakers.webp"
-      },
-      "visitor": {
-        "name": "Utah Jazz",
-        "image": "https://static.futbolenlatv.com/img/32/20191028090654-utah-jazz.webp"
-      }
-    },
-    "channels": [
-      "Movistar Plus+",
-      "M+ Deportes"
-    ],
-    "event": {},
-    "links": [
-      "acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0",
-      "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
-      "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa"
-    ]
   },
   {
     "sport": "futbol",
     "date": {
       "hour": "09:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "AFC Champions League Elite",
-      "round": "Fase Liga"
+      "competition": "AFC Champions League Two"
     },
     "teams": {
       "local": {
-        "name": "Central Coast Mariners",
-        "image": "https://static.futbolenlatv.com/img/32/20140410105101-central-coast-mariners.webp"
+        "name": "Sydney FC",
+        "image": "https://static.futbolenlatv.com/img/32/20171008093928-sydney.webp"
       },
       "visitor": {
-        "name": "Johor Darul Takzim",
-        "image": "https://static.futbolenlatv.com/img/32/20150521012418-darul-takzim.webp"
+        "name": "True Bangkok United",
+        "image": "https://static.futbolenlatv.com/img/32/20230501134453-true-bangkok.webp"
       }
     },
     "channels": [
-      "OneFootball",
-      "OneFootball PPV"
+      "OneFootball"
     ],
     "event": {
-      "name": "Central Coast Mariners - Johor Darul Takzim",
-      "description": "Central Coast Mariners - Johor Darul Takzim el martes, 11 de febrero de 2025 a las 9:00",
-      "startDate": "2025-02-11T08:00:00",
+      "name": "Sydney FC - True Bangkok United",
+      "description": "Sydney FC - True Bangkok United el miércoles, 12 de febrero de 2025 a las 9:00",
+      "startDate": "2025-02-12T08:00:00",
       "duration": "T1H45M"
     }
   },
@@ -464,7 +493,7 @@
     "sport": "padel",
     "date": {
       "hour": "10:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -483,7 +512,7 @@
     "sport": "futbol",
     "date": {
       "hour": "11:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -492,30 +521,31 @@
     },
     "teams": {
       "local": {
-        "name": "Pohang Steelers",
-        "image": "https://static.futbolenlatv.com/img/32/20130416065118_pohang.webp"
+        "name": "Yokohama F. Marinos",
+        "image": "https://static.futbolenlatv.com/img/32/20200704135954-yokohama.webp"
       },
       "visitor": {
-        "name": "Kawasaki Frontale",
-        "image": "https://static.futbolenlatv.com/img/32/20130721074516-kawasaki-frontale.webp"
+        "name": "Shanghai Shenhua",
+        "image": "https://static.futbolenlatv.com/img/32/20160205112207-shanghai-shenhua.webp"
       }
     },
     "channels": [
       "OneFootball",
-      "OneFootball PPV"
+      "OneFootball PPV",
+      "LaLiga+ Plus"
     ],
     "event": {
-      "name": "Pohang Steelers - Kawasaki Frontale",
-      "description": "Pohang Steelers - Kawasaki Frontale el martes, 11 de febrero de 2025 a las 11:00",
-      "startDate": "2025-02-11T10:00:00",
+      "name": "Yokohama F. Marinos - Shanghai Shenhua",
+      "description": "Yokohama F. Marinos - Shanghai Shenhua el miércoles, 12 de febrero de 2025 a las 11:00",
+      "startDate": "2025-02-12T10:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "11:00",
-      "day": "11/02/2025",
+      "hour": "13:00",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -524,38 +554,101 @@
     },
     "teams": {
       "local": {
-        "name": "Vissel Kobe",
-        "image": "https://static.futbolenlatv.com/img/32/20141102091154-vissel-kobe.webp"
+        "name": "Buriram United",
+        "image": "https://static.futbolenlatv.com/img/32/20130416064204_buriram.webp"
       },
       "visitor": {
-        "name": "Shanghai Port",
-        "image": "https://static.futbolenlatv.com/img/32/20150703051851-shanghai-sipg.webp"
+        "name": "Ulsan Hyundai",
+        "image": "https://static.futbolenlatv.com/img/32/20140306041922-ulsan-hyundai.webp"
       }
     },
     "channels": [
       "OneFootball",
-      "OneFootball PPV"
+      "OneFootball PPV",
+      "LaLiga+ Plus"
     ],
     "event": {
-      "name": "Vissel Kobe - Shanghai Port",
-      "description": "Vissel Kobe - Shanghai Port el martes, 11 de febrero de 2025 a las 11:00",
-      "startDate": "2025-02-11T10:00:00",
+      "name": "Buriram United - Ulsan Hyundai",
+      "description": "Buriram United - Ulsan Hyundai el miércoles, 12 de febrero de 2025 a las 13:00",
+      "startDate": "2025-02-12T12:00:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "tenis",
+    "sport": "futbol",
     "date": {
-      "hour": "12:05",
-      "day": "11/02/2025",
+      "hour": "13:00",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "WTA Doha"
+      "competition": "AFC Champions League Two"
+    },
+    "teams": {
+      "local": {
+        "name": "Nam Định FC",
+        "image": "https://static.futbolenlatv.com/img/32/20240914100607-nam-dinh-fc.webp"
+      },
+      "visitor": {
+        "name": "Sanfrecce Hiroshima",
+        "image": "https://static.futbolenlatv.com/img/32/20130413044001_sanfrecce-hiroshima.webp"
+      }
+    },
+    "channels": [
+      "OneFootball"
+    ],
+    "event": {
+      "name": "Nam Định FC - Sanfrecce Hiroshima",
+      "description": "Nam Định FC - Sanfrecce Hiroshima el miércoles, 12 de febrero de 2025 a las 13:00",
+      "startDate": "2025-02-12T12:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "13:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Copa del Rey"
     },
     "teams": {
       "local": {},
       "visitor": {}
+    },
+    "channels": [
+      "M+ Vamos",
+      "M+ #Vamos Bar",
+      "Movistar+ Lite",
+      "RFEF.es",
+      "Teledeporte",
+      "RTVE Play",
+      "RFEF TV YouTube"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "13:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "WTA Doha",
+      "round": "3ª Ronda"
+    },
+    "teams": {
+      "local": {
+        "name": "J. Ostapenko",
+        "image": "https://static.futbolenlatv.com/img/32/20130727124452-letonia.webp"
+      },
+      "visitor": {
+        "name": "J. Paolini",
+        "image": "https://static.futbolenlatv.com/img/32/20130727123437-Italia.webp"
+      }
     },
     "channels": [
       "WTA TV",
@@ -566,16 +659,50 @@
   {
     "sport": "tenis",
     "date": {
-      "hour": "13:00",
-      "day": "11/02/2025",
+      "hour": "13:30",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Torneo de Marsella"
+      "competition": "WTA Doha",
+      "round": "3ª Ronda"
     },
     "teams": {
-      "local": {},
-      "visitor": {}
+      "local": {
+        "name": "TBD",
+        "image": "https://static.futbolenlatv.com/img/32/20181007102616-no-escudo.webp"
+      },
+      "visitor": {
+        "name": "L. Fernández",
+        "image": "https://static.futbolenlatv.com/img/32/20130727125012-Canada.webp"
+      }
+    },
+    "channels": [
+      "WTA TV",
+      "Tennis Channel"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "13:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Torneo de Marsella",
+      "round": "1ª Ronda"
+    },
+    "teams": {
+      "local": {
+        "name": "PH. Herbert",
+        "image": "https://static.futbolenlatv.com/img/32/20130727123333-Francia.webp"
+      },
+      "visitor": {
+        "name": "H. Mayot",
+        "image": "https://static.futbolenlatv.com/img/32/20130727123333-Francia.webp"
+      }
     },
     "channels": [
       "ATP Tennis TV"
@@ -583,42 +710,36 @@
     "event": {}
   },
   {
-    "sport": "futbol",
+    "sport": "baloncesto",
     "date": {
-      "hour": "13:00",
-      "day": "11/02/2025",
+      "hour": "14:00",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "AFC Champions League Elite",
-      "round": "Fase Liga"
+      "competition": "Minicopa Endesa",
+      "round": "Fase Regular"
     },
     "teams": {
       "local": {
-        "name": "Shandong Taishan",
-        "image": "https://static.futbolenlatv.com/img/32/20140220071805-shandong-luneng.webp"
+        "name": "Dreamland Gran Canaria",
+        "image": "https://static.futbolenlatv.com/img/32/20141001095538-gran-canaria.webp"
       },
       "visitor": {
-        "name": "Gwangju FC",
-        "image": "https://static.futbolenlatv.com/img/32/20200507195301-gwangju-fc.webp"
+        "name": "Joventut Badalona",
+        "image": "https://static.futbolenlatv.com/img/32/20190925101350-joventut.webp"
       }
     },
     "channels": [
-      "OneFootball",
-      "OneFootball PPV"
+      "ACB YouTube"
     ],
-    "event": {
-      "name": "Shandong Taishan - Gwangju FC",
-      "description": "Shandong Taishan - Gwangju FC el martes, 11 de febrero de 2025 a las 13:00",
-      "startDate": "2025-02-11T12:00:00",
-      "duration": "T1H45M"
-    }
+    "event": {}
   },
   {
     "sport": "futbol",
     "date": {
       "hour": "14:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -627,54 +748,22 @@
     },
     "teams": {
       "local": {
-        "name": "AZ Alkmaar Academy",
-        "image": "https://static.futbolenlatv.com/img/32/20210903232123-az-alkmaar-academy.webp"
+        "name": "FC Barcelona Academy",
+        "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
       },
       "visitor": {
-        "name": "Benfica Academy",
-        "image": "https://static.futbolenlatv.com/img/32/20160620075600-benfica.webp"
+        "name": "Dinamo Zagreb Academy",
+        "image": "https://static.futbolenlatv.com/img/32/20200617164117-dinamo-zagreb-academy.webp"
       }
     },
     "channels": [
-      "UEFA TV"
-    ],
-    "event": {
-      "name": "AZ Alkmaar Academy - Benfica Academy",
-      "description": "AZ Alkmaar Academy - Benfica Academy el martes, 11 de febrero de 2025 a las 14:00",
-      "startDate": "2025-02-11T13:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "14:00",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "UEFA Youth League",
-      "round": "Play-offs"
-    },
-    "teams": {
-      "local": {
-        "name": "Stuttgart Academy",
-        "image": "https://static.futbolenlatv.com/img/32/20160510123729-stuttgart-ii.webp"
-      },
-      "visitor": {
-        "name": "Liverpool Academy",
-        "image": "https://static.futbolenlatv.com/img/32/20240923180630-liverpool-academy.webp"
-      }
-    },
-    "channels": [
-      "UEFA TV",
-      "LFCTV GO",
+      "Barça One",
       "M+ Liga de Campeones"
     ],
     "event": {
-      "name": "Stuttgart Academy - Liverpool Academy",
-      "description": "Stuttgart Academy - Liverpool Academy el martes, 11 de febrero de 2025 a las 14:00",
-      "startDate": "2025-02-11T13:00:00",
+      "name": "FC Barcelona Academy - Dinamo Zagreb Academy",
+      "description": "FC Barcelona Academy - Dinamo Zagreb Academy el miércoles, 12 de febrero de 2025 a las 14:00",
+      "startDate": "2025-02-12T13:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -684,38 +773,8 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "15:00",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "AFC Champions League Two"
-    },
-    "teams": {
-      "local": {
-        "name": "Al Khalidiya FC",
-        "image": "https://static.futbolenlatv.com/img/32/20220114091447-al-khalidiya-fc.webp"
-      },
-      "visitor": {
-        "name": "Tractor SC",
-        "image": "https://static.futbolenlatv.com/img/32/20210413091933-tractor-sazi-tabriz.webp"
-      }
-    },
-    "channels": [
-      "OneFootball"
-    ],
-    "event": {
-      "name": "Al Khalidiya FC - Tractor SC",
-      "description": "Al Khalidiya FC - Tractor SC el martes, 11 de febrero de 2025 a las 15:00",
-      "startDate": "2025-02-11T14:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "16:00",
-      "day": "11/02/2025",
+      "hour": "14:00",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -724,23 +783,267 @@
     },
     "teams": {
       "local": {
-        "name": "Real Betis Academy",
-        "image": "https://static.futbolenlatv.com/img/32/20160830072242-real-betis.webp"
+        "name": "Sporting CP Academy",
+        "image": "https://static.futbolenlatv.com/img/32/20150920013529-sporting-portugal.webp"
       },
       "visitor": {
-        "name": "Bayern Academy",
-        "image": "https://static.futbolenlatv.com/img/32/20140731073126-bayern-munich.webp"
+        "name": "AS Monaco Academy",
+        "image": "https://static.futbolenlatv.com/img/32/20240923180801-as-monaco-academy.webp"
       }
     },
     "channels": [
       "UEFA TV",
+      "M+ Liga de Campeones 2"
+    ],
+    "event": {
+      "name": "Sporting CP Academy - AS Monaco Academy",
+      "description": "Sporting CP Academy - AS Monaco Academy el miércoles, 12 de febrero de 2025 a las 14:00",
+      "startDate": "2025-02-12T13:00:00",
+      "duration": "T1H45M"
+    },
+    "links": [
+      "acestream://fc2fe31b0bce25e2dc7ab4d262bf645e2be5a393"
+    ]
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "14:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "UEFA Youth League",
+      "round": "Play-offs"
+    },
+    "teams": {
+      "local": {
+        "name": "FC Midtjylland Academy",
+        "image": "https://static.futbolenlatv.com/img/32/20200617164021-fc-midtjylland-academy.webp"
+      },
+      "visitor": {
+        "name": "Man City Academy",
+        "image": "https://static.futbolenlatv.com/img/32/20210112220051-manchester-city-academy.webp"
+      }
+    },
+    "channels": [
+      "UEFA TV",
+      "M+ Liga de Campeones 3"
+    ],
+    "event": {
+      "name": "FC Midtjylland Academy - Man City Academy",
+      "description": "FC Midtjylland Academy - Man City Academy el miércoles, 12 de febrero de 2025 a las 14:00",
+      "startDate": "2025-02-12T13:00:00",
+      "duration": "T1H45M"
+    },
+    "links": [
+      "acestream://ad372cba73aa0ece207a79532b3e30b731136bb2"
+    ]
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "15:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "WTA Doha",
+      "round": "3ª Ronda"
+    },
+    "teams": {
+      "local": {
+        "name": "L. Noskova",
+        "image": "https://static.futbolenlatv.com/img/32/20130410124454_republica-checa.webp"
+      },
+      "visitor": {
+        "name": "I. Swiatek",
+        "image": "https://static.futbolenlatv.com/img/32/20130727123454-polonia.webp"
+      }
+    },
+    "channels": [
+      "WTA TV",
+      "Tennis Channel"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "15:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Torneo de Marsella",
+      "round": "2ª Ronda"
+    },
+    "teams": {
+      "local": {
+        "name": "L. Sonego",
+        "image": "https://static.futbolenlatv.com/img/32/20130727123437-Italia.webp"
+      },
+      "visitor": {
+        "name": "L. Van Assche",
+        "image": "https://static.futbolenlatv.com/img/32/20130727123333-Francia.webp"
+      }
+    },
+    "channels": [
+      "ATP Tennis TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "15:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "AFC Champions League Two"
+    },
+    "teams": {
+      "local": {
+        "name": "Al Wehdat",
+        "image": "https://static.futbolenlatv.com/img/32/20150206102616-al-wehdat.webp"
+      },
+      "visitor": {
+        "name": "Shabab Al Ahli",
+        "image": "https://static.futbolenlatv.com/img/32/20180720084253-shabab-al-ahli.webp"
+      }
+    },
+    "channels": [
+      "OneFootball"
+    ],
+    "event": {
+      "name": "Al Wehdat - Shabab Al Ahli",
+      "description": "Al Wehdat - Shabab Al Ahli el miércoles, 12 de febrero de 2025 a las 15:00",
+      "startDate": "2025-02-12T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "15:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Indian Super League"
+    },
+    "teams": {
+      "local": {
+        "name": "Mumbai City",
+        "image": "https://static.futbolenlatv.com/img/32/20141010060443-mumbai-city.webp"
+      },
+      "visitor": {
+        "name": "FC Goa",
+        "image": "https://static.futbolenlatv.com/img/32/20141014051907-fc-goa.webp"
+      }
+    },
+    "channels": [
+      "OneFootball",
+      "OneFootball PPV"
+    ],
+    "event": {
+      "name": "Mumbai City - FC Goa",
+      "description": "Mumbai City - FC Goa el miércoles, 12 de febrero de 2025 a las 15:00",
+      "startDate": "2025-02-12T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "16:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Minicopa Endesa",
+      "round": "Fase Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "Barça Basket",
+        "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
+      },
+      "visitor": {
+        "name": "Unicaja Málaga",
+        "image": "https://static.futbolenlatv.com/img/32/20240318163823-unicaja-malaga.webp"
+      }
+    },
+    "channels": [
+      "ACB YouTube"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "UEFA Youth League",
+      "round": "Play-offs"
+    },
+    "teams": {
+      "local": {
+        "name": "Real Madrid Academy",
+        "image": "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp"
+      },
+      "visitor": {
+        "name": "B. Dortmund Academy",
+        "image": "https://static.futbolenlatv.com/img/32/20170925010705-borussia-dortmund.webp"
+      }
+    },
+    "channels": [
+      "UEFA TV",
+      "M+ Vamos",
+      "M+ #Vamos Bar",
+      "Movistar+ Lite",
+      "Real Madrid TV"
+    ],
+    "event": {
+      "name": "Real Madrid Academy - B. Dortmund Academy",
+      "description": "Real Madrid Academy - B. Dortmund Academy el miércoles, 12 de febrero de 2025 a las 16:00",
+      "startDate": "2025-02-12T15:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "UEFA Youth League",
+      "round": "Play-offs"
+    },
+    "teams": {
+      "local": {
+        "name": "Olympiacos Academy",
+        "image": "https://static.futbolenlatv.com/img/32/20190912055709-Olympiacos.webp"
+      },
+      "visitor": {
+        "name": "Girona Academy",
+        "image": "https://static.futbolenlatv.com/img/32/20240214173657-girona-cantera.webp"
+      }
+    },
+    "channels": [
       "M+ Liga de Campeones",
       "M+ Liga de Campeones 2"
     ],
     "event": {
-      "name": "Real Betis Academy - Bayern Academy",
-      "description": "Real Betis Academy - Bayern Academy el martes, 11 de febrero de 2025 a las 16:00",
-      "startDate": "2025-02-11T15:00:00",
+      "name": "Olympiacos Academy - Girona Academy",
+      "description": "Olympiacos Academy - Girona Academy el miércoles, 12 de febrero de 2025 a las 16:00",
+      "startDate": "2025-02-12T15:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -752,7 +1055,7 @@
     "sport": "futbol",
     "date": {
       "hour": "16:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -761,12 +1064,12 @@
     },
     "teams": {
       "local": {
-        "name": "Inter Milan Academy",
-        "image": "https://static.futbolenlatv.com/img/32/20210330172154-inter-milan.webp"
+        "name": "Trabzonspor Academy",
+        "image": "https://static.futbolenlatv.com/img/32/20210903232108-trabzonspor-academy.webp"
       },
       "visitor": {
-        "name": "Lille Academy",
-        "image": "https://static.futbolenlatv.com/img/32/20190922105454-LOSC-LILLE.webp"
+        "name": "Juventus Academy",
+        "image": "https://static.futbolenlatv.com/img/32/20170117094900-juventus.webp"
       }
     },
     "channels": [
@@ -774,9 +1077,9 @@
       "M+ Liga de Campeones 3"
     ],
     "event": {
-      "name": "Inter Milan Academy - Lille Academy",
-      "description": "Inter Milan Academy - Lille Academy el martes, 11 de febrero de 2025 a las 16:00",
-      "startDate": "2025-02-11T15:00:00",
+      "name": "Trabzonspor Academy - Juventus Academy",
+      "description": "Trabzonspor Academy - Juventus Academy el miércoles, 12 de febrero de 2025 a las 16:00",
+      "startDate": "2025-02-12T15:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -786,8 +1089,35 @@
   {
     "sport": "tenis",
     "date": {
+      "hour": "16:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "WTA Doha",
+      "round": "3ª Ronda"
+    },
+    "teams": {
+      "local": {
+        "name": "O. Jabeur",
+        "image": "https://static.futbolenlatv.com/img/32/20131231111621-Tunez.webp"
+      },
+      "visitor": {
+        "name": "S. Kenin",
+        "image": "https://static.futbolenlatv.com/img/32/20130727120523-EEUU.webp"
+      }
+    },
+    "channels": [
+      "WTA TV",
+      "Tennis Channel"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "tenis",
+    "date": {
       "hour": "17:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {},
@@ -804,7 +1134,7 @@
     "sport": "futbol",
     "date": {
       "hour": "17:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -812,21 +1142,21 @@
     },
     "teams": {
       "local": {
-        "name": "Al-Hussein SC",
-        "image": "https://static.futbolenlatv.com/img/32/20231017094423-al-hussein-sc-irbid.webp"
+        "name": "Al Wakrah",
+        "image": "https://static.futbolenlatv.com/img/32/20130410021816_al-wakrah.webp"
       },
       "visitor": {
-        "name": "Sharjah FC",
-        "image": "https://static.futbolenlatv.com/img/32/20210413093010-sharjah-fc.webp"
+        "name": "Al Taawoun FC",
+        "image": "https://static.futbolenlatv.com/img/32/20220328174034-al-taawoun-fc.webp"
       }
     },
     "channels": [
       "OneFootball"
     ],
     "event": {
-      "name": "Al-Hussein SC - Sharjah FC",
-      "description": "Al-Hussein SC - Sharjah FC el martes, 11 de febrero de 2025 a las 17:00",
-      "startDate": "2025-02-11T16:00:00",
+      "name": "Al Wakrah - Al Taawoun FC",
+      "description": "Al Wakrah - Al Taawoun FC el miércoles, 12 de febrero de 2025 a las 17:00",
+      "startDate": "2025-02-12T16:00:00",
       "duration": "T1H45M"
     }
   },
@@ -834,7 +1164,7 @@
     "sport": "tenis",
     "date": {
       "hour": "17:30",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {},
@@ -848,30 +1178,288 @@
     "event": {}
   },
   {
-    "sport": "balonmano",
+    "sport": "baloncesto",
     "date": {
-      "hour": "18:45",
-      "day": "11/02/2025",
+      "hour": "18:00",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "EHF European League"
+      "competition": "Minicopa Endesa",
+      "round": "Fase Regular"
     },
     "teams": {
       "local": {
-        "name": "BM Granollers",
-        "image": "https://static.futbolenlatv.com/img/32/20130725082425-bm-granollers.webp"
+        "name": "Valencia Basket",
+        "image": "https://static.futbolenlatv.com/img/32/20130803090213-valencia-basket.webp"
       },
       "visitor": {
-        "name": "GOG Gudme",
-        "image": "https://static.futbolenlatv.com/img/32/20190121091255-gog-gudme.webp"
+        "name": "Casademont Zaragoza",
+        "image": "https://static.futbolenlatv.com/img/32/20190925100947-casademont-zaragoza.webp"
+      }
+    },
+    "channels": [
+      "ACB YouTube"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "18:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Coppa Italia",
+      "round": "1/4 de Final"
+    },
+    "teams": {
+      "local": {
+        "name": "Pallacanestro Brescia",
+        "image": "https://static.futbolenlatv.com/img/32/20201220190956-basket-brescia-leonessa.webp"
+      },
+      "visitor": {
+        "name": "Derthona Basket",
+        "image": "https://static.futbolenlatv.com/img/32/20230731142220-derthona-basket.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "18:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Torneo de Marsella",
+      "round": "2ª Ronda"
+    },
+    "teams": {
+      "local": {
+        "name": "K. Khachanov",
+        "image": "https://static.futbolenlatv.com/img/32/20130727123153-Rusia.webp"
+      },
+      "visitor": {
+        "name": "H. Medjedovic",
+        "image": "https://static.futbolenlatv.com/img/32/20200604115219-exhibition-match-belgrado.webp"
+      }
+    },
+    "channels": [
+      "ATP Tennis TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "18:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "BBL",
+      "round": "Liga Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "Rostock Seawolves",
+        "image": "https://static.futbolenlatv.com/img/32/20241130102038-rostock-seawolves.webp"
+      },
+      "visitor": {
+        "name": "ALBA Berlin",
+        "image": "https://static.futbolenlatv.com/img/32/20191001065721-alba-berlin.webp"
+      }
+    },
+    "channels": [
+      "LaLiga+ Plus"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "18:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Copa de Alemania Femenina",
+      "round": "1/4 de Final"
+    },
+    "teams": {
+      "local": {
+        "name": "FC Bayern Femenino",
+        "image": "https://static.futbolenlatv.com/img/32/20140731073126-bayern-munich.webp"
+      },
+      "visitor": {
+        "name": "Eintracht Frankfurt Femenino",
+        "image": "https://static.futbolenlatv.com/img/32/20200815180042-eintracht-frankfurt-women.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {
+      "name": "FC Bayern Femenino - Eintracht Frankfurt Femenino",
+      "description": "FC Bayern Femenino - Eintracht Frankfurt Femenino el miércoles, 12 de febrero de 2025 a las 18:30",
+      "startDate": "2025-02-12T17:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "18:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Copa de Alemania Femenina",
+      "round": "1/4 de Final"
+    },
+    "teams": {
+      "local": {
+        "name": "Hoffenheim Femenino",
+        "image": "https://static.futbolenlatv.com/img/32/20190224111911-1899-Hoffenheim.webp"
+      },
+      "visitor": {
+        "name": "Wolfsburg Femenino",
+        "image": "https://static.futbolenlatv.com/img/32/20150916064728-Wolfsburgo.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {
+      "name": "Hoffenheim Femenino - Wolfsburg Femenino",
+      "description": "Hoffenheim Femenino - Wolfsburg Femenino el miércoles, 12 de febrero de 2025 a las 18:30",
+      "startDate": "2025-02-12T17:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "18:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Copa de Alemania Femenina",
+      "round": "1/4 de Final"
+    },
+    "teams": {
+      "local": {
+        "name": "Bayer Leverkusen Femenino",
+        "image": "https://static.futbolenlatv.com/img/32/20150916054924-Bayer-Leverkusen.webp"
+      },
+      "visitor": {
+        "name": "Werder Bremen Femenino",
+        "image": "https://static.futbolenlatv.com/img/32/20160806010431-werder-bremen.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {
+      "name": "Bayer Leverkusen Femenino - Werder Bremen Femenino",
+      "description": "Bayer Leverkusen Femenino - Werder Bremen Femenino el miércoles, 12 de febrero de 2025 a las 18:30",
+      "startDate": "2025-02-12T17:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "18:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Copa de Alemania Femenina",
+      "round": "1/4 de Final"
+    },
+    "teams": {
+      "local": {
+        "name": "Hamburger SV Frauen",
+        "image": "https://static.futbolenlatv.com/img/32/20121218101947_hamburgo.webp"
+      },
+      "visitor": {
+        "name": "Borussia M'gladbach Frauen",
+        "image": "https://static.futbolenlatv.com/img/32/20121218101735_borussia-mönchengladbach.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {
+      "name": "Hamburger SV Frauen - Borussia M'gladbach Frauen",
+      "description": "Hamburger SV Frauen - Borussia M'gladbach Frauen el miércoles, 12 de febrero de 2025 a las 18:30",
+      "startDate": "2025-02-12T17:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "18:45",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "EHF Champions League",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "SC Pick Szeged",
+        "image": "https://static.futbolenlatv.com/img/32/20140911021441-sc-pick-szeged.webp"
+      },
+      "visitor": {
+        "name": "HC Prvo Zagreb",
+        "image": "https://static.futbolenlatv.com/img/32/20130717110219-rk-zagreb.webp"
+      }
+    },
+    "channels": [
+      "EHF TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "18:45",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "EHF Champions League",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "Aalborg Handbold",
+        "image": "https://static.futbolenlatv.com/img/32/20160208084023-aalborg-h.webp"
+      },
+      "visitor": {
+        "name": "Barça BM",
+        "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
       }
     },
     "channels": [
       "DAZN",
       "DAZN 2",
       "DAZN 2 Bar",
-      "DAZN App Gratis",
       "Esport3"
     ],
     "event": {},
@@ -884,20 +1472,21 @@
     "sport": "balonmano",
     "date": {
       "hour": "18:45",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "EHF European League"
+      "competition": "EHF Champions League",
+      "round": "Fase de grupos"
     },
     "teams": {
       "local": {
-        "name": "Montpellier HB",
-        "image": "https://static.futbolenlatv.com/img/32/20130901053602-montpellier-hb.webp"
+        "name": "Kolstad Håndball",
+        "image": "https://static.futbolenlatv.com/img/32/20220927132527-kolstad-handball.webp"
       },
       "visitor": {
-        "name": "HC Kriens-Luzern",
-        "image": "https://static.futbolenlatv.com/img/32/20231010220056-hc-kriens-luzern.webp"
+        "name": "HBC Nantes",
+        "image": "https://static.futbolenlatv.com/img/32/20140131110632-hbc-nantes.webp"
       }
     },
     "channels": [
@@ -906,544 +1495,129 @@
     "event": {}
   },
   {
-    "sport": "balonmano",
+    "sport": "futbol",
     "date": {
       "hour": "18:45",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "EHF European League"
+      "competition": "Champions League",
+      "round": "Play-Off"
     },
     "teams": {
       "local": {
-        "name": "VfL Gummersbach",
-        "image": "https://static.futbolenlatv.com/img/32/20130911093850-vfl-gummersbach.webp"
+        "name": "Club Brugge",
+        "image": "https://static.futbolenlatv.com/img/32/20121222102302_club-brugge.webp"
       },
       "visitor": {
-        "name": "Flensburg-Handewitt",
-        "image": "https://static.futbolenlatv.com/img/32/20130717113947-flensburg-handewitt.webp"
+        "name": "Atalanta",
+        "image": "https://static.futbolenlatv.com/img/32/20121219034958_atalanta.webp"
       }
     },
     "channels": [
-      "EHF TV"
+      "M+ Liga de Campeones 2"
     ],
-    "event": {}
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "18:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
+    "event": {
+      "name": "Club Brugge - Atalanta",
+      "description": "Club Brugge - Atalanta el miércoles, 12 de febrero de 2025 a las 18:45",
+      "startDate": "2025-02-12T17:45:00",
+      "duration": "T1H45M"
     },
-    "details": {
-      "competition": "EHF European League"
-    },
-    "teams": {
-      "local": {
-        "name": "Ystads IF",
-        "image": "https://static.futbolenlatv.com/img/32/20210509110036-ystads-if.webp"
-      },
-      "visitor": {
-        "name": "Limoges Hand 87",
-        "image": "https://static.futbolenlatv.com/img/32/20241003094539-limoges-hand-87.webp"
-      }
-    },
-    "channels": [
-      "EHF TV"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "20:15",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera FEB",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Real Betis Baloncesto",
-        "image": "https://static.futbolenlatv.com/img/32/20160830072242-real-betis.webp"
-      },
-      "visitor": {
-        "name": "GA Cantabria",
-        "image": "https://static.futbolenlatv.com/img/32/20220905181150-club-deportivo-elemental-estela-cantabria.webp"
-      }
-    },
-    "channels": [
-      "LaLiga+ Plus",
-      "Marca YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol-sala",
-    "date": {
-      "hour": "20:30",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Copa del Rey",
-      "round": "1/4 de Final"
-    },
-    "teams": {
-      "local": {
-        "name": "AD Sala 10 Zaragoza",
-        "image": "https://static.futbolenlatv.com/img/32/20130716053036-sala-10-zaragoza.webp"
-      },
-      "visitor": {
-        "name": "Palma Futsal",
-        "image": "https://static.futbolenlatv.com/img/32/20140923043256-palma-futsal.webp"
-      }
-    },
-    "channels": [
-      "RFEF.es",
-      "Aragón Deporte",
-      "RFEF TV YouTube",
-      "Aragón TV"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "20:30",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera FEB",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Monbus Obradoiro",
-        "image": "https://static.futbolenlatv.com/img/32/20200903182202-obradoiro-clube-baloncesto.webp"
-      },
-      "visitor": {
-        "name": "FC Cartagena CB",
-        "image": "https://static.futbolenlatv.com/img/32/20130108015117_cartagena.webp"
-      }
-    },
-    "channels": [
-      "LaLiga+ Plus"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "EHF European League"
-    },
-    "teams": {
-      "local": {
-        "name": "Bidasoa Irún",
-        "image": "https://static.futbolenlatv.com/img/32/20130817095651-bidasoa.webp"
-      },
-      "visitor": {
-        "name": "Benfica HB",
-        "image": "https://static.futbolenlatv.com/img/32/20200921100800-benfica-feminino.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN 1",
-      "DAZN 1 Bar",
-      "DAZN App Gratis",
-      "ETB4"
-    ],
-    "event": {},
     "links": [
-      "acestream://8ca07071b39185431f8e940ec98d1add9e561639",
-      "acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f"
+      "acestream://fc2fe31b0bce25e2dc7ab4d262bf645e2be5a393"
     ]
   },
   {
-    "sport": "balonmano",
-    "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "EHF European League"
-    },
-    "teams": {
-      "local": {
-        "name": "MT Melsungen",
-        "image": "https://static.futbolenlatv.com/img/32/20130822013232-mt-melsungen.webp"
-      },
-      "visitor": {
-        "name": "THW Kiel",
-        "image": "https://static.futbolenlatv.com/img/32/20130614063927-THW-Kiel.webp"
-      }
-    },
-    "channels": [
-      "EHF TV"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "EHF European League"
-    },
-    "teams": {
-      "local": {
-        "name": "Fenix Toulouse Handball",
-        "image": "https://static.futbolenlatv.com/img/32/20201017175731-toulouse-handball.webp"
-      },
-      "visitor": {
-        "name": "MOL Tatabanya KC",
-        "image": "https://static.futbolenlatv.com/img/32/20200104093629-grundfos-tatabanya-kc.webp"
-      }
-    },
-    "channels": [
-      "EHF TV"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "EHF European League"
-    },
-    "teams": {
-      "local": {
-        "name": "Porto HB",
-        "image": "https://static.futbolenlatv.com/img/32/20150921064805-Oporto.webp"
-      },
-      "visitor": {
-        "name": "Vojvodina HB",
-        "image": "https://static.futbolenlatv.com/img/32/20150921065925-vojvodina-hb.webp"
-      }
-    },
-    "channels": [
-      "EHF TV"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera FEB",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "TAU Castelló",
-        "image": "https://static.futbolenlatv.com/img/32/20150207013018-amics-castello.webp"
-      },
-      "visitor": {
-        "name": "Baloncesto Fuenlabrada",
-        "image": "https://static.futbolenlatv.com/img/32/20220809170514-baloncesto-fuenlabrada.webp"
-      }
-    },
-    "channels": [
-      "LaLiga+ Plus"
-    ],
-    "event": {}
-  },
-  {
     "sport": "futbol",
     "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
+      "hour": "19:00",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "National League"
-    },
-    "teams": {
-      "local": {
-        "name": "Gateshead",
-        "image": "https://static.futbolenlatv.com/img/32/20131114091447-gateshead.webp"
-      },
-      "visitor": {
-        "name": "Braintree Town",
-        "image": "https://static.futbolenlatv.com/img/32/20160427124739-braintree-town.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {
-      "name": "Gateshead - Braintree Town",
-      "description": "Gateshead - Braintree Town el martes, 11 de febrero de 2025 a las 20:45",
-      "startDate": "2025-02-11T19:45:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "National League"
-    },
-    "teams": {
-      "local": {
-        "name": "Southend Utd.",
-        "image": "https://static.futbolenlatv.com/img/32/20140121010135-southend-united.webp"
-      },
-      "visitor": {
-        "name": "Halifax Town",
-        "image": "https://static.futbolenlatv.com/img/32/20141105100438-halifax-town.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {
-      "name": "Southend Utd. - Halifax Town",
-      "description": "Southend Utd. - Halifax Town el martes, 11 de febrero de 2025 a las 20:45",
-      "startDate": "2025-02-11T19:45:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "National League"
-    },
-    "teams": {
-      "local": {
-        "name": "Dagenham & Redbridge",
-        "image": "https://static.futbolenlatv.com/img/32/20200831201927-dagenham-redbridge.webp"
-      },
-      "visitor": {
-        "name": "Woking",
-        "image": "https://static.futbolenlatv.com/img/32/20220906184348-woking-fc.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {
-      "name": "Dagenham & Redbridge - Woking",
-      "description": "Dagenham & Redbridge - Woking el martes, 11 de febrero de 2025 a las 20:45",
-      "startDate": "2025-02-11T19:45:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "National League North"
-    },
-    "teams": {
-      "local": {
-        "name": "Scunthorpe Utd.",
-        "image": "https://static.futbolenlatv.com/img/32/20131105072552-scunthorpe-utd.webp"
-      },
-      "visitor": {
-        "name": "Curzon Ashton",
-        "image": "https://static.futbolenlatv.com/img/32/20161102113605-curzon-ashton.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {
-      "name": "Scunthorpe Utd. - Curzon Ashton",
-      "description": "Scunthorpe Utd. - Curzon Ashton el martes, 11 de febrero de 2025 a las 20:45",
-      "startDate": "2025-02-11T19:45:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "National League North"
-    },
-    "teams": {
-      "local": {
-        "name": "Chester FC",
-        "image": "https://static.futbolenlatv.com/img/32/20141212025332-chester-city.webp"
-      },
-      "visitor": {
-        "name": "Kidderminster",
-        "image": "https://static.futbolenlatv.com/img/32/20140122105619-kidderminster.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {
-      "name": "Chester FC - Kidderminster",
-      "description": "Chester FC - Kidderminster el martes, 11 de febrero de 2025 a las 20:45",
-      "startDate": "2025-02-11T19:45:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "National League North"
-    },
-    "teams": {
-      "local": {
-        "name": "Alfreton Town",
-        "image": "https://static.futbolenlatv.com/img/32/20161102113749-alfreton-town.webp"
-      },
-      "visitor": {
-        "name": "Darlington",
-        "image": "https://static.futbolenlatv.com/img/32/20191113063116-darlington.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {
-      "name": "Alfreton Town - Darlington",
-      "description": "Alfreton Town - Darlington el martes, 11 de febrero de 2025 a las 20:45",
-      "startDate": "2025-02-11T19:45:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "National League North"
-    },
-    "teams": {
-      "local": {
-        "name": "Needham Market FC",
-        "image": "https://static.futbolenlatv.com/img/32/20250115093930-needham-market-fc.webp"
-      },
-      "visitor": {
-        "name": "Hereford",
-        "image": "https://static.futbolenlatv.com/img/32/20160506024458-hereford.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {
-      "name": "Needham Market FC - Hereford",
-      "description": "Needham Market FC - Hereford el martes, 11 de febrero de 2025 a las 20:45",
-      "startDate": "2025-02-11T19:45:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "National League South"
-    },
-    "teams": {
-      "local": {
-        "name": "Worthing FC",
-        "image": "https://static.futbolenlatv.com/img/32/20230323181009-worthing-fc.webp"
-      },
-      "visitor": {
-        "name": "Torquay Utd.",
-        "image": "https://static.futbolenlatv.com/img/32/20200831202000-torquay-united.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {
-      "name": "Worthing FC - Torquay Utd.",
-      "description": "Worthing FC - Torquay Utd. el martes, 11 de febrero de 2025 a las 20:45",
-      "startDate": "2025-02-11T19:45:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol-sala",
-    "date": {
-      "hour": "21:00",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Copa del Rey",
+      "competition": "Copa de la Reina",
       "round": "1/4 de Final"
     },
     "teams": {
       "local": {
-        "name": "Jaén FS",
-        "image": "https://static.futbolenlatv.com/img/32/20180219093859-jaenfs-tv.webp"
+        "name": "Madrid CFF",
+        "image": "https://static.futbolenlatv.com/img/32/20170330124422-madrid-cff.webp"
       },
       "visitor": {
-        "name": "Barça FS",
+        "name": "FC Barcelona Femenino",
         "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
       }
     },
     "channels": [
       "Teledeporte",
       "RTVE Play",
-      "Esport3"
+      "TV3"
+    ],
+    "event": {
+      "name": "Madrid CFF - FC Barcelona Femenino",
+      "description": "Madrid CFF - FC Barcelona Femenino el miércoles, 12 de febrero de 2025 a las 19:00",
+      "startDate": "2025-02-12T18:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "19:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Torneo de Marsella",
+      "round": "2ª Ronda"
+    },
+    "teams": {
+      "local": {
+        "name": "A. Bublik",
+        "image": "https://static.futbolenlatv.com/img/32/20130727124441-Kazajistan.webp"
+      },
+      "visitor": {
+        "name": "U. Humbert",
+        "image": "https://static.futbolenlatv.com/img/32/20130727123333-Francia.webp"
+      }
+    },
+    "channels": [
+      "ATP Tennis TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "20:00",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Minicopa Endesa",
+      "round": "Fase Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "Real Madrid Baloncesto",
+        "image": "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp"
+      },
+      "visitor": {
+        "name": "La Laguna Tenerife",
+        "image": "https://static.futbolenlatv.com/img/32/20130803090548-cb-canarias.webp"
+      }
+    },
+    "channels": [
+      "ACB YouTube"
     ],
     "event": {}
   },
   {
     "sport": "futbol-sala",
     "date": {
-      "hour": "21:00",
-      "day": "11/02/2025",
+      "hour": "20:30",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -1452,12 +1626,12 @@
     },
     "teams": {
       "local": {
-        "name": "Viña Albali Valdepeñas",
-        "image": "https://static.futbolenlatv.com/img/32/20180924092419-vina-albali-valdepenas.webp"
+        "name": "Servigroup Peñiscola FS",
+        "image": "https://static.futbolenlatv.com/img/32/20130716052411-peniscola.webp"
       },
       "visitor": {
-        "name": "Movistar Inter",
-        "image": "https://static.futbolenlatv.com/img/32/20130614064315-Inter-Movistar.webp"
+        "name": "Jimbee Cartagena FS",
+        "image": "https://static.futbolenlatv.com/img/32/20180912065412-jimbee-cartagena-fs.webp"
       }
     },
     "channels": [
@@ -1467,10 +1641,264 @@
     "event": {}
   },
   {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "20:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera FEB",
+      "round": "Liga Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "Zunder Palencia",
+        "image": "https://static.futbolenlatv.com/img/32/20211001101211-palencia-baloncesto.webp"
+      },
+      "visitor": {
+        "name": "San Pablo Burgos",
+        "image": "https://static.futbolenlatv.com/img/32/20190925100606-san-pablo-burgos.webp"
+      }
+    },
+    "channels": [
+      "LaLiga+ Plus",
+      "La 8 Burgos"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "20:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera FEB",
+      "round": "Liga Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "Gipuzkoa Basket",
+        "image": "https://static.futbolenlatv.com/img/32/20200903182221-san-sebastian-gipuzkoa-basket.webp"
+      },
+      "visitor": {
+        "name": "HLA Alicante",
+        "image": "https://static.futbolenlatv.com/img/32/20190926102711-hla-alicante.webp"
+      }
+    },
+    "channels": [
+      "LaLiga+ Plus"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "20:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera FEB",
+      "round": "Liga Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "CB Tizona Burgos",
+        "image": "https://static.futbolenlatv.com/img/32/20140930111825-cb-tizona-burgos.webp"
+      },
+      "visitor": {
+        "name": "Basquet Menorca",
+        "image": "https://static.futbolenlatv.com/img/32/20201001093427-basquet-menorca.webp"
+      }
+    },
+    "channels": [
+      "LaLiga+ Plus",
+      "La 8 Burgos"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "20:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera FEB",
+      "round": "Liga Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "Movistar Estudiantes",
+        "image": "https://static.futbolenlatv.com/img/32/20190925101244-movistar-estudiantes.webp"
+      },
+      "visitor": {
+        "name": "UEMC RV Baloncesto",
+        "image": "https://static.futbolenlatv.com/img/32/20240711221747-real-valladolid-baloncesto.webp"
+      }
+    },
+    "channels": [
+      "LaLiga+ Plus",
+      "M+ Deportes 2"
+    ],
+    "event": {},
+    "links": [
+      "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
+    ]
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "20:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera FEB",
+      "round": "Liga Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "CB Morón",
+        "image": "https://static.futbolenlatv.com/img/32/20240823081418-cb-moron.webp"
+      },
+      "visitor": {
+        "name": "CB Zamora",
+        "image": "https://static.futbolenlatv.com/img/32/20230504170357-club-baloncesto-zamora.webp"
+      }
+    },
+    "channels": [
+      "LaLiga+ Plus"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "20:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Premier League"
+    },
+    "teams": {
+      "local": {
+        "name": "Everton",
+        "image": "https://static.futbolenlatv.com/img/32/20150304024926-everton.webp"
+      },
+      "visitor": {
+        "name": "Liverpool",
+        "image": "https://static.futbolenlatv.com/img/32/20240923180620-liverpool.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "M+ Vamos",
+      "M+ #Vamos Bar",
+      "Movistar+ Lite",
+      "DAZN 1",
+      "DAZN 1 Bar",
+      "M+ Liga de Campeones 5"
+    ],
+    "event": {
+      "name": "Everton - Liverpool",
+      "description": "Everton - Liverpool el miércoles, 12 de febrero de 2025 a las 20:30",
+      "startDate": "2025-02-12T19:30:00",
+      "duration": "T1H45M"
+    },
+    "links": [
+      "acestream://8ca07071b39185431f8e940ec98d1add9e561639",
+      "acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f"
+    ]
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "20:45",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "EHF Champions League",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "KS Vive Kielce",
+        "image": "https://static.futbolenlatv.com/img/32/20130614063902-KS-Vive-Targi-Kielce.webp"
+      },
+      "visitor": {
+        "name": "SC Magdeburg",
+        "image": "https://static.futbolenlatv.com/img/32/20130822012821-sc-magdeburgo.webp"
+      }
+    },
+    "channels": [
+      "EHF TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "20:45",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera FEB",
+      "round": "Liga Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "Club Ourense Baloncesto",
+        "image": "https://static.futbolenlatv.com/img/32/20130731064826-orense-baloncesto.webp"
+      },
+      "visitor": {
+        "name": "Oviedo Baloncesto",
+        "image": "https://static.futbolenlatv.com/img/32/20211013184321-oviedo-club-baloncesto.webp"
+      }
+    },
+    "channels": [
+      "LaLiga+ Plus"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "20:45",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Coppa Italia",
+      "round": "1/4 de Final"
+    },
+    "teams": {
+      "local": {
+        "name": "Virtus Bologna",
+        "image": "https://static.futbolenlatv.com/img/32/20181227045008-virtus-bologna.webp"
+      },
+      "visitor": {
+        "name": "AX Olimpia Milano",
+        "image": "https://static.futbolenlatv.com/img/32/20180129060055-ax-olimpia-milano.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
     "sport": "futbol",
     "date": {
       "hour": "21:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -1479,12 +1907,12 @@
     },
     "teams": {
       "local": {
-        "name": "Juventus",
-        "image": "https://static.futbolenlatv.com/img/32/20170117094900-juventus.webp"
+        "name": "Feyenoord",
+        "image": "https://static.futbolenlatv.com/img/32/20121219035748_feyenoord.webp"
       },
       "visitor": {
-        "name": "PSV Eindhoven",
-        "image": "https://static.futbolenlatv.com/img/32/20121219035535_psv-eindhoven.webp"
+        "name": "AC Milan",
+        "image": "https://static.futbolenlatv.com/img/32/20121219034733_milan.webp"
       }
     },
     "channels": [
@@ -1492,9 +1920,9 @@
       "M+ Liga de Campeones 4"
     ],
     "event": {
-      "name": "Juventus - PSV Eindhoven",
-      "description": "Juventus - PSV Eindhoven el martes, 11 de febrero de 2025 a las 21:00",
-      "startDate": "2025-02-11T20:00:00",
+      "name": "Feyenoord - AC Milan",
+      "description": "Feyenoord - AC Milan el miércoles, 12 de febrero de 2025 a las 21:00",
+      "startDate": "2025-02-12T20:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -1505,7 +1933,7 @@
     "sport": "futbol",
     "date": {
       "hour": "21:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -1514,28 +1942,30 @@
     },
     "teams": {
       "local": {
-        "name": "Manchester City",
-        "image": "https://static.futbolenlatv.com/img/32/20160723124026-manchester-city.webp"
+        "name": "Celtic FC",
+        "image": "https://static.futbolenlatv.com/img/32/20121221103625_celtic-glasgow.webp"
       },
       "visitor": {
-        "name": "Real Madrid",
-        "image": "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp"
+        "name": "FC Bayern",
+        "image": "https://static.futbolenlatv.com/img/32/20121218101641_bayern-munich.webp"
       }
     },
     "channels": [
+      "Movistar Plus+",
       "M+ Liga de Campeones",
       "M+ Liga de Campeones 4",
       "LaLiga TV Bar"
     ],
     "event": {
-      "name": "Manchester City - Real Madrid",
-      "description": "Manchester City - Real Madrid el martes, 11 de febrero de 2025 a las 21:00",
-      "startDate": "2025-02-11T20:00:00",
+      "name": "Celtic FC - FC Bayern",
+      "description": "Celtic FC - FC Bayern el miércoles, 12 de febrero de 2025 a las 21:00",
+      "startDate": "2025-02-12T20:00:00",
       "duration": "T1H45M"
     },
     "links": [
       "acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280",
       "acestream://512aeadf50d91603d15b32f1e408166536ec4ac9",
+      "acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0",
       "acestream://f096a64dd756a6d549aa7b12ee9acf7eee27e833"
     ]
   },
@@ -1543,7 +1973,7 @@
     "sport": "futbol",
     "date": {
       "hour": "21:00",
-      "day": "11/02/2025",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -1552,12 +1982,12 @@
     },
     "teams": {
       "local": {
-        "name": "Sporting CP",
-        "image": "https://static.futbolenlatv.com/img/32/20121220121058_sporting-clube-de-portugal.webp"
+        "name": "AS Monaco",
+        "image": "https://static.futbolenlatv.com/img/32/20240923180846-monaco.webp"
       },
       "visitor": {
-        "name": "Borussia Dortmund",
-        "image": "https://static.futbolenlatv.com/img/32/20121218101655_borussia-dortmund.webp"
+        "name": "Benfica",
+        "image": "https://static.futbolenlatv.com/img/32/20121220121122_sporting-de-lisboa-benfica.webp"
       }
     },
     "channels": [
@@ -1565,9 +1995,9 @@
       "M+ Liga de Campeones 4"
     ],
     "event": {
-      "name": "Sporting CP - Borussia Dortmund",
-      "description": "Sporting CP - Borussia Dortmund el martes, 11 de febrero de 2025 a las 21:00",
-      "startDate": "2025-02-11T20:00:00",
+      "name": "AS Monaco - Benfica",
+      "description": "AS Monaco - Benfica el miércoles, 12 de febrero de 2025 a las 21:00",
+      "startDate": "2025-02-12T20:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -1577,8 +2007,8 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "21:45",
-      "day": "11/02/2025",
+      "hour": "21:00",
+      "day": "12/02/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -1587,12 +2017,12 @@
     },
     "teams": {
       "local": {
-        "name": "Barracas Central",
-        "image": "https://static.futbolenlatv.com/img/32/20141118022620-barracas.webp"
+        "name": "Deportivo Riestra",
+        "image": "https://static.futbolenlatv.com/img/32/20141205114007-deportivo-riestra.webp"
       },
       "visitor": {
-        "name": "Central Córdoba",
-        "image": "https://static.futbolenlatv.com/img/32/20140822080941-central-cordoba.webp"
+        "name": "Rosario Central",
+        "image": "https://static.futbolenlatv.com/img/32/20130804050508-rosario-central.webp"
       }
     },
     "channels": [
@@ -1600,9 +2030,134 @@
       "AFA Play"
     ],
     "event": {
-      "name": "Barracas Central - Central Córdoba",
-      "description": "Barracas Central - Central Córdoba el martes, 11 de febrero de 2025 a las 21:45",
-      "startDate": "2025-02-11T20:45:00",
+      "name": "Deportivo Riestra - Rosario Central",
+      "description": "Deportivo Riestra - Rosario Central el miércoles, 12 de febrero de 2025 a las 21:00",
+      "startDate": "2025-02-12T20:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "21:45",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera División Argentina",
+      "round": "Torneo Apertura"
+    },
+    "teams": {
+      "local": {
+        "name": "Newell's Old Boys",
+        "image": "https://static.futbolenlatv.com/img/32/20121219051543_newellžs-old-boys.webp"
+      },
+      "visitor": {
+        "name": "Defensa y Justicia",
+        "image": "https://static.futbolenlatv.com/img/32/20140621094213-defensa-y-justicia.webp"
+      }
+    },
+    "channels": [
+      "Fanatiz",
+      "AFA Play"
+    ],
+    "event": {
+      "name": "Newell's Old Boys - Defensa y Justicia",
+      "description": "Newell's Old Boys - Defensa y Justicia el miércoles, 12 de febrero de 2025 a las 21:45",
+      "startDate": "2025-02-12T20:45:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "23:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Campeonato Paulista"
+    },
+    "teams": {
+      "local": {
+        "name": "Mirassol",
+        "image": "https://static.futbolenlatv.com/img/32/20180207105031-mirassol.webp"
+      },
+      "visitor": {
+        "name": "Ponte Preta",
+        "image": "https://static.futbolenlatv.com/img/32/20121222104742_ponte-preta.webp"
+      }
+    },
+    "channels": [
+      "Fanatiz",
+      "Brasileirão Play"
+    ],
+    "event": {
+      "name": "Mirassol - Ponte Preta",
+      "description": "Mirassol - Ponte Preta el miércoles, 12 de febrero de 2025 a las 23:30",
+      "startDate": "2025-02-12T22:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "23:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Campeonato Paulista"
+    },
+    "teams": {
+      "local": {
+        "name": "Água Santa",
+        "image": "https://static.futbolenlatv.com/img/32/20160303052559-agua-santa.webp"
+      },
+      "visitor": {
+        "name": "Portuguesa",
+        "image": "https://static.futbolenlatv.com/img/32/20121222104812_portuguesa.webp"
+      }
+    },
+    "channels": [
+      "Fanatiz",
+      "Brasileirão Play"
+    ],
+    "event": {
+      "name": "Água Santa - Portuguesa",
+      "description": "Água Santa - Portuguesa el miércoles, 12 de febrero de 2025 a las 23:30",
+      "startDate": "2025-02-12T22:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "23:30",
+      "day": "12/02/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Campeonato Paulista"
+    },
+    "teams": {
+      "local": {
+        "name": "Noroeste",
+        "image": "https://static.futbolenlatv.com/img/32/20180203105600-noroeste.webp"
+      },
+      "visitor": {
+        "name": "São Bernardo",
+        "image": "https://static.futbolenlatv.com/img/32/20200825070729-sao-bernardo.webp"
+      }
+    },
+    "channels": [
+      "Fanatiz",
+      "Brasileirão Play"
+    ],
+    "event": {
+      "name": "Noroeste - São Bernardo",
+      "description": "Noroeste - São Bernardo el miércoles, 12 de febrero de 2025 a las 23:30",
+      "startDate": "2025-02-12T22:30:00",
       "duration": "T1H45M"
     }
   },
@@ -1715,285 +2270,6 @@
       "Canal por confirmar"
     ],
     "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "00:00",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Carioca Série A",
-      "round": "Estádio Lourival Gomes de Almeida, Saquarema, Rio de Janeiro"
-    },
-    "teams": {
-      "local": {
-        "name": "Sampaio Corrêa",
-        "image": "https://static.futbolenlatv.com/img/32/20150424124026-sampaio-correa.webp"
-      },
-      "visitor": {
-        "name": "Vasco da Gama",
-        "image": "https://static.futbolenlatv.com/img/32/20121222111424_vasco-da-gama.webp"
-      }
-    },
-    "channels": [
-      "Fanatiz"
-    ],
-    "event": {
-      "name": "Sampaio Corrêa - Vasco da Gama",
-      "description": "Sampaio Corrêa - Vasco da Gama el martes, 11 de febrero de 2025 a las 0:00",
-      "startDate": "2025-02-10T23:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "01:30",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Campeonato Paulista"
-    },
-    "teams": {
-      "local": {
-        "name": "São Paulo",
-        "image": "https://static.futbolenlatv.com/img/32/20121222105631_sao-paulo.webp"
-      },
-      "visitor": {
-        "name": "Inter de Limeira",
-        "image": "https://static.futbolenlatv.com/img/32/20180122113531-inter-de-limeira.webp"
-      }
-    },
-    "channels": [
-      "Fanatiz",
-      "Brasileirão Play"
-    ],
-    "event": {
-      "name": "São Paulo - Inter de Limeira",
-      "description": "São Paulo - Inter de Limeira el martes, 11 de febrero de 2025 a las 1:30",
-      "startDate": "2025-02-11T00:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "02:00",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Sudamericano Sub-20",
-      "round": "Fase final"
-    },
-    "teams": {
-      "local": {
-        "name": "Chile",
-        "image": "https://static.futbolenlatv.com/img/32/20130322050634_chile.webp"
-      },
-      "visitor": {
-        "name": "Uruguay",
-        "image": "https://static.futbolenlatv.com/img/32/20130108083741_uruguay.webp"
-      }
-    },
-    "channels": [
-      "CONMEBOL YouTube"
-    ],
-    "event": {
-      "name": "Chile - Uruguay",
-      "description": "Chile - Uruguay el martes, 11 de febrero de 2025 a las 2:00",
-      "startDate": "2025-02-11T01:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:30",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Bundesliga Femenina"
-    },
-    "teams": {
-      "local": {
-        "name": "SGS Essen",
-        "image": "https://static.futbolenlatv.com/img/32/20140309105917-sgs-essen.webp"
-      },
-      "visitor": {
-        "name": "FC Köln Femenino",
-        "image": "https://static.futbolenlatv.com/img/32/20190317041550-Colonia.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis"
-    ],
-    "event": {
-      "name": "SGS Essen - FC Köln Femenino",
-      "description": "SGS Essen - FC Köln Femenino el martes, 11 de febrero de 2025 a las 18:30",
-      "startDate": "2025-02-11T17:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Champions League",
-      "round": "Play-Off"
-    },
-    "teams": {
-      "local": {
-        "name": "Stade Brestois",
-        "image": "https://static.futbolenlatv.com/img/32/20130117033942_stade-brestois-29.webp"
-      },
-      "visitor": {
-        "name": "PSG",
-        "image": "https://static.futbolenlatv.com/img/32/20131224050227-psg.webp"
-      }
-    },
-    "channels": [
-      "M+ Liga de Campeones 2"
-    ],
-    "event": {
-      "name": "Stade Brestois - PSG",
-      "description": "Stade Brestois - PSG el martes, 11 de febrero de 2025 a las 18:45",
-      "startDate": "2025-02-11T17:45:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://fc2fe31b0bce25e2dc7ab4d262bf645e2be5a393"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "19:00",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Copa de la Reina",
-      "round": "1/4 de Final"
-    },
-    "teams": {
-      "local": {
-        "name": "Cacereño Femenino",
-        "image": "https://static.futbolenlatv.com/img/32/20210813152649-cp-cacereno-femenino.webp"
-      },
-      "visitor": {
-        "name": "At. Madrid Femenino",
-        "image": "https://static.futbolenlatv.com/img/32/20240712124213-atletico-madrid-femenino.webp"
-      }
-    },
-    "channels": [
-      "RFEF.es"
-    ],
-    "event": {
-      "name": "Cacereño Femenino - At. Madrid Femenino",
-      "description": "Cacereño Femenino - At. Madrid Femenino el martes, 11 de febrero de 2025 a las 19:00",
-      "startDate": "2025-02-11T18:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:30",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Coppa Italia Serie C"
-    },
-    "teams": {
-      "local": {
-        "name": "Rimini",
-        "image": "https://static.futbolenlatv.com/img/32/20191029064626-rimini.webp"
-      },
-      "visitor": {
-        "name": "Trapani",
-        "image": "https://static.futbolenlatv.com/img/32/20130828104749-trapani.webp"
-      }
-    },
-    "channels": [
-      "FIFA+"
-    ],
-    "event": {
-      "name": "Rimini - Trapani",
-      "description": "Rimini - Trapani el martes, 11 de febrero de 2025 a las 20:30",
-      "startDate": "2025-02-11T19:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "National League"
-    },
-    "teams": {
-      "local": {
-        "name": "Hartlepool United",
-        "image": "https://static.futbolenlatv.com/img/32/20130416055425_hartlepool.webp"
-      },
-      "visitor": {
-        "name": "Tamworth FC",
-        "image": "https://static.futbolenlatv.com/img/32/20240211193519-tamworth-fc.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {
-      "name": "Hartlepool United - Tamworth FC",
-      "description": "Hartlepool United - Tamworth FC el martes, 11 de febrero de 2025 a las 20:45",
-      "startDate": "2025-02-11T19:45:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:45",
-      "day": "11/02/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "National League"
-    },
-    "teams": {
-      "local": {
-        "name": "Oldham Athletic",
-        "image": "https://static.futbolenlatv.com/img/32/20211013183956-oldham-athletic.webp"
-      },
-      "visitor": {
-        "name": "Altrincham",
-        "image": "https://static.futbolenlatv.com/img/32/20160216110459-altrincham.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {
-      "name": "Oldham Athletic - Altrincham",
-      "description": "Oldham Athletic - Altrincham el martes, 11 de febrero de 2025 a las 20:45",
-      "startDate": "2025-02-11T19:45:00",
-      "duration": "T1H45M"
-    }
   },
   {
     "sport": "golf",
