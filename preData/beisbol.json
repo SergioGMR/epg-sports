@@ -3,22 +3,57 @@
     {
       "sport": "beisbol",
       "date": {
-        "hour": "04:00",
-        "day": "05/02/2025",
+        "hour": "05:00",
+        "day": "21/02/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Serie del Caribe"
+        "competition": "Clásico Mundial de Béisbol",
+        "round": "Fase de Clasificación"
       },
       "teams": {
-        "local": {},
-        "visitor": {}
+        "local": {
+          "name": "Nicaragua",
+          "image": "https://static.futbolenlatv.com/img/32/20140903103529-nicaragua.webp"
+        },
+        "visitor": {
+          "name": "Sudáfrica",
+          "image": "https://static.futbolenlatv.com/img/32/20130103115154_sudafrica.webp"
+        }
       },
       "channels": [
-        "DAZN"
+        "World Baseball Classic YouTube",
+        "Facebook World Baseball Classic"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "beisbol",
+      "date": {
+        "hour": "12:00",
+        "day": "21/02/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Clásico Mundial de Béisbol",
+        "round": "Fase de Clasificación"
+      },
+      "teams": {
+        "local": {
+          "name": "China Taipéi",
+          "image": "https://static.futbolenlatv.com/img/32/20140910093809-china-taipei.webp"
+        },
+        "visitor": {
+          "name": "España",
+          "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+        }
+      },
+      "channels": [
+        "World Baseball Classic YouTube",
+        "Facebook World Baseball Classic"
       ],
       "event": {}
     }
   ],
-  "updated": "2025-02-19T00:11:46.615Z"
+  "updated": "2025-02-20T00:12:04.984Z"
 }
