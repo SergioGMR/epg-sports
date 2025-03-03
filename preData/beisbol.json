@@ -3,8 +3,36 @@
     {
       "sport": "beisbol",
       "date": {
+        "hour": "02:00",
+        "day": "03/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Clásico Mundial de Béisbol",
+        "round": "Fase de Clasificación"
+      },
+      "teams": {
+        "local": {
+          "name": "Colombia",
+          "image": "https://static.futbolenlatv.com/img/32/20130410092520_colombia.webp"
+        },
+        "visitor": {
+          "name": "Brasil",
+          "image": "https://static.futbolenlatv.com/img/32/20130204124155_brasil.webp"
+        }
+      },
+      "channels": [
+        "World Baseball Classic YouTube",
+        "Facebook World Baseball Classic",
+        "BeisbolPlay"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "beisbol",
+      "date": {
         "hour": "19:00",
-        "day": "02/03/2025",
+        "day": "03/03/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -17,16 +45,17 @@
           "image": "https://static.futbolenlatv.com/img/32/20130130075653_alemania.webp"
         },
         "visitor": {
-          "name": "China",
-          "image": "https://static.futbolenlatv.com/img/32/20130221121827_china.webp"
+          "name": "Brasil",
+          "image": "https://static.futbolenlatv.com/img/32/20130204124155_brasil.webp"
         }
       },
       "channels": [
         "World Baseball Classic YouTube",
-        "Facebook World Baseball Classic"
+        "Facebook World Baseball Classic",
+        "BeisbolPlay"
       ],
       "event": {}
     }
   ],
-  "updated": "2025-03-02T00:12:42.132Z"
+  "updated": "2025-03-03T00:12:24.120Z"
 }
