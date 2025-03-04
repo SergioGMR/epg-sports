@@ -23,56 +23,153 @@
       "event": {}
     },
     {
-      "sport": "hockey-patines",
-      "date": {
-        "hour": "13:00",
-        "day": "01/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "OK Liga Femenina"
-      },
-      "teams": {
-        "local": {},
-        "visitor": {}
-      },
-      "channels": [
-        "Esport3"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "tenis",
+      "sport": "futbol",
       "date": {
         "hour": "00:00",
-        "day": "03/03/2025",
+        "day": "04/03/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "WTA Torneo de Mérida",
-        "round": "Final"
+        "competition": "Campeonato Paulista"
       },
       "teams": {
         "local": {
-          "name": "E. Navarro",
-          "image": "https://static.futbolenlatv.com/img/32/20130727120523-EEUU.webp"
+          "name": "São Paulo",
+          "image": "https://static.futbolenlatv.com/img/32/20121222105631_sao-paulo.webp"
         },
         "visitor": {
-          "name": "E. Arango",
-          "image": "https://static.futbolenlatv.com/img/32/20200712114704-samuel-vargas.webp"
+          "name": "Grêmio Novorizontino",
+          "image": "https://static.futbolenlatv.com/img/32/20170208093853-novorizontino.webp"
         }
       },
       "channels": [
-        "WTA TV",
-        "Tennis Channel"
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "São Paulo - Grêmio Novorizontino",
+        "description": "São Paulo - Grêmio Novorizontino el martes, 4 de marzo de 2025 a las 0:00",
+        "startDate": "2025-03-03T23:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Philadelphia 76ers",
+          "image": "https://static.futbolenlatv.com/img/32/20191028090432-philadelphia-76ers.webp"
+        },
+        "visitor": {
+          "name": "Portland Trail Blazers",
+          "image": "https://static.futbolenlatv.com/img/32/20191028090608-portland-trail-blazers.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
       ],
       "event": {}
     },
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "00:00",
-        "day": "03/03/2025",
+        "hour": "01:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Charlotte Hornets",
+          "image": "https://static.futbolenlatv.com/img/32/20141024124231-charlotte-hornets.webp"
+        },
+        "visitor": {
+          "name": "Golden State Warriors",
+          "image": "https://static.futbolenlatv.com/img/32/20130808083832-gs-warriors.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Pro Ecuador"
+      },
+      "teams": {
+        "local": {
+          "name": "Manta FC",
+          "image": "https://static.futbolenlatv.com/img/32/20140823020451-manta-fc.webp"
+        },
+        "visitor": {
+          "name": "Delfín SC",
+          "image": "https://static.futbolenlatv.com/img/32/20191111111707-delfin-sc.webp"
+        }
+      },
+      "channels": [
+        "ElCanalDelFutbol.com"
+      ],
+      "event": {
+        "name": "Manta FC - Delfín SC",
+        "description": "Manta FC - Delfín SC el martes, 4 de marzo de 2025 a las 1:00",
+        "startDate": "2025-03-04T00:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera División Argentina",
+        "round": "Torneo Apertura"
+      },
+      "teams": {
+        "local": {
+          "name": "Atlético Tucumán",
+          "image": "https://static.futbolenlatv.com/img/32/20140815121718-atletico-tucuman.webp"
+        },
+        "visitor": {
+          "name": "Newell's Old Boys",
+          "image": "https://static.futbolenlatv.com/img/32/20121219051543_newellžs-old-boys.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Atlético Tucumán - Newell's Old Boys",
+        "description": "Atlético Tucumán - Newell's Old Boys el martes, 4 de marzo de 2025 a las 1:00",
+        "startDate": "2025-03-04T00:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:30",
+        "day": "04/03/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -85,254 +182,20 @@
           "image": "https://static.futbolenlatv.com/img/32/20130614063349-Miami-Heat.webp"
         },
         "visitor": {
-          "name": "New York Knicks",
-          "image": "https://static.futbolenlatv.com/img/32/20130808083641-new-york-knicks.webp"
+          "name": "Washington Wizards",
+          "image": "https://static.futbolenlatv.com/img/32/20191028090528-washington-wizards.webp"
         }
       },
       "channels": [
         "NBA League Pass"
       ],
       "event": {}
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "00:00",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Orlando Magic",
-          "image": "https://static.futbolenlatv.com/img/32/20191028090502-orlando-magic.webp"
-        },
-        "visitor": {
-          "name": "Toronto Raptors",
-          "image": "https://static.futbolenlatv.com/img/32/20201220190859-toronto-raptors.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "00:00",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga 1 Perú"
-      },
-      "teams": {
-        "local": {
-          "name": "Universitario",
-          "image": "https://static.futbolenlatv.com/img/32/20140603082828-club-universitario-de-deportes.webp"
-        },
-        "visitor": {
-          "name": "Alianza Universidad",
-          "image": "https://static.futbolenlatv.com/img/32/20190121122402-alianza-universidad.webp"
-        }
-      },
-      "channels": [
-        "GolTV Play"
-      ],
-      "event": {
-        "name": "Universitario - Alianza Universidad",
-        "description": "Universitario - Alianza Universidad el lunes, 3 de marzo de 2025 a las 0:00",
-        "startDate": "2025-03-02T23:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "00:00",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Pro Ecuador"
-      },
-      "teams": {
-        "local": {
-          "name": "El Nacional",
-          "image": "https://static.futbolenlatv.com/img/32/20140720101115-club-deportivo-el-nacional.webp"
-        },
-        "visitor": {
-          "name": "Técnico Universitario",
-          "image": "https://static.futbolenlatv.com/img/32/20141122033616-tecnico-universitario.webp"
-        }
-      },
-      "channels": [
-        "ElCanalDelFutbol.com"
-      ],
-      "event": {
-        "name": "El Nacional - Técnico Universitario",
-        "description": "El Nacional - Técnico Universitario el lunes, 3 de marzo de 2025 a las 0:00",
-        "startDate": "2025-03-02T23:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "00:45",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Amistoso Femenino"
-      },
-      "teams": {
-        "local": {
-          "name": "Alianza Lima Femenino",
-          "image": "https://static.futbolenlatv.com/img/32/20140603083857-alianza-lima.webp"
-        },
-        "visitor": {
-          "name": "Independiente Femenino",
-          "image": "https://static.futbolenlatv.com/img/32/20121219051437_independiente.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "Alianza Lima Femenino - Independiente Femenino",
-        "description": "Alianza Lima Femenino - Independiente Femenino el lunes, 3 de marzo de 2025 a las 0:45",
-        "startDate": "2025-03-02T23:45:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "00:45",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Campeonato Paulista"
-      },
-      "teams": {
-        "local": {
-          "name": "Santos",
-          "image": "https://static.futbolenlatv.com/img/32/20180213074034-santos.webp"
-        },
-        "visitor": {
-          "name": "RB Bragantino",
-          "image": "https://static.futbolenlatv.com/img/32/20200122125639-rb-bragantino.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "Santos - RB Bragantino",
-        "description": "Santos - RB Bragantino el lunes, 3 de marzo de 2025 a las 0:45",
-        "startDate": "2025-03-02T23:45:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "01:00",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "San Antonio Spurs",
-          "image": "https://static.futbolenlatv.com/img/32/20191028090705-san-antonio-spurs.webp"
-        },
-        "visitor": {
-          "name": "Oklahoma C. Thunder",
-          "image": "https://static.futbolenlatv.com/img/32/20130808083758-oc-thunder.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "01:30",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera División Argentina",
-        "round": "Torneo Apertura"
-      },
-      "teams": {
-        "local": {
-          "name": "Banfield",
-          "image": "https://static.futbolenlatv.com/img/32/20140621094222-banfield.webp"
-        },
-        "visitor": {
-          "name": "Independiente",
-          "image": "https://static.futbolenlatv.com/img/32/20121219051437_independiente.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "Banfield - Independiente",
-        "description": "Banfield - Independiente el lunes, 3 de marzo de 2025 a las 1:30",
-        "startDate": "2025-03-03T00:30:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "01:30",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera División Argentina",
-        "round": "Torneo Apertura"
-      },
-      "teams": {
-        "local": {
-          "name": "Platense",
-          "image": "https://static.futbolenlatv.com/img/32/20140812073636-platense.webp"
-        },
-        "visitor": {
-          "name": "Defensa y Justicia",
-          "image": "https://static.futbolenlatv.com/img/32/20140621094213-defensa-y-justicia.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "Platense - Defensa y Justicia",
-        "description": "Platense - Defensa y Justicia el lunes, 3 de marzo de 2025 a las 1:30",
-        "startDate": "2025-03-03T00:30:00",
-        "duration": "T1H45M"
-      }
     },
     {
       "sport": "beisbol",
       "date": {
         "hour": "02:00",
-        "day": "03/03/2025",
+        "day": "04/03/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -341,12 +204,12 @@
       },
       "teams": {
         "local": {
-          "name": "Colombia",
-          "image": "https://static.futbolenlatv.com/img/32/20130410092520_colombia.webp"
+          "name": "China",
+          "image": "https://static.futbolenlatv.com/img/32/20130221121827_china.webp"
         },
         "visitor": {
-          "name": "Brasil",
-          "image": "https://static.futbolenlatv.com/img/32/20130204124155_brasil.webp"
+          "name": "Colombia",
+          "image": "https://static.futbolenlatv.com/img/32/20130410092520_colombia.webp"
         }
       },
       "channels": [
@@ -360,7 +223,85 @@
       "sport": "baloncesto",
       "date": {
         "hour": "02:00",
-        "day": "03/03/2025",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Memphis Grizzlies",
+          "image": "https://static.futbolenlatv.com/img/32/20191028090731-memphis-grizzlies.webp"
+        },
+        "visitor": {
+          "name": "Atlanta Hawks",
+          "image": "https://static.futbolenlatv.com/img/32/20191028090539-atlanta-hawks.webp"
+        }
+      },
+      "channels": [
+        "M+ Deportes"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "02:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Oklahoma C. Thunder",
+          "image": "https://static.futbolenlatv.com/img/32/20130808083758-oc-thunder.webp"
+        },
+        "visitor": {
+          "name": "Houston Rockets",
+          "image": "https://static.futbolenlatv.com/img/32/20191028090908-houston-rockets.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "02:30",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Dallas Mavericks",
+          "image": "https://static.futbolenlatv.com/img/32/20130808083728-dallas-mavericks.webp"
+        },
+        "visitor": {
+          "name": "Sacramento Kings",
+          "image": "https://static.futbolenlatv.com/img/32/20201220190924-sacramento-kings.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "03:00",
+        "day": "04/03/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -373,60 +314,8 @@
           "image": "https://static.futbolenlatv.com/img/32/20191028090654-utah-jazz.webp"
         },
         "visitor": {
-          "name": "New Orleans Pelicans",
-          "image": "https://static.futbolenlatv.com/img/32/20141024125153-new-orleans-pelicans.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "03:30",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Los Angeles Lakers",
-          "image": "https://static.futbolenlatv.com/img/32/20130808083216-la-lakers.webp"
-        },
-        "visitor": {
-          "name": "Los Angeles Clippers",
-          "image": "https://static.futbolenlatv.com/img/32/20191028090717-los-angeles-clippers.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "03:30",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Phoenix Suns",
-          "image": "https://static.futbolenlatv.com/img/32/20130808083815-phoenix-suns.webp"
-        },
-        "visitor": {
-          "name": "Minnesota Timberwolves",
-          "image": "https://static.futbolenlatv.com/img/32/20201220190912-minnesota-timberwolves.webp"
+          "name": "Detroit Pistons",
+          "image": "https://static.futbolenlatv.com/img/32/20191028090514-detroit-pistons.webp"
         }
       },
       "channels": [
@@ -437,8 +326,8 @@
     {
       "sport": "padel",
       "date": {
-        "hour": "12:00",
-        "day": "03/03/2025",
+        "hour": "13:00",
+        "day": "04/03/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -459,8 +348,102 @@
     {
       "sport": "futbol",
       "date": {
+        "hour": "13:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC Champions League Elite"
+      },
+      "teams": {
+        "local": {
+          "name": "Shanghai Port",
+          "image": "https://static.futbolenlatv.com/img/32/20150703051851-shanghai-sipg.webp"
+        },
+        "visitor": {
+          "name": "Yokohama F. Marinos",
+          "image": "https://static.futbolenlatv.com/img/32/20200704135954-yokohama.webp"
+        }
+      },
+      "channels": [
+        "OneFootball",
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Shanghai Port - Yokohama F. Marinos",
+        "description": "Shanghai Port - Yokohama F. Marinos el martes, 4 de marzo de 2025 a las 13:00",
+        "startDate": "2025-03-04T12:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "UEFA Youth League",
+        "round": "1/8 de final"
+      },
+      "teams": {
+        "local": {
+          "name": "Red Bull Salzburg Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20130814030214-salzburg.webp"
+        },
+        "visitor": {
+          "name": "At. Madrid Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20240712124125-atletico-madrid-cantera.webp"
+        }
+      },
+      "channels": [
+        "UEFA TV",
+        "M+ Liga de Campeones"
+      ],
+      "event": {
+        "name": "Red Bull Salzburg Academy - At. Madrid Academy",
+        "description": "Red Bull Salzburg Academy - At. Madrid Academy el martes, 4 de marzo de 2025 a las 14:00",
+        "startDate": "2025-03-04T13:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
         "hour": "15:00",
-        "day": "03/03/2025",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC Champions League Elite"
+      },
+      "teams": {
+        "local": {
+          "name": "Buriram United",
+          "image": "https://static.futbolenlatv.com/img/32/20130416064204_buriram.webp"
+        },
+        "visitor": {
+          "name": "Johor Darul Takzim",
+          "image": "https://static.futbolenlatv.com/img/32/20150521012418-darul-takzim.webp"
+        }
+      },
+      "channels": [
+        "OneFootball",
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Buriram United - Johor Darul Takzim",
+        "description": "Buriram United - Johor Darul Takzim el martes, 4 de marzo de 2025 a las 15:00",
+        "startDate": "2025-03-04T14:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:00",
+        "day": "04/03/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -468,12 +451,12 @@
       },
       "teams": {
         "local": {
-          "name": "Chennaiyin",
-          "image": "https://static.futbolenlatv.com/img/32/20141014051748-chennaiyin.webp"
+          "name": "FC Goa",
+          "image": "https://static.futbolenlatv.com/img/32/20141014051907-fc-goa.webp"
         },
         "visitor": {
-          "name": "NorthEast United",
-          "image": "https://static.futbolenlatv.com/img/32/20141011100443-northeast-united.webp"
+          "name": "Mohammedan Sporting Club",
+          "image": "https://static.futbolenlatv.com/img/32/20221216093204-mohammedan-sporting-club.webp"
         }
       },
       "channels": [
@@ -481,9 +464,44 @@
         "OneFootball PPV"
       ],
       "event": {
-        "name": "Chennaiyin - NorthEast United",
-        "description": "Chennaiyin - NorthEast United el lunes, 3 de marzo de 2025 a las 15:00",
-        "startDate": "2025-03-03T14:00:00",
+        "name": "FC Goa - Mohammedan Sporting Club",
+        "description": "FC Goa - Mohammedan Sporting Club el martes, 4 de marzo de 2025 a las 15:00",
+        "startDate": "2025-03-04T14:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "UEFA Youth League",
+        "round": "1/8 de final"
+      },
+      "teams": {
+        "local": {
+          "name": "Aston Villa Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20240923180734-aston-villa-academy.webp"
+        },
+        "visitor": {
+          "name": "FC Barcelona Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
+        }
+      },
+      "channels": [
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite",
+        "UEFA TV",
+        "Barça One"
+      ],
+      "event": {
+        "name": "Aston Villa Academy - FC Barcelona Academy",
+        "description": "Aston Villa Academy - FC Barcelona Academy el martes, 4 de marzo de 2025 a las 16:00",
+        "startDate": "2025-03-04T15:00:00",
         "duration": "T1H45M"
       }
     },
@@ -491,7 +509,7 @@
       "sport": "futbol",
       "date": {
         "hour": "17:00",
-        "day": "03/03/2025",
+        "day": "04/03/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -499,12 +517,12 @@
       },
       "teams": {
         "local": {
-          "name": "Esteghlal",
-          "image": "https://static.futbolenlatv.com/img/32/20130416064510_esteghlal.webp"
+          "name": "Pakhtakor",
+          "image": "https://static.futbolenlatv.com/img/32/20130416054952_pakhtakor.webp"
         },
         "visitor": {
-          "name": "Al Nassr",
-          "image": "https://static.futbolenlatv.com/img/32/20240522170910-al-nassr.webp"
+          "name": "Al Hilal",
+          "image": "https://static.futbolenlatv.com/img/32/20230208190309-al-hilal.webp"
         }
       },
       "channels": [
@@ -512,375 +530,95 @@
         "OneFootball PPV"
       ],
       "event": {
-        "name": "Esteghlal - Al Nassr",
-        "description": "Esteghlal - Al Nassr el lunes, 3 de marzo de 2025 a las 17:00",
-        "startDate": "2025-03-03T16:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "beisbol",
-      "date": {
-        "hour": "19:00",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Clásico Mundial de Béisbol",
-        "round": "Fase de Clasificación"
-      },
-      "teams": {
-        "local": {
-          "name": "Alemania",
-          "image": "https://static.futbolenlatv.com/img/32/20130130075653_alemania.webp"
-        },
-        "visitor": {
-          "name": "Brasil",
-          "image": "https://static.futbolenlatv.com/img/32/20130204124155_brasil.webp"
-        }
-      },
-      "channels": [
-        "World Baseball Classic YouTube",
-        "Facebook World Baseball Classic",
-        "BeisbolPlay"
-      ],
-      "event": {}
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "19:00",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "AFC Champions League Elite"
-      },
-      "teams": {
-        "local": {
-          "name": "Al Wasl",
-          "image": "https://static.futbolenlatv.com/img/32/20180723114716-al-wasl.webp"
-        },
-        "visitor": {
-          "name": "Al Sadd",
-          "image": "https://static.futbolenlatv.com/img/32/20191211093059-al-sadd.webp"
-        }
-      },
-      "channels": [
-        "OneFootball",
-        "OneFootball PPV"
-      ],
-      "event": {
-        "name": "Al Wasl - Al Sadd",
-        "description": "Al Wasl - Al Sadd el lunes, 3 de marzo de 2025 a las 19:00",
-        "startDate": "2025-03-03T18:00:00",
+        "name": "Pakhtakor - Al Hilal",
+        "description": "Pakhtakor - Al Hilal el martes, 4 de marzo de 2025 a las 17:00",
+        "startDate": "2025-03-04T16:00:00",
         "duration": "T1H45M"
       }
     },
     {
       "sport": "futbol",
       "date": {
-        "hour": "19:00",
-        "day": "03/03/2025",
+        "hour": "18:00",
+        "day": "04/03/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Liga Polaca"
+        "competition": "Amistoso Sub-15"
       },
       "teams": {
         "local": {
-          "name": "Raków Częstochowa",
-          "image": "https://static.futbolenlatv.com/img/32/20200525103006-rakow-czestochowa.webp"
+          "name": "España",
+          "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
         },
         "visitor": {
-          "name": "Lechia Gdansk",
-          "image": "https://static.futbolenlatv.com/img/32/20130606104420-lechia-gdansk.webp"
+          "name": "Italia",
+          "image": "https://static.futbolenlatv.com/img/32/20130111045624_italia.webp"
         }
       },
       "channels": [
-        "OneFootball",
-        "OneFootball PPV"
+        "SeFutbol YouTube",
+        "RFEF.es",
+        "Twitter @SeFutbol"
       ],
       "event": {
-        "name": "Raków Częstochowa - Lechia Gdansk",
-        "description": "Raków Częstochowa - Lechia Gdansk el lunes, 3 de marzo de 2025 a las 19:00",
-        "startDate": "2025-03-03T18:00:00",
+        "name": "España - Italia",
+        "description": "España - Italia el martes, 4 de marzo de 2025 a las 18:00",
+        "startDate": "2025-03-04T17:00:00",
         "duration": "T1H45M"
       }
     },
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "20:30",
-        "day": "03/03/2025",
+        "hour": "18:30",
+        "day": "04/03/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Euroliga",
-        "round": "Liga Regular"
+        "competition": "Basketball Champions League",
+        "round": "Top 16"
       },
       "teams": {
         "local": {
-          "name": "Paris Basketball",
-          "image": "https://static.futbolenlatv.com/img/32/20220711185727-paris-basketball.webp"
+          "name": "S. Oliver Baskets",
+          "image": "https://static.futbolenlatv.com/img/32/20130914110511-s-oliver-baskets.webp"
         },
         "visitor": {
-          "name": "Fenerbahce Istanbul",
-          "image": "https://static.futbolenlatv.com/img/32/20130716022542-fenerbahce-ulker.webp"
+          "name": "AEK BC",
+          "image": "https://static.futbolenlatv.com/img/32/20161021044329-aek-bc.webp"
         }
       },
       "channels": [
-        "M+ Deportes"
+        "DAZN"
       ],
       "event": {}
     },
     {
-      "sport": "futbol",
+      "sport": "baloncesto",
       "date": {
-        "hour": "20:30",
-        "day": "03/03/2025",
+        "hour": "18:30",
+        "day": "04/03/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "LaLiga Hypermotion"
+        "competition": "Basketball Champions League",
+        "round": "Top 16"
       },
       "teams": {
         "local": {
-          "name": "Mirandés",
-          "image": "https://static.futbolenlatv.com/img/32/20121218094206_mirandes.webp"
+          "name": "CEZl Nymburk",
+          "image": "https://static.futbolenlatv.com/img/32/20131006072337-basketball-nymburk.webp"
         },
         "visitor": {
-          "name": "CD Tenerife",
-          "image": "https://static.futbolenlatv.com/img/32/20121219073149_tenerife.webp"
+          "name": "Nanterre 92",
+          "image": "https://static.futbolenlatv.com/img/32/20130716021208-jsf-nanterre.webp"
         }
       },
       "channels": [
-        "LALIGA TV Hypermotion",
-        "Amazon Prime Video",
-        "DAZN",
-        "GolStadium Premium",
-        "LaLiga TV M2"
+        "DAZN"
       ],
-      "event": {
-        "name": "Mirandés - CD Tenerife",
-        "description": "Mirandés - CD Tenerife el lunes, 3 de marzo de 2025 a las 20:30",
-        "startDate": "2025-03-03T19:30:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:30",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Serie C"
-      },
-      "teams": {
-        "local": {
-          "name": "Perugia",
-          "image": "https://static.futbolenlatv.com/img/32/20140828103329-perugia.webp"
-        },
-        "visitor": {
-          "name": "Ascoli",
-          "image": "https://static.futbolenlatv.com/img/32/20210315100730-ascoli.webp"
-        }
-      },
-      "channels": [
-        "FIFA+"
-      ],
-      "event": {
-        "name": "Perugia - Ascoli",
-        "description": "Perugia - Ascoli el lunes, 3 de marzo de 2025 a las 20:30",
-        "startDate": "2025-03-03T19:30:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:45",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Serie A Italiana"
-      },
-      "teams": {
-        "local": {
-          "name": "Juventus",
-          "image": "https://static.futbolenlatv.com/img/32/20170117094900-juventus.webp"
-        },
-        "visitor": {
-          "name": "Hellas Verona",
-          "image": "https://static.futbolenlatv.com/img/32/20200907114144-hellas-verona.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {
-        "name": "Juventus - Hellas Verona",
-        "description": "Juventus - Hellas Verona el lunes, 3 de marzo de 2025 a las 20:45",
-        "startDate": "2025-03-03T19:45:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:00",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "La Liga EA Sports"
-      },
-      "teams": {
-        "local": {
-          "name": "Villarreal",
-          "image": "https://static.futbolenlatv.com/img/32/20121218093727_villareal.webp"
-        },
-        "visitor": {
-          "name": "Espanyol",
-          "image": "https://static.futbolenlatv.com/img/32/20121218093321_espanol.webp"
-        }
-      },
-      "channels": [
-        "M+ LaLiga TV",
-        "LaLiga TV Bar"
-      ],
-      "event": {
-        "name": "Villarreal - Espanyol",
-        "description": "Villarreal - Espanyol el lunes, 3 de marzo de 2025 a las 21:00",
-        "startDate": "2025-03-03T20:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:00",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera División Argentina",
-        "round": "Torneo Apertura"
-      },
-      "teams": {
-        "local": {
-          "name": "Barracas Central",
-          "image": "https://static.futbolenlatv.com/img/32/20141118022620-barracas.webp"
-        },
-        "visitor": {
-          "name": "Godoy Cruz",
-          "image": "https://static.futbolenlatv.com/img/32/20121219051410_godoy-cruz.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "Barracas Central - Godoy Cruz",
-        "description": "Barracas Central - Godoy Cruz el lunes, 3 de marzo de 2025 a las 21:00",
-        "startDate": "2025-03-03T20:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "23:00",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa Libertadores Sub-20"
-      },
-      "teams": {
-        "local": {
-          "name": "Palmeiras Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20130207042018_palmeiras.webp"
-        },
-        "visitor": {
-          "name": "Club Blooming Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20130729070303-blooming.webp"
-        }
-      },
-      "channels": [
-        "CONMEBOL Libertadores YouTube"
-      ],
-      "event": {
-        "name": "Palmeiras Academy - Club Blooming Academy",
-        "description": "Palmeiras Academy - Club Blooming Academy el lunes, 3 de marzo de 2025 a las 23:00",
-        "startDate": "2025-03-03T22:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "23:00",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa Libertadores Sub-20"
-      },
-      "teams": {
-        "local": {
-          "name": "Independiente del Valle Academy",
-          "image": "https://static.futbolenlatv.com/img/32/20191111111808-independiente-del-valle.webp"
-        },
-        "visitor": {
-          "name": "Cerro PorteñoAcademy",
-          "image": "https://static.futbolenlatv.com/img/32/20160116072217-cerro-porteno.webp"
-        }
-      },
-      "channels": [
-        "CONMEBOL Libertadores YouTube"
-      ],
-      "event": {
-        "name": "Independiente del Valle Academy - Cerro PorteñoAcademy",
-        "description": "Independiente del Valle Academy - Cerro PorteñoAcademy el lunes, 3 de marzo de 2025 a las 23:00",
-        "startDate": "2025-03-03T22:00:00",
-        "duration": "T1H45M"
-      }
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "23:00",
-        "day": "03/03/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera División Argentina",
-        "round": "Torneo Apertura"
-      },
-      "teams": {
-        "local": {
-          "name": "San Lorenzo",
-          "image": "https://static.futbolenlatv.com/img/32/20121219051730_san-lorenzo-de-almagro.webp"
-        },
-        "visitor": {
-          "name": "Racing Avellaneda",
-          "image": "https://static.futbolenlatv.com/img/32/20121219051639_racing-de-avellaneda.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "San Lorenzo - Racing Avellaneda",
-        "description": "San Lorenzo - Racing Avellaneda el lunes, 3 de marzo de 2025 a las 23:00",
-        "startDate": "2025-03-03T22:00:00",
-        "duration": "T1H45M"
-      }
+      "event": {}
     },
     {
       "sport": "balonmano",
@@ -911,6 +649,232 @@
       "event": {}
     },
     {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League",
+        "round": "1/8 de final"
+      },
+      "teams": {
+        "local": {
+          "name": "Club Brugge",
+          "image": "https://static.futbolenlatv.com/img/32/20121222102302_club-brugge.webp"
+        },
+        "visitor": {
+          "name": "Aston Villa",
+          "image": "https://static.futbolenlatv.com/img/32/20240923180723-aston-villa.webp"
+        }
+      },
+      "channels": [
+        "M+ Liga de Campeones 2",
+        "M+ Liga de Campeones 4"
+      ],
+      "event": {
+        "name": "Club Brugge - Aston Villa",
+        "description": "Club Brugge - Aston Villa el martes, 4 de marzo de 2025 a las 18:45",
+        "startDate": "2025-03-04T17:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "19:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Masters Indian Wells"
+      },
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "BNP Paribas Open YouTube"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "beisbol",
+      "date": {
+        "hour": "19:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Clásico Mundial de Béisbol",
+        "round": "Fase de Clasificación"
+      },
+      "teams": {
+        "local": {
+          "name": "Brasil",
+          "image": "https://static.futbolenlatv.com/img/32/20130204124155_brasil.webp"
+        },
+        "visitor": {
+          "name": "China",
+          "image": "https://static.futbolenlatv.com/img/32/20130221121827_china.webp"
+        }
+      },
+      "channels": [
+        "World Baseball Classic YouTube",
+        "Facebook World Baseball Classic",
+        "BeisbolPlay"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC Champions League Elite"
+      },
+      "teams": {
+        "local": {
+          "name": "Al Rayyan",
+          "image": "https://static.futbolenlatv.com/img/32/20130321012736_al-rayyan.webp"
+        },
+        "visitor": {
+          "name": "Al Ahli",
+          "image": "https://static.futbolenlatv.com/img/32/20130410124626_al-ahli.webp"
+        }
+      },
+      "channels": [
+        "OneFootball",
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Al Rayyan - Al Ahli",
+        "description": "Al Rayyan - Al Ahli el martes, 4 de marzo de 2025 a las 19:00",
+        "startDate": "2025-03-04T18:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:30",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Bahrain Premier League"
+      },
+      "teams": {
+        "local": {
+          "name": "Al-Shabab Manama",
+          "image": "https://static.futbolenlatv.com/img/32/20240407205526-al-shabab-manama.webp"
+        },
+        "visitor": {
+          "name": "Al Muharraq",
+          "image": "https://static.futbolenlatv.com/img/32/20130422093956_al-muharraq.webp"
+        }
+      },
+      "channels": [
+        "FANSEAT"
+      ],
+      "event": {
+        "name": "Al-Shabab Manama - Al Muharraq",
+        "description": "Al-Shabab Manama - Al Muharraq el martes, 4 de marzo de 2025 a las 19:30",
+        "startDate": "2025-03-04T18:30:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:30",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Bahrain Premier League"
+      },
+      "teams": {
+        "local": {
+          "name": "Bahrain SC",
+          "image": "https://static.futbolenlatv.com/img/32/20240923101708-bahrain-sc.webp"
+        },
+        "visitor": {
+          "name": "Al-Ahli Club",
+          "image": "https://static.futbolenlatv.com/img/32/20231113095754-al-ahli-club-manama.webp"
+        }
+      },
+      "channels": [
+        "FANSEAT"
+      ],
+      "event": {
+        "name": "Bahrain SC - Al-Ahli Club",
+        "description": "Bahrain SC - Al-Ahli Club el martes, 4 de marzo de 2025 a las 19:30",
+        "startDate": "2025-03-04T18:30:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:30",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Bahrain Premier League"
+      },
+      "teams": {
+        "local": {
+          "name": "A'Ali SC",
+          "image": "https://static.futbolenlatv.com/img/32/20240923101718-aali-sc.webp"
+        },
+        "visitor": {
+          "name": "Sitra Club",
+          "image": "https://static.futbolenlatv.com/img/32/20240407205606-sitra-club.webp"
+        }
+      },
+      "channels": [
+        "FANSEAT"
+      ],
+      "event": {
+        "name": "A'Ali SC - Sitra Club",
+        "description": "A'Ali SC - Sitra Club el martes, 4 de marzo de 2025 a las 19:30",
+        "startDate": "2025-03-04T18:30:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:30",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Basketball Champions League",
+        "round": "Top 16"
+      },
+      "teams": {
+        "local": {
+          "name": "Derthona Basket",
+          "image": "https://static.futbolenlatv.com/img/32/20230731142220-derthona-basket.webp"
+        },
+        "visitor": {
+          "name": "Promitheas Patras BC",
+          "image": "https://static.futbolenlatv.com/img/32/20190211103344-promitheas-patras-bc.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {}
+    },
+    {
       "sport": "balonmano",
       "date": {
         "hour": "20:45",
@@ -934,9 +898,554 @@
         "DAZN",
         "DAZN 1",
         "DAZN 1 Bar",
-        "MAX"
+        "MAX",
+        "ETB4"
       ],
       "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League"
+      },
+      "teams": {
+        "local": {
+          "name": "AFC Rochdale",
+          "image": "https://static.futbolenlatv.com/img/32/20140101010739-afc-rochdale.webp"
+        },
+        "visitor": {
+          "name": "Gateshead",
+          "image": "https://static.futbolenlatv.com/img/32/20131114091447-gateshead.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "AFC Rochdale - Gateshead",
+        "description": "AFC Rochdale - Gateshead el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League"
+      },
+      "teams": {
+        "local": {
+          "name": "Southend Utd.",
+          "image": "https://static.futbolenlatv.com/img/32/20140121010135-southend-united.webp"
+        },
+        "visitor": {
+          "name": "Woking",
+          "image": "https://static.futbolenlatv.com/img/32/20220906184348-woking-fc.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Southend Utd. - Woking",
+        "description": "Southend Utd. - Woking el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League"
+      },
+      "teams": {
+        "local": {
+          "name": "York City",
+          "image": "https://static.futbolenlatv.com/img/32/20140506065550-york-city.webp"
+        },
+        "visitor": {
+          "name": "Altrincham",
+          "image": "https://static.futbolenlatv.com/img/32/20160216110459-altrincham.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "York City - Altrincham",
+        "description": "York City - Altrincham el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League"
+      },
+      "teams": {
+        "local": {
+          "name": "Halifax Town",
+          "image": "https://static.futbolenlatv.com/img/32/20141105100438-halifax-town.webp"
+        },
+        "visitor": {
+          "name": "Forest Green Rovers",
+          "image": "https://static.futbolenlatv.com/img/32/20151204113429-forest-green-rovers.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Halifax Town - Forest Green Rovers",
+        "description": "Halifax Town - Forest Green Rovers el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League"
+      },
+      "teams": {
+        "local": {
+          "name": "Aldershot",
+          "image": "https://static.futbolenlatv.com/img/32/20141114105002-aldershot.webp"
+        },
+        "visitor": {
+          "name": "Dagenham & Redbridge",
+          "image": "https://static.futbolenlatv.com/img/32/20200831201927-dagenham-redbridge.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Aldershot - Dagenham & Redbridge",
+        "description": "Aldershot - Dagenham & Redbridge el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League"
+      },
+      "teams": {
+        "local": {
+          "name": "Eastleigh FC",
+          "image": "https://static.futbolenlatv.com/img/32/20200831201942-eastleigh-fc.webp"
+        },
+        "visitor": {
+          "name": "Ebbsfleet United",
+          "image": "https://static.futbolenlatv.com/img/32/20171101113114-ebbsfleet-united.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Eastleigh FC - Ebbsfleet United",
+        "description": "Eastleigh FC - Ebbsfleet United el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League"
+      },
+      "teams": {
+        "local": {
+          "name": "Solihull Moors",
+          "image": "https://static.futbolenlatv.com/img/32/20220906184418-solihull-moors-fc.webp"
+        },
+        "visitor": {
+          "name": "Sutton United",
+          "image": "https://static.futbolenlatv.com/img/32/20160804094805-sutton-united.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Solihull Moors - Sutton United",
+        "description": "Solihull Moors - Sutton United el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League"
+      },
+      "teams": {
+        "local": {
+          "name": "Maidenhead United",
+          "image": "https://static.futbolenlatv.com/img/32/20200831201906-maidenhead-united.webp"
+        },
+        "visitor": {
+          "name": "Braintree Town",
+          "image": "https://static.futbolenlatv.com/img/32/20160427124739-braintree-town.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Maidenhead United - Braintree Town",
+        "description": "Maidenhead United - Braintree Town el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League"
+      },
+      "teams": {
+        "local": {
+          "name": "AFC Fylde",
+          "image": "https://static.futbolenlatv.com/img/32/20170717122400-afc-fylde.webp"
+        },
+        "visitor": {
+          "name": "Hartlepool United",
+          "image": "https://static.futbolenlatv.com/img/32/20130416055425_hartlepool.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "AFC Fylde - Hartlepool United",
+        "description": "AFC Fylde - Hartlepool United el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League"
+      },
+      "teams": {
+        "local": {
+          "name": "Barnet",
+          "image": "https://static.futbolenlatv.com/img/32/20171003010301-barnet.webp"
+        },
+        "visitor": {
+          "name": "Yeovil Town",
+          "image": "https://static.futbolenlatv.com/img/32/20130502115824_yeovil-town.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Barnet - Yeovil Town",
+        "description": "Barnet - Yeovil Town el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League"
+      },
+      "teams": {
+        "local": {
+          "name": "Boston United",
+          "image": "https://static.futbolenlatv.com/img/32/20191124092443-boston-united.webp"
+        },
+        "visitor": {
+          "name": "Oldham Athletic",
+          "image": "https://static.futbolenlatv.com/img/32/20211013183956-oldham-athletic.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Boston United - Oldham Athletic",
+        "description": "Boston United - Oldham Athletic el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League"
+      },
+      "teams": {
+        "local": {
+          "name": "Tamworth FC",
+          "image": "https://static.futbolenlatv.com/img/32/20240211193519-tamworth-fc.webp"
+        },
+        "visitor": {
+          "name": "Wealdstone FC",
+          "image": "https://static.futbolenlatv.com/img/32/20201007161441-wealdstone-fc.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Tamworth FC - Wealdstone FC",
+        "description": "Tamworth FC - Wealdstone FC el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Northern Irish Premiership"
+      },
+      "teams": {
+        "local": {
+          "name": "Glentoran",
+          "image": "https://static.futbolenlatv.com/img/32/20170203114617-glentoran.webp"
+        },
+        "visitor": {
+          "name": "Ballymena Utd.",
+          "image": "https://static.futbolenlatv.com/img/32/20170209055238-ballymena-utd.webp"
+        }
+      },
+      "channels": [
+        "OneFootball",
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Glentoran - Ballymena Utd.",
+        "description": "Glentoran - Ballymena Utd. el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Northern Irish Premiership"
+      },
+      "teams": {
+        "local": {
+          "name": "Carrick Rangers",
+          "image": "https://static.futbolenlatv.com/img/32/20170209055430-carrick-rangers.webp"
+        },
+        "visitor": {
+          "name": "Larne FC",
+          "image": "https://static.futbolenlatv.com/img/32/20220907172406-larne-fc.webp"
+        }
+      },
+      "channels": [
+        "OneFootball",
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Carrick Rangers - Larne FC",
+        "description": "Carrick Rangers - Larne FC el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Northern Irish Premiership"
+      },
+      "teams": {
+        "local": {
+          "name": "Loughgall FC",
+          "image": "https://static.futbolenlatv.com/img/32/20230718112914-loughgall-fc.webp"
+        },
+        "visitor": {
+          "name": "Glenavon",
+          "image": "https://static.futbolenlatv.com/img/32/20160504125051-glenavon.webp"
+        }
+      },
+      "channels": [
+        "OneFootball",
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Loughgall FC - Glenavon",
+        "description": "Loughgall FC - Glenavon el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League South"
+      },
+      "teams": {
+        "local": {
+          "name": "Chippenham Town",
+          "image": "https://static.futbolenlatv.com/img/32/20191104092300-chippenham-town.webp"
+        },
+        "visitor": {
+          "name": "Torquay Utd.",
+          "image": "https://static.futbolenlatv.com/img/32/20200831202000-torquay-united.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Chippenham Town - Torquay Utd.",
+        "description": "Chippenham Town - Torquay Utd. el martes, 4 de marzo de 2025 a las 20:45",
+        "startDate": "2025-03-04T19:45:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "21:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Basketball Champions League",
+        "round": "Top 16"
+      },
+      "teams": {
+        "local": {
+          "name": "La Laguna Tenerife",
+          "image": "https://static.futbolenlatv.com/img/32/20130803090548-cb-canarias.webp"
+        },
+        "visitor": {
+          "name": "Petkimspor Kulübü",
+          "image": "https://static.futbolenlatv.com/img/32/20240923182237-petkimspor-kulubu.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "Teledeporte",
+        "RTVE Play"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League",
+        "round": "1/8 de final"
+      },
+      "teams": {
+        "local": {
+          "name": "Real Madrid",
+          "image": "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp"
+        },
+        "visitor": {
+          "name": "At. Madrid",
+          "image": "https://static.futbolenlatv.com/img/32/20240712123854-at-madrid.webp"
+        }
+      },
+      "channels": [
+        "M+ Liga de Campeones",
+        "M+ Liga de Campeones 4",
+        "LaLiga TV Bar"
+      ],
+      "event": {
+        "name": "Real Madrid - At. Madrid",
+        "description": "Real Madrid - At. Madrid el martes, 4 de marzo de 2025 a las 21:00",
+        "startDate": "2025-03-04T20:00:00",
+        "duration": "T1H45M"
+      }
     },
     {
       "sport": "golf",
@@ -994,6 +1503,60 @@
       },
       "channels": [
         "MAX"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "hockey-patines",
+      "date": {
+        "hour": "18:15",
+        "day": "06/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa del Rey",
+        "round": "1/4 de Final"
+      },
+      "teams": {
+        "local": {
+          "name": "CE Lleida Llista Blava",
+          "image": "https://static.futbolenlatv.com/img/32/20130614064450-ICG-Lleida.webp"
+        },
+        "visitor": {
+          "name": "PAS Alcoy",
+          "image": "https://static.futbolenlatv.com/img/32/20130614064600-PAS-Alcoy.webp"
+        }
+      },
+      "channels": [
+        "RTVE Play",
+        "Esport3"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "hockey-patines",
+      "date": {
+        "hour": "20:45",
+        "day": "06/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa del Rey",
+        "round": "1/4 de Final"
+      },
+      "teams": {
+        "local": {
+          "name": "Barça HP",
+          "image": "https://static.futbolenlatv.com/img/32/20200922184952-fc-barcelona-hockey-patines.webp"
+        },
+        "visitor": {
+          "name": "CE Noia",
+          "image": "https://static.futbolenlatv.com/img/32/20130830091902-noia.webp"
+        }
+      },
+      "channels": [
+        "RTVE Play",
+        "Esport3"
       ],
       "event": {}
     },
@@ -1102,7 +1665,7 @@
     {
       "sport": "mma",
       "date": {
-        "hour": "04:00",
+        "hour": "02:00",
         "day": "09/03/2025",
         "zone": "Europe/Madrid"
       },
@@ -1181,6 +1744,160 @@
         "DAZN"
       ],
       "event": {}
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "PD",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC Champions League Two"
+      },
+      "teams": {
+        "local": {
+          "name": "Tractor SC",
+          "image": "https://static.futbolenlatv.com/img/32/20210413091933-tractor-sazi-tabriz.webp"
+        },
+        "visitor": {
+          "name": "Al Taawoun FC",
+          "image": "https://static.futbolenlatv.com/img/32/20220328174034-al-taawoun-fc.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Tractor SC - Al Taawoun FC",
+        "description": "Tractor SC - Al Taawoun FC el martes, 4 de marzo de 2025 a las 1:00",
+        "startDate": "2025-03-04",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League",
+        "round": "1/8 de final"
+      },
+      "teams": {
+        "local": {
+          "name": "PSV Eindhoven",
+          "image": "https://static.futbolenlatv.com/img/32/20121219035535_psv-eindhoven.webp"
+        },
+        "visitor": {
+          "name": "Arsenal",
+          "image": "https://static.futbolenlatv.com/img/32/20121218091224_arsenal.webp"
+        }
+      },
+      "channels": [
+        "M+ Liga de Campeones 2",
+        "M+ Liga de Campeones 4"
+      ],
+      "event": {
+        "name": "PSV Eindhoven - Arsenal",
+        "description": "PSV Eindhoven - Arsenal el martes, 4 de marzo de 2025 a las 21:00",
+        "startDate": "2025-03-04T20:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League",
+        "round": "1/8 de final"
+      },
+      "teams": {
+        "local": {
+          "name": "Borussia Dortmund",
+          "image": "https://static.futbolenlatv.com/img/32/20121218101655_borussia-dortmund.webp"
+        },
+        "visitor": {
+          "name": "Lille",
+          "image": "https://static.futbolenlatv.com/img/32/20180927105456-lille.webp"
+        }
+      },
+      "channels": [
+        "M+ Liga de Campeones 3",
+        "M+ Liga de Campeones 4"
+      ],
+      "event": {
+        "name": "Borussia Dortmund - Lille",
+        "description": "Borussia Dortmund - Lille el martes, 4 de marzo de 2025 a las 21:00",
+        "startDate": "2025-03-04T20:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "23:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa Libertadores Sub-20"
+      },
+      "teams": {
+        "local": {
+          "name": "Danubio Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20140813051152-danubio.webp"
+        },
+        "visitor": {
+          "name": "CR Flamengo Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20121222102708_flamengo.webp"
+        }
+      },
+      "channels": [
+        "CONMEBOL Libertadores YouTube"
+      ],
+      "event": {
+        "name": "Danubio Academy - CR Flamengo Academy",
+        "description": "Danubio Academy - CR Flamengo Academy el martes, 4 de marzo de 2025 a las 23:00",
+        "startDate": "2025-03-04T22:00:00",
+        "duration": "T1H45M"
+      }
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "23:00",
+        "day": "04/03/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa Libertadores Sub-20"
+      },
+      "teams": {
+        "local": {
+          "name": "O'Higgins Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20130418043026_ohiggings.webp"
+        },
+        "visitor": {
+          "name": "Olimpia Academy",
+          "image": "https://static.futbolenlatv.com/img/32/20130412093209_olimpia.webp"
+        }
+      },
+      "channels": [
+        "CONMEBOL Libertadores YouTube"
+      ],
+      "event": {
+        "name": "O'Higgins Academy - Olimpia Academy",
+        "description": "O'Higgins Academy - Olimpia Academy el martes, 4 de marzo de 2025 a las 23:00",
+        "startDate": "2025-03-04T22:00:00",
+        "duration": "T1H45M"
+      }
     }
   ]
 }
