@@ -3,7 +3,7 @@
     {
       "sport": "futbol-sala",
       "date": {
-        "hour": "11:30",
+        "hour": "12:00",
         "day": "12/04/2025",
         "zone": "Europe/Madrid"
       },
@@ -21,7 +21,9 @@
         }
       },
       "channels": [
-        "RFEF.es"
+        "RFEF.es",
+        "Teledeporte",
+        "RTVE Play"
       ],
       "event": {}
     },
@@ -133,6 +135,31 @@
         "zone": "Europe/Madrid"
       },
       "details": {
+        "competition": "Segunda Federación Futsal"
+      },
+      "teams": {
+        "local": {
+          "name": "Real Betis FS",
+          "image": "https://static.futbolenlatv.com/img/32/20160830072242-real-betis.webp"
+        },
+        "visitor": {
+          "name": "CD El Ejido Futsal",
+          "image": "https://static.futbolenlatv.com/img/32/20201124145009-cd-el-ejido-futsal.webp"
+        }
+      },
+      "channels": [
+        "RFEF.es"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "18:00",
+        "day": "12/04/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
         "competition": "Primera Federación Femenina"
       },
       "teams": {
@@ -201,5 +228,5 @@
       "event": {}
     }
   ],
-  "updated": "2025-04-10T00:11:23.326Z"
+  "updated": "2025-04-11T00:11:45.164Z"
 }
