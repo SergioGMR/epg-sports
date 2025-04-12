@@ -101,7 +101,7 @@ async function scrapeMatches(sport) {
         // await page.pause(); // Línea comentada después de la depuración
 
         const rows = await table.$$(selectors.rows);
-        const matches = await Promise.all(rows.map(row => scrapeMatch(row, day)));
+        const matches = await Promise.all(rows.map(row => scrapeMatch(row, day, sport)));
 
         await browser.close();
         return matches;
@@ -112,8 +112,9 @@ async function scrapeMatches(sport) {
     }
 }
 
-async function scrapeMatch(row, day) {
+async function scrapeMatch(row, day, sport) {
     const match = {
+        sport: sport,
         date: {},
         details: {},
         teams: {
@@ -146,7 +147,7 @@ async function scrapeMatch(row, day) {
 
     const localElement = await row.$(selectors.teams.local.name);
     if (localElement) {
-        match.teams.local.name = await localElement.innerText();
+        match.teams.local.name = await localElement.getAttribute('alt');
     }
     const localImageElement = await row.$(selectors.teams.local.image);
     if (localImageElement) {
@@ -155,7 +156,7 @@ async function scrapeMatch(row, day) {
 
     const visitorElement = await row.$(selectors.teams.visitor.name);
     if (visitorElement) {
-        match.teams.visitor.name = await visitorElement.innerText();
+        match.teams.visitor.name = await visitorElement.getAttribute('alt');
     }
     const visitorImageElement = await row.$(selectors.teams.visitor.image);
     if (visitorImageElement) {

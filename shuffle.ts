@@ -3,6 +3,7 @@ import fs from 'fs';
 import { z } from 'zod';
 
 interface Match {
+  sport: string;
   date: {
     hour: string;
     day: string;
