@@ -454,6 +454,26 @@
     "event": {}
   },
   {
+    "sport": "boxeo",
+    "date": {
+      "hour": "03:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Velada"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {}
+  },
+  {
     "sport": "baloncesto",
     "date": {
       "hour": "03:00",
@@ -498,26 +518,6 @@
     },
     "channels": [
       "NBA League Pass"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "boxeo",
-    "date": {
-      "hour": "03:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Velada"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis"
     ],
     "event": {}
   },
@@ -952,6 +952,32 @@
     ]
   },
   {
+    "sport": "tenis",
+    "date": {
+      "hour": "11:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "ITF Torneo de Zaragoza",
+      "round": "Semifinal 1"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20200728161741-national-rugby-league.webp"
+      }
+    },
+    "channels": [
+      "Aragón Deporte",
+      "Tennis Channel",
+      "Marca YouTube"
+    ],
+    "event": {}
+  },
+  {
     "sport": "motociclismo",
     "date": {
       "hour": "11:00",
@@ -1016,32 +1042,6 @@
       "acestream://95b2238dec35cf00dfdf8fba18e9920bc2c56256",
       "acestream://a3bca895c58d3fc7d5e4259d3d5e3cf0291d1914"
     ]
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "11:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "ITF Torneo de Zaragoza",
-      "round": "Semifinal 1"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20200728161741-national-rugby-league.webp"
-      }
-    },
-    "channels": [
-      "Aragón Deporte",
-      "Tennis Channel",
-      "Marca YouTube"
-    ],
-    "event": {}
   },
   {
     "sport": "futbol",
@@ -1155,6 +1155,31 @@
     "links": [
       "acestream://9a4f3ae6563668b7709dac509dedc709441b3fd9"
     ]
+  },
+  {
+    "sport": "futbol-sala",
+    "date": {
+      "hour": "12:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera Federación Femenina"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20220904103310-les-corts-ae.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20240907111537-teldetortivo-fsf.webp"
+      }
+    },
+    "channels": [
+      "RFEF.es",
+      "Teledeporte",
+      "RTVE Play"
+    ],
+    "event": {}
   },
   {
     "sport": "futbol",
@@ -1291,31 +1316,6 @@
     }
   },
   {
-    "sport": "futbol-sala",
-    "date": {
-      "hour": "12:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación Femenina"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20220904103310-les-corts-ae.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20240907111537-teldetortivo-fsf.webp"
-      }
-    },
-    "channels": [
-      "RFEF.es",
-      "Teledeporte",
-      "RTVE Play"
-    ],
-    "event": {}
-  },
-  {
     "sport": "futbol",
     "date": {
       "hour": "12:30",
@@ -1425,32 +1425,6 @@
     }
   },
   {
-    "sport": "futbol",
-    "date": {
-      "hour": "13:10",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {},
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis",
-      "DAZN LaLiga",
-      "MAX"
-    ],
-    "event": {},
-    "links": [
-      "acestream://1960a9be8ae9e8c755330218eac4c5805466290a",
-      "acestream://75251ba975132ec9a202806ba5bf606e87280c96",
-      "acestream://95b2238dec35cf00dfdf8fba18e9920bc2c56256",
-      "acestream://a3bca895c58d3fc7d5e4259d3d5e3cf0291d1914"
-    ]
-  },
-  {
     "sport": "tenis",
     "date": {
       "hour": "13:10",
@@ -1478,6 +1452,32 @@
     "links": [
       "acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0",
       "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
+    ]
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "13:10",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {},
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "MAX"
+    ],
+    "event": {},
+    "links": [
+      "acestream://1960a9be8ae9e8c755330218eac4c5805466290a",
+      "acestream://75251ba975132ec9a202806ba5bf606e87280c96",
+      "acestream://95b2238dec35cf00dfdf8fba18e9920bc2c56256",
+      "acestream://a3bca895c58d3fc7d5e4259d3d5e3cf0291d1914"
     ]
   },
   {
@@ -1527,6 +1527,32 @@
     },
     "channels": [
       "Aragón Deporte",
+      "Tennis Channel",
+      "Marca YouTube"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "13:30",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Open Comunidad de Madrid",
+      "round": "Semifinal 1"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130727123333-Francia.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130727124313-Croacia.webp"
+      }
+    },
+    "channels": [
+      "MAX",
       "Tennis Channel",
       "Marca YouTube"
     ],
@@ -1630,30 +1656,33 @@
     ]
   },
   {
-    "sport": "tenis",
+    "sport": "rugby",
     "date": {
-      "hour": "13:30",
+      "hour": "13:45",
       "day": "12/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Open Comunidad de Madrid",
-      "round": "Semifinal 1"
+      "competition": "6 Naciones Femenino"
     },
     "teams": {
       "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727123333-Francia.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20130124053558_francia.webp"
       },
       "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727124313-Croacia.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20130624101253-gales.webp"
       }
     },
     "channels": [
-      "MAX",
-      "Tennis Channel",
-      "Marca YouTube"
+      "M+ Ellas Vamos",
+      "Movistar+ Lite",
+      "M+ Deportes"
     ],
-    "event": {}
+    "event": {},
+    "links": [
+      "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
+      "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa"
+    ]
   },
   {
     "sport": "futbol",
@@ -1686,33 +1715,28 @@
     }
   },
   {
-    "sport": "rugby",
+    "sport": "tenis",
     "date": {
-      "hour": "13:45",
+      "hour": "14:00",
       "day": "12/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "6 Naciones Femenino"
+      "competition": "Billie Jean King Cup",
+      "round": "Fase de Clasificación"
     },
     "teams": {
       "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130124053558_francia.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20130625051918-reino-unido.webp"
       },
       "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130624101253-gales.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20130130075711_holanda.webp"
       }
     },
     "channels": [
-      "M+ Ellas Vamos",
-      "Movistar+ Lite",
-      "M+ Deportes"
+      "Tennis Channel"
     ],
-    "event": {},
-    "links": [
-      "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
-      "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa"
-    ]
+    "event": {}
   },
   {
     "sport": "motociclismo",
@@ -2083,28 +2107,30 @@
     }
   },
   {
-    "sport": "tenis",
+    "sport": "automovilismo",
     "date": {
-      "hour": "14:00",
+      "hour": "14:30",
       "day": "12/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Billie Jean King Cup",
-      "round": "Fase de Clasificación"
+      "competition": "Fórmula 1"
     },
     "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130625051918-reino-unido.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130130075711_holanda.webp"
-      }
+      "local": {},
+      "visitor": {}
     },
     "channels": [
-      "Tennis Channel"
+      "DAZN",
+      "MAX",
+      "DAZN F1"
     ],
-    "event": {}
+    "event": {},
+    "links": [
+      "acestream://5789ca155323664edd293b848606688edf803f4d",
+      "acestream://9dad717d99b29a05672166258a77c25b57713dd5",
+      "acestream://e1fcad9de0c782c157fde6377805c58297ab65c2"
+    ]
   },
   {
     "sport": "futbol",
@@ -2137,32 +2163,6 @@
     }
   },
   {
-    "sport": "automovilismo",
-    "date": {
-      "hour": "14:30",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Fórmula 1"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "DAZN",
-      "MAX",
-      "DAZN F1"
-    ],
-    "event": {},
-    "links": [
-      "acestream://5789ca155323664edd293b848606688edf803f4d",
-      "acestream://9dad717d99b29a05672166258a77c25b57713dd5",
-      "acestream://e1fcad9de0c782c157fde6377805c58297ab65c2"
-    ]
-  },
-  {
     "sport": "motociclismo",
     "date": {
       "hour": "14:40",
@@ -2188,6 +2188,80 @@
       "acestream://8ca07071b39185431f8e940ec98d1add9e561639",
       "acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f"
     ]
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "15:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Billie Jean King Cup",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130226100540_eeuu.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130207060752_dinamarca.webp"
+      }
+    },
+    "channels": [
+      "Tennis Channel"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "15:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Billie Jean King Cup",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130410124454_republica-checa.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+      }
+    },
+    "channels": [
+      "Tennis Channel",
+      "Teledeporte",
+      "RTVE Play"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "15:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Billie Jean King Cup",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130410124433_suiza.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130304045244_ucrania.webp"
+      }
+    },
+    "channels": [
+      "Tennis Channel"
+    ],
+    "event": {}
   },
   {
     "sport": "futbol",
@@ -2310,80 +2384,6 @@
       "startDate": "2025-04-12T13:00:00",
       "duration": "T1H45M"
     }
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "15:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Billie Jean King Cup",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130226100540_eeuu.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130207060752_dinamarca.webp"
-      }
-    },
-    "channels": [
-      "Tennis Channel"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "15:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Billie Jean King Cup",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130410124454_republica-checa.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
-      }
-    },
-    "channels": [
-      "Tennis Channel",
-      "Teledeporte",
-      "RTVE Play"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "15:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Billie Jean King Cup",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130410124433_suiza.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130304045244_ucrania.webp"
-      }
-    },
-    "channels": [
-      "Tennis Channel"
-    ],
-    "event": {}
   },
   {
     "sport": "motociclismo",
@@ -2708,6 +2708,78 @@
     "links": [
       "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
     ]
+  },
+  {
+    "sport": "futbol-sala",
+    "date": {
+      "hour": "16:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera Federación Femenina"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20211014091654-club-deportivo-burela-futbol-sala.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20240907111500-esportiu-rubi-fs.webp"
+      }
+    },
+    "channels": [
+      "RFEF.es"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "rugby",
+    "date": {
+      "hour": "16:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Champions Cup",
+      "round": "1/4 de Final"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20200806172513-bordeaux-begles.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20131225102007-munster-rugby.webp"
+      }
+    },
+    "channels": [
+      "M+ Vamos",
+      "M+ #Vamos Bar",
+      "Movistar+ Lite"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "rugby",
+    "date": {
+      "hour": "16:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Women's Rugby Europe Championship"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130130075711_holanda.webp"
+      }
+    },
+    "channels": [
+      "RTVE Play"
+    ],
+    "event": {}
   },
   {
     "sport": "futbol",
@@ -3414,76 +3486,30 @@
     }
   },
   {
-    "sport": "futbol-sala",
+    "sport": "automovilismo",
     "date": {
-      "hour": "16:00",
+      "hour": "16:15",
       "day": "12/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación Femenina"
+      "competition": "FIA Fórmula 2"
     },
     "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20211014091654-club-deportivo-burela-futbol-sala.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20240907111500-esportiu-rubi-fs.webp"
-      }
+      "local": {},
+      "visitor": {}
     },
     "channels": [
-      "RFEF.es"
+      "DAZN",
+      "MAX",
+      "DAZN F1"
     ],
-    "event": {}
-  },
-  {
-    "sport": "rugby",
-    "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Champions Cup",
-      "round": "1/4 de Final"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20200806172513-bordeaux-begles.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20131225102007-munster-rugby.webp"
-      }
-    },
-    "channels": [
-      "M+ Vamos",
-      "M+ #Vamos Bar",
-      "Movistar+ Lite"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "rugby",
-    "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Women's Rugby Europe Championship"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130130075711_holanda.webp"
-      }
-    },
-    "channels": [
-      "RTVE Play"
-    ],
-    "event": {}
+    "event": {},
+    "links": [
+      "acestream://5789ca155323664edd293b848606688edf803f4d",
+      "acestream://9dad717d99b29a05672166258a77c25b57713dd5",
+      "acestream://e1fcad9de0c782c157fde6377805c58297ab65c2"
+    ]
   },
   {
     "sport": "futbol",
@@ -3563,30 +3589,30 @@
     }
   },
   {
-    "sport": "automovilismo",
+    "sport": "tenis",
     "date": {
-      "hour": "16:15",
+      "hour": "16:30",
       "day": "12/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "FIA Fórmula 2"
+      "competition": "Billie Jean King Cup",
+      "round": "Fase de Clasificación"
     },
     "teams": {
-      "local": {},
-      "visitor": {}
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130410124454_republica-checa.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+      }
     },
     "channels": [
-      "DAZN",
-      "MAX",
-      "DAZN F1"
+      "Tennis Channel",
+      "Teledeporte",
+      "RTVE Play"
     ],
-    "event": {},
-    "links": [
-      "acestream://5789ca155323664edd293b848606688edf803f4d",
-      "acestream://9dad717d99b29a05672166258a77c25b57713dd5",
-      "acestream://e1fcad9de0c782c157fde6377805c58297ab65c2"
-    ]
+    "event": {}
   },
   {
     "sport": "baloncesto",
@@ -3831,32 +3857,6 @@
     }
   },
   {
-    "sport": "tenis",
-    "date": {
-      "hour": "16:30",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Billie Jean King Cup",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130410124454_republica-checa.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
-      }
-    },
-    "channels": [
-      "Tennis Channel",
-      "Teledeporte",
-      "RTVE Play"
-    ],
-    "event": {}
-  },
-  {
     "sport": "futbol",
     "date": {
       "hour": "16:40",
@@ -3908,6 +3908,76 @@
       "acestream://8ca07071b39185431f8e940ec98d1add9e561639",
       "acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f"
     ]
+  },
+  {
+    "sport": "futbol-sala",
+    "date": {
+      "hour": "17:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera Federación Femenina"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20220427201916-marin-futsal.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20220620083331-atletico-navalcarnero-fs.webp"
+      }
+    },
+    "channels": [
+      "RFEF.es"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol-sala",
+    "date": {
+      "hour": "17:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera Federación Femenina"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20230823170304-torreblanca-melilla-futsal.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20201218092947-poio-pescamar-fs.webp"
+      }
+    },
+    "channels": [
+      "RFEF.es",
+      "TV Melilla"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol-sala",
+    "date": {
+      "hour": "17:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera Federación Femenina"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20240907111521-guadalcacin-fsf.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20160707112332-alcorcon.webp"
+      }
+    },
+    "channels": [
+      "RFEF.es"
+    ],
+    "event": {}
   },
   {
     "sport": "futbol",
@@ -4284,76 +4354,6 @@
     }
   },
   {
-    "sport": "futbol-sala",
-    "date": {
-      "hour": "17:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación Femenina"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20220427201916-marin-futsal.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20220620083331-atletico-navalcarnero-fs.webp"
-      }
-    },
-    "channels": [
-      "RFEF.es"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol-sala",
-    "date": {
-      "hour": "17:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación Femenina"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20230823170304-torreblanca-melilla-futsal.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20201218092947-poio-pescamar-fs.webp"
-      }
-    },
-    "channels": [
-      "RFEF.es",
-      "TV Melilla"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol-sala",
-    "date": {
-      "hour": "17:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación Femenina"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20240907111521-guadalcacin-fsf.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20160707112332-alcorcon.webp"
-      }
-    },
-    "channels": [
-      "RFEF.es"
-    ],
-    "event": {}
-  },
-  {
     "sport": "futbol",
     "date": {
       "hour": "17:20",
@@ -4380,6 +4380,29 @@
     ]
   },
   {
+    "sport": "balonmano",
+    "date": {
+      "hour": "17:30",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga ASOBAL"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130725083912-cangas-balonmano.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20220304165208-balonmano-torrelavega.webp"
+      }
+    },
+    "channels": [
+      "LaLiga+ Plus"
+    ],
+    "event": {}
+  },
+  {
     "sport": "baloncesto",
     "date": {
       "hour": "17:30",
@@ -4404,27 +4427,32 @@
     "event": {}
   },
   {
-    "sport": "balonmano",
+    "sport": "rugby",
     "date": {
-      "hour": "17:30",
+      "hour": "17:45",
       "day": "12/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga ASOBAL"
+      "competition": "6 Naciones Femenino"
     },
     "teams": {
       "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130725083912-cangas-balonmano.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20130624104842-irlanda.webp"
       },
       "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20220304165208-balonmano-torrelavega.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20130204124525_inglaterra.webp"
       }
     },
     "channels": [
-      "LaLiga+ Plus"
+      "M+ Ellas Vamos",
+      "Movistar+ Lite",
+      "M+ Deportes 6"
     ],
-    "event": {}
+    "event": {},
+    "links": [
+      "acestream://8587ed8ac36ac477e1d4176d3159a38bd154d4ce"
+    ]
   },
   {
     "sport": "motociclismo",
@@ -4454,31 +4482,142 @@
     ]
   },
   {
-    "sport": "rugby",
+    "sport": "automovilismo",
     "date": {
-      "hour": "17:45",
+      "hour": "18:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {},
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "DAZN",
+      "MAX",
+      "DAZN F1"
+    ],
+    "event": {},
+    "links": [
+      "acestream://5789ca155323664edd293b848606688edf803f4d",
+      "acestream://9dad717d99b29a05672166258a77c25b57713dd5",
+      "acestream://e1fcad9de0c782c157fde6377805c58297ab65c2"
+    ]
+  },
+  {
+    "sport": "futbol-sala",
+    "date": {
+      "hour": "18:00",
       "day": "12/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "6 Naciones Femenino"
+      "competition": "Segunda Federación Futsal"
     },
     "teams": {
       "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130624104842-irlanda.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20160830072242-real-betis.webp"
       },
       "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130204124525_inglaterra.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20201124145009-cd-el-ejido-futsal.webp"
       }
     },
     "channels": [
-      "M+ Ellas Vamos",
-      "Movistar+ Lite",
-      "M+ Deportes 6"
+      "RFEF.es"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol-sala",
+    "date": {
+      "hour": "18:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera Federación Femenina"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20220427201904-roldan-fsf.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20230823170339-fsf-mostoles.webp"
+      }
+    },
+    "channels": [
+      "RFEF.es"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol-sala",
+    "date": {
+      "hour": "18:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera Federación Femenina"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20230823170326-atletico-torcal-fs.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20220908171656-la-boca-te-lia-alcantarilla.webp"
+      }
+    },
+    "channels": [
+      "RFEF.es"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "18:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "IHF Mundial Femenino",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130323114930_montenegro.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130204101449_portugal.webp"
+      }
+    },
+    "channels": [
+      "EHF TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "mma",
+    "date": {
+      "hour": "18:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Velada"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "M+ Deportes 3"
     ],
     "event": {},
     "links": [
-      "acestream://8587ed8ac36ac477e1d4176d3159a38bd154d4ce"
+      "acestream://aee0a595220e0f1c2fee725fd1dbc602d7152a9a"
     ]
   },
   {
@@ -4558,28 +4697,6 @@
     "links": [
       "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
       "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa"
-    ]
-  },
-  {
-    "sport": "mma",
-    "date": {
-      "hour": "18:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Velada"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "M+ Deportes 3"
-    ],
-    "event": {},
-    "links": [
-      "acestream://aee0a595220e0f1c2fee725fd1dbc602d7152a9a"
     ]
   },
   {
@@ -4986,123 +5103,6 @@
     }
   },
   {
-    "sport": "futbol-sala",
-    "date": {
-      "hour": "18:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación Futsal"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20160830072242-real-betis.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20201124145009-cd-el-ejido-futsal.webp"
-      }
-    },
-    "channels": [
-      "RFEF.es"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol-sala",
-    "date": {
-      "hour": "18:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación Femenina"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20220427201904-roldan-fsf.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20230823170339-fsf-mostoles.webp"
-      }
-    },
-    "channels": [
-      "RFEF.es"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol-sala",
-    "date": {
-      "hour": "18:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación Femenina"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20230823170326-atletico-torcal-fs.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20220908171656-la-boca-te-lia-alcantarilla.webp"
-      }
-    },
-    "channels": [
-      "RFEF.es"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "automovilismo",
-    "date": {
-      "hour": "18:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {},
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "DAZN",
-      "MAX",
-      "DAZN F1"
-    ],
-    "event": {},
-    "links": [
-      "acestream://5789ca155323664edd293b848606688edf803f4d",
-      "acestream://9dad717d99b29a05672166258a77c25b57713dd5",
-      "acestream://e1fcad9de0c782c157fde6377805c58297ab65c2"
-    ]
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "18:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "IHF Mundial Femenino",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130323114930_montenegro.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130204101449_portugal.webp"
-      }
-    },
-    "channels": [
-      "EHF TV"
-    ],
-    "event": {}
-  },
-  {
     "sport": "futbol",
     "date": {
       "hour": "18:23",
@@ -5133,30 +5133,6 @@
     }
   },
   {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "18:30",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga Femenina Endesa",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20141014112527-gernika-bizkaia.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20131011083809-club-deportes-castro.webp"
-      }
-    },
-    "channels": [
-      "FEB TV"
-    ],
-    "event": {}
-  },
-  {
     "sport": "golf",
     "date": {
       "hour": "18:30",
@@ -5182,6 +5158,83 @@
       "acestream://858b3cf2842ebe394999275e5ebb0435f1af2ae4",
       "acestream://9a4f3ae6563668b7709dac509dedc709441b3fd9"
     ]
+  },
+  {
+    "sport": "rugby",
+    "date": {
+      "hour": "18:30",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Champions Cup",
+      "round": "1/4 de Final"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20141015071730-northampton-s.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20200806172525-castres-olympique.webp"
+      }
+    },
+    "channels": [
+      "M+ Deportes 4"
+    ],
+    "event": {},
+    "links": [
+      "acestream://42e83c337ece0af9ca7808859f84c7960e9cb6f5"
+    ]
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "18:30",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Billie Jean King Cup",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130410124454_republica-checa.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+      }
+    },
+    "channels": [
+      "Tennis Channel",
+      "Teledeporte",
+      "RTVE Play"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "18:30",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga Femenina Endesa",
+      "round": "Liga Regular"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20141014112527-gernika-bizkaia.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20131011083809-club-deportes-castro.webp"
+      }
+    },
+    "channels": [
+      "FEB TV"
+    ],
+    "event": {}
   },
   {
     "sport": "futbol",
@@ -5532,59 +5585,6 @@
   {
     "sport": "tenis",
     "date": {
-      "hour": "18:30",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Billie Jean King Cup",
-      "round": "Fase de Clasificación"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130410124454_republica-checa.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
-      }
-    },
-    "channels": [
-      "Tennis Channel",
-      "Teledeporte",
-      "RTVE Play"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "rugby",
-    "date": {
-      "hour": "18:30",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Champions Cup",
-      "round": "1/4 de Final"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20141015071730-northampton-s.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20200806172525-castres-olympique.webp"
-      }
-    },
-    "channels": [
-      "M+ Deportes 4"
-    ],
-    "event": {},
-    "links": [
-      "acestream://42e83c337ece0af9ca7808859f84c7960e9cb6f5"
-    ]
-  },
-  {
-    "sport": "tenis",
-    "date": {
       "hour": "18:35",
       "day": "12/04/2025",
       "zone": "Europe/Madrid"
@@ -5607,6 +5607,79 @@
       "Marca YouTube"
     ],
     "event": {}
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "19:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "IHF Mundial Femenino",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130528081503-Macedonia.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130528084142-Polonia.webp"
+      }
+    },
+    "channels": [
+      "EHF TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "19:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga ASOBAL"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130903071448-club-balonmano-benidorm.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
+      }
+    },
+    "channels": [
+      "LaLiga+ Plus",
+      "Esport3"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "motociclismo",
+    "date": {
+      "hour": "19:00",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {},
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "MotoGP Videopass",
+      "DAZN",
+      "DAZN 1",
+      "DAZN 1 Bar",
+      "MAX"
+    ],
+    "event": {},
+    "links": [
+      "acestream://8ca07071b39185431f8e940ec98d1add9e561639",
+      "acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f"
+    ]
   },
   {
     "sport": "baloncesto",
@@ -5690,31 +5763,6 @@
     ]
   },
   {
-    "sport": "motociclismo",
-    "date": {
-      "hour": "19:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {},
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "MotoGP Videopass",
-      "DAZN",
-      "DAZN 1",
-      "DAZN 1 Bar",
-      "MAX"
-    ],
-    "event": {},
-    "links": [
-      "acestream://8ca07071b39185431f8e940ec98d1add9e561639",
-      "acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f"
-    ]
-  },
-  {
     "sport": "futbol",
     "date": {
       "hour": "19:00",
@@ -5745,50 +5793,25 @@
     }
   },
   {
-    "sport": "balonmano",
+    "sport": "futbol-sala",
     "date": {
-      "hour": "19:00",
+      "hour": "19:30",
       "day": "12/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "IHF Mundial Femenino",
-      "round": "Fase de Clasificación"
+      "competition": "Primera Federación Femenina"
     },
     "teams": {
       "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130528081503-Macedonia.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20200616224125-ourense-fsf.webp"
       },
       "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130528084142-Polonia.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20230824112301-fsf-o-castro-futsal.webp"
       }
     },
     "channels": [
-      "EHF TV"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "19:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga ASOBAL"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130903071448-club-balonmano-benidorm.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
-      }
-    },
-    "channels": [
-      "LaLiga+ Plus",
-      "Esport3"
+      "RFEF.es"
     ],
     "event": {}
   },
@@ -5841,25 +5864,19 @@
     "event": {}
   },
   {
-    "sport": "futbol-sala",
+    "sport": "boxeo",
     "date": {
-      "hour": "19:30",
+      "hour": "20:00",
       "day": "12/04/2025",
       "zone": "Europe/Madrid"
     },
-    "details": {
-      "competition": "Primera Federación Femenina"
-    },
+    "details": {},
     "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20200616224125-ourense-fsf.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20230824112301-fsf-o-castro-futsal.webp"
-      }
+      "local": {},
+      "visitor": {}
     },
     "channels": [
-      "RFEF.es"
+      "DAZN"
     ],
     "event": {}
   },
@@ -6011,23 +6028,6 @@
     }
   },
   {
-    "sport": "boxeo",
-    "date": {
-      "hour": "20:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {},
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
     "sport": "automovilismo",
     "date": {
       "hour": "20:05",
@@ -6045,6 +6045,30 @@
       "MAX",
       "DAZN",
       "Eurosport 2"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "boxeo",
+    "date": {
+      "hour": "20:15",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Título Europeo Femenino",
+      "round": "Peso Supergallo"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130204124525_inglaterra.webp"
+      }
+    },
+    "channels": [
+      "GolStadium Premium"
     ],
     "event": {}
   },
@@ -6080,26 +6104,47 @@
     }
   },
   {
-    "sport": "boxeo",
+    "sport": "automovilismo",
     "date": {
-      "hour": "20:15",
+      "hour": "20:30",
       "day": "12/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Título Europeo Femenino",
-      "round": "Peso Supergallo"
+      "competition": "IndyCar"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "M+ Deportes 6"
+    ],
+    "event": {},
+    "links": [
+      "acestream://8587ed8ac36ac477e1d4176d3159a38bd154d4ce"
+    ]
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "20:30",
+      "day": "12/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga ASOBAL"
     },
     "teams": {
       "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20220811173838-balonmano-guadalajara.webp"
       },
       "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130204124525_inglaterra.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20130817095651-bidasoa.webp"
       }
     },
     "channels": [
-      "GolStadium Premium"
+      "LaLiga+ Plus"
     ],
     "event": {}
   },
@@ -6163,51 +6208,6 @@
       "startDate": "2025-04-12T18:30:00",
       "duration": "T1H45M"
     }
-  },
-  {
-    "sport": "automovilismo",
-    "date": {
-      "hour": "20:30",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "IndyCar"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "M+ Deportes 6"
-    ],
-    "event": {},
-    "links": [
-      "acestream://8587ed8ac36ac477e1d4176d3159a38bd154d4ce"
-    ]
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "20:30",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga ASOBAL"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20220811173838-balonmano-guadalajara.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130817095651-bidasoa.webp"
-      }
-    },
-    "channels": [
-      "LaLiga+ Plus"
-    ],
-    "event": {}
   },
   {
     "sport": "baloncesto",
