@@ -3,45 +3,84 @@ name: Ejecución Diaria
 on:
   schedule:
     - cron: "0 0 * * *" # Se ejecuta todos los días a las 00:00 horas
-
-  workflow_dispatch:
+  workflow_dispatch: # Permite ejecutar manualmente
 
 permissions:
-  contents: write # Otorga permiso de escritura para hacer commits
+  contents: write # Permisos necesarios para hacer commits
+  pull-requests: write # Para crear pull requests si se requiere
+  actions: read
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30 # Timeout total del job
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
 
     steps:
       - name: Checkout del repositorio
         uses: actions/checkout@v3
+        timeout-minutes: 5
         with:
-          persist-credentials: true # Mantiene las credenciales para poder hacer push
+          persist-credentials: true
+          fetch-depth: 0 # Para acceder a la historia completa del repositorio
 
-      - name: Instalar Bun
-        uses: oven-sh/setup-bun@v1 # Instala Bun en el runner
-
-      - name: Instalar dependencias con Bun
-        run: bun install # Instala las dependencias de tu proyecto
-
-      - name: Instalar navegadores de Playwright
-        run: bunx playwright install
-      
-      - name: Instalar las dependencias de Playwright
-        run: bunx playwright install-deps chromium
-
-      - name: Ejecutar index.js
-        run: bun index.js # Ejecuta tu script con Bun
-
-      - name: Ejecutar combine.ts
-        run: bun combine.ts # Ejecuta tu script con Bun
-
-      - name: Ejecutar shuffle.ts
-        run: bun shuffle.ts # Ejecuta tu script con Bun 
-
-      - name: Commit y Push de los cambios
-        uses: actions-js/push@v1.5
+      - name: Configurar Bun
+        uses: oven-sh/setup-bun@v1
+        timeout-minutes: 5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          force: true
+          cache: true # Habilita caché para acelerar instalaciones
+
+      - name: Verificar dependencias
+        run: |
+          bun --version
+          node --version
+          npm --version
+        timeout-minutes: 2
+
+      - name: Instalar dependencias
+        run: |
+          bun install
+          bunx playwright install chromium
+        timeout-minutes: 10
+
+      - name: Ejecutar scripts
+        run: |
+          bun run-all
+        timeout-minutes: 15
+        env:
+          NODE_ENV: production
+
+      - name: Validar cambios
+        id: changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --cached --exit-code
+          echo "has_changes=$?" >> $GITHUB_OUTPUT
+        timeout-minutes: 2
+
+      - name: Commit y Push
+        if: steps.changes.outputs.has_changes == '1'
+        run: |
+          git commit -m "Update EPG data - $(date -u +'%Y-%m-%d %H:%M:%S')"
+          git push origin HEAD
+        timeout-minutes: 2
+
+      - name: Limpiar caché
+        if: always()
+        run: |
+          rm -rf node_modules
+          rm -rf .bun
+          git clean -fdx
+        timeout-minutes: 2
+
+      - name: Enviar notificación en caso de fallo
+        if: failure()
+        run: |
+          echo "❌ Workflow falló en ${GITHUB_WORKFLOW}"
+          echo "Error en el paso: ${GITHUB_STEP_ID}"
+          echo "Más detalles en: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+        timeout-minutes: 1

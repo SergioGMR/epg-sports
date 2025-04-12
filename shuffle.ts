@@ -1,6 +1,5 @@
 import data from "./data/allMatches.json" assert { type: "json" };
 import fs from 'fs';
-import { z } from 'zod';
 
 interface Match {
   sport: string;
@@ -15,12 +14,12 @@ interface Match {
   };
   teams: {
     local: {
-      name?: string;
-      image?: string;
+      name?: string | null;
+      image?: string | null;
     };
     visitor: {
-      name?: string;
-      image?: string;
+      name?: string | null;
+      image?: string | null;
     };
   };
   channels: string[];
@@ -38,43 +37,6 @@ interface Channel {
   links: string[];
   tags: string[];
 }
-
-// Zod schemas for type validation
-const channelSchema = z.object({
-  nombre: z.string(),
-  links: z.array(z.string()),
-  tags: z.array(z.string())
-});
-
-const matchSchema = z.object({
-  date: z.object({
-    hour: z.string(),
-    day: z.string(),
-    zone: z.string()
-  }),
-  details: z.object({
-    competition: z.string().optional(),
-    round: z.string().optional()
-  }),
-  teams: z.object({
-    local: z.object({
-      name: z.string().optional(),
-      image: z.string().optional()
-    }),
-    visitor: z.object({
-      name: z.string().optional(),
-      image: z.string().optional()
-    })
-  }),
-  channels: z.array(z.string()),
-  event: z.object({
-    name: z.string().optional(),
-    description: z.string().optional(),
-    startDate: z.string().optional(),
-    duration: z.string().optional()
-  }).optional(),
-  links: z.array(z.string()).optional()
-});
 
 // Function to update matches with links
 export function updateMatchesWithLinks(
@@ -140,20 +102,16 @@ export function updateMatchesWithLinks(
 // Main function with error handling
 export async function processMatches(): Promise<void> {
   try {
-    // Validate data structure
-    const validatedData = matchSchema.array().parse(data.matches);
-    
-    // Fetch and validate channel data
+    // Fetch channel data
     const response = await fetch("https://elplan.vercel.app/api/getData");
     if (!response.ok) {
       throw new Error(`Failed to fetch channel data: ${response.status} ${response.statusText}`);
     }
     
     const channelsData = await response.json();
-    const validatedChannels = channelSchema.array().parse(channelsData);
 
     // Update matches with links
-    const updatedMatches = updateMatchesWithLinks(validatedData, validatedChannels);
+    const updatedMatches = updateMatchesWithLinks(data.matches, channelsData);
 
     // Save to file
     const outputPath = "./data/updatedMatches.json";
