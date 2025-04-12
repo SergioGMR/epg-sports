@@ -1,5 +1,6 @@
 import data from "./data/allMatches.json" assert { type: "json" };
 import fs from 'fs';
+import { z } from 'zod';
 
 interface Match {
   date: {
@@ -22,13 +23,13 @@ interface Match {
     };
   };
   channels: string[];
-  event: {
+  event?: {
     name?: string;
     description?: string;
     startDate?: string;
     duration?: string;
   };
-  links?: string[]; // Propiedad opcional para añadir los links
+  links?: string[];
 }
 
 interface Channel {
@@ -37,73 +38,145 @@ interface Channel {
   tags: string[];
 }
 
-// Función para actualizar los partidos con los links correspondientes
-function updateMatchesWithLinks(
+// Zod schemas for type validation
+const channelSchema = z.object({
+  nombre: z.string(),
+  links: z.array(z.string()),
+  tags: z.array(z.string())
+});
+
+const matchSchema = z.object({
+  date: z.object({
+    hour: z.string(),
+    day: z.string(),
+    zone: z.string()
+  }),
+  details: z.object({
+    competition: z.string().optional(),
+    round: z.string().optional()
+  }),
+  teams: z.object({
+    local: z.object({
+      name: z.string().optional(),
+      image: z.string().optional()
+    }),
+    visitor: z.object({
+      name: z.string().optional(),
+      image: z.string().optional()
+    })
+  }),
+  channels: z.array(z.string()),
+  event: z.object({
+    name: z.string().optional(),
+    description: z.string().optional(),
+    startDate: z.string().optional(),
+    duration: z.string().optional()
+  }).optional(),
+  links: z.array(z.string()).optional()
+});
+
+// Function to update matches with links
+export function updateMatchesWithLinks(
   matches: Match[],
   channels: Channel[]
 ): Match[] {
+  if (!Array.isArray(matches) || !Array.isArray(channels)) {
+    throw new Error('Both matches and channels must be arrays');
+  }
+
   return matches.map((match) => {
-    // Convertimos los nombres de los canales del partido a minúsculas
-    const matchChannels = match.channels.map((c) => c.toLowerCase());
-
-    // Array para almacenar los links que coincidan
-    let accumulatedLinks: string[] = [];
-
-    // Recorremos el array de canales
-    channels.forEach((channel) => {
-      // Convertimos las tags del canal a minúsculas
-      const channelTags = channel.tags.map((t) => t.toLowerCase());
-
-      // Verificamos si algún canal del partido coincide con las tags del canal
-      const exists = matchChannels.some((mc) => channelTags.includes(mc));
-
-      if (exists) {
-        // Si hay coincidencia, acumulamos los links del canal
-        accumulatedLinks = accumulatedLinks.concat(channel.links);
-      }
-    });
-
-    if (accumulatedLinks.length > 0) {
-      // Si hay links acumulados, los añadimos al partido
-      match.links = accumulatedLinks;
+    // Validate match structure
+    if (!match.channels || !Array.isArray(match.channels)) {
+      throw new Error('Match must have a valid channels array');
     }
 
-    return match;
+    // Create a new match object to avoid mutating the original
+    const newMatch = { ...match };
+    
+    // Normalize channels (trim and lowercase) for comparison
+    const normalizedChannels = match.channels
+      .map(c => (c || '').trim().toLowerCase())
+      .filter(Boolean); // Remove empty strings
+
+    // Create a set of all possible channel tags for efficient lookup
+    const channelTags = new Set<string>();
+    channels.forEach(channel => {
+      if (!channel.tags || !Array.isArray(channel.tags)) return;
+      
+      channel.tags
+        .map(tag => (tag || '').trim().toLowerCase())
+        .filter(Boolean)
+        .forEach(tag => channelTags.add(tag));
+    });
+
+    // Find matching channels and accumulate their links
+    const accumulatedLinks = channels
+      .filter(channel => {
+        if (!channel.tags || !Array.isArray(channel.tags)) return false;
+        
+        // Check if any of this channel's tags matches any of our normalized channels
+        return channel.tags.some(tag => {
+          const normalizedTag = (tag || '').trim().toLowerCase();
+          return normalizedChannels.includes(normalizedTag);
+        });
+      })
+      .flatMap(channel => {
+        if (!channel.links || !Array.isArray(channel.links)) return [];
+        return channel.links
+          .map(link => (link || '').trim())
+          .filter(Boolean);
+      });
+
+    // Only add links if there are any
+    if (accumulatedLinks.length > 0) {
+      newMatch.links = [...new Set(accumulatedLinks)]; // Remove duplicates
+    }
+
+    return newMatch;
   });
 }
 
-(async () => {
+// Main function with error handling
+export async function processMatches(): Promise<void> {
   try {
-    const channelsResponse = await fetch(
-      "https://elplan.vercel.app/api/getData"
-    );
-    const channelsData = await channelsResponse.json();
-
-    // Verify that channelsData is an array
-    if (!Array.isArray(channelsData)) {
-      throw new Error("The channels data retrieved is not an array.");
+    // Validate data structure
+    const validatedData = matchSchema.array().parse(data.matches);
+    
+    // Fetch and validate channel data
+    const response = await fetch("https://elplan.vercel.app/api/getData");
+    if (!response.ok) {
+      throw new Error(`Failed to fetch channel data: ${response.status} ${response.statusText}`);
     }
+    
+    const channelsData = await response.json();
+    const validatedChannels = channelSchema.array().parse(channelsData);
 
-    const channels: Channel[] = channelsData;
+    // Update matches with links
+    const updatedMatches = updateMatchesWithLinks(validatedData, validatedChannels);
 
-    // Verify that data.matches is an array
-    if (!Array.isArray(data.matches)) {
-      throw new Error("data.matches is not an array.");
-    }
-
-    const updatedMatches = updateMatchesWithLinks(data.matches, channels);
-
-    // Save the updated matches to a JSON file
+    // Save to file
+    const outputPath = "./data/updatedMatches.json";
     fs.writeFileSync(
-      "./data/updatedMatches.json",
+      outputPath,
       JSON.stringify(updatedMatches, null, 2),
       "utf-8"
     );
+    
+    console.log(`Successfully processed ${updatedMatches.length} matches`);
+    console.log(`Updated matches saved to: ${outputPath}`);
 
-    console.log(
-      "Updated matches have been saved to './data/updatedMatches.json'."
-    );
   } catch (error) {
-    console.error("An error occurred:", error);
+    console.error('Error processing matches:', error);
+    throw error; // Re-throw to allow external handling
+  }
+}
+
+// Run the main function
+(async () => {
+  try {
+    await processMatches();
+  } catch (error) {
+    console.error('Fatal error:', error);
+    process.exit(1);
   }
 })();
