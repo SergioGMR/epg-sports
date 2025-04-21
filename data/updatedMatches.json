@@ -60,7 +60,7 @@
     "sport": "golf",
     "date": {
       "hour": "00:00",
-      "day": "20/04/2025",
+      "day": "21/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -82,10 +82,40 @@
     ]
   },
   {
+    "sport": "futbol",
+    "date": {
+      "hour": "00:30",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Campeonato Uruguayo"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20140502100938-defensor-sporting.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20200122120623-progreso.webp"
+      }
+    },
+    "channels": [
+      "GolTV Play"
+    ],
+    "event": {
+      "name": "Defensor Sporting - Progreso",
+      "description": "Defensor Sporting - Progreso el lunes, 21 de abril de 2025 a las 0:30",
+      "startDate": "2025-04-20T22:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
     "sport": "baloncesto",
     "date": {
-      "hour": "00:00",
-      "day": "20/04/2025",
+      "hour": "01:00",
+      "day": "21/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -94,167 +124,27 @@
     },
     "teams": {
       "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130808083641-new-york-knicks.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20191028090553-cleveland-cavaliers.webp"
       },
       "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20191028090514-detroit-pistons.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20130614063349-Miami-Heat.webp"
       }
     },
     "channels": [
-      "NBA League Pass"
+      "NBA League Pass",
+      "M+ Deportes"
     ],
-    "event": {}
+    "event": {},
+    "links": [
+      "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
+      "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa"
+    ]
   },
   {
     "sport": "futbol",
     "date": {
       "hour": "01:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NWSL"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20180727011859-nc-courage.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20240311095233-bay-football-club.webp"
-      }
-    },
-    "channels": [
-      "NWSL+"
-    ],
-    "event": {
-      "name": "North Carolina Courage - Bay FC",
-      "description": "North Carolina Courage - Bay FC el domingo, 20 de abril de 2025 a las 1:00",
-      "startDate": "2025-04-19T23:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "01:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NWSL"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220908171415-kansas-city-current.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220623182604-houston-dash.webp"
-      }
-    },
-    "channels": [
-      "NWSL+"
-    ],
-    "event": {
-      "name": "Kansas City Current - Houston Dash",
-      "description": "Kansas City Current - Houston Dash el domingo, 20 de abril de 2025 a las 1:30",
-      "startDate": "2025-04-19T23:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "01:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera División Argentina",
-      "round": "Torneo Apertura"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219051310_boca-juniors.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20140830122106-estudiantes-lp.webp"
-      }
-    },
-    "channels": [
-      "Fanatiz"
-    ],
-    "event": {
-      "name": "Boca Juniors - Estudiantes LP",
-      "description": "Boca Juniors - Estudiantes LP el domingo, 20 de abril de 2025 a las 1:30",
-      "startDate": "2025-04-19T23:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "boxeo",
-    "date": {
-      "hour": "02:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Título Mundial Femenino",
-      "round": "Peso Supermosca"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20200528104619-motoamerica-superbike.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130208071540_mexico.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "02:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga 1 Perú"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20200827174745-real-garcilaso.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150501020353-ayacucho.webp"
-      }
-    },
-    "channels": [
-      "Fanatiz"
-    ],
-    "event": {
-      "name": "Cusco FC - Ayacucho",
-      "description": "Cusco FC - Ayacucho el domingo, 20 de abril de 2025 a las 2:00",
-      "startDate": "2025-04-20T00:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "02:00",
-      "day": "20/04/2025",
+      "day": "21/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -263,112 +153,28 @@
     "teams": {
       "local": {
         "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20191111111808-independiente-del-valle.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20191111111707-delfin-sc.webp"
       },
       "visitor": {
         "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20140823020451-manta-fc.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20150808111412-macara.webp"
       }
     },
     "channels": [
       "ElCanalDelFutbol.com"
     ],
     "event": {
-      "name": "Independiente del Valle - Manta FC",
-      "description": "Independiente del Valle - Manta FC el domingo, 20 de abril de 2025 a las 2:00",
-      "startDate": "2025-04-20T00:00:00",
+      "name": "Delfín SC - Macará",
+      "description": "Delfín SC - Macará el lunes, 21 de abril de 2025 a las 1:00",
+      "startDate": "2025-04-20T23:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "02:15",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Uruguay"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20141108081609-rampla-juniors.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20230215105339-club-oriental-football.webp"
-      }
-    },
-    "channels": [
-      "GolTV Play"
-    ],
-    "event": {
-      "name": "Rampla Juniors - Oriental",
-      "description": "Rampla Juniors - Oriental el domingo, 20 de abril de 2025 a las 2:15",
-      "startDate": "2025-04-20T00:15:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "02:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Playoffs"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130808083216-la-lakers.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20201220190912-minnesota-timberwolves.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "03:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga Primera Nicaragua"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20201011142317-real-esteli.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20200802211543-diriangen-fc.webp"
-      }
-    },
-    "channels": [
-      "FIFA+"
-    ],
-    "event": {
-      "name": "Real Estelí - Diriangén FC",
-      "description": "Real Estelí - Diriangén FC el domingo, 20 de abril de 2025 a las 3:00",
-      "startDate": "2025-04-20T01:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "03:20",
-      "day": "20/04/2025",
+      "hour": "01:20",
+      "day": "21/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -378,11 +184,11 @@
     "teams": {
       "local": {
         "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130210120127_medellin.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20130218095458_deportivo-cali.webp"
       },
       "visitor": {
         "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130216121352_once-caldas.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20130528115548-Atletico-Nacional.webp"
       }
     },
     "channels": [
@@ -390,3865 +196,78 @@
       "RCN Nuestra Tele"
     ],
     "event": {
-      "name": "Medellín - Once Caldas",
-      "description": "Medellín - Once Caldas el domingo, 20 de abril de 2025 a las 3:20",
-      "startDate": "2025-04-20T01:20:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "golf",
-    "date": {
-      "hour": "06:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Volvo China Open"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "Movistar Golf"
-    ],
-    "event": {},
-    "links": [
-      "acestream://4f945b0ba4206fa2676b61e9eaa465ac3dcc8122",
-      "acestream://872608e734992db636eb79426802cd08f4029afb",
-      "acestream://858b3cf2842ebe394999275e5ebb0435f1af2ae4"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "06:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "A-League Women"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220906193754-wellington-phoenix.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20191026122524-western-united.webp"
-      }
-    },
-    "channels": [
-      "A-Leagues YouTube"
-    ],
-    "event": {
-      "name": "Wellington Phoenix Women - Western United Women",
-      "description": "Wellington Phoenix Women - Western United Women el domingo, 20 de abril de 2025 a las 6:00",
-      "startDate": "2025-04-20T04:00:00",
+      "name": "Deportivo Cali - Atlético Nacional",
+      "description": "Deportivo Cali - Atlético Nacional el lunes, 21 de abril de 2025 a las 1:20",
+      "startDate": "2025-04-20T23:20:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "07:00",
-      "day": "20/04/2025",
+      "hour": "01:30",
+      "day": "21/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "J1 League"
+      "competition": "Liga Futve 2"
     },
     "teams": {
       "local": {
         "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20141102091154-vissel-kobe.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20170223083453-monagas-sc.webp"
       },
       "visitor": {
         "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20221211193601-machida-zelvia.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20171102100631-mineros-guayana.webp"
       }
     },
     "channels": [
-      "J.LEAGUE International YouTube"
+      "FIFA+"
     ],
     "event": {
-      "name": "Vissel Kobe - Machida Zelvia",
-      "description": "Vissel Kobe - Machida Zelvia el domingo, 20 de abril de 2025 a las 7:00",
-      "startDate": "2025-04-20T05:00:00",
+      "name": "Monagas SC B - Mineros Guayana",
+      "description": "Monagas SC B - Mineros Guayana el lunes, 21 de abril de 2025 a las 1:30",
+      "startDate": "2025-04-20T23:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "07:00",
-      "day": "20/04/2025",
+      "hour": "01:30",
+      "day": "21/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "A-League"
+      "competition": "Primera División Argentina",
+      "round": "Torneo Apertura"
     },
     "teams": {
       "local": {
         "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20171008093928-sydney.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20130804050508-rosario-central.webp"
       },
       "visitor": {
         "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20151222015422-newcastle-jets.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20140814115618-instituto-atletico-central-cordoba.webp"
       }
     },
     "channels": [
-      "A-Leagues YouTube"
+      "Fanatiz"
     ],
     "event": {
-      "name": "Sydney FC - Newcastle Jets",
-      "description": "Sydney FC - Newcastle Jets el domingo, 20 de abril de 2025 a las 7:00",
-      "startDate": "2025-04-20T05:00:00",
+      "name": "Rosario Central - Instituto",
+      "description": "Rosario Central - Instituto el lunes, 21 de abril de 2025 a las 1:30",
+      "startDate": "2025-04-20T23:30:00",
       "duration": "T1H45M"
     }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "09:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "J1 League"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130416065555_red-diamonds.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20200704135954-yokohama.webp"
-      }
-    },
-    "channels": [
-      "J.LEAGUE International YouTube"
-    ],
-    "event": {
-      "name": "Urawa Red Diamonds - Yokohama F. Marinos",
-      "description": "Urawa Red Diamonds - Yokohama F. Marinos el domingo, 20 de abril de 2025 a las 9:00",
-      "startDate": "2025-04-20T07:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "09:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "A-League"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20140410105101-central-coast-mariners.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20201211182311-macarthur-fc.webp"
-      }
-    },
-    "channels": [
-      "A-Leagues YouTube"
-    ],
-    "event": {
-      "name": "Central Coast Mariners - Macarthur FC",
-      "description": "Central Coast Mariners - Macarthur FC el domingo, 20 de abril de 2025 a las 9:00",
-      "startDate": "2025-04-20T07:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "09:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Swit Cup"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "La Xarxa+"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "09:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Torneo MIC",
-      "round": "Final Infantil Masculina"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20151004120005-valencia.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20211013183455-fc-andorra.webp"
-      }
-    },
-    "channels": [
-      "GolStadium Premium",
-      "La Xarxa+",
-      "GOL PLAY",
-      "GolStadium"
-    ],
-    "event": {
-      "name": "Valencia CF Academy - FC Andorra Academy",
-      "description": "Valencia CF Academy - FC Andorra Academy el domingo, 20 de abril de 2025 a las 9:30",
-      "startDate": "2025-04-20T07:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "10:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Torneo MIC",
-      "round": "Final Juvenil Masculina"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20180322055422-ue-quart.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20180406095333-albion.webp"
-      }
-    },
-    "channels": [
-      "M+ Vamos",
-      "M+ #Vamos Bar",
-      "Movistar+ Lite",
-      "M+ Liga de Campeones"
-    ],
-    "event": {
-      "name": "UE Quart Academy - Albión",
-      "description": "UE Quart Academy - Albión el domingo, 20 de abril de 2025 a las 10:00",
-      "startDate": "2025-04-20T08:00:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://f096a64dd756a6d549aa7b12ee9acf7eee27e833"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "10:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Torneo Int. Real Sociedad"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "Real Sociedad TV YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "10:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Torneo Cesaraugusta"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "Aragón Deporte"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "10:45",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Torneo MIC",
-      "round": "Final Cadete Masculina"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20151130110758-real-sociedad.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20240712124125-atletico-madrid-cantera.webp"
-      }
-    },
-    "channels": [
-      "GolStadium Premium",
-      "La Xarxa+",
-      "GOL PLAY",
-      "GolStadium"
-    ],
-    "event": {
-      "name": "Real Sociedad Academy - At. Madrid Academy",
-      "description": "Real Sociedad Academy - At. Madrid Academy el domingo, 20 de abril de 2025 a las 10:45",
-      "startDate": "2025-04-20T08:45:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "11:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Torneo Int. Real Sociedad",
-      "round": "2ª Fase Sub-17"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20151130110758-real-sociedad.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20181007102616-no-escudo.webp"
-      }
-    },
-    "channels": [
-      "Real Sociedad TV YouTube"
-    ],
-    "event": {
-      "name": "Real Sociedad Academy - TBD",
-      "description": "Real Sociedad Academy - TBD el domingo, 20 de abril de 2025 a las 11:00",
-      "startDate": "2025-04-20T09:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "11:15",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Torneo MIC",
-      "round": "Final Cadete Masculina"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20211013183455-fc-andorra.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20240712124125-atletico-madrid-cantera.webp"
-      }
-    },
-    "channels": [
-      "M+ Vamos",
-      "M+ #Vamos Bar",
-      "Movistar+ Lite",
-      "M+ Liga de Campeones"
-    ],
-    "event": {
-      "name": "FC Andorra Academy - At. Madrid Academy",
-      "description": "FC Andorra Academy - At. Madrid Academy el domingo, 20 de abril de 2025 a las 11:15",
-      "startDate": "2025-04-20T09:15:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://f096a64dd756a6d549aa7b12ee9acf7eee27e833"
-    ]
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "11:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga Guerreras Iberdrola"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20140306062749-bm-porrino.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20131108053925-atl-guardes.webp"
-      }
-    },
-    "channels": [
-      "Teledeporte",
-      "RTVE Play"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "11:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "ITF Torneo de Madrid",
-      "round": "Final"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20200928172741-mayar-sherif.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20140209123518-Mexico.webp"
-      }
-    },
-    "channels": [
-      "M+ Ellas Vamos",
-      "Movistar+ Lite",
-      "Marca YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Torneo MIC",
-      "round": "Final Juvenil Masculina"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20151003015854-figueres.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20210127191233-alaves-esports.webp"
-      }
-    },
-    "channels": [
-      "GolStadium Premium",
-      "La Xarxa+",
-      "GOL PLAY",
-      "GolStadium"
-    ],
-    "event": {
-      "name": "Figueres Academy - Alavés Academy",
-      "description": "Figueres Academy - Alavés Academy el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Premier League Ucrania"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220823143355-fc-kryvbas-kryvyi-rih.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20140224092901-zorya.webp"
-      }
-    },
-    "channels": [
-      "OneFootball PPV"
-    ],
-    "event": {
-      "name": "FC Kryvbas - Zorya",
-      "description": "FC Kryvbas - Zorya el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {},
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "Real Sociedad TV YouTube"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {},
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "Aragón Deporte"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 1"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20171111092550-ourense.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218093611_bilbao.webp"
-      }
-    },
-    "channels": [
-      "FEF TV"
-    ],
-    "event": {
-      "name": "Ourense CF - Bilbao Athletic",
-      "description": "Ourense CF - Bilbao Athletic el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 1"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20211013183402-ponferradina.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218093507_osasuna.webp"
-      }
-    },
-    "channels": [
-      "FEF TV"
-    ],
-    "event": {
-      "name": "Ponferradina - Osasuna Promesas",
-      "description": "Ponferradina - Osasuna Promesas el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 2"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20240712123955-at-madrid-b.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121227022451_alcoyano.webp"
-      }
-    },
-    "channels": [
-      "FEF TV"
-    ],
-    "event": {
-      "name": "At. Madrid B - Alcoyano",
-      "description": "At. Madrid B - Alcoyano el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 2"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20180213125818-antequera-cf.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121227024026_yeclano.webp"
-      }
-    },
-    "channels": [
-      "FEF TV"
-    ],
-    "event": {
-      "name": "Antequera - Yeclano",
-      "description": "Antequera - Yeclano el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 1"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20211013183455-fc-andorra.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150617081057-gimnastica-segoviana.webp"
-      }
-    },
-    "channels": [
-      "FEF TV"
-    ],
-    "event": {
-      "name": "FC Andorra - G. Segoviana",
-      "description": "FC Andorra - G. Segoviana el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 5"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121226110930_ud-s.-sebastian-de-los-reyes.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20161122124540-ad-illescas.webp"
-      }
-    },
-    "channels": [
-      "CMMPlay",
-      "TV FootballClub"
-    ],
-    "event": {
-      "name": "UD Sanse - AD Illescas",
-      "description": "UD Sanse - AD Illescas el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 4"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121227103937_balompedica-linense.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20140611112642-linares.webp"
-      }
-    },
-    "channels": [
-      "Web Directo"
-    ],
-    "event": {
-      "name": "Balompédica Linense - Linares Deportivo",
-      "description": "Balompédica Linense - Linares Deportivo el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 3"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130204085504_pena-deportiva-santa-eularia.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130606123052-ue-olot.webp"
-      }
-    },
-    "channels": [
-      "Esports IB3 YouTube"
-    ],
-    "event": {
-      "name": "Peña Deportiva - UE Olot",
-      "description": "Peña Deportiva - UE Olot el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 3"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218093321_espanol.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20180926061457-cd-ibiza-islas-pitiusas.webp"
-      }
-    },
-    "channels": [
-      "RCD Espanyol YouTube",
-      "Facebook RCD Espanyol",
-      "Twitter @RCDEspanyol",
-      "Esports IB3 YouTube"
-    ],
-    "event": {
-      "name": "Espanyol B - CD Ibiza Islas Pitiusas",
-      "description": "Espanyol B - CD Ibiza Islas Pitiusas el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 5"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20131112064351-union-adarve.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160115093949-conquense.webp"
-      }
-    },
-    "channels": [
-      "TV FootballClub",
-      "CMMPlay"
-    ],
-    "event": {
-      "name": "Unión Adarve - Conquense",
-      "description": "Unión Adarve - Conquense el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 2"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150602012828-gernika-club.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20190918053444-ud-barbastro.webp"
-      }
-    },
-    "channels": [
-      "TV FootballClub"
-    ],
-    "event": {
-      "name": "Gernika - UD Barbastro",
-      "description": "Gernika - UD Barbastro el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 2"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20170306095035-ejea.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130618124744-arenas-club.webp"
-      }
-    },
-    "channels": [
-      "Aragón Deporte",
-      "TV FootballClub"
-    ],
-    "event": {
-      "name": "Ejea - Arenas Club",
-      "description": "Ejea - Arenas Club el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 2"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20170525053739-utebo-fc.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121227023835_teruel.webp"
-      }
-    },
-    "channels": [
-      "Aragón Deporte",
-      "TV FootballClub"
-    ],
-    "event": {
-      "name": "Utebo - Teruel",
-      "description": "Utebo - Teruel el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 4"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220803083245-cadiz-b.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160923122525-antoniano.webp"
-      }
-    },
-    "channels": [
-      "Plaiz",
-      "TV FootballClub"
-    ],
-    "event": {
-      "name": "Cádiz Mirandilla - CA Antoniano",
-      "description": "Cádiz Mirandilla - CA Antoniano el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 1"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150909094609-Racing.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220906171217-aviles.webp"
-      }
-    },
-    "channels": [
-      "Real Racing Club YouTube"
-    ],
-    "event": {
-      "name": "Rayo Cantabria - Real Avilés",
-      "description": "Rayo Cantabria - Real Avilés el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 3"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20201003204220-torrent-cf.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121227023118_lleida.webp"
-      }
-    },
-    "channels": [
-      "TV FootballClub"
-    ],
-    "event": {
-      "name": "Torrent CF - Lleida",
-      "description": "Torrent CF - Lleida el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación Femenina"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20131007111034-aem-futbol.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20210127191233-alaves-esports.webp"
-      }
-    },
-    "channels": [
-      "Lleida Televisió",
-      "La Xarxa+"
-    ],
-    "event": {
-      "name": "SE AEM - Alavés Femenino",
-      "description": "SE AEM - Alavés Femenino el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación Femenina"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20240712124404-atletico-madrid-b-femenino.webp"
-      }
-    },
-    "channels": [
-      "Barça One"
-    ],
-    "event": {
-      "name": "FC Barcelona B Femenino - At. Madrid B Femenino",
-      "description": "FC Barcelona B Femenino - At. Madrid B Femenino el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación Femenina"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160728062738-osasuna.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20200916192901-real-madrid-femenino.webp"
-      }
-    },
-    "channels": [
-      "Osasuna TV YouTube"
-    ],
-    "event": {
-      "name": "Osasuna Femenino - Real Madrid B Femenino",
-      "description": "Osasuna Femenino - Real Madrid B Femenino el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación Femenina"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20131007021135-villarreal.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20210813152649-cp-cacereno-femenino.webp"
-      }
-    },
-    "channels": [
-      "Villarreal TV",
-      "VillarrealCF YouTube",
-      "Twitch VillarrealCF",
-      "Facebook Live Villarreal CF",
-      "Twitter Villarreal CF"
-    ],
-    "event": {
-      "name": "Villarreal Femenino - Cacereño Femenino",
-      "description": "Villarreal Femenino - Cacereño Femenino el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga F"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150911030256-Levante.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20170722032940-deportivo.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN 1",
-      "DAZN 1 Bar",
-      "MAX"
-    ],
-    "event": {
-      "name": "Levante Femenino - Deportivo Abanca",
-      "description": "Levante Femenino - Deportivo Abanca el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://8ca07071b39185431f8e940ec98d1add9e561639",
-      "acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Tercera Federación",
-      "round": "Grupo 6"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20240821215156-cf-benidorm.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20201211082036-cd-castellon-academy.webp"
-      }
-    },
-    "channels": [
-      "CF Benidorm YouTube"
-    ],
-    "event": {
-      "name": "CF Benidorm - CD Castellón B",
-      "description": "CF Benidorm - CD Castellón B el domingo, 20 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-20T10:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "12:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga ASOBAL"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130725082534-ciudad-encantada.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130725083912-cangas-balonmano.webp"
-      }
-    },
-    "channels": [
-      "LaLiga+ Plus",
-      "CMMPlay",
-      "TVG2"
-    ],
-    "event": {}
   },
   {
     "sport": "baloncesto",
     "date": {
-      "hour": "12:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga Endesa",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130731064711-forca-lleida-baloncesto.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130803090213-valencia-basket.webp"
-      }
-    },
-    "channels": [
-      "M+ Deportes 2"
-    ],
-    "event": {},
-    "links": [
-      "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
-    ]
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "12:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga Endesa",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20190925100830-morabanc-andorra.webp"
-      }
-    },
-    "channels": [
-      "Movistar Plus+",
-      "M+ Deportes"
-    ],
-    "event": {},
-    "links": [
-      "acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0",
-      "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
-      "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "12:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Torneo MIC",
-      "round": "Final Juvenil Masculina"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20240712124125-atletico-madrid-cantera.webp"
-      }
-    },
-    "channels": [
-      "M+ Liga de Campeones"
-    ],
-    "event": {
-      "name": "FC Barcelona Academy - At. Madrid Academy",
-      "description": "FC Barcelona Academy - At. Madrid Academy el domingo, 20 de abril de 2025 a las 12:30",
-      "startDate": "2025-04-20T10:30:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://f096a64dd756a6d549aa7b12ee9acf7eee27e833"
-    ]
-  },
-  {
-    "sport": "golf",
-    "date": {
-      "hour": "12:45",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "RBC Heritage"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "MAX"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "automovilismo",
-    "date": {
-      "hour": "13:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "6 Horas de Imola"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "MAX",
-      "DAZN",
-      "Eurosport 2"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol-sala",
-    "date": {
-      "hour": "13:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación Futsal"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20201214210722-noia-futbol-sala.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20220811173804-manzanares-fs.webp"
-      }
-    },
-    "channels": [
-      "FEF TV",
-      "Teledeporte",
-      "RTVE Play"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "13:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Barcelona Open",
-      "round": "Final Dobles"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20200527100720-danish-superliga.webp"
-      }
-    },
-    "channels": [
-      "ATP Tennis TV",
-      "RTVE Play"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "13:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "WTA Torneo de Stuttgart",
-      "round": "Semifinal 1"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727123153-Rusia.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727124452-letonia.webp"
-      }
-    },
-    "channels": [
-      "WTA TV",
-      "Tennis Channel",
-      "Tennis Channel - Orange TV"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "13:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 3"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218093434_mallorca.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220906140233-elche-b.webp"
-      }
-    },
-    "channels": [
-      "RCD Mallorca YouTube",
-      "Esports IB3 YouTube"
-    ],
-    "event": {
-      "name": "Mallorca B - Elche Ilicitano",
-      "description": "Mallorca B - Elche Ilicitano el domingo, 20 de abril de 2025 a las 13:00",
-      "startDate": "2025-04-20T11:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "13:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 5"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20190810105510-cd-atletico-paso.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20191205053123-colonia-moscardo.webp"
-      }
-    },
-    "channels": [
-      "TV FootballClub"
-    ],
-    "event": {
-      "name": "CD Atlético Paso - Colonia Moscardó",
-      "description": "CD Atlético Paso - Colonia Moscardó el domingo, 20 de abril de 2025 a las 13:00",
-      "startDate": "2025-04-20T11:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "13:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 5"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20210826143248-cd-union-sur-yaiza.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20140616101035-tenerife.webp"
-      }
-    },
-    "channels": [
-      "TV FootballClub",
-      "TV Canaria"
-    ],
-    "event": {
-      "name": "Unión Sur Yaiza - Tenerife B",
-      "description": "Unión Sur Yaiza - Tenerife B el domingo, 20 de abril de 2025 a las 13:00",
-      "startDate": "2025-04-20T11:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "13:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Torneo de Múnich",
-      "round": "Final"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727123343-Alemania.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130226100540_eeuu.webp"
-      }
-    },
-    "channels": [
-      "ATP Tennis TV",
-      "M+ Deportes 4"
-    ],
-    "event": {},
-    "links": [
-      "acestream://42e83c337ece0af9ca7808859f84c7960e9cb6f5"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "13:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "3. Liga"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130730051858-saarbruecken.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130205031503_dynamo-dresden.webp"
-      }
-    },
-    "channels": [
-      "OneFootball PPV",
-      "German Football YouTube"
-    ],
-    "event": {
-      "name": "1. FC Saarbrücken - Dynamo Dresden",
-      "description": "1. FC Saarbrücken - Dynamo Dresden el domingo, 20 de abril de 2025 a las 13:30",
-      "startDate": "2025-04-20T11:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "13:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Jupiler Pro League"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219090701_anderlecht.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20170721010631-antwerp.webp"
-      }
-    },
-    "channels": [
-      "GolStadium Premium"
-    ],
-    "event": {
-      "name": "Anderlecht - Antwerp",
-      "description": "Anderlecht - Antwerp el domingo, 20 de abril de 2025 a las 13:30",
-      "startDate": "2025-04-20T11:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "13:35",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Chinese Super League"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150703051851-shanghai-sipg.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220617100147-chengdu-rongcheng-fc.webp"
-      }
-    },
-    "channels": [
-      "GolStadium Premium"
-    ],
-    "event": {
-      "name": "Shanghai Port - Chengdu Rongcheng",
-      "description": "Shanghai Port - Chengdu Rongcheng el domingo, 20 de abril de 2025 a las 13:35",
-      "startDate": "2025-04-20T11:35:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "14:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "EHF Women's Champions League"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20151115010406-csm-bucuresti.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20140424101844-team-esbjerg.webp"
-      }
-    },
-    "channels": [
-      "EHF TV"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "14:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Regionalliga"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20180913095700-hoffenheim.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130803125343-ksv-hessen.webp"
-      }
-    },
-    "channels": [
-      "OneFootball PPV"
-    ],
-    "event": {
-      "name": "Hoffenheim II - KSV Hessen Kassel",
-      "description": "Hoffenheim II - KSV Hessen Kassel el domingo, 20 de abril de 2025 a las 14:00",
-      "startDate": "2025-04-20T12:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "14:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "FA Women's Super League"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20210112220051-manchester-city-academy.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20191026122144-everton.webp"
-      }
-    },
-    "channels": [
-      "WSL YouTube"
-    ],
-    "event": {
-      "name": "Man City Femenino - Everton Femenino",
-      "description": "Man City Femenino - Everton Femenino el domingo, 20 de abril de 2025 a las 14:00",
-      "startDate": "2025-04-20T12:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "14:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "La Liga EA Sports"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20240711222109-valladolid.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218093507_osasuna.webp"
-      }
-    },
-    "channels": [
-      "M+ LaLiga TV",
-      "LaLiga TV Bar"
-    ],
-    "event": {
-      "name": "Real Valladolid - Osasuna",
-      "description": "Real Valladolid - Osasuna el domingo, 20 de abril de 2025 a las 14:00",
-      "startDate": "2025-04-20T12:00:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280",
-      "acestream://512aeadf50d91603d15b32f1e408166536ec4ac9",
-      "acestream://1969c27658d4c8333ab2c0670802546121a774a5",
-      "acestream://7d8c87e057be98f00f22e23b23fbf08999e4b02f",
-      "acestream://f031f5728b32f6089dda28edebe990cf198108d8"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "14:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "LaLiga Hypermotion"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130108015117_cartagena.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20190417031704-granada-cf.webp"
-      }
-    },
-    "channels": [
-      "LALIGA TV Hypermotion",
-      "Amazon Prime Video",
-      "DAZN",
-      "GolStadium Premium",
-      "M+ Vamos",
-      "Movistar+ Lite",
-      "Orange Fútbol 2",
-      "LaLiga TV M2"
-    ],
-    "event": {
-      "name": "FC Cartagena - Granada CF",
-      "description": "FC Cartagena - Granada CF el domingo, 20 de abril de 2025 a las 14:00",
-      "startDate": "2025-04-20T12:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "14:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Damallsvenskan"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160707064840-linkopings-fc.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20200614181204-ifk-norrkoping.webp"
-      }
-    },
-    "channels": [
-      "FANSEAT"
-    ],
-    "event": {
-      "name": "Linköpings FC - IFK Norrköping Kvinnor",
-      "description": "Linköpings FC - IFK Norrköping Kvinnor el domingo, 20 de abril de 2025 a las 14:00",
-      "startDate": "2025-04-20T12:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "automovilismo",
-    "date": {
-      "hour": "14:05",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "F1 Academy"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "DAZN",
-      "MAX",
-      "F1 Academy YouTube",
-      "DAZN F1"
-    ],
-    "event": {},
-    "links": [
-      "acestream://5789ca155323664edd293b848606688edf803f4d",
-      "acestream://9dad717d99b29a05672166258a77c25b57713dd5",
-      "acestream://e1fcad9de0c782c157fde6377805c58297ab65c2"
-    ]
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "14:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "WTA Torneo de Stuttgart",
-      "round": "Semifinal 2"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727123407-Bielorrusia.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727123437-Italia.webp"
-      }
-    },
-    "channels": [
-      "WTA TV",
-      "Tennis Channel",
-      "Tennis Channel - Orange TV"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "14:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Premier League Ucrania"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220823143329-fc-inhulets-petrove.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20230908130044-lnz-cherkasy.webp"
-      }
-    },
-    "channels": [
-      "OneFootball PPV"
-    ],
-    "event": {
-      "name": "FC Inhulets Petrove - LNZ Cherkasy",
-      "description": "FC Inhulets Petrove - LNZ Cherkasy el domingo, 20 de abril de 2025 a las 14:30",
-      "startDate": "2025-04-20T12:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "14:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Admiral Bundesliga"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130705110853-sturm-graz.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160624054158-fc-blau-weiss-linz.webp"
-      }
-    },
-    "channels": [
-      "OneFootball",
-      "OneFootball PPV"
-    ],
-    "event": {
-      "name": "Sturm Graz - Blau Weiß Linz",
-      "description": "Sturm Graz - Blau Weiß Linz el domingo, 20 de abril de 2025 a las 14:30",
-      "startDate": "2025-04-20T12:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "14:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Admiral Bundesliga"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20140717094333-wolfsberger.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130705110807-rapid-viena.webp"
-      }
-    },
-    "channels": [
-      "OneFootball",
-      "OneFootball PPV"
-    ],
-    "event": {
-      "name": "Wolfsberger AC - Rapid Wien",
-      "description": "Wolfsberger AC - Rapid Wien el domingo, 20 de abril de 2025 a las 14:30",
-      "startDate": "2025-04-20T12:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "14:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga noruega"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130814015958-tromso.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20190623070849-kristiansund.webp"
-      }
-    },
-    "channels": [
-      "OneFootball"
-    ],
-    "event": {
-      "name": "Tromsø - Kristiansund",
-      "description": "Tromsø - Kristiansund el domingo, 20 de abril de 2025 a las 14:30",
-      "startDate": "2025-04-20T12:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "15:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "FA Women's Super League"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20200413194302-tottenham-women.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20240923180742-aston-villa-women.webp"
-      }
-    },
-    "channels": [
-      "WSL YouTube"
-    ],
-    "event": {
-      "name": "Tottenham Femenino - Aston Villa Femenino",
-      "description": "Tottenham Femenino - Aston Villa Femenino el domingo, 20 de abril de 2025 a las 15:00",
-      "startDate": "2025-04-20T13:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "15:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Premier League"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218101246_fulham.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218101333_chelsea.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN 4",
-      "MAX"
-    ],
-    "event": {
-      "name": "Fulham - Chelsea",
-      "description": "Fulham - Chelsea el domingo, 20 de abril de 2025 a las 15:00",
-      "startDate": "2025-04-20T13:00:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://2fcdf7a19c0858f686efdfabd3c8c2b92bf6bcfd"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "15:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Premier League"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218101319_manchester-united.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130801021453-wolverhamton.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN 2",
-      "DAZN 2 Bar",
-      "MAX"
-    ],
-    "event": {
-      "name": "Manchester Utd. - Wolverhampton",
-      "description": "Manchester Utd. - Wolverhampton el domingo, 20 de abril de 2025 a las 15:00",
-      "startDate": "2025-04-20T13:00:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://60dbeeb299ec04bf02bc7426d827547599d3d9fc",
-      "acestream://7aa402bab9fff43258fbcf401881a39475f30aaf"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "15:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Premier League"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130824095319-ipswich-town.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218091224_arsenal.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN 1",
-      "DAZN 1 Bar",
-      "MAX"
-    ],
-    "event": {
-      "name": "Ipswich Town - Arsenal",
-      "description": "Ipswich Town - Arsenal el domingo, 20 de abril de 2025 a las 15:00",
-      "startDate": "2025-04-20T13:00:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://8ca07071b39185431f8e940ec98d1add9e561639",
-      "acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "15:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Serie A Italiana"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20200116063133-empoli.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220907172129-venezia-fc.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis"
-    ],
-    "event": {
-      "name": "Empoli - Venezia FC",
-      "description": "Empoli - Venezia FC el domingo, 20 de abril de 2025 a las 15:00",
-      "startDate": "2025-04-20T13:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "automovilismo",
-    "date": {
-      "hour": "15:25",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "FIA Fórmula 2"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "DAZN",
-      "MAX",
-      "DAZN F1"
-    ],
-    "event": {},
-    "links": [
-      "acestream://5789ca155323664edd293b848606688edf803f4d",
-      "acestream://9dad717d99b29a05672166258a77c25b57713dd5",
-      "acestream://e1fcad9de0c782c157fde6377805c58297ab65c2"
-    ]
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "15:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "WTA Torneo de Rouen",
-      "round": "Final"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130727124612-Ucrania.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20200604115219-exhibition-match-belgrado.webp"
-      }
-    },
-    "channels": [
-      "WTA TV",
-      "Tennis Channel"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "15:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 2"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160909025610-recreativo.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp"
-      }
-    },
-    "channels": [
-      "FEF TV"
-    ],
-    "event": {
-      "name": "Recreativo Huelva - RM Castilla",
-      "description": "Recreativo Huelva - RM Castilla el domingo, 20 de abril de 2025 a las 15:30",
-      "startDate": "2025-04-20T13:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "15:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 2"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121226110046_fuenlabrada.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20140517114345-merida.webp"
-      }
-    },
-    "channels": [
-      "FEF TV"
-    ],
-    "event": {
-      "name": "Fuenlabrada - AD Mérida",
-      "description": "Fuenlabrada - AD Mérida el domingo, 20 de abril de 2025 a las 15:30",
-      "startDate": "2025-04-20T13:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "15:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Bundesliga"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218101607_augsburgo.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218101809_eintracht-frankfurt.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis"
-    ],
-    "event": {
-      "name": "Augsburg - Eintracht Frankfurt",
-      "description": "Augsburg - Eintracht Frankfurt el domingo, 20 de abril de 2025 a las 15:30",
-      "startDate": "2025-04-20T13:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "rugby",
-    "date": {
-      "hour": "16:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "6 Naciones Femenino"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130624101253-gales.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130624104842-irlanda.webp"
-      }
-    },
-    "channels": [
-      "M+ Ellas Vamos",
-      "Movistar+ Lite",
-      "M+ Deportes 6"
-    ],
-    "event": {},
-    "links": [
-      "acestream://8587ed8ac36ac477e1d4176d3159a38bd154d4ce"
-    ]
-  },
-  {
-    "sport": "rugby",
-    "date": {
-      "hour": "16:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Gallagher Premiership"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20200805222036-bristol-bears.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20140113053658-leicester-tigers.webp"
-      }
-    },
-    "channels": [
-      "M+ Deportes 5"
-    ],
-    "event": {},
-    "links": [
-      "acestream://b1e5abc48195b7ca9b2ee1b352e790eb9f7292e3"
-    ]
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "16:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "EHF Women's Champions League"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20221213171613-odense-handbold.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130923113013-ferencvaros.webp"
-      }
-    },
-    "channels": [
-      "EHF TV"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "16:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {},
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "ATP Tennis TV",
-      "M+ Vamos",
-      "M+ #Vamos Bar",
-      "Movistar+ Lite",
-      "Movistar Plus+ 2",
-      "La 1 TVE",
-      "RTVE Play",
-      "M+ Deportes 2",
-      "Esport3"
-    ],
-    "event": {},
-    "links": [
-      "acestream://8ba764f6a3bce6eae87ec71208fad1aa3a20528d",
-      "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "16:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Torneo Int. Real Sociedad",
-      "round": "Fase de grupos Sub-13"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150916064627-Manchester-United.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20211126210315-bergara-ke.webp"
-      }
-    },
-    "channels": [
-      "Real Sociedad TV YouTube"
-    ],
-    "event": {
-      "name": "Man Utd Academy - Bergara KE",
-      "description": "Man Utd Academy - Bergara KE el domingo, 20 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-20T14:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "16:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Uruguay"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220317131544-la-luz-fc.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20141120070510-centro-atletico-fenix.webp"
-      }
-    },
-    "channels": [
-      "GolTV Play"
-    ],
-    "event": {
-      "name": "La Luz FC - CA Fénix",
-      "description": "La Luz FC - CA Fénix el domingo, 20 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-20T14:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "16:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Superliga de Letonia"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220304205145-sk-super-nova.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220907141835-rfs-riga.webp"
-      }
-    },
-    "channels": [
-      "OneFootball"
-    ],
-    "event": {
-      "name": "SK Super Nova - RFS Riga",
-      "description": "SK Super Nova - RFS Riga el domingo, 20 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-20T14:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "16:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga F"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20200916192901-real-madrid-femenino.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160830072242-real-betis.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "M+ Ellas Vamos",
-      "Movistar+ Lite",
-      "DAZN App Gratis",
-      "DAZN 3",
-      "MAX"
-    ],
-    "event": {
-      "name": "Real Madrid Femenino - Real Betis Féminas",
-      "description": "Real Madrid Femenino - Real Betis Féminas el domingo, 20 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-20T14:00:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://a8ffddef56f082d4bb5c0be0d3d2fdd8c16dbd97"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "16:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Jupiler Pro League"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20170303012544-genk.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20200104093655-saint-gilloise.webp"
-      }
-    },
-    "channels": [
-      "GolStadium Premium",
-      "GOL PLAY",
-      "GolStadium"
-    ],
-    "event": {
-      "name": "Genk - Saint-Gilloise",
-      "description": "Genk - Saint-Gilloise el domingo, 20 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-20T14:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "16:15",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "La Liga EA Sports"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218093727_villareal.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218093019_real-sociedad.webp"
-      }
-    },
-    "channels": [
-      "M+ LaLiga TV",
-      "LaLiga TV Bar"
-    ],
-    "event": {
-      "name": "Villarreal - Real Sociedad",
-      "description": "Villarreal - Real Sociedad el domingo, 20 de abril de 2025 a las 16:15",
-      "startDate": "2025-04-20T14:15:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280",
-      "acestream://512aeadf50d91603d15b32f1e408166536ec4ac9",
-      "acestream://1969c27658d4c8333ab2c0670802546121a774a5",
-      "acestream://7d8c87e057be98f00f22e23b23fbf08999e4b02f",
-      "acestream://f031f5728b32f6089dda28edebe990cf198108d8"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "16:15",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "LaLiga Hypermotion"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160724122218-cordoba-cf.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219073017_oviedo.webp"
-      }
-    },
-    "channels": [
-      "LALIGA TV Hypermotion",
-      "Amazon Prime Video",
-      "DAZN",
-      "GolStadium Premium",
-      "LaLiga TV M2"
-    ],
-    "event": {
-      "name": "Córdoba - Real Oviedo",
-      "description": "Córdoba - Real Oviedo el domingo, 20 de abril de 2025 a las 16:15",
-      "startDate": "2025-04-20T14:15:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "17:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga ASOBAL"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20180910104127-ademar-leon.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20220811173838-balonmano-guadalajara.webp"
-      }
-    },
-    "channels": [
-      "LaLiga+ Plus",
-      "CMMPlay"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "17:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga Endesa",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130731070150-cb-breogan-lugo.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20190925100947-casademont-zaragoza.webp"
-      }
-    },
-    "channels": [
-      "M+ Deportes 3"
-    ],
-    "event": {},
-    "links": [
-      "acestream://aee0a595220e0f1c2fee725fd1dbc602d7152a9a"
-    ]
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "17:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga Endesa",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20160907115208-baskonia.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130803090548-cb-canarias.webp"
-      }
-    },
-    "channels": [
-      "M+ Deportes"
-    ],
-    "event": {},
-    "links": [
-      "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
-      "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "17:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Premier League Ucrania"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220823143342-nk-veres-rivne.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130814022551-chornomorets-odesa.webp"
-      }
-    },
-    "channels": [
-      "OneFootball PPV"
-    ],
-    "event": {
-      "name": "NK Veres Rivne - Chernomorets Odessa",
-      "description": "NK Veres Rivne - Chernomorets Odessa el domingo, 20 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-20T15:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "17:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Torneo Int. Real Sociedad",
-      "round": "Fase de grupos Sub-13"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20151130110758-real-sociedad.webp"
-      }
-    },
-    "channels": [
-      "Real Sociedad TV YouTube"
-    ],
-    "event": {
-      "name": "Real Madrid Academy - Real Sociedad Academy",
-      "description": "Real Madrid Academy - Real Sociedad Academy el domingo, 20 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-20T15:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "17:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Admiral Bundesliga"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130809100221-austria-viena.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130814030214-salzburg.webp"
-      }
-    },
-    "channels": [
-      "OneFootball",
-      "OneFootball PPV"
-    ],
-    "event": {
-      "name": "Austria Wien - Red Bull Salzburg",
-      "description": "Austria Wien - Red Bull Salzburg el domingo, 20 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-20T15:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "17:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 1"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219073004_marino-luanco.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130514095235_bergantinos.webp"
-      }
-    },
-    "channels": [
-      "TV FootballClub"
-    ],
-    "event": {
-      "name": "Marino Luanco - Bergantiños",
-      "description": "Marino Luanco - Bergantiños el domingo, 20 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-20T15:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "17:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 1"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130123105029_compostela.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121227023932_torrelavega.webp"
-      }
-    },
-    "channels": [
-      "TVG2"
-    ],
-    "event": {
-      "name": "Compostela - Gimnástica Torrelavega",
-      "description": "Compostela - Gimnástica Torrelavega el domingo, 20 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-20T15:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "17:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 2"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218093634_zaragoza.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20190821102844-cd-alfaro.webp"
-      }
-    },
-    "channels": [
-      "Aragón Deporte",
-      "TV FootballClub"
-    ],
-    "event": {
-      "name": "Deportivo Aragón - CD Alfaro",
-      "description": "Deportivo Aragón - CD Alfaro el domingo, 20 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-20T15:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "17:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Tercera Federación",
-      "round": "Grupo 14"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160517035719-badajoz.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20221025100316-cd-santa-amalia.webp"
-      }
-    },
-    "channels": [
-      "Extv"
-    ],
-    "event": {
-      "name": "CD Badajoz - CD Santa Amalia",
-      "description": "CD Badajoz - CD Santa Amalia el domingo, 20 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-20T15:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "17:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 5"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219074054_cacereno.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20180824092815-cd-coria.webp"
-      }
-    },
-    "channels": [
-      "Zapi Teleporte"
-    ],
-    "event": {
-      "name": "Cacereño - CD Coria",
-      "description": "Cacereño - CD Coria el domingo, 20 de abril de 2025 a las 17:30",
-      "startDate": "2025-04-20T15:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "17:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Tercera Federación",
-      "round": "Grupo 17"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20221018092702-cd-fuentes.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20211119142520-cd-utrillas.webp"
-      }
-    },
-    "channels": [
-      "Twitch ElFutbolModesto"
-    ],
-    "event": {
-      "name": "CD Fuentes - CD Utrillas",
-      "description": "CD Fuentes - CD Utrillas el domingo, 20 de abril de 2025 a las 17:30",
-      "startDate": "2025-04-20T15:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "17:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Premier League"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160503094244-leicester.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20240923180620-liverpool.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "Movistar Plus+",
-      "M+ #Vamos Bar 2",
-      "DAZN 2",
-      "DAZN 2 Bar",
-      "MAX",
-      "M+ Liga de Campeones"
-    ],
-    "event": {
-      "name": "Leicester City - Liverpool",
-      "description": "Leicester City - Liverpool el domingo, 20 de abril de 2025 a las 17:30",
-      "startDate": "2025-04-20T15:30:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://60dbeeb299ec04bf02bc7426d827547599d3d9fc",
-      "acestream://7aa402bab9fff43258fbcf401881a39475f30aaf",
-      "acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0",
-      "acestream://f096a64dd756a6d549aa7b12ee9acf7eee27e833"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "17:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Bundesliga"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218101655_borussia-dortmund.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218101735_borussia-mönchengladbach.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis"
-    ],
-    "event": {
-      "name": "Borussia Dortmund - Borussia M'gladbach",
-      "description": "Borussia Dortmund - Borussia M'gladbach el domingo, 20 de abril de 2025 a las 17:30",
-      "startDate": "2025-04-20T15:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Champions League Femenina",
-      "round": "Semifinales"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150920013403-chelsea.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis",
-      "M+ Ellas Vamos",
-      "Movistar+ Lite",
-      "DAZN 1",
-      "DAZN 1 Bar",
-      "MAX",
-      "TV3"
-    ],
-    "event": {
-      "name": "FC Barcelona Femenino - Chelsea Femenino",
-      "description": "FC Barcelona Femenino - Chelsea Femenino el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://8ca07071b39185431f8e940ec98d1add9e561639",
-      "acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Torneo Int. Real Sociedad",
-      "round": "Fase de grupos Sub-13"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160728062738-osasuna.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20210925135432-martutene-ke.webp"
-      }
-    },
-    "channels": [
-      "Real Sociedad TV YouTube"
-    ],
-    "event": {
-      "name": "Osasuna Academy - Martutene KE",
-      "description": "Osasuna Academy - Martutene KE el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 1"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121227022517_amoribieta.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219074334_zamora.webp"
-      }
-    },
-    "channels": [
-      "FEF TV"
-    ],
-    "event": {
-      "name": "Amorebieta - Zamora",
-      "description": "Amorebieta - Zamora el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 5"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219073126_talavera-de-la-reina.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150407012732-navalcarnero.webp"
-      }
-    },
-    "channels": [
-      "TV FootballClub"
-    ],
-    "event": {
-      "name": "CF Talavera - Navalcarnero",
-      "description": "CF Talavera - Navalcarnero el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 5"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218094433_guadalajara.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20190531030716-getafe.webp"
-      }
-    },
-    "channels": [
-      "TV FootballClub",
-      "CMMPlay"
-    ],
-    "event": {
-      "name": "Guadalajara - Getafe B",
-      "description": "Guadalajara - Getafe B el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 3"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121227022638_badalona.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219073049_sant-andreu.webp"
-      }
-    },
-    "channels": [
-      "TV FootballClub"
-    ],
-    "event": {
-      "name": "Badalona - Sant Andreu",
-      "description": "Badalona - Sant Andreu el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 2"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121227024000_ud-logrones.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20170321103044-cd-subiza.webp"
-      }
-    },
-    "channels": [
-      "TV FootballClub"
-    ],
-    "event": {
-      "name": "UD Logroñés - CD Subiza",
-      "description": "UD Logroñés - CD Subiza el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 4"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121227104602_ucam-murcia.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20180822032103-cd-minera.webp"
-      }
-    },
-    "channels": [
-      "Web Directo",
-      "Popular TV Murcia"
-    ],
-    "event": {
-      "name": "UCAM Murcia - CD Minera",
-      "description": "UCAM Murcia - CD Minera el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 1"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20140603122325-up-langreo.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20161107113033-ud-llanera.webp"
-      }
-    },
-    "channels": [
-      "TV FootballClub"
-    ],
-    "event": {
-      "name": "UP Langreo - UD Llanera",
-      "description": "UP Langreo - UD Llanera el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 4"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20200221230501-xerez-deportivo-fc.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130604113028-Don-Benito.webp"
-      }
-    },
-    "channels": [
-      "7Play",
-      "Web Directo"
-    ],
-    "event": {
-      "name": "Xerez DFC - Don Benito",
-      "description": "Xerez DFC - Don Benito el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 4"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20180822034610-aguilas-fc.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130912014822-granada.webp"
-      }
-    },
-    "channels": [
-      "TV FootballClub"
-    ],
-    "event": {
-      "name": "Águilas FC - Recreativo Granada",
-      "description": "Águilas FC - Recreativo Granada el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Superliga de Eslovaquia"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20200724005239-fc-dac.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20230722121428-fk-kosice.webp"
-      }
-    },
-    "channels": [
-      "OneFootball PPV",
-      "OneFootball"
-    ],
-    "event": {
-      "name": "FC DAC - FK Košice",
-      "description": "FC DAC - FK Košice el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Superliga de Eslovaquia"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20220715115318-fk-dukla-banska-bystrica.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20240717113632-kfc-komarno.webp"
-      }
-    },
-    "channels": [
-      "OneFootball PPV",
-      "OneFootball"
-    ],
-    "event": {
-      "name": "Banská Bystrica - KFC Komárno",
-      "description": "Banská Bystrica - KFC Komárno el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Tercera Federación",
-      "round": "Grupo 8"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20180926062142-briviesca-norpetrol.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130526121833-Arandina.webp"
-      }
-    },
-    "channels": [
-      "Elviphotoss YouTube"
-    ],
-    "event": {
-      "name": "Briviesca Norpetrol - Arandina",
-      "description": "Briviesca Norpetrol - Arandina el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Serie A Italiana"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219035023_bologna.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20210330172154-inter-milan.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis"
-    ],
-    "event": {
-      "name": "Bologna - Inter Milan",
-      "description": "Bologna - Inter Milan el domingo, 20 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-20T16:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "18:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga ASOBAL"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20220811173818-puente-genil-club-balonmano.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20130718120154-ciudad-de-logrono-balonmano.webp"
-      }
-    },
-    "channels": [
-      "LaLiga+ Plus"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "18:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga Endesa",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20141001095538-gran-canaria.webp"
-      }
-    },
-    "channels": [
-      "M+ Vamos",
-      "M+ #Vamos Bar",
-      "Movistar+ Lite"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "La Liga EA Sports"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218093043_sevilla.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20210127191233-alaves-esports.webp"
-      }
-    },
-    "channels": [
-      "GolStadium Premium",
-      "Canal Sur",
-      "DAZN LaLiga",
-      "DAZN",
-      "GOL PLAY",
-      "GolStadium",
-      "ETB1",
-      "LaLiga TV Bar"
-    ],
-    "event": {
-      "name": "Sevilla FC - Alavés",
-      "description": "Sevilla FC - Alavés el domingo, 20 de abril de 2025 a las 18:30",
-      "startDate": "2025-04-20T16:30:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://1960a9be8ae9e8c755330218eac4c5805466290a",
-      "acestream://75251ba975132ec9a202806ba5bf606e87280c96",
-      "acestream://95b2238dec35cf00dfdf8fba18e9920bc2c56256",
-      "acestream://a3bca895c58d3fc7d5e4259d3d5e3cf0291d1914",
-      "acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280",
-      "acestream://512aeadf50d91603d15b32f1e408166536ec4ac9"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "LaLiga Hypermotion"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20190417031718-elche-cf.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121227103702_albacete.webp"
-      }
-    },
-    "channels": [
-      "LALIGA TV Hypermotion",
-      "Amazon Prime Video",
-      "DAZN",
-      "GolStadium Premium",
-      "LaLiga TV M2"
-    ],
-    "event": {
-      "name": "Elche - Albacete",
-      "description": "Elche - Albacete el domingo, 20 de abril de 2025 a las 18:30",
-      "startDate": "2025-04-20T16:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 3"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130916054010-terrassa-fc.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218094019_sabadell.webp"
-      }
-    },
-    "channels": [
-      "TV FootballClub",
-      "La Xarxa+"
-    ],
-    "event": {
-      "name": "Terrassa FC - Sabadell",
-      "description": "Terrassa FC - Sabadell el domingo, 20 de abril de 2025 a las 18:30",
-      "startDate": "2025-04-20T16:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Jupiler Pro League"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121222102850_gent.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121222102302_club-brugge.webp"
-      }
-    },
-    "channels": [
-      "GolStadium Premium"
-    ],
-    "event": {
-      "name": "Gent - Club Brugge",
-      "description": "Gent - Club Brugge el domingo, 20 de abril de 2025 a las 18:30",
-      "startDate": "2025-04-20T16:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "golf",
-    "date": {
-      "hour": "19:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {},
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "MAX"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "automovilismo",
-    "date": {
-      "hour": "19:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Fórmula 1"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "DAZN",
-      "MAX",
-      "DAZN F1"
-    ],
-    "event": {},
-    "links": [
-      "acestream://5789ca155323664edd293b848606688edf803f4d",
-      "acestream://9dad717d99b29a05672166258a77c25b57713dd5",
-      "acestream://e1fcad9de0c782c157fde6377805c58297ab65c2"
-    ]
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "19:00",
-      "day": "20/04/2025",
+      "hour": "03:30",
+      "day": "21/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -4257,818 +276,16 @@
     },
     "teams": {
       "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130808083758-oc-thunder.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20191028090908-houston-rockets.webp"
       },
       "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20191028090731-memphis-grizzlies.webp"
+        "image": "https://static.futbolenlatv.com/img/32/20130808083832-gs-warriors.webp"
       }
     },
     "channels": [
       "NBA League Pass"
     ],
     "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "19:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Torneo Int. Real Sociedad",
-      "round": "Fase de grupos Sub-13"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20180801031814-celta.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150904084220-espanyol.webp"
-      }
-    },
-    "channels": [
-      "Real Sociedad TV YouTube"
-    ],
-    "event": {
-      "name": "Celta Academy - Espanyol Academy",
-      "description": "Celta Academy - Espanyol Academy el domingo, 20 de abril de 2025 a las 19:00",
-      "startDate": "2025-04-20T17:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "19:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 2"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20171124045105-alcorcon.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219040353_murcia.webp"
-      }
-    },
-    "channels": [
-      "FEF TV"
-    ],
-    "event": {
-      "name": "Alcorcón - Real Murcia",
-      "description": "Alcorcón - Real Murcia el domingo, 20 de abril de 2025 a las 19:00",
-      "startDate": "2025-04-20T17:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "19:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 1"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218091134_celta.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20170306095148-tarazona.webp"
-      }
-    },
-    "channels": [
-      "FEF TV",
-      "TVG2"
-    ],
-    "event": {
-      "name": "Celta B - Tarazona",
-      "description": "Celta B - Tarazona el domingo, 20 de abril de 2025 a las 19:00",
-      "startDate": "2025-04-20T17:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "19:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 1"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130821100807-cultural-leonesa.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20151128125351-nastic-tarragona.webp"
-      }
-    },
-    "channels": [
-      "FEF TV",
-      "Esport3"
-    ],
-    "event": {
-      "name": "Cultural Leonesa - Nástic Tarragona",
-      "description": "Cultural Leonesa - Nástic Tarragona el domingo, 20 de abril de 2025 a las 19:00",
-      "startDate": "2025-04-20T17:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "19:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "3. Liga"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130317094105_erzgebirgeaue.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20170925010705-borussia-dortmund.webp"
-      }
-    },
-    "channels": [
-      "OneFootball PPV"
-    ],
-    "event": {
-      "name": "Erzgebirge Aue - Borussia Dortmund II",
-      "description": "Erzgebirge Aue - Borussia Dortmund II el domingo, 20 de abril de 2025 a las 19:30",
-      "startDate": "2025-04-20T17:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "19:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 2"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130525104413-Algeciras-CF.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20140610053447-at-sanluquenyo.webp"
-      }
-    },
-    "channels": [
-      "FEF TV"
-    ],
-    "event": {
-      "name": "Algeciras CF - At. Sanluqueño",
-      "description": "Algeciras CF - At. Sanluqueño el domingo, 20 de abril de 2025 a las 19:30",
-      "startDate": "2025-04-20T17:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "19:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Bundesliga"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130126051232_stpauli.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218101622_bayer-leverkusen.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis"
-    ],
-    "event": {
-      "name": "St. Pauli - Bayer Leverkusen",
-      "description": "St. Pauli - Bayer Leverkusen el domingo, 20 de abril de 2025 a las 19:30",
-      "startDate": "2025-04-20T17:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "balonmano",
-    "date": {
-      "hour": "20:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga ASOBAL"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130725082626-villa-de-aranda.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20160824060244-at-valladolid.webp"
-      }
-    },
-    "channels": [
-      "LaLiga+ Plus"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga Pro Ecuador"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20141122033616-tecnico-universitario.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20250122105821-cuniburo-fc.webp"
-      }
-    },
-    "channels": [
-      "ElCanalDelFutbol.com"
-    ],
-    "event": {
-      "name": "Técnico Universitario - Vinotinto FC",
-      "description": "Técnico Universitario - Vinotinto FC el domingo, 20 de abril de 2025 a las 20:00",
-      "startDate": "2025-04-20T18:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Campeonato Uruguayo"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20141217063415-liverpool-fc.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150410014516-plaza-colonia.webp"
-      }
-    },
-    "channels": [
-      "GolTV Play"
-    ],
-    "event": {
-      "name": "Liverpool FC - Plaza Colonia",
-      "description": "Liverpool FC - Plaza Colonia el domingo, 20 de abril de 2025 a las 20:00",
-      "startDate": "2025-04-20T18:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 1"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121220120146_real-union.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
-      }
-    },
-    "channels": [
-      "FEF TV",
-      "Barça One"
-    ],
-    "event": {
-      "name": "Real Unión - Barcelona Atlétic",
-      "description": "Real Unión - Barcelona Atlétic el domingo, 20 de abril de 2025 a las 20:00",
-      "startDate": "2025-04-20T18:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:15",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga 1 Perú"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20140813051710-ut-cajamarca.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20211027103214-asociacion-deportiva-tarma.webp"
-      }
-    },
-    "channels": [
-      "Fanatiz"
-    ],
-    "event": {
-      "name": "UTC Cajamarca - AD Tarma",
-      "description": "UTC Cajamarca - AD Tarma el domingo, 20 de abril de 2025 a las 20:15",
-      "startDate": "2025-04-20T18:15:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera División Argentina",
-      "round": "Torneo Apertura"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20141205114007-deportivo-riestra.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219051730_san-lorenzo-de-almagro.webp"
-      }
-    },
-    "channels": [
-      "Fanatiz"
-    ],
-    "event": {
-      "name": "Deportivo Riestra - San Lorenzo",
-      "description": "Deportivo Riestra - San Lorenzo el domingo, 20 de abril de 2025 a las 20:30",
-      "startDate": "2025-04-20T18:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:45",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Serie A Italiana"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219034733_milan.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219034958_atalanta.webp"
-      }
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis"
-    ],
-    "event": {
-      "name": "AC Milan - Atalanta",
-      "description": "AC Milan - Atalanta el domingo, 20 de abril de 2025 a las 20:45",
-      "startDate": "2025-04-20T18:45:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "21:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "La Liga EA Sports"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218093611_bilbao.webp"
-      }
-    },
-    "channels": [
-      "M+ LaLiga TV",
-      "M+ LaLiga TV 2",
-      "M+ LaLiga TV UHD",
-      "Movistar Plus+",
-      "Orange Fútbol 1",
-      "LaLiga TV Bar"
-    ],
-    "event": {
-      "name": "Real Madrid - Athletic Club",
-      "description": "Real Madrid - Athletic Club el domingo, 20 de abril de 2025 a las 21:00",
-      "startDate": "2025-04-20T19:00:00",
-      "duration": "T1H45M"
-    },
-    "links": [
-      "acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280",
-      "acestream://512aeadf50d91603d15b32f1e408166536ec4ac9",
-      "acestream://1969c27658d4c8333ab2c0670802546121a774a5",
-      "acestream://7d8c87e057be98f00f22e23b23fbf08999e4b02f",
-      "acestream://f031f5728b32f6089dda28edebe990cf198108d8",
-      "acestream://26029f72a4ca831d09deefe89534818db1d105bc",
-      "acestream://80126b240f3e4e004754fd8f8103e857ab2556a0",
-      "acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0"
-    ]
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "21:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "LaLiga Hypermotion"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121218091015_deportivo.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219073149_tenerife.webp"
-      }
-    },
-    "channels": [
-      "LALIGA TV Hypermotion",
-      "Amazon Prime Video",
-      "DAZN",
-      "GolStadium Premium",
-      "LaLiga TV M2"
-    ],
-    "event": {
-      "name": "Deportivo - CD Tenerife",
-      "description": "Deportivo - CD Tenerife el domingo, 20 de abril de 2025 a las 21:00",
-      "startDate": "2025-04-20T19:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "21:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Playoffs"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/32/20130808083552-boston-celtics.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/32/20191028090502-orlando-magic.webp"
-      }
-    },
-    "channels": [
-      "M+ Vamos",
-      "M+ #Vamos Bar",
-      "Movistar+ Lite"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "21:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga Futve 2"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20201127093405-atletico-el-vigia.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20210515141905-fundacion-lara-deportiva.webp"
-      }
-    },
-    "channels": [
-      "FIFA+"
-    ],
-    "event": {
-      "name": "Atlético El Vigía - Fundación Lara Deportiva",
-      "description": "Atlético El Vigía - Fundación Lara Deportiva el domingo, 20 de abril de 2025 a las 21:30",
-      "startDate": "2025-04-20T19:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "21:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera División Argentina",
-      "round": "Torneo Apertura"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219051808_san-martín-de-san-juan.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20121219051410_godoy-cruz.webp"
-      }
-    },
-    "channels": [
-      "Fanatiz"
-    ],
-    "event": {
-      "name": "San Martín SJ - Godoy Cruz",
-      "description": "San Martín SJ - Godoy Cruz el domingo, 20 de abril de 2025 a las 21:30",
-      "startDate": "2025-04-20T19:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "22:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga Femenina Dimayor"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160222120004-orsomarso.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130216121352_once-caldas.webp"
-      }
-    },
-    "channels": [
-      "Win Sports TV YouTube"
-    ],
-    "event": {
-      "name": "Orsomarso Femenino - Once Caldas Femenino",
-      "description": "Orsomarso Femenino - Once Caldas Femenino el domingo, 20 de abril de 2025 a las 22:00",
-      "startDate": "2025-04-20T20:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "22:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga Futve 2"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160129093925-aragua.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20210515140253-bolivar-sport-club.webp"
-      }
-    },
-    "channels": [
-      "FIFA+"
-    ],
-    "event": {
-      "name": "Aragua - Bolívar SC",
-      "description": "Aragua - Bolívar SC el domingo, 20 de abril de 2025 a las 22:00",
-      "startDate": "2025-04-20T20:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "22:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga Futve 2"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160216110313-urena-sc.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20230511095150-heroes-de-falcon-fc.webp"
-      }
-    },
-    "channels": [
-      "FIFA+"
-    ],
-    "event": {
-      "name": "Ureña SC - Héroes de Falcón",
-      "description": "Ureña SC - Héroes de Falcón el domingo, 20 de abril de 2025 a las 22:00",
-      "startDate": "2025-04-20T20:00:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "22:15",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Campeonato Uruguayo"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20141108081457-ca-cerro.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20200807001922-ca-torque.webp"
-      }
-    },
-    "channels": [
-      "GolTV Play"
-    ],
-    "event": {
-      "name": "CA Cerro - Montevideo City Torque",
-      "description": "CA Cerro - Montevideo City Torque el domingo, 20 de abril de 2025 a las 22:15",
-      "startDate": "2025-04-20T20:15:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "22:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga 1 Perú"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20130729071510-huancayo.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20160204051945-comerciantes-unidos.webp"
-      }
-    },
-    "channels": [
-      "Fanatiz"
-    ],
-    "event": {
-      "name": "Sport Huancayo - Comerciantes Unidos",
-      "description": "Sport Huancayo - Comerciantes Unidos el domingo, 20 de abril de 2025 a las 22:30",
-      "startDate": "2025-04-20T20:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "22:30",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Liga Pro Ecuador"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20140815025834-u-catolica.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20190320121659-orense-sc.webp"
-      }
-    },
-    "channels": [
-      "ElCanalDelFutbol.com"
-    ],
-    "event": {
-      "name": "U. Católica - Orense SC",
-      "description": "U. Católica - Orense SC el domingo, 20 de abril de 2025 a las 22:30",
-      "startDate": "2025-04-20T20:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "23:00",
-      "day": "20/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera División Argentina",
-      "round": "Torneo Apertura"
-    },
-    "teams": {
-      "local": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20140814114704-sarmiento.webp"
-      },
-      "visitor": {
-        "name": null,
-        "image": "https://static.futbolenlatv.com/img/32/20140812073636-platense.webp"
-      }
-    },
-    "channels": [
-      "Fanatiz"
-    ],
-    "event": {
-      "name": "Sarmiento - Platense",
-      "description": "Sarmiento - Platense el domingo, 20 de abril de 2025 a las 23:00",
-      "startDate": "2025-04-20T21:00:00",
-      "duration": "T1H45M"
-    }
   },
   {
     "sport": "padel",
@@ -5096,6 +313,1448 @@
       "acestream://60dbeeb299ec04bf02bc7426d827547599d3d9fc",
       "acestream://7aa402bab9fff43258fbcf401881a39475f30aaf"
     ]
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "11:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Amistoso Femenino Sub-16"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20130226100540_eeuu.webp"
+      }
+    },
+    "channels": [
+      "SeFutbol YouTube"
+    ],
+    "event": {
+      "name": "España - Estados Unidos",
+      "description": "España - Estados Unidos el lunes, 21 de abril de 2025 a las 11:00",
+      "startDate": "2025-04-21T09:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "11:30",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Torneo Int. Real Sociedad"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "Real Sociedad TV YouTube"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "12:30",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {},
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "Real Sociedad TV YouTube"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "12:30",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Serie A Italiana"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20121219035257_torino.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20121219035331_udinese.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {
+      "name": "Torino - Udinese",
+      "description": "Torino - Udinese el lunes, 21 de abril de 2025 a las 12:30",
+      "startDate": "2025-04-21T10:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "13:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "WTA Torneo de Stuttgart",
+      "round": "Final"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130727123407-Bielorrusia.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130727124452-letonia.webp"
+      }
+    },
+    "channels": [
+      "WTA TV",
+      "Tennis Channel",
+      "Tennis Channel - Orange TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "13:30",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20220906184348-woking-fc.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20141114105002-aldershot.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Woking - Aldershot",
+      "description": "Woking - Aldershot el lunes, 21 de abril de 2025 a las 13:30",
+      "startDate": "2025-04-21T11:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "14:30",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga noruega"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20130426104133_valerenga.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20150911103539-rosenborg.webp"
+      }
+    },
+    "channels": [
+      "OneFootball"
+    ],
+    "event": {
+      "name": "Vålerenga - Rosenborg",
+      "description": "Vålerenga - Rosenborg el lunes, 21 de abril de 2025 a las 14:30",
+      "startDate": "2025-04-21T12:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "15:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Serie C"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20191029064554-gubbio.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20121219034733_milan.webp"
+      }
+    },
+    "channels": [
+      "FIFA+"
+    ],
+    "event": {
+      "name": "Gubbio - AC Milan Futuro",
+      "description": "Gubbio - AC Milan Futuro el lunes, 21 de abril de 2025 a las 15:00",
+      "startDate": "2025-04-21T13:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "15:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Damallsvenskan"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20141217011009-fc-rosengard.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20220320203224-kristianstads-dff.webp"
+      }
+    },
+    "channels": [
+      "FANSEAT"
+    ],
+    "event": {
+      "name": "FC Rosengard - Kristianstads DFF",
+      "description": "FC Rosengard - Kristianstads DFF el lunes, 21 de abril de 2025 a las 15:00",
+      "startDate": "2025-04-21T13:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "15:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Serie A Italiana"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20170205100747-cagliari.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20220713172317-fiorentina.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {
+      "name": "Cagliari - Fiorentina",
+      "description": "Cagliari - Fiorentina el lunes, 21 de abril de 2025 a las 15:00",
+      "startDate": "2025-04-21T13:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20130416055425_hartlepool.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20131114091447-gateshead.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Hartlepool United - Gateshead",
+      "description": "Hartlepool United - Gateshead el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20140101010739-afc-rochdale.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20170717122400-afc-fylde.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "AFC Rochdale - AFC Fylde",
+      "description": "AFC Rochdale - AFC Fylde el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20140506065550-york-city.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20211013183956-oldham-athletic.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "York City - Oldham Athletic",
+      "description": "York City - Oldham Athletic el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20141105100438-halifax-town.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20160216110459-altrincham.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Halifax Town - Altrincham",
+      "description": "Halifax Town - Altrincham el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20151204113429-forest-green-rovers.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20240211193519-tamworth-fc.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Forest Green Rovers - Tamworth FC",
+      "description": "Forest Green Rovers - Tamworth FC el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20200831201942-eastleigh-fc.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20130502115824_yeovil-town.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Eastleigh FC - Yeovil Town",
+      "description": "Eastleigh FC - Yeovil Town el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20160427124739-braintree-town.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20200831201927-dagenham-redbridge.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Braintree Town - Dagenham & Redbridge",
+      "description": "Braintree Town - Dagenham & Redbridge el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20160804094805-sutton-united.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20171003010301-barnet.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Sutton United - Barnet",
+      "description": "Sutton United - Barnet el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20220906184418-solihull-moors-fc.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20191124092443-boston-united.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Solihull Moors - Boston United",
+      "description": "Solihull Moors - Boston United el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20171101113114-ebbsfleet-united.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20140121010135-southend-united.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Ebbsfleet United - Southend Utd.",
+      "description": "Ebbsfleet United - Southend Utd. el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20201007161441-wealdstone-fc.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20200831201906-maidenhead-united.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Wealdstone FC - Maidenhead United",
+      "description": "Wealdstone FC - Maidenhead United el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League North"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20131105072552-scunthorpe-utd.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20241108184033-peterborough-sports.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Scunthorpe Utd. - Peterborough Sports",
+      "description": "Scunthorpe Utd. - Peterborough Sports el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League North"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20140122105619-kidderminster.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20160506024458-hereford.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Kidderminster - Hereford",
+      "description": "Kidderminster - Hereford el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League South"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20230323181009-worthing-fc.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20220725163745-dorking-wanderers.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Worthing FC - Dorking Wanderers",
+      "description": "Worthing FC - Dorking Wanderers el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "National League South"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20241031110450-weston-super-mare-afc.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20241218095744-truro-city-fc.webp"
+      }
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {
+      "name": "Weston-super-Mare AFC - Truro City",
+      "description": "Weston-super-Mare AFC - Truro City el lunes, 21 de abril de 2025 a las 16:00",
+      "startDate": "2025-04-21T14:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "17:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga noruega"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20200605193327-.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20200529182723-sk-brann.webp"
+      }
+    },
+    "channels": [
+      "OneFootball"
+    ],
+    "event": {
+      "name": "Strømsgodset IF - SK Brann",
+      "description": "Strømsgodset IF - SK Brann el lunes, 21 de abril de 2025 a las 17:00",
+      "startDate": "2025-04-21T15:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "17:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga noruega"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20220316223203-hamarkameratene.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20200605193354-viking-stavanger-fk.webp"
+      }
+    },
+    "channels": [
+      "OneFootball"
+    ],
+    "event": {
+      "name": "HamKam - Viking FK",
+      "description": "HamKam - Viking FK el lunes, 21 de abril de 2025 a las 17:00",
+      "startDate": "2025-04-21T15:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "17:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga noruega"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20220322121339-bryne-fk.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20220908093631-haugesund.webp"
+      }
+    },
+    "channels": [
+      "OneFootball"
+    ],
+    "event": {
+      "name": "Bryne FK - Haugesund",
+      "description": "Bryne FK - Haugesund el lunes, 21 de abril de 2025 a las 17:00",
+      "startDate": "2025-04-21T15:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "17:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga noruega"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20220322160812-kfum-oslo.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20180830115157-sarpsborg-08.webp"
+      }
+    },
+    "channels": [
+      "OneFootball"
+    ],
+    "event": {
+      "name": "KFUM Oslo - Sarpsborg 08",
+      "description": "KFUM Oslo - Sarpsborg 08 el lunes, 21 de abril de 2025 a las 17:00",
+      "startDate": "2025-04-21T15:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "17:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga noruega"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20220322160854-fredrikstad.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20200606225008-sandefjord-fotball.webp"
+      }
+    },
+    "channels": [
+      "OneFootball"
+    ],
+    "event": {
+      "name": "Fredrikstad - Sandefjord",
+      "description": "Fredrikstad - Sandefjord el lunes, 21 de abril de 2025 a las 17:00",
+      "startDate": "2025-04-21T15:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "17:30",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga Polaca"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20130809095702-legia-varsovia.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20130606104420-lechia-gdansk.webp"
+      }
+    },
+    "channels": [
+      "OneFootball PPV",
+      "OneFootball"
+    ],
+    "event": {
+      "name": "Legia Warszawa - Lechia Gdansk",
+      "description": "Legia Warszawa - Lechia Gdansk el lunes, 21 de abril de 2025 a las 17:30",
+      "startDate": "2025-04-21T15:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "17:55",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Saudi Pro League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20230208190309-al-hilal.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20130410092449_al-shabab-fc.webp"
+      }
+    },
+    "channels": [
+      "Marca.com"
+    ],
+    "event": {
+      "name": "Al Hilal - Al Shabab FC",
+      "description": "Al Hilal - Al Shabab FC el lunes, 21 de abril de 2025 a las 17:55",
+      "startDate": "2025-04-21T15:55:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "18:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Serie A Italiana"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20121219034524_génova.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20121219035121_lazio.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {
+      "name": "Genoa - Lazio",
+      "description": "Genoa - Lazio el lunes, 21 de abril de 2025 a las 18:00",
+      "startDate": "2025-04-21T16:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "19:15",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga noruega"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20130814023229-molde.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20200603232642-bodo-glimt.webp"
+      }
+    },
+    "channels": [
+      "OneFootball"
+    ],
+    "event": {
+      "name": "Molde - Bodø/Glimt",
+      "description": "Molde - Bodø/Glimt el lunes, 21 de abril de 2025 a las 19:15",
+      "startDate": "2025-04-21T17:15:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "20:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Saudi Pro League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20220416144007-al-ittihad-club-jeddah.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20130416054623_al-ettifaq.webp"
+      }
+    },
+    "channels": [
+      "Marca.com"
+    ],
+    "event": {
+      "name": "Al-Ittihad Jeddah Club - Al Ettifaq",
+      "description": "Al-Ittihad Jeddah Club - Al Ettifaq el lunes, 21 de abril de 2025 a las 20:00",
+      "startDate": "2025-04-21T18:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "20:15",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga Polaca"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20150911103123-lech-poznan.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20170131012157-ks-cracovia.webp"
+      }
+    },
+    "channels": [
+      "OneFootball PPV",
+      "OneFootball"
+    ],
+    "event": {
+      "name": "Lech Poznan - KS Cracovia",
+      "description": "Lech Poznan - KS Cracovia el lunes, 21 de abril de 2025 a las 20:15",
+      "startDate": "2025-04-21T18:15:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "20:30",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LaLiga Hypermotion"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20121219071513_eibar.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20130729013601-malaga.webp"
+      }
+    },
+    "channels": [
+      "LALIGA TV Hypermotion",
+      "Amazon Prime Video",
+      "DAZN",
+      "GolStadium Premium",
+      "LaLiga TV M2"
+    ],
+    "event": {
+      "name": "Eibar - Málaga",
+      "description": "Eibar - Málaga el lunes, 21 de abril de 2025 a las 20:30",
+      "startDate": "2025-04-21T18:30:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "20:45",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Serie A Italiana"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20121219035146_parma.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20170117094900-juventus.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {
+      "name": "Parma - Juventus",
+      "description": "Parma - Juventus el lunes, 21 de abril de 2025 a las 20:45",
+      "startDate": "2025-04-21T18:45:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "21:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "La Liga EA Sports"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20240214173636-girona.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20130924050626-real-betis.webp"
+      }
+    },
+    "channels": [
+      "DAZN LaLiga",
+      "DAZN",
+      "LaLiga TV Bar"
+    ],
+    "event": {
+      "name": "Girona - Real Betis",
+      "description": "Girona - Real Betis el lunes, 21 de abril de 2025 a las 21:00",
+      "startDate": "2025-04-21T19:00:00",
+      "duration": "T1H45M"
+    },
+    "links": [
+      "acestream://1960a9be8ae9e8c755330218eac4c5805466290a",
+      "acestream://75251ba975132ec9a202806ba5bf606e87280c96",
+      "acestream://95b2238dec35cf00dfdf8fba18e9920bc2c56256",
+      "acestream://a3bca895c58d3fc7d5e4259d3d5e3cf0291d1914",
+      "acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280",
+      "acestream://512aeadf50d91603d15b32f1e408166536ec4ac9"
+    ]
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "21:00",
+      "day": "21/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Premier League"
+    },
+    "teams": {
+      "local": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20200413194326-tottenham.webp"
+      },
+      "visitor": {
+        "name": null,
+        "image": "https://static.futbolenlatv.com/img/32/20130410124910_nottingham-forest.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN 1",
+      "DAZN 1 Bar",
+      "MAX"
+    ],
+    "event": {
+      "name": "Tottenham - Nottingham Forest",
+      "description": "Tottenham - Nottingham Forest el lunes, 21 de abril de 2025 a las 21:00",
+      "startDate": "2025-04-21T19:00:00",
+      "duration": "T1H45M"
+    },
+    "links": [
+      "acestream://8ca07071b39185431f8e940ec98d1add9e561639",
+      "acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f"
+    ]
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "18:45",
+      "day": "22/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "EHF European League"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130822013232-mt-melsungen.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130817095651-bidasoa.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "ETB4"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "18:45",
+      "day": "22/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "EHF European League"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20190121091255-gog-gudme.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130717113947-flensburg-handewitt.webp"
+      }
+    },
+    "channels": [
+      "EHF TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol-sala",
+    "date": {
+      "hour": "19:30",
+      "day": "22/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera Federación Futsal"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20140923043256-palma-futsal.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130716052051-Marfil-Santa-Coloma.webp"
+      }
+    },
+    "channels": [
+      "FEF TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "20:45",
+      "day": "22/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "EHF European League"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20150921064805-Oporto.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130901053602-montpellier-hb.webp"
+      }
+    },
+    "channels": [
+      "EHF TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "motociclismo",
+    "date": {
+      "hour": "15:00",
+      "day": "25/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {},
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "MotoGP Videopass",
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "rugby",
+    "date": {
+      "hour": "13:15",
+      "day": "26/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "6 Naciones Femenino"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130111045624_italia.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130624101253-gales.webp"
+      }
+    },
+    "channels": [
+      "M+ Ellas Vamos",
+      "Movistar+ Lite"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "rugby",
+    "date": {
+      "hour": "17:45",
+      "day": "26/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "6 Naciones Femenino"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130204124525_inglaterra.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130124053558_francia.webp"
+      }
+    },
+    "channels": [
+      "M+ Ellas Vamos",
+      "Movistar+ Lite"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "boxeo",
+    "date": {
+      "hour": "20:00",
+      "day": "26/07/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Velada"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "Twitch ibai"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "automovilismo",
+    "date": {
+      "hour": "PD",
+      "day": "24/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "WRC Rally"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "DAZN"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "futbol-sala",
+    "date": {
+      "hour": "20:30",
+      "day": "22/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera Federación Futsal"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20180912065412-jimbee-cartagena-fs.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20170821102632-deportivo-xota.webp"
+      }
+    },
+    "channels": [
+      "FEF TV"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "balonmano",
+    "date": {
+      "hour": "20:45",
+      "day": "22/04/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "EHF European League"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20241003094539-limoges-hand-87.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130614063927-THW-Kiel.webp"
+      }
+    },
+    "channels": [
+      "EHF TV"
+    ],
+    "event": {}
   },
   {
     "sport": "futbol-americano",
@@ -5138,20 +1797,26 @@
     "event": {}
   },
   {
-    "sport": "motociclismo",
+    "sport": "rugby",
     "date": {
-      "hour": "15:00",
-      "day": "25/04/2025",
+      "hour": "15:30",
+      "day": "26/04/2025",
       "zone": "Europe/Madrid"
     },
-    "details": {},
+    "details": {
+      "competition": "6 Naciones Femenino"
+    },
     "teams": {
-      "local": {},
-      "visitor": {}
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130425075433_escocia.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130624104842-irlanda.webp"
+      }
     },
     "channels": [
-      "MotoGP Videopass",
-      "DAZN"
+      "M+ Ellas Vamos",
+      "Movistar+ Lite"
     ],
     "event": {}
   },
