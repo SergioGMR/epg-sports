@@ -3,22 +3,75 @@
     {
       "sport": "boxeo",
       "date": {
-        "hour": "20:00",
-        "day": "26/07/2025",
+        "hour": "03:00",
+        "day": "26/04/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Velada"
+        "competition": "Velada",
+        "round": "Peso Welter"
       },
       "teams": {
-        "local": {},
-        "visitor": {}
+        "local": {
+          "image": "https://static.futbolenlatv.com/img/32/20130226100540_eeuu.webp"
+        },
+        "visitor": {
+          "image": "https://static.futbolenlatv.com/img/32/20130727120523-EEUU.webp"
+        }
       },
       "channels": [
-        "Twitch ibai"
+        "DAZN"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "boxeo",
+      "date": {
+        "hour": "18:00",
+        "day": "26/04/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Velada",
+        "round": "Peso Medio"
+      },
+      "teams": {
+        "local": {
+          "image": "https://static.futbolenlatv.com/img/32/20130625051918-reino-unido.webp"
+        },
+        "visitor": {
+          "image": "https://static.futbolenlatv.com/img/32/20200618110104-battle-of-the-brits.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "boxeo",
+      "date": {
+        "hour": "18:00",
+        "day": "26/04/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Título Mundial Femenino",
+        "round": "Peso Mínimo"
+      },
+      "teams": {
+        "local": {
+          "image": "https://static.futbolenlatv.com/img/32/20130130075653_alemania.webp"
+        },
+        "visitor": {
+          "image": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
       ],
       "event": {}
     }
   ],
-  "updated": "2025-04-24T00:11:50.271Z"
+  "updated": "2025-04-25T00:13:17.079Z"
 }
