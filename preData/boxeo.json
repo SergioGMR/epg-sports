@@ -3,20 +3,40 @@
     {
       "sport": "boxeo",
       "date": {
-        "hour": "23:30",
-        "day": "02/05/2025",
+        "hour": "02:00",
+        "day": "03/05/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Velada"
+      },
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {}
+    },
+    {
+      "sport": "boxeo",
+      "date": {
+        "hour": "23:45",
+        "day": "03/05/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Título Mundial",
-        "round": "Peso Welter"
+        "round": "Peso Medio"
       },
       "teams": {
         "local": {
-          "image": "https://static.futbolenlatv.com/img/32/20130727120523-EEUU.webp"
+          "image": "https://static.futbolenlatv.com/img/32/20140209123518-Mexico.webp"
         },
         "visitor": {
-          "image": "https://static.futbolenlatv.com/img/32/20130226100540_eeuu.webp"
+          "image": "https://static.futbolenlatv.com/img/32/20130513111500_cuba.webp"
         }
       },
       "channels": [
@@ -25,5 +45,5 @@
       "event": {}
     }
   ],
-  "updated": "2025-05-02T00:12:13.637Z"
+  "updated": "2025-05-03T00:11:46.407Z"
 }
