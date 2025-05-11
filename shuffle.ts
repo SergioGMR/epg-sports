@@ -245,8 +245,24 @@ export async function processMatches(): Promise<void> {
       console.log("Successfully fetched data from fallback API");
     }
 
+    // Validar que data.matches exista y sea un array
+    if (!data || !data.matches || !Array.isArray(data.matches)) {
+      throw new Error('Invalid data: data.matches must be a valid array');
+    }
+
+    // Limpiar array de partidos para evitar errores y asegurar el tipo Match
+    const validMatches = data.matches.filter(match => 
+      match && 
+      typeof match === 'object' && 
+      match.sport && 
+      match.date && 
+      match.teams
+    ) as Match[];
+
+    console.log(`Processing ${validMatches.length} valid matches out of ${data.matches.length} total`);
+
     // Update matches with links
-    const updatedMatches = updateMatchesWithLinks(data.matches, channelsData);
+    const updatedMatches = updateMatchesWithLinks(validMatches, channelsData);
 
     // Save to file
     const outputPath = "./data/updatedMatches.json";
