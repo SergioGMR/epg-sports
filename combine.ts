@@ -1,5 +1,10 @@
 import fs from "fs";
 import path from "path";
+import { dirname } from "path";
+import { fileURLToPath } from "url";
+
+// Obtener __dirname equivalente en módulos ES
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // Define la ruta a la carpeta 'preData'
 const preDataFolder = path.join(__dirname, "preData");

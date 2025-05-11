@@ -79,8 +79,34 @@ export function updateMatchesWithLinks(
       throw new Error('Match must have a valid channels array');
     }
 
+    // Crear un objeto limpio para evitar duplicados y propiedades no deseadas
+    const cleanMatch: Match = {
+      sport: match.sport,
+      date: {
+        hour: match.date?.hour || "",
+        day: match.date?.day || "",
+        zone: match.date?.zone || "Europe/Madrid"
+      },
+      details: {
+        competition: match.details?.competition,
+        round: match.details?.round
+      },
+      teams: {
+        local: {
+          name: match.teams?.local?.name || null,
+          image: match.teams?.local?.image || null
+        },
+        visitor: {
+          name: match.teams?.visitor?.name || null,
+          image: match.teams?.visitor?.image || null
+        }
+      },
+      channels: match.channels,
+      event: match.event || {}
+    };
+    
     // Create a new match object to avoid mutating the original
-    const newMatch = { ...match };
+    const newMatch = cleanMatch;
     
     // Process image URLs to remove "32/" segment for larger images
     if (newMatch.teams?.local?.image && typeof newMatch.teams.local.image === 'string' && newMatch.teams.local.image.includes('/img/32/')) {
