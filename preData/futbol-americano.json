@@ -3,12 +3,14 @@
     {
       "sport": "futbol-americano",
       "date": {
-        "hour": "02:00",
-        "day": "25/04/2025",
+        "hour": "01:00",
+        "day": "26/04/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "NFL"
+        "round": "Draft",
+        "tournamentName": "Day 2",
+        "fullEventText": "Draft\nDay 2"
       },
       "teams": {
         "local": {},
@@ -18,8 +20,33 @@
         "DAZN",
         "DAZN App Gratis"
       ],
-      "event": {}
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "futbol-americano",
+      "date": {
+        "hour": "18:00",
+        "day": "26/04/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NFL",
+        "round": "Draft",
+        "tournamentName": "Day 3",
+        "fullEventText": "Draft\nDay 3"
+      },
+      "teams": {
+        "local": {},
+        "visitor": {}
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "tournament"
     }
   ],
-  "updated": "2025-04-12T20:54:21.933Z"
+  "updated": "2025-05-11T15:09:04.967Z"
 }
