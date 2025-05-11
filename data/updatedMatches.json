@@ -1,39 +1,39 @@
 [
   {
-    "sport": "hockey-patines",
+    "sport": "futbol-americano",
     "date": {
-      "hour": "18:15",
-      "day": "06/04/2025",
+      "hour": "01:00",
+      "day": "26/04/2025",
       "zone": "Europe/Madrid"
     },
-    "details": {
-      "competition": "OK Liga"
-    },
+    "details": {},
     "teams": {
       "local": {},
       "visitor": {}
     },
     "channels": [
-      "La Xarxa+"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {}
   },
   {
-    "sport": "beisbol",
+    "sport": "futbol-americano",
     "date": {
-      "hour": "03:30",
-      "day": "10/04/2025",
+      "hour": "18:00",
+      "day": "26/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Champions League Americas"
+      "competition": "NFL"
     },
     "teams": {
       "local": {},
       "visitor": {}
     },
     "channels": [
-      "DAZN"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {},
     "links": [
@@ -48,19 +48,19 @@
   {
     "sport": "beisbol",
     "date": {
-      "hour": "21:00",
-      "day": "10/04/2025",
+      "hour": "00:10",
+      "day": "29/04/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Champions League Americas"
+      "competition": "MLB"
     },
     "teams": {
       "local": {},
       "visitor": {}
     },
     "channels": [
-      "DAZN"
+      "BeisbolPlay"
     ],
     "event": {},
     "links": [
@@ -73,15 +73,14 @@
     ]
   },
   {
-    "sport": "futbol",
+    "sport": "hockey-patines",
     "date": {
-      "hour": "00:00",
-      "day": "12/04/2025",
+      "hour": "13:00",
+      "day": "10/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera División Argentina",
-      "round": "Torneo Apertura"
+      "competition": "OK Liga Femenina"
     },
     "teams": {
       "local": {
@@ -94,25 +93,21 @@
       }
     },
     "channels": [
-      "Fanatiz"
+      "RTVE Play",
+      "Esport3"
     ],
-    "event": {
-      "name": "Banfield - Independiente Rivadavia",
-      "description": "Banfield - Independiente Rivadavia el sábado, 12 de abril de 2025 a las 0:00",
-      "startDate": "2025-04-11T22:00:00",
-      "duration": "T1H45M"
-    }
+    "event": {}
   },
   {
-    "sport": "baloncesto",
+    "sport": "hockey-patines",
     "date": {
-      "hour": "01:00",
-      "day": "12/04/2025",
+      "hour": "16:30",
+      "day": "10/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
+      "competition": "Liga Europea",
+      "round": "Semifinales"
     },
     "teams": {
       "local": {
@@ -123,22 +118,19 @@
       }
     },
     "channels": [
-      "M+ Vamos",
-      "M+ #Vamos Bar",
-      "Movistar+ Lite"
+      "Esport3"
     ],
     "event": {}
   },
   {
-    "sport": "baloncesto",
+    "sport": "futbol",
     "date": {
-      "hour": "01:00",
-      "day": "12/04/2025",
+      "hour": "01:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
+      "competition": "NWSL"
     },
     "teams": {
       "local": {
@@ -149,7 +141,7 @@
       }
     },
     "channels": [
-      "NBA League Pass"
+      "NWSL+"
     ],
     "event": {}
   },
@@ -180,12 +172,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "01:00",
-      "day": "12/04/2025",
+      "hour": "02:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Segunda Uruguay"
+      "competition": "Liga Pro Ecuador"
     },
     "teams": {
       "local": {
@@ -198,25 +190,24 @@
       }
     },
     "channels": [
-      "GolTV Play"
+      "ElCanalDelFutbol.com"
     ],
     "event": {
-      "name": "Central Español - CA Rentistas",
-      "description": "Central Español - CA Rentistas el sábado, 12 de abril de 2025 a las 1:00",
-      "startDate": "2025-04-11T23:00:00",
+      "name": "Libertad FC - Delfín SC",
+      "description": "Libertad FC - Delfín SC el domingo, 11 de mayo de 2025 a las 2:00",
+      "startDate": "2025-05-11T00:00:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "baloncesto",
+    "sport": "futbol",
     "date": {
-      "hour": "01:30",
-      "day": "12/04/2025",
+      "hour": "02:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
+      "competition": "Primera División Argentina"
     },
     "teams": {
       "local": {
@@ -227,20 +218,25 @@
       }
     },
     "channels": [
-      "NBA League Pass"
+      "Fanatiz"
     ],
-    "event": {}
+    "event": {
+      "name": "Boca Juniors - Lanús",
+      "description": "Boca Juniors - Lanús el domingo, 11 de mayo de 2025 a las 2:00",
+      "startDate": "2025-05-11T00:00:00",
+      "duration": "T1H45M"
+    }
   },
   {
-    "sport": "baloncesto",
+    "sport": "futbol",
     "date": {
-      "hour": "01:30",
-      "day": "12/04/2025",
+      "hour": "02:20",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
+      "competition": "Liga Colombiana",
+      "round": "Torneo Apertura"
     },
     "teams": {
       "local": {
@@ -282,13 +278,13 @@
   {
     "sport": "baloncesto",
     "date": {
-      "hour": "02:00",
-      "day": "12/04/2025",
+      "hour": "02:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
       "competition": "NBA",
-      "round": "Liga Regular"
+      "round": "Playoffs Semifinal Conferencia"
     },
     "teams": {
       "local": {
@@ -299,20 +295,27 @@
       }
     },
     "channels": [
-      "NBA League Pass"
+      "M+ Vamos",
+      "M+ #Vamos Bar",
+      "Movistar+ Lite",
+      "M+ Deportes"
     ],
-    "event": {}
+    "event": {},
+    "links": [
+      "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
+      "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa"
+    ]
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "02:00",
-      "day": "12/04/2025",
+      "hour": "03:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Sudamericano Sub-17",
-      "round": "5º Puesto"
+      "competition": "Liga Primera Nicaragua",
+      "round": "Semifinales Clausura"
     },
     "teams": {
       "local": {
@@ -325,24 +328,25 @@
       }
     },
     "channels": [
-      "CONMEBOL YouTube"
+      "FIFA+"
     ],
     "event": {
-      "name": "Argentina - Paraguay",
-      "description": "Argentina - Paraguay el sábado, 12 de abril de 2025 a las 2:00",
-      "startDate": "2025-04-12T00:00:00",
+      "name": "Real Estelí - Club Sport Sébaco",
+      "description": "Real Estelí - Club Sport Sébaco el domingo, 11 de mayo de 2025 a las 3:00",
+      "startDate": "2025-05-11T01:00:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "futbol",
+    "sport": "mma",
     "date": {
-      "hour": "02:00",
-      "day": "12/04/2025",
+      "hour": "04:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Premier League Ucrania"
+      "competition": "UFC",
+      "round": "UFC 315"
     },
     "teams": {
       "local": {
@@ -355,24 +359,19 @@
       }
     },
     "channels": [
-      "OneFootball PPV"
+      "MAX"
     ],
-    "event": {
-      "name": "FC Inhulets Petrove - Karpaty Lviv",
-      "description": "FC Inhulets Petrove - Karpaty Lviv el sábado, 12 de abril de 2025 a las 2:00",
-      "startDate": "2025-04-12T00:00:00",
-      "duration": "T1H45M"
-    }
+    "event": {}
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "02:00",
-      "day": "12/04/2025",
+      "hour": "04:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga Pro Ecuador"
+      "competition": "Liga 1 Perú"
     },
     "teams": {
       "local": {
@@ -385,25 +384,24 @@
       }
     },
     "channels": [
-      "ElCanalDelFutbol.com"
+      "Fanatiz"
     ],
     "event": {
-      "name": "Emelec - Libertad FC",
-      "description": "Emelec - Libertad FC el sábado, 12 de abril de 2025 a las 2:00",
-      "startDate": "2025-04-12T00:00:00",
+      "name": "Cienciano - Melgar",
+      "description": "Cienciano - Melgar el domingo, 11 de mayo de 2025 a las 4:00",
+      "startDate": "2025-05-11T02:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "02:00",
-      "day": "12/04/2025",
+      "hour": "04:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera División Argentina",
-      "round": "Torneo Apertura"
+      "competition": "NWSL"
     },
     "teams": {
       "local": {
@@ -416,20 +414,20 @@
       }
     },
     "channels": [
-      "Fanatiz"
+      "NWSL+"
     ],
     "event": {
-      "name": "Newell's Old Boys - Argentinos Juniors",
-      "description": "Newell's Old Boys - Argentinos Juniors el sábado, 12 de abril de 2025 a las 2:00",
-      "startDate": "2025-04-12T00:00:00",
+      "name": "San Diego Wave FC - Portland Thorns",
+      "description": "San Diego Wave FC - Portland Thorns el domingo, 11 de mayo de 2025 a las 4:00",
+      "startDate": "2025-05-11T02:00:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "baloncesto",
+    "sport": "golf",
     "date": {
-      "hour": "02:30",
-      "day": "12/04/2025",
+      "hour": "05:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -464,84 +462,7 @@
       "visitor": {}
     },
     "channels": [
-      "DAZN",
-      "DAZN App Gratis"
-    ],
-    "event": {},
-    "links": [
-      "https://tinyurl.com/23uus674",
-      "https://tinyurl.com/258mgsys",
-      "https://tinyurl.com/2yfj2g5z",
-      "https://tinyurl.com/yrab8c6h",
-      "https://tinyurl.com/27ymjz45",
-      "https://tinyurl.com/2xsvnmdn"
-    ]
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "03:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/20201220190912-minnesota-timberwolves.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/20130808083530-brooklyn-nets.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "03:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "image": "https://static.futbolenlatv.com/img/20191028090619-denver-nuggets.webp"
-      },
-      "visitor": {
-        "image": "https://static.futbolenlatv.com/img/20191028090731-memphis-grizzlies.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "boxeo",
-    "date": {
-      "hour": "03:00",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Velada"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis"
+      "Movistar Golf"
     ],
     "event": {},
     "links": [
@@ -556,13 +477,97 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "03:10",
-      "day": "12/04/2025",
+      "hour": "06:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga Colombiana",
-      "round": "Torneo Apertura"
+      "competition": "A-League Women"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/20201220190912-minnesota-timberwolves.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/20130808083530-brooklyn-nets.webp"
+      }
+    },
+    "channels": [
+      "A-Leagues YouTube"
+    ],
+    "event": {
+      "name": "Melbourne City Women - Central Coast Mariners Women",
+      "description": "Melbourne City Women - Central Coast Mariners Women el domingo, 11 de mayo de 2025 a las 6:00",
+      "startDate": "2025-05-11T04:00:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "06:05",
+      "day": "11/05/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "J1 League"
+    },
+    "teams": {
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/20191028090619-denver-nuggets.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/20191028090731-memphis-grizzlies.webp"
+      }
+    },
+    "channels": [
+      "J.LEAGUE International YouTube"
+    ],
+    "event": {
+      "name": "Kashima Antlers - Kawasaki Frontale",
+      "description": "Kashima Antlers - Kawasaki Frontale el domingo, 11 de mayo de 2025 a las 6:05",
+      "startDate": "2025-05-11T04:05:00",
+      "duration": "T1H45M"
+    }
+  },
+  {
+    "sport": "golf",
+    "date": {
+      "hour": "07:30",
+      "day": "11/05/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LPGA Aramco Korea Championship"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "Movistar Golf 2",
+      "Movistar Golf"
+    ],
+    "event": {},
+    "links": [
+      "https://tinyurl.com/23uus674",
+      "https://tinyurl.com/258mgsys",
+      "https://tinyurl.com/2yfj2g5z",
+      "https://tinyurl.com/yrab8c6h",
+      "https://tinyurl.com/27ymjz45",
+      "https://tinyurl.com/2xsvnmdn"
+    ]
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "10:00",
+      "day": "11/05/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "1ª Autonómica Juvenil",
+      "round": "Grupo 1 (Madrid)"
     },
     "teams": {
       "local": {
@@ -575,26 +580,24 @@
       }
     },
     "channels": [
-      "Fanatiz",
-      "RCN Nuestra Tele"
+      "Real Madrid TV"
     ],
     "event": {
-      "name": "Deportivo Cali - Águilas Doradas Rionegro",
-      "description": "Deportivo Cali - Águilas Doradas Rionegro el sábado, 12 de abril de 2025 a las 3:10",
-      "startDate": "2025-04-12T01:10:00",
+      "name": "Real Madrid Academy - CD San Fernando Academy",
+      "description": "Real Madrid Academy - CD San Fernando Academy el domingo, 11 de mayo de 2025 a las 10:00",
+      "startDate": "2025-05-11T08:00:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "baloncesto",
+    "sport": "motociclismo",
     "date": {
-      "hour": "03:30",
-      "day": "12/04/2025",
+      "hour": "11:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
+      "competition": "Moto3"
     },
     "teams": {
       "local": {
@@ -605,20 +608,28 @@
       }
     },
     "channels": [
-      "NBA League Pass"
+      "MotoGP Videopass",
+      "DAZN",
+      "DAZN 1",
+      "DAZN 1 Bar",
+      "MAX"
     ],
-    "event": {}
+    "event": {},
+    "links": [
+      "acestream://8ca07071b39185431f8e940ec98d1add9e561639",
+      "acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f"
+    ]
   },
   {
-    "sport": "baloncesto",
+    "sport": "tenis",
     "date": {
-      "hour": "04:00",
-      "day": "12/04/2025",
+      "hour": "11:05",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
+      "competition": "WTA Roma",
+      "round": "3ª Ronda"
     },
     "teams": {
       "local": {
@@ -629,20 +640,22 @@
       }
     },
     "channels": [
-      "NBA League Pass"
+      "WTA TV",
+      "Tennis Channel",
+      "Tennis Channel - Orange TV"
     ],
     "event": {}
   },
   {
-    "sport": "baloncesto",
+    "sport": "tenis",
     "date": {
-      "hour": "04:00",
-      "day": "12/04/2025",
+      "hour": "11:10",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
+      "competition": "Masters Roma",
+      "round": "3ª Ronda"
     },
     "teams": {
       "local": {
@@ -653,20 +666,24 @@
       }
     },
     "channels": [
-      "NBA League Pass"
+      "ATP Tennis TV",
+      "M+ Deportes 6"
     ],
-    "event": {}
+    "event": {},
+    "links": [
+      "acestream://8587ed8ac36ac477e1d4176d3159a38bd154d4ce"
+    ]
   },
   {
-    "sport": "baloncesto",
+    "sport": "tenis",
     "date": {
-      "hour": "04:00",
-      "day": "12/04/2025",
+      "hour": "11:10",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
+      "competition": "Masters Roma",
+      "round": "3ª Ronda"
     },
     "teams": {
       "local": {
@@ -677,19 +694,24 @@
       }
     },
     "channels": [
-      "NBA League Pass"
+      "ATP Tennis TV",
+      "M+ Deportes 2"
     ],
-    "event": {}
+    "event": {},
+    "links": [
+      "acestream://e6f06d697f66a8fa606c4d61236c24b0d604d917"
+    ]
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "04:00",
-      "day": "12/04/2025",
+      "hour": "11:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "NWSL"
+      "competition": "Segunda Federación",
+      "round": "Playoffs de ascenso"
     },
     "teams": {
       "local": {
@@ -702,12 +724,13 @@
       }
     },
     "channels": [
-      "NWSL+"
+      "Canal 9 Soria",
+      "Getafe CF YouTube"
     ],
     "event": {
-      "name": "Utah Royals FC - Portland Thorns",
-      "description": "Utah Royals FC - Portland Thorns el sábado, 12 de abril de 2025 a las 4:00",
-      "startDate": "2025-04-12T02:00:00",
+      "name": "Getafe B - Numancia",
+      "description": "Getafe B - Numancia el domingo, 11 de mayo de 2025 a las 11:30",
+      "startDate": "2025-05-11T09:30:00",
       "duration": "T1H45M"
     }
   },
@@ -764,12 +787,13 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "06:15",
-      "day": "12/04/2025",
+      "hour": "11:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "A-League Women"
+      "competition": "Tercera Federación",
+      "round": "Grupo 7"
     },
     "teams": {
       "local": {
@@ -782,24 +806,25 @@
       }
     },
     "channels": [
-      "A-Leagues YouTube"
+      "RSD Alcalá TV YouTube"
     ],
     "event": {
-      "name": "Sydney FC Women - Perth Glory Women",
-      "description": "Sydney FC Women - Perth Glory Women el sábado, 12 de abril de 2025 a las 6:15",
-      "startDate": "2025-04-12T04:15:00",
+      "name": "RSD Alcalá - Las Rozas",
+      "description": "RSD Alcalá - Las Rozas el domingo, 11 de mayo de 2025 a las 11:30",
+      "startDate": "2025-05-11T09:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "07:00",
-      "day": "12/04/2025",
+      "hour": "11:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "J1 League"
+      "competition": "Tercera Federación",
+      "round": "Grupo 7"
     },
     "teams": {
       "local": {
@@ -812,24 +837,25 @@
       }
     },
     "channels": [
-      "J.LEAGUE International YouTube"
+      "Rayo Vallecano YouTube"
     ],
     "event": {
-      "name": "Sanfrecce Hiroshima - Fagiano Okayama",
-      "description": "Sanfrecce Hiroshima - Fagiano Okayama el sábado, 12 de abril de 2025 a las 7:00",
-      "startDate": "2025-04-12T05:00:00",
+      "name": "Rayo Vallecano B - Villaverde Boetticher",
+      "description": "Rayo Vallecano B - Villaverde Boetticher el domingo, 11 de mayo de 2025 a las 11:30",
+      "startDate": "2025-05-11T09:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "07:00",
-      "day": "12/04/2025",
+      "hour": "11:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "A-League"
+      "competition": "Tercera Federación",
+      "round": "Grupo 7"
     },
     "teams": {
       "local": {
@@ -842,24 +868,25 @@
       }
     },
     "channels": [
-      "A-Leagues YouTube"
+      "TV FootballClub"
     ],
     "event": {
-      "name": "Wellington Phoenix - Melbourne Victory",
-      "description": "Wellington Phoenix - Melbourne Victory el sábado, 12 de abril de 2025 a las 7:00",
-      "startDate": "2025-04-12T05:00:00",
+      "name": "CDF Tres Cantos - CDB Paracuellos Antamira",
+      "description": "CDF Tres Cantos - CDB Paracuellos Antamira el domingo, 11 de mayo de 2025 a las 11:30",
+      "startDate": "2025-05-11T09:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "08:00",
-      "day": "12/04/2025",
+      "hour": "11:45",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "A-League Women"
+      "competition": "Segunda Federación",
+      "round": "Playoffs de Permanencia"
     },
     "teams": {
       "local": {
@@ -872,24 +899,25 @@
       }
     },
     "channels": [
-      "A-Leagues YouTube"
+      "Aragón Deporte",
+      "TV FootballClub"
     ],
     "event": {
-      "name": "Western United Women - Adelaide Utd. Women",
-      "description": "Western United Women - Adelaide Utd. Women el sábado, 12 de abril de 2025 a las 8:00",
-      "startDate": "2025-04-12T06:00:00",
+      "name": "UM Escobedo - UD Barbastro",
+      "description": "UM Escobedo - UD Barbastro el domingo, 11 de mayo de 2025 a las 11:45",
+      "startDate": "2025-05-11T09:45:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "futbol",
+    "sport": "futbol-sala",
     "date": {
-      "hour": "09:00",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "A-League"
+      "competition": "Primera Federación Femenina"
     },
     "teams": {
       "local": {
@@ -902,26 +930,19 @@
       }
     },
     "channels": [
-      "A-Leagues YouTube",
-      "LaLiga+ Plus"
+      "RFEF.es"
     ],
-    "event": {
-      "name": "Sydney FC - Auckland FC",
-      "description": "Sydney FC - Auckland FC el sábado, 12 de abril de 2025 a las 9:00",
-      "startDate": "2025-04-12T07:00:00",
-      "duration": "T1H45M"
-    }
+    "event": {}
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "09:35",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Crevillent Cup",
-      "round": "Fase de grupos"
+      "competition": "Premier League Ucrania"
     },
     "teams": {
       "local": {
@@ -934,15 +955,12 @@
       }
     },
     "channels": [
-      "DAZN",
-      "DAZN App Gratis",
-      "DAZN LaLiga",
-      "MAX"
+      "OneFootball PPV"
     ],
     "event": {
-      "name": "Sporting CP Academy - Valencia CF Academy",
-      "description": "Sporting CP Academy - Valencia CF Academy el sábado, 12 de abril de 2025 a las 9:35",
-      "startDate": "2025-04-12T07:35:00",
+      "name": "FC Kryvbas - FC Kolos Kovalivka",
+      "description": "FC Kryvbas - FC Kolos Kovalivka el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -957,13 +975,13 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "10:20",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Crevillent Cup",
-      "round": "Fase de grupos"
+      "competition": "Copa Campeones Juvenil",
+      "round": "1/4 de Final"
     },
     "teams": {
       "local": {
@@ -975,15 +993,12 @@
       }
     },
     "channels": [
-      "DAZN",
-      "DAZN App Gratis",
-      "DAZN LaLiga",
-      "MAX"
+      "Real Madrid TV"
     ],
     "event": {
-      "name": "Valencia CF Academy - PSG Academy",
-      "description": "Valencia CF Academy - PSG Academy el sábado, 12 de abril de 2025 a las 10:20",
-      "startDate": "2025-04-12T08:20:00",
+      "name": "Real Madrid Academy - Athletic Club Academy",
+      "description": "Real Madrid Academy - Athletic Club Academy el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -1029,13 +1044,13 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "11:00",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Crevillent Cup",
-      "round": "Fase de grupos"
+      "competition": "Copa Campeones Juvenil",
+      "round": "1/4 de Final"
     },
     "teams": {
       "local": {
@@ -1048,15 +1063,12 @@
       }
     },
     "channels": [
-      "DAZN",
-      "DAZN App Gratis",
-      "DAZN LaLiga",
-      "MAX"
+      "Canal por confirmar"
     ],
     "event": {
-      "name": "At. Madrid Academy - Villarreal Academy",
-      "description": "At. Madrid Academy - Villarreal Academy el sábado, 12 de abril de 2025 a las 11:00",
-      "startDate": "2025-04-12T09:00:00",
+      "name": "Valencia CF Academy - FC Barcelona Academy",
+      "description": "Valencia CF Academy - FC Barcelona Academy el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -1097,12 +1109,13 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "11:35",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "A-League"
+      "competition": "Primera Federación",
+      "round": "Grupo 1"
     },
     "teams": {
       "local": {
@@ -1115,26 +1128,25 @@
       }
     },
     "channels": [
-      "A-Leagues YouTube",
-      "LaLiga+ Plus"
+      "FEF TV"
     ],
     "event": {
-      "name": "Newcastle Jets - Central Coast Mariners",
-      "description": "Newcastle Jets - Central Coast Mariners el sábado, 12 de abril de 2025 a las 11:35",
-      "startDate": "2025-04-12T09:35:00",
+      "name": "Zamora - Real Unión",
+      "description": "Zamora - Real Unión el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "11:40",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Crevillent Cup",
-      "round": "Fase de grupos"
+      "competition": "Primera Federación",
+      "round": "Grupo 2"
     },
     "teams": {
       "local": {
@@ -1146,15 +1158,12 @@
       }
     },
     "channels": [
-      "DAZN",
-      "DAZN App Gratis",
-      "DAZN LaLiga",
-      "MAX"
+      "FEF TV"
     ],
     "event": {
-      "name": "Sevilla FC Academy - Villarreal Academy",
-      "description": "Sevilla FC Academy - Villarreal Academy el sábado, 12 de abril de 2025 a las 11:40",
-      "startDate": "2025-04-12T09:40:00",
+      "name": "Sevilla At. - At. Madrid B",
+      "description": "Sevilla At. - At. Madrid B el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -1210,11 +1219,12 @@
     "sport": "futbol",
     "date": {
       "hour": "12:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Premier League Ucrania"
+      "competition": "Primera Federación",
+      "round": "Grupo 2"
     },
     "teams": {
       "local": {
@@ -1227,13 +1237,12 @@
       }
     },
     "channels": [
-      "OneFootball PPV",
-      "LaLiga+ Plus"
+      "FEF TV"
     ],
     "event": {
-      "name": "FC Kryvbas - Dynamo Kyiv",
-      "description": "FC Kryvbas - Dynamo Kyiv el sábado, 12 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-12T10:00:00",
+      "name": "Fuenlabrada - AD Ceuta",
+      "description": "Fuenlabrada - AD Ceuta el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
@@ -1241,11 +1250,12 @@
     "sport": "futbol",
     "date": {
       "hour": "12:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga F"
+      "competition": "Primera Federación",
+      "round": "Grupo 1"
     },
     "teams": {
       "local": {
@@ -1258,16 +1268,12 @@
       }
     },
     "channels": [
-      "DAZN",
-      "Movistar Plus+ 2",
-      "DAZN App Gratis",
-      "DAZN 4",
-      "MAX"
+      "FEF TV"
     ],
     "event": {
-      "name": "Sevilla FC Femenino - Madrid CFF",
-      "description": "Sevilla FC Femenino - Madrid CFF el sábado, 12 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-12T10:00:00",
+      "name": "Amorebieta - Celta B",
+      "description": "Amorebieta - Celta B el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -1283,11 +1289,12 @@
     "sport": "futbol",
     "date": {
       "hour": "12:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "División Honor Juvenil"
+      "competition": "Primera Federación",
+      "round": "Grupo 1"
     },
     "teams": {
       "local": {
@@ -1299,13 +1306,12 @@
       }
     },
     "channels": [
-      "SevillaFC YouTube",
-      "Sevilla FC +"
+      "FEF TV"
     ],
     "event": {
-      "name": "Sevilla FC Academy - Calavera CF",
-      "description": "Sevilla FC Academy - Calavera CF el sábado, 12 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-12T10:00:00",
+      "name": "Osasuna Promesas - Arenteiro",
+      "description": "Osasuna Promesas - Arenteiro el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
@@ -1313,12 +1319,12 @@
     "sport": "futbol",
     "date": {
       "hour": "12:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "División Honor Juvenil",
-      "round": "Grupo 3"
+      "competition": "Segunda Federación",
+      "round": "Playoffs de ascenso"
     },
     "teams": {
       "local": {
@@ -1331,24 +1337,23 @@
       }
     },
     "channels": [
-      "RCD Espanyol YouTube",
-      "Facebook RCD Espanyol",
-      "Twitter @RCDEspanyol",
-      "Barça One",
-      "Esport3"
+      "Esports IB3 YouTube",
+      "Aragón Deporte",
+      "IB3",
+      "Aragón TV"
     ],
     "event": {
-      "name": "Espanyol Academy - FC Barcelona Academy",
-      "description": "Espanyol Academy - FC Barcelona Academy el sábado, 12 de abril de 2025 a las 12:00",
-      "startDate": "2025-04-12T10:00:00",
+      "name": "Teruel - At. Baleares",
+      "description": "Teruel - At. Baleares el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "futbol-sala",
+    "sport": "futbol",
     "date": {
       "hour": "12:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -1390,13 +1395,13 @@
       }
     },
     "channels": [
-      "DAZN",
-      "DAZN App Gratis"
+      "Extv",
+      "Canal Deporte TV"
     ],
     "event": {
-      "name": "Sampdoria Femenino - Lazio Femminile",
-      "description": "Sampdoria Femenino - Lazio Femminile el sábado, 12 de abril de 2025 a las 12:30",
-      "startDate": "2025-04-12T10:30:00",
+      "name": "Villanovense - Real Madrid C",
+      "description": "Villanovense - Real Madrid C el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -1487,12 +1492,14 @@
       }
     },
     "channels": [
-      "FANSEAT"
+      "Betevé",
+      "Betevé Web",
+      "Twitch btvesports"
     ],
     "event": {
-      "name": "Djurgårdens IF Kvinnor - Piteå IF Kvinnor",
-      "description": "Djurgårdens IF Kvinnor - Piteå IF Kvinnor el sábado, 12 de abril de 2025 a las 13:00",
-      "startDate": "2025-04-12T11:00:00",
+      "name": "Rayo Majadahonda - Sant Andreu",
+      "description": "Rayo Majadahonda - Sant Andreu el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
@@ -1532,8 +1539,8 @@
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Masters Montecarlo",
-      "round": "Semifinal 1"
+      "competition": "Segunda Federación",
+      "round": "Playoffs de ascenso"
     },
     "teams": {
       "local": {
@@ -1608,12 +1615,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "13:30",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "National League"
+      "competition": "Liga F"
     },
     "teams": {
       "local": {
@@ -1629,9 +1636,9 @@
       "DAZN"
     ],
     "event": {
-      "name": "Barnet - Wealdstone FC",
-      "description": "Barnet - Wealdstone FC el sábado, 12 de abril de 2025 a las 13:30",
-      "startDate": "2025-04-12T11:30:00",
+      "name": "Levante Badalona - Valencia Féminas",
+      "description": "Levante Badalona - Valencia Féminas el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -1646,12 +1653,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "13:30",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Veikkausliiga"
+      "competition": "Liga F"
     },
     "teams": {
       "local": {
@@ -1664,24 +1671,24 @@
       }
     },
     "channels": [
-      "OneFootball"
+      "DAZN"
     ],
     "event": {
-      "name": "FC Ilves - FF Jaro",
-      "description": "FC Ilves - FF Jaro el sábado, 12 de abril de 2025 a las 13:30",
-      "startDate": "2025-04-12T11:30:00",
+      "name": "Levante Femenino - Madrid CFF",
+      "description": "Levante Femenino - Madrid CFF el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "13:30",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Premier League"
+      "competition": "Liga F"
     },
     "teams": {
       "local": {
@@ -1695,14 +1702,21 @@
     },
     "channels": [
       "DAZN",
+      "GolStadium Premium",
+      "M+ Ellas Vamos",
+      "Movistar+ Lite",
       "DAZN 2",
       "DAZN 2 Bar",
-      "MAX"
+      "MAX",
+      "DAZN App Gratis",
+      "GOL PLAY",
+      "GolStadium",
+      "TV3"
     ],
     "event": {
-      "name": "Manchester City - Crystal Palace",
-      "description": "Manchester City - Crystal Palace el sábado, 12 de abril de 2025 a las 13:30",
-      "startDate": "2025-04-12T11:30:00",
+      "name": "Real Betis Féminas - FC Barcelona Femenino",
+      "description": "Real Betis Féminas - FC Barcelona Femenino el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -1743,12 +1757,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "13:45",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "A-League"
+      "competition": "Liga F"
     },
     "teams": {
       "local": {
@@ -1761,12 +1775,12 @@
       }
     },
     "channels": [
-      "A-Leagues YouTube"
+      "DAZN"
     ],
     "event": {
-      "name": "Perth Glory - Adelaide Utd.",
-      "description": "Perth Glory - Adelaide Utd. el sábado, 12 de abril de 2025 a las 13:45",
-      "startDate": "2025-04-12T11:45:00",
+      "name": "Athletic Femenino - Espanyol Femenino",
+      "description": "Athletic Femenino - Espanyol Femenino el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
@@ -1831,12 +1845,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "14:00",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Regionalliga"
+      "competition": "Liga F"
     },
     "teams": {
       "local": {
@@ -1849,24 +1863,24 @@
       }
     },
     "channels": [
-      "OneFootball PPV"
+      "DAZN"
     ],
     "event": {
-      "name": "KSV Hessen Kassel - SGV Freiberg",
-      "description": "KSV Hessen Kassel - SGV Freiberg el sábado, 12 de abril de 2025 a las 14:00",
-      "startDate": "2025-04-12T12:00:00",
+      "name": "Real Sociedad Femenino - Granada Femenino",
+      "description": "Real Sociedad Femenino - Granada Femenino el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "14:00",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Regionalliga"
+      "competition": "Liga F"
     },
     "teams": {
       "local": {
@@ -1879,24 +1893,24 @@
       }
     },
     "channels": [
-      "OneFootball PPV"
+      "DAZN"
     ],
     "event": {
-      "name": "Stuttgarter Kickers - Bahlinger SC",
-      "description": "Stuttgarter Kickers - Bahlinger SC el sábado, 12 de abril de 2025 a las 14:00",
-      "startDate": "2025-04-12T12:00:00",
+      "name": "Deportivo Abanca - Sevilla FC Femenino",
+      "description": "Deportivo Abanca - Sevilla FC Femenino el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "14:00",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Regionalliga"
+      "competition": "Liga F"
     },
     "teams": {
       "local": {
@@ -1909,12 +1923,14 @@
       }
     },
     "channels": [
-      "OneFootball PPV"
+      "DAZN",
+      "DAZN 4",
+      "MAX"
     ],
     "event": {
-      "name": "Eintracht Trier - SG Barockstadt",
-      "description": "Eintracht Trier - SG Barockstadt el sábado, 12 de abril de 2025 a las 14:00",
-      "startDate": "2025-04-12T12:00:00",
+      "name": "Eibar Femenino - At. Madrid Femenino",
+      "description": "Eibar Femenino - At. Madrid Femenino el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
@@ -1951,12 +1967,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "14:00",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Regionalliga"
+      "competition": "Liga F"
     },
     "teams": {
       "local": {
@@ -2000,12 +2016,15 @@
     },
     "channels": [
       "DAZN",
+      "Movistar Plus+ 2",
+      "DAZN 3",
+      "MAX",
       "DAZN App Gratis"
     ],
     "event": {
-      "name": "Eintracht Frankfurt Femenino - FC Bayern Femenino",
-      "description": "Eintracht Frankfurt Femenino - FC Bayern Femenino el sábado, 12 de abril de 2025 a las 14:00",
-      "startDate": "2025-04-12T12:00:00",
+      "name": "Real Madrid Femenino - Costa Adeje Tenerife",
+      "description": "Real Madrid Femenino - Costa Adeje Tenerife el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -2020,12 +2039,13 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "14:00",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "3. Liga"
+      "competition": "Tercera Federación",
+      "round": "Grupo 1"
     },
     "teams": {
       "local": {
@@ -2038,25 +2058,25 @@
       }
     },
     "channels": [
-      "OneFootball PPV",
-      "German Football YouTube"
+      "TVG2"
     ],
     "event": {
-      "name": "Dynamo Dresden - VfL Osnabrück",
-      "description": "Dynamo Dresden - VfL Osnabrück el sábado, 12 de abril de 2025 a las 14:00",
-      "startDate": "2025-04-12T12:00:00",
+      "name": "Betanzos - Noia",
+      "description": "Betanzos - Noia el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "14:00",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "La Liga EA Sports"
+      "competition": "Tercera Federación",
+      "round": "Grupo 1"
     },
     "teams": {
       "local": {
@@ -2069,25 +2089,26 @@
       }
     },
     "channels": [
-      "M+ LaLiga TV",
-      "LaLiga TV Bar"
+      "TVG2"
     ],
     "event": {
-      "name": "Real Sociedad - Mallorca",
-      "description": "Real Sociedad - Mallorca el sábado, 12 de abril de 2025 a las 14:00",
-      "startDate": "2025-04-12T12:00:00",
+      "name": "Arosa SC - Alondras CF",
+      "description": "Arosa SC - Alondras CF el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
+    }
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "14:00",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Chinese Super League"
+      "competition": "Tercera Federación",
+      "round": "Grupo 17"
     },
     "teams": {
       "local": {
@@ -2100,26 +2121,25 @@
       }
     },
     "channels": [
-      "GolStadium Premium",
-      "GOL PLAY",
-      "GolStadium"
+      "Lacronicadeportes.es"
     ],
     "event": {
-      "name": "Shanghai Shenhua - Zhejiang Professional FC",
-      "description": "Shanghai Shenhua - Zhejiang Professional FC el sábado, 12 de abril de 2025 a las 14:00",
-      "startDate": "2025-04-12T12:00:00",
+      "name": "Almudévar - UD Fraga",
+      "description": "Almudévar - UD Fraga el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "14:00",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Damallsvenskan"
+      "competition": "Tercera Federación",
+      "round": "Grupo 17"
     },
     "teams": {
       "local": {
@@ -2132,24 +2152,25 @@
       }
     },
     "channels": [
-      "FANSEAT"
+      "Lacronicadeportes.es"
     ],
     "event": {
-      "name": "Brommapojkarna Kvinnor - Linköpings FC",
-      "description": "Brommapojkarna Kvinnor - Linköpings FC el sábado, 12 de abril de 2025 a las 14:00",
-      "startDate": "2025-04-12T12:00:00",
+      "name": "At. Monzón - CD Ebro",
+      "description": "At. Monzón - CD Ebro el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "14:00",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Veikkausliiga"
+      "competition": "Tercera Federación",
+      "round": "Grupo 10"
     },
     "teams": {
       "local": {
@@ -2162,12 +2183,12 @@
       }
     },
     "channels": [
-      "OneFootball"
+      "Web Directo"
     ],
     "event": {
-      "name": "FC Haka - IFK Mariehamn",
-      "description": "FC Haka - IFK Mariehamn el sábado, 12 de abril de 2025 a las 14:00",
-      "startDate": "2025-04-12T12:00:00",
+      "name": "AD Cartaya - AD Ceuta B",
+      "description": "AD Cartaya - AD Ceuta B el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
@@ -2198,12 +2219,13 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "14:30",
-      "day": "12/04/2025",
+      "hour": "12:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Premier League Ucrania"
+      "competition": "Tercera Federación",
+      "round": "Grupo 10"
     },
     "teams": {
       "local": {
@@ -2216,12 +2238,12 @@
       }
     },
     "channels": [
-      "OneFootball PPV"
+      "Web Directo"
     ],
     "event": {
-      "name": "FC Rukh Lviv - FC Oleksandriya",
-      "description": "FC Rukh Lviv - FC Oleksandriya el sábado, 12 de abril de 2025 a las 14:30",
-      "startDate": "2025-04-12T12:30:00",
+      "name": "Int. Fútbol Sevilla - Puente Genil",
+      "description": "Int. Fútbol Sevilla - Puente Genil el domingo, 11 de mayo de 2025 a las 12:00",
+      "startDate": "2025-05-11T10:00:00",
       "duration": "T1H45M"
     }
   },
@@ -2257,12 +2279,12 @@
   {
     "sport": "motociclismo",
     "date": {
-      "hour": "14:40",
-      "day": "12/04/2025",
+      "hour": "12:15",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "MotoGP"
+      "competition": "Moto2"
     },
     "teams": {
       "local": {},
@@ -2286,14 +2308,15 @@
     ]
   },
   {
-    "sport": "futbol",
+    "sport": "baloncesto",
     "date": {
-      "hour": "15:00",
-      "day": "12/04/2025",
+      "hour": "12:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Segunda Uruguay"
+      "competition": "Liga Endesa",
+      "round": "Liga Regular"
     },
     "teams": {
       "local": {
@@ -2306,24 +2329,23 @@
       }
     },
     "channels": [
-      "GolTV Play"
+      "M+ Deportes 3"
     ],
-    "event": {
-      "name": "Uruguay Montevideo - CA Artigas",
-      "description": "Uruguay Montevideo - CA Artigas el sábado, 12 de abril de 2025 a las 15:00",
-      "startDate": "2025-04-12T13:00:00",
-      "duration": "T1H45M"
-    }
+    "event": {},
+    "links": [
+      "acestream://aee0a595220e0f1c2fee725fd1dbc602d7152a9a"
+    ]
   },
   {
-    "sport": "futbol",
+    "sport": "baloncesto",
     "date": {
-      "hour": "15:00",
-      "day": "12/04/2025",
+      "hour": "12:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Serie A Femminile"
+      "competition": "Liga Endesa",
+      "round": "Liga Regular"
     },
     "teams": {
       "local": {
@@ -2336,8 +2358,7 @@
       }
     },
     "channels": [
-      "DAZN",
-      "DAZN App Gratis"
+      "M+ Deportes 4"
     ],
     "event": {
       "name": "AC Milan Femenino - Fiorentina Femenino",
@@ -2355,14 +2376,15 @@
     ]
   },
   {
-    "sport": "futbol",
+    "sport": "baloncesto",
     "date": {
-      "hour": "15:00",
-      "day": "12/04/2025",
+      "hour": "12:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Damallsvenskan"
+      "competition": "Liga Endesa",
+      "round": "Liga Regular"
     },
     "teams": {
       "local": {
@@ -2375,24 +2397,23 @@
       }
     },
     "channels": [
-      "FANSEAT"
+      "M+ Deportes"
     ],
-    "event": {
-      "name": "Växjö DFF - Alingsås IF Kvinnor",
-      "description": "Växjö DFF - Alingsås IF Kvinnor el sábado, 12 de abril de 2025 a las 15:00",
-      "startDate": "2025-04-12T13:00:00",
-      "duration": "T1H45M"
-    }
+    "event": {},
+    "links": [
+      "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
+      "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa"
+    ]
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "15:00",
-      "day": "12/04/2025",
+      "hour": "12:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Serie A Italiana"
+      "competition": "Serie A Femminile"
     },
     "teams": {
       "local": {
@@ -2409,9 +2430,9 @@
       "DAZN App Gratis"
     ],
     "event": {
-      "name": "Venezia FC - Monza",
-      "description": "Venezia FC - Monza el sábado, 12 de abril de 2025 a las 15:00",
-      "startDate": "2025-04-12T13:00:00",
+      "name": "Sassuolo Femenino - Sampdoria Femenino",
+      "description": "Sassuolo Femenino - Sampdoria Femenino el domingo, 11 de mayo de 2025 a las 12:30",
+      "startDate": "2025-05-11T10:30:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -2530,12 +2551,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "15:30",
-      "day": "12/04/2025",
+      "hour": "12:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Superliga de Eslovaquia"
+      "competition": "Serie A Femminile"
     },
     "teams": {
       "local": {
@@ -2548,25 +2569,26 @@
       }
     },
     "channels": [
-      "OneFootball",
-      "OneFootball PPV"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {
-      "name": "AS Trencin - Ruzomberok",
-      "description": "AS Trencin - Ruzomberok el sábado, 12 de abril de 2025 a las 15:30",
-      "startDate": "2025-04-12T13:30:00",
+      "name": "Como Femminile - Napoli Femenino",
+      "description": "Como Femminile - Napoli Femenino el domingo, 11 de mayo de 2025 a las 12:30",
+      "startDate": "2025-05-11T10:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "15:30",
-      "day": "12/04/2025",
+      "hour": "12:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Superliga de Eslovaquia"
+      "competition": "Primera Federación Femenina",
+      "round": "Semifinales Playoffs Ascenso"
     },
     "teams": {
       "local": {
@@ -2579,25 +2601,25 @@
       }
     },
     "channels": [
-      "OneFootball",
-      "OneFootball PPV"
+      "Lleida Televisió",
+      "La Xarxa+"
     ],
     "event": {
-      "name": "MFK Zemplín Michalovce - Banská Bystrica",
-      "description": "MFK Zemplín Michalovce - Banská Bystrica el sábado, 12 de abril de 2025 a las 15:30",
-      "startDate": "2025-04-12T13:30:00",
+      "name": "SE AEM - DUX Logroño Femenino",
+      "description": "SE AEM - DUX Logroño Femenino el domingo, 11 de mayo de 2025 a las 12:30",
+      "startDate": "2025-05-11T10:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "15:30",
-      "day": "12/04/2025",
+      "hour": "12:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Superliga de Eslovaquia"
+      "competition": "Serie A Italiana"
     },
     "teams": {
       "local": {
@@ -2610,33 +2632,32 @@
       }
     },
     "channels": [
-      "OneFootball",
-      "OneFootball PPV"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {
-      "name": "FK Železiarne Podbrezová - Spartak Trnava",
-      "description": "FK Železiarne Podbrezová - Spartak Trnava el sábado, 12 de abril de 2025 a las 15:30",
-      "startDate": "2025-04-12T13:30:00",
+      "name": "Udinese - Monza",
+      "description": "Udinese - Monza el domingo, 11 de mayo de 2025 a las 12:30",
+      "startDate": "2025-05-11T10:30:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "futbol",
+    "sport": "golf",
     "date": {
-      "hour": "15:30",
-      "day": "12/04/2025",
+      "hour": "12:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
-    "details": {},
+    "details": {
+      "competition": "Turkish Airlines Open"
+    },
     "teams": {
       "local": {},
       "visitor": {}
     },
     "channels": [
-      "DAZN",
-      "DAZN App Gratis",
-      "DAZN LaLiga",
-      "MAX"
+      "Movistar Golf"
     ],
     "event": {},
     "links": [
@@ -2651,12 +2672,13 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "15:30",
-      "day": "12/04/2025",
+      "hour": "13:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Bundesliga"
+      "competition": "Copa Campeones Juvenil",
+      "round": "1/4 de Final"
     },
     "teams": {
       "local": {
@@ -2669,13 +2691,13 @@
       }
     },
     "channels": [
-      "DAZN",
-      "DAZN App Gratis"
+      "Real Betis Balompié YouTube",
+      "Real Betis TV"
     ],
     "event": {
-      "name": "Bayer Leverkusen - 1. FC Union Berlin",
-      "description": "Bayer Leverkusen - 1. FC Union Berlin el sábado, 12 de abril de 2025 a las 15:30",
-      "startDate": "2025-04-12T13:30:00",
+      "name": "Las Palmas Academy - Real Betis Academy",
+      "description": "Las Palmas Academy - Real Betis Academy el domingo, 11 de mayo de 2025 a las 13:00",
+      "startDate": "2025-05-11T11:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -2690,12 +2712,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "15:30",
-      "day": "12/04/2025",
+      "hour": "13:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Bundesliga"
+      "competition": "Superliga de Letonia"
     },
     "teams": {
       "local": {
@@ -2708,13 +2730,12 @@
       }
     },
     "channels": [
-      "DAZN",
-      "DAZN App Gratis"
+      "OneFootball"
     ],
     "event": {
-      "name": "Hoffenheim - Mainz 05",
-      "description": "Hoffenheim - Mainz 05 el sábado, 12 de abril de 2025 a las 15:30",
-      "startDate": "2025-04-12T13:30:00",
+      "name": "FK Tukums 2000 - FK Metta",
+      "description": "FK Tukums 2000 - FK Metta el domingo, 11 de mayo de 2025 a las 13:00",
+      "startDate": "2025-05-11T11:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -2729,12 +2750,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "15:30",
-      "day": "12/04/2025",
+      "hour": "13:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Bundesliga"
+      "competition": "Damallsvenskan"
     },
     "teams": {
       "local": {
@@ -2747,13 +2768,12 @@
       }
     },
     "channels": [
-      "DAZN",
-      "DAZN App Gratis"
+      "FANSEAT"
     ],
     "event": {
-      "name": "Borussia M'gladbach - Freiburg",
-      "description": "Borussia M'gladbach - Freiburg el sábado, 12 de abril de 2025 a las 15:30",
-      "startDate": "2025-04-12T13:30:00",
+      "name": "Piteå IF Kvinnor - Växjö DFF",
+      "description": "Piteå IF Kvinnor - Växjö DFF el domingo, 11 de mayo de 2025 a las 13:00",
+      "startDate": "2025-05-11T11:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -2768,12 +2788,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "15:30",
-      "day": "12/04/2025",
+      "hour": "13:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Bundesliga"
+      "competition": "Premier League"
     },
     "teams": {
       "local": {
@@ -2787,12 +2807,15 @@
     },
     "channels": [
       "DAZN",
-      "DAZN App Gratis"
+      "M+ Vamos",
+      "M+ #Vamos Bar",
+      "Movistar+ Lite",
+      "M+ Liga de Campeones"
     ],
     "event": {
-      "name": "Bochum - Augsburg",
-      "description": "Bochum - Augsburg el sábado, 12 de abril de 2025 a las 15:30",
-      "startDate": "2025-04-12T13:30:00",
+      "name": "Newcastle - Chelsea",
+      "description": "Newcastle - Chelsea el domingo, 11 de mayo de 2025 a las 13:00",
+      "startDate": "2025-05-11T11:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -2846,13 +2869,13 @@
   {
     "sport": "tenis",
     "date": {
-      "hour": "15:40",
-      "day": "12/04/2025",
+      "hour": "13:05",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Masters Montecarlo",
-      "round": "Semifinal 2"
+      "competition": "Masters Roma",
+      "round": "3ª Ronda"
     },
     "teams": {
       "local": {
@@ -2863,20 +2886,20 @@
       }
     },
     "channels": [
-      "ATP Tennis TV",
-      "M+ Deportes 2"
+      "ATP Tennis TV"
     ],
+    "event": {}
     "event": {}
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "13:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Indian Super League"
+      "competition": "3. Liga"
     },
     "teams": {
       "local": {
@@ -2889,25 +2912,24 @@
       }
     },
     "channels": [
-      "OneFootball",
       "OneFootball PPV"
     ],
     "event": {
-      "name": "Mohun Bagan - Bengaluru",
-      "description": "Mohun Bagan - Bengaluru el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "Unterhaching - Arminia Bielefeld",
+      "description": "Unterhaching - Arminia Bielefeld el domingo, 11 de mayo de 2025 a las 13:30",
+      "startDate": "2025-05-11T11:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "13:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "National League"
+      "competition": "Jupiler Pro League"
     },
     "teams": {
       "local": {
@@ -2920,12 +2942,12 @@
       }
     },
     "channels": [
-      "DAZN"
+      "GolStadium Premium"
     ],
     "event": {
-      "name": "Yeovil Town - Oldham Athletic",
-      "description": "Yeovil Town - Oldham Athletic el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "Gent - Antwerp",
+      "description": "Gent - Antwerp el domingo, 11 de mayo de 2025 a las 13:30",
+      "startDate": "2025-05-11T11:30:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -2938,14 +2960,14 @@
     ]
   },
   {
-    "sport": "futbol",
+    "sport": "golf",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "13:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "National League"
+      "competition": "Truist Championship"
     },
     "teams": {
       "local": {
@@ -2958,7 +2980,7 @@
       }
     },
     "channels": [
-      "DAZN"
+      "MAX"
     ],
     "event": {
       "name": "AFC Rochdale - Eastleigh FC",
@@ -2976,14 +2998,15 @@
     ]
   },
   {
-    "sport": "futbol",
+    "sport": "tenis",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "13:45",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "National League"
+      "competition": "Masters Roma",
+      "round": "3ª Ronda"
     },
     "teams": {
       "local": {
@@ -3014,14 +3037,14 @@
     ]
   },
   {
-    "sport": "futbol",
+    "sport": "motociclismo",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "14:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "National League"
+      "competition": "MotoGP"
     },
     "teams": {
       "local": {
@@ -3034,7 +3057,11 @@
       }
     },
     "channels": [
-      "DAZN"
+      "MotoGP Videopass",
+      "DAZN",
+      "DAZN 1",
+      "DAZN 1 Bar",
+      "MAX"
     ],
     "event": {
       "name": "York City - Aldershot",
@@ -3054,12 +3081,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "14:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "National League"
+      "competition": "Bundesliga Femenina"
     },
     "teams": {
       "local": {
@@ -3072,12 +3099,13 @@
       }
     },
     "channels": [
-      "DAZN"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {
-      "name": "Halifax Town - Maidenhead United",
-      "description": "Halifax Town - Maidenhead United el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "FC Bayern Femenino - SGS Essen",
+      "description": "FC Bayern Femenino - SGS Essen el domingo, 11 de mayo de 2025 a las 14:00",
+      "startDate": "2025-05-11T12:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -3092,12 +3120,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "14:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "National League"
+      "competition": "Bundesliga Femenina"
     },
     "teams": {
       "local": {
@@ -3110,12 +3138,13 @@
       }
     },
     "channels": [
-      "DAZN"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {
-      "name": "Dagenham & Redbridge - Hartlepool United",
-      "description": "Dagenham & Redbridge - Hartlepool United el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "Wolfsburg Femenino - Bayer Leverkusen Femenino",
+      "description": "Wolfsburg Femenino - Bayer Leverkusen Femenino el domingo, 11 de mayo de 2025 a las 14:00",
+      "startDate": "2025-05-11T12:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -3130,12 +3159,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "14:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "National League"
+      "competition": "Bundesliga Femenina"
     },
     "teams": {
       "local": {
@@ -3148,12 +3177,13 @@
       }
     },
     "channels": [
-      "DAZN"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {
-      "name": "Woking - AFC Fylde",
-      "description": "Woking - AFC Fylde el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "Freiburg Femenino - Werder Bremen Femenino",
+      "description": "Freiburg Femenino - Werder Bremen Femenino el domingo, 11 de mayo de 2025 a las 14:00",
+      "startDate": "2025-05-11T12:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -3168,12 +3198,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "14:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "National League"
+      "competition": "Bundesliga Femenina"
     },
     "teams": {
       "local": {
@@ -3186,12 +3216,13 @@
       }
     },
     "channels": [
-      "DAZN"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {
-      "name": "Ebbsfleet United - Sutton United",
-      "description": "Ebbsfleet United - Sutton United el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "RB Leipzig Femenino - Eintracht Frankfurt Femenino",
+      "description": "RB Leipzig Femenino - Eintracht Frankfurt Femenino el domingo, 11 de mayo de 2025 a las 14:00",
+      "startDate": "2025-05-11T12:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -3206,12 +3237,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "14:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "National League"
+      "competition": "La Liga EA Sports"
     },
     "teams": {
       "local": {
@@ -3224,12 +3255,15 @@
       }
     },
     "channels": [
-      "DAZN"
+      "DAZN LaLiga",
+      "DAZN",
+      "MAX",
+      "LaLiga TV Bar"
     ],
     "event": {
-      "name": "Boston United - Altrincham",
-      "description": "Boston United - Altrincham el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "Leganés - Espanyol",
+      "description": "Leganés - Espanyol el domingo, 11 de mayo de 2025 a las 14:00",
+      "startDate": "2025-05-11T12:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -3282,12 +3316,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "14:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Northern Irish Premiership"
+      "competition": "LaLiga Hypermotion"
     },
     "teams": {
       "local": {
@@ -3300,25 +3334,33 @@
       }
     },
     "channels": [
-      "OneFootball",
-      "OneFootball PPV"
+      "LALIGA TV Hypermotion",
+      "Amazon Prime Video",
+      "DAZN",
+      "GolStadium Premium",
+      "Movistar Plus+",
+      "Orange Fútbol 2",
+      "LaLiga TV M2"
     ],
     "event": {
-      "name": "Linfield - Dungannon Swifts",
-      "description": "Linfield - Dungannon Swifts el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "Racing Santander - Real Oviedo",
+      "description": "Racing Santander - Real Oviedo el domingo, 11 de mayo de 2025 a las 14:00",
+      "startDate": "2025-05-11T12:00:00",
       "duration": "T1H45M"
-    }
+    },
+    "links": [
+      "acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0"
+    ]
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "14:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Northern Irish Premiership"
+      "competition": "Admiral Bundesliga"
     },
     "teams": {
       "local": {
@@ -3331,25 +3373,25 @@
       }
     },
     "channels": [
-      "OneFootball",
-      "OneFootball PPV"
+      "OneFootball PPV",
+      "OneFootball"
     ],
     "event": {
-      "name": "Crusaders FC - Glentoran",
-      "description": "Crusaders FC - Glentoran el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "Wolfsberger AC - Blau Weiß Linz",
+      "description": "Wolfsberger AC - Blau Weiß Linz el domingo, 11 de mayo de 2025 a las 14:30",
+      "startDate": "2025-05-11T12:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "14:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Northern Irish Premiership"
+      "competition": "Liga noruega"
     },
     "teams": {
       "local": {
@@ -3362,25 +3404,24 @@
       }
     },
     "channels": [
-      "OneFootball",
-      "OneFootball PPV"
+      "OneFootball"
     ],
     "event": {
-      "name": "Ballymena Utd. - Carrick Rangers",
-      "description": "Ballymena Utd. - Carrick Rangers el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "SK Brann - Rosenborg",
+      "description": "SK Brann - Rosenborg el domingo, 11 de mayo de 2025 a las 14:30",
+      "startDate": "2025-05-11T12:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "14:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Northern Irish Premiership"
+      "competition": "Eredivisie"
     },
     "teams": {
       "local": {
@@ -3393,26 +3434,24 @@
       }
     },
     "channels": [
-      "OneFootball",
-      "OneFootball PPV"
+      "GolStadium Premium"
     ],
     "event": {
-      "name": "Coleraine - Larne FC",
-      "description": "Coleraine - Larne FC el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "Feyenoord - PSV Eindhoven",
+      "description": "Feyenoord - PSV Eindhoven el domingo, 11 de mayo de 2025 a las 14:30",
+      "startDate": "2025-05-11T12:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "15:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 2"
+      "competition": "Damallsvenskan"
     },
     "teams": {
       "local": {
@@ -3425,25 +3464,24 @@
       }
     },
     "channels": [
-      "FEF TV"
+      "FANSEAT"
     ],
     "event": {
-      "name": "Marbella - UD Ibiza",
-      "description": "Marbella - UD Ibiza el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "BK Häcken Femenino - Brommapojkarna Kvinnor",
+      "description": "BK Häcken Femenino - Brommapojkarna Kvinnor el domingo, 11 de mayo de 2025 a las 15:00",
+      "startDate": "2025-05-11T13:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "15:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 1"
+      "competition": "Veikkausliiga"
     },
     "teams": {
       "local": {
@@ -3456,24 +3494,24 @@
       }
     },
     "channels": [
-      "FEF TV"
+      "OneFootball"
     ],
     "event": {
-      "name": "Tarazona - Cultural Leonesa",
-      "description": "Tarazona - Cultural Leonesa el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "FF Jaro - HJK Helsinki",
+      "description": "FF Jaro - HJK Helsinki el domingo, 11 de mayo de 2025 a las 15:00",
+      "startDate": "2025-05-11T13:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "15:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Veikkausliiga"
+      "competition": "Serie A Italiana"
     },
     "teams": {
       "local": {
@@ -3486,24 +3524,25 @@
       }
     },
     "channels": [
-      "OneFootball"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {
-      "name": "FC Inter Turku - Gnistan",
-      "description": "FC Inter Turku - Gnistan el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "Hellas Verona - US Lecce",
+      "description": "Hellas Verona - US Lecce el domingo, 11 de mayo de 2025 a las 15:00",
+      "startDate": "2025-05-11T13:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "15:15",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación Femenina"
+      "competition": "D1 Féminine"
     },
     "teams": {
       "local": {
@@ -3516,24 +3555,24 @@
       }
     },
     "channels": [
-      "CMMPlay"
+      "DAZN"
     ],
     "event": {
-      "name": "Fundación Albacete - SE AEM",
-      "description": "Fundación Albacete - SE AEM el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "O. Lyonnais Femenino - Dijon Femenino",
+      "description": "O. Lyonnais Femenino - Dijon Femenino el domingo, 11 de mayo de 2025 a las 15:15",
+      "startDate": "2025-05-11T13:15:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "15:15",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga Élite Cataluña"
+      "competition": "Premier League"
     },
     "teams": {
       "local": {
@@ -3546,20 +3585,26 @@
       }
     },
     "channels": [
-      "La Xarxa+"
+      "DAZN",
+      "DAZN 4",
+      "MAX",
+      "DAZN 2 Bar"
     ],
     "event": {
-      "name": "UE Valls - Vilafranca",
-      "description": "UE Valls - Vilafranca el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "Tottenham - Crystal Palace",
+      "description": "Tottenham - Crystal Palace el domingo, 11 de mayo de 2025 a las 15:15",
+      "startDate": "2025-05-11T13:15:00",
       "duration": "T1H45M"
-    }
+    },
+    "links": [
+      "acestream://2fcdf7a19c0858f686efdfabd3c8c2b92bf6bcfd"
+    ]
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "15:15",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -3579,12 +3624,13 @@
       "DAZN",
       "DAZN 2",
       "DAZN 2 Bar",
-      "MAX"
+      "MAX",
+      "DAZN 1 Bar"
     ],
     "event": {
-      "name": "Southampton - Aston Villa",
-      "description": "Southampton - Aston Villa el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "Manchester Utd. - West Ham",
+      "description": "Manchester Utd. - West Ham el domingo, 11 de mayo de 2025 a las 15:15",
+      "startDate": "2025-05-11T13:15:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -3599,8 +3645,8 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "15:15",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -3617,12 +3663,14 @@
       }
     },
     "channels": [
-      "DAZN"
+      "DAZN",
+      "DAZN 3",
+      "MAX"
     ],
     "event": {
-      "name": "Brighton - Leicester City",
-      "description": "Brighton - Leicester City el sábado, 12 de abril de 2025 a las 16:00",
-      "startDate": "2025-04-12T14:00:00",
+      "name": "Nottingham Forest - Leicester City",
+      "description": "Nottingham Forest - Leicester City el domingo, 11 de mayo de 2025 a las 15:15",
+      "startDate": "2025-05-11T13:15:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -3673,14 +3721,15 @@
     ]
   },
   {
-    "sport": "futbol-sala",
+    "sport": "tenis",
     "date": {
-      "hour": "16:00",
-      "day": "12/04/2025",
+      "hour": "15:15",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación Femenina"
+      "competition": "WTA Roma",
+      "round": "3ª Ronda"
     },
     "teams": {
       "local": {
@@ -3747,12 +3796,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:15",
-      "day": "12/04/2025",
+      "hour": "15:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "La Liga EA Sports"
+      "competition": "Bundesliga"
     },
     "teams": {
       "local": {
@@ -3765,30 +3814,27 @@
       }
     },
     "channels": [
-      "GolStadium Premium",
-      "M+ LaLiga TV",
-      "GOL PLAY",
-      "GolStadium",
-      "Telemadrid",
-      "TV Canaria",
-      "LaLiga TV Bar"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {
-      "name": "Getafe - UD Las Palmas",
-      "description": "Getafe - UD Las Palmas el sábado, 12 de abril de 2025 a las 16:15",
-      "startDate": "2025-04-12T14:15:00",
+      "name": "Bayer Leverkusen - Borussia Dortmund",
+      "description": "Bayer Leverkusen - Borussia Dortmund el domingo, 11 de mayo de 2025 a las 15:30",
+      "startDate": "2025-05-11T13:30:00",
       "duration": "T1H45M"
+    }
     }
   },
   {
-    "sport": "futbol",
+    "sport": "tenis",
     "date": {
-      "hour": "16:15",
-      "day": "12/04/2025",
+      "hour": "15:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "LaLiga Hypermotion"
+      "competition": "Masters Roma",
+      "round": "3ª Ronda"
     },
     "teams": {
       "local": {
@@ -3852,15 +3898,15 @@
     ]
   },
   {
-    "sport": "baloncesto",
+    "sport": "tenis",
     "date": {
-      "hour": "16:30",
-      "day": "12/04/2025",
+      "hour": "15:45",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga Femenina Endesa",
-      "round": "Liga Regular"
+      "competition": "Masters Roma",
+      "round": "3ª Ronda"
     },
     "teams": {
       "local": {
@@ -3871,19 +3917,25 @@
       }
     },
     "channels": [
-      "Twitch baloncestoesp"
+      "ATP Tennis TV",
+      "M+ Deportes 4",
+      "M+ Deportes 6"
     ],
-    "event": {}
+    "event": {},
+    "links": [
+      "acestream://42e83c337ece0af9ca7808859f84c7960e9cb6f5",
+      "acestream://8587ed8ac36ac477e1d4176d3159a38bd154d4ce"
+    ]
   },
   {
-    "sport": "futbol",
+    "sport": "balonmano",
     "date": {
-      "hour": "16:30",
-      "day": "12/04/2025",
+      "hour": "16:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "3. Liga"
+      "competition": "EHF Euro Cup"
     },
     "teams": {
       "local": {
@@ -3896,24 +3948,20 @@
       }
     },
     "channels": [
-      "OneFootball PPV"
+      "EHF TV"
     ],
-    "event": {
-      "name": "Alemannia Aachen - Sandhausen",
-      "description": "Alemannia Aachen - Sandhausen el sábado, 12 de abril de 2025 a las 16:30",
-      "startDate": "2025-04-12T14:30:00",
-      "duration": "T1H45M"
-    }
+    "event": {}
   },
   {
-    "sport": "futbol",
+    "sport": "baloncesto",
     "date": {
-      "hour": "16:30",
-      "day": "12/04/2025",
+      "hour": "16:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga F"
+      "competition": "Basketball Champions League",
+      "round": "3er Puesto"
     },
     "teams": {
       "local": {
@@ -3927,8 +3975,9 @@
     },
     "channels": [
       "DAZN",
-      "DAZN 4",
-      "MAX"
+      "Teledeporte",
+      "RTVE Play",
+      "TV Canaria"
     ],
     "event": {
       "name": "Real Betis Féminas - Real Sociedad Femenino",
@@ -3948,12 +3997,13 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:30",
-      "day": "12/04/2025",
+      "hour": "16:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga F"
+      "competition": "Europeo Sub-17 Femenino",
+      "round": "Fase de grupos"
     },
     "teams": {
       "local": {
@@ -3966,12 +4016,13 @@
       }
     },
     "channels": [
-      "DAZN"
+      "UEFA TV",
+      "UEFA TV PPV"
     ],
     "event": {
-      "name": "Deportivo Abanca - Levante Badalona",
-      "description": "Deportivo Abanca - Levante Badalona el sábado, 12 de abril de 2025 a las 16:30",
-      "startDate": "2025-04-12T14:30:00",
+      "name": "Italia - España",
+      "description": "Italia - España el domingo, 11 de mayo de 2025 a las 16:00",
+      "startDate": "2025-05-11T14:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -3986,13 +4037,13 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:30",
-      "day": "12/04/2025",
+      "hour": "16:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Tercera Federación",
-      "round": "Grupo 7"
+      "competition": "Europeo Sub-17 Femenino",
+      "round": "Fase de grupos"
     },
     "teams": {
       "local": {
@@ -4005,25 +4056,25 @@
       }
     },
     "channels": [
-      "Club Deportivo Galapagar YouTube"
+      "UEFA TV",
+      "UEFA TV PPV"
     ],
     "event": {
-      "name": "Galapagar - CDB Paracuellos Antamira",
-      "description": "Galapagar - CDB Paracuellos Antamira el sábado, 12 de abril de 2025 a las 16:30",
-      "startDate": "2025-04-12T14:30:00",
+      "name": "Francia - Polonia",
+      "description": "Francia - Polonia el domingo, 11 de mayo de 2025 a las 16:00",
+      "startDate": "2025-05-11T14:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:30",
-      "day": "12/04/2025",
+      "hour": "16:15",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Tercera Federación",
-      "round": "Grupo 7"
+      "competition": "La Liga EA Sports"
     },
     "teams": {
       "local": {
@@ -4036,20 +4087,32 @@
       }
     },
     "channels": [
-      "TV FootballClub"
+      "M+ LaLiga TV",
+      "M+ LaLiga TV UHD",
+      "M+ LaLiga TV 2",
+      "LaLiga TV Bar"
     ],
     "event": {
-      "name": "CDF Tres Cantos - Canillas",
-      "description": "CDF Tres Cantos - Canillas el sábado, 12 de abril de 2025 a las 16:30",
-      "startDate": "2025-04-12T14:30:00",
+      "name": "FC Barcelona - Real Madrid",
+      "description": "FC Barcelona - Real Madrid el domingo, 11 de mayo de 2025 a las 16:15",
+      "startDate": "2025-05-11T14:15:00",
       "duration": "T1H45M"
-    }
+    },
+    "links": [
+      "acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280",
+      "acestream://512aeadf50d91603d15b32f1e408166536ec4ac9",
+      "acestream://1969c27658d4c8333ab2c0670802546121a774a5",
+      "acestream://7d8c87e057be98f00f22e23b23fbf08999e4b02f",
+      "acestream://f031f5728b32f6089dda28edebe990cf198108d8",
+      "acestream://26029f72a4ca831d09deefe89534818db1d105bc",
+      "acestream://80126b240f3e4e004754fd8f8103e857ab2556a0"
+    ]
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:30",
-      "day": "12/04/2025",
+      "hour": "16:45",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -4069,22 +4132,21 @@
       "GolStadium Premium"
     ],
     "event": {
-      "name": "Fortuna Sittard - Feyenoord",
-      "description": "Fortuna Sittard - Feyenoord el sábado, 12 de abril de 2025 a las 16:30",
-      "startDate": "2025-04-12T14:30:00",
+      "name": "AZ Alkmaar - Groningen",
+      "description": "AZ Alkmaar - Groningen el domingo, 11 de mayo de 2025 a las 16:45",
+      "startDate": "2025-05-11T14:45:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "16:30",
-      "day": "12/04/2025",
+      "hour": "16:45",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga Nacional Juvenil",
-      "round": "Grupo 4 (País Vasco)"
+      "competition": "Eredivisie"
     },
     "teams": {
       "local": {
@@ -4097,25 +4159,25 @@
       }
     },
     "channels": [
-      "Real Sociedad TV YouTube"
+      "GolStadium Premium"
     ],
     "event": {
-      "name": "Real Sociedad Academy - CD Betoño",
-      "description": "Real Sociedad Academy - CD Betoño el sábado, 12 de abril de 2025 a las 16:30",
-      "startDate": "2025-04-12T14:30:00",
+      "name": "Ajax - NEC Nijmegen",
+      "description": "Ajax - NEC Nijmegen el domingo, 11 de mayo de 2025 a las 16:45",
+      "startDate": "2025-05-11T14:45:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "tenis",
     "date": {
-      "hour": "16:30",
-      "day": "12/04/2025",
+      "hour": "16:45",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Billie Jean King Cup",
-      "round": "Fase de Clasificación"
+      "competition": "Masters Roma",
+      "round": "3ª Ronda"
     },
     "teams": {
       "local": {
@@ -4126,29 +4188,10 @@
       }
     },
     "channels": [
-      "Tennis Channel",
-      "Teledeporte",
-      "RTVE Play"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "16:40",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {},
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "DAZN",
-      "DAZN App Gratis",
-      "DAZN LaLiga",
-      "MAX"
+      "ATP Tennis TV",
+      "M+ Deportes 2",
+      "M+ Deportes 4",
+      "M+ Deportes 5"
     ],
     "event": {},
     "links": [
@@ -4161,25 +4204,26 @@
     ]
   },
   {
-    "sport": "motociclismo",
+    "sport": "balonmano",
     "date": {
-      "hour": "16:50",
-      "day": "12/04/2025",
+      "hour": "17:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Moto3"
+      "competition": "EHF Europeo",
+      "round": "Fase de Clasificación"
     },
     "teams": {
-      "local": {},
-      "visitor": {}
+      "local": {
+        "image": "https://static.futbolenlatv.com/img/32/20130311111216_israel.webp"
+      },
+      "visitor": {
+        "image": "https://static.futbolenlatv.com/img/32/20130204101449_portugal.webp"
+      }
     },
     "channels": [
-      "MotoGP Videopass",
-      "DAZN",
-      "DAZN 1",
-      "DAZN 1 Bar",
-      "MAX"
+      "EHF TV"
     ],
     "event": {},
     "links": [
@@ -4195,7 +4239,7 @@
     "sport": "futbol",
     "date": {
       "hour": "17:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -4215,9 +4259,9 @@
       "OneFootball PPV"
     ],
     "event": {
-      "name": "FC Obolón-Brovar - Chernomorets Odessa",
-      "description": "FC Obolón-Brovar - Chernomorets Odessa el sábado, 12 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-12T15:00:00",
+      "name": "Karpaty Lviv - FC Oleksandriya",
+      "description": "Karpaty Lviv - FC Oleksandriya el domingo, 11 de mayo de 2025 a las 17:00",
+      "startDate": "2025-05-11T15:00:00",
       "duration": "T1H45M"
     }
   },
@@ -4225,7 +4269,7 @@
     "sport": "futbol",
     "date": {
       "hour": "17:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -4242,13 +4286,13 @@
       }
     },
     "channels": [
-      "OneFootball",
-      "OneFootball PPV"
+      "OneFootball PPV",
+      "OneFootball"
     ],
     "event": {
-      "name": "TSV Hartberg - LASK Linz",
-      "description": "TSV Hartberg - LASK Linz el sábado, 12 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-12T15:00:00",
+      "name": "Austria Wien - Rapid Wien",
+      "description": "Austria Wien - Rapid Wien el domingo, 11 de mayo de 2025 a las 17:00",
+      "startDate": "2025-05-11T15:00:00",
       "duration": "T1H45M"
     }
   },
@@ -4256,11 +4300,11 @@
     "sport": "futbol",
     "date": {
       "hour": "17:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Admiral Bundesliga"
+      "competition": "Liga noruega"
     },
     "teams": {
       "local": {
@@ -4273,13 +4317,12 @@
       }
     },
     "channels": [
-      "OneFootball",
-      "OneFootball PPV"
+      "OneFootball"
     ],
     "event": {
-      "name": "WSG Swarovski Tirol - Austria Klagenfurt",
-      "description": "WSG Swarovski Tirol - Austria Klagenfurt el sábado, 12 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-12T15:00:00",
+      "name": "Sarpsborg 08 - HamKam",
+      "description": "Sarpsborg 08 - HamKam el domingo, 11 de mayo de 2025 a las 17:00",
+      "startDate": "2025-05-11T15:00:00",
       "duration": "T1H45M"
     }
   },
@@ -4287,11 +4330,11 @@
     "sport": "futbol",
     "date": {
       "hour": "17:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Admiral Bundesliga"
+      "competition": "Liga noruega"
     },
     "teams": {
       "local": {
@@ -4304,13 +4347,12 @@
       }
     },
     "channels": [
-      "OneFootball",
-      "OneFootball PPV"
+      "OneFootball"
     ],
     "event": {
-      "name": "Grazer AK 1902 - SCR Altach",
-      "description": "Grazer AK 1902 - SCR Altach el sábado, 12 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-12T15:00:00",
+      "name": "Kristiansund - Fredrikstad",
+      "description": "Kristiansund - Fredrikstad el domingo, 11 de mayo de 2025 a las 17:00",
+      "startDate": "2025-05-11T15:00:00",
       "duration": "T1H45M"
     }
   },
@@ -4318,12 +4360,11 @@
     "sport": "futbol",
     "date": {
       "hour": "17:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 1"
+      "competition": "Liga noruega"
     },
     "teams": {
       "local": {
@@ -4336,13 +4377,12 @@
       }
     },
     "channels": [
-      "FEF TV",
-      "Esport3"
+      "OneFootball"
     ],
     "event": {
-      "name": "Nástic Tarragona - Unionistas",
-      "description": "Nástic Tarragona - Unionistas el sábado, 12 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-12T15:00:00",
+      "name": "Sandefjord - Vålerenga",
+      "description": "Sandefjord - Vålerenga el domingo, 11 de mayo de 2025 a las 17:00",
+      "startDate": "2025-05-11T15:00:00",
       "duration": "T1H45M"
     }
   },
@@ -4350,12 +4390,11 @@
     "sport": "futbol",
     "date": {
       "hour": "17:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 4"
+      "competition": "Liga noruega"
     },
     "teams": {
       "local": {
@@ -4368,12 +4407,12 @@
       }
     },
     "channels": [
-      "Xerez CD TV"
+      "OneFootball"
     ],
     "event": {
-      "name": "Xerez - Don Benito",
-      "description": "Xerez - Don Benito el sábado, 12 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-12T15:00:00",
+      "name": "Bryne FK - Molde",
+      "description": "Bryne FK - Molde el domingo, 11 de mayo de 2025 a las 17:00",
+      "startDate": "2025-05-11T15:00:00",
       "duration": "T1H45M"
     }
   },
@@ -4381,12 +4420,11 @@
     "sport": "futbol",
     "date": {
       "hour": "17:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 5"
+      "competition": "Liga noruega"
     },
     "teams": {
       "local": {
@@ -4399,26 +4437,24 @@
       }
     },
     "channels": [
-      "CMMPlay",
-      "TV FootballClub"
+      "OneFootball"
     ],
     "event": {
-      "name": "Conquense - UD Sanse",
-      "description": "Conquense - UD Sanse el sábado, 12 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-12T15:00:00",
+      "name": "KFUM Oslo - Tromsø",
+      "description": "KFUM Oslo - Tromsø el domingo, 11 de mayo de 2025 a las 17:00",
+      "startDate": "2025-05-11T15:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "17:00",
-      "day": "12/04/2025",
+      "hour": "17:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 1"
+      "competition": "Liga Polaca"
     },
     "teams": {
       "local": {
@@ -4431,25 +4467,26 @@
       }
     },
     "channels": [
-      "TVG2"
+      "OneFootball PPV",
+      "OneFootball"
     ],
     "event": {
-      "name": "Bergantiños - UP Langreo",
-      "description": "Bergantiños - UP Langreo el sábado, 12 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-12T15:00:00",
+      "name": "Legia Warszawa - Lech Poznan",
+      "description": "Legia Warszawa - Lech Poznan el domingo, 11 de mayo de 2025 a las 17:30",
+      "startDate": "2025-05-11T15:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "17:00",
-      "day": "12/04/2025",
+      "hour": "17:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 2"
+      "competition": "Primera Federación",
+      "round": "Grupo 1"
     },
     "teams": {
       "local": {
@@ -4462,25 +4499,25 @@
       }
     },
     "channels": [
-      "TV FootballClub"
+      "FEF TV"
     ],
     "event": {
-      "name": "Arenas Club - Izarra",
-      "description": "Arenas Club - Izarra el sábado, 12 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-12T15:00:00",
+      "name": "Real Sociedad B - Ponferradina",
+      "description": "Real Sociedad B - Ponferradina el domingo, 11 de mayo de 2025 a las 17:30",
+      "startDate": "2025-05-11T15:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "17:00",
-      "day": "12/04/2025",
+      "hour": "17:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 4"
+      "competition": "Primera Federación",
+      "round": "Grupo 2"
     },
     "teams": {
       "local": {
@@ -4493,26 +4530,24 @@
       }
     },
     "channels": [
-      "TV FootballClub",
-      "7 TV Linares"
+      "FEF TV"
     ],
     "event": {
-      "name": "Linares Deportivo - Águilas FC",
-      "description": "Linares Deportivo - Águilas FC el sábado, 12 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-12T15:00:00",
+      "name": "Marbella - Recreativo Huelva",
+      "description": "Marbella - Recreativo Huelva el domingo, 11 de mayo de 2025 a las 17:30",
+      "startDate": "2025-05-11T15:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "17:00",
-      "day": "12/04/2025",
+      "hour": "17:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "División Honor Juvenil",
-      "round": "Grupo 3"
+      "competition": "Premier League"
     },
     "teams": {
       "local": {
@@ -4525,25 +4560,32 @@
       }
     },
     "channels": [
-      "Aragón Deporte"
+      "DAZN",
+      "DAZN 1",
+      "DAZN 1 Bar",
+      "MAX",
+      "DAZN 2 Bar"
     ],
     "event": {
-      "name": "S. Domingo Juventud - Mercantil CE",
-      "description": "S. Domingo Juventud - Mercantil CE el sábado, 12 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-12T15:00:00",
+      "name": "Liverpool - Arsenal",
+      "description": "Liverpool - Arsenal el domingo, 11 de mayo de 2025 a las 17:30",
+      "startDate": "2025-05-11T15:30:00",
       "duration": "T1H45M"
-    }
+    },
+    "links": [
+      "acestream://8ca07071b39185431f8e940ec98d1add9e561639",
+      "acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f"
+    ]
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "17:00",
-      "day": "12/04/2025",
+      "hour": "17:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "División Honor Juvenil",
-      "round": "Grupo 3"
+      "competition": "Bundesliga"
     },
     "teams": {
       "local": {
@@ -4556,24 +4598,26 @@
       }
     },
     "channels": [
-      "Aragón Deporte"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {
-      "name": "Huesca Academy - Cornellá Academy",
-      "description": "Huesca Academy - Cornellá Academy el sábado, 12 de abril de 2025 a las 17:00",
-      "startDate": "2025-04-12T15:00:00",
+      "name": "Eintracht Frankfurt - St. Pauli",
+      "description": "Eintracht Frankfurt - St. Pauli el domingo, 11 de mayo de 2025 a las 17:30",
+      "startDate": "2025-05-11T15:30:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "futbol-sala",
+    "sport": "balonmano",
     "date": {
-      "hour": "17:00",
-      "day": "12/04/2025",
+      "hour": "18:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación Femenina"
+      "competition": "EHF Europeo",
+      "round": "Fase de Clasificación"
     },
     "teams": {
       "local": {
@@ -4584,19 +4628,21 @@
       }
     },
     "channels": [
-      "RFEF.es"
+      "Teledeporte",
+      "RTVE Play"
     ],
     "event": {}
   },
   {
-    "sport": "futbol-sala",
+    "sport": "balonmano",
     "date": {
-      "hour": "17:00",
-      "day": "12/04/2025",
+      "hour": "18:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación Femenina"
+      "competition": "EHF Europeo",
+      "round": "Fase de Clasificación"
     },
     "teams": {
       "local": {
@@ -4607,20 +4653,20 @@
       }
     },
     "channels": [
-      "RFEF.es",
-      "TV Melilla"
+      "EHF TV"
     ],
     "event": {}
   },
   {
-    "sport": "futbol-sala",
+    "sport": "balonmano",
     "date": {
-      "hour": "17:00",
-      "day": "12/04/2025",
+      "hour": "18:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación Femenina"
+      "competition": "EHF Europeo",
+      "round": "Fase de Clasificación"
     },
     "teams": {
       "local": {
@@ -4631,12 +4677,12 @@
       }
     },
     "channels": [
-      "RFEF.es"
+      "EHF TV"
     ],
     "event": {}
   },
   {
-    "sport": "futbol",
+    "sport": "balonmano",
     "date": {
       "hour": "17:20",
       "day": "12/04/2025",
@@ -4671,8 +4717,8 @@
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera FEB",
-      "round": "Liga Regular"
+      "competition": "EHF Europeo",
+      "round": "Fase de Clasificación"
     },
     "teams": {
       "local": {
@@ -4683,19 +4729,20 @@
       }
     },
     "channels": [
-      "LaLiga+ Plus"
+      "EHF TV"
     ],
     "event": {}
   },
   {
     "sport": "balonmano",
     "date": {
-      "hour": "17:30",
-      "day": "12/04/2025",
+      "hour": "18:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga ASOBAL"
+      "competition": "EHF Europeo",
+      "round": "Fase de Clasificación"
     },
     "teams": {
       "local": {
@@ -4706,7 +4753,7 @@
       }
     },
     "channels": [
-      "LaLiga+ Plus"
+      "EHF TV"
     ],
     "event": {}
   },
@@ -4770,12 +4817,12 @@
     "sport": "baloncesto",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga Femenina Endesa",
-      "round": "Liga Regular"
+      "competition": "EHF Europeo",
+      "round": "Fase de Clasificación"
     },
     "teams": {
       "local": {
@@ -4786,21 +4833,20 @@
       }
     },
     "channels": [
-      "LaLiga+ Plus",
-      "FEB TV"
+      "EHF TV"
     ],
     "event": {}
   },
   {
-    "sport": "baloncesto",
+    "sport": "balonmano",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga Femenina Endesa",
-      "round": "Liga Regular"
+      "competition": "EHF Europeo",
+      "round": "Fase de Clasificación"
     },
     "teams": {
       "local": {
@@ -4811,22 +4857,20 @@
       }
     },
     "channels": [
-      "Aragón Deporte",
-      "Teledeporte",
-      "RTVE Play"
+      "EHF TV"
     ],
     "event": {}
   },
   {
-    "sport": "baloncesto",
+    "sport": "balonmano",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga Endesa",
-      "round": "Liga Regular"
+      "competition": "EHF Europeo",
+      "round": "Fase de Clasificación"
     },
     "teams": {
       "local": {
@@ -4837,15 +4881,16 @@
       }
     },
     "channels": [
-      "M+ Deportes"
+      "EHF TV"
     ],
+    "event": {}
     "event": {}
   },
   {
-    "sport": "mma",
+    "sport": "balonmano",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -4881,24 +4926,20 @@
       }
     },
     "channels": [
-      "GolTV Play"
+      "EHF TV"
     ],
-    "event": {
-      "name": "Progreso - Plaza Colonia",
-      "description": "Progreso - Plaza Colonia el sábado, 12 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-12T16:00:00",
-      "duration": "T1H45M"
-    }
+    "event": {}
   },
   {
-    "sport": "futbol",
+    "sport": "balonmano",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Copa África Sub-17"
+      "competition": "EHF Europeo",
+      "round": "Fase de Clasificación"
     },
     "teams": {
       "local": {
@@ -4911,25 +4952,20 @@
       }
     },
     "channels": [
-      "FIFA+"
+      "EHF TV"
     ],
-    "event": {
-      "name": "Uganda - Gambia",
-      "description": "Uganda - Gambia el sábado, 12 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-12T16:00:00",
-      "duration": "T1H45M"
-    }
+    "event": {}
   },
   {
-    "sport": "futbol",
+    "sport": "balonmano",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 2"
+      "competition": "EHF Europeo",
+      "round": "Fase de Clasificación"
     },
     "teams": {
       "local": {
@@ -4942,26 +4978,20 @@
       }
     },
     "channels": [
-      "FEF TV",
-      "Real Madrid TV"
+      "EHF TV"
     ],
-    "event": {
-      "name": "RM Castilla - At. Madrid B",
-      "description": "RM Castilla - At. Madrid B el sábado, 12 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-12T16:00:00",
-      "duration": "T1H45M"
-    }
+    "event": {}
   },
   {
-    "sport": "futbol",
+    "sport": "balonmano",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 1"
+      "competition": "EHF Europeo",
+      "round": "Fase de Clasificación"
     },
     "teams": {
       "local": {
@@ -4974,25 +5004,19 @@
       }
     },
     "channels": [
-      "FEF TV"
+      "EHF TV"
     ],
-    "event": {
-      "name": "Bilbao Athletic - Amorebieta",
-      "description": "Bilbao Athletic - Amorebieta el sábado, 12 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-12T16:00:00",
-      "duration": "T1H45M"
-    }
+    "event": {}
   },
   {
     "sport": "futbol",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 1"
+      "competition": "Superliga de Eslovaquia"
     },
     "teams": {
       "local": {
@@ -5005,12 +5029,13 @@
       }
     },
     "channels": [
-      "FEF TV"
+      "OneFootball PPV",
+      "OneFootball"
     ],
     "event": {
-      "name": "Zamora - Ponferradina",
-      "description": "Zamora - Ponferradina el sábado, 12 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-12T16:00:00",
+      "name": "FC DAC - Spartak Trnava",
+      "description": "FC DAC - Spartak Trnava el domingo, 11 de mayo de 2025 a las 18:00",
+      "startDate": "2025-05-11T16:00:00",
       "duration": "T1H45M"
     }
   },
@@ -5018,12 +5043,11 @@
     "sport": "futbol",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 2"
+      "competition": "Superliga de Eslovaquia"
     },
     "teams": {
       "local": {
@@ -5036,13 +5060,13 @@
       }
     },
     "channels": [
-      "FEF TV",
-      "Real Betis TV"
+      "OneFootball PPV",
+      "OneFootball"
     ],
     "event": {
-      "name": "Yeclano - Betis Deportivo",
-      "description": "Yeclano - Betis Deportivo el sábado, 12 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-12T16:00:00",
+      "name": "MFK Zemplín Michalovce - KFC Komárno",
+      "description": "MFK Zemplín Michalovce - KFC Komárno el domingo, 11 de mayo de 2025 a las 18:00",
+      "startDate": "2025-05-11T16:00:00",
       "duration": "T1H45M"
     }
   },
@@ -5050,12 +5074,11 @@
     "sport": "futbol",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 1"
+      "competition": "Superliga de Letonia"
     },
     "teams": {
       "local": {
@@ -5068,12 +5091,12 @@
       }
     },
     "channels": [
-      "Real Avilés Industrial TV"
+      "OneFootball"
     ],
     "event": {
-      "name": "Real Avilés - UM Escobedo",
-      "description": "Real Avilés - UM Escobedo el sábado, 12 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-12T16:00:00",
+      "name": "SK Super Nova - FK Auda",
+      "description": "SK Super Nova - FK Auda el domingo, 11 de mayo de 2025 a las 18:00",
+      "startDate": "2025-05-11T16:00:00",
       "duration": "T1H45M"
     }
   },
@@ -5081,12 +5104,11 @@
     "sport": "futbol",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 4"
+      "competition": "Bahrain Premier League"
     },
     "teams": {
       "local": {
@@ -5099,12 +5121,12 @@
       }
     },
     "channels": [
-      "TV FootballClub"
+      "FANSEAT"
     ],
     "event": {
-      "name": "San Fernando - UCAM Murcia",
-      "description": "San Fernando - UCAM Murcia el sábado, 12 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-12T16:00:00",
+      "name": "Al-Shabab Manama - Manama Club",
+      "description": "Al-Shabab Manama - Manama Club el domingo, 11 de mayo de 2025 a las 18:00",
+      "startDate": "2025-05-11T16:00:00",
       "duration": "T1H45M"
     }
   },
@@ -5112,12 +5134,11 @@
     "sport": "futbol",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 4"
+      "competition": "Bahrain Premier League"
     },
     "teams": {
       "local": {
@@ -5130,12 +5151,12 @@
       }
     },
     "channels": [
-      "TV FootballClub"
+      "FANSEAT"
     ],
     "event": {
-      "name": "CA Antoniano - Juventud Torremolinos CF",
-      "description": "CA Antoniano - Juventud Torremolinos CF el sábado, 12 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-12T16:00:00",
+      "name": "Bahrain SC - Al Khalidiya FC",
+      "description": "Bahrain SC - Al Khalidiya FC el domingo, 11 de mayo de 2025 a las 18:00",
+      "startDate": "2025-05-11T16:00:00",
       "duration": "T1H45M"
     }
   },
@@ -5143,12 +5164,11 @@
     "sport": "futbol",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 2"
+      "competition": "Bahrain Premier League"
     },
     "teams": {
       "local": {
@@ -5161,12 +5181,12 @@
       }
     },
     "channels": [
-      "Real Sociedad TV YouTube"
+      "FANSEAT"
     ],
     "event": {
-      "name": "Real Sociedad C - Deportivo Aragón",
-      "description": "Real Sociedad C - Deportivo Aragón el sábado, 12 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-12T16:00:00",
+      "name": "Malkiya Club - Sitra Club",
+      "description": "Malkiya Club - Sitra Club el domingo, 11 de mayo de 2025 a las 18:00",
+      "startDate": "2025-05-11T16:00:00",
       "duration": "T1H45M"
     }
   },
@@ -5174,11 +5194,12 @@
     "sport": "futbol",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Superliga de Eslovaquia"
+      "competition": "Tercera Federación",
+      "round": "Grupo 6"
     },
     "teams": {
       "local": {
@@ -5191,13 +5212,12 @@
       }
     },
     "channels": [
-      "OneFootball",
-      "OneFootball PPV"
+      "CF Benidorm YouTube"
     ],
     "event": {
-      "name": "Slovan Bratislava - FC DAC",
-      "description": "Slovan Bratislava - FC DAC el sábado, 12 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-12T16:00:00",
+      "name": "La Nucía - CF Benidorm",
+      "description": "La Nucía - CF Benidorm el domingo, 11 de mayo de 2025 a las 18:00",
+      "startDate": "2025-05-11T16:00:00",
       "duration": "T1H45M"
     }
   },
@@ -5205,12 +5225,12 @@
     "sport": "futbol",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
       "competition": "Tercera Federación",
-      "round": "Grupo 9"
+      "round": "Grupo 14"
     },
     "teams": {
       "local": {
@@ -5223,12 +5243,13 @@
       }
     },
     "channels": [
-      "Web Directo"
+      "Extv",
+      "Canal Deporte TV"
     ],
     "event": {
-      "name": "At. Mancha Real - FC Marbellí",
-      "description": "At. Mancha Real - FC Marbellí el sábado, 12 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-12T16:00:00",
+      "name": "CD Badajoz - CD Castuera",
+      "description": "CD Badajoz - CD Castuera el domingo, 11 de mayo de 2025 a las 18:00",
+      "startDate": "2025-05-11T16:00:00",
       "duration": "T1H45M"
     }
   },
@@ -5236,7 +5257,7 @@
     "sport": "futbol",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -5257,9 +5278,9 @@
       "DAZN App Gratis"
     ],
     "event": {
-      "name": "Inter Milan - Cagliari",
-      "description": "Inter Milan - Cagliari el sábado, 12 de abril de 2025 a las 18:00",
-      "startDate": "2025-04-12T16:00:00",
+      "name": "Torino - Inter Milan",
+      "description": "Torino - Inter Milan el domingo, 11 de mayo de 2025 a las 18:00",
+      "startDate": "2025-05-11T16:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -5272,10 +5293,10 @@
     ]
   },
   {
-    "sport": "futbol-sala",
+    "sport": "golf",
     "date": {
       "hour": "18:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -5347,15 +5368,13 @@
       "day": "12/04/2025",
       "zone": "Europe/Madrid"
     },
-    "details": {},
     "teams": {
       "local": {},
       "visitor": {}
     },
     "channels": [
-      "DAZN",
-      "MAX",
-      "DAZN F1"
+      "M+ Ellas Vamos",
+      "Movistar Golf"
     ],
     "event": {},
     "links": [
@@ -5368,15 +5387,15 @@
     ]
   },
   {
-    "sport": "balonmano",
+    "sport": "baloncesto",
     "date": {
-      "hour": "18:00",
-      "day": "12/04/2025",
+      "hour": "18:15",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "IHF Mundial Femenino",
-      "round": "Fase de Clasificación"
+      "competition": "Lega Serie A",
+      "round": "Liga Regular"
     },
     "teams": {
       "local": {
@@ -5387,19 +5406,21 @@
       }
     },
     "channels": [
-      "EHF TV"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {}
   },
   {
-    "sport": "futbol",
+    "sport": "baloncesto",
     "date": {
-      "hour": "18:23",
-      "day": "12/04/2025",
+      "hour": "18:15",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Veikkausliiga"
+      "competition": "Lega Serie A",
+      "round": "Liga Regular"
     },
     "teams": {
       "local": {
@@ -5412,24 +5433,20 @@
       }
     },
     "channels": [
-      "OneFootball"
+      "DAZN",
+      "DAZN App Gratis"
     ],
-    "event": {
-      "name": "KuPS - AC Oulu",
-      "description": "KuPS - AC Oulu el sábado, 12 de abril de 2025 a las 18:23",
-      "startDate": "2025-04-12T16:23:00",
-      "duration": "T1H45M"
-    }
+    "event": {}
   },
   {
     "sport": "baloncesto",
     "date": {
       "hour": "18:30",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga Femenina Endesa",
+      "competition": "Liga Endesa",
       "round": "Liga Regular"
     },
     "teams": {
@@ -5441,40 +5458,21 @@
       }
     },
     "channels": [
-      "FEB TV"
+      "Movistar Plus+",
+      "M+ Deportes"
     ],
     "event": {}
   },
   {
-    "sport": "golf",
+    "sport": "baloncesto",
     "date": {
       "hour": "18:30",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Masters de Augusta"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "Movistar Golf 2",
-      "M+ #Vamos Bar",
-      "Movistar Golf"
-    ],
-    "event": {}
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "18:30",
-      "day": "12/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "National League"
+      "competition": "Liga Endesa",
+      "round": "Liga Regular"
     },
     "teams": {
       "local": {
@@ -5487,7 +5485,7 @@
       }
     },
     "channels": [
-      "DAZN"
+      "M+ Deportes 3"
     ],
     "event": {
       "name": "Forest Green Rovers - Gateshead",
@@ -5508,7 +5506,7 @@
     "sport": "futbol",
     "date": {
       "hour": "18:30",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -5527,12 +5525,13 @@
     "channels": [
       "DAZN LaLiga",
       "DAZN",
+      "MAX",
       "LaLiga TV Bar"
     ],
     "event": {
-      "name": "Celta - Espanyol",
-      "description": "Celta - Espanyol el sábado, 12 de abril de 2025 a las 18:30",
-      "startDate": "2025-04-12T16:30:00",
+      "name": "Athletic Club - Alavés",
+      "description": "Athletic Club - Alavés el domingo, 11 de mayo de 2025 a las 18:30",
+      "startDate": "2025-05-11T16:30:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -5548,7 +5547,7 @@
     "sport": "futbol",
     "date": {
       "hour": "18:30",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -5572,9 +5571,9 @@
       "LaLiga TV M2"
     ],
     "event": {
-      "name": "CD Tenerife - Burgos CF",
-      "description": "CD Tenerife - Burgos CF el sábado, 12 de abril de 2025 a las 18:30",
-      "startDate": "2025-04-12T16:30:00",
+      "name": "Albacete - Huesca",
+      "description": "Albacete - Huesca el domingo, 11 de mayo de 2025 a las 18:30",
+      "startDate": "2025-05-11T16:30:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -5590,7 +5589,7 @@
     "sport": "futbol",
     "date": {
       "hour": "18:30",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -5611,15 +5610,12 @@
       "Amazon Prime Video",
       "DAZN",
       "GolStadium Premium",
-      "M+ Vamos",
-      "Movistar+ Lite",
-      "Orange Fútbol 2",
       "LaLiga TV M3"
     ],
     "event": {
-      "name": "Cádiz CF - Elche",
-      "description": "Cádiz CF - Elche el sábado, 12 de abril de 2025 a las 18:30",
-      "startDate": "2025-04-12T16:30:00",
+      "name": "Eldense - Málaga",
+      "description": "Eldense - Málaga el domingo, 11 de mayo de 2025 a las 18:30",
+      "startDate": "2025-05-11T16:30:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -5635,12 +5631,12 @@
     "sport": "futbol",
     "date": {
       "hour": "18:30",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Segunda Federación",
-      "round": "Grupo 5"
+      "competition": "Tercera Federación",
+      "round": "Grupo 18"
     },
     "teams": {
       "local": {
@@ -5653,13 +5649,12 @@
       }
     },
     "channels": [
-      "CMMPlay",
-      "TV FootballClub"
+      "CMMPlay"
     ],
     "event": {
-      "name": "CD Coria - CF Talavera",
-      "description": "CD Coria - CF Talavera el sábado, 12 de abril de 2025 a las 18:30",
-      "startDate": "2025-04-12T16:30:00",
+      "name": "CD Toledo - Huracan de Balazote",
+      "description": "CD Toledo - Huracan de Balazote el domingo, 11 de mayo de 2025 a las 18:30",
+      "startDate": "2025-05-11T16:30:00",
       "duration": "T1H45M"
     }
   },
@@ -5667,11 +5662,12 @@
     "sport": "futbol",
     "date": {
       "hour": "18:30",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga F"
+      "competition": "Tercera Federación",
+      "round": "Grupo 18"
     },
     "teams": {
       "local": {
@@ -5684,17 +5680,12 @@
       }
     },
     "channels": [
-      "DAZN",
-      "M+ Ellas Vamos",
-      "Movistar+ Lite",
-      "DAZN App Gratis",
-      "DAZN 2",
-      "DAZN 2 Bar"
+      "CMMPlay"
     ],
     "event": {
-      "name": "Eibar Femenino - Real Madrid Femenino",
-      "description": "Eibar Femenino - Real Madrid Femenino el sábado, 12 de abril de 2025 a las 18:30",
-      "startDate": "2025-04-12T16:30:00",
+      "name": "Tarancón - Manchego CR",
+      "description": "Tarancón - Manchego CR el domingo, 11 de mayo de 2025 a las 18:30",
+      "startDate": "2025-05-11T16:30:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -5710,12 +5701,12 @@
     "sport": "futbol",
     "date": {
       "hour": "18:30",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
       "competition": "Tercera Federación",
-      "round": "Grupo 2"
+      "round": "Grupo 18"
     },
     "teams": {
       "local": {
@@ -5728,12 +5719,12 @@
       }
     },
     "channels": [
-      "TV FootballClub"
+      "CMMPlay"
     ],
     "event": {
-      "name": "Caudal - Lenense",
-      "description": "Caudal - Lenense el sábado, 12 de abril de 2025 a las 18:30",
-      "startDate": "2025-04-12T16:30:00",
+      "name": "Villacañas - Socuéllamos",
+      "description": "Villacañas - Socuéllamos el domingo, 11 de mayo de 2025 a las 18:30",
+      "startDate": "2025-05-11T16:30:00",
       "duration": "T1H45M"
     }
   },
@@ -5741,12 +5732,12 @@
     "sport": "futbol",
     "date": {
       "hour": "18:30",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
       "competition": "Tercera Federación",
-      "round": "Grupo 17"
+      "round": "Grupo 18"
     },
     "teams": {
       "local": {
@@ -5759,12 +5750,12 @@
       }
     },
     "channels": [
-      "Lacronicadeportes.es"
+      "CMMPlay"
     ],
     "event": {
-      "name": "At. Monzón - CDJ Tamarite",
-      "description": "At. Monzón - CDJ Tamarite el sábado, 12 de abril de 2025 a las 18:30",
-      "startDate": "2025-04-12T16:30:00",
+      "name": "CD Valdepeñas - Atlético Albacete",
+      "description": "CD Valdepeñas - Atlético Albacete el domingo, 11 de mayo de 2025 a las 18:30",
+      "startDate": "2025-05-11T16:30:00",
       "duration": "T1H45M"
     }
   },
@@ -5772,11 +5763,11 @@
     "sport": "futbol",
     "date": {
       "hour": "18:30",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Premier League"
+      "competition": "Jupiler Pro League"
     },
     "teams": {
       "local": {
@@ -5789,18 +5780,12 @@
       }
     },
     "channels": [
-      "DAZN",
-      "Movistar Plus+",
-      "M+ #Vamos Bar 2",
-      "DAZN 3",
-      "MAX",
-      "M+ #Vamos Bar",
-      "M+ Liga de Campeones"
+      "GolStadium Premium"
     ],
     "event": {
-      "name": "Arsenal - Brentford",
-      "description": "Arsenal - Brentford el sábado, 12 de abril de 2025 a las 18:30",
-      "startDate": "2025-04-12T16:30:00",
+      "name": "Genk - Club Brugge",
+      "description": "Genk - Club Brugge el domingo, 11 de mayo de 2025 a las 18:30",
+      "startDate": "2025-05-11T16:30:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -5815,12 +5800,12 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "18:30",
-      "day": "12/04/2025",
+      "hour": "18:50",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Bundesliga"
+      "competition": "NWSL"
     },
     "teams": {
       "local": {
@@ -5833,13 +5818,12 @@
       }
     },
     "channels": [
-      "DAZN",
-      "DAZN App Gratis"
+      "NWSL+"
     ],
     "event": {
-      "name": "FC Bayern - Borussia Dortmund",
-      "description": "FC Bayern - Borussia Dortmund el sábado, 12 de abril de 2025 a las 18:30",
-      "startDate": "2025-04-12T16:30:00",
+      "name": "Kansas City Current - Bay FC",
+      "description": "Kansas City Current - Bay FC el domingo, 11 de mayo de 2025 a las 18:50",
+      "startDate": "2025-05-11T16:50:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -5931,12 +5915,12 @@
     "sport": "baloncesto",
     "date": {
       "hour": "19:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera FEB",
-      "round": "Liga Regular"
+      "competition": "Basketball Champions League",
+      "round": "Final"
     },
     "teams": {
       "local": {
@@ -5947,23 +5931,24 @@
       }
     },
     "channels": [
-      "LaLiga+ Plus",
-      "LaLiga+ TV",
-      "LALIGA+ YouTube",
-      "Marca YouTube"
+      "DAZN",
+      "La 2 TVE",
+      "101 TV",
+      "RTVE Play",
+      "Andalucía TV"
     ],
     "event": {}
   },
   {
-    "sport": "baloncesto",
+    "sport": "futbol",
     "date": {
       "hour": "19:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera FEB",
-      "round": "Liga Regular"
+      "competition": "Segunda Federación",
+      "round": "Playoffs de ascenso"
     },
     "teams": {
       "local": {
@@ -5974,7 +5959,7 @@
       }
     },
     "channels": [
-      "LaLiga+ Plus",
+      "RCDeportivo TV YouTube",
       "TVG2"
     ],
     "event": {}
@@ -6037,11 +6022,12 @@
     "sport": "futbol",
     "date": {
       "hour": "19:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Tercera Federación"
+      "competition": "Tercera Federación",
+      "round": "Grupo 2"
     },
     "teams": {
       "local": {
@@ -6054,25 +6040,25 @@
       }
     },
     "channels": [
-      "Web Directo"
+      "TV FootballClub"
     ],
     "event": {
-      "name": "CP Mijas Las Lagunas - Málaga City",
-      "description": "CP Mijas Las Lagunas - Málaga City el sábado, 12 de abril de 2025 a las 19:00",
-      "startDate": "2025-04-12T17:00:00",
+      "name": "Caudal - Ceares",
+      "description": "Caudal - Ceares el domingo, 11 de mayo de 2025 a las 19:00",
+      "startDate": "2025-05-11T17:00:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "balonmano",
+    "sport": "futbol",
     "date": {
       "hour": "19:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "IHF Mundial Femenino",
-      "round": "Fase de Clasificación"
+      "competition": "Tercera Federación",
+      "round": "Grupo 2"
     },
     "teams": {
       "local": {
@@ -6083,19 +6069,25 @@
       }
     },
     "channels": [
-      "EHF TV"
+      "RealOviedo YouTube"
     ],
-    "event": {}
+    "event": {
+      "name": "Real Oviedo B - Lenense",
+      "description": "Real Oviedo B - Lenense el domingo, 11 de mayo de 2025 a las 19:00",
+      "startDate": "2025-05-11T17:00:00",
+      "duration": "T1H45M"
+    }
   },
   {
-    "sport": "balonmano",
+    "sport": "tenis",
     "date": {
       "hour": "19:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga ASOBAL"
+      "competition": "WTA Roma",
+      "round": "3ª Ronda"
     },
     "teams": {
       "local": {
@@ -6106,21 +6098,21 @@
       }
     },
     "channels": [
-      "LaLiga+ Plus",
-      "Esport3"
+      "WTA TV",
+      "Tennis Channel",
+      "Tennis Channel - Orange TV"
     ],
     "event": {}
   },
   {
-    "sport": "baloncesto",
+    "sport": "futbol",
     "date": {
-      "hour": "19:30",
-      "day": "12/04/2025",
+      "hour": "19:15",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera FEB",
-      "round": "Liga Regular"
+      "competition": "Liga noruega"
     },
     "teams": {
       "local": {
@@ -6131,7 +6123,7 @@
       }
     },
     "channels": [
-      "LaLiga+ Plus"
+      "OneFootball"
     ],
     "event": {}
   },
@@ -6160,14 +6152,15 @@
     "event": {}
   },
   {
-    "sport": "futbol-sala",
+    "sport": "futbol",
     "date": {
       "hour": "19:30",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación Femenina"
+      "competition": "Primera Federación",
+      "round": "Grupo 2"
     },
     "teams": {
       "local": {
@@ -6178,7 +6171,7 @@
       }
     },
     "channels": [
-      "RFEF.es"
+      "FEF TV"
     ],
     "event": {}
   },
@@ -6218,13 +6211,13 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "20:00",
-      "day": "12/04/2025",
+      "hour": "19:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
       "competition": "Primera Federación",
-      "round": "Grupo 2"
+      "round": "Grupo 1"
     },
     "teams": {
       "local": {
@@ -6240,22 +6233,21 @@
       "FEF TV"
     ],
     "event": {
-      "name": "Real Murcia - AD Ceuta",
-      "description": "Real Murcia - AD Ceuta el sábado, 12 de abril de 2025 a las 20:00",
-      "startDate": "2025-04-12T18:00:00",
+      "name": "Sestao River - G. Segoviana",
+      "description": "Sestao River - G. Segoviana el domingo, 11 de mayo de 2025 a las 19:30",
+      "startDate": "2025-05-11T17:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "20:00",
-      "day": "12/04/2025",
+      "hour": "19:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera Federación",
-      "round": "Grupo 1"
+      "competition": "Liga Premier Islandia"
     },
     "teams": {
       "local": {
@@ -6268,24 +6260,24 @@
       }
     },
     "channels": [
-      "FEF TV"
+      "OneFootball"
     ],
     "event": {
-      "name": "Osasuna Promesas - Barakaldo",
-      "description": "Osasuna Promesas - Barakaldo el sábado, 12 de abril de 2025 a las 20:00",
-      "startDate": "2025-04-12T18:00:00",
+      "name": "KA Akureyri - Breidablik UBK",
+      "description": "KA Akureyri - Breidablik UBK el domingo, 11 de mayo de 2025 a las 19:30",
+      "startDate": "2025-05-11T17:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "20:00",
-      "day": "12/04/2025",
+      "hour": "19:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Saudi Pro League"
+      "competition": "Bundesliga"
     },
     "teams": {
       "local": {
@@ -6298,24 +6290,26 @@
       }
     },
     "channels": [
-      "Marca.com"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {
-      "name": "Al Nassr - Al-Riyadh SC",
-      "description": "Al Nassr - Al-Riyadh SC el sábado, 12 de abril de 2025 a las 20:00",
-      "startDate": "2025-04-12T18:00:00",
+      "name": "Stuttgart - Augsburg",
+      "description": "Stuttgart - Augsburg el domingo, 11 de mayo de 2025 a las 19:30",
+      "startDate": "2025-05-11T17:30:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "20:00",
-      "day": "12/04/2025",
+      "hour": "19:45",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Eredivisie"
+      "competition": "Segunda Federación",
+      "round": "Playoffs de ascenso"
     },
     "teams": {
       "local": {
@@ -6328,17 +6322,17 @@
       }
     },
     "channels": [
-      "GolStadium Premium"
+      "Esport3"
     ],
     "event": {
-      "name": "PSV Eindhoven - Almere City",
-      "description": "PSV Eindhoven - Almere City el sábado, 12 de abril de 2025 a las 20:00",
-      "startDate": "2025-04-12T18:00:00",
+      "name": "Sabadell - Eibar B",
+      "description": "Sabadell - Eibar B el domingo, 11 de mayo de 2025 a las 19:45",
+      "startDate": "2025-05-11T17:45:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "boxeo",
+    "sport": "futbol",
     "date": {
       "hour": "20:00",
       "day": "12/04/2025",
@@ -6414,26 +6408,24 @@
       }
     },
     "channels": [
-      "OneFootball",
-      "OneFootball PPV"
+      "Fanatiz"
     ],
     "event": {
-      "name": "Raków Częstochowa - Radomiak Radom",
-      "description": "Raków Częstochowa - Radomiak Radom el sábado, 12 de abril de 2025 a las 20:15",
-      "startDate": "2025-04-12T18:15:00",
+      "name": "CD Los Chankas - UTC Cajamarca",
+      "description": "CD Los Chankas - UTC Cajamarca el domingo, 11 de mayo de 2025 a las 20:00",
+      "startDate": "2025-05-11T18:00:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "boxeo",
+    "sport": "futbol",
     "date": {
-      "hour": "20:15",
-      "day": "12/04/2025",
+      "hour": "20:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Título Europeo Femenino",
-      "round": "Peso Supergallo"
+      "competition": "Liga Pro Ecuador"
     },
     "teams": {
       "local": {
@@ -6444,19 +6436,24 @@
       }
     },
     "channels": [
-      "GolStadium Premium"
+      "ElCanalDelFutbol.com"
     ],
-    "event": {}
+    "event": {
+      "name": "Técnico Universitario - Independiente del Valle",
+      "description": "Técnico Universitario - Independiente del Valle el domingo, 11 de mayo de 2025 a las 20:00",
+      "startDate": "2025-05-11T18:00:00",
+      "duration": "T1H45M"
+    }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "20:30",
-      "day": "12/04/2025",
+      "hour": "20:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Campeonato Uruguayo"
+      "competition": "Saudi Pro League"
     },
     "teams": {
       "local": {
@@ -6469,12 +6466,12 @@
       }
     },
     "channels": [
-      "GolTV Play"
+      "Marca.com"
     ],
     "event": {
-      "name": "Montevideo Wanderers - Montevideo City Torque",
-      "description": "Montevideo Wanderers - Montevideo City Torque el sábado, 12 de abril de 2025 a las 20:30",
-      "startDate": "2025-04-12T18:30:00",
+      "name": "Al-Ittihad Jeddah Club - Al-Fayha FC",
+      "description": "Al-Ittihad Jeddah Club - Al-Fayha FC el domingo, 11 de mayo de 2025 a las 20:00",
+      "startDate": "2025-05-11T18:00:00",
       "duration": "T1H45M"
     }
   },
@@ -6482,12 +6479,11 @@
     "sport": "futbol",
     "date": {
       "hour": "20:30",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera División Argentina",
-      "round": "Torneo Apertura"
+      "competition": "Primera División Argentina"
     },
     "teams": {
       "local": {
@@ -6503,17 +6499,17 @@
       "Fanatiz"
     ],
     "event": {
-      "name": "San Lorenzo - Atlético Tucumán",
-      "description": "San Lorenzo - Atlético Tucumán el sábado, 12 de abril de 2025 a las 20:30",
-      "startDate": "2025-04-12T18:30:00",
+      "name": "Independiente - Independiente Rivadavia",
+      "description": "Independiente - Independiente Rivadavia el domingo, 11 de mayo de 2025 a las 20:30",
+      "startDate": "2025-05-11T18:30:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "automovilismo",
+    "sport": "tenis",
     "date": {
       "hour": "20:30",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -6579,7 +6575,7 @@
     "sport": "futbol",
     "date": {
       "hour": "20:45",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -6600,9 +6596,9 @@
       "DAZN App Gratis"
     ],
     "event": {
-      "name": "Juventus - US Lecce",
-      "description": "Juventus - US Lecce el sábado, 12 de abril de 2025 a las 20:45",
-      "startDate": "2025-04-12T18:45:00",
+      "name": "Napoli - Genoa",
+      "description": "Napoli - Genoa el domingo, 11 de mayo de 2025 a las 20:45",
+      "startDate": "2025-05-11T18:45:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -6672,8 +6668,8 @@
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga Colombiana",
-      "round": "Torneo Apertura"
+      "competition": "Liga Femenina Endesa",
+      "round": "Final"
     },
     "teams": {
       "local": {
@@ -6686,21 +6682,21 @@
       }
     },
     "channels": [
-      "Fanatiz",
-      "RCN Nuestra Tele"
+      "As.com",
+      "Twitch baloncestoesp",
+      "Aragón Deporte",
+      "À Punt",
+      "Teledeporte",
+      "RTVE Play",
+      "Aragón TV"
     ],
-    "event": {
-      "name": "Envigado - América de Cali",
-      "description": "Envigado - América de Cali el sábado, 12 de abril de 2025 a las 21:00",
-      "startDate": "2025-04-12T19:00:00",
-      "duration": "T1H45M"
-    }
+    "event": {}
   },
   {
     "sport": "futbol",
     "date": {
       "hour": "21:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -6717,13 +6713,12 @@
       }
     },
     "channels": [
-      "DAZN",
-      "DAZN App Gratis"
+      "DAZN"
     ],
     "event": {
-      "name": "O. Lyonnais Femenino - Paris FC Femenino",
-      "description": "O. Lyonnais Femenino - Paris FC Femenino el sábado, 12 de abril de 2025 a las 21:00",
-      "startDate": "2025-04-12T19:00:00",
+      "name": "PSG Femenino - Paris FC Femenino",
+      "description": "PSG Femenino - Paris FC Femenino el domingo, 11 de mayo de 2025 a las 21:00",
+      "startDate": "2025-05-11T19:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -6739,7 +6734,7 @@
     "sport": "futbol",
     "date": {
       "hour": "21:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -6756,15 +6751,15 @@
       }
     },
     "channels": [
-      "DAZN LaLiga",
-      "DAZN",
-      "DAZN LaLiga 2",
+      "M+ LaLiga TV",
+      "Movistar Plus+",
+      "Orange Fútbol 1",
       "LaLiga TV Bar"
     ],
     "event": {
-      "name": "Leganés - FC Barcelona",
-      "description": "Leganés - FC Barcelona el sábado, 12 de abril de 2025 a las 21:00",
-      "startDate": "2025-04-12T19:00:00",
+      "name": "Real Betis - Osasuna",
+      "description": "Real Betis - Osasuna el domingo, 11 de mayo de 2025 a las 21:00",
+      "startDate": "2025-05-11T19:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -6780,7 +6775,7 @@
     "sport": "futbol",
     "date": {
       "hour": "21:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -6804,9 +6799,9 @@
       "LaLiga TV M2"
     ],
     "event": {
-      "name": "Real Oviedo - Racing Ferrol",
-      "description": "Real Oviedo - Racing Ferrol el sábado, 12 de abril de 2025 a las 21:00",
-      "startDate": "2025-04-12T19:00:00",
+      "name": "CD Tenerife - Racing Ferrol",
+      "description": "CD Tenerife - Racing Ferrol el domingo, 11 de mayo de 2025 a las 21:00",
+      "startDate": "2025-05-11T19:00:00",
       "duration": "T1H45M"
     },
     "links": [
@@ -6819,14 +6814,14 @@
     ]
   },
   {
-    "sport": "futbol",
+    "sport": "rugby",
     "date": {
-      "hour": "21:00",
-      "day": "12/04/2025",
+      "hour": "21:05",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Copa África Sub-17"
+      "competition": "Top 14"
     },
     "teams": {
       "local": {
@@ -6839,24 +6834,22 @@
       }
     },
     "channels": [
-      "FIFA+"
+      "M+ Deportes 3"
     ],
-    "event": {
-      "name": "Egipto - Angola",
-      "description": "Egipto - Angola el sábado, 12 de abril de 2025 a las 21:00",
-      "startDate": "2025-04-12T19:00:00",
-      "duration": "T1H45M"
-    }
+    "event": {},
+    "links": [
+      "acestream://aee0a595220e0f1c2fee725fd1dbc602d7152a9a"
+    ]
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "21:05",
-      "day": "12/04/2025",
+      "hour": "21:15",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Francia Ligue 1"
+      "competition": "Liga Premier Islandia"
     },
     "teams": {
       "local": {
@@ -6869,24 +6862,25 @@
       }
     },
     "channels": [
-      "TV5 Monde"
+      "OneFootball"
     ],
     "event": {
-      "name": "Strasbourg Alsace - Nice",
-      "description": "Strasbourg Alsace - Nice el sábado, 12 de abril de 2025 a las 21:05",
-      "startDate": "2025-04-12T19:05:00",
+      "name": "Víkingur R - FH Hafnarfjördur",
+      "description": "Víkingur R - FH Hafnarfjördur el domingo, 11 de mayo de 2025 a las 21:15",
+      "startDate": "2025-05-11T19:15:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "futbol",
+    "sport": "baloncesto",
     "date": {
       "hour": "21:30",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga Futve 2"
+      "competition": "NBA",
+      "round": "Playoffs Semifinal Conferencia"
     },
     "teams": {
       "local": {
@@ -6899,24 +6893,26 @@
       }
     },
     "channels": [
-      "FIFA+"
+      "M+ Vamos",
+      "M+ #Vamos Bar",
+      "Movistar+ Lite",
+      "M+ Deportes"
     ],
-    "event": {
-      "name": "Titanes FC - Real Frontera",
-      "description": "Titanes FC - Real Frontera el sábado, 12 de abril de 2025 a las 21:30",
-      "startDate": "2025-04-12T19:30:00",
-      "duration": "T1H45M"
-    }
+    "event": {},
+    "links": [
+      "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
+      "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa"
+    ]
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "22:30",
-      "day": "12/04/2025",
+      "hour": "22:00",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga 1 Perú"
+      "competition": "Amistoso"
     },
     "teams": {
       "local": {
@@ -6929,25 +6925,24 @@
       }
     },
     "channels": [
-      "Fanatiz"
+      "FIFA+"
     ],
     "event": {
-      "name": "ACD Juan Pablo II College - Alianza Atlético",
-      "description": "ACD Juan Pablo II College - Alianza Atlético el sábado, 12 de abril de 2025 a las 22:30",
-      "startDate": "2025-04-12T20:30:00",
+      "name": "Barbados - Dominica",
+      "description": "Barbados - Dominica el domingo, 11 de mayo de 2025 a las 22:00",
+      "startDate": "2025-05-11T20:00:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "23:00",
-      "day": "12/04/2025",
+      "hour": "22:15",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Sudamericano Sub-17",
-      "round": "3er Puesto"
+      "competition": "Liga 1 Perú"
     },
     "teams": {
       "local": {
@@ -6960,24 +6955,24 @@
       }
     },
     "channels": [
-      "CONMEBOL YouTube"
+      "Fanatiz"
     ],
     "event": {
-      "name": "Venezuela - Chile",
-      "description": "Venezuela - Chile el sábado, 12 de abril de 2025 a las 23:00",
-      "startDate": "2025-04-12T21:00:00",
+      "name": "AD Tarma - ACD Juan Pablo II College",
+      "description": "AD Tarma - ACD Juan Pablo II College el domingo, 11 de mayo de 2025 a las 22:15",
+      "startDate": "2025-05-11T20:15:00",
       "duration": "T1H45M"
     }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "23:00",
-      "day": "12/04/2025",
+      "hour": "22:30",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "NWSL"
+      "competition": "Liga Pro Ecuador"
     },
     "teams": {
       "local": {
@@ -6990,12 +6985,12 @@
       }
     },
     "channels": [
-      "NWSL+"
+      "ElCanalDelFutbol.com"
     ],
     "event": {
-      "name": "Houston Dash - Angel City FC",
-      "description": "Houston Dash - Angel City FC el sábado, 12 de abril de 2025 a las 23:00",
-      "startDate": "2025-04-12T21:00:00",
+      "name": "U. Católica - Barcelona SC",
+      "description": "U. Católica - Barcelona SC el domingo, 11 de mayo de 2025 a las 22:30",
+      "startDate": "2025-05-11T20:30:00",
       "duration": "T1H45M"
     }
   },
@@ -7003,11 +6998,12 @@
     "sport": "futbol",
     "date": {
       "hour": "23:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "NWSL"
+      "competition": "Liga Colombiana",
+      "round": "Torneo Apertura"
     },
     "teams": {
       "local": {
@@ -7020,12 +7016,13 @@
       }
     },
     "channels": [
-      "NWSL+"
+      "Fanatiz",
+      "RCN Nuestra Tele"
     ],
     "event": {
-      "name": "Racing Louisville - Washington Spirit",
-      "description": "Racing Louisville - Washington Spirit el sábado, 12 de abril de 2025 a las 23:00",
-      "startDate": "2025-04-12T21:00:00",
+      "name": "Alianza - Deportivo Cali",
+      "description": "Alianza - Deportivo Cali el domingo, 11 de mayo de 2025 a las 23:00",
+      "startDate": "2025-05-11T21:00:00",
       "duration": "T1H45M"
     }
   },
@@ -7033,11 +7030,11 @@
     "sport": "futbol",
     "date": {
       "hour": "23:00",
-      "day": "12/04/2025",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga Futve 2"
+      "competition": "Primera División Argentina"
     },
     "teams": {
       "local": {
@@ -7050,25 +7047,24 @@
       }
     },
     "channels": [
-      "FIFA+"
+      "Fanatiz"
     ],
     "event": {
-      "name": "Fundación Lara Deportiva - Trujillanos",
-      "description": "Fundación Lara Deportiva - Trujillanos el sábado, 12 de abril de 2025 a las 23:00",
-      "startDate": "2025-04-12T21:00:00",
+      "name": "Argentinos Juniors - Instituto",
+      "description": "Argentinos Juniors - Instituto el domingo, 11 de mayo de 2025 a las 23:00",
+      "startDate": "2025-05-11T21:00:00",
       "duration": "T1H45M"
     }
   },
   {
-    "sport": "futbol",
+    "sport": "boxeo",
     "date": {
-      "hour": "23:00",
-      "day": "12/04/2025",
+      "hour": "20:00",
+      "day": "16/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera División Argentina",
-      "round": "Torneo Apertura"
+      "competition": "Velada"
     },
     "teams": {
       "local": {
@@ -7081,24 +7077,19 @@
       }
     },
     "channels": [
-      "Fanatiz"
+      "DAZN"
     ],
-    "event": {
-      "name": "Barracas Central - Tigre",
-      "description": "Barracas Central - Tigre el sábado, 12 de abril de 2025 a las 23:00",
-      "startDate": "2025-04-12T21:00:00",
-      "duration": "T1H45M"
-    }
+    "event": {}
   },
   {
-    "sport": "futbol",
+    "sport": "padel",
     "date": {
-      "hour": "23:30",
-      "day": "12/04/2025",
+      "hour": "PD",
+      "day": "16/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Campeonato Uruguayo"
+      "competition": "San Juan Open"
     },
     "teams": {
       "local": {
@@ -7111,43 +7102,20 @@
       }
     },
     "channels": [
-      "GolTV Play"
-    ],
-    "event": {
-      "name": "Peñarol - Miramar Misiones",
-      "description": "Peñarol - Miramar Misiones el sábado, 12 de abril de 2025 a las 23:30",
-      "startDate": "2025-04-12T21:30:00",
-      "duration": "T1H45M"
-    }
-  },
-  {
-    "sport": "padel",
-    "date": {
-      "hour": "13:00",
-      "day": "14/04/2025",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Qatar Major"
-    },
-    "teams": {
-      "local": {},
-      "visitor": {}
-    },
-    "channels": [
-      "Premier Padel YouTube"
+      "DAZN",
+      "DAZN App Gratis"
     ],
     "event": {}
   },
   {
-    "sport": "futbol-americano",
+    "sport": "automovilismo",
     "date": {
-      "hour": "02:00",
-      "day": "25/04/2025",
+      "hour": "06:45",
+      "day": "11/05/2025",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "NFL"
+      "competition": "Supercars Championship"
     },
     "teams": {
       "local": {},
@@ -7156,6 +7124,25 @@
     "channels": [
       "DAZN",
       "DAZN App Gratis"
+    ],
+    "event": {}
+  },
+  {
+    "sport": "automovilismo",
+    "date": {
+      "hour": "21:00",
+      "day": "11/05/2025",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "NASCAR Cup Series"
+    },
+    "teams": {
+      "local": {},
+      "visitor": {}
+    },
+    "channels": [
+      "DAZN"
     ],
     "event": {},
     "links": [
