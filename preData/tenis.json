@@ -3,8 +3,35 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "11:05",
-        "day": "18/05/2025",
+        "hour": "10:00",
+        "day": "19/05/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Roland Garros",
+        "round": "Ronda de clasificación"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "MAX"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "11:00",
+        "day": "19/05/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -13,26 +40,27 @@
       },
       "teams": {
         "local": {
-          "name": null,
-          "image": null
+          "name": "A. Cornet",
+          "image": "https://static.futbolenlatv.com/img/20130727123333-Francia.webp"
         },
         "visitor": {
-          "name": null,
-          "image": null
+          "name": "M. Bouzkova",
+          "image": "https://static.futbolenlatv.com/img/20130727123944-Republica-Checa.webp"
         }
       },
       "channels": [
         "WTA TV",
-        "Tennis Channel"
+        "Tennis Channel",
+        "Tennis Channel - Orange TV"
       ],
       "event": {},
-      "eventType": "tournament"
+      "eventType": "match"
     },
     {
       "sport": "tenis",
       "date": {
         "hour": "11:30",
-        "day": "18/05/2025",
+        "day": "19/05/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -41,25 +69,25 @@
       },
       "teams": {
         "local": {
-          "name": null,
-          "image": null
+          "name": "D. Lajovic",
+          "image": "https://static.futbolenlatv.com/img/20130727123503-Serbia.webp"
         },
         "visitor": {
-          "name": null,
-          "image": null
+          "name": "J. Fearnley",
+          "image": "https://static.futbolenlatv.com/img/20140820091418-Gran-Bretana.webp"
         }
       },
       "channels": [
         "ATP Tennis TV"
       ],
       "event": {},
-      "eventType": "tournament"
+      "eventType": "match"
     },
     {
       "sport": "tenis",
       "date": {
         "hour": "12:00",
-        "day": "18/05/2025",
+        "day": "19/05/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -68,26 +96,26 @@
       },
       "teams": {
         "local": {
-          "name": null,
-          "image": null
+          "name": "R. Collignon",
+          "image": "https://static.futbolenlatv.com/img/20130727123309-Belgica.webp"
         },
         "visitor": {
-          "name": null,
-          "image": null
+          "name": "B. Nakashima",
+          "image": "https://static.futbolenlatv.com/img/20200528104619-motoamerica-superbike.webp"
         }
       },
       "channels": [
         "ATP Tennis TV",
-        "M+ Deportes 4"
+        "M+ Deportes 2"
       ],
       "event": {},
-      "eventType": "tournament"
+      "eventType": "match"
     },
     {
       "sport": "tenis",
       "date": {
         "hour": "12:05",
-        "day": "18/05/2025",
+        "day": "19/05/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -114,32 +142,282 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "17:00",
-        "day": "18/05/2025",
+        "hour": "12:30",
+        "day": "19/05/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Masters Roma",
-        "round": "Final"
+        "competition": "WTA Torneo de Estrasburgo",
+        "round": "1ª Ronda"
       },
       "teams": {
         "local": {
-          "name": "J. Sinner",
-          "image": "https://static.futbolenlatv.com/img/20130727123437-Italia.webp"
+          "name": "B. Haddad Maia",
+          "image": "https://static.futbolenlatv.com/img/20130805105145-Brasil.webp"
         },
         "visitor": {
-          "name": "C. Alcaraz",
-          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+          "name": "C. Tauson",
+          "image": "https://static.futbolenlatv.com/img/20200527100720-danish-superliga.webp"
+        }
+      },
+      "channels": [
+        "WTA TV",
+        "Tennis Channel",
+        "Tennis Channel - Orange TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "13:00",
+        "day": "19/05/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Ginebra",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "K. Nishikori",
+          "image": "https://static.futbolenlatv.com/img/20130727123249-Japon.webp"
+        },
+        "visitor": {
+          "name": "L. Tien",
+          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "13:30",
+        "day": "19/05/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Hamburgo",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "A. Rublev",
+          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
+        },
+        "visitor": {
+          "name": "D. Dzumhur",
+          "image": "https://static.futbolenlatv.com/img/20131026024530-Bosnia.webp"
         }
       },
       "channels": [
         "ATP Tennis TV",
-        "Movistar Plus+ 2",
         "M+ Deportes 2"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "14:00",
+        "day": "19/05/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WTA Torneo de Estrasburgo",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "D. Collins",
+          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+        },
+        "visitor": {
+          "name": "S. Kenin",
+          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+        }
+      },
+      "channels": [
+        "WTA TV",
+        "Tennis Channel",
+        "Tennis Channel - Orange TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "14:30",
+        "day": "19/05/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Ginebra",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "M. Arnaldi",
+          "image": "https://static.futbolenlatv.com/img/20130111045624_italia.webp"
+        },
+        "visitor": {
+          "name": "H. Gaston",
+          "image": "https://static.futbolenlatv.com/img/20200608215827-ultimate-tennis-showdown.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "15:30",
+        "day": "19/05/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Hamburgo",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "A. Zverev",
+          "image": "https://static.futbolenlatv.com/img/20130727123343-Alemania.webp"
+        },
+        "visitor": {
+          "name": "A. Kovacevic",
+          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV",
+        "M+ Deportes 2"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "17:30",
+        "day": "19/05/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WTA Torneo de Estrasburgo",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "E. Raducanu",
+          "image": "https://static.futbolenlatv.com/img/20200618110104-battle-of-the-brits.webp"
+        },
+        "visitor": {
+          "name": "D. Kasatkina",
+          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
+        }
+      },
+      "channels": [
+        "WTA TV",
+        "Tennis Channel",
+        "Tennis Channel - Orange TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "18:00",
+        "day": "19/05/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Hamburgo",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "JL. Struff",
+          "image": "https://static.futbolenlatv.com/img/20130727123343-Alemania.webp"
+        },
+        "visitor": {
+          "name": "J. Engel",
+          "image": "https://static.futbolenlatv.com/img/20130727123343-Alemania.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV",
+        "M+ Deportes 2"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "18:00",
+        "day": "19/05/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Ginebra",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "C. Norrie",
+          "image": "https://static.futbolenlatv.com/img/20140820091418-Gran-Bretana.webp"
+        },
+        "visitor": {
+          "name": "D. Stricker",
+          "image": "https://static.futbolenlatv.com/img/20130727123327-Suiza.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "19:30",
+        "day": "19/05/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Ginebra",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "M. Fucsovics",
+          "image": "https://static.futbolenlatv.com/img/20140113054556-Hungria.webp"
+        },
+        "visitor": {
+          "name": "Z. Bergs",
+          "image": "https://static.futbolenlatv.com/img/20201019211102-zizou-bergs.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
       ],
       "event": {},
       "eventType": "match"
     }
   ],
-  "updated": "2025-05-18T00:13:23.984Z"
+  "updated": "2025-05-19T00:13:41.705Z"
 }
