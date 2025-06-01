@@ -3,22 +3,50 @@
     {
       "sport": "rugby",
       "date": {
-        "hour": "16:05",
-        "day": "31/05/2025",
+        "hour": "12:00",
+        "day": "01/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Gallagher Premiership",
+        "competition": "División de Honor",
+        "round": "Final"
+      },
+      "teams": {
+        "local": {
+          "name": "CR El Salvador",
+          "image": "https://static.futbolenlatv.com/img/20140601112340-elsalvador-rugby.webp"
+        },
+        "visitor": {
+          "name": "CR Cisneros",
+          "image": "https://static.futbolenlatv.com/img/20151008051904-cr-cisneros.webp"
+        }
+      },
+      "channels": [
+        "La 7",
+        "RTVE Play"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "rugby",
+      "date": {
+        "hour": "21:05",
+        "day": "01/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Top 14",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Bristol Bears",
-          "image": "https://static.futbolenlatv.com/img/20200805222036-bristol-bears.webp"
+          "name": "RC Toulon",
+          "image": "https://static.futbolenlatv.com/img/20131212105600-rc-toulon.webp"
         },
         "visitor": {
-          "name": "Harlequins",
-          "image": "https://static.futbolenlatv.com/img/20131212110015-harlequins.webp"
+          "name": "Bordeaux Bègles",
+          "image": "https://static.futbolenlatv.com/img/20200806172513-bordeaux-begles.webp"
         }
       },
       "channels": [
@@ -28,5 +56,5 @@
       "eventType": "match"
     }
   ],
-  "updated": "2025-05-31T00:12:57.414Z"
+  "updated": "2025-06-01T00:16:17.779Z"
 }
