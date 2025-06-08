@@ -3,22 +3,79 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "15:00",
-        "day": "07/06/2025",
+        "hour": "10:30",
+        "day": "08/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "ITF Torneo de Córdoba",
+        "round": "Final"
+      },
+      "teams": {
+        "local": {
+          "name": "J. Berrettini",
+          "image": "https://static.futbolenlatv.com/img/20130727123437-Italia.webp"
+        },
+        "visitor": {
+          "name": "R. Brancaccio",
+          "image": "https://static.futbolenlatv.com/img/20200727124913-gran-trittico-lombardo.webp"
+        }
+      },
+      "channels": [
+        "PTV Córdoba"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "11:00",
+        "day": "08/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Roland Garros",
-        "round": "Final Femenina"
+        "round": "Final Dobles Femeninos"
       },
       "teams": {
         "local": {
-          "name": "A. Sabalenka",
-          "image": "https://static.futbolenlatv.com/img/20130727123407-Bielorrusia.webp"
+          "name": "A. Danilina | A. Krunic",
+          "image": "https://static.futbolenlatv.com/img/20181007102616-no-escudo.webp"
         },
         "visitor": {
-          "name": "C. Gauff",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+          "name": "S. Errani | J. Paolini",
+          "image": "https://static.futbolenlatv.com/img/20130727123437-Italia.webp"
+        }
+      },
+      "channels": [
+        "MAX",
+        "DAZN",
+        "Eurosport 4K",
+        "Eurosport 1"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "15:00",
+        "day": "08/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Roland Garros",
+        "round": "Final Masculina"
+      },
+      "teams": {
+        "local": {
+          "name": "J. Sinner",
+          "image": "https://static.futbolenlatv.com/img/20130727123437-Italia.webp"
+        },
+        "visitor": {
+          "name": "C. Alcaraz",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
         }
       },
       "channels": [
@@ -30,37 +87,7 @@
       ],
       "event": {},
       "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "18:30",
-        "day": "07/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Roland Garros",
-        "round": "Final Dobles Masculinos"
-      },
-      "teams": {
-        "local": {
-          "name": "M. Granollers | H. Zeballos",
-          "image": "https://static.futbolenlatv.com/img/20200813173222-t20i-series.webp"
-        },
-        "visitor": {
-          "name": "J. Salisbury | N. Skupski",
-          "image": "https://static.futbolenlatv.com/img/20140820091418-Gran-Bretana.webp"
-        }
-      },
-      "channels": [
-        "MAX",
-        "DAZN",
-        "Eurosport 4K",
-        "Eurosport 1"
-      ],
-      "event": {},
-      "eventType": "match"
     }
   ],
-  "updated": "2025-06-07T00:12:24.178Z"
+  "updated": "2025-06-08T00:14:04.487Z"
 }
