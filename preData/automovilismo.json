@@ -3,13 +3,13 @@
     {
       "sport": "automovilismo",
       "date": {
-        "hour": "19:45",
-        "day": "12/06/2025",
+        "hour": "19:30",
+        "day": "13/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "24 Horas de Le Mans",
-        "round": "Campeonato Mundial de Resistencia FIA"
+        "competition": "Fórmula 1",
+        "round": "G.P. Canadá (Gilles Villeneuve)"
       },
       "teams": {
         "local": {
@@ -22,13 +22,40 @@
         }
       },
       "channels": [
-        "MAX",
         "DAZN",
-        "Eurosport 1"
+        "DAZN F1"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "automovilismo",
+      "date": {
+        "hour": "23:00",
+        "day": "13/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": null,
+        "round": "G.P. Canadá (Gilles Villeneuve)"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN F1"
       ],
       "event": {},
       "eventType": "tournament"
     }
   ],
-  "updated": "2025-06-12T00:13:16.198Z"
+  "updated": "2025-06-13T00:14:00.628Z"
 }
