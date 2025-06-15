@@ -1,10 +1,91 @@
 {
   "matches": [
     {
+      "sport": "rugby",
+      "date": {
+        "hour": "09:05",
+        "day": "14/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Super Rugby Pacific",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "M+ Deportes"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "rugby",
+      "date": {
+        "hour": "16:00",
+        "day": "14/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Gallagher Premiership",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "M+ Deportes"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "rugby",
+      "date": {
+        "hour": "21:05",
+        "day": "14/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Top 14",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "M+ Deportes 2"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
       "sport": "beisbol",
       "date": {
-        "hour": "01:00",
-        "day": "13/06/2025",
+        "hour": "23:00",
+        "day": "14/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -30,13 +111,13 @@
     {
       "sport": "automovilismo",
       "date": {
-        "hour": "00:30",
-        "day": "14/06/2025",
+        "hour": "00:00",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "F1 Academy",
-        "round": "G.P. Canadá (Gilles Villeneuve)"
+        "competition": "24 Horas de Le Mans",
+        "round": "Campeonato Mundial de Resistencia FIA"
       },
       "teams": {
         "local": {
@@ -49,9 +130,9 @@
         }
       },
       "channels": [
+        "MAX",
         "DAZN",
-        "F1 Academy YouTube",
-        "DAZN F1"
+        "Eurosport 1"
       ],
       "event": {},
       "eventType": "tournament"
@@ -59,72 +140,67 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "01:05",
-        "day": "14/06/2025",
+        "hour": "01:00",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Primera Nacional Argentina",
+        "competition": "Campeonato Uruguayo",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Gimnasia y Tiro",
-          "image": "https://static.futbolenlatv.com/img/20140903054146-gimnasiaytiro.webp"
+          "name": "Defensor Sporting",
+          "image": "https://static.futbolenlatv.com/img/20140502100938-defensor-sporting.webp"
         },
         "visitor": {
-          "name": "Quilmes",
-          "image": "https://static.futbolenlatv.com/img/20121219051608_quilmes-atlético-club.webp"
+          "name": "Liverpool FC",
+          "image": "https://static.futbolenlatv.com/img/20141217063415-liverpool-fc.webp"
         }
       },
       "channels": [
-        "Fanatiz"
+        "GolTV Play"
       ],
       "event": {
-        "name": "Gimnasia y Tiro - Quilmes",
-        "description": "Gimnasia y Tiro - Quilmes el sábado, 14 de junio de 2025 a las 1:05",
-        "startDate": "2025-06-13T23:05:00",
+        "name": "Defensor Sporting - Liverpool FC",
+        "description": "Defensor Sporting - Liverpool FC el domingo, 15 de junio de 2025 a las 1:00",
+        "startDate": "2025-06-14T23:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
     },
     {
-      "sport": "futbol",
+      "sport": "boxeo",
       "date": {
-        "hour": "02:00",
-        "day": "14/06/2025",
+        "hour": "01:00",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Liga 1 Perú",
-        "round": null
+        "competition": "Velada",
+        "round": "Peso Pluma"
       },
       "teams": {
         "local": {
-          "name": "Cusco FC",
-          "image": "https://static.futbolenlatv.com/img/20200827174745-real-garcilaso.webp"
+          "name": "F. Molina",
+          "image": "https://static.futbolenlatv.com/img/20130208071540_mexico.webp"
         },
         "visitor": {
-          "name": "Cienciano",
-          "image": "https://static.futbolenlatv.com/img/20140912012204-cienciano.webp"
+          "name": "G. Jimenez",
+          "image": "https://static.futbolenlatv.com/img/20130208071540_mexico.webp"
         }
       },
       "channels": [
-        "Fanatiz"
+        "DAZN"
       ],
-      "event": {
-        "name": "Cusco FC - Cienciano",
-        "description": "Cusco FC - Cienciano el sábado, 14 de junio de 2025 a las 2:00",
-        "startDate": "2025-06-14T00:00:00",
-        "duration": "T1H45M"
-      },
+      "event": {},
       "eventType": "match"
     },
     {
       "sport": "futbol",
       "date": {
-        "hour": "02:00",
-        "day": "14/06/2025",
+        "hour": "01:30",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -133,21 +209,176 @@
       },
       "teams": {
         "local": {
-          "name": "Houston Dash",
-          "image": "https://static.futbolenlatv.com/img/20220623182604-houston-dash.webp"
+          "name": "Kansas City Current",
+          "image": "https://static.futbolenlatv.com/img/20220908171415-kansas-city-current.webp"
         },
         "visitor": {
-          "name": "San Diego Wave FC",
-          "image": "https://static.futbolenlatv.com/img/20220623175712-san-diego-wave-fc.webp"
+          "name": "Racing Louisville",
+          "image": "https://static.futbolenlatv.com/img/20220623175700-racing-louisville-fc.webp"
         }
       },
       "channels": [
         "NWSL+"
       ],
       "event": {
-        "name": "Houston Dash - San Diego Wave FC",
-        "description": "Houston Dash - San Diego Wave FC el sábado, 14 de junio de 2025 a las 2:00",
-        "startDate": "2025-06-14T00:00:00",
+        "name": "Kansas City Current - Racing Louisville",
+        "description": "Kansas City Current - Racing Louisville el domingo, 15 de junio de 2025 a las 1:30",
+        "startDate": "2025-06-14T23:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "02:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FIFA Copa Mundial de Clubes",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Al Ahly",
+          "image": "https://static.futbolenlatv.com/img/20130716101610-al-alhy.webp"
+        },
+        "visitor": {
+          "name": "Inter Miami CF",
+          "image": "https://static.futbolenlatv.com/img/20191208031649-inter-miami-cf.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis",
+        "Telecinco",
+        "Mitele.es"
+      ],
+      "event": {
+        "name": "Al Ahly - Inter Miami CF",
+        "description": "Al Ahly - Inter Miami CF el domingo, 15 de junio de 2025 a las 2:00",
+        "startDate": "2025-06-15T00:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "02:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Pro Ecuador",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Vinotinto FC",
+          "image": "https://static.futbolenlatv.com/img/20250122105821-cuniburo-fc.webp"
+        },
+        "visitor": {
+          "name": "LDU Quito",
+          "image": "https://static.futbolenlatv.com/img/20130124122244_ldu-quito.webp"
+        }
+      },
+      "channels": [
+        "ElCanalDelFutbol.com"
+      ],
+      "event": {
+        "name": "Vinotinto FC - LDU Quito",
+        "description": "Vinotinto FC - LDU Quito el domingo, 15 de junio de 2025 a las 2:00",
+        "startDate": "2025-06-15T00:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "mma",
+      "date": {
+        "hour": "02:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "UFC",
+        "round": "UFC Fight Night"
+      },
+      "teams": {
+        "local": {
+          "name": "K. Usman",
+          "image": "https://static.futbolenlatv.com/img/20210210194004-kamaru-usman.webp"
+        },
+        "visitor": {
+          "name": "J. Buckley",
+          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
+        }
+      },
+      "channels": [
+        "MAX",
+        "DAZN",
+        "Eurosport 2"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "boxeo",
+      "date": {
+        "hour": "02:30",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Título Mundial",
+        "round": "Peso Superligero"
+      },
+      "teams": {
+        "local": {
+          "name": "R. Hitchins",
+          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
+        },
+        "visitor": {
+          "name": "G. Kambosos Jr.",
+          "image": "https://static.futbolenlatv.com/img/20200728161741-national-rugby-league.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "03:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga 1 Perú",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Alianza Lima",
+          "image": "https://static.futbolenlatv.com/img/20140603083857-alianza-lima.webp"
+        },
+        "visitor": {
+          "name": "Sport Huancayo",
+          "image": "https://static.futbolenlatv.com/img/20130729071510-huancayo.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Alianza Lima - Sport Huancayo",
+        "description": "Alianza Lima - Sport Huancayo el domingo, 15 de junio de 2025 a las 3:00",
+        "startDate": "2025-06-15T01:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -155,64 +386,8 @@
     {
       "sport": "boxeo",
       "date": {
-        "hour": "02:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Velada",
-        "round": "Peso Supermosca"
-      },
-      "teams": {
-        "local": {
-          "name": "L. Cruz",
-          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
-        },
-        "visitor": {
-          "name": "R. Chávez",
-          "image": "https://static.futbolenlatv.com/img/20130208071540_mexico.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "02:30",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Final"
-      },
-      "teams": {
-        "local": {
-          "name": "Indiana Pacers",
-          "image": "https://static.futbolenlatv.com/img/20191028090446-indiana-pacers.webp"
-        },
-        "visitor": {
-          "name": "Oklahoma C. Thunder",
-          "image": "https://static.futbolenlatv.com/img/20130808083758-oc-thunder.webp"
-        }
-      },
-      "channels": [
-        "Movistar Plus+",
-        "M+ Deportes"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "boxeo",
-      "date": {
         "hour": "03:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -239,40 +414,8 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "03:30",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NWSL",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Utah Royals FC",
-          "image": "https://static.futbolenlatv.com/img/20190415070008-utah-royals-fc.webp"
-        },
-        "visitor": {
-          "name": "NJ/NY Gotham FC",
-          "image": "https://static.futbolenlatv.com/img/20220623182623-sky-blue-fc.webp"
-        }
-      },
-      "channels": [
-        "NWSL+"
-      ],
-      "event": {
-        "name": "Utah Royals FC - NJ/NY Gotham FC",
-        "description": "Utah Royals FC - NJ/NY Gotham FC el sábado, 14 de junio de 2025 a las 3:30",
-        "startDate": "2025-06-14T01:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
         "hour": "04:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -281,84 +424,65 @@
       },
       "teams": {
         "local": {
-          "name": "Bay FC",
-          "image": "https://static.futbolenlatv.com/img/20240311095233-bay-football-club.webp"
+          "name": "Angel City FC",
+          "image": "https://static.futbolenlatv.com/img/20220623175723-angel-city-fc.webp"
         },
         "visitor": {
-          "name": "Orlando Pride",
-          "image": "https://static.futbolenlatv.com/img/20160423104631-orlando-pride.webp"
+          "name": "North Carolina Courage",
+          "image": "https://static.futbolenlatv.com/img/20180727011859-nc-courage.webp"
         }
       },
       "channels": [
         "NWSL+"
       ],
       "event": {
-        "name": "Bay FC - Orlando Pride",
-        "description": "Bay FC - Orlando Pride el sábado, 14 de junio de 2025 a las 4:00",
-        "startDate": "2025-06-14T02:00:00",
+        "name": "Angel City FC - North Carolina Courage",
+        "description": "Angel City FC - North Carolina Courage el domingo, 15 de junio de 2025 a las 4:00",
+        "startDate": "2025-06-15T02:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
     },
     {
-      "sport": "balonmano",
+      "sport": "futbol",
       "date": {
-        "hour": "09:00",
-        "day": "14/06/2025",
+        "hour": "04:15",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "EHF Youth Club Trophy",
-        "round": "Semifinales"
+        "competition": "CONCACAF Copa Oro",
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
-          "name": "RK Eurofarm Pelister",
-          "image": "https://static.futbolenlatv.com/img/20221123141602-eurofarm-pelister.webp"
+          "name": "México",
+          "image": "https://static.futbolenlatv.com/img/20130208071540_mexico.webp"
         },
         "visitor": {
-          "name": "GOG Gudme",
-          "image": "https://static.futbolenlatv.com/img/20190121091255-gog-gudme.webp"
+          "name": "República Dominicana",
+          "image": "https://static.futbolenlatv.com/img/20131031024327-republica-dominicana.webp"
         }
       },
       "channels": [
-        "EHF TV"
+        "GolStadium Premium",
+        "CONCACAF YouTube",
+        "GOL PLAY",
+        "GolStadium"
       ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "rugby",
-      "date": {
-        "hour": "09:05",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
+      "event": {
+        "name": "México - República Dominicana",
+        "description": "México - República Dominicana el domingo, 15 de junio de 2025 a las 4:15",
+        "startDate": "2025-06-15T02:15:00",
+        "duration": "T1H45M"
       },
-      "details": {
-        "competition": "Super Rugby Pacific",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Chiefs",
-          "image": "https://static.futbolenlatv.com/img/20140714060701-chiefs.webp"
-        },
-        "visitor": {
-          "name": "Brumbies",
-          "image": "https://static.futbolenlatv.com/img/20140714060723-brumbies.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes"
-      ],
-      "event": {},
       "eventType": "match"
     },
     {
       "sport": "futbol",
       "date": {
-        "hour": "11:00",
-        "day": "14/06/2025",
+        "hour": "07:00",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -367,21 +491,53 @@
       },
       "teams": {
         "local": {
-          "name": "Kashima Antlers",
-          "image": "https://static.futbolenlatv.com/img/20130419113043_kashima-antlers.webp"
+          "name": "Albirex Niigata",
+          "image": "https://static.futbolenlatv.com/img/20130416060025_albirex-niigata.webp"
         },
         "visitor": {
-          "name": "Sanfrecce Hiroshima",
-          "image": "https://static.futbolenlatv.com/img/20130413044001_sanfrecce-hiroshima.webp"
+          "name": "Yokohama F. Marinos",
+          "image": "https://static.futbolenlatv.com/img/20200704135954-yokohama.webp"
         }
       },
       "channels": [
         "J.LEAGUE International YouTube"
       ],
       "event": {
-        "name": "Kashima Antlers - Sanfrecce Hiroshima",
-        "description": "Kashima Antlers - Sanfrecce Hiroshima el sábado, 14 de junio de 2025 a las 11:00",
-        "startDate": "2025-06-14T09:00:00",
+        "name": "Albirex Niigata - Yokohama F. Marinos",
+        "description": "Albirex Niigata - Yokohama F. Marinos el domingo, 15 de junio de 2025 a las 7:00",
+        "startDate": "2025-06-15T05:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "11:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Tercera Federación",
+        "round": "Final Playoff Ascenso"
+      },
+      "teams": {
+        "local": {
+          "name": "Girona B",
+          "image": "https://static.futbolenlatv.com/img/20240214173647-girona-b.webp"
+        },
+        "visitor": {
+          "name": "UD San Fernando",
+          "image": "https://static.futbolenlatv.com/img/20180518042959-ud-san-fernando.webp"
+        }
+      },
+      "channels": [
+        "La Xarxa+"
+      ],
+      "event": {
+        "name": "Girona B - UD San Fernando",
+        "description": "Girona B - UD San Fernando el domingo, 15 de junio de 2025 a las 11:00",
+        "startDate": "2025-06-15T09:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -390,7 +546,7 @@
       "sport": "motociclismo",
       "date": {
         "hour": "11:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -417,105 +573,53 @@
       "eventType": "tournament"
     },
     {
-      "sport": "tenis",
-      "date": {
-        "hour": "11:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "WTA Torneo de Hertogenbosch",
-        "round": "Semifinal 1"
-      },
-      "teams": {
-        "local": {
-          "name": "E. Mertens",
-          "image": "https://static.futbolenlatv.com/img/20130727123309-Belgica.webp"
-        },
-        "visitor": {
-          "name": "E. Alexandrova",
-          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
-        }
-      },
-      "channels": [
-        "WTA TV",
-        "Tennis Channel"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "balonmano",
-      "date": {
-        "hour": "11:30",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "EHF Youth Club Trophy",
-        "round": "Semifinales"
-      },
-      "teams": {
-        "local": {
-          "name": "Veszprém HC",
-          "image": "https://static.futbolenlatv.com/img/20130717104116-veszprem-kc.webp"
-        },
-        "visitor": {
-          "name": "Barça BM",
-          "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
-        }
-      },
-      "channels": [
-        "Barça One",
-        "Esport3"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol-sala",
+      "sport": "futbol",
       "date": {
         "hour": "12:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Primera Federación Femenina",
-        "round": "Playoff Final"
+        "competition": "Tercera Federación",
+        "round": "Final Playoff Ascenso"
       },
       "teams": {
         "local": {
-          "name": "Roldán FSF",
-          "image": "https://static.futbolenlatv.com/img/20220427201904-roldan-fsf.webp"
+          "name": "UE Porreres",
+          "image": "https://static.futbolenlatv.com/img/20240505141658-ue-porreres.webp"
         },
         "visitor": {
-          "name": "At. Navalcarnero FS",
-          "image": "https://static.futbolenlatv.com/img/20220620083331-atletico-navalcarnero-fs.webp"
+          "name": "At. Monzón",
+          "image": "https://static.futbolenlatv.com/img/20181217103403-at-monzon.webp"
         }
       },
       "channels": [
-        "RFEF.es",
-        "Teledeporte",
-        "RTVE Play"
+        "Aragón Deporte",
+        "Aragón TV"
       ],
-      "event": {},
+      "event": {
+        "name": "UE Porreres - At. Monzón",
+        "description": "UE Porreres - At. Monzón el domingo, 15 de junio de 2025 a las 12:00",
+        "startDate": "2025-06-15T10:00:00",
+        "duration": "T1H45M"
+      },
       "eventType": "match"
     },
     {
       "sport": "tenis",
       "date": {
         "hour": "12:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Torneo de Stuttgart",
-        "round": "Semifinal 1"
+        "round": "Final"
       },
       "teams": {
         "local": {
-          "name": "F. Auger-Aliassime",
-          "image": "https://static.futbolenlatv.com/img/20130727125012-Canada.webp"
+          "name": "A. Zverev",
+          "image": "https://static.futbolenlatv.com/img/20130727123343-Alemania.webp"
         },
         "visitor": {
           "name": "T. Fritz",
@@ -524,6 +628,9 @@
       },
       "channels": [
         "ATP Tennis TV",
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite",
         "M+ Deportes 2"
       ],
       "event": {},
@@ -532,13 +639,13 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "12:30",
-        "day": "14/06/2025",
+        "hour": "12:00",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "WTA Torneo de Hertogenbosch",
-        "round": "Semifinal 2"
+        "round": "Final"
       },
       "teams": {
         "local": {
@@ -546,8 +653,8 @@
           "image": "https://static.futbolenlatv.com/img/20130727123316-Rumania.webp"
         },
         "visitor": {
-          "name": "E. Cocciaretto",
-          "image": "https://static.futbolenlatv.com/img/20130727123437-Italia.webp"
+          "name": "E. Mertens",
+          "image": "https://static.futbolenlatv.com/img/20130727123309-Belgica.webp"
         }
       },
       "channels": [
@@ -561,7 +668,7 @@
       "sport": "motociclismo",
       "date": {
         "hour": "12:35",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -582,114 +689,22 @@
         "DAZN",
         "DAZN App Gratis",
         "MAX",
-        "RTVE Play",
-        "Eurosport 1"
+        "Teledeporte",
+        "RTVE Play"
       ],
       "event": {},
       "eventType": "tournament"
     },
     {
-      "sport": "futbol",
-      "date": {
-        "hour": "13:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Superliga de Letonia",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "SC Grobiņa",
-          "image": "https://static.futbolenlatv.com/img/20240301170328-sc-grobina.webp"
-        },
-        "visitor": {
-          "name": "Riga FC",
-          "image": "https://static.futbolenlatv.com/img/20200922132129-riga-fc.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "SC Grobiņa - Riga FC",
-        "description": "SC Grobiņa - Riga FC el sábado, 14 de junio de 2025 a las 13:00",
-        "startDate": "2025-06-14T11:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "13:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Veikkausliiga",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "FC Inter Turku",
-          "image": "https://static.futbolenlatv.com/img/20220323211929-fc-inter-turku.webp"
-        },
-        "visitor": {
-          "name": "FC Haka",
-          "image": "https://static.futbolenlatv.com/img/20220323211906-fc-haka.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "FC Inter Turku - FC Haka",
-        "description": "FC Inter Turku - FC Haka el sábado, 14 de junio de 2025 a las 13:00",
-        "startDate": "2025-06-14T11:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
       "sport": "hockey-patines",
       "date": {
         "hour": "13:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "OK Liga",
-        "round": "Final"
-      },
-      "teams": {
-        "local": {
-          "name": "Barça HP",
-          "image": "https://static.futbolenlatv.com/img/20200922184952-fc-barcelona-hockey-patines.webp"
-        },
-        "visitor": {
-          "name": "Liceo",
-          "image": "https://static.futbolenlatv.com/img/20130614064526-Liceo.webp"
-        }
-      },
-      "channels": [
-        "Esport3",
-        "TVG2"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "hockey-patines",
-      "date": {
-        "hour": "13:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Copa de la Reina",
-        "round": "Semifinales"
+        "round": "Final"
       },
       "teams": {
         "local": {
@@ -703,39 +718,7 @@
       },
       "channels": [
         "RTVE Play",
-        "Esport3 Web"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "padel",
-      "date": {
-        "hour": "13:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Italia Major",
-        "round": "Semifinal Femenina"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Red Bull TV",
-        "M+ Vamos",
-        "M+ #Vamos Bar",
-        "M+ Ellas Vamos",
-        "Movistar+ Lite",
-        "M+ Deportes 3"
+        "Esport3"
       ],
       "event": {},
       "eventType": "tournament"
@@ -744,12 +727,12 @@
       "sport": "golf",
       "date": {
         "hour": "13:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Hulencourt Women’s Open",
-        "round": "Jornada 3"
+        "round": "Jornada 4"
       },
       "teams": {
         "local": {
@@ -770,33 +753,31 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "13:35",
-        "day": "14/06/2025",
+        "hour": "14:00",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Chinese Super League",
+        "competition": "Damallsvenskan",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Shenzhen Peng City",
-          "image": "https://static.futbolenlatv.com/img/20240516183825-shenzhen-peng-city.webp"
+          "name": "Piteå IF Kvinnor",
+          "image": "https://static.futbolenlatv.com/img/20220320203212-pitea-if.webp"
         },
         "visitor": {
-          "name": "Shanghai Shenhua",
-          "image": "https://static.futbolenlatv.com/img/20160205112207-shanghai-shenhua.webp"
+          "name": "Malmö FF Women",
+          "image": "https://static.futbolenlatv.com/img/20141217010848-malmo-ff.webp"
         }
       },
       "channels": [
-        "GolStadium Premium",
-        "GOL PLAY",
-        "GolStadium"
+        "FANSEAT"
       ],
       "event": {
-        "name": "Shenzhen Peng City - Shanghai Shenhua",
-        "description": "Shenzhen Peng City - Shanghai Shenhua el sábado, 14 de junio de 2025 a las 13:35",
-        "startDate": "2025-06-14T11:35:00",
+        "name": "Piteå IF Kvinnor - Malmö FF Women",
+        "description": "Piteå IF Kvinnor - Malmö FF Women el domingo, 15 de junio de 2025 a las 14:00",
+        "startDate": "2025-06-15T12:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -805,7 +786,7 @@
       "sport": "motociclismo",
       "date": {
         "hour": "14:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -829,64 +810,67 @@
         "DAZN 1",
         "DAZN 1 Bar",
         "Teledeporte",
-        "RTVE Play",
-        "Eurosport 1"
+        "RTVE Play"
       ],
       "event": {},
       "eventType": "tournament"
     },
     {
-      "sport": "tenis",
+      "sport": "futbol",
       "date": {
-        "hour": "14:00",
-        "day": "14/06/2025",
+        "hour": "14:30",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Torneo de Stuttgart",
-        "round": "Semifinal 2"
+        "competition": "Maurice Revello Tournament",
+        "round": null
       },
       "teams": {
         "local": {
-          "name": "A. Zverev",
-          "image": "https://static.futbolenlatv.com/img/20130727123343-Alemania.webp"
+          "name": "Dinamarca",
+          "image": "https://static.futbolenlatv.com/img/20130207060752_dinamarca.webp"
         },
         "visitor": {
-          "name": "B. Shelton",
-          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
+          "name": "México",
+          "image": "https://static.futbolenlatv.com/img/20130208071540_mexico.webp"
         }
       },
       "channels": [
-        "ATP Tennis TV",
-        "M+ Deportes 2"
+        "Youth Football Arena"
       ],
-      "event": {},
+      "event": {
+        "name": "Dinamarca - México",
+        "description": "Dinamarca - México el domingo, 15 de junio de 2025 a las 14:30",
+        "startDate": "2025-06-15T12:30:00",
+        "duration": "T1H45M"
+      },
       "eventType": "match"
     },
     {
       "sport": "tenis",
       "date": {
         "hour": "14:30",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Torneo de Hertogenbosch",
-        "round": "Semifinal 1"
+        "round": "Final"
       },
       "teams": {
         "local": {
-          "name": "G. Diallo",
-          "image": "https://static.futbolenlatv.com/img/20130727125012-Canada.webp"
+          "name": "Z. Bergs",
+          "image": "https://static.futbolenlatv.com/img/20201019211102-zizou-bergs.webp"
         },
         "visitor": {
-          "name": "U. Humbert",
-          "image": "https://static.futbolenlatv.com/img/20130727123333-Francia.webp"
+          "name": "G. Diallo",
+          "image": "https://static.futbolenlatv.com/img/20130727125012-Canada.webp"
         }
       },
       "channels": [
         "ATP Tennis TV",
-        "M+ Deportes 4"
+        "M+ Deportes 3"
       ],
       "event": {},
       "eventType": "match"
@@ -895,21 +879,21 @@
       "sport": "tenis",
       "date": {
         "hour": "14:30",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "WTA Torneo de Londres",
-        "round": "Semifinal 1"
+        "round": "Final"
       },
       "teams": {
         "local": {
-          "name": "T. Maria",
-          "image": "https://static.futbolenlatv.com/img/20130727123343-Alemania.webp"
+          "name": "A. Anisimova",
+          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
         },
         "visitor": {
-          "name": "M. Keys",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+          "name": "T. Maria",
+          "image": "https://static.futbolenlatv.com/img/20130727123343-Alemania.webp"
         }
       },
       "channels": [
@@ -923,159 +907,31 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "15:00",
-        "day": "14/06/2025",
+        "hour": "14:45",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Damallsvenskan",
+        "competition": "Segunda Uruguay",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Linköpings FC",
-          "image": "https://static.futbolenlatv.com/img/20160707064840-linkopings-fc.webp"
+          "name": "Albión",
+          "image": "https://static.futbolenlatv.com/img/20180406095333-albion.webp"
         },
         "visitor": {
-          "name": "FC Rosengard",
-          "image": "https://static.futbolenlatv.com/img/20141217011009-fc-rosengard.webp"
+          "name": "Oriental",
+          "image": "https://static.futbolenlatv.com/img/20230215105339-club-oriental-football.webp"
         }
       },
       "channels": [
-        "FANSEAT"
+        "GolTV Play"
       ],
       "event": {
-        "name": "Linköpings FC - FC Rosengard",
-        "description": "Linköpings FC - FC Rosengard el sábado, 14 de junio de 2025 a las 15:00",
-        "startDate": "2025-06-14T13:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "15:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Damallsvenskan",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Vittsjö GIK",
-          "image": "https://static.futbolenlatv.com/img/20220320203237-vittsjo-gik.webp"
-        },
-        "visitor": {
-          "name": "Alingsås IF Kvinnor",
-          "image": "https://static.futbolenlatv.com/img/20250226103318-alingsas-if.webp"
-        }
-      },
-      "channels": [
-        "FANSEAT"
-      ],
-      "event": {
-        "name": "Vittsjö GIK - Alingsås IF Kvinnor",
-        "description": "Vittsjö GIK - Alingsås IF Kvinnor el sábado, 14 de junio de 2025 a las 15:00",
-        "startDate": "2025-06-14T13:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "15:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Damallsvenskan",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Kristianstads DFF",
-          "image": "https://static.futbolenlatv.com/img/20220320203224-kristianstads-dff.webp"
-        },
-        "visitor": {
-          "name": "Brommapojkarna Kvinnor",
-          "image": "https://static.futbolenlatv.com/img/20180915090441-brommapojkarna.webp"
-        }
-      },
-      "channels": [
-        "FANSEAT"
-      ],
-      "event": {
-        "name": "Kristianstads DFF - Brommapojkarna Kvinnor",
-        "description": "Kristianstads DFF - Brommapojkarna Kvinnor el sábado, 14 de junio de 2025 a las 15:00",
-        "startDate": "2025-06-14T13:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "15:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Damallsvenskan",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Växjö DFF",
-          "image": "https://static.futbolenlatv.com/img/20230122124333-vaxjo-dff.webp"
-        },
-        "visitor": {
-          "name": "IFK Norrköping Kvinnor",
-          "image": "https://static.futbolenlatv.com/img/20200614181204-ifk-norrkoping.webp"
-        }
-      },
-      "channels": [
-        "FANSEAT"
-      ],
-      "event": {
-        "name": "Växjö DFF - IFK Norrköping Kvinnor",
-        "description": "Växjö DFF - IFK Norrköping Kvinnor el sábado, 14 de junio de 2025 a las 15:00",
-        "startDate": "2025-06-14T13:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "15:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Damallsvenskan",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "BK Häcken Femenino",
-          "image": "https://static.futbolenlatv.com/img/20180725063146-bk-hacken.webp"
-        },
-        "visitor": {
-          "name": "AIK Fotboll Kvinnor",
-          "image": "https://static.futbolenlatv.com/img/20160727113244-alk-fotboll.webp"
-        }
-      },
-      "channels": [
-        "FANSEAT"
-      ],
-      "event": {
-        "name": "BK Häcken Femenino - AIK Fotboll Kvinnor",
-        "description": "BK Häcken Femenino - AIK Fotboll Kvinnor el sábado, 14 de junio de 2025 a las 15:00",
-        "startDate": "2025-06-14T13:00:00",
+        "name": "Albión - Oriental",
+        "description": "Albión - Oriental el domingo, 15 de junio de 2025 a las 14:45",
+        "startDate": "2025-06-15T12:45:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1084,21 +940,21 @@
       "sport": "balonmano",
       "date": {
         "hour": "15:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "EHF Champions League",
-        "round": "Semifinales"
+        "round": "3er Puesto"
       },
       "teams": {
         "local": {
-          "name": "Füchse Berlin",
-          "image": "https://static.futbolenlatv.com/img/20210509110008-fuchse-berlin.webp"
-        },
-        "visitor": {
           "name": "HBC Nantes",
           "image": "https://static.futbolenlatv.com/img/20140131110632-hbc-nantes.webp"
+        },
+        "visitor": {
+          "name": "Barça BM",
+          "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
         }
       },
       "channels": [
@@ -1111,99 +967,10 @@
       "eventType": "match"
     },
     {
-      "sport": "padel",
-      "date": {
-        "hour": "15:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": null,
-        "round": "Semifinal Masculina"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Red Bull TV",
-        "M+ Vamos",
-        "M+ #Vamos Bar",
-        "Movistar+ Lite",
-        "M+ Deportes 3"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "15:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "24 Horas de Le Mans",
-        "round": "Campeonato Mundial de Resistencia FIA"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "MAX",
-        "DAZN",
-        "Eurosport 1"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "15:15",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": null,
-        "round": "G.P. Canadá (Gilles Villeneuve)"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "DAZN",
-        "F1 Academy YouTube",
-        "DAZN F1"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
       "sport": "motociclismo",
       "date": {
         "hour": "15:15",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -1233,281 +1000,44 @@
       "sport": "futbol",
       "date": {
         "hour": "16:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Europeo Sub-19",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Inglaterra",
-          "image": "https://static.futbolenlatv.com/img/20130204124525_inglaterra.webp"
-        },
-        "visitor": {
-          "name": "Noruega",
-          "image": "https://static.futbolenlatv.com/img/20171217021744-noruega.webp"
-        }
-      },
-      "channels": [
-        "UEFA TV",
-        "UEFA TV PPV"
-      ],
-      "event": {
-        "name": "Inglaterra - Noruega",
-        "description": "Inglaterra - Noruega el sábado, 14 de junio de 2025 a las 16:00",
-        "startDate": "2025-06-14T14:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "16:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Campeonato Uruguayo",
+        "competition": "Liga Premier Islandia",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Miramar Misiones",
-          "image": "https://static.futbolenlatv.com/img/20141112073928-miramar-misiones.webp"
+          "name": "IF Vestri",
+          "image": "https://static.futbolenlatv.com/img/20240330080556-if-vestri.webp"
         },
         "visitor": {
-          "name": "CA Juventud",
-          "image": "https://static.futbolenlatv.com/img/20141121093950-ca-juventud.webp"
-        }
-      },
-      "channels": [
-        "GolTV Play"
-      ],
-      "event": {
-        "name": "Miramar Misiones - CA Juventud",
-        "description": "Miramar Misiones - CA Juventud el sábado, 14 de junio de 2025 a las 16:00",
-        "startDate": "2025-06-14T14:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "16:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Veikkausliiga",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "AC Oulu",
-          "image": "https://static.futbolenlatv.com/img/20220323211853-ac-oulu.webp"
-        },
-        "visitor": {
-          "name": "HJK Helsinki",
-          "image": "https://static.futbolenlatv.com/img/20140606110141-hjk-helsinki.webp"
+          "name": "KA Akureyri",
+          "image": "https://static.futbolenlatv.com/img/20220412192359-knattspyrnufelag-akureyrar.webp"
         }
       },
       "channels": [
         "OneFootball"
       ],
       "event": {
-        "name": "AC Oulu - HJK Helsinki",
-        "description": "AC Oulu - HJK Helsinki el sábado, 14 de junio de 2025 a las 16:00",
-        "startDate": "2025-06-14T14:00:00",
+        "name": "IF Vestri - KA Akureyri",
+        "description": "IF Vestri - KA Akureyri el domingo, 15 de junio de 2025 a las 16:00",
+        "startDate": "2025-06-15T14:00:00",
         "duration": "T1H45M"
       },
-      "eventType": "match"
-    },
-    {
-      "sport": "rugby",
-      "date": {
-        "hour": "16:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Gallagher Premiership",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Bath Rugby",
-          "image": "https://static.futbolenlatv.com/img/20150326060257-bath-rugby.webp"
-        },
-        "visitor": {
-          "name": "Leicester Tigers",
-          "image": "https://static.futbolenlatv.com/img/20140113053658-leicester-tigers.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "hockey-patines",
-      "date": {
-        "hour": "16:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": null,
-        "round": "Semifinales"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "RTVE Play",
-        "Esport3 Web"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "16:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Torneo de Hertogenbosch",
-        "round": "Semifinal 2"
-      },
-      "teams": {
-        "local": {
-          "name": "R. Opelka",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
-        },
-        "visitor": {
-          "name": "Z. Bergs",
-          "image": "https://static.futbolenlatv.com/img/20201019211102-zizou-bergs.webp"
-        }
-      },
-      "channels": [
-        "ATP Tennis TV",
-        "M+ Deportes 4"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "16:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "WTA Torneo de Londres",
-        "round": "Semifinal 2"
-      },
-      "teams": {
-        "local": {
-          "name": "Q. Zheng",
-          "image": "https://static.futbolenlatv.com/img/20210316110656-tour-of-guangxi.webp"
-        },
-        "visitor": {
-          "name": "A. Anisimova",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
-        }
-      },
-      "channels": [
-        "WTA TV",
-        "Tennis Channel",
-        "Tennis Channel - Orange TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "17:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Maurice Revello Tournament",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Mali",
-          "image": "https://static.futbolenlatv.com/img/20130103114840_mali.webp"
-        },
-        "visitor": {
-          "name": "Japón",
-          "image": "https://static.futbolenlatv.com/img/20130208071559_japon.webp"
-        }
-      },
-      "channels": [
-        "Youth Football Arena"
-      ],
-      "event": {
-        "name": "Mali - Japón",
-        "description": "Mali - Japón el sábado, 14 de junio de 2025 a las 17:00",
-        "startDate": "2025-06-14T15:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "17:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Open Internacional de Valencia",
-        "round": "Semifinal 1"
-      },
-      "teams": {
-        "local": {
-          "name": "X. Gao",
-          "image": "https://static.futbolenlatv.com/img/20130221121827_china.webp"
-        },
-        "visitor": {
-          "name": "N. Parrizas Díaz",
-          "image": "https://static.futbolenlatv.com/img/20200511222904-carlos-costa.webp"
-        }
-      },
-      "channels": [
-        "À Punt Mèdia",
-        "RTVE Play"
-      ],
-      "event": {},
       "eventType": "match"
     },
     {
       "sport": "golf",
       "date": {
-        "hour": "17:30",
-        "day": "14/06/2025",
+        "hour": "16:30",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "US Open",
-        "round": "Jornada 3"
+        "round": "Jornada 4"
       },
       "teams": {
         "local": {
@@ -1526,10 +1056,225 @@
       "eventType": "tournament"
     },
     {
+      "sport": "automovilismo",
+      "date": {
+        "hour": "16:55",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "F1 Academy",
+        "round": "G.P. Canadá (Gilles Villeneuve)"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "DAZN",
+        "F1 Academy YouTube",
+        "DAZN F1"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "17:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Endesa",
+        "round": "Semifinales"
+      },
+      "teams": {
+        "local": {
+          "name": "Unicaja Málaga",
+          "image": "https://static.futbolenlatv.com/img/20240318163823-unicaja-malaga.webp"
+        },
+        "visitor": {
+          "name": "Real Madrid Baloncesto",
+          "image": "https://static.futbolenlatv.com/img/20160725122745-real-madrid.webp"
+        }
+      },
+      "channels": [
+        "Movistar Plus+",
+        "M+ Deportes"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Europeo Sub-19 Femenino",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Portugal",
+          "image": "https://static.futbolenlatv.com/img/20130204101449_portugal.webp"
+        },
+        "visitor": {
+          "name": "España",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+        }
+      },
+      "channels": [
+        "UEFA TV",
+        "UEFA TV PPV"
+      ],
+      "event": {
+        "name": "Portugal - España",
+        "description": "Portugal - España el domingo, 15 de junio de 2025 a las 17:00",
+        "startDate": "2025-06-15T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Europeo Sub-19 Femenino",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Inglaterra",
+          "image": "https://static.futbolenlatv.com/img/20130204124525_inglaterra.webp"
+        },
+        "visitor": {
+          "name": "Holanda",
+          "image": "https://static.futbolenlatv.com/img/20130130075711_holanda.webp"
+        }
+      },
+      "channels": [
+        "UEFA TV",
+        "UEFA TV PPV"
+      ],
+      "event": {
+        "name": "Inglaterra - Holanda",
+        "description": "Inglaterra - Holanda el domingo, 15 de junio de 2025 a las 17:00",
+        "startDate": "2025-06-15T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Segunda Uruguay",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "CA Fénix",
+          "image": "https://static.futbolenlatv.com/img/20141120070510-centro-atletico-fenix.webp"
+        },
+        "visitor": {
+          "name": "Deportivo Maldonado",
+          "image": "https://static.futbolenlatv.com/img/20201015221447-deportivo-maldonado.webp"
+        }
+      },
+      "channels": [
+        "GolTV Play"
+      ],
+      "event": {
+        "name": "CA Fénix - Deportivo Maldonado",
+        "description": "CA Fénix - Deportivo Maldonado el domingo, 15 de junio de 2025 a las 17:00",
+        "startDate": "2025-06-15T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación",
+        "round": "Final Playoff Ascenso"
+      },
+      "teams": {
+        "local": {
+          "name": "FC Andorra",
+          "image": "https://static.futbolenlatv.com/img/20211013183455-fc-andorra.webp"
+        },
+        "visitor": {
+          "name": "Ponferradina",
+          "image": "https://static.futbolenlatv.com/img/20211013183402-ponferradina.webp"
+        }
+      },
+      "channels": [
+        "FEF TV"
+      ],
+      "event": {
+        "name": "FC Andorra - Ponferradina",
+        "description": "FC Andorra - Ponferradina el domingo, 15 de junio de 2025 a las 17:00",
+        "startDate": "2025-06-15T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "17:30",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Open Internacional de Valencia",
+        "round": "Final"
+      },
+      "teams": {
+        "local": {
+          "name": "L. Chirico",
+          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+        },
+        "visitor": {
+          "name": "N. Parrizas Díaz",
+          "image": "https://static.futbolenlatv.com/img/20200511222904-carlos-costa.webp"
+        }
+      },
+      "channels": [
+        "À Punt Mèdia",
+        "RTVE Play"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
       "sport": "futbol",
       "date": {
         "hour": "18:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -1538,21 +1283,21 @@
       },
       "teams": {
         "local": {
-          "name": "España",
-          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+          "name": "Finlandia",
+          "image": "https://static.futbolenlatv.com/img/20130124053613_finlandia.webp"
         },
         "visitor": {
-          "name": "Rumanía",
-          "image": "https://static.futbolenlatv.com/img/20130304045215_rumania.webp"
+          "name": "Ucrania",
+          "image": "https://static.futbolenlatv.com/img/20130304045244_ucrania.webp"
         }
       },
       "channels": [
         "RTVE Play"
       ],
       "event": {
-        "name": "España - Rumanía",
-        "description": "España - Rumanía el sábado, 14 de junio de 2025 a las 18:00",
-        "startDate": "2025-06-14T16:00:00",
+        "name": "Finlandia - Ucrania",
+        "description": "Finlandia - Ucrania el domingo, 15 de junio de 2025 a las 18:00",
+        "startDate": "2025-06-15T16:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1561,30 +1306,31 @@
       "sport": "futbol",
       "date": {
         "hour": "18:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Veikkausliiga",
-        "round": null
+        "competition": "Europeo Sub-21",
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
-          "name": "KuPS",
-          "image": "https://static.futbolenlatv.com/img/20190712061543-kups.webp"
+          "name": "Inglaterra",
+          "image": "https://static.futbolenlatv.com/img/20130204124525_inglaterra.webp"
         },
         "visitor": {
-          "name": "FC Ilves",
-          "image": "https://static.futbolenlatv.com/img/20160722121612-fc-Ilves.webp"
+          "name": "Eslovenia",
+          "image": "https://static.futbolenlatv.com/img/20130204101247_eslovenia.webp"
         }
       },
       "channels": [
-        "OneFootball"
+        "Teledeporte",
+        "RTVE Play"
       ],
       "event": {
-        "name": "KuPS - FC Ilves",
-        "description": "KuPS - FC Ilves el sábado, 14 de junio de 2025 a las 18:00",
-        "startDate": "2025-06-14T16:00:00",
+        "name": "Inglaterra - Eslovenia",
+        "description": "Inglaterra - Eslovenia el domingo, 15 de junio de 2025 a las 18:00",
+        "startDate": "2025-06-15T16:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1593,30 +1339,30 @@
       "sport": "futbol",
       "date": {
         "hour": "18:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Veikkausliiga",
+        "competition": "Maurice Revello Tournament",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "IFK Mariehamn",
-          "image": "https://static.futbolenlatv.com/img/20220323211959-ifk-mariehamn.webp"
+          "name": "Francia",
+          "image": "https://static.futbolenlatv.com/img/20130124053558_francia.webp"
         },
         "visitor": {
-          "name": "VPS",
-          "image": "https://static.futbolenlatv.com/img/20220323212028-vaasan-palloseura.webp"
+          "name": "Arabia Saudí",
+          "image": "https://static.futbolenlatv.com/img/20130730010609-arabia-saudi.webp"
         }
       },
       "channels": [
-        "OneFootball"
+        "Youth Football Arena"
       ],
       "event": {
-        "name": "IFK Mariehamn - VPS",
-        "description": "IFK Mariehamn - VPS el sábado, 14 de junio de 2025 a las 18:00",
-        "startDate": "2025-06-14T16:00:00",
+        "name": "Francia - Arabia Saudí",
+        "description": "Francia - Arabia Saudí el domingo, 15 de junio de 2025 a las 18:00",
+        "startDate": "2025-06-15T16:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1625,30 +1371,31 @@
       "sport": "futbol",
       "date": {
         "hour": "18:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Veikkausliiga",
-        "round": null
+        "competition": "FIFA Copa Mundial de Clubes",
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
-          "name": "SJK Seinäjoki",
-          "image": "https://static.futbolenlatv.com/img/20220323212013-sjk-seinajoki.webp"
+          "name": "FC Bayern",
+          "image": "https://static.futbolenlatv.com/img/20121218101641_bayern-munich.webp"
         },
         "visitor": {
-          "name": "FF Jaro",
-          "image": "https://static.futbolenlatv.com/img/20220408180427-ff-jaro.webp"
+          "name": "Auckland City",
+          "image": "https://static.futbolenlatv.com/img/20130626044350-auckland-city.webp"
         }
       },
       "channels": [
-        "OneFootball"
+        "DAZN",
+        "DAZN App Gratis"
       ],
       "event": {
-        "name": "SJK Seinäjoki - FF Jaro",
-        "description": "SJK Seinäjoki - FF Jaro el sábado, 14 de junio de 2025 a las 18:00",
-        "startDate": "2025-06-14T16:00:00",
+        "name": "FC Bayern - Auckland City",
+        "description": "FC Bayern - Auckland City el domingo, 15 de junio de 2025 a las 18:00",
+        "startDate": "2025-06-15T16:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1657,30 +1404,95 @@
       "sport": "futbol",
       "date": {
         "hour": "18:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Veikkausliiga",
+        "competition": "Europeo Sub-19 Femenino",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Polonia",
+          "image": "https://static.futbolenlatv.com/img/20130528084142-Polonia.webp"
+        },
+        "visitor": {
+          "name": "Italia",
+          "image": "https://static.futbolenlatv.com/img/20130111045624_italia.webp"
+        }
+      },
+      "channels": [
+        "UEFA TV",
+        "UEFA TV PPV"
+      ],
+      "event": {
+        "name": "Polonia - Italia",
+        "description": "Polonia - Italia el domingo, 15 de junio de 2025 a las 18:00",
+        "startDate": "2025-06-15T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga 1 Perú",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Gnistan",
-          "image": "https://static.futbolenlatv.com/img/20220408180524-gnistan.webp"
+          "name": "Sporting Cristal",
+          "image": "https://static.futbolenlatv.com/img/20130410092728_sporting-cristal.webp"
         },
         "visitor": {
-          "name": "KTP",
-          "image": "https://static.futbolenlatv.com/img/20220408174753-kotkan-tyovaen-palloilijat.webp"
+          "name": "Deportivo Garcilaso",
+          "image": "https://static.futbolenlatv.com/img/20221127112959-club-deportivo-garcilaso.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Sporting Cristal - Deportivo Garcilaso",
+        "description": "Sporting Cristal - Deportivo Garcilaso el domingo, 15 de junio de 2025 a las 18:00",
+        "startDate": "2025-06-15T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Premier Islandia",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "ÍBV",
+          "image": "https://static.futbolenlatv.com/img/20220412192317-iprottabandalag-vestmannaeyja.webp"
+        },
+        "visitor": {
+          "name": "Breidablik UBK",
+          "image": "https://static.futbolenlatv.com/img/20140103114350-breidablik-ubk.webp"
         }
       },
       "channels": [
         "OneFootball"
       ],
       "event": {
-        "name": "Gnistan - KTP",
-        "description": "Gnistan - KTP el sábado, 14 de junio de 2025 a las 18:00",
-        "startDate": "2025-06-14T16:00:00",
+        "name": "ÍBV - Breidablik UBK",
+        "description": "ÍBV - Breidablik UBK el domingo, 15 de junio de 2025 a las 18:00",
+        "startDate": "2025-06-15T16:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1689,17 +1501,17 @@
       "sport": "balonmano",
       "date": {
         "hour": "18:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "EHF Champions League",
-        "round": "Semifinales"
+        "round": "Final"
       },
       "teams": {
         "local": {
-          "name": "Barça BM",
-          "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
+          "name": "Füchse Berlin",
+          "image": "https://static.futbolenlatv.com/img/20210509110008-fuchse-berlin.webp"
         },
         "visitor": {
           "name": "SC Magdeburg",
@@ -1716,10 +1528,306 @@
       "eventType": "match"
     },
     {
-      "sport": "automovilismo",
+      "sport": "futbol",
+      "date": {
+        "hour": "18:15",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Élite Cataluña",
+        "round": "Playoffs de ascenso"
+      },
+      "teams": {
+        "local": {
+          "name": "CF Can Vidalet",
+          "image": "https://static.futbolenlatv.com/img/20210422092415-cf-can-vidalet.webp"
+        },
+        "visitor": {
+          "name": "Atletic Sant Just",
+          "image": "https://static.futbolenlatv.com/img/20131007113348-atletic-sant-just.webp"
+        }
+      },
+      "channels": [
+        "La Xarxa+"
+      ],
+      "event": {
+        "name": "CF Can Vidalet - Atletic Sant Just",
+        "description": "CF Can Vidalet - Atletic Sant Just el domingo, 15 de junio de 2025 a las 18:15",
+        "startDate": "2025-06-15T16:15:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "padel",
       "date": {
         "hour": "18:30",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Italia Major",
+        "round": "Final Femenina"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "Red Bull TV",
+        "M+ Ellas Vamos",
+        "Movistar+ Lite",
+        "Movistar Plus+ 2",
+        "M+ Deportes 3"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Europeo Sub-19 Femenino",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Francia",
+          "image": "https://static.futbolenlatv.com/img/20130124053558_francia.webp"
+        },
+        "visitor": {
+          "name": "Suecia",
+          "image": "https://static.futbolenlatv.com/img/20130204101348_suecia.webp"
+        }
+      },
+      "channels": [
+        "UEFA TV",
+        "UEFA TV PPV"
+      ],
+      "event": {
+        "name": "Francia - Suecia",
+        "description": "Francia - Suecia el domingo, 15 de junio de 2025 a las 19:00",
+        "startDate": "2025-06-15T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Regional Preferente",
+        "round": "Playoffs de ascenso"
+      },
+      "teams": {
+        "local": {
+          "name": "Céltiga",
+          "image": "https://static.futbolenlatv.com/img/20170319095630-celtiga.webp"
+        },
+        "visitor": {
+          "name": "UD Atios",
+          "image": "https://static.futbolenlatv.com/img/20201004212406-ud-atios.webp"
+        }
+      },
+      "channels": [
+        "TVG2"
+      ],
+      "event": {
+        "name": "Céltiga - UD Atios",
+        "description": "Céltiga - UD Atios el domingo, 15 de junio de 2025 a las 19:00",
+        "startDate": "2025-06-15T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Regional Preferente",
+        "round": "Playoffs de ascenso"
+      },
+      "teams": {
+        "local": {
+          "name": "CD Beluso",
+          "image": "https://static.futbolenlatv.com/img/20250613183846-cd-beluso.webp"
+        },
+        "visitor": {
+          "name": "Cambados",
+          "image": "https://static.futbolenlatv.com/img/20190527102110-cambados.webp"
+        }
+      },
+      "channels": [
+        "TVG2"
+      ],
+      "event": {
+        "name": "CD Beluso - Cambados",
+        "description": "CD Beluso - Cambados el domingo, 15 de junio de 2025 a las 19:00",
+        "startDate": "2025-06-15T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Hypermotion",
+        "round": "Playoffs Final"
+      },
+      "teams": {
+        "local": {
+          "name": "Mirandés",
+          "image": "https://static.futbolenlatv.com/img/20121218094206_mirandes.webp"
+        },
+        "visitor": {
+          "name": "Real Oviedo",
+          "image": "https://static.futbolenlatv.com/img/20121219073017_oviedo.webp"
+        }
+      },
+      "channels": [
+        "LALIGA TV Hypermotion",
+        "M+ Vamos",
+        "Movistar+ Lite",
+        "Orange Fútbol 2",
+        "Amazon Prime Video",
+        "GolStadium Premium",
+        "DAZN",
+        "M+ LaLiga TV",
+        "LaLiga TV Bar"
+      ],
+      "event": {
+        "name": "Mirandés - Real Oviedo",
+        "description": "Mirandés - Real Oviedo el domingo, 15 de junio de 2025 a las 19:00",
+        "startDate": "2025-06-15T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Tercera Federación",
+        "round": "Final Playoff Ascenso"
+      },
+      "teams": {
+        "local": {
+          "name": "At. Pulpileño",
+          "image": "https://static.futbolenlatv.com/img/20180517095242-pulpileno.webp"
+        },
+        "visitor": {
+          "name": "SD Sarriana",
+          "image": "https://static.futbolenlatv.com/img/20230806105931-sd-sarriana.webp"
+        }
+      },
+      "channels": [
+        "TVG2"
+      ],
+      "event": {
+        "name": "At. Pulpileño - SD Sarriana",
+        "description": "At. Pulpileño - SD Sarriana el domingo, 15 de junio de 2025 a las 19:00",
+        "startDate": "2025-06-15T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Pro Ecuador",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Técnico Universitario",
+          "image": "https://static.futbolenlatv.com/img/20141122033616-tecnico-universitario.webp"
+        },
+        "visitor": {
+          "name": "Aucas",
+          "image": "https://static.futbolenlatv.com/img/20140926023126-aucas.webp"
+        }
+      },
+      "channels": [
+        "ElCanalDelFutbol.com"
+      ],
+      "event": {
+        "name": "Técnico Universitario - Aucas",
+        "description": "Técnico Universitario - Aucas el domingo, 15 de junio de 2025 a las 20:00",
+        "startDate": "2025-06-15T18:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Campeonato Uruguayo",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "River Plate M.",
+          "image": "https://static.futbolenlatv.com/img/20130729071310-river-plate-m.webp"
+        },
+        "visitor": {
+          "name": "Peñarol",
+          "image": "https://static.futbolenlatv.com/img/20130410092630_penarol.webp"
+        }
+      },
+      "channels": [
+        "GolTV Play"
+      ],
+      "event": {
+        "name": "River Plate M. - Peñarol",
+        "description": "River Plate M. - Peñarol el domingo, 15 de junio de 2025 a las 20:00",
+        "startDate": "2025-06-15T18:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "automovilismo",
+      "date": {
+        "hour": "20:00",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -1744,140 +1852,15 @@
       "eventType": "tournament"
     },
     {
-      "sport": "tenis",
-      "date": {
-        "hour": "18:30",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Open Internacional de Valencia",
-        "round": "Semifinal 2"
-      },
-      "teams": {
-        "local": {
-          "name": "H. Vandewinkel",
-          "image": "https://static.futbolenlatv.com/img/20130121023530_belgica.webp"
-        },
-        "visitor": {
-          "name": "L. Chirico",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
-        }
-      },
-      "channels": [
-        "À Punt Mèdia",
-        "RTVE Play"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "19:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Europeo Sub-19",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Alemania",
-          "image": "https://static.futbolenlatv.com/img/20130130075653_alemania.webp"
-        },
-        "visitor": {
-          "name": "Holanda",
-          "image": "https://static.futbolenlatv.com/img/20130130075711_holanda.webp"
-        }
-      },
-      "channels": [
-        "UEFA TV",
-        "UEFA TV PPV"
-      ],
-      "event": {
-        "name": "Alemania - Holanda",
-        "description": "Alemania - Holanda el sábado, 14 de junio de 2025 a las 19:00",
-        "startDate": "2025-06-14T17:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "19:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Superliga de Letonia",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "RFS Riga",
-          "image": "https://static.futbolenlatv.com/img/20220907141835-rfs-riga.webp"
-        },
-        "visitor": {
-          "name": "SK Super Nova",
-          "image": "https://static.futbolenlatv.com/img/20220304205145-sk-super-nova.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "RFS Riga - SK Super Nova",
-        "description": "RFS Riga - SK Super Nova el sábado, 14 de junio de 2025 a las 19:00",
-        "startDate": "2025-06-14T17:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "19:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Tercera Federación",
-        "round": "Final Playoff Ascenso"
-      },
-      "teams": {
-        "local": {
-          "name": "UD Castellonense",
-          "image": "https://static.futbolenlatv.com/img/20220520204103-ud-castellonense.webp"
-        },
-        "visitor": {
-          "name": "Burgos Promesas",
-          "image": "https://static.futbolenlatv.com/img/20180824104723-burgos-promesas.webp"
-        }
-      },
-      "channels": [
-        "El Fútbol Modesto YouTube"
-      ],
-      "event": {
-        "name": "UD Castellonense - Burgos Promesas",
-        "description": "UD Castellonense - Burgos Promesas el sábado, 14 de junio de 2025 a las 19:00",
-        "startDate": "2025-06-14T17:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
       "sport": "padel",
       "date": {
-        "hour": "19:00",
-        "day": "14/06/2025",
+        "hour": "20:30",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": null,
-        "round": "Semifinal Femenina"
+        "round": "Final Masculina"
       },
       "teams": {
         "local": {
@@ -1891,8 +1874,7 @@
       },
       "channels": [
         "Red Bull TV",
-        "M+ Ellas Vamos",
-        "Movistar+ Lite",
+        "Movistar Plus+ 2",
         "M+ Deportes 3"
       ],
       "event": {},
@@ -1901,243 +1883,8 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "19:30",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Campeonato Uruguayo",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Boston River",
-          "image": "https://static.futbolenlatv.com/img/20200920213401-boston-river.webp"
-        },
-        "visitor": {
-          "name": "Danubio",
-          "image": "https://static.futbolenlatv.com/img/20140813051152-danubio.webp"
-        }
-      },
-      "channels": [
-        "GolTV Play"
-      ],
-      "event": {
-        "name": "Boston River - Danubio",
-        "description": "Boston River - Danubio el sábado, 14 de junio de 2025 a las 19:30",
-        "startDate": "2025-06-14T17:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "boxeo",
-      "date": {
-        "hour": "20:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Campeonato de España",
-        "round": "Peso Superligero"
-      },
-      "teams": {
-        "local": {
-          "name": "J. Fernández",
-          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
-        },
-        "visitor": {
-          "name": "R. Núñez",
-          "image": "https://static.futbolenlatv.com/img/20190512093725-panama2.webp"
-        }
-      },
-      "channels": [
-        "GolStadium Premium"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "mma",
-      "date": {
-        "hour": "20:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Velada",
-        "round": "WAR MMA"
-      },
-      "teams": {
-        "local": {
-          "name": "L. Climent",
-          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
-        },
-        "visitor": {
-          "name": "J. Wilson",
-          "image": "https://static.futbolenlatv.com/img/20130624101253-gales.webp"
-        }
-      },
-      "channels": [
-        "GolStadium Premium"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:15",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga 1 Perú",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Melgar",
-          "image": "https://static.futbolenlatv.com/img/20130807112358-fc-melgar.webp"
-        },
-        "visitor": {
-          "name": "Sport Boys A.",
-          "image": "https://static.futbolenlatv.com/img/20180117111908-sport-boys.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "Melgar - Sport Boys A.",
-        "description": "Melgar - Sport Boys A. el sábado, 14 de junio de 2025 a las 20:15",
-        "startDate": "2025-06-14T18:15:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol-sala",
-      "date": {
-        "hour": "20:30",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera Federación Futsal",
-        "round": "Playoff Semifinales"
-      },
-      "teams": {
-        "local": {
-          "name": "Jimbee Cartagena FS",
-          "image": "https://static.futbolenlatv.com/img/20180912065412-jimbee-cartagena-fs.webp"
-        },
-        "visitor": {
-          "name": "ElPozo Murcia",
-          "image": "https://static.futbolenlatv.com/img/20130614064254-El-Pozo-Murcia.webp"
-        }
-      },
-      "channels": [
-        "FEF TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:30",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Lega Serie A",
-        "round": "Final"
-      },
-      "teams": {
-        "local": {
-          "name": "Virtus Bologna",
-          "image": "https://static.futbolenlatv.com/img/20181227045008-virtus-bologna.webp"
-        },
-        "visitor": {
-          "name": "Pallacanestro Brescia",
-          "image": "https://static.futbolenlatv.com/img/20201220190956-basket-brescia-leonessa.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:30",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera Federación",
-        "round": "Final Playoff Ascenso"
-      },
-      "teams": {
-        "local": {
-          "name": "Nástic Tarragona",
-          "image": "https://static.futbolenlatv.com/img/20151128125351-nastic-tarragona.webp"
-        },
-        "visitor": {
-          "name": "Real Sociedad B",
-          "image": "https://static.futbolenlatv.com/img/20121218093019_real-sociedad.webp"
-        }
-      },
-      "channels": [
-        "FEF TV",
-        "Esport3"
-      ],
-      "event": {
-        "name": "Nástic Tarragona - Real Sociedad B",
-        "description": "Nástic Tarragona - Real Sociedad B el sábado, 14 de junio de 2025 a las 20:30",
-        "startDate": "2025-06-14T18:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "20:50",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": null,
-        "round": "G.P. Canadá (Gilles Villeneuve)"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "DAZN",
-        "F1 Academy YouTube",
-        "DAZN F1"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "futbol",
-      "date": {
         "hour": "21:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -2146,21 +1893,21 @@
       },
       "teams": {
         "local": {
-          "name": "Francia",
-          "image": "https://static.futbolenlatv.com/img/20130124053558_francia.webp"
+          "name": "Holanda",
+          "image": "https://static.futbolenlatv.com/img/20130130075711_holanda.webp"
         },
         "visitor": {
-          "name": "Georgia",
-          "image": "https://static.futbolenlatv.com/img/20130318120408_georgia.webp"
+          "name": "Dinamarca",
+          "image": "https://static.futbolenlatv.com/img/20130207060752_dinamarca.webp"
         }
       },
       "channels": [
         "RTVE Play"
       ],
       "event": {
-        "name": "Francia - Georgia",
-        "description": "Francia - Georgia el sábado, 14 de junio de 2025 a las 21:00",
-        "startDate": "2025-06-14T19:00:00",
+        "name": "Holanda - Dinamarca",
+        "description": "Holanda - Dinamarca el domingo, 15 de junio de 2025 a las 21:00",
+        "startDate": "2025-06-15T19:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -2169,7 +1916,7 @@
       "sport": "futbol",
       "date": {
         "hour": "21:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -2178,12 +1925,12 @@
       },
       "teams": {
         "local": {
-          "name": "Portugal",
-          "image": "https://static.futbolenlatv.com/img/20130204101449_portugal.webp"
+          "name": "República Checa",
+          "image": "https://static.futbolenlatv.com/img/20130410124454_republica-checa.webp"
         },
         "visitor": {
-          "name": "Polonia",
-          "image": "https://static.futbolenlatv.com/img/20130528084142-Polonia.webp"
+          "name": "Alemania",
+          "image": "https://static.futbolenlatv.com/img/20130130075653_alemania.webp"
         }
       },
       "channels": [
@@ -2191,9 +1938,9 @@
         "RTVE Play"
       ],
       "event": {
-        "name": "Portugal - Polonia",
-        "description": "Portugal - Polonia el sábado, 14 de junio de 2025 a las 21:00",
-        "startDate": "2025-06-14T19:00:00",
+        "name": "República Checa - Alemania",
+        "description": "República Checa - Alemania el domingo, 15 de junio de 2025 a las 21:00",
+        "startDate": "2025-06-15T19:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -2202,207 +1949,33 @@
       "sport": "futbol",
       "date": {
         "hour": "21:00",
-        "day": "14/06/2025",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Europeo Sub-21",
+        "competition": "FIFA Copa Mundial de Clubes",
         "round": "Fase de grupos"
       },
       "teams": {
         "local": {
-          "name": "Eslovaquia",
-          "image": "https://static.futbolenlatv.com/img/20130410124517_eslovaquia.webp"
+          "name": "PSG",
+          "image": "https://static.futbolenlatv.com/img/20131224050227-psg.webp"
         },
         "visitor": {
-          "name": "Italia",
-          "image": "https://static.futbolenlatv.com/img/20130111045624_italia.webp"
+          "name": "At. Madrid",
+          "image": "https://static.futbolenlatv.com/img/20240712123854-at-madrid.webp"
         }
       },
       "channels": [
-        "ProSieben MAXX",
-        "RTVE Play"
+        "DAZN",
+        "DAZN App Gratis",
+        "Telecinco",
+        "Mitele.es"
       ],
       "event": {
-        "name": "Eslovaquia - Italia",
-        "description": "Eslovaquia - Italia el sábado, 14 de junio de 2025 a las 21:00",
-        "startDate": "2025-06-14T19:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Pro Ecuador",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Independiente del Valle",
-          "image": "https://static.futbolenlatv.com/img/20191111111808-independiente-del-valle.webp"
-        },
-        "visitor": {
-          "name": "Libertad FC",
-          "image": "https://static.futbolenlatv.com/img/20220312140623-libertad-fc.webp"
-        }
-      },
-      "channels": [
-        "ElCanalDelFutbol.com"
-      ],
-      "event": {
-        "name": "Independiente del Valle - Libertad FC",
-        "description": "Independiente del Valle - Libertad FC el sábado, 14 de junio de 2025 a las 21:00",
-        "startDate": "2025-06-14T19:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "padel",
-      "date": {
-        "hour": "21:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": null,
-        "round": "Semifinal Masculina"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Red Bull TV",
-        "M+ Deportes 3"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "21:00",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "IndyCar",
-        "round": "Bommarito Automotive Group 500 (Gateway)"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "M+ Deportes 4"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "rugby",
-      "date": {
-        "hour": "21:05",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Top 14",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "RC Toulon",
-          "image": "https://static.futbolenlatv.com/img/20131212105600-rc-toulon.webp"
-        },
-        "visitor": {
-          "name": "Castres Olympique",
-          "image": "https://static.futbolenlatv.com/img/20200806172525-castres-olympique.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes 2"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "21:15",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Endesa",
-        "round": "Semifinales"
-      },
-      "teams": {
-        "local": {
-          "name": "La Laguna Tenerife",
-          "image": "https://static.futbolenlatv.com/img/20130803090548-cb-canarias.webp"
-        },
-        "visitor": {
-          "name": "Valencia Basket",
-          "image": "https://static.futbolenlatv.com/img/20130803090213-valencia-basket.webp"
-        }
-      },
-      "channels": [
-        "M+ Vamos",
-        "M+ #Vamos Bar",
-        "Movistar+ Lite",
-        "M+ Deportes"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:15",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Premier Islandia",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Stjarnan",
-          "image": "https://static.futbolenlatv.com/img/20140819090758-stjarnan.webp"
-        },
-        "visitor": {
-          "name": "Valur Reykjavík",
-          "image": "https://static.futbolenlatv.com/img/20190118093037-valur-reykjavik.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "Stjarnan - Valur Reykjavík",
-        "description": "Stjarnan - Valur Reykjavík el sábado, 14 de junio de 2025 a las 21:15",
-        "startDate": "2025-06-14T19:15:00",
+        "name": "PSG - At. Madrid",
+        "description": "PSG - At. Madrid el domingo, 15 de junio de 2025 a las 21:00",
+        "startDate": "2025-06-15T19:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -2410,13 +1983,13 @@
     {
       "sport": "golf",
       "date": {
-        "hour": "22:00",
-        "day": "14/06/2025",
+        "hour": "21:00",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": null,
-        "round": "Jornada 3"
+        "round": "Jornada 4"
       },
       "teams": {
         "local": {
@@ -2438,13 +2011,13 @@
     {
       "sport": "automovilismo",
       "date": {
-        "hour": "22:00",
-        "day": "14/06/2025",
+        "hour": "21:00",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": null,
-        "round": "G.P. Canadá (Gilles Villeneuve)"
+        "competition": "NASCAR Cup Series",
+        "round": "Autódromo Hermanos Rodríguez (Ciudad México)"
       },
       "teams": {
         "local": {
@@ -2457,8 +2030,7 @@
         }
       },
       "channels": [
-        "DAZN",
-        "DAZN F1"
+        "DAZN"
       ],
       "event": {},
       "eventType": "tournament"
@@ -2466,8 +2038,200 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "22:30",
-        "day": "14/06/2025",
+        "hour": "21:15",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Premier Islandia",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Fram Reykjavík",
+          "image": "https://static.futbolenlatv.com/img/20140824075145-fram-reykjavik.webp"
+        },
+        "visitor": {
+          "name": "FH Hafnarfjördur",
+          "image": "https://static.futbolenlatv.com/img/20130814021732-fh-hafnarfjordur.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Fram Reykjavík - FH Hafnarfjördur",
+        "description": "Fram Reykjavík - FH Hafnarfjördur el domingo, 15 de junio de 2025 a las 21:15",
+        "startDate": "2025-06-15T19:15:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:15",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Premier Islandia",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "UMF Afturelding",
+          "image": "https://static.futbolenlatv.com/img/20250312133714-umf-afturelding.webp"
+        },
+        "visitor": {
+          "name": "ÍA Akraness",
+          "image": "https://static.futbolenlatv.com/img/20220412192332-iprottabandalag-akraness.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "UMF Afturelding - ÍA Akraness",
+        "description": "UMF Afturelding - ÍA Akraness el domingo, 15 de junio de 2025 a las 21:15",
+        "startDate": "2025-06-15T19:15:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:30",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Futve 2",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Trujillanos",
+          "image": "https://static.futbolenlatv.com/img/20130730095933-trujillanos.webp"
+        },
+        "visitor": {
+          "name": "Ureña SC",
+          "image": "https://static.futbolenlatv.com/img/20160216110313-urena-sc.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
+      ],
+      "event": {
+        "name": "Trujillanos - Ureña SC",
+        "description": "Trujillanos - Ureña SC el domingo, 15 de junio de 2025 a las 21:30",
+        "startDate": "2025-06-15T19:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:30",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Futve 2",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Real Frontera",
+          "image": "https://static.futbolenlatv.com/img/20190904081005-real-frontera.webp"
+        },
+        "visitor": {
+          "name": "Héroes de Falcón",
+          "image": "https://static.futbolenlatv.com/img/20230511095150-heroes-de-falcon-fc.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
+      ],
+      "event": {
+        "name": "Real Frontera - Héroes de Falcón",
+        "description": "Real Frontera - Héroes de Falcón el domingo, 15 de junio de 2025 a las 21:30",
+        "startDate": "2025-06-15T19:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:30",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Futve 2",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Atlético El Vigía",
+          "image": "https://static.futbolenlatv.com/img/20201127093405-atletico-el-vigia.webp"
+        },
+        "visitor": {
+          "name": "Titanes FC",
+          "image": "https://static.futbolenlatv.com/img/20230414123416-titanes-futbol-club-maracaibo.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
+      ],
+      "event": {
+        "name": "Atlético El Vigía - Titanes FC",
+        "description": "Atlético El Vigía - Titanes FC el domingo, 15 de junio de 2025 a las 21:30",
+        "startDate": "2025-06-15T19:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:30",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Futve 2",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Monagas SC B",
+          "image": "https://static.futbolenlatv.com/img/20170223083453-monagas-sc.webp"
+        },
+        "visitor": {
+          "name": "Deportivo Miranda",
+          "image": "https://static.futbolenlatv.com/img/20250601105747-petare-fc.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
+      ],
+      "event": {
+        "name": "Monagas SC B - Deportivo Miranda",
+        "description": "Monagas SC B - Deportivo Miranda el domingo, 15 de junio de 2025 a las 21:30",
+        "startDate": "2025-06-15T19:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "22:00",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -2476,21 +2240,21 @@
       },
       "teams": {
         "local": {
-          "name": "ACD Juan Pablo II College",
-          "image": "https://static.futbolenlatv.com/img/20241011103329-acd-juan-pablo-ii-college.webp"
+          "name": "Ayacucho",
+          "image": "https://static.futbolenlatv.com/img/20150501020353-ayacucho.webp"
         },
         "visitor": {
-          "name": "CD Los Chankas",
-          "image": "https://static.futbolenlatv.com/img/20210916191205-santa-rosa.webp"
+          "name": "Universitario",
+          "image": "https://static.futbolenlatv.com/img/20140603082828-club-universitario-de-deportes.webp"
         }
       },
       "channels": [
         "Fanatiz"
       ],
       "event": {
-        "name": "ACD Juan Pablo II College - CD Los Chankas",
-        "description": "ACD Juan Pablo II College - CD Los Chankas el sábado, 14 de junio de 2025 a las 22:30",
-        "startDate": "2025-06-14T20:30:00",
+        "name": "Ayacucho - Universitario",
+        "description": "Ayacucho - Universitario el domingo, 15 de junio de 2025 a las 22:00",
+        "startDate": "2025-06-15T20:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -2498,40 +2262,8 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "22:30",
-        "day": "14/06/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Campeonato Uruguayo",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Racing Club",
-          "image": "https://static.futbolenlatv.com/img/20141120070637-racing-club-montevideo.webp"
-        },
-        "visitor": {
-          "name": "Nacional",
-          "image": "https://static.futbolenlatv.com/img/20130227101637_club-nacional-uruguay.webp"
-        }
-      },
-      "channels": [
-        "GolTV Play"
-      ],
-      "event": {
-        "name": "Racing Club - Nacional",
-        "description": "Racing Club - Nacional el sábado, 14 de junio de 2025 a las 22:30",
-        "startDate": "2025-06-14T20:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "23:00",
-        "day": "14/06/2025",
+        "hour": "22:00",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -2540,21 +2272,21 @@
       },
       "teams": {
         "local": {
-          "name": "Chicago Red Stars",
-          "image": "https://static.futbolenlatv.com/img/20190415071050-chicago-red-star.webp"
+          "name": "Portland Thorns",
+          "image": "https://static.futbolenlatv.com/img/20220623182645-portland-thorns.webp"
         },
         "visitor": {
-          "name": "OL Reign",
-          "image": "https://static.futbolenlatv.com/img/20220623182706-seattle-reign.webp"
+          "name": "Washington Spirit",
+          "image": "https://static.futbolenlatv.com/img/20160423105800-washington-spirit.webp"
         }
       },
       "channels": [
         "NWSL+"
       ],
       "event": {
-        "name": "Chicago Red Stars - OL Reign",
-        "description": "Chicago Red Stars - OL Reign el sábado, 14 de junio de 2025 a las 23:00",
-        "startDate": "2025-06-14T21:00:00",
+        "name": "Portland Thorns - Washington Spirit",
+        "description": "Portland Thorns - Washington Spirit el domingo, 15 de junio de 2025 a las 22:00",
+        "startDate": "2025-06-15T20:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -2562,8 +2294,40 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "23:30",
-        "day": "14/06/2025",
+        "hour": "22:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Futve 2",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Aragua",
+          "image": "https://static.futbolenlatv.com/img/20160129093925-aragua.webp"
+        },
+        "visitor": {
+          "name": "Angostura FC",
+          "image": "https://static.futbolenlatv.com/img/20250601103951-angostura-fc.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
+      ],
+      "event": {
+        "name": "Aragua - Angostura FC",
+        "description": "Aragua - Angostura FC el domingo, 15 de junio de 2025 a las 22:00",
+        "startDate": "2025-06-15T20:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "22:30",
+        "day": "15/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -2572,24 +2336,180 @@
       },
       "teams": {
         "local": {
-          "name": "Barcelona SC",
-          "image": "https://static.futbolenlatv.com/img/20130416105502_barcelona-sporting-club.webp"
+          "name": "Deportivo Cuenca",
+          "image": "https://static.futbolenlatv.com/img/20140830015002-deportivo-cuenca.webp"
         },
         "visitor": {
-          "name": "Manta FC",
-          "image": "https://static.futbolenlatv.com/img/20140823020451-manta-fc.webp"
+          "name": "El Nacional",
+          "image": "https://static.futbolenlatv.com/img/20140720101115-club-deportivo-el-nacional.webp"
         }
       },
       "channels": [
         "ElCanalDelFutbol.com"
       ],
       "event": {
-        "name": "Barcelona SC - Manta FC",
-        "description": "Barcelona SC - Manta FC el sábado, 14 de junio de 2025 a las 23:30",
-        "startDate": "2025-06-14T21:30:00",
+        "name": "Deportivo Cuenca - El Nacional",
+        "description": "Deportivo Cuenca - El Nacional el domingo, 15 de junio de 2025 a las 22:30",
+        "startDate": "2025-06-15T20:30:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "22:45",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Segunda Uruguay",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Central Español",
+          "image": "https://static.futbolenlatv.com/img/20141206095956-central-espanyol.webp"
+        },
+        "visitor": {
+          "name": "La Luz FC",
+          "image": "https://static.futbolenlatv.com/img/20220317131544-la-luz-fc.webp"
+        }
+      },
+      "channels": [
+        "GolTV Play"
+      ],
+      "event": {
+        "name": "Central Español - La Luz FC",
+        "description": "Central Español - La Luz FC el domingo, 15 de junio de 2025 a las 22:45",
+        "startDate": "2025-06-15T20:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "23:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Futve 2",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Dynamo Puerto",
+          "image": "https://static.futbolenlatv.com/img/20190904080859-dynamo-puerto.webp"
+        },
+        "visitor": {
+          "name": "Mineros Guayana",
+          "image": "https://static.futbolenlatv.com/img/20171102100631-mineros-guayana.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
+      ],
+      "event": {
+        "name": "Dynamo Puerto - Mineros Guayana",
+        "description": "Dynamo Puerto - Mineros Guayana el domingo, 15 de junio de 2025 a las 23:00",
+        "startDate": "2025-06-15T21:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "23:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Futve 2",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Academia Rey",
+          "image": "https://static.futbolenlatv.com/img/20201127093447-academia-rey.webp"
+        },
+        "visitor": {
+          "name": "Puerto Cabello B",
+          "image": "https://static.futbolenlatv.com/img/20180122072828-puerto-cabello.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
+      ],
+      "event": {
+        "name": "Academia Rey - Puerto Cabello B",
+        "description": "Academia Rey - Puerto Cabello B el domingo, 15 de junio de 2025 a las 23:00",
+        "startDate": "2025-06-15T21:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "23:00",
+        "day": "15/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Futve 2",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Marítimo de La Guaira",
+          "image": "https://static.futbolenlatv.com/img/20230511095201-maritimo-de-la-guaira.webp"
+        },
+        "visitor": {
+          "name": "Bolívar SC",
+          "image": "https://static.futbolenlatv.com/img/20210515140253-bolivar-sport-club.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
+      ],
+      "event": {
+        "name": "Marítimo de La Guaira - Bolívar SC",
+        "description": "Marítimo de La Guaira - Bolívar SC el domingo, 15 de junio de 2025 a las 23:00",
+        "startDate": "2025-06-15T21:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "18:45",
+        "day": "17/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Futsal",
+        "round": "Playoff Final"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "Teledeporte",
+        "RTVE Play"
+      ],
+      "event": {},
+      "eventType": "tournament"
     },
     {
       "sport": "futbol-americano",
