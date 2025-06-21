@@ -3,8 +3,62 @@
     {
       "sport": "boxeo",
       "date": {
-        "hour": "11:00",
-        "day": "20/06/2025",
+        "hour": "03:00",
+        "day": "21/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Velada",
+        "round": "Team Combat League"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "boxeo",
+      "date": {
+        "hour": "03:00",
+        "day": "21/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Velada",
+        "round": "Peso Supermediano"
+      },
+      "teams": {
+        "local": {
+          "name": "D. Stevens",
+          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
+        },
+        "visitor": {
+          "name": "P. Khamukov",
+          "image": "https://static.futbolenlatv.com/img/20130108083706_rusia.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "boxeo",
+      "date": {
+        "hour": "14:00",
+        "day": "21/06/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -22,11 +76,68 @@
         }
       },
       "channels": [
-        "DAZN"
+        "DAZN",
+        "DAZN App Gratis"
       ],
       "event": {},
       "eventType": "tournament"
+    },
+    {
+      "sport": "boxeo",
+      "date": {
+        "hour": "18:00",
+        "day": "21/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Campeonato de España",
+        "round": "Finales"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "RTVE Play"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "boxeo",
+      "date": {
+        "hour": "20:00",
+        "day": "21/06/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Título Mundial",
+        "round": "Peso Mosca"
+      },
+      "teams": {
+        "local": {
+          "name": "G. Yafai",
+          "image": "https://static.futbolenlatv.com/img/20130204124525_inglaterra.webp"
+        },
+        "visitor": {
+          "name": "F. Rodriguez Jr.",
+          "image": "https://static.futbolenlatv.com/img/20130208071540_mexico.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN 2",
+        "DAZN 2 Bar"
+      ],
+      "event": {},
+      "eventType": "match"
     }
   ],
-  "updated": "2025-06-20T00:12:41.604Z"
+  "updated": "2025-06-21T00:12:34.241Z"
 }
