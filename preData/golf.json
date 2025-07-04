@@ -3,13 +3,40 @@
     {
       "sport": "golf",
       "date": {
+        "hour": "12:30",
+        "day": "04/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "BMW International Open",
+        "round": "Jornada 2"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "Movistar Golf"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "golf",
+      "date": {
         "hour": "13:45",
-        "day": "03/07/2025",
+        "day": "04/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "John Deere Classic",
-        "round": "Jornada 1"
+        "round": "Jornada 2"
       },
       "teams": {
         "local": {
@@ -30,40 +57,13 @@
     {
       "sport": "golf",
       "date": {
-        "hour": "14:00",
-        "day": "03/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "BMW International Open",
-        "round": "Jornada 1"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Movistar Golf"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "golf",
-      "date": {
         "hour": "17:00",
-        "day": "03/07/2025",
+        "day": "04/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Women's Irish Open",
-        "round": "Jornada 1"
+        "round": "Jornada 2"
       },
       "teams": {
         "local": {
@@ -83,5 +83,5 @@
       "eventType": "tournament"
     }
   ],
-  "updated": "2025-07-03T00:13:52.996Z"
+  "updated": "2025-07-04T00:13:10.456Z"
 }
