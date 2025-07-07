@@ -1,6 +1,33 @@
 {
   "matches": [
     {
+      "sport": "padel",
+      "date": {
+        "hour": "PD",
+        "day": "14/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Málaga Open",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "Premier Padel YouTube"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
       "sport": "hockey-patines",
       "date": {
         "hour": "20:30",
@@ -255,8 +282,8 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "00:00",
-        "day": "06/07/2025",
+        "hour": "00:10",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -265,21 +292,21 @@
       },
       "teams": {
         "local": {
-          "name": "Ferro Carril Oeste",
-          "image": "https://static.futbolenlatv.com/img/20140815121131-ferro.webp"
+          "name": "Almirante Brown",
+          "image": "https://static.futbolenlatv.com/img/20140817113901-almirante-brown.webp"
         },
         "visitor": {
-          "name": "Gimnasia y Tiro",
-          "image": "https://static.futbolenlatv.com/img/20140903054146-gimnasiaytiro.webp"
+          "name": "Temperley",
+          "image": "https://static.futbolenlatv.com/img/20140814114320-temperley.webp"
         }
       },
       "channels": [
         "Fanatiz"
       ],
       "event": {
-        "name": "Ferro Carril Oeste - Gimnasia y Tiro",
-        "description": "Ferro Carril Oeste - Gimnasia y Tiro el domingo, 6 de julio de 2025 a las 0:00",
-        "startDate": "2025-07-05T22:00:00",
+        "name": "Almirante Brown - Temperley",
+        "description": "Almirante Brown - Temperley el lunes, 7 de julio de 2025 a las 0:10",
+        "startDate": "2025-07-06T22:10:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -288,7 +315,7 @@
       "sport": "baloncesto",
       "date": {
         "hour": "00:30",
-        "day": "06/07/2025",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -301,8 +328,8 @@
           "image": "https://static.futbolenlatv.com/img/20130808083832-gs-warriors.webp"
         },
         "visitor": {
-          "name": "Los Angeles Lakers",
-          "image": "https://static.futbolenlatv.com/img/20130808083216-la-lakers.webp"
+          "name": "San Antonio Spurs",
+          "image": "https://static.futbolenlatv.com/img/20191028090705-san-antonio-spurs.webp"
         }
       },
       "channels": [
@@ -315,7 +342,7 @@
       "sport": "futbol",
       "date": {
         "hour": "00:30",
-        "day": "06/07/2025",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -324,80 +351,54 @@
       },
       "teams": {
         "local": {
-          "name": "Alianza Universidad",
-          "image": "https://static.futbolenlatv.com/img/20190121122402-alianza-universidad.webp"
+          "name": "Deportivo Garcilaso",
+          "image": "https://static.futbolenlatv.com/img/20221127112959-club-deportivo-garcilaso.webp"
         },
         "visitor": {
-          "name": "Alianza Atlético",
-          "image": "https://static.futbolenlatv.com/img/20150130100414-alianza-atletico.webp"
+          "name": "Universitario",
+          "image": "https://static.futbolenlatv.com/img/20140603082828-club-universitario-de-deportes.webp"
         }
       },
       "channels": [
         "Fanatiz"
       ],
       "event": {
-        "name": "Alianza Universidad - Alianza Atlético",
-        "description": "Alianza Universidad - Alianza Atlético el domingo, 6 de julio de 2025 a las 0:30",
-        "startDate": "2025-07-05T22:30:00",
+        "name": "Deportivo Garcilaso - Universitario",
+        "description": "Deportivo Garcilaso - Universitario el lunes, 7 de julio de 2025 a las 0:30",
+        "startDate": "2025-07-06T22:30:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
     },
     {
-      "sport": "baloncesto",
+      "sport": "futbol",
       "date": {
         "hour": "01:00",
-        "day": "06/07/2025",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "NBA Summer League",
-        "round": "Salt Lake City"
+        "competition": "CONCACAF Copa Oro",
+        "round": "Final"
       },
       "teams": {
         "local": {
-          "name": "Oklahoma C. Thunder",
-          "image": "https://static.futbolenlatv.com/img/20130808083758-oc-thunder.webp"
+          "name": "Estados Unidos",
+          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
         },
         "visitor": {
-          "name": "Memphis Grizzlies",
-          "image": "https://static.futbolenlatv.com/img/20191028090731-memphis-grizzlies.webp"
+          "name": "México",
+          "image": "https://static.futbolenlatv.com/img/20130208071540_mexico.webp"
         }
       },
       "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "01:15",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "MLS",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Charlotte FC",
-          "image": "https://static.futbolenlatv.com/img/20211203131714-charlotte-fc.webp"
-        },
-        "visitor": {
-          "name": "Orlando City",
-          "image": "https://static.futbolenlatv.com/img/20150303075849-orlando-city.webp"
-        }
-      },
-      "channels": [
-        "MLS Season Pass"
+        "GolStadium Premium",
+        "GolStadium"
       ],
       "event": {
-        "name": "Charlotte FC - Orlando City",
-        "description": "Charlotte FC - Orlando City el domingo, 6 de julio de 2025 a las 1:15",
-        "startDate": "2025-07-05T23:15:00",
+        "name": "Estados Unidos - México",
+        "description": "Estados Unidos - México el lunes, 7 de julio de 2025 a las 1:00",
+        "startDate": "2025-07-06T23:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -405,104 +406,8 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "01:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "MLS",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "CF Montréal",
-          "image": "https://static.futbolenlatv.com/img/20211013184128-montreal-impact.webp"
-        },
-        "visitor": {
-          "name": "Inter Miami CF",
-          "image": "https://static.futbolenlatv.com/img/20191208031649-inter-miami-cf.webp"
-        }
-      },
-      "channels": [
-        "MLS Season Pass"
-      ],
-      "event": {
-        "name": "CF Montréal - Inter Miami CF",
-        "description": "CF Montréal - Inter Miami CF el domingo, 6 de julio de 2025 a las 1:30",
-        "startDate": "2025-07-05T23:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "01:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "MLS",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "DC United",
-          "image": "https://static.futbolenlatv.com/img/20180813091232-dc-united.webp"
-        },
-        "visitor": {
-          "name": "Atlanta United",
-          "image": "https://static.futbolenlatv.com/img/20170114101757-atlanta-united.webp"
-        }
-      },
-      "channels": [
-        "MLS Season Pass"
-      ],
-      "event": {
-        "name": "DC United - Atlanta United",
-        "description": "DC United - Atlanta United el domingo, 6 de julio de 2025 a las 1:30",
-        "startDate": "2025-07-05T23:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "01:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "MLS",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "FC Cincinnati",
-          "image": "https://static.futbolenlatv.com/img/20190525113431-fc-cincinnati.webp"
-        },
-        "visitor": {
-          "name": "Chicago Fire",
-          "image": "https://static.futbolenlatv.com/img/20211013184156-chicago-fire.webp"
-        }
-      },
-      "channels": [
-        "MLS Season Pass"
-      ],
-      "event": {
-        "name": "FC Cincinnati - Chicago Fire",
-        "description": "FC Cincinnati - Chicago Fire el domingo, 6 de julio de 2025 a las 1:30",
-        "startDate": "2025-07-05T23:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "02:00",
-        "day": "06/07/2025",
+        "hour": "01:00",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -511,21 +416,21 @@
       },
       "teams": {
         "local": {
-          "name": "Independiente del Valle",
-          "image": "https://static.futbolenlatv.com/img/20191111111808-independiente-del-valle.webp"
+          "name": "Delfín SC",
+          "image": "https://static.futbolenlatv.com/img/20191111111707-delfin-sc.webp"
         },
         "visitor": {
-          "name": "Barcelona SC",
-          "image": "https://static.futbolenlatv.com/img/20130416105502_barcelona-sporting-club.webp"
+          "name": "LDU Quito",
+          "image": "https://static.futbolenlatv.com/img/20130124122244_ldu-quito.webp"
         }
       },
       "channels": [
         "ElCanalDelFutbol.com"
       ],
       "event": {
-        "name": "Independiente del Valle - Barcelona SC",
-        "description": "Independiente del Valle - Barcelona SC el domingo, 6 de julio de 2025 a las 2:00",
-        "startDate": "2025-07-06T00:00:00",
+        "name": "Delfín SC - LDU Quito",
+        "description": "Delfín SC - LDU Quito el lunes, 7 de julio de 2025 a las 1:00",
+        "startDate": "2025-07-06T23:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -533,122 +438,31 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "02:30",
-        "day": "06/07/2025",
+        "hour": "02:00",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "MLS",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Nashville SC",
-          "image": "https://static.futbolenlatv.com/img/20200625110211-nashville-sc.webp"
-        },
-        "visitor": {
-          "name": "Philadelphia Union",
-          "image": "https://static.futbolenlatv.com/img/20130322121746_philadelphia-union.webp"
-        }
-      },
-      "channels": [
-        "MLS Season Pass"
-      ],
-      "event": {
-        "name": "Nashville SC - Philadelphia Union",
-        "description": "Nashville SC - Philadelphia Union el domingo, 6 de julio de 2025 a las 2:30",
-        "startDate": "2025-07-06T00:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "02:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "MLS",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Austin FC",
-          "image": "https://static.futbolenlatv.com/img/20210320174617-austin-fc.webp"
-        },
-        "visitor": {
-          "name": "Los Angeles FC",
-          "image": "https://static.futbolenlatv.com/img/20171228044703-los-angeles-fc.webp"
-        }
-      },
-      "channels": [
-        "MLS Season Pass"
-      ],
-      "event": {
-        "name": "Austin FC - Los Angeles FC",
-        "description": "Austin FC - Los Angeles FC el domingo, 6 de julio de 2025 a las 2:30",
-        "startDate": "2025-07-06T00:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "03:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA Summer League",
-        "round": "Salt Lake City"
-      },
-      "teams": {
-        "local": {
-          "name": "Utah Jazz",
-          "image": "https://static.futbolenlatv.com/img/20191028090654-utah-jazz.webp"
-        },
-        "visitor": {
-          "name": "Philadelphia 76ers",
-          "image": "https://static.futbolenlatv.com/img/20191028090432-philadelphia-76ers.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "03:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga 1 Perú",
+        "competition": "OFC Women's Nations Cup",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Alianza Lima",
-          "image": "https://static.futbolenlatv.com/img/20140603083857-alianza-lima.webp"
+          "name": "Islas Cook",
+          "image": "https://static.futbolenlatv.com/img/20220316095217-cook-islands.webp"
         },
         "visitor": {
-          "name": "Binacional",
-          "image": "https://static.futbolenlatv.com/img/20171209110119-binacional.webp"
+          "name": "Samoa",
+          "image": "https://static.futbolenlatv.com/img/20141210125136-samoa.webp"
         }
       },
       "channels": [
-        "Fanatiz"
+        "FIFA+"
       ],
       "event": {
-        "name": "Alianza Lima - Binacional",
-        "description": "Alianza Lima - Binacional el domingo, 6 de julio de 2025 a las 3:00",
-        "startDate": "2025-07-06T01:00:00",
+        "name": "Islas Cook - Samoa",
+        "description": "Islas Cook - Samoa el lunes, 7 de julio de 2025 a las 2:00",
+        "startDate": "2025-07-07T00:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -656,164 +470,40 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "03:30",
-        "day": "06/07/2025",
+        "hour": "05:00",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "MLS",
-        "round": "Liga Regular"
+        "competition": "OFC Women's Nations Cup",
+        "round": null
       },
       "teams": {
         "local": {
-          "name": "Real Salt Lake",
-          "image": "https://static.futbolenlatv.com/img/20190401121548-real-salt-lake.webp"
+          "name": "Papúa Nueva Guinea",
+          "image": "https://static.futbolenlatv.com/img/20161024013212-papua-nueva-guinea.webp"
         },
         "visitor": {
-          "name": "St. Louis City SC",
-          "image": "https://static.futbolenlatv.com/img/20220410122514-st-louis-city-sc-2.webp"
+          "name": "Tahití",
+          "image": "https://static.futbolenlatv.com/img/20130208071633_tahiti.webp"
         }
       },
       "channels": [
-        "MLS Season Pass"
+        "FIFA+"
       ],
       "event": {
-        "name": "Real Salt Lake - St. Louis City SC",
-        "description": "Real Salt Lake - St. Louis City SC el domingo, 6 de julio de 2025 a las 3:30",
-        "startDate": "2025-07-06T01:30:00",
+        "name": "Papúa Nueva Guinea - Tahití",
+        "description": "Papúa Nueva Guinea - Tahití el lunes, 7 de julio de 2025 a las 5:00",
+        "startDate": "2025-07-07T03:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "04:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "MLS",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Portland Timbers",
-          "image": "https://static.futbolenlatv.com/img/20130416055913_portland-timbers.webp"
-        },
-        "visitor": {
-          "name": "New England Revolution",
-          "image": "https://static.futbolenlatv.com/img/20220304095551-new-england.webp"
-        }
-      },
-      "channels": [
-        "MLS Season Pass"
-      ],
-      "event": {
-        "name": "Portland Timbers - New England Revolution",
-        "description": "Portland Timbers - New England Revolution el domingo, 6 de julio de 2025 a las 4:30",
-        "startDate": "2025-07-06T02:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "04:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "MLS",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "San Jose Earthquakes",
-          "image": "https://static.futbolenlatv.com/img/20180326112854-san-jose-earthquakes.webp"
-        },
-        "visitor": {
-          "name": "New York RB",
-          "image": "https://static.futbolenlatv.com/img/20130306094321_new-york-red-bull.webp"
-        }
-      },
-      "channels": [
-        "MLS Season Pass"
-      ],
-      "event": {
-        "name": "San Jose Earthquakes - New York RB",
-        "description": "San Jose Earthquakes - New York RB el domingo, 6 de julio de 2025 a las 4:30",
-        "startDate": "2025-07-06T02:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "04:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "MLS",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "San Diego FC",
-          "image": "https://static.futbolenlatv.com/img/20241221122105-san-diego-fc.webp"
-        },
-        "visitor": {
-          "name": "Houston Dynamo",
-          "image": "https://static.futbolenlatv.com/img/20211013184210-houston-dynamo.webp"
-        }
-      },
-      "channels": [
-        "MLS Season Pass"
-      ],
-      "event": {
-        "name": "San Diego FC - Houston Dynamo",
-        "description": "San Diego FC - Houston Dynamo el domingo, 6 de julio de 2025 a las 4:30",
-        "startDate": "2025-07-06T02:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "10:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "FIA Fórmula 3",
-        "round": "G.P. Gran Bretaña (Silverstone)"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN F1"
-      ],
-      "event": {},
-      "eventType": "tournament"
     },
     {
       "sport": "futbol",
       "date": {
         "hour": "12:00",
-        "day": "06/07/2025",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -822,21 +512,21 @@
       },
       "teams": {
         "local": {
-          "name": "Angola",
-          "image": "https://static.futbolenlatv.com/img/20130103113808_angola.webp"
+          "name": "Zambia",
+          "image": "https://static.futbolenlatv.com/img/20130103115245_zambia.webp"
         },
         "visitor": {
-          "name": "Malaui",
-          "image": "https://static.futbolenlatv.com/img/20141007074132-malaui.webp"
+          "name": "Suazilandia",
+          "image": "https://static.futbolenlatv.com/img/20150611081125-suazilandia.webp"
         }
       },
       "channels": [
         "FIFA+"
       ],
       "event": {
-        "name": "Angola - Malaui",
-        "description": "Angola - Malaui el domingo, 6 de julio de 2025 a las 12:00",
-        "startDate": "2025-07-06T10:00:00",
+        "name": "Zambia - Suazilandia",
+        "description": "Zambia - Suazilandia el lunes, 7 de julio de 2025 a las 12:00",
+        "startDate": "2025-07-07T10:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -845,7 +535,7 @@
       "sport": "futbol",
       "date": {
         "hour": "12:00",
-        "day": "06/07/2025",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -854,21 +544,21 @@
       },
       "teams": {
         "local": {
-          "name": "Malaui",
-          "image": "https://static.futbolenlatv.com/img/20141007074132-malaui.webp"
+          "name": "Sudáfrica",
+          "image": "https://static.futbolenlatv.com/img/20130103115154_sudafrica.webp"
         },
         "visitor": {
-          "name": "Botswana",
-          "image": "https://static.futbolenlatv.com/img/20130403093815_botswana.webp"
+          "name": "Suazilandia",
+          "image": "https://static.futbolenlatv.com/img/20150611081125-suazilandia.webp"
         }
       },
       "channels": [
         "FIFA+"
       ],
       "event": {
-        "name": "Malaui - Botswana",
-        "description": "Malaui - Botswana el domingo, 6 de julio de 2025 a las 12:00",
-        "startDate": "2025-07-06T10:00:00",
+        "name": "Sudáfrica - Suazilandia",
+        "description": "Sudáfrica - Suazilandia el lunes, 7 de julio de 2025 a las 12:00",
+        "startDate": "2025-07-07T10:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -877,62 +567,34 @@
       "sport": "tenis",
       "date": {
         "hour": "12:00",
-        "day": "06/07/2025",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Wimbledon",
-        "round": "1/8 de final (Pista 2)"
+        "round": "2ª Ronda Junior Femenina"
       },
       "teams": {
         "local": {
-          "name": "K. Khachanov",
-          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
+          "name": "C. Esquiva Banuls",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
         },
         "visitor": {
-          "name": "K. Majchrzak",
-          "image": "https://static.futbolenlatv.com/img/20130727123454-polonia.webp"
+          "name": "Y. Shao",
+          "image": "https://static.futbolenlatv.com/img/20130221121827_china.webp"
         }
       },
       "channels": [
-        "M+ Deportes"
+        "M+ Deportes 4"
       ],
       "event": {},
       "eventType": "match"
     },
     {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "12:05",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "FIA Fórmula 2",
-        "round": "G.P. Gran Bretaña (Silverstone)"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN F1"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
       "sport": "baloncesto",
       "date": {
         "hour": "12:30",
-        "day": "06/07/2025",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -941,8 +603,8 @@
       },
       "teams": {
         "local": {
-          "name": "Finlandia",
-          "image": "https://static.futbolenlatv.com/img/20130124053613_finlandia.webp"
+          "name": "Eslovenia",
+          "image": "https://static.futbolenlatv.com/img/20130204101247_eslovenia.webp"
         },
         "visitor": {
           "name": "Grecia",
@@ -959,7 +621,7 @@
       "sport": "baloncesto",
       "date": {
         "hour": "12:30",
-        "day": "06/07/2025",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -968,8 +630,8 @@
       },
       "teams": {
         "local": {
-          "name": "Francia",
-          "image": "https://static.futbolenlatv.com/img/20130124053558_francia.webp"
+          "name": "Israel",
+          "image": "https://static.futbolenlatv.com/img/20130311111216_israel.webp"
         },
         "visitor": {
           "name": "Montenegro",
@@ -983,113 +645,28 @@
       "eventType": "match"
     },
     {
-      "sport": "golf",
-      "date": {
-        "hour": "12:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "BMW International Open",
-        "round": "Jornada 4"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Movistar Golf"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "13:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "DTM",
-        "round": "Norisring"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "padel",
-      "date": {
-        "hour": "14:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Burdeos Open",
-        "round": "Final Femenina"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Red Bull TV",
-        "M+ Vamos",
-        "M+ #Vamos Bar",
-        "Movistar+ Lite"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
       "sport": "tenis",
       "date": {
-        "hour": "14:00",
-        "day": "06/07/2025",
+        "hour": "13:30",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Wimbledon",
-        "round": "1/8 de final (Pista 1)"
+        "round": "2ª Ronda Junior Femenina"
       },
       "teams": {
         "local": {
-          "name": "T. Fritz",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+          "name": "N. Torner",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
         },
         "visitor": {
-          "name": "J. Thompson",
-          "image": "https://static.futbolenlatv.com/img/20130727123414-Australia.webp"
+          "name": "K. Sawashiro",
+          "image": "https://static.futbolenlatv.com/img/20130208071559_japon.webp"
         }
       },
       "channels": [
-        "M+ Deportes"
+        "M+ Deportes 4"
       ],
       "event": {},
       "eventType": "match"
@@ -1098,7 +675,35 @@
       "sport": "tenis",
       "date": {
         "hour": "14:00",
-        "day": "06/07/2025",
+        "day": "07/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Wimbledon",
+        "round": "1/8 de final (Pista 1)"
+      },
+      "teams": {
+        "local": {
+          "name": "E. Alexandrova",
+          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
+        },
+        "visitor": {
+          "name": "B. Bencic",
+          "image": "https://static.futbolenlatv.com/img/20130727123327-Suiza.webp"
+        }
+      },
+      "channels": [
+        "M+ Ellas Vamos",
+        "Movistar+ Lite"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "14:00",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -1107,503 +712,26 @@
       },
       "teams": {
         "local": {
-          "name": "S. Sierra",
-          "image": "https://static.futbolenlatv.com/img/20200515205331-guillermo-canas.webp"
-        },
-        "visitor": {
-          "name": "L. Siegemund",
-          "image": "https://static.futbolenlatv.com/img/20130727123343-Alemania.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "golf",
-      "date": {
-        "hour": "14:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "John Deere Classic",
-        "round": "Jornada 4"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "MAX"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "14:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga noruega",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Sarpsborg 08",
-          "image": "https://static.futbolenlatv.com/img/20180830115157-sarpsborg-08.webp"
-        },
-        "visitor": {
-          "name": "Haugesund",
-          "image": "https://static.futbolenlatv.com/img/20220908093631-haugesund.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "Sarpsborg 08 - Haugesund",
-        "description": "Sarpsborg 08 - Haugesund el domingo, 6 de julio de 2025 a las 14:30",
-        "startDate": "2025-07-06T12:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "14:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga noruega",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Sandefjord",
-          "image": "https://static.futbolenlatv.com/img/20200606225008-sandefjord-fotball.webp"
-        },
-        "visitor": {
-          "name": "Rosenborg",
-          "image": "https://static.futbolenlatv.com/img/20150911103539-rosenborg.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "Sandefjord - Rosenborg",
-        "description": "Sandefjord - Rosenborg el domingo, 6 de julio de 2025 a las 14:30",
-        "startDate": "2025-07-06T12:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "14:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga noruega",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "KFUM Oslo",
-          "image": "https://static.futbolenlatv.com/img/20220322160812-kfum-oslo.webp"
-        },
-        "visitor": {
-          "name": "Bryne FK",
-          "image": "https://static.futbolenlatv.com/img/20220322121339-bryne-fk.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "KFUM Oslo - Bryne FK",
-        "description": "KFUM Oslo - Bryne FK el domingo, 6 de julio de 2025 a las 14:30",
-        "startDate": "2025-07-06T12:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "14:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Wimbledon",
-        "round": "1/8 de final (Pista Central)"
-      },
-      "teams": {
-        "local": {
-          "name": "S. Kartal",
-          "image": "https://static.futbolenlatv.com/img/20130625051918-reino-unido.webp"
-        },
-        "visitor": {
-          "name": "A. Pavlyuchenkova",
+          "name": "L. Samsonova",
           "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
-        }
-      },
-      "channels": [
-        "M+ Wimbledon UHD",
-        "M+ Deportes 2"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "15:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Europeo Femenino Sub-18",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Italia",
-          "image": "https://static.futbolenlatv.com/img/20130111045624_italia.webp"
         },
         "visitor": {
-          "name": "Eslovenia",
-          "image": "https://static.futbolenlatv.com/img/20130204101247_eslovenia.webp"
+          "name": "J. Bouzas",
+          "image": "https://static.futbolenlatv.com/img/20200511222904-carlos-costa.webp"
         }
       },
       "channels": [
-        "FIBA YouTube"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "15:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Europeo Femenino Sub-18",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Serbia",
-          "image": "https://static.futbolenlatv.com/img/20130318120848_serbia.webp"
-        },
-        "visitor": {
-          "name": "Israel",
-          "image": "https://static.futbolenlatv.com/img/20130311111216_israel.webp"
-        }
-      },
-      "channels": [
-        "FIBA YouTube"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "15:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Segunda Uruguay",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "La Luz FC",
-          "image": "https://static.futbolenlatv.com/img/20220317131544-la-luz-fc.webp"
-        },
-        "visitor": {
-          "name": "CA Fénix",
-          "image": "https://static.futbolenlatv.com/img/20141120070510-centro-atletico-fenix.webp"
-        }
-      },
-      "channels": [
-        "GolTV Play"
-      ],
-      "event": {
-        "name": "La Luz FC - CA Fénix",
-        "description": "La Luz FC - CA Fénix el domingo, 6 de julio de 2025 a las 15:00",
-        "startDate": "2025-07-06T13:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "15:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Superliga de Letonia",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "SC Grobiņa",
-          "image": "https://static.futbolenlatv.com/img/20250622121900-sc-grobina.webp"
-        },
-        "visitor": {
-          "name": "FK Metta",
-          "image": "https://static.futbolenlatv.com/img/20220304205325-fk-metta.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "SC Grobiņa - FK Metta",
-        "description": "SC Grobiņa - FK Metta el domingo, 6 de julio de 2025 a las 15:00",
-        "startDate": "2025-07-06T13:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "15:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Veikkausliiga",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "FF Jaro",
-          "image": "https://static.futbolenlatv.com/img/20220408180427-ff-jaro.webp"
-        },
-        "visitor": {
-          "name": "IFK Mariehamn",
-          "image": "https://static.futbolenlatv.com/img/20220323211959-ifk-mariehamn.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "FF Jaro - IFK Mariehamn",
-        "description": "FF Jaro - IFK Mariehamn el domingo, 6 de julio de 2025 a las 15:00",
-        "startDate": "2025-07-06T13:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "15:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "COSAFA U20 Championship",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Namibia",
-          "image": "https://static.futbolenlatv.com/img/20141210125124-namibia.webp"
-        },
-        "visitor": {
-          "name": "Zimbabue",
-          "image": "https://static.futbolenlatv.com/img/20130723025212-zimbaue.webp"
-        }
-      },
-      "channels": [
-        "FIFA+"
-      ],
-      "event": {
-        "name": "Namibia - Zimbabue",
-        "description": "Namibia - Zimbabue el domingo, 6 de julio de 2025 a las 15:00",
-        "startDate": "2025-07-06T13:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "15:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "COSAFA U20 Women's Championship",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Namibia",
-          "image": "https://static.futbolenlatv.com/img/20141210125124-namibia.webp"
-        },
-        "visitor": {
-          "name": "Zimbabue",
-          "image": "https://static.futbolenlatv.com/img/20130723025212-zimbaue.webp"
-        }
-      },
-      "channels": [
-        "FIFA+"
-      ],
-      "event": {
-        "name": "Namibia - Zimbabue",
-        "description": "Namibia - Zimbabue el domingo, 6 de julio de 2025 a las 15:00",
-        "startDate": "2025-07-06T13:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "golf",
-      "date": {
-        "hour": "15:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Women's Irish Open",
-        "round": "Jornada 4"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Movistar Golf 2",
-        "Movistar Golf"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "padel",
-      "date": {
-        "hour": "16:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": null,
-        "round": "Final Masculina"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Red Bull TV",
-        "M+ Vamos",
-        "M+ #Vamos Bar",
+        "M+ Ellas Vamos",
         "Movistar+ Lite"
       ],
       "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "16:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Fórmula 1",
-        "round": "G.P. Gran Bretaña (Silverstone)"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN F1"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "16:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Wimbledon",
-        "round": "1/8 de final (Pista 1)"
-      },
-      "teams": {
-        "local": {
-          "name": "N. Jarry",
-          "image": "https://static.futbolenlatv.com/img/20150201102036-Chile.webp"
-        },
-        "visitor": {
-          "name": "C. Norrie",
-          "image": "https://static.futbolenlatv.com/img/20140820091418-Gran-Bretana.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes"
-      ],
-      "event": {},
       "eventType": "match"
     },
     {
       "sport": "tenis",
       "date": {
-        "hour": "16:00",
-        "day": "06/07/2025",
+        "hour": "14:30",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -1612,12 +740,12 @@
       },
       "teams": {
         "local": {
-          "name": "A. Sabalenka",
-          "image": "https://static.futbolenlatv.com/img/20130727123407-Bielorrusia.webp"
+          "name": "A. De Miñaur",
+          "image": "https://static.futbolenlatv.com/img/20130727123414-Australia.webp"
         },
         "visitor": {
-          "name": "E. Mertens",
-          "image": "https://static.futbolenlatv.com/img/20130727123309-Belgica.webp"
+          "name": "N. Djokovic",
+          "image": "https://static.futbolenlatv.com/img/20130727123503-Serbia.webp"
         }
       },
       "channels": [
@@ -1630,128 +758,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "17:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "FIBA Mundial Sub-19",
-        "round": "3er Puesto"
-      },
-      "teams": {
-        "local": {
-          "name": "Nueva Zelanda",
-          "image": "https://static.futbolenlatv.com/img/20130523095300_nueva-zelanda.webp"
-        },
-        "visitor": {
-          "name": "Eslovenia",
-          "image": "https://static.futbolenlatv.com/img/20130204101247_eslovenia.webp"
-        }
-      },
-      "channels": [
-        "FIBA YouTube",
-        "DAZN"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "17:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Superliga de Letonia",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "SK Super Nova",
-          "image": "https://static.futbolenlatv.com/img/20220304205145-sk-super-nova.webp"
-        },
-        "visitor": {
-          "name": "FK Tukums 2000",
-          "image": "https://static.futbolenlatv.com/img/20220304205248-fk-tukums-2000.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "SK Super Nova - FK Tukums 2000",
-        "description": "SK Super Nova - FK Tukums 2000 el domingo, 6 de julio de 2025 a las 17:00",
-        "startDate": "2025-07-06T15:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "17:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Veikkausliiga",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "FC Haka",
-          "image": "https://static.futbolenlatv.com/img/20220323211906-fc-haka.webp"
-        },
-        "visitor": {
-          "name": "FC Inter Turku",
-          "image": "https://static.futbolenlatv.com/img/20220323211929-fc-inter-turku.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "FC Haka - FC Inter Turku",
-        "description": "FC Haka - FC Inter Turku el domingo, 6 de julio de 2025 a las 17:30",
-        "startDate": "2025-07-06T15:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "17:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Wimbledon",
-        "round": "1/8 de final (Pista Central)"
-      },
-      "teams": {
-        "local": {
-          "name": "A. Rublev",
-          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
-        },
-        "visitor": {
-          "name": "C. Alcaraz",
-          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
-        }
-      },
-      "channels": [
-        "M+ Wimbledon UHD",
-        "M+ Deportes 2"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "18:00",
-        "day": "06/07/2025",
+        "hour": "15:00",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -1760,462 +768,8 @@
       },
       "teams": {
         "local": {
-          "name": "Letonia",
-          "image": "https://static.futbolenlatv.com/img/20130524093608_letonia.webp"
-        },
-        "visitor": {
-          "name": "Bélgica",
-          "image": "https://static.futbolenlatv.com/img/20130121023530_belgica.webp"
-        }
-      },
-      "channels": [
-        "FIBA YouTube"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "18:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Europeo Femenino Sub-18",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Polonia",
-          "image": "https://static.futbolenlatv.com/img/20130528084142-Polonia.webp"
-        },
-        "visitor": {
           "name": "Turquía",
           "image": "https://static.futbolenlatv.com/img/20130513110846_turquia.webp"
-        }
-      },
-      "channels": [
-        "FIBA YouTube"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "18:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Eurocopa Femenina",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Noruega",
-          "image": "https://static.futbolenlatv.com/img/20171217021744-noruega.webp"
-        },
-        "visitor": {
-          "name": "Finlandia",
-          "image": "https://static.futbolenlatv.com/img/20130124053613_finlandia.webp"
-        }
-      },
-      "channels": [
-        "Teledeporte",
-        "RTVE Play"
-      ],
-      "event": {
-        "name": "Noruega - Finlandia",
-        "description": "Noruega - Finlandia el domingo, 6 de julio de 2025 a las 18:00",
-        "startDate": "2025-07-06T16:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "18:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Superliga de Letonia",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Riga FC",
-          "image": "https://static.futbolenlatv.com/img/20200922132129-riga-fc.webp"
-        },
-        "visitor": {
-          "name": "BFC Daugavpils",
-          "image": "https://static.futbolenlatv.com/img/20220304205124-bfc-daugavpils.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "Riga FC - BFC Daugavpils",
-        "description": "Riga FC - BFC Daugavpils el domingo, 6 de julio de 2025 a las 18:00",
-        "startDate": "2025-07-06T16:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "18:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Premier Islandia",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "KR Reykjavík",
-          "image": "https://static.futbolenlatv.com/img/20200814132630-kr-reykjavik.webp"
-        },
-        "visitor": {
-          "name": "KA Akureyri",
-          "image": "https://static.futbolenlatv.com/img/20220412192359-knattspyrnufelag-akureyrar.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "KR Reykjavík - KA Akureyri",
-        "description": "KR Reykjavík - KA Akureyri el domingo, 6 de julio de 2025 a las 18:00",
-        "startDate": "2025-07-06T16:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "18:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Wimbledon",
-        "round": "1/8 de final (Pista 1)"
-      },
-      "teams": {
-        "local": {
-          "name": "L. Noskova",
-          "image": "https://static.futbolenlatv.com/img/20130410124454_republica-checa.webp"
-        },
-        "visitor": {
-          "name": "A. Anisimova",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "18:05",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera Nacional Argentina",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "CA Atlanta",
-          "image": "https://static.futbolenlatv.com/img/20140812072403-ca-atlanta.webp"
-        },
-        "visitor": {
-          "name": "Arsenal Sarandí",
-          "image": "https://static.futbolenlatv.com/img/20121219051208_arsenal-de-sarandí.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "CA Atlanta - Arsenal Sarandí",
-        "description": "CA Atlanta - Arsenal Sarandí el domingo, 6 de julio de 2025 a las 18:05",
-        "startDate": "2025-07-06T16:05:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "19:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "IndyCar",
-        "round": "Grand Prix of Mid-Ohio"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "M+ Vamos",
-        "M+ #Vamos Bar",
-        "Movistar+ Lite"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "20:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NASCAR Cup Series",
-        "round": "Chicago Street Race"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "DAZN"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "FIBA Mundial Sub-19",
-        "round": "Final"
-      },
-      "teams": {
-        "local": {
-          "name": "Estados Unidos",
-          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
-        },
-        "visitor": {
-          "name": "Alemania",
-          "image": "https://static.futbolenlatv.com/img/20130130075653_alemania.webp"
-        }
-      },
-      "channels": [
-        "FIBA YouTube",
-        "DAZN"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Amistoso",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Pumas UNAM",
-          "image": "https://static.futbolenlatv.com/img/20220819163419-unam.webp"
-        },
-        "visitor": {
-          "name": "Leganés",
-          "image": "https://static.futbolenlatv.com/img/20121226110211_leganes.webp"
-        }
-      },
-      "channels": [
-        "Canal por confirmar"
-      ],
-      "event": {
-        "name": "Pumas UNAM - Leganés",
-        "description": "Pumas UNAM - Leganés el domingo, 6 de julio de 2025 a las 20:00",
-        "startDate": "2025-07-06T18:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga 1 Perú",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Sport Boys A.",
-          "image": "https://static.futbolenlatv.com/img/20180117111908-sport-boys.webp"
-        },
-        "visitor": {
-          "name": "Cusco FC",
-          "image": "https://static.futbolenlatv.com/img/20200827174745-real-garcilaso.webp"
-        }
-      },
-      "channels": [
-        "GolTV Play"
-      ],
-      "event": {
-        "name": "Sport Boys A. - Cusco FC",
-        "description": "Sport Boys A. - Cusco FC el domingo, 6 de julio de 2025 a las 20:00",
-        "startDate": "2025-07-06T18:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Pro Ecuador",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Aucas",
-          "image": "https://static.futbolenlatv.com/img/20140926023126-aucas.webp"
-        },
-        "visitor": {
-          "name": "Macará",
-          "image": "https://static.futbolenlatv.com/img/20150808111412-macara.webp"
-        }
-      },
-      "channels": [
-        "ElCanalDelFutbol.com"
-      ],
-      "event": {
-        "name": "Aucas - Macará",
-        "description": "Aucas - Macará el domingo, 6 de julio de 2025 a las 20:00",
-        "startDate": "2025-07-06T18:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:00",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Campeonato Uruguayo",
-        "round": "Final Torneo Intermedio"
-      },
-      "teams": {
-        "local": {
-          "name": "Nacional",
-          "image": "https://static.futbolenlatv.com/img/20130227101637_club-nacional-uruguay.webp"
-        },
-        "visitor": {
-          "name": "Peñarol",
-          "image": "https://static.futbolenlatv.com/img/20130410092630_penarol.webp"
-        }
-      },
-      "channels": [
-        "GolTV Play"
-      ],
-      "event": {
-        "name": "Nacional - Peñarol",
-        "description": "Nacional - Peñarol el domingo, 6 de julio de 2025 a las 20:00",
-        "startDate": "2025-07-06T18:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:05",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera Nacional Argentina",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Chacarita Juniors",
-          "image": "https://static.futbolenlatv.com/img/20140812072613-chacarita.webp"
-        },
-        "visitor": {
-          "name": "Defensores Belgrano",
-          "image": "https://static.futbolenlatv.com/img/20150210115601-defensores-belgrano.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "Chacarita Juniors - Defensores Belgrano",
-        "description": "Chacarita Juniors - Defensores Belgrano el domingo, 6 de julio de 2025 a las 20:05",
-        "startDate": "2025-07-06T18:05:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:30",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Europeo Femenino Sub-18",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "España",
-          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
         },
         "visitor": {
           "name": "República Checa",
@@ -2231,8 +785,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "20:30",
-        "day": "06/07/2025",
+        "hour": "15:00",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -2241,8 +795,216 @@
       },
       "teams": {
         "local": {
+          "name": "Letonia",
+          "image": "https://static.futbolenlatv.com/img/20130524093608_letonia.webp"
+        },
+        "visitor": {
           "name": "Hungría",
           "image": "https://static.futbolenlatv.com/img/20130530093548-Hungria.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:00",
+        "day": "07/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "COSAFA U20 Championship",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Sudáfrica",
+          "image": "https://static.futbolenlatv.com/img/20130103115154_sudafrica.webp"
+        },
+        "visitor": {
+          "name": "Botswana",
+          "image": "https://static.futbolenlatv.com/img/20130403093815_botswana.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
+      ],
+      "event": {
+        "name": "Sudáfrica - Botswana",
+        "description": "Sudáfrica - Botswana el lunes, 7 de julio de 2025 a las 15:00",
+        "startDate": "2025-07-07T13:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:00",
+        "day": "07/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "COSAFA U20 Women's Championship",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Zambia",
+          "image": "https://static.futbolenlatv.com/img/20130103115245_zambia.webp"
+        },
+        "visitor": {
+          "name": "Angola",
+          "image": "https://static.futbolenlatv.com/img/20130103113808_angola.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
+      ],
+      "event": {
+        "name": "Zambia - Angola",
+        "description": "Zambia - Angola el lunes, 7 de julio de 2025 a las 15:00",
+        "startDate": "2025-07-07T13:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "16:30",
+        "day": "07/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Wimbledon",
+        "round": "1/8 de final (Pista Central)"
+      },
+      "teams": {
+        "local": {
+          "name": "M. Andreeva",
+          "image": "https://static.futbolenlatv.com/img/20130108083706_rusia.webp"
+        },
+        "visitor": {
+          "name": "E. Navarro",
+          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+        }
+      },
+      "channels": [
+        "M+ Wimbledon UHD",
+        "M+ Ellas Vamos",
+        "Movistar+ Lite",
+        "M+ Deportes 2"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "07/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Veikkausliiga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "KTP",
+          "image": "https://static.futbolenlatv.com/img/20220408174753-kotkan-tyovaen-palloilijat.webp"
+        },
+        "visitor": {
+          "name": "Gnistan",
+          "image": "https://static.futbolenlatv.com/img/20220408180524-gnistan.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "KTP - Gnistan",
+        "description": "KTP - Gnistan el lunes, 7 de julio de 2025 a las 17:00",
+        "startDate": "2025-07-07T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "17:30",
+        "day": "07/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Wimbledon",
+        "round": "1/8 de final (Pista 1)"
+      },
+      "teams": {
+        "local": {
+          "name": "I. Swiatek",
+          "image": "https://static.futbolenlatv.com/img/20130727123454-polonia.webp"
+        },
+        "visitor": {
+          "name": "C. Tauson",
+          "image": "https://static.futbolenlatv.com/img/20200527100720-danish-superliga.webp"
+        }
+      },
+      "channels": [
+        "M+ Ellas Vamos",
+        "Movistar+ Lite"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:00",
+        "day": "07/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Europeo Femenino Sub-18",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Italia",
+          "image": "https://static.futbolenlatv.com/img/20130111045624_italia.webp"
+        },
+        "visitor": {
+          "name": "Finlandia",
+          "image": "https://static.futbolenlatv.com/img/20130124053613_finlandia.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:00",
+        "day": "07/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Europeo Femenino Sub-18",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Bélgica",
+          "image": "https://static.futbolenlatv.com/img/20130121023530_belgica.webp"
         },
         "visitor": {
           "name": "Portugal",
@@ -2258,8 +1020,8 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "21:00",
-        "day": "06/07/2025",
+        "hour": "18:00",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -2268,113 +1030,104 @@
       },
       "teams": {
         "local": {
-          "name": "Suiza",
-          "image": "https://static.futbolenlatv.com/img/20130410124433_suiza.webp"
+          "name": "España",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
         },
         "visitor": {
-          "name": "Islandia",
-          "image": "https://static.futbolenlatv.com/img/20171107062145-islandia.webp"
+          "name": "Bélgica",
+          "image": "https://static.futbolenlatv.com/img/20130121023530_belgica.webp"
         }
       },
       "channels": [
-        "Teledeporte",
+        "La 1 TVE",
         "RTVE Play"
       ],
       "event": {
-        "name": "Suiza - Islandia",
-        "description": "Suiza - Islandia el domingo, 6 de julio de 2025 a las 21:00",
-        "startDate": "2025-07-06T19:00:00",
+        "name": "España - Bélgica",
+        "description": "España - Bélgica el lunes, 7 de julio de 2025 a las 18:00",
+        "startDate": "2025-07-07T16:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
     },
     {
-      "sport": "futbol",
+      "sport": "tenis",
       "date": {
-        "hour": "22:10",
-        "day": "06/07/2025",
+        "hour": "18:00",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Primera Nacional Argentina",
-        "round": null
+        "competition": "Wimbledon",
+        "round": "1/8 de final (Pista Central)"
       },
       "teams": {
         "local": {
-          "name": "Atlético Güemes",
-          "image": "https://static.futbolenlatv.com/img/20160623115447-ca-guemes.webp"
+          "name": "J. Sinner",
+          "image": "https://static.futbolenlatv.com/img/20130727123437-Italia.webp"
         },
         "visitor": {
-          "name": "San Martín Tucumán",
-          "image": "https://static.futbolenlatv.com/img/20140822090243-ca-san-martin.webp"
+          "name": "G. Dimitrov",
+          "image": "https://static.futbolenlatv.com/img/20130727124343-Bulgaria.webp"
         }
       },
       "channels": [
-        "Fanatiz"
+        "M+ Wimbledon UHD",
+        "M+ Deportes 2"
       ],
-      "event": {
-        "name": "Atlético Güemes - San Martín Tucumán",
-        "description": "Atlético Güemes - San Martín Tucumán el domingo, 6 de julio de 2025 a las 22:10",
-        "startDate": "2025-07-06T20:10:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "22:15",
-        "day": "06/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga 1 Perú",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Atlético Grau",
-          "image": "https://static.futbolenlatv.com/img/20171209110204-atletico-grau.webp"
-        },
-        "visitor": {
-          "name": "ACD Juan Pablo II College",
-          "image": "https://static.futbolenlatv.com/img/20241011103329-acd-juan-pablo-ii-college.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "Atlético Grau - ACD Juan Pablo II College",
-        "description": "Atlético Grau - ACD Juan Pablo II College el domingo, 6 de julio de 2025 a las 22:15",
-        "startDate": "2025-07-06T20:15:00",
-        "duration": "T1H45M"
-      },
+      "event": {},
       "eventType": "match"
     },
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "22:30",
-        "day": "06/07/2025",
+        "hour": "20:30",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "NBA Summer League",
-        "round": "California"
+        "competition": "Europeo Femenino Sub-18",
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
-          "name": "Miami Heat",
-          "image": "https://static.futbolenlatv.com/img/20130614063349-Miami-Heat.webp"
+          "name": "Serbia",
+          "image": "https://static.futbolenlatv.com/img/20130318120848_serbia.webp"
         },
         "visitor": {
-          "name": "Los Angeles Lakers",
-          "image": "https://static.futbolenlatv.com/img/20130808083216-la-lakers.webp"
+          "name": "Francia",
+          "image": "https://static.futbolenlatv.com/img/20130124053558_francia.webp"
         }
       },
       "channels": [
-        "NBA League Pass"
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:30",
+        "day": "07/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Europeo Femenino Sub-18",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Polonia",
+          "image": "https://static.futbolenlatv.com/img/20130528084142-Polonia.webp"
+        },
+        "visitor": {
+          "name": "España",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
       ],
       "event": {},
       "eventType": "match"
@@ -2382,31 +1135,32 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "22:30",
-        "day": "06/07/2025",
+        "hour": "21:00",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Liga Pro Ecuador",
-        "round": null
+        "competition": "Eurocopa Femenina",
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
-          "name": "El Nacional",
-          "image": "https://static.futbolenlatv.com/img/20140720101115-club-deportivo-el-nacional.webp"
+          "name": "Portugal",
+          "image": "https://static.futbolenlatv.com/img/20130204101449_portugal.webp"
         },
         "visitor": {
-          "name": "Manta FC",
-          "image": "https://static.futbolenlatv.com/img/20140823020451-manta-fc.webp"
+          "name": "Italia",
+          "image": "https://static.futbolenlatv.com/img/20130111045624_italia.webp"
         }
       },
       "channels": [
-        "ElCanalDelFutbol.com"
+        "Teledeporte",
+        "RTVE Play"
       ],
       "event": {
-        "name": "El Nacional - Manta FC",
-        "description": "El Nacional - Manta FC el domingo, 6 de julio de 2025 a las 22:30",
-        "startDate": "2025-07-06T20:30:00",
+        "name": "Portugal - Italia",
+        "description": "Portugal - Italia el lunes, 7 de julio de 2025 a las 21:00",
+        "startDate": "2025-07-07T19:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -2414,32 +1168,31 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "23:00",
-        "day": "06/07/2025",
+        "hour": "21:15",
+        "day": "07/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "MLS",
-        "round": "Liga Regular"
+        "competition": "Liga Premier Islandia",
+        "round": null
       },
       "teams": {
         "local": {
-          "name": "Seattle Sounders",
-          "image": "https://static.futbolenlatv.com/img/20130222095250_seattle-saunders.webp"
+          "name": "FH Hafnarfjördur",
+          "image": "https://static.futbolenlatv.com/img/20130814021732-fh-hafnarfjordur.webp"
         },
         "visitor": {
-          "name": "Columbus Crew",
-          "image": "https://static.futbolenlatv.com/img/20211013184144-columbus-crew.webp"
+          "name": "Stjarnan",
+          "image": "https://static.futbolenlatv.com/img/20140819090758-stjarnan.webp"
         }
       },
       "channels": [
-        "MLS Season Pass",
-        "Esport3"
+        "OneFootball"
       ],
       "event": {
-        "name": "Seattle Sounders - Columbus Crew",
-        "description": "Seattle Sounders - Columbus Crew el domingo, 6 de julio de 2025 a las 23:00",
-        "startDate": "2025-07-06T21:00:00",
+        "name": "FH Hafnarfjördur - Stjarnan",
+        "description": "FH Hafnarfjördur - Stjarnan el lunes, 7 de julio de 2025 a las 21:15",
+        "startDate": "2025-07-07T19:15:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -2769,6 +1522,88 @@
       "eventType": "match"
     },
     {
+      "sport": "golf",
+      "date": {
+        "hour": "09:30",
+        "day": "10/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Scottish Open",
+        "round": "Jornada 1"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "Movistar Golf"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "golf",
+      "date": {
+        "hour": "12:00",
+        "day": "10/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "The Evian Championship",
+        "round": "Jornada 1"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "Movistar Golf 2",
+        "M+ Deportes 6"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "golf",
+      "date": {
+        "hour": "14:00",
+        "day": "10/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": null,
+        "round": "Jornada 1"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "Movistar Golf"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
       "sport": "motociclismo",
       "date": {
         "hour": "10:45",
@@ -2879,6 +1714,62 @@
         "DAZN App Gratis",
         "MAX",
         "RTVE Play"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "automovilismo",
+      "date": {
+        "hour": "15:05",
+        "day": "12/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FIA Fórmula E",
+        "round": "Berlín (Alemania)"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "MAX"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "automovilismo",
+      "date": {
+        "hour": "23:00",
+        "day": "12/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "IndyCar",
+        "round": "Grand Prix of Iowa"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite"
       ],
       "event": {},
       "eventType": "tournament"
