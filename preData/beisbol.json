@@ -3,8 +3,35 @@
     {
       "sport": "beisbol",
       "date": {
+        "hour": "00:00",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LMBP",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Caciques de Distrito",
+          "image": "https://static.futbolenlatv.com/img/20250518103912-caciques-de-distrito.webp"
+        },
+        "visitor": {
+          "name": "Samanes de Aragua",
+          "image": "https://static.futbolenlatv.com/img/20250518103819-samanes-de-aragua.webp"
+        }
+      },
+      "channels": [
+        "BeisbolPlay"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "beisbol",
+      "date": {
         "hour": "01:00",
-        "day": "14/07/2025",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -17,8 +44,8 @@
           "image": "https://static.futbolenlatv.com/img/20250518103851-centauros-la-guaira.webp"
         },
         "visitor": {
-          "name": "Delfines de La Guaira",
-          "image": "https://static.futbolenlatv.com/img/20250518103900-delfines-la-guaira.webp"
+          "name": "Marineros de Carabobo",
+          "image": "https://static.futbolenlatv.com/img/20250518103839-marineros-de-carabobo.webp"
         }
       },
       "channels": [
@@ -28,5 +55,5 @@
       "eventType": "match"
     }
   ],
-  "updated": "2025-07-14T00:14:57.036Z"
+  "updated": "2025-07-15T00:13:31.024Z"
 }

@@ -381,10 +381,69 @@
       "eventType": "match"
     },
     {
+      "sport": "futbol",
+      "date": {
+        "hour": "00:00",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera División Argentina",
+        "round": "Torneo Clausura"
+      },
+      "teams": {
+        "local": {
+          "name": "Banfield",
+          "image": "https://static.futbolenlatv.com/img/20140621094222-banfield.webp"
+        },
+        "visitor": {
+          "name": "Defensa y Justicia",
+          "image": "https://static.futbolenlatv.com/img/20140621094213-defensa-y-justicia.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Banfield - Defensa y Justicia",
+        "description": "Banfield - Defensa y Justicia el martes, 15 de julio de 2025 a las 0:00",
+        "startDate": "2025-07-14T22:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "beisbol",
+      "date": {
+        "hour": "00:00",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LMBP",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Caciques de Distrito",
+          "image": "https://static.futbolenlatv.com/img/20250518103912-caciques-de-distrito.webp"
+        },
+        "visitor": {
+          "name": "Samanes de Aragua",
+          "image": "https://static.futbolenlatv.com/img/20250518103819-samanes-de-aragua.webp"
+        }
+      },
+      "channels": [
+        "BeisbolPlay"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
       "sport": "baloncesto",
       "date": {
         "hour": "00:00",
-        "day": "14/07/2025",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -393,12 +452,39 @@
       },
       "teams": {
         "local": {
-          "name": "Orlando Magic",
-          "image": "https://static.futbolenlatv.com/img/20191028090502-orlando-magic.webp"
+          "name": "Indiana Pacers",
+          "image": "https://static.futbolenlatv.com/img/20191028090446-indiana-pacers.webp"
         },
         "visitor": {
-          "name": "Toronto Raptors",
-          "image": "https://static.futbolenlatv.com/img/20201220190859-toronto-raptors.webp"
+          "name": "Chicago Bulls",
+          "image": "https://static.futbolenlatv.com/img/20130808083209-chicago-bulls.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "00:30",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA Summer League",
+        "round": "Las Vegas"
+      },
+      "teams": {
+        "local": {
+          "name": "Dallas Mavericks",
+          "image": "https://static.futbolenlatv.com/img/20130808083728-dallas-mavericks.webp"
+        },
+        "visitor": {
+          "name": "Charlotte Hornets",
+          "image": "https://static.futbolenlatv.com/img/20141024124231-charlotte-hornets.webp"
         }
       },
       "channels": [
@@ -410,96 +496,31 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "00:15",
-        "day": "14/07/2025",
+        "hour": "01:00",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Liga Colombiana",
+        "competition": "Serie A Brasil",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Deportivo Pereira",
-          "image": "https://static.futbolenlatv.com/img/20140330122847-cd-pereira.webp"
+          "name": "Juventude",
+          "image": "https://static.futbolenlatv.com/img/20160516120420-juventude.webp"
         },
         "visitor": {
-          "name": "Santa Fe",
-          "image": "https://static.futbolenlatv.com/img/20140307121806-santa-fe.webp"
+          "name": "Sport Recife",
+          "image": "https://static.futbolenlatv.com/img/20180131095506-sport-recife.webp"
         }
       },
       "channels": [
-        "RCN Nuestra Tele"
+        "Fanatiz"
       ],
       "event": {
-        "name": "Deportivo Pereira - Santa Fe",
-        "description": "Deportivo Pereira - Santa Fe el lunes, 14 de julio de 2025 a las 0:15",
-        "startDate": "2025-07-13T22:15:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "01:00",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Pro Ecuador",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Deportivo Cuenca",
-          "image": "https://static.futbolenlatv.com/img/20140830015002-deportivo-cuenca.webp"
-        },
-        "visitor": {
-          "name": "Delfín SC",
-          "image": "https://static.futbolenlatv.com/img/20191111111707-delfin-sc.webp"
-        }
-      },
-      "channels": [
-        "ElCanalDelFutbol.com"
-      ],
-      "event": {
-        "name": "Deportivo Cuenca - Delfín SC",
-        "description": "Deportivo Cuenca - Delfín SC el lunes, 14 de julio de 2025 a las 1:00",
-        "startDate": "2025-07-13T23:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "01:00",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "MLS",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "St. Louis City SC",
-          "image": "https://static.futbolenlatv.com/img/20220410122514-st-louis-city-sc-2.webp"
-        },
-        "visitor": {
-          "name": "Portland Timbers",
-          "image": "https://static.futbolenlatv.com/img/20130416055913_portland-timbers.webp"
-        }
-      },
-      "channels": [
-        "MLS Season Pass",
-        "Esport3"
-      ],
-      "event": {
-        "name": "St. Louis City SC - Portland Timbers",
-        "description": "St. Louis City SC - Portland Timbers el lunes, 14 de julio de 2025 a las 1:00",
-        "startDate": "2025-07-13T23:00:00",
+        "name": "Juventude - Sport Recife",
+        "description": "Juventude - Sport Recife el martes, 15 de julio de 2025 a las 1:00",
+        "startDate": "2025-07-14T23:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -508,7 +529,7 @@
       "sport": "beisbol",
       "date": {
         "hour": "01:00",
-        "day": "14/07/2025",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -521,8 +542,8 @@
           "image": "https://static.futbolenlatv.com/img/20250518103851-centauros-la-guaira.webp"
         },
         "visitor": {
-          "name": "Delfines de La Guaira",
-          "image": "https://static.futbolenlatv.com/img/20250518103900-delfines-la-guaira.webp"
+          "name": "Marineros de Carabobo",
+          "image": "https://static.futbolenlatv.com/img/20250518103839-marineros-de-carabobo.webp"
         }
       },
       "channels": [
@@ -534,95 +555,31 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "01:30",
-        "day": "14/07/2025",
+        "hour": "02:00",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Liga 1 Perú",
+        "competition": "Liga Pro Ecuador",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Cusco FC",
-          "image": "https://static.futbolenlatv.com/img/20200827174745-real-garcilaso.webp"
+          "name": "Aucas",
+          "image": "https://static.futbolenlatv.com/img/20140926023126-aucas.webp"
         },
         "visitor": {
-          "name": "Sport Huancayo",
-          "image": "https://static.futbolenlatv.com/img/20130729071510-huancayo.webp"
+          "name": "El Nacional",
+          "image": "https://static.futbolenlatv.com/img/20140720101115-club-deportivo-el-nacional.webp"
         }
       },
       "channels": [
-        "Fanatiz"
+        "ElCanalDelFutbol.com"
       ],
       "event": {
-        "name": "Cusco FC - Sport Huancayo",
-        "description": "Cusco FC - Sport Huancayo el lunes, 14 de julio de 2025 a las 1:30",
-        "startDate": "2025-07-13T23:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "01:30",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Serie A Brasil",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Cruzeiro",
-          "image": "https://static.futbolenlatv.com/img/20190115103202-cruzeiro.webp"
-        },
-        "visitor": {
-          "name": "Grêmio",
-          "image": "https://static.futbolenlatv.com/img/20121222103034_gremio.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "Cruzeiro - Grêmio",
-        "description": "Cruzeiro - Grêmio el lunes, 14 de julio de 2025 a las 1:30",
-        "startDate": "2025-07-13T23:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "01:30",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Serie A Brasil",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Fortaleza SC",
-          "image": "https://static.futbolenlatv.com/img/20160516115803-fortaleza-sc.webp"
-        },
-        "visitor": {
-          "name": "Ceará",
-          "image": "https://static.futbolenlatv.com/img/20140724053102-ceara.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "Fortaleza SC - Ceará",
-        "description": "Fortaleza SC - Ceará el lunes, 14 de julio de 2025 a las 1:30",
-        "startDate": "2025-07-13T23:30:00",
+        "name": "Aucas - El Nacional",
+        "description": "Aucas - El Nacional el martes, 15 de julio de 2025 a las 2:00",
+        "startDate": "2025-07-15T00:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -630,8 +587,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "01:30",
-        "day": "14/07/2025",
+        "hour": "02:00",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -640,12 +597,12 @@
       },
       "teams": {
         "local": {
-          "name": "Cleveland Cavaliers",
-          "image": "https://static.futbolenlatv.com/img/20191028090553-cleveland-cavaliers.webp"
-        },
-        "visitor": {
           "name": "Miami Heat",
           "image": "https://static.futbolenlatv.com/img/20130614063349-Miami-Heat.webp"
+        },
+        "visitor": {
+          "name": "Boston Celtics",
+          "image": "https://static.futbolenlatv.com/img/20130808083552-boston-celtics.webp"
         }
       },
       "channels": [
@@ -657,40 +614,8 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "02:00",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa América Femenina",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Brasil",
-          "image": "https://static.futbolenlatv.com/img/20130204124155_brasil.webp"
-        },
-        "visitor": {
-          "name": "Venezuela",
-          "image": "https://static.futbolenlatv.com/img/20130316103615_venezuela.webp"
-        }
-      },
-      "channels": [
-        "Copa América YouTube"
-      ],
-      "event": {
-        "name": "Brasil - Venezuela",
-        "description": "Brasil - Venezuela el lunes, 14 de julio de 2025 a las 2:00",
-        "startDate": "2025-07-14T00:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "02:00",
-        "day": "14/07/2025",
+        "hour": "02:15",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -699,21 +624,53 @@
       },
       "teams": {
         "local": {
-          "name": "River Plate",
-          "image": "https://static.futbolenlatv.com/img/20121219051705_river-plate.webp"
+          "name": "Unión Santa Fe",
+          "image": "https://static.futbolenlatv.com/img/20160115093449-union-santa-fe.webp"
         },
         "visitor": {
-          "name": "Platense",
-          "image": "https://static.futbolenlatv.com/img/20140812073636-platense.webp"
+          "name": "Estudiantes LP",
+          "image": "https://static.futbolenlatv.com/img/20140830122106-estudiantes-lp.webp"
         }
       },
       "channels": [
         "Fanatiz"
       ],
       "event": {
-        "name": "River Plate - Platense",
-        "description": "River Plate - Platense el lunes, 14 de julio de 2025 a las 2:00",
-        "startDate": "2025-07-14T00:00:00",
+        "name": "Unión Santa Fe - Estudiantes LP",
+        "description": "Unión Santa Fe - Estudiantes LP el martes, 15 de julio de 2025 a las 2:15",
+        "startDate": "2025-07-15T00:15:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "02:15",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera División Argentina",
+        "round": "Torneo Clausura"
+      },
+      "teams": {
+        "local": {
+          "name": "Vélez Sarsfield",
+          "image": "https://static.futbolenlatv.com/img/20121219051943_vélez-sarsfield.webp"
+        },
+        "visitor": {
+          "name": "Tigre",
+          "image": "https://static.futbolenlatv.com/img/20121219051849_tigre.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Vélez Sarsfield - Tigre",
+        "description": "Vélez Sarsfield - Tigre el martes, 15 de julio de 2025 a las 2:15",
+        "startDate": "2025-07-15T00:15:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -721,8 +678,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "02:00",
-        "day": "14/07/2025",
+        "hour": "02:30",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -731,12 +688,12 @@
       },
       "teams": {
         "local": {
-          "name": "Washington Wizards",
-          "image": "https://static.futbolenlatv.com/img/20191028090528-washington-wizards.webp"
+          "name": "San Antonio Spurs",
+          "image": "https://static.futbolenlatv.com/img/20191028090705-san-antonio-spurs.webp"
         },
         "visitor": {
-          "name": "Brooklyn Nets",
-          "image": "https://static.futbolenlatv.com/img/20130808083530-brooklyn-nets.webp"
+          "name": "Utah Jazz",
+          "image": "https://static.futbolenlatv.com/img/20191028090654-utah-jazz.webp"
         }
       },
       "channels": [
@@ -746,60 +703,28 @@
       "eventType": "match"
     },
     {
-      "sport": "futbol",
+      "sport": "tenis",
       "date": {
-        "hour": "02:30",
-        "day": "14/07/2025",
+        "hour": "03:00",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Liga Colombiana",
-        "round": null
+        "competition": "Torneo Los Cabos",
+        "round": "1ª Ronda"
       },
       "teams": {
         "local": {
-          "name": "La Equidad",
-          "image": "https://static.futbolenlatv.com/img/20130316103451_equidad.webp"
+          "name": "H. Habib",
+          "image": "https://static.futbolenlatv.com/img/20130530102039-Libano.webp"
         },
         "visitor": {
-          "name": "Águilas Doradas Rionegro",
-          "image": "https://static.futbolenlatv.com/img/20150625113319-aguilas-doradas.webp"
+          "name": "A. Kovacevic",
+          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
         }
       },
       "channels": [
-        "RCN Nuestra Tele"
-      ],
-      "event": {
-        "name": "La Equidad - Águilas Doradas Rionegro",
-        "description": "La Equidad - Águilas Doradas Rionegro el lunes, 14 de julio de 2025 a las 2:30",
-        "startDate": "2025-07-14T00:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "03:30",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA Summer League",
-        "round": "Las Vegas"
-      },
-      "teams": {
-        "local": {
-          "name": "Los Angeles Clippers",
-          "image": "https://static.futbolenlatv.com/img/20191028090717-los-angeles-clippers.webp"
-        },
-        "visitor": {
-          "name": "Milwaukee Bucks",
-          "image": "https://static.futbolenlatv.com/img/20191028090415-milwaukee-bucks.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
+        "ATP Tennis TV"
       ],
       "event": {},
       "eventType": "match"
@@ -808,7 +733,7 @@
       "sport": "baloncesto",
       "date": {
         "hour": "04:00",
-        "day": "14/07/2025",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -817,12 +742,39 @@
       },
       "teams": {
         "local": {
-          "name": "Utah Jazz",
-          "image": "https://static.futbolenlatv.com/img/20191028090654-utah-jazz.webp"
+          "name": "Sacramento Kings",
+          "image": "https://static.futbolenlatv.com/img/20201220190924-sacramento-kings.webp"
         },
         "visitor": {
-          "name": "Golden State Warriors",
-          "image": "https://static.futbolenlatv.com/img/20130808083832-gs-warriors.webp"
+          "name": "Phoenix Suns",
+          "image": "https://static.futbolenlatv.com/img/20130808083815-phoenix-suns.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "04:30",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA Summer League",
+        "round": "Las Vegas"
+      },
+      "teams": {
+        "local": {
+          "name": "Los Angeles Lakers",
+          "image": "https://static.futbolenlatv.com/img/20130808083216-la-lakers.webp"
+        },
+        "visitor": {
+          "name": "Los Angeles Clippers",
+          "image": "https://static.futbolenlatv.com/img/20191028090717-los-angeles-clippers.webp"
         }
       },
       "channels": [
@@ -834,103 +786,22 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "10:30",
-        "day": "14/07/2025",
+        "hour": "04:30",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Torneo de Gstaad",
+        "competition": "Torneo Los Cabos",
         "round": "1ª Ronda"
       },
       "teams": {
         "local": {
-          "name": "K. Majchrzak",
-          "image": "https://static.futbolenlatv.com/img/20130727123454-polonia.webp"
+          "name": "A. Vukic",
+          "image": "https://static.futbolenlatv.com/img/20200728161741-national-rugby-league.webp"
         },
         "visitor": {
-          "name": "T. Atmane",
-          "image": "https://static.futbolenlatv.com/img/20130124053558_francia.webp"
-        }
-      },
-      "channels": [
-        "ATP Tennis TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "12:00",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Europeo Sub-20",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Eslovenia",
-          "image": "https://static.futbolenlatv.com/img/20130204101247_eslovenia.webp"
-        },
-        "visitor": {
-          "name": "Islandia",
-          "image": "https://static.futbolenlatv.com/img/20171107062145-islandia.webp"
-        }
-      },
-      "channels": [
-        "FIBA YouTube"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "12:00",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Europeo Sub-20",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "República Checa",
-          "image": "https://static.futbolenlatv.com/img/20130410124454_republica-checa.webp"
-        },
-        "visitor": {
-          "name": "Lituania",
-          "image": "https://static.futbolenlatv.com/img/20130528084732-Lituania.webp"
-        }
-      },
-      "channels": [
-        "FIBA YouTube"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "12:00",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Torneo de Gstaad",
-        "round": "1ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "I. Buse",
-          "image": "https://static.futbolenlatv.com/img/20150731103345-Peru.webp"
-        },
-        "visitor": {
-          "name": "L. Djere",
-          "image": "https://static.futbolenlatv.com/img/20130727123503-Serbia.webp"
+          "name": "E. Nava",
+          "image": "https://static.futbolenlatv.com/img/20200528104619-motoamerica-superbike.webp"
         }
       },
       "channels": [
@@ -942,386 +813,26 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "13:30",
-        "day": "14/07/2025",
+        "hour": "06:00",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Torneo de Bastad",
+        "competition": "Torneo Los Cabos",
         "round": "1ª Ronda"
       },
       "teams": {
         "local": {
-          "name": "W. Rejchtman Vinciguerra",
-          "image": "https://static.futbolenlatv.com/img/20130204101348_suecia.webp"
-        },
-        "visitor": {
-          "name": "J. De Jong",
-          "image": "https://static.futbolenlatv.com/img/20130130075711_holanda.webp"
-        }
-      },
-      "channels": [
-        "ATP Tennis TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "13:30",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "WTA Torneo de Hamburgo",
-        "round": "1ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "T. Wurth",
-          "image": "https://static.futbolenlatv.com/img/20130727124313-Croacia.webp"
-        },
-        "visitor": {
-          "name": "D. Parry",
-          "image": "https://static.futbolenlatv.com/img/20200608215827-ultimate-tennis-showdown.webp"
-        }
-      },
-      "channels": [
-        "WTA TV",
-        "Tennis Channel",
-        "Tennis Channel - Orange TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "14:30",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Europeo Sub-20",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Alemania",
-          "image": "https://static.futbolenlatv.com/img/20130130075653_alemania.webp"
-        },
-        "visitor": {
-          "name": "Bélgica",
-          "image": "https://static.futbolenlatv.com/img/20130121023530_belgica.webp"
-        }
-      },
-      "channels": [
-        "FIBA YouTube"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "14:30",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Europeo Sub-20",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Polonia",
-          "image": "https://static.futbolenlatv.com/img/20130528084142-Polonia.webp"
-        },
-        "visitor": {
-          "name": "Israel",
-          "image": "https://static.futbolenlatv.com/img/20130311111216_israel.webp"
-        }
-      },
-      "channels": [
-        "FIBA YouTube"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "14:30",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "WTA Torneo de Iasi",
-        "round": "1ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "M. Bulgaru",
-          "image": "https://static.futbolenlatv.com/img/20130304045215_rumania.webp"
-        },
-        "visitor": {
-          "name": "J. Teichmann",
-          "image": "https://static.futbolenlatv.com/img/20130727123327-Suiza.webp"
-        }
-      },
-      "channels": [
-        "WTA TV",
-        "Tennis Channel"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "15:00",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Torneo de Gstaad",
-        "round": "1ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "A. Cazaux",
-          "image": "https://static.futbolenlatv.com/img/20200608215827-ultimate-tennis-showdown.webp"
-        },
-        "visitor": {
-          "name": "N. Basilashvili",
-          "image": "https://static.futbolenlatv.com/img/20130827014625-Georgia.webp"
-        }
-      },
-      "channels": [
-        "ATP Tennis TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "15:00",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Torneo de Bastad",
-        "round": "1ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "R. Collignon",
-          "image": "https://static.futbolenlatv.com/img/20130727123309-Belgica.webp"
-        },
-        "visitor": {
-          "name": "L. Darderi",
-          "image": "https://static.futbolenlatv.com/img/20200727124913-gran-trittico-lombardo.webp"
-        }
-      },
-      "channels": [
-        "ATP Tennis TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "15:00",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "WTA Torneo de Hamburgo",
-        "round": "1ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "L. Chirico",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
-        },
-        "visitor": {
-          "name": "M. Sherif",
-          "image": "https://static.futbolenlatv.com/img/20200928172741-mayar-sherif.webp"
-        }
-      },
-      "channels": [
-        "WTA TV",
-        "Tennis Channel",
-        "Tennis Channel - Orange TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "16:00",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "WTA Torneo de Iasi",
-        "round": "1ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "I. Begu",
-          "image": "https://static.futbolenlatv.com/img/20130727123316-Rumania.webp"
-        },
-        "visitor": {
-          "name": "N. Hibino",
+          "name": "T. Daniel",
           "image": "https://static.futbolenlatv.com/img/20130727123249-Japon.webp"
-        }
-      },
-      "channels": [
-        "WTA TV",
-        "Tennis Channel"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "17:00",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Europeo Sub-20",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "España",
-          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
         },
         "visitor": {
-          "name": "Finlandia",
-          "image": "https://static.futbolenlatv.com/img/20130124053613_finlandia.webp"
-        }
-      },
-      "channels": [
-        "FIBA YouTube"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "17:00",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Europeo Sub-20",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Grecia",
-          "image": "https://static.futbolenlatv.com/img/20140624094707-grecia.webp"
-        },
-        "visitor": {
-          "name": "Rumanía",
-          "image": "https://static.futbolenlatv.com/img/20130304045215_rumania.webp"
-        }
-      },
-      "channels": [
-        "FIBA YouTube"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "17:00",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "WTA Torneo de Hamburgo",
-        "round": "1ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "M. Uchijima",
-          "image": "https://static.futbolenlatv.com/img/20130208071559_japon.webp"
-        },
-        "visitor": {
-          "name": "N. Schunk",
-          "image": "https://static.futbolenlatv.com/img/20200705174645-bett1-aces.webp"
-        }
-      },
-      "channels": [
-        "WTA TV",
-        "Tennis Channel",
-        "Tennis Channel - Orange TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "17:30",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Torneo de Gstaad",
-        "round": "1ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "D. Stricker",
-          "image": "https://static.futbolenlatv.com/img/20130727123327-Suiza.webp"
-        },
-        "visitor": {
-          "name": "PH. Herbert",
-          "image": "https://static.futbolenlatv.com/img/20130727123333-Francia.webp"
+          "name": "A. Hernández",
+          "image": "https://static.futbolenlatv.com/img/20130208071540_mexico.webp"
         }
       },
       "channels": [
         "ATP Tennis TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "17:30",
-        "day": "14/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "WTA Torneo de Iasi",
-        "round": "1ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "A. Bogdan",
-          "image": "https://static.futbolenlatv.com/img/20130727123316-Rumania.webp"
-        },
-        "visitor": {
-          "name": "V. Gracheva",
-          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
-        }
-      },
-      "channels": [
-        "WTA TV",
-        "Tennis Channel"
       ],
       "event": {},
       "eventType": "match"
@@ -1329,8 +840,8 @@
     {
       "sport": "padel",
       "date": {
-        "hour": "19:00",
-        "day": "14/07/2025",
+        "hour": "09:00",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -1354,24 +865,162 @@
       "eventType": "tournament"
     },
     {
-      "sport": "baloncesto",
+      "sport": "tenis",
       "date": {
-        "hour": "19:30",
-        "day": "14/07/2025",
+        "hour": "10:05",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Europeo Sub-20",
+        "competition": "WTA Torneo de Iasi",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "WTA TV",
+        "Tennis Channel"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "10:30",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FIBA Women's Asia Cup",
         "round": "Fase de grupos"
       },
       "teams": {
         "local": {
-          "name": "Italia",
-          "image": "https://static.futbolenlatv.com/img/20130111045624_italia.webp"
+          "name": "Japón",
+          "image": "https://static.futbolenlatv.com/img/20130208071559_japon.webp"
         },
         "visitor": {
-          "name": "Ucrania",
-          "image": "https://static.futbolenlatv.com/img/20130304045244_ucrania.webp"
+          "name": "Australia",
+          "image": "https://static.futbolenlatv.com/img/20130501101148_australia.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "10:30",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Gstaad",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "JM. Cerúndolo",
+          "image": "https://static.futbolenlatv.com/img/20200515205331-guillermo-canas.webp"
+        },
+        "visitor": {
+          "name": "JL. Struff",
+          "image": "https://static.futbolenlatv.com/img/20130727123343-Alemania.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "11:00",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Bastad",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "S. Ofner",
+          "image": "https://static.futbolenlatv.com/img/20200702200109-thiems-7-exhibition.webp"
+        },
+        "visitor": {
+          "name": "D. Dzumhur",
+          "image": "https://static.futbolenlatv.com/img/20131026024530-Bosnia.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "11:05",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WTA Torneo de Hamburgo",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "WTA TV",
+        "Tennis Channel",
+        "Tennis Channel - Orange TV"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "11:45",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FIBA Mundial Femenino Sub-19",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Nigeria",
+          "image": "https://static.futbolenlatv.com/img/20130103114959_nigeria.webp"
+        },
+        "visitor": {
+          "name": "Portugal",
+          "image": "https://static.futbolenlatv.com/img/20130204101449_portugal.webp"
         }
       },
       "channels": [
@@ -1383,18 +1032,433 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "19:30",
-        "day": "14/07/2025",
+        "hour": "11:45",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Europeo Sub-20",
+        "competition": "FIBA Mundial Femenino Sub-19",
         "round": "Fase de grupos"
       },
       "teams": {
         "local": {
-          "name": "Serbia",
-          "image": "https://static.futbolenlatv.com/img/20130318120848_serbia.webp"
+          "name": "Canadá",
+          "image": "https://static.futbolenlatv.com/img/20130625051127-Canada.webp"
+        },
+        "visitor": {
+          "name": "China",
+          "image": "https://static.futbolenlatv.com/img/20130221121827_china.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "12:00",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Gstaad",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "M. Landaluce",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+        },
+        "visitor": {
+          "name": "D. Goffin",
+          "image": "https://static.futbolenlatv.com/img/20130727123309-Belgica.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "12:30",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Bastad",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "E. Ymer",
+          "image": "https://static.futbolenlatv.com/img/20130827111430-Suecia.webp"
+        },
+        "visitor": {
+          "name": "T. Boyer",
+          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "13:30",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FIBA Women's Asia Cup",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Corea del Sur",
+          "image": "https://static.futbolenlatv.com/img/20130507121229_coreadelsur.webp"
+        },
+        "visitor": {
+          "name": "China",
+          "image": "https://static.futbolenlatv.com/img/20130221121827_china.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "14:00",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Bastad",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "M. Ymer",
+          "image": "https://static.futbolenlatv.com/img/20220117155237-mikael-ymer.webp"
+        },
+        "visitor": {
+          "name": "B. Van de Zandschulp",
+          "image": "https://static.futbolenlatv.com/img/20200812224821-eredivisie-comeback.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "14:30",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FIBA Mundial Femenino Sub-19",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Estados Unidos",
+          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
+        },
+        "visitor": {
+          "name": "Israel",
+          "image": "https://static.futbolenlatv.com/img/20130311111216_israel.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "14:30",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FIBA Mundial Femenino Sub-19",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Hungría",
+          "image": "https://static.futbolenlatv.com/img/20130530093548-Hungria.webp"
+        },
+        "visitor": {
+          "name": "Corea del Sur",
+          "image": "https://static.futbolenlatv.com/img/20130507121229_coreadelsur.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "15:00",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Gstaad",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "J. Kym",
+          "image": "https://static.futbolenlatv.com/img/20130727123327-Suiza.webp"
+        },
+        "visitor": {
+          "name": "C. Hemery",
+          "image": "https://static.futbolenlatv.com/img/20130727123333-Francia.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "15:30",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Bastad",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "F. Misolic",
+          "image": "https://static.futbolenlatv.com/img/20130410124536_austria.webp"
+        },
+        "visitor": {
+          "name": "E. Moller",
+          "image": "https://static.futbolenlatv.com/img/20200527100720-danish-superliga.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:30",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League",
+        "round": "1ª Ronda Clasificación"
+      },
+      "teams": {
+        "local": {
+          "name": "Lincoln Red Imps",
+          "image": "https://static.futbolenlatv.com/img/20160708011742-lincoln-red-imps.webp"
+        },
+        "visitor": {
+          "name": "Víkingur Gøta",
+          "image": "https://static.futbolenlatv.com/img/20190118093032-vikingur-gota.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Lincoln Red Imps - Víkingur Gøta",
+        "description": "Lincoln Red Imps - Víkingur Gøta el martes, 15 de julio de 2025 a las 17:30",
+        "startDate": "2025-07-15T15:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "17:30",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FIBA Mundial Femenino Sub-19",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "España",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+        },
+        "visitor": {
+          "name": "República Checa",
+          "image": "https://static.futbolenlatv.com/img/20130410124454_republica-checa.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "17:30",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FIBA Mundial Femenino Sub-19",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Japón",
+          "image": "https://static.futbolenlatv.com/img/20130208071559_japon.webp"
+        },
+        "visitor": {
+          "name": "Argentina",
+          "image": "https://static.futbolenlatv.com/img/20130204101418_argentina.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "17:30",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Gstaad",
+        "round": "1ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "A. Shevchenko",
+          "image": "https://static.futbolenlatv.com/img/20240130193924-alexander-shevchenko.webp"
+        },
+        "visitor": {
+          "name": "S. Wawrinka",
+          "image": "https://static.futbolenlatv.com/img/20130727123327-Suiza.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:00",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Celta",
+          "image": "https://static.futbolenlatv.com/img/20121218091134_celta.webp"
+        },
+        "visitor": {
+          "name": "FC Famalicão",
+          "image": "https://static.futbolenlatv.com/img/20150102090446-famalicao.webp"
+        }
+      },
+      "channels": [
+        "Canal por confirmar"
+      ],
+      "event": {
+        "name": "Celta - FC Famalicão",
+        "description": "Celta - FC Famalicão el martes, 15 de julio de 2025 a las 18:00",
+        "startDate": "2025-07-15T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:15",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FIBA Mundial Femenino Sub-19",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Brasil",
+          "image": "https://static.futbolenlatv.com/img/20130204124155_brasil.webp"
+        },
+        "visitor": {
+          "name": "Mali",
+          "image": "https://static.futbolenlatv.com/img/20130103114840_mali.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:15",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FIBA Mundial Femenino Sub-19",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Australia",
+          "image": "https://static.futbolenlatv.com/img/20130501101148_australia.webp"
         },
         "visitor": {
           "name": "Francia",
@@ -1411,30 +1475,30 @@
       "sport": "futbol",
       "date": {
         "hour": "20:30",
-        "day": "14/07/2025",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Liga Premier Islandia",
-        "round": null
+        "competition": "Champions League",
+        "round": "1ª Ronda Clasificación"
       },
       "teams": {
         "local": {
-          "name": "ÍBV",
-          "image": "https://static.futbolenlatv.com/img/20220412192317-iprottabandalag-vestmannaeyja.webp"
+          "name": "Inter Club d'Escaldes",
+          "image": "https://static.futbolenlatv.com/img/20210618102955-inter-club-descaldes.webp"
         },
         "visitor": {
-          "name": "Stjarnan",
-          "image": "https://static.futbolenlatv.com/img/20140819090758-stjarnan.webp"
+          "name": "FCSB",
+          "image": "https://static.futbolenlatv.com/img/20201220191204-steaua-bucarest.webp"
         }
       },
       "channels": [
-        "OneFootball"
+        "OneFootball PPV"
       ],
       "event": {
-        "name": "ÍBV - Stjarnan",
-        "description": "ÍBV - Stjarnan el lunes, 14 de julio de 2025 a las 20:30",
-        "startDate": "2025-07-14T18:30:00",
+        "name": "Inter Club d'Escaldes - FCSB",
+        "description": "Inter Club d'Escaldes - FCSB el martes, 15 de julio de 2025 a las 20:30",
+        "startDate": "2025-07-15T18:30:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1442,31 +1506,31 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "21:15",
-        "day": "14/07/2025",
+        "hour": "21:00",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Liga Premier Islandia",
-        "round": null
+        "competition": "Champions League",
+        "round": "1ª Ronda Clasificación"
       },
       "teams": {
         "local": {
-          "name": "ÍA Akraness",
-          "image": "https://static.futbolenlatv.com/img/20220412192332-iprottabandalag-akraness.webp"
+          "name": "Breidablik UBK",
+          "image": "https://static.futbolenlatv.com/img/20140103114350-breidablik-ubk.webp"
         },
         "visitor": {
-          "name": "KR Reykjavík",
-          "image": "https://static.futbolenlatv.com/img/20200814132630-kr-reykjavik.webp"
+          "name": "Klubi Sportiv Egnatia",
+          "image": "https://static.futbolenlatv.com/img/20230628175513-klubi-sportiv-egnatia.webp"
         }
       },
       "channels": [
-        "OneFootball"
+        "OneFootball PPV"
       ],
       "event": {
-        "name": "ÍA Akraness - KR Reykjavík",
-        "description": "ÍA Akraness - KR Reykjavík el lunes, 14 de julio de 2025 a las 21:15",
-        "startDate": "2025-07-14T19:15:00",
+        "name": "Breidablik UBK - Klubi Sportiv Egnatia",
+        "description": "Breidablik UBK - Klubi Sportiv Egnatia el martes, 15 de julio de 2025 a las 21:00",
+        "startDate": "2025-07-15T19:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1474,31 +1538,31 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "21:15",
-        "day": "14/07/2025",
+        "hour": "21:00",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Liga Premier Islandia",
-        "round": null
+        "competition": "Champions League",
+        "round": "1ª Ronda Clasificación"
       },
       "teams": {
         "local": {
-          "name": "UMF Afturelding",
-          "image": "https://static.futbolenlatv.com/img/20250312133714-umf-afturelding.webp"
+          "name": "Buducnost",
+          "image": "https://static.futbolenlatv.com/img/20170717101935-buducnost.webp"
         },
         "visitor": {
-          "name": "Fram Reykjavík",
-          "image": "https://static.futbolenlatv.com/img/20140824075145-fram-reykjavik.webp"
+          "name": "FC Noah",
+          "image": "https://static.futbolenlatv.com/img/20240830191132-fc-noah.webp"
         }
       },
       "channels": [
-        "OneFootball"
+        "OneFootball PPV"
       ],
       "event": {
-        "name": "UMF Afturelding - Fram Reykjavík",
-        "description": "UMF Afturelding - Fram Reykjavík el lunes, 14 de julio de 2025 a las 21:15",
-        "startDate": "2025-07-14T19:15:00",
+        "name": "Buducnost - FC Noah",
+        "description": "Buducnost - FC Noah el martes, 15 de julio de 2025 a las 21:00",
+        "startDate": "2025-07-15T19:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1506,31 +1570,63 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "21:30",
-        "day": "14/07/2025",
+        "hour": "21:00",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Primera División Argentina",
-        "round": "Torneo Clausura"
+        "competition": "Champions League",
+        "round": "1ª Ronda Clasificación"
       },
       "teams": {
         "local": {
-          "name": "Deportivo Riestra",
-          "image": "https://static.futbolenlatv.com/img/20141205114007-deportivo-riestra.webp"
+          "name": "Zrinjski Mostar",
+          "image": "https://static.futbolenlatv.com/img/20190118093020-zrinjski-mostar.webp"
         },
         "visitor": {
-          "name": "Lanús",
-          "image": "https://static.futbolenlatv.com/img/20121219051504_lanús.webp"
+          "name": "AC Virtus",
+          "image": "https://static.futbolenlatv.com/img/20250704101542-associazione-calcio-virtus.webp"
         }
       },
       "channels": [
-        "Fanatiz"
+        "OneFootball PPV"
       ],
       "event": {
-        "name": "Deportivo Riestra - Lanús",
-        "description": "Deportivo Riestra - Lanús el lunes, 14 de julio de 2025 a las 21:30",
-        "startDate": "2025-07-14T19:30:00",
+        "name": "Zrinjski Mostar - AC Virtus",
+        "description": "Zrinjski Mostar - AC Virtus el martes, 15 de julio de 2025 a las 21:00",
+        "startDate": "2025-07-15T19:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "22:30",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Pro Serie B",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Chacaritas FC",
+          "image": "https://static.futbolenlatv.com/img/20200918182419-chacaritas-fc.webp"
+        },
+        "visitor": {
+          "name": "Leones del Norte",
+          "image": "https://static.futbolenlatv.com/img/20250409095342-leones-norte.webp"
+        }
+      },
+      "channels": [
+        "ElCanalDelFutbol.com"
+      ],
+      "event": {
+        "name": "Chacaritas FC - Leones del Norte",
+        "description": "Chacaritas FC - Leones del Norte el martes, 15 de julio de 2025 a las 22:30",
+        "startDate": "2025-07-15T20:30:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1539,7 +1635,7 @@
       "sport": "baloncesto",
       "date": {
         "hour": "22:30",
-        "day": "14/07/2025",
+        "day": "15/07/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -1548,18 +1644,50 @@
       },
       "teams": {
         "local": {
-          "name": "Houston Rockets",
-          "image": "https://static.futbolenlatv.com/img/20191028090908-houston-rockets.webp"
+          "name": "Detroit Pistons",
+          "image": "https://static.futbolenlatv.com/img/20191028090514-detroit-pistons.webp"
         },
         "visitor": {
-          "name": "Atlanta Hawks",
-          "image": "https://static.futbolenlatv.com/img/20191028090539-atlanta-hawks.webp"
+          "name": "Minnesota Timberwolves",
+          "image": "https://static.futbolenlatv.com/img/20201220190912-minnesota-timberwolves.webp"
         }
       },
       "channels": [
         "NBA League Pass"
       ],
       "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "23:00",
+        "day": "15/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa América Femenina",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Uruguay",
+          "image": "https://static.futbolenlatv.com/img/20130108083741_uruguay.webp"
+        },
+        "visitor": {
+          "name": "Argentina",
+          "image": "https://static.futbolenlatv.com/img/20130204101418_argentina.webp"
+        }
+      },
+      "channels": [
+        "Copa América YouTube"
+      ],
+      "event": {
+        "name": "Uruguay - Argentina",
+        "description": "Uruguay - Argentina el martes, 15 de julio de 2025 a las 23:00",
+        "startDate": "2025-07-15T21:00:00",
+        "duration": "T1H45M"
+      },
       "eventType": "match"
     },
     {
@@ -1586,6 +1714,33 @@
       "channels": [
         "M+ #Vamos Bar",
         "Movistar Golf"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "automovilismo",
+      "date": {
+        "hour": "10:00",
+        "day": "17/07/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WRC Rally",
+        "round": "Rally de Estonia"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "DAZN"
       ],
       "event": {},
       "eventType": "tournament"
@@ -1703,7 +1858,7 @@
     {
       "sport": "mma",
       "date": {
-        "hour": "04:00",
+        "hour": "02:00",
         "day": "20/07/2025",
         "zone": "Europe/Madrid"
       },
@@ -1753,33 +1908,6 @@
       ],
       "event": {},
       "eventType": "match"
-    },
-    {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "PD",
-        "day": "17/07/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "WRC Rally",
-        "round": "Rally de Estonia"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "DAZN"
-      ],
-      "event": {},
-      "eventType": "tournament"
     },
     {
       "sport": "futbol-sala",
