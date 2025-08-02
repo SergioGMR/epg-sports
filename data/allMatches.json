@@ -29,89 +29,129 @@
       "eventType": "match"
     },
     {
-      "sport": "tenis",
-      "date": {
-        "hour": "00:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "WTA Canadá",
-        "round": "3ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "J. Bouzas",
-          "image": "https://static.futbolenlatv.com/img/20200511222904-carlos-costa.webp"
-        },
-        "visitor": {
-          "name": "A. Ito",
-          "image": "https://static.futbolenlatv.com/img/20130727123249-Japon.webp"
-        }
-      },
-      "channels": [
-        "WTA TV",
-        "Tennis Channel"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "00:30",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Masters Canadá",
-        "round": "3ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "A. Muller",
-          "image": "https://static.futbolenlatv.com/img/20200608215827-ultimate-tennis-showdown.webp"
-        },
-        "visitor": {
-          "name": "H. Rune",
-          "image": "https://static.futbolenlatv.com/img/20200527100720-danish-superliga.webp"
-        }
-      },
-      "channels": [
-        "ATP Tennis TV",
-        "M+ Deportes 2"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
       "sport": "futbol",
       "date": {
-        "hour": "01:00",
-        "day": "01/08/2025",
+        "hour": "00:00",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Leagues Cup",
-        "round": null
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
-          "name": "Monterrey",
-          "image": "https://static.futbolenlatv.com/img/20130210115322_monterrey.webp"
+          "name": "New York City",
+          "image": "https://static.futbolenlatv.com/img/20150302125659-new-york-city.webp"
         },
         "visitor": {
-          "name": "FC Cincinnati",
-          "image": "https://static.futbolenlatv.com/img/20190525113431-fc-cincinnati.webp"
+          "name": "Club León",
+          "image": "https://static.futbolenlatv.com/img/20130218095406_club-leon.webp"
         }
       },
       "channels": [
         "MLS Season Pass"
       ],
       "event": {
-        "name": "Monterrey - FC Cincinnati",
-        "description": "Monterrey - FC Cincinnati el viernes, 1 de agosto de 2025 a las 1:00",
-        "startDate": "2025-07-31T23:00:00",
+        "name": "New York City - Club León",
+        "description": "New York City - Club León el sábado, 2 de agosto de 2025 a las 0:00",
+        "startDate": "2025-08-01T22:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Campeonato Uruguayo",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Peñarol",
+          "image": "https://static.futbolenlatv.com/img/20130410092630_penarol.webp"
+        },
+        "visitor": {
+          "name": "Progreso",
+          "image": "https://static.futbolenlatv.com/img/20200122120623-progreso.webp"
+        }
+      },
+      "channels": [
+        "GolTV Play"
+      ],
+      "event": {
+        "name": "Peñarol - Progreso",
+        "description": "Peñarol - Progreso el sábado, 2 de agosto de 2025 a las 1:00",
+        "startDate": "2025-08-01T23:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Colombiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "La Equidad",
+          "image": "https://static.futbolenlatv.com/img/20130316103451_equidad.webp"
+        },
+        "visitor": {
+          "name": "Unión Magdalena",
+          "image": "https://static.futbolenlatv.com/img/20170227052112-u-magdalena.webp"
+        }
+      },
+      "channels": [
+        "RCN Nuestra Tele"
+      ],
+      "event": {
+        "name": "La Equidad - Unión Magdalena",
+        "description": "La Equidad - Unión Magdalena el sábado, 2 de agosto de 2025 a las 1:00",
+        "startDate": "2025-08-01T23:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Leagues Cup",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Columbus Crew",
+          "image": "https://static.futbolenlatv.com/img/20211013184144-columbus-crew.webp"
+        },
+        "visitor": {
+          "name": "Puebla",
+          "image": "https://static.futbolenlatv.com/img/20180606095041-puebla.webp"
+        }
+      },
+      "channels": [
+        "MLS Season Pass"
+      ],
+      "event": {
+        "name": "Columbus Crew - Puebla",
+        "description": "Columbus Crew - Puebla el sábado, 2 de agosto de 2025 a las 1:00",
+        "startDate": "2025-08-01T23:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -120,7 +160,7 @@
       "sport": "tenis",
       "date": {
         "hour": "01:00",
-        "day": "01/08/2025",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -129,12 +169,12 @@
       },
       "teams": {
         "local": {
-          "name": "A. Zverev",
-          "image": "https://static.futbolenlatv.com/img/20130727123343-Alemania.webp"
+          "name": "G. Diallo",
+          "image": "https://static.futbolenlatv.com/img/20130727125012-Canada.webp"
         },
         "visitor": {
-          "name": "M. Arnaldi",
-          "image": "https://static.futbolenlatv.com/img/20130111045624_italia.webp"
+          "name": "T. Fritz",
+          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
         }
       },
       "channels": [
@@ -148,7 +188,7 @@
       "sport": "tenis",
       "date": {
         "hour": "01:00",
-        "day": "01/08/2025",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -157,12 +197,12 @@
       },
       "teams": {
         "local": {
-          "name": "V. Mboko",
-          "image": "https://static.futbolenlatv.com/img/20130625051127-Canada.webp"
+          "name": "E. Lys",
+          "image": "https://static.futbolenlatv.com/img/20130130075653_alemania.webp"
         },
         "visitor": {
-          "name": "M. Bouzkova",
-          "image": "https://static.futbolenlatv.com/img/20130727123944-Republica-Checa.webp"
+          "name": "I. Swiatek",
+          "image": "https://static.futbolenlatv.com/img/20130727123454-polonia.webp"
         }
       },
       "channels": [
@@ -177,7 +217,7 @@
       "sport": "beisbol",
       "date": {
         "hour": "01:10",
-        "day": "01/08/2025",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -186,12 +226,12 @@
       },
       "teams": {
         "local": {
-          "name": "Cincinnati Reds",
-          "image": "https://static.futbolenlatv.com/img/20200708191445-cincinnati-reds.webp"
+          "name": "Miami Marlins",
+          "image": "https://static.futbolenlatv.com/img/20200717130824-miami-marlins.webp"
         },
         "visitor": {
-          "name": "Atlanta Braves",
-          "image": "https://static.futbolenlatv.com/img/20191007044811-atlanta-braves.webp"
+          "name": "New York Yankees",
+          "image": "https://static.futbolenlatv.com/img/20191007044615-new-york-yankees.webp"
         }
       },
       "channels": [
@@ -203,132 +243,8 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "01:30",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Leagues Cup",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Chivas Guadalajara",
-          "image": "https://static.futbolenlatv.com/img/20130210115220_chivas-guadalajara.webp"
-        },
-        "visitor": {
-          "name": "New York RB",
-          "image": "https://static.futbolenlatv.com/img/20130306094321_new-york-red-bull.webp"
-        }
-      },
-      "channels": [
-        "MLS Season Pass"
-      ],
-      "event": {
-        "name": "Chivas Guadalajara - New York RB",
-        "description": "Chivas Guadalajara - New York RB el viernes, 1 de agosto de 2025 a las 1:30",
-        "startDate": "2025-07-31T23:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "01:30",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Leagues Cup",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Charlotte FC",
-          "image": "https://static.futbolenlatv.com/img/20211203131714-charlotte-fc.webp"
-        },
-        "visitor": {
-          "name": "FC Juárez",
-          "image": "https://static.futbolenlatv.com/img/20160119061024-fc-juarez.webp"
-        }
-      },
-      "channels": [
-        "MLS Season Pass"
-      ],
-      "event": {
-        "name": "Charlotte FC - FC Juárez",
-        "description": "Charlotte FC - FC Juárez el viernes, 1 de agosto de 2025 a las 1:30",
-        "startDate": "2025-07-31T23:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "02:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga 1 Perú",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "ACD Juan Pablo II College",
-          "image": "https://static.futbolenlatv.com/img/20241011103329-acd-juan-pablo-ii-college.webp"
-        },
-        "visitor": {
-          "name": "Alianza Lima",
-          "image": "https://static.futbolenlatv.com/img/20140603083857-alianza-lima.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "ACD Juan Pablo II College - Alianza Lima",
-        "description": "ACD Juan Pablo II College - Alianza Lima el viernes, 1 de agosto de 2025 a las 2:00",
-        "startDate": "2025-08-01T00:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol-americano",
-      "date": {
-        "hour": "02:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NFL Pretemporada",
-        "round": "Hall of Fame Game"
-      },
-      "teams": {
-        "local": {
-          "name": "Los Angeles Chargers",
-          "image": "https://static.futbolenlatv.com/img/20130911111040-san-diego-charges.webp"
-        },
-        "visitor": {
-          "name": "Detroit Lions",
-          "image": "https://static.futbolenlatv.com/img/20130918094435-detroit-lions.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "02:10",
-        "day": "01/08/2025",
+        "hour": "01:45",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -337,21 +253,216 @@
       },
       "teams": {
         "local": {
-          "name": "Aldosivi",
-          "image": "https://static.futbolenlatv.com/img/20140826095110-aldosivi.webp"
+          "name": "Lanús",
+          "image": "https://static.futbolenlatv.com/img/20121219051504_lanús.webp"
         },
         "visitor": {
-          "name": "Argentinos Juniors",
-          "image": "https://static.futbolenlatv.com/img/20121219051144_argentinos-juniors.webp"
+          "name": "CA Huracán",
+          "image": "https://static.futbolenlatv.com/img/20140821093122-ca-huracan.webp"
         }
       },
       "channels": [
         "Fanatiz"
       ],
       "event": {
-        "name": "Aldosivi - Argentinos Juniors",
-        "description": "Aldosivi - Argentinos Juniors el viernes, 1 de agosto de 2025 a las 2:10",
-        "startDate": "2025-08-01T00:10:00",
+        "name": "Lanús - CA Huracán",
+        "description": "Lanús - CA Huracán el sábado, 2 de agosto de 2025 a las 1:45",
+        "startDate": "2025-08-01T23:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "02:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga 1 Perú",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Deportivo Garcilaso",
+          "image": "https://static.futbolenlatv.com/img/20221127112959-club-deportivo-garcilaso.webp"
+        },
+        "visitor": {
+          "name": "Cienciano",
+          "image": "https://static.futbolenlatv.com/img/20140912012204-cienciano.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Deportivo Garcilaso - Cienciano",
+        "description": "Deportivo Garcilaso - Cienciano el sábado, 2 de agosto de 2025 a las 2:00",
+        "startDate": "2025-08-02T00:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "02:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Pro Ecuador",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Deportivo Cuenca",
+          "image": "https://static.futbolenlatv.com/img/20140830015002-deportivo-cuenca.webp"
+        },
+        "visitor": {
+          "name": "Macará",
+          "image": "https://static.futbolenlatv.com/img/20150808111412-macara.webp"
+        }
+      },
+      "channels": [
+        "ElCanalDelFutbol.com"
+      ],
+      "event": {
+        "name": "Deportivo Cuenca - Macará",
+        "description": "Deportivo Cuenca - Macará el sábado, 2 de agosto de 2025 a las 2:00",
+        "startDate": "2025-08-02T00:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "02:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa América Femenina",
+        "round": "3er Puesto"
+      },
+      "teams": {
+        "local": {
+          "name": "Argentina",
+          "image": "https://static.futbolenlatv.com/img/20130204101418_argentina.webp"
+        },
+        "visitor": {
+          "name": "Uruguay",
+          "image": "https://static.futbolenlatv.com/img/20130108083741_uruguay.webp"
+        }
+      },
+      "channels": [
+        "M+ Ellas Vamos",
+        "Movistar+ Lite",
+        "Copa América YouTube",
+        "M+ Liga de Campeones"
+      ],
+      "event": {
+        "name": "Argentina - Uruguay",
+        "description": "Argentina - Uruguay el sábado, 2 de agosto de 2025 a las 2:00",
+        "startDate": "2025-08-02T00:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "02:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NWSL",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Chicago Red Stars",
+          "image": "https://static.futbolenlatv.com/img/20190415071050-chicago-red-star.webp"
+        },
+        "visitor": {
+          "name": "NJ/NY Gotham FC",
+          "image": "https://static.futbolenlatv.com/img/20220623182623-sky-blue-fc.webp"
+        }
+      },
+      "channels": [
+        "NWSL+"
+      ],
+      "event": {
+        "name": "Chicago Red Stars - NJ/NY Gotham FC",
+        "description": "Chicago Red Stars - NJ/NY Gotham FC el sábado, 2 de agosto de 2025 a las 2:00",
+        "startDate": "2025-08-02T00:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "02:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NWSL",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Racing Louisville",
+          "image": "https://static.futbolenlatv.com/img/20220623175700-racing-louisville-fc.webp"
+        },
+        "visitor": {
+          "name": "Kansas City Current",
+          "image": "https://static.futbolenlatv.com/img/20220908171415-kansas-city-current.webp"
+        }
+      },
+      "channels": [
+        "NWSL+"
+      ],
+      "event": {
+        "name": "Racing Louisville - Kansas City Current",
+        "description": "Racing Louisville - Kansas City Current el sábado, 2 de agosto de 2025 a las 2:00",
+        "startDate": "2025-08-02T00:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "02:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Leagues Cup",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Houston Dynamo",
+          "image": "https://static.futbolenlatv.com/img/20211013184210-houston-dynamo.webp"
+        },
+        "visitor": {
+          "name": "Mazatlán FC",
+          "image": "https://static.futbolenlatv.com/img/20200625094532-mazlatan-fc.webp"
+        }
+      },
+      "channels": [
+        "MLS Season Pass"
+      ],
+      "event": {
+        "name": "Houston Dynamo - Mazatlán FC",
+        "description": "Houston Dynamo - Mazatlán FC el sábado, 2 de agosto de 2025 a las 2:30",
+        "startDate": "2025-08-02T00:30:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -360,7 +471,7 @@
       "sport": "tenis",
       "date": {
         "hour": "02:30",
-        "day": "01/08/2025",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -369,12 +480,12 @@
       },
       "teams": {
         "local": {
-          "name": "D. Medvedev",
-          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
+          "name": "B. Nakashima",
+          "image": "https://static.futbolenlatv.com/img/20200528104619-motoamerica-superbike.webp"
         },
         "visitor": {
-          "name": "A. Popyrin",
-          "image": "https://static.futbolenlatv.com/img/20130727123414-Australia.webp"
+          "name": "B. Shelton",
+          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
         }
       },
       "channels": [
@@ -388,7 +499,7 @@
       "sport": "tenis",
       "date": {
         "hour": "02:30",
-        "day": "01/08/2025",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -397,12 +508,12 @@
       },
       "teams": {
         "local": {
-          "name": "E. Rybakina",
-          "image": "https://static.futbolenlatv.com/img/20130727124441-Kazajistan.webp"
+          "name": "A. Anisimova",
+          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
         },
         "visitor": {
-          "name": "J. Cristian",
-          "image": "https://static.futbolenlatv.com/img/20130727123316-Rumania.webp"
+          "name": "E. Raducanu",
+          "image": "https://static.futbolenlatv.com/img/20200618110104-battle-of-the-brits.webp"
         }
       },
       "channels": [
@@ -416,63 +527,31 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "03:30",
-        "day": "01/08/2025",
+        "hour": "03:00",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Leagues Cup",
-        "round": null
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
-          "name": "Colorado Rapids",
-          "image": "https://static.futbolenlatv.com/img/20190525111133-colorado-rapids.webp"
+          "name": "Toluca",
+          "image": "https://static.futbolenlatv.com/img/20170723095237-toluca.webp"
         },
         "visitor": {
-          "name": "Santos Laguna",
-          "image": "https://static.futbolenlatv.com/img/20130210120959_santos-laguna.webp"
+          "name": "CF Montréal",
+          "image": "https://static.futbolenlatv.com/img/20211013184128-montreal-impact.webp"
         }
       },
       "channels": [
         "MLS Season Pass"
       ],
       "event": {
-        "name": "Colorado Rapids - Santos Laguna",
-        "description": "Colorado Rapids - Santos Laguna el viernes, 1 de agosto de 2025 a las 3:30",
-        "startDate": "2025-08-01T01:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "04:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga 1 Perú",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Universitario",
-          "image": "https://static.futbolenlatv.com/img/20140603082828-club-universitario-de-deportes.webp"
-        },
-        "visitor": {
-          "name": "Atlético Grau",
-          "image": "https://static.futbolenlatv.com/img/20171209110204-atletico-grau.webp"
-        }
-      },
-      "channels": [
-        "GolTV Play"
-      ],
-      "event": {
-        "name": "Universitario - Atlético Grau",
-        "description": "Universitario - Atlético Grau el viernes, 1 de agosto de 2025 a las 4:00",
-        "startDate": "2025-08-01T02:00:00",
+        "name": "Toluca - CF Montréal",
+        "description": "Toluca - CF Montréal el sábado, 2 de agosto de 2025 a las 3:00",
+        "startDate": "2025-08-02T01:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -481,30 +560,62 @@
       "sport": "futbol",
       "date": {
         "hour": "04:30",
-        "day": "01/08/2025",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Leagues Cup",
+        "competition": "NWSL",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Cruz Azul",
-          "image": "https://static.futbolenlatv.com/img/20130208052055_cruz-azul.webp"
+          "name": "OL Reign",
+          "image": "https://static.futbolenlatv.com/img/20220623182706-seattle-reign.webp"
         },
         "visitor": {
-          "name": "Seattle Sounders",
-          "image": "https://static.futbolenlatv.com/img/20130222095250_seattle-saunders.webp"
+          "name": "Angel City FC",
+          "image": "https://static.futbolenlatv.com/img/20220623175723-angel-city-fc.webp"
+        }
+      },
+      "channels": [
+        "NWSL+"
+      ],
+      "event": {
+        "name": "OL Reign - Angel City FC",
+        "description": "OL Reign - Angel City FC el sábado, 2 de agosto de 2025 a las 4:30",
+        "startDate": "2025-08-02T02:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "04:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Leagues Cup",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Los Angeles FC",
+          "image": "https://static.futbolenlatv.com/img/20171228044703-los-angeles-fc.webp"
+        },
+        "visitor": {
+          "name": "Pachuca",
+          "image": "https://static.futbolenlatv.com/img/20170503111123-pachuca.webp"
         }
       },
       "channels": [
         "MLS Season Pass"
       ],
       "event": {
-        "name": "Cruz Azul - Seattle Sounders",
-        "description": "Cruz Azul - Seattle Sounders el viernes, 1 de agosto de 2025 a las 4:30",
-        "startDate": "2025-08-01T02:30:00",
+        "name": "Los Angeles FC - Pachuca",
+        "description": "Los Angeles FC - Pachuca el sábado, 2 de agosto de 2025 a las 4:30",
+        "startDate": "2025-08-02T02:30:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -513,30 +624,30 @@
       "sport": "futbol",
       "date": {
         "hour": "05:00",
-        "day": "01/08/2025",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Leagues Cup",
-        "round": null
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
-          "name": "LA Galaxy",
-          "image": "https://static.futbolenlatv.com/img/20130222095154_la-galaxy.webp"
+          "name": "Tigres UANL",
+          "image": "https://static.futbolenlatv.com/img/20130214022400_tigres-uanl.webp"
         },
         "visitor": {
-          "name": "Tijuana",
-          "image": "https://static.futbolenlatv.com/img/20130208052144_tijuana.webp"
+          "name": "San Diego FC",
+          "image": "https://static.futbolenlatv.com/img/20241221122105-san-diego-fc.webp"
         }
       },
       "channels": [
         "MLS Season Pass"
       ],
       "event": {
-        "name": "LA Galaxy - Tijuana",
-        "description": "LA Galaxy - Tijuana el viernes, 1 de agosto de 2025 a las 5:00",
-        "startDate": "2025-08-01T03:00:00",
+        "name": "Tigres UANL - San Diego FC",
+        "description": "Tigres UANL - San Diego FC el sábado, 2 de agosto de 2025 a las 5:00",
+        "startDate": "2025-08-02T03:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -544,8 +655,8 @@
     {
       "sport": "automovilismo",
       "date": {
-        "hour": "07:03",
-        "day": "01/08/2025",
+        "hour": "07:01",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -563,208 +674,7 @@
         }
       },
       "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "padel",
-      "date": {
-        "hour": "10:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Tarragona Open",
-        "round": "1/4 de final femenino"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Red Bull TV",
-        "M+ Ellas Vamos",
-        "Movistar+ Lite",
-        "M+ Deportes 3",
-        "M+ Deportes 4"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "padel",
-      "date": {
-        "hour": "12:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": null,
-        "round": "1/4 de final masculino"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Red Bull TV",
-        "M+ Deportes 3",
-        "M+ Deportes 4"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "12:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "ITF Torneo de Maspalomas",
-        "round": "1/4 de Final"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Marca YouTube"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "golf",
-      "date": {
-        "hour": "12:45",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Wyndham Championship",
-        "round": "Jornada 2"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "HBO MAX"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "golf",
-      "date": {
-        "hour": "13:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Open Británico Femenino",
-        "round": "Jornada 2"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "M+ Ellas Vamos",
-        "Movistar Golf"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "13:30",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Fórmula 1",
-        "round": "G.P. Hungría (Hungaroring)"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN F1"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "padel",
-      "date": {
-        "hour": "14:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": null,
-        "round": "1/4 de final femenino"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Red Bull TV",
-        "M+ Ellas Vamos",
-        "Movistar+ Lite",
-        "M+ Deportes 3"
+        "DAZN"
       ],
       "event": {},
       "eventType": "tournament"
@@ -772,31 +682,63 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "14:30",
-        "day": "01/08/2025",
+        "hour": "10:00",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Premier League Ucrania",
+        "competition": "Amistoso",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "FC Kolos Kovalivka",
-          "image": "https://static.futbolenlatv.com/img/20220823143432-fc-kolos-kovalivka.webp"
+          "name": "Leganés",
+          "image": "https://static.futbolenlatv.com/img/20121226110211_leganes.webp"
         },
         "visitor": {
-          "name": "FC Kryvbas",
-          "image": "https://static.futbolenlatv.com/img/20220823143355-fc-kryvbas-kryvyi-rih.webp"
+          "name": "Alcorcón",
+          "image": "https://static.futbolenlatv.com/img/20171124045105-alcorcon.webp"
         }
       },
       "channels": [
-        "OneFootball PPV"
+        "Canal por confirmar"
       ],
       "event": {
-        "name": "FC Kolos Kovalivka - FC Kryvbas",
-        "description": "FC Kolos Kovalivka - FC Kryvbas el viernes, 1 de agosto de 2025 a las 14:30",
-        "startDate": "2025-08-01T12:30:00",
+        "name": "Leganés - Alcorcón",
+        "description": "Leganés - Alcorcón el sábado, 2 de agosto de 2025 a las 10:00",
+        "startDate": "2025-08-02T08:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "10:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Albacete",
+          "image": "https://static.futbolenlatv.com/img/20121227103702_albacete.webp"
+        },
+        "visitor": {
+          "name": "Villarreal B",
+          "image": "https://static.futbolenlatv.com/img/20131007021135-villarreal.webp"
+        }
+      },
+      "channels": [
+        "CMMPlay"
+      ],
+      "event": {
+        "name": "Albacete - Villarreal B",
+        "description": "Albacete - Villarreal B el sábado, 2 de agosto de 2025 a las 10:00",
+        "startDate": "2025-08-02T08:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -804,8 +746,8 @@
     {
       "sport": "automovilismo",
       "date": {
-        "hour": "15:00",
-        "day": "01/08/2025",
+        "hour": "10:05",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -830,43 +772,15 @@
       "eventType": "tournament"
     },
     {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "15:55",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "FIA Fórmula 2",
-        "round": "G.P. Hungría (Hungaroring)"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN F1"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
       "sport": "padel",
       "date": {
-        "hour": "16:00",
-        "day": "01/08/2025",
+        "hour": "12:00",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": null,
-        "round": "1/4 de final femenino"
+        "competition": "Tarragona Open",
+        "round": "Semifinal Femenina"
       },
       "teams": {
         "local": {
@@ -880,70 +794,9 @@
       },
       "channels": [
         "Red Bull TV",
-        "M+ Vamos",
-        "M+ #Vamos Bar",
+        "M+ Ellas Vamos",
         "Movistar+ Lite",
-        "M+ Deportes 3"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "17:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Veikkausliiga",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "VPS",
-          "image": "https://static.futbolenlatv.com/img/20220323212028-vaasan-palloseura.webp"
-        },
-        "visitor": {
-          "name": "IFK Mariehamn",
-          "image": "https://static.futbolenlatv.com/img/20220323211959-ifk-mariehamn.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "VPS - IFK Mariehamn",
-        "description": "VPS - IFK Mariehamn el viernes, 1 de agosto de 2025 a las 17:00",
-        "startDate": "2025-08-01T15:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "17:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": null,
-        "round": "G.P. Hungría (Hungaroring)"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN F1"
+        "M+ Deportes 2"
       ],
       "event": {},
       "eventType": "tournament"
@@ -951,13 +804,13 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "17:05",
-        "day": "01/08/2025",
+        "hour": "12:00",
+        "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": null,
-        "round": "3ª Ronda"
+        "competition": "ITF Torneo de Maspalomas",
+        "round": "Semifinal 1"
       },
       "teams": {
         "local": {
@@ -970,452 +823,11 @@
         }
       },
       "channels": [
-        "ATP Tennis TV",
-        "Movistar+"
+        "RTVE Play",
+        "Marca YouTube"
       ],
       "event": {},
       "eventType": "tournament"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "17:05",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": null,
-        "round": "3ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "WTA TV",
-        "Tennis Channel",
-        "Tennis Channel - Orange TV"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "padel",
-      "date": {
-        "hour": "18:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": null,
-        "round": "1/4 de final masculino"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Red Bull TV",
-        "M+ Vamos",
-        "M+ #Vamos Bar",
-        "Movistar+ Lite",
-        "M+ Deportes 3"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "19:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Amistoso",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "L'Escala",
-          "image": "https://static.futbolenlatv.com/img/20130711093822-l-escala.webp"
-        },
-        "visitor": {
-          "name": "Barcelona Atlétic",
-          "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
-        }
-      },
-      "channels": [
-        "La Xarxa+"
-      ],
-      "event": {
-        "name": "L'Escala - Barcelona Atlétic",
-        "description": "L'Escala - Barcelona Atlétic el viernes, 1 de agosto de 2025 a las 19:00",
-        "startDate": "2025-08-01T17:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "19:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Regionalliga",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Sandhausen",
-          "image": "https://static.futbolenlatv.com/img/20140917073447-sandhausen.webp"
-        },
-        "visitor": {
-          "name": "FSV Frankfurt",
-          "image": "https://static.futbolenlatv.com/img/20131014071023-fsv-frankfurt-1899.webp"
-        }
-      },
-      "channels": [
-        "OneFootball PPV"
-      ],
-      "event": {
-        "name": "Sandhausen - FSV Frankfurt",
-        "description": "Sandhausen - FSV Frankfurt el viernes, 1 de agosto de 2025 a las 19:00",
-        "startDate": "2025-08-01T17:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "19:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "3. Liga",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Rot-Weiss Essen",
-          "image": "https://static.futbolenlatv.com/img/20130701093546-rot-weiss-essen.webp"
-        },
-        "visitor": {
-          "name": "1860 München",
-          "image": "https://static.futbolenlatv.com/img/20130126033651_munich_1860.webp"
-        }
-      },
-      "channels": [
-        "OneFootball PPV"
-      ],
-      "event": {
-        "name": "Rot-Weiss Essen - 1860 München",
-        "description": "Rot-Weiss Essen - 1860 München el viernes, 1 de agosto de 2025 a las 19:00",
-        "startDate": "2025-08-01T17:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga 1 Perú",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "CD Los Chankas",
-          "image": "https://static.futbolenlatv.com/img/20210916191205-santa-rosa.webp"
-        },
-        "visitor": {
-          "name": "Comerciantes Unidos",
-          "image": "https://static.futbolenlatv.com/img/20160204051945-comerciantes-unidos.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "CD Los Chankas - Comerciantes Unidos",
-        "description": "CD Los Chankas - Comerciantes Unidos el viernes, 1 de agosto de 2025 a las 20:00",
-        "startDate": "2025-08-01T18:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "padel",
-      "date": {
-        "hour": "20:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": null,
-        "round": "1/4 de final masculino"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Red Bull TV",
-        "M+ Deportes 3"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:30",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "2. Bundesliga",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Schalke 04",
-          "image": "https://static.futbolenlatv.com/img/20121218102045_schalke-04.webp"
-        },
-        "visitor": {
-          "name": "Hertha Berlin",
-          "image": "https://static.futbolenlatv.com/img/20130126034953_hertha_berlin.webp"
-        }
-      },
-      "channels": [
-        "DAZN"
-      ],
-      "event": {
-        "name": "Schalke 04 - Hertha Berlin",
-        "description": "Schalke 04 - Hertha Berlin el viernes, 1 de agosto de 2025 a las 20:30",
-        "startDate": "2025-08-01T18:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:30",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Admiral Bundesliga",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "LASK Linz",
-          "image": "https://static.futbolenlatv.com/img/20240923181122-lask-linz.webp"
-        },
-        "visitor": {
-          "name": "Sturm Graz",
-          "image": "https://static.futbolenlatv.com/img/20130705110853-sturm-graz.webp"
-        }
-      },
-      "channels": [
-        "OneFootball",
-        "OneFootball PPV"
-      ],
-      "event": {
-        "name": "LASK Linz - Sturm Graz",
-        "description": "LASK Linz - Sturm Graz el viernes, 1 de agosto de 2025 a las 20:30",
-        "startDate": "2025-08-01T18:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:45",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Jupiler Pro League",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Mechelen",
-          "image": "https://static.futbolenlatv.com/img/20121222104513_mechelen.webp"
-        },
-        "visitor": {
-          "name": "Club Brugge",
-          "image": "https://static.futbolenlatv.com/img/20121222102302_club-brugge.webp"
-        }
-      },
-      "channels": [
-        "DAZN"
-      ],
-      "event": {
-        "name": "Mechelen - Club Brugge",
-        "description": "Mechelen - Club Brugge el viernes, 1 de agosto de 2025 a las 20:45",
-        "startDate": "2025-08-01T18:45:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:00",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Amistoso",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Vitória SC",
-          "image": "https://static.futbolenlatv.com/img/20121220121226_vitria-guimarães.webp"
-        },
-        "visitor": {
-          "name": "Celta",
-          "image": "https://static.futbolenlatv.com/img/20121218091134_celta.webp"
-        }
-      },
-      "channels": [
-        "TV Galicia"
-      ],
-      "event": {
-        "name": "Vitória SC - Celta",
-        "description": "Vitória SC - Celta el viernes, 1 de agosto de 2025 a las 21:00",
-        "startDate": "2025-08-01T19:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:45",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Segunda Uruguay",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "CA Rentistas",
-          "image": "https://static.futbolenlatv.com/img/20140813031155-ca-rentistas.webp"
-        },
-        "visitor": {
-          "name": "Oriental",
-          "image": "https://static.futbolenlatv.com/img/20230215105339-club-oriental-football.webp"
-        }
-      },
-      "channels": [
-        "GolTV Play"
-      ],
-      "event": {
-        "name": "CA Rentistas - Oriental",
-        "description": "CA Rentistas - Oriental el viernes, 1 de agosto de 2025 a las 21:45",
-        "startDate": "2025-08-01T19:45:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "22:15",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga 1 Perú",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Alianza Atlético",
-          "image": "https://static.futbolenlatv.com/img/20150130100414-alianza-atletico.webp"
-        },
-        "visitor": {
-          "name": "Melgar",
-          "image": "https://static.futbolenlatv.com/img/20130807112358-fc-melgar.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "Alianza Atlético - Melgar",
-        "description": "Alianza Atlético - Melgar el viernes, 1 de agosto de 2025 a las 22:15",
-        "startDate": "2025-08-01T20:15:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "23:15",
-        "day": "01/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa Argentina",
-        "round": "1/8 de final"
-      },
-      "teams": {
-        "local": {
-          "name": "Belgrano",
-          "image": "https://static.futbolenlatv.com/img/20121219050908__belgrano.webp"
-        },
-        "visitor": {
-          "name": "Independiente",
-          "image": "https://static.futbolenlatv.com/img/20121219051437_independiente.webp"
-        }
-      },
-      "channels": [
-        "Fanatiz"
-      ],
-      "event": {
-        "name": "Belgrano - Independiente",
-        "description": "Belgrano - Independiente el viernes, 1 de agosto de 2025 a las 23:15",
-        "startDate": "2025-08-01T21:15:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
     },
     {
       "sport": "balonmano",
@@ -1528,6 +940,587 @@
       "eventType": "match"
     },
     {
+      "sport": "automovilismo",
+      "date": {
+        "hour": "12:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Fórmula 1",
+        "round": "G.P. Hungría (Hungaroring)"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN F1"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "13:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso Femenino",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Athletic Femenino",
+          "image": "https://static.futbolenlatv.com/img/20151130110649-athletic.webp"
+        },
+        "visitor": {
+          "name": "Deportivo Abanca",
+          "image": "https://static.futbolenlatv.com/img/20170722032940-deportivo.webp"
+        }
+      },
+      "channels": [
+        "RCDeportivo TV YouTube"
+      ],
+      "event": {
+        "name": "Athletic Femenino - Deportivo Abanca",
+        "description": "Athletic Femenino - Deportivo Abanca el sábado, 2 de agosto de 2025 a las 13:00",
+        "startDate": "2025-08-02T11:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "13:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Europeo Sub-18",
+        "round": "13º Puesto"
+      },
+      "teams": {
+        "local": {
+          "name": "Suecia",
+          "image": "https://static.futbolenlatv.com/img/20130204101348_suecia.webp"
+        },
+        "visitor": {
+          "name": "Bulgaria",
+          "image": "https://static.futbolenlatv.com/img/20130528081800-Bulgaria.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "golf",
+      "date": {
+        "hour": "13:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Open Británico Femenino",
+        "round": "Jornada 3"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "M+ Ellas Vamos",
+        "Movistar Golf"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "13:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Europeo Sub-18",
+        "round": "5º Puesto"
+      },
+      "teams": {
+        "local": {
+          "name": "Alemania",
+          "image": "https://static.futbolenlatv.com/img/20130130075653_alemania.webp"
+        },
+        "visitor": {
+          "name": "Eslovenia",
+          "image": "https://static.futbolenlatv.com/img/20130204101247_eslovenia.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "13:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": null,
+        "round": "Semifinal 2"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "RTVE Play",
+        "Marca YouTube"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "13:35",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Chinese Super League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Chengdu Rongcheng",
+          "image": "https://static.futbolenlatv.com/img/20220617100147-chengdu-rongcheng-fc.webp"
+        },
+        "visitor": {
+          "name": "Shandong Taishan",
+          "image": "https://static.futbolenlatv.com/img/20140220071805-shandong-luneng.webp"
+        }
+      },
+      "channels": [
+        "GOL",
+        "GolStadium"
+      ],
+      "event": {
+        "name": "Chengdu Rongcheng - Shandong Taishan",
+        "description": "Chengdu Rongcheng - Shandong Taishan el sábado, 2 de agosto de 2025 a las 13:35",
+        "startDate": "2025-08-02T11:35:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "golf",
+      "date": {
+        "hour": "13:45",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Wyndham Championship",
+        "round": "Jornada 3"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "HBO MAX"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "West Bromwich",
+          "image": "https://static.futbolenlatv.com/img/20121218101148_west-bromwich-albion.webp"
+        },
+        "visitor": {
+          "name": "Rayo Vallecano",
+          "image": "https://static.futbolenlatv.com/img/20121226112150_rayo-vallecano_(1).webp"
+        }
+      },
+      "channels": [
+        "Canal por confirmar"
+      ],
+      "event": {
+        "name": "West Bromwich - Rayo Vallecano",
+        "description": "West Bromwich - Rayo Vallecano el sábado, 2 de agosto de 2025 a las 14:00",
+        "startDate": "2025-08-02T12:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Regionalliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "FC Homburg",
+          "image": "https://static.futbolenlatv.com/img/20130826093134-fc-homburg.webp"
+        },
+        "visitor": {
+          "name": "KSV Hessen Kassel",
+          "image": "https://static.futbolenlatv.com/img/20130803125343-ksv-hessen.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "FC Homburg - KSV Hessen Kassel",
+        "description": "FC Homburg - KSV Hessen Kassel el sábado, 2 de agosto de 2025 a las 14:00",
+        "startDate": "2025-08-02T12:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Regionalliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Mainz 05 II",
+          "image": "https://static.futbolenlatv.com/img/20160510123615-mainz-05-ii.webp"
+        },
+        "visitor": {
+          "name": "Astoria Walldorf",
+          "image": "https://static.futbolenlatv.com/img/20160525014756-astoria-walldorf.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Mainz 05 II - Astoria Walldorf",
+        "description": "Mainz 05 II - Astoria Walldorf el sábado, 2 de agosto de 2025 a las 14:00",
+        "startDate": "2025-08-02T12:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Regionalliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Sonnenhof Grossaspach",
+          "image": "https://static.futbolenlatv.com/img/20160827010055-sonnenhof-grossaspach.webp"
+        },
+        "visitor": {
+          "name": "TSG Balingen",
+          "image": "https://static.futbolenlatv.com/img/20200818173446-tsg-balingen.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Sonnenhof Grossaspach - TSG Balingen",
+        "description": "Sonnenhof Grossaspach - TSG Balingen el sábado, 2 de agosto de 2025 a las 14:00",
+        "startDate": "2025-08-02T12:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Regionalliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "TSV Steinbach",
+          "image": "https://static.futbolenlatv.com/img/20171113063914-tsv-steinbach.webp"
+        },
+        "visitor": {
+          "name": "Eintracht Trier",
+          "image": "https://static.futbolenlatv.com/img/20140910102101-eintracht-trier.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "TSV Steinbach - Eintracht Trier",
+        "description": "TSV Steinbach - Eintracht Trier el sábado, 2 de agosto de 2025 a las 14:00",
+        "startDate": "2025-08-02T12:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Regionalliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Bahlinger SC",
+          "image": "https://static.futbolenlatv.com/img/20210526205422-bahlinger-sc.webp"
+        },
+        "visitor": {
+          "name": "Kickers Offenbach",
+          "image": "https://static.futbolenlatv.com/img/20130225103112_offenbach.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Bahlinger SC - Kickers Offenbach",
+        "description": "Bahlinger SC - Kickers Offenbach el sábado, 2 de agosto de 2025 a las 14:00",
+        "startDate": "2025-08-02T12:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Regionalliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "FC Bayern Alzenau",
+          "image": "https://static.futbolenlatv.com/img/20210526205432-fc-bayern-alzenau.webp"
+        },
+        "visitor": {
+          "name": "TSV Schott Mainz",
+          "image": "https://static.futbolenlatv.com/img/20160525022057-tsv-schott-mainz.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "FC Bayern Alzenau - TSV Schott Mainz",
+        "description": "FC Bayern Alzenau - TSV Schott Mainz el sábado, 2 de agosto de 2025 a las 14:00",
+        "startDate": "2025-08-02T12:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Regionalliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "SGV Freiberg",
+          "image": "https://static.futbolenlatv.com/img/20220907172302-sgv-freiberg.webp"
+        },
+        "visitor": {
+          "name": "Freiburg II",
+          "image": "https://static.futbolenlatv.com/img/20210526202724-freiburg-2.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "SGV Freiberg - Freiburg II",
+        "description": "SGV Freiberg - Freiburg II el sábado, 2 de agosto de 2025 a las 14:00",
+        "startDate": "2025-08-02T12:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "3. Liga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Energie Cottbus",
+          "image": "https://static.futbolenlatv.com/img/20130404045206_energie-cottbus.webp"
+        },
+        "visitor": {
+          "name": "1. FC Saarbrücken",
+          "image": "https://static.futbolenlatv.com/img/20130730051858-saarbruecken.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV",
+        "German Football YouTube"
+      ],
+      "event": {
+        "name": "Energie Cottbus - 1. FC Saarbrücken",
+        "description": "Energie Cottbus - 1. FC Saarbrücken el sábado, 2 de agosto de 2025 a las 14:00",
+        "startDate": "2025-08-02T12:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Superliga de Letonia",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "FK Jelgava",
+          "image": "https://static.futbolenlatv.com/img/20250616105520-fk-jelgava.webp"
+        },
+        "visitor": {
+          "name": "FK Liepaja",
+          "image": "https://static.futbolenlatv.com/img/20190929074451-fk-liepaja.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "FK Jelgava - FK Liepaja",
+        "description": "FK Jelgava - FK Liepaja el sábado, 2 de agosto de 2025 a las 14:00",
+        "startDate": "2025-08-02T12:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "padel",
+      "date": {
+        "hour": "14:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": null,
+        "round": "Semifinal Femenina"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "Red Bull TV",
+        "M+ Ellas Vamos",
+        "Movistar+ Lite",
+        "M+ Deportes 2"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
       "sport": "baloncesto",
       "date": {
         "hour": "14:00",
@@ -1536,7 +1529,7 @@
       },
       "details": {
         "competition": "Europeo Femenino Sub-20",
-        "round": null
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
@@ -1563,7 +1556,7 @@
       },
       "details": {
         "competition": "Europeo Femenino Sub-20",
-        "round": null
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
@@ -1579,6 +1572,66 @@
         "FIBA YouTube"
       ],
       "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "automovilismo",
+      "date": {
+        "hour": "14:15",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FIA Fórmula 2",
+        "round": "G.P. Hungría (Hungaroring)"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN F1"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Premier League Ucrania",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "NK Veres Rivne",
+          "image": "https://static.futbolenlatv.com/img/20220823143342-nk-veres-rivne.webp"
+        },
+        "visitor": {
+          "name": "Dynamo Kyiv",
+          "image": "https://static.futbolenlatv.com/img/20121221103707_dynamo-kiev.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "NK Veres Rivne - Dynamo Kyiv",
+        "description": "NK Veres Rivne - Dynamo Kyiv el sábado, 2 de agosto de 2025 a las 14:30",
+        "startDate": "2025-08-02T12:30:00",
+        "duration": "T1H45M"
+      },
       "eventType": "match"
     },
     {
@@ -1690,6 +1743,444 @@
       "eventType": "match"
     },
     {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Oxford Utd.",
+          "image": "https://static.futbolenlatv.com/img/20131114091623-oxford-utd.webp"
+        },
+        "visitor": {
+          "name": "Málaga",
+          "image": "https://static.futbolenlatv.com/img/20130729013601-malaga.webp"
+        }
+      },
+      "channels": [
+        "Canal por confirmar"
+      ],
+      "event": {
+        "name": "Oxford Utd. - Málaga",
+        "description": "Oxford Utd. - Málaga el sábado, 2 de agosto de 2025 a las 15:00",
+        "startDate": "2025-08-02T13:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "1. FC Union Berlin",
+          "image": "https://static.futbolenlatv.com/img/20130126035044_union_berlin.webp"
+        },
+        "visitor": {
+          "name": "Espanyol",
+          "image": "https://static.futbolenlatv.com/img/20121218093321_espanol.webp"
+        }
+      },
+      "channels": [
+        "RCD Espanyol YouTube",
+        "Facebook RCD Espanyol",
+        "Twitter @RCDEspanyol",
+        "Esport3"
+      ],
+      "event": {
+        "name": "1. FC Union Berlin - Espanyol",
+        "description": "1. FC Union Berlin - Espanyol el sábado, 2 de agosto de 2025 a las 15:30",
+        "startDate": "2025-08-02T13:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Sunderland",
+          "image": "https://static.futbolenlatv.com/img/20121218101008_sunderland.webp"
+        },
+        "visitor": {
+          "name": "Real Betis",
+          "image": "https://static.futbolenlatv.com/img/20130924050626-real-betis.webp"
+        }
+      },
+      "channels": [
+        "Real Betis TV"
+      ],
+      "event": {
+        "name": "Sunderland - Real Betis",
+        "description": "Sunderland - Real Betis el sábado, 2 de agosto de 2025 a las 16:00",
+        "startDate": "2025-08-02T14:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Leeds Utd",
+          "image": "https://static.futbolenlatv.com/img/20130207050812_leeds-united.webp"
+        },
+        "visitor": {
+          "name": "Villarreal",
+          "image": "https://static.futbolenlatv.com/img/20121218093727_villareal.webp"
+        }
+      },
+      "channels": [
+        "GOL",
+        "GolStadium"
+      ],
+      "event": {
+        "name": "Leeds Utd - Villarreal",
+        "description": "Leeds Utd - Villarreal el sábado, 2 de agosto de 2025 a las 16:00",
+        "startDate": "2025-08-02T14:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Middlesbrough",
+          "image": "https://static.futbolenlatv.com/img/20131019095526-middlesbrough.webp"
+        },
+        "visitor": {
+          "name": "Deportivo",
+          "image": "https://static.futbolenlatv.com/img/20121218091015_deportivo.webp"
+        }
+      },
+      "channels": [
+        "RCDeportivo TV YouTube"
+      ],
+      "event": {
+        "name": "Middlesbrough - Deportivo",
+        "description": "Middlesbrough - Deportivo el sábado, 2 de agosto de 2025 a las 16:00",
+        "startDate": "2025-08-02T14:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Campeonato Uruguayo",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "CA Juventud",
+          "image": "https://static.futbolenlatv.com/img/20141121093950-ca-juventud.webp"
+        },
+        "visitor": {
+          "name": "Cerro Largo",
+          "image": "https://static.futbolenlatv.com/img/20141206100136-cerro-largo.webp"
+        }
+      },
+      "channels": [
+        "GolTV Play"
+      ],
+      "event": {
+        "name": "CA Juventud - Cerro Largo",
+        "description": "CA Juventud - Cerro Largo el sábado, 2 de agosto de 2025 a las 16:00",
+        "startDate": "2025-08-02T14:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga noruega",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Tromsø",
+          "image": "https://static.futbolenlatv.com/img/20130814015958-tromso.webp"
+        },
+        "visitor": {
+          "name": "Fredrikstad",
+          "image": "https://static.futbolenlatv.com/img/20220322160854-fredrikstad.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Tromsø - Fredrikstad",
+        "description": "Tromsø - Fredrikstad el sábado, 2 de agosto de 2025 a las 16:00",
+        "startDate": "2025-08-02T14:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Superliga de Letonia",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "SK Super Nova",
+          "image": "https://static.futbolenlatv.com/img/20220304205145-sk-super-nova.webp"
+        },
+        "visitor": {
+          "name": "BFC Daugavpils",
+          "image": "https://static.futbolenlatv.com/img/20220304205124-bfc-daugavpils.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "SK Super Nova - BFC Daugavpils",
+        "description": "SK Super Nova - BFC Daugavpils el sábado, 2 de agosto de 2025 a las 16:00",
+        "startDate": "2025-08-02T14:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Veikkausliiga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "KuPS",
+          "image": "https://static.futbolenlatv.com/img/20190712061543-kups.webp"
+        },
+        "visitor": {
+          "name": "FC Haka",
+          "image": "https://static.futbolenlatv.com/img/20220323211906-fc-haka.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "KuPS - FC Haka",
+        "description": "KuPS - FC Haka el sábado, 2 de agosto de 2025 a las 16:00",
+        "startDate": "2025-08-02T14:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Premier Islandia",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "ÍBV",
+          "image": "https://static.futbolenlatv.com/img/20220412192317-iprottabandalag-vestmannaeyja.webp"
+        },
+        "visitor": {
+          "name": "KR Reykjavík",
+          "image": "https://static.futbolenlatv.com/img/20200814132630-kr-reykjavik.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "ÍBV - KR Reykjavík",
+        "description": "ÍBV - KR Reykjavík el sábado, 2 de agosto de 2025 a las 16:00",
+        "startDate": "2025-08-02T14:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "16:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Europeo Sub-18",
+        "round": "13º Puesto"
+      },
+      "teams": {
+        "local": {
+          "name": "Bélgica",
+          "image": "https://static.futbolenlatv.com/img/20130121023530_belgica.webp"
+        },
+        "visitor": {
+          "name": "Macedonia Norte",
+          "image": "https://static.futbolenlatv.com/img/20130528081503-Macedonia.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "16:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Europeo Sub-18",
+        "round": "5º Puesto"
+      },
+      "teams": {
+        "local": {
+          "name": "Serbia",
+          "image": "https://static.futbolenlatv.com/img/20130318120848_serbia.webp"
+        },
+        "visitor": {
+          "name": "Turquía",
+          "image": "https://static.futbolenlatv.com/img/20130513110846_turquia.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "automovilismo",
+      "date": {
+        "hour": "16:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": null,
+        "round": "G.P. Hungría (Hungaroring)"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN F1"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "3. Liga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Duisburg",
+          "image": "https://static.futbolenlatv.com/img/20220908113757-duisburgo.webp"
+        },
+        "visitor": {
+          "name": "Stuttgart II",
+          "image": "https://static.futbolenlatv.com/img/20160510123729-stuttgart-ii.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Duisburg - Stuttgart II",
+        "description": "Duisburg - Stuttgart II el sábado, 2 de agosto de 2025 a las 16:30",
+        "startDate": "2025-08-02T14:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
       "sport": "baloncesto",
       "date": {
         "hour": "16:30",
@@ -1698,7 +2189,7 @@
       },
       "details": {
         "competition": "Europeo Femenino Sub-20",
-        "round": null
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
@@ -1725,7 +2216,7 @@
       },
       "details": {
         "competition": "Europeo Femenino Sub-20",
-        "round": null
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
@@ -1742,6 +2233,164 @@
       ],
       "event": {},
       "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Hull City",
+          "image": "https://static.futbolenlatv.com/img/20130410021935_hull-city.webp"
+        },
+        "visitor": {
+          "name": "Getafe",
+          "image": "https://static.futbolenlatv.com/img/20190410094027-getafe.webp"
+        }
+      },
+      "channels": [
+        "Canal por confirmar"
+      ],
+      "event": {
+        "name": "Hull City - Getafe",
+        "description": "Hull City - Getafe el sábado, 2 de agosto de 2025 a las 17:00",
+        "startDate": "2025-08-02T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Premier League Ucrania",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Zorya",
+          "image": "https://static.futbolenlatv.com/img/20140224092901-zorya.webp"
+        },
+        "visitor": {
+          "name": "LNZ Cherkasy",
+          "image": "https://static.futbolenlatv.com/img/20230908130044-lnz-cherkasy.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Zorya - LNZ Cherkasy",
+        "description": "Zorya - LNZ Cherkasy el sábado, 2 de agosto de 2025 a las 17:00",
+        "startDate": "2025-08-02T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Admiral Bundesliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Wolfsberger AC",
+          "image": "https://static.futbolenlatv.com/img/20140717094333-wolfsberger.webp"
+        },
+        "visitor": {
+          "name": "SCR Altach",
+          "image": "https://static.futbolenlatv.com/img/20160509102658-scr-altach.webp"
+        }
+      },
+      "channels": [
+        "OneFootball",
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Wolfsberger AC - SCR Altach",
+        "description": "Wolfsberger AC - SCR Altach el sábado, 2 de agosto de 2025 a las 17:00",
+        "startDate": "2025-08-02T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Admiral Bundesliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "WSG Swarovski Tirol",
+          "image": "https://static.futbolenlatv.com/img/20160624054420-wsg-wattens.webp"
+        },
+        "visitor": {
+          "name": "TSV Hartberg",
+          "image": "https://static.futbolenlatv.com/img/20140706052855-tsv-hartberg.webp"
+        }
+      },
+      "channels": [
+        "OneFootball",
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "WSG Swarovski Tirol - TSV Hartberg",
+        "description": "WSG Swarovski Tirol - TSV Hartberg el sábado, 2 de agosto de 2025 a las 17:00",
+        "startDate": "2025-08-02T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "padel",
+      "date": {
+        "hour": "17:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": null,
+        "round": "Semifinal Masculina"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "Red Bull TV",
+        "M+ Deportes 2"
+      ],
+      "event": {},
+      "eventType": "tournament"
     },
     {
       "sport": "balonmano",
@@ -1825,6 +2474,191 @@
       "eventType": "match"
     },
     {
+      "sport": "tenis",
+      "date": {
+        "hour": "17:05",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": null,
+        "round": "1/8 de final"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "ATP Tennis TV",
+        "Movistar+"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "17:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Polonia",
+          "image": "https://static.futbolenlatv.com/img/20130528084142-Polonia.webp"
+        },
+        "visitor": {
+          "name": "Senegal",
+          "image": "https://static.futbolenlatv.com/img/20130716094920-senegal.webp"
+        }
+      },
+      "channels": [
+        "Courtside 1891 Max"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga noruega",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Sarpsborg 08",
+          "image": "https://static.futbolenlatv.com/img/20180830115157-sarpsborg-08.webp"
+        },
+        "visitor": {
+          "name": "SK Brann",
+          "image": "https://static.futbolenlatv.com/img/20200529182723-sk-brann.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Sarpsborg 08 - SK Brann",
+        "description": "Sarpsborg 08 - SK Brann el sábado, 2 de agosto de 2025 a las 18:00",
+        "startDate": "2025-08-02T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Superliga de Eslovaquia",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Ruzomberok",
+          "image": "https://static.futbolenlatv.com/img/20170725103744-ruzomberok.webp"
+        },
+        "visitor": {
+          "name": "MFK Skalica",
+          "image": "https://static.futbolenlatv.com/img/20220715115256-mfk-skalica.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV",
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Ruzomberok - MFK Skalica",
+        "description": "Ruzomberok - MFK Skalica el sábado, 2 de agosto de 2025 a las 18:00",
+        "startDate": "2025-08-02T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Superliga de Eslovaquia",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "MFK Zemplín Michalovce",
+          "image": "https://static.futbolenlatv.com/img/20211019111843-mfk-zemplin-michalovce.webp"
+        },
+        "visitor": {
+          "name": "KFC Komárno",
+          "image": "https://static.futbolenlatv.com/img/20240717113632-kfc-komarno.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV",
+        "OneFootball"
+      ],
+      "event": {
+        "name": "MFK Zemplín Michalovce - KFC Komárno",
+        "description": "MFK Zemplín Michalovce - KFC Komárno el sábado, 2 de agosto de 2025 a las 18:00",
+        "startDate": "2025-08-02T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Veikkausliiga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "AC Oulu",
+          "image": "https://static.futbolenlatv.com/img/20220323211853-ac-oulu.webp"
+        },
+        "visitor": {
+          "name": "FF Jaro",
+          "image": "https://static.futbolenlatv.com/img/20220408180427-ff-jaro.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "AC Oulu - FF Jaro",
+        "description": "AC Oulu - FF Jaro el sábado, 2 de agosto de 2025 a las 18:00",
+        "startDate": "2025-08-02T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
       "sport": "baloncesto",
       "date": {
         "hour": "18:00",
@@ -1879,6 +2713,346 @@
       "eventType": "match"
     },
     {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Burgos CF",
+          "image": "https://static.futbolenlatv.com/img/20130523034010_burgos-cf.webp"
+        },
+        "visitor": {
+          "name": "Eibar",
+          "image": "https://static.futbolenlatv.com/img/20121219071513_eibar.webp"
+        }
+      },
+      "channels": [
+        "BurgosDeporte YouTube"
+      ],
+      "event": {
+        "name": "Burgos CF - Eibar",
+        "description": "Burgos CF - Eibar el sábado, 2 de agosto de 2025 a las 18:30",
+        "startDate": "2025-08-02T16:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Europeo Sub-18",
+        "round": "Semifinales"
+      },
+      "teams": {
+        "local": {
+          "name": "Letonia",
+          "image": "https://static.futbolenlatv.com/img/20130524093608_letonia.webp"
+        },
+        "visitor": {
+          "name": "Francia",
+          "image": "https://static.futbolenlatv.com/img/20130124053558_francia.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Europeo Sub-18",
+        "round": "9º Puesto"
+      },
+      "teams": {
+        "local": {
+          "name": "Lituania",
+          "image": "https://static.futbolenlatv.com/img/20130528084732-Lituania.webp"
+        },
+        "visitor": {
+          "name": "Grecia",
+          "image": "https://static.futbolenlatv.com/img/20140624094707-grecia.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Real Sociedad",
+          "image": "https://static.futbolenlatv.com/img/20121218093019_real-sociedad.webp"
+        },
+        "visitor": {
+          "name": "Rennes",
+          "image": "https://static.futbolenlatv.com/img/20130117034713_stade-rennais-football-clu.webp"
+        }
+      },
+      "channels": [
+        "Canal por confirmar"
+      ],
+      "event": {
+        "name": "Real Sociedad - Rennes",
+        "description": "Real Sociedad - Rennes el sábado, 2 de agosto de 2025 a las 19:00",
+        "startDate": "2025-08-02T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Huesca",
+          "image": "https://static.futbolenlatv.com/img/20121218094125_huesca.webp"
+        },
+        "visitor": {
+          "name": "CD Castellón",
+          "image": "https://static.futbolenlatv.com/img/20130321012805_castellon.webp"
+        }
+      },
+      "channels": [
+        "Aragón Deporte",
+        "Aragón TV"
+      ],
+      "event": {
+        "name": "Huesca - CD Castellón",
+        "description": "Huesca - CD Castellón el sábado, 2 de agosto de 2025 a las 19:00",
+        "startDate": "2025-08-02T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Osasuna",
+          "image": "https://static.futbolenlatv.com/img/20121218093507_osasuna.webp"
+        },
+        "visitor": {
+          "name": "Racing Santander",
+          "image": "https://static.futbolenlatv.com/img/20121218095805_racing.webp"
+        }
+      },
+      "channels": [
+        "Navarra TV"
+      ],
+      "event": {
+        "name": "Osasuna - Racing Santander",
+        "description": "Osasuna - Racing Santander el sábado, 2 de agosto de 2025 a las 19:00",
+        "startDate": "2025-08-02T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Racing Ferrol",
+          "image": "https://static.futbolenlatv.com/img/20121219085055_racing-ferrol.webp"
+        },
+        "visitor": {
+          "name": "RM Castilla",
+          "image": "https://static.futbolenlatv.com/img/20160725122745-real-madrid.webp"
+        }
+      },
+      "channels": [
+        "Real Madrid TV"
+      ],
+      "event": {
+        "name": "Racing Ferrol - RM Castilla",
+        "description": "Racing Ferrol - RM Castilla el sábado, 2 de agosto de 2025 a las 19:00",
+        "startDate": "2025-08-02T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Cádiz CF",
+          "image": "https://static.futbolenlatv.com/img/20121227104020_cadiz.webp"
+        },
+        "visitor": {
+          "name": "AD Ceuta",
+          "image": "https://static.futbolenlatv.com/img/20161124011351-ad-ceuta.webp"
+        }
+      },
+      "channels": [
+        "Plaiz"
+      ],
+      "event": {
+        "name": "Cádiz CF - AD Ceuta",
+        "description": "Cádiz CF - AD Ceuta el sábado, 2 de agosto de 2025 a las 19:00",
+        "startDate": "2025-08-02T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Trofeo Teide",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "CD Tenerife",
+          "image": "https://static.futbolenlatv.com/img/20121219073149_tenerife.webp"
+        },
+        "visitor": {
+          "name": "UD Las Palmas",
+          "image": "https://static.futbolenlatv.com/img/20121218094143_las-palmas.webp"
+        }
+      },
+      "channels": [
+        "Deportes TVCanaria YouTube",
+        "TV Canaria"
+      ],
+      "event": {
+        "name": "CD Tenerife - UD Las Palmas",
+        "description": "CD Tenerife - UD Las Palmas el sábado, 2 de agosto de 2025 a las 19:00",
+        "startDate": "2025-08-02T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Nacional Argentina",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "San Miguel",
+          "image": "https://static.futbolenlatv.com/img/20161105092707-san-miguel.webp"
+        },
+        "visitor": {
+          "name": "Colegiales",
+          "image": "https://static.futbolenlatv.com/img/20140920114806-colegiales.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "San Miguel - Colegiales",
+        "description": "San Miguel - Colegiales el sábado, 2 de agosto de 2025 a las 19:00",
+        "startDate": "2025-08-02T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "padel",
+      "date": {
+        "hour": "19:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": null,
+        "round": "Semifinal Masculina"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "Red Bull TV",
+        "M+ Deportes 2"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
       "sport": "baloncesto",
       "date": {
         "hour": "19:00",
@@ -1887,7 +3061,7 @@
       },
       "details": {
         "competition": "Europeo Femenino Sub-20",
-        "round": null
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
@@ -1914,7 +3088,7 @@
       },
       "details": {
         "competition": "Europeo Femenino Sub-20",
-        "round": null
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
@@ -1930,6 +3104,132 @@
         "FIBA YouTube"
       ],
       "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "19:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": null,
+        "round": "1/8 de final"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "WTA TV",
+        "Tennis Channel",
+        "Tennis Channel - Orange TV"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Sporting Gijón",
+          "image": "https://static.futbolenlatv.com/img/20121226111815_sporting-gijon.webp"
+        },
+        "visitor": {
+          "name": "Ponferradina",
+          "image": "https://static.futbolenlatv.com/img/20211013183402-ponferradina.webp"
+        }
+      },
+      "channels": [
+        "Canal por confirmar"
+      ],
+      "event": {
+        "name": "Sporting Gijón - Ponferradina",
+        "description": "Sporting Gijón - Ponferradina el sábado, 2 de agosto de 2025 a las 19:30",
+        "startDate": "2025-08-02T17:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa RFEF",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Palencia CF",
+          "image": "https://static.futbolenlatv.com/img/20210826143122-palencia-cf.webp"
+        },
+        "visitor": {
+          "name": "Zamora",
+          "image": "https://static.futbolenlatv.com/img/20121219074334_zamora.webp"
+        }
+      },
+      "channels": [
+        "Elviphotoss YouTube"
+      ],
+      "event": {
+        "name": "Palencia CF - Zamora",
+        "description": "Palencia CF - Zamora el sábado, 2 de agosto de 2025 a las 19:30",
+        "startDate": "2025-08-02T17:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Admiral Bundesliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "SV Ried",
+          "image": "https://static.futbolenlatv.com/img/20160509102745-sv-ried.webp"
+        },
+        "visitor": {
+          "name": "Red Bull Salzburg",
+          "image": "https://static.futbolenlatv.com/img/20130814030214-salzburg.webp"
+        }
+      },
+      "channels": [
+        "OneFootball",
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "SV Ried - Red Bull Salzburg",
+        "description": "SV Ried - Red Bull Salzburg el sábado, 2 de agosto de 2025 a las 19:30",
+        "startDate": "2025-08-02T17:30:00",
+        "duration": "T1H45M"
+      },
       "eventType": "match"
     },
     {
@@ -2014,6 +3314,70 @@
       "eventType": "match"
     },
     {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "O. Marseille",
+          "image": "https://static.futbolenlatv.com/img/20130117033826_olympique-de-marseille.webp"
+        },
+        "visitor": {
+          "name": "Sevilla FC",
+          "image": "https://static.futbolenlatv.com/img/20121218093043_sevilla.webp"
+        }
+      },
+      "channels": [
+        "Sevilla FC +"
+      ],
+      "event": {
+        "name": "O. Marseille - Sevilla FC",
+        "description": "O. Marseille - Sevilla FC el sábado, 2 de agosto de 2025 a las 20:00",
+        "startDate": "2025-08-02T18:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Campeonato Uruguayo",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "River Plate M.",
+          "image": "https://static.futbolenlatv.com/img/20130729071310-river-plate-m.webp"
+        },
+        "visitor": {
+          "name": "CA Cerro",
+          "image": "https://static.futbolenlatv.com/img/20141108081457-ca-cerro.webp"
+        }
+      },
+      "channels": [
+        "GolTV Play"
+      ],
+      "event": {
+        "name": "River Plate M. - CA Cerro",
+        "description": "River Plate M. - CA Cerro el sábado, 2 de agosto de 2025 a las 20:00",
+        "startDate": "2025-08-02T18:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
       "sport": "baloncesto",
       "date": {
         "hour": "20:00",
@@ -2043,13 +3407,389 @@
     {
       "sport": "baloncesto",
       "date": {
+        "hour": "20:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Italia",
+          "image": "https://static.futbolenlatv.com/img/20130111045624_italia.webp"
+        },
+        "visitor": {
+          "name": "Islandia",
+          "image": "https://static.futbolenlatv.com/img/20171107062145-islandia.webp"
+        }
+      },
+      "channels": [
+        "Courtside 1891 Max"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:15",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Polaca",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Lech Poznan",
+          "image": "https://static.futbolenlatv.com/img/20150911103123-lech-poznan.webp"
+        },
+        "visitor": {
+          "name": "Górnik Zabrze",
+          "image": "https://static.futbolenlatv.com/img/20200523203013-gornik-zabrze.webp"
+        }
+      },
+      "channels": [
+        "GolStadium"
+      ],
+      "event": {
+        "name": "Lech Poznan - Górnik Zabrze",
+        "description": "Lech Poznan - Górnik Zabrze el sábado, 2 de agosto de 2025 a las 20:15",
+        "startDate": "2025-08-02T18:15:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Borussia M'gladbach",
+          "image": "https://static.futbolenlatv.com/img/20121218101735_borussia-mönchengladbach.webp"
+        },
+        "visitor": {
+          "name": "Valencia CF",
+          "image": "https://static.futbolenlatv.com/img/20151004120005-valencia.webp"
+        }
+      },
+      "channels": [
+        "À Punt",
+        "Valenciacf.com/es",
+        "Valencia CF App",
+        "Valencia CF YouTube",
+        "GOL",
+        "GolStadium"
+      ],
+      "event": {
+        "name": "Borussia M'gladbach - Valencia CF",
+        "description": "Borussia M'gladbach - Valencia CF el sábado, 2 de agosto de 2025 a las 20:30",
+        "startDate": "2025-08-02T18:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Superliga de Eslovaquia",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Slovan Bratislava",
+          "image": "https://static.futbolenlatv.com/img/20140720101911-slovan-bratislava.webp"
+        },
+        "visitor": {
+          "name": "FK Železiarne Podbrezová",
+          "image": "https://static.futbolenlatv.com/img/20220715115307-fk-zeleziarne-podbrezova.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV",
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Slovan Bratislava - FK Železiarne Podbrezová",
+        "description": "Slovan Bratislava - FK Železiarne Podbrezová el sábado, 2 de agosto de 2025 a las 20:30",
+        "startDate": "2025-08-02T18:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Tarazona",
+          "image": "https://static.futbolenlatv.com/img/20170306095148-tarazona.webp"
+        },
+        "visitor": {
+          "name": "Real Zaragoza",
+          "image": "https://static.futbolenlatv.com/img/20121218093634_zaragoza.webp"
+        }
+      },
+      "channels": [
+        "Aragón Deporte",
+        "Aragón TV"
+      ],
+      "event": {
+        "name": "Tarazona - Real Zaragoza",
+        "description": "Tarazona - Real Zaragoza el sábado, 2 de agosto de 2025 a las 21:00",
+        "startDate": "2025-08-02T19:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Colombiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Deportivo Cali",
+          "image": "https://static.futbolenlatv.com/img/20130218095458_deportivo-cali.webp"
+        },
+        "visitor": {
+          "name": "Llaneros",
+          "image": "https://static.futbolenlatv.com/img/20250501114320-club-llaneros-fc.webp"
+        }
+      },
+      "channels": [
+        "RCN Nuestra Tele"
+      ],
+      "event": {
+        "name": "Deportivo Cali - Llaneros",
+        "description": "Deportivo Cali - Llaneros el sábado, 2 de agosto de 2025 a las 21:00",
+        "startDate": "2025-08-02T19:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Brasil",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Sport Recife",
+          "image": "https://static.futbolenlatv.com/img/20180131095506-sport-recife.webp"
+        },
+        "visitor": {
+          "name": "Bahía",
+          "image": "https://static.futbolenlatv.com/img/20180209112818-bahia.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Sport Recife - Bahía",
+        "description": "Sport Recife - Bahía el sábado, 2 de agosto de 2025 a las 21:00",
+        "startDate": "2025-08-02T19:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "21:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Europeo Sub-18",
+        "round": "Semifinales"
+      },
+      "teams": {
+        "local": {
+          "name": "Italia",
+          "image": "https://static.futbolenlatv.com/img/20130111045624_italia.webp"
+        },
+        "visitor": {
+          "name": "España",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "21:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Europeo Sub-18",
+        "round": "9º Puesto"
+      },
+      "teams": {
+        "local": {
+          "name": "Austria",
+          "image": "https://static.futbolenlatv.com/img/20130410124536_austria.webp"
+        },
+        "visitor": {
+          "name": "Israel",
+          "image": "https://static.futbolenlatv.com/img/20130311111216_israel.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:15",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa Argentina",
+        "round": "1/8 de final"
+      },
+      "teams": {
+        "local": {
+          "name": "San Lorenzo",
+          "image": "https://static.futbolenlatv.com/img/20121219051730_san-lorenzo-de-almagro.webp"
+        },
+        "visitor": {
+          "name": "Tigre",
+          "image": "https://static.futbolenlatv.com/img/20121219051849_tigre.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "San Lorenzo - Tigre",
+        "description": "San Lorenzo - Tigre el sábado, 2 de agosto de 2025 a las 21:15",
+        "startDate": "2025-08-02T19:15:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Futve 2",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Real Frontera",
+          "image": "https://static.futbolenlatv.com/img/20190904081005-real-frontera.webp"
+        },
+        "visitor": {
+          "name": "Puerto Cabello B",
+          "image": "https://static.futbolenlatv.com/img/20180122072828-puerto-cabello.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
+      ],
+      "event": {
+        "name": "Real Frontera - Puerto Cabello B",
+        "description": "Real Frontera - Puerto Cabello B el sábado, 2 de agosto de 2025 a las 21:30",
+        "startDate": "2025-08-02T19:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Futve 2",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Monagas SC B",
+          "image": "https://static.futbolenlatv.com/img/20170223083453-monagas-sc.webp"
+        },
+        "visitor": {
+          "name": "Mineros Guayana",
+          "image": "https://static.futbolenlatv.com/img/20171102100631-mineros-guayana.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
+      ],
+      "event": {
+        "name": "Monagas SC B - Mineros Guayana",
+        "description": "Monagas SC B - Mineros Guayana el sábado, 2 de agosto de 2025 a las 21:30",
+        "startDate": "2025-08-02T19:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
         "hour": "21:30",
         "day": "02/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Europeo Femenino Sub-20",
-        "round": null
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
@@ -2076,7 +3816,7 @@
       },
       "details": {
         "competition": "Europeo Femenino Sub-20",
-        "round": null
+        "round": "Fase de grupos"
       },
       "teams": {
         "local": {
@@ -2092,6 +3832,262 @@
         "FIBA YouTube"
       ],
       "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "22:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Futve 2",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Angostura FC",
+          "image": "https://static.futbolenlatv.com/img/20250601103951-angostura-fc.webp"
+        },
+        "visitor": {
+          "name": "Deportivo Miranda",
+          "image": "https://static.futbolenlatv.com/img/20250601105747-petare-fc.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
+      ],
+      "event": {
+        "name": "Angostura FC - Deportivo Miranda",
+        "description": "Angostura FC - Deportivo Miranda el sábado, 2 de agosto de 2025 a las 22:00",
+        "startDate": "2025-08-02T20:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "beisbol",
+      "date": {
+        "hour": "22:10",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "MLB",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Miami Marlins",
+          "image": "https://static.futbolenlatv.com/img/20200717130824-miami-marlins.webp"
+        },
+        "visitor": {
+          "name": "New York Yankees",
+          "image": "https://static.futbolenlatv.com/img/20191007044615-new-york-yankees.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "22:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Campeonato Uruguayo",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Nacional",
+          "image": "https://static.futbolenlatv.com/img/20130227101637_club-nacional-uruguay.webp"
+        },
+        "visitor": {
+          "name": "Montevideo City Torque",
+          "image": "https://static.futbolenlatv.com/img/20200807001922-ca-torque.webp"
+        }
+      },
+      "channels": [
+        "GolTV Play"
+      ],
+      "event": {
+        "name": "Nacional - Montevideo City Torque",
+        "description": "Nacional - Montevideo City Torque el sábado, 2 de agosto de 2025 a las 22:30",
+        "startDate": "2025-08-02T20:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "23:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa América Femenina",
+        "round": "Final"
+      },
+      "teams": {
+        "local": {
+          "name": "Colombia",
+          "image": "https://static.futbolenlatv.com/img/20130410092520_colombia.webp"
+        },
+        "visitor": {
+          "name": "Brasil",
+          "image": "https://static.futbolenlatv.com/img/20130204124155_brasil.webp"
+        }
+      },
+      "channels": [
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite",
+        "Copa América YouTube",
+        "M+ Ellas Vamos",
+        "M+ Liga de Campeones"
+      ],
+      "event": {
+        "name": "Colombia - Brasil",
+        "description": "Colombia - Brasil el sábado, 2 de agosto de 2025 a las 23:00",
+        "startDate": "2025-08-02T21:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "23:00",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Futve 2",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Marítimo de La Guaira",
+          "image": "https://static.futbolenlatv.com/img/20230511095201-maritimo-de-la-guaira.webp"
+        },
+        "visitor": {
+          "name": "Dynamo Puerto",
+          "image": "https://static.futbolenlatv.com/img/20190904080859-dynamo-puerto.webp"
+        }
+      },
+      "channels": [
+        "FIFA+"
+      ],
+      "event": {
+        "name": "Marítimo de La Guaira - Dynamo Puerto",
+        "description": "Marítimo de La Guaira - Dynamo Puerto el sábado, 2 de agosto de 2025 a las 23:00",
+        "startDate": "2025-08-02T21:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "23:10",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Colombiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Junior",
+          "image": "https://static.futbolenlatv.com/img/20130221122138_junior-barranquilla.webp"
+        },
+        "visitor": {
+          "name": "Boyacá Chicó",
+          "image": "https://static.futbolenlatv.com/img/20130221122302_boyaca-chico.webp"
+        }
+      },
+      "channels": [
+        "RCN Nuestra Tele"
+      ],
+      "event": {
+        "name": "Junior - Boyacá Chicó",
+        "description": "Junior - Boyacá Chicó el sábado, 2 de agosto de 2025 a las 23:10",
+        "startDate": "2025-08-02T21:10:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "23:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Pro Ecuador",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Barcelona SC",
+          "image": "https://static.futbolenlatv.com/img/20130416105502_barcelona-sporting-club.webp"
+        },
+        "visitor": {
+          "name": "Orense SC",
+          "image": "https://static.futbolenlatv.com/img/20190320121659-orense-sc.webp"
+        }
+      },
+      "channels": [
+        "ElCanalDelFutbol.com"
+      ],
+      "event": {
+        "name": "Barcelona SC - Orense SC",
+        "description": "Barcelona SC - Orense SC el sábado, 2 de agosto de 2025 a las 23:30",
+        "startDate": "2025-08-02T21:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "23:30",
+        "day": "02/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Brasil",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Mirassol",
+          "image": "https://static.futbolenlatv.com/img/20180207105031-mirassol.webp"
+        },
+        "visitor": {
+          "name": "Vasco da Gama",
+          "image": "https://static.futbolenlatv.com/img/20121222111424_vasco-da-gama.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Mirassol - Vasco da Gama",
+        "description": "Mirassol - Vasco da Gama el sábado, 2 de agosto de 2025 a las 23:30",
+        "startDate": "2025-08-02T21:30:00",
+        "duration": "T1H45M"
+      },
       "eventType": "match"
     },
     {
@@ -2144,6 +4140,90 @@
       },
       "channels": [
         "DAZN"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-americano",
+      "date": {
+        "hour": "01:00",
+        "day": "08/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NFL Pretemporada",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Baltimore Ravens",
+          "image": "https://static.futbolenlatv.com/img/20130901061036-baltimore-ravens.webp"
+        },
+        "visitor": {
+          "name": "Indianápolis Colts",
+          "image": "https://static.futbolenlatv.com/img/20130918094430-indianapolis-colts.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-americano",
+      "date": {
+        "hour": "01:30",
+        "day": "08/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NFL Pretemporada",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Philadelphia Eagles",
+          "image": "https://static.futbolenlatv.com/img/20130901062622-philadelphia-eagles.webp"
+        },
+        "visitor": {
+          "name": "Cincinnati Bengals",
+          "image": "https://static.futbolenlatv.com/img/20130911094310-cincinnati-bengals.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-americano",
+      "date": {
+        "hour": "04:00",
+        "day": "08/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NFL Pretemporada",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Seattle Seahawks",
+          "image": "https://static.futbolenlatv.com/img/20130911094053-seattle-seahawks.webp"
+        },
+        "visitor": {
+          "name": "Las Vegas Raiders",
+          "image": "https://static.futbolenlatv.com/img/20130918094419-oakland-raiders.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
       ],
       "event": {},
       "eventType": "match"
