@@ -3,26 +3,29 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "01:00",
-        "day": "16/08/2025",
+        "hour": "00:00",
+        "day": "17/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Masters Cincinnati",
-        "round": "1/4 de Final"
+        "round": "Semifinal 2"
       },
       "teams": {
         "local": {
-          "name": "B. Shelton",
-          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
-        },
-        "visitor": {
           "name": "A. Zverev",
           "image": "https://static.futbolenlatv.com/img/20130727123343-Alemania.webp"
+        },
+        "visitor": {
+          "name": "C. Alcaraz",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
         }
       },
       "channels": [
         "ATP Tennis TV",
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite",
         "M+ Deportes"
       ],
       "event": {},
@@ -31,22 +34,22 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "02:30",
-        "day": "16/08/2025",
+        "hour": "18:00",
+        "day": "17/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "WTA Cincinnati",
-        "round": "1/4 de Final"
+        "round": "Semifinal 1"
       },
       "teams": {
         "local": {
-          "name": "J. Paolini",
-          "image": "https://static.futbolenlatv.com/img/20130727123437-Italia.webp"
+          "name": "V. Kudermetova",
+          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
         },
         "visitor": {
-          "name": "C. Gauff",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+          "name": "J. Paolini",
+          "image": "https://static.futbolenlatv.com/img/20130727123437-Italia.webp"
         }
       },
       "channels": [
@@ -60,13 +63,42 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "22:00",
-        "day": "16/08/2025",
+        "hour": "20:00",
+        "day": "17/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": null,
-        "round": "Semifinal 1"
+        "competition": "WTA Cincinnati",
+        "round": "Semifinal 2"
+      },
+      "teams": {
+        "local": {
+          "name": "E. Rybakina",
+          "image": "https://static.futbolenlatv.com/img/20130727124441-Kazajistan.webp"
+        },
+        "visitor": {
+          "name": "I. Swiatek",
+          "image": "https://static.futbolenlatv.com/img/20130727123454-polonia.webp"
+        }
+      },
+      "channels": [
+        "WTA TV",
+        "Tennis Channel",
+        "Tennis Channel - Orange TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "20:00",
+        "day": "17/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Winston-Salem",
+        "round": "1ª Ronda"
       },
       "teams": {
         "local": {
@@ -79,12 +111,11 @@
         }
       },
       "channels": [
-        "ATP Tennis TV",
-        "Movistar+"
+        "ATP Tennis TV"
       ],
       "event": {},
       "eventType": "tournament"
     }
   ],
-  "updated": "2025-08-16T00:13:12.795Z"
+  "updated": "2025-08-17T00:14:29.310Z"
 }
