@@ -3,13 +3,13 @@
     {
       "sport": "golf",
       "date": {
-        "hour": "13:30",
-        "day": "22/08/2025",
+        "hour": "13:00",
+        "day": "23/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "British Masters",
-        "round": "Jornada 2"
+        "round": "Jornada 3"
       },
       "teams": {
         "local": {
@@ -30,13 +30,41 @@
     {
       "sport": "golf",
       "date": {
+        "hour": "16:13",
+        "day": "23/08/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LIV Golf",
+        "round": "Jornada 2"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "Movistar Golf 2",
+        "Movistar Golf"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "golf",
+      "date": {
         "hour": "17:00",
-        "day": "22/08/2025",
+        "day": "23/08/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "The Tour Championship",
-        "round": "Jornada 2"
+        "round": "Jornada 3"
       },
       "teams": {
         "local": {
@@ -53,34 +81,7 @@
       ],
       "event": {},
       "eventType": "tournament"
-    },
-    {
-      "sport": "golf",
-      "date": {
-        "hour": "18:13",
-        "day": "22/08/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LIV Golf",
-        "round": "Jornada 1"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Movistar Golf"
-      ],
-      "event": {},
-      "eventType": "tournament"
     }
   ],
-  "updated": "2025-08-22T00:12:13.401Z"
+  "updated": "2025-08-23T00:12:50.116Z"
 }
