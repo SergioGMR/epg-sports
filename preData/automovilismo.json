@@ -3,13 +3,40 @@
     {
       "sport": "automovilismo",
       "date": {
-        "hour": "13:30",
-        "day": "13/09/2025",
+        "hour": "01:30",
+        "day": "14/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "DTM",
-        "round": "Red Bull Ring"
+        "competition": "NASCAR Cup Series",
+        "round": "Bristol Speedway"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "automovilismo",
+      "date": {
+        "hour": "06:15",
+        "day": "14/09/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Supercars Championship",
+        "round": "The Bend Motorsport Park"
       },
       "teams": {
         "local": {
@@ -23,8 +50,7 @@
       },
       "channels": [
         "DAZN",
-        "DAZN App Gratis",
-        "DAZN 4"
+        "DAZN App Gratis"
       ],
       "event": {},
       "eventType": "tournament"
@@ -32,8 +58,8 @@
     {
       "sport": "automovilismo",
       "date": {
-        "hour": "14:07",
-        "day": "13/09/2025",
+        "hour": "13:23",
+        "day": "14/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -55,7 +81,35 @@
       ],
       "event": {},
       "eventType": "tournament"
+    },
+    {
+      "sport": "automovilismo",
+      "date": {
+        "hour": "13:30",
+        "day": "14/09/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "DTM",
+        "round": "Red Bull Ring"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "tournament"
     }
   ],
-  "updated": "2025-09-13T00:11:36.604Z"
+  "updated": "2025-09-14T00:14:23.516Z"
 }

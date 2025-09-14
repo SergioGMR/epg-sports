@@ -3,13 +3,40 @@
     {
       "sport": "boxeo",
       "date": {
+        "hour": "02:00",
+        "day": "14/09/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Título Mundial",
+        "round": "Peso Supermediano"
+      },
+      "teams": {
+        "local": {
+          "name": "S. Canelo Álvarez",
+          "image": "https://static.futbolenlatv.com/img/20140209123518-Mexico.webp"
+        },
+        "visitor": {
+          "name": "T. Crawford",
+          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+        }
+      },
+      "channels": [
+        "Netflix"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "boxeo",
+      "date": {
         "hour": "13:00",
-        "day": "13/09/2025",
+        "day": "14/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Campeonato del Mundo WBC",
-        "round": "Día 9"
+        "round": "Día 10"
       },
       "teams": {
         "local": {
@@ -30,40 +57,13 @@
     {
       "sport": "boxeo",
       "date": {
-        "hour": "18:00",
-        "day": "13/09/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Título Internacional",
-        "round": "Peso Superwelter"
-      },
-      "teams": {
-        "local": {
-          "name": "P. Ruhe",
-          "image": "https://static.futbolenlatv.com/img/20130111045624_italia.webp"
-        },
-        "visitor": {
-          "name": "A. Zugo",
-          "image": "https://static.futbolenlatv.com/img/20130712060732-tanzania.webp"
-        }
-      },
-      "channels": [
-        "DAZN"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "boxeo",
-      "date": {
         "hour": "19:00",
-        "day": "13/09/2025",
+        "day": "14/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": null,
-        "round": "Día 9"
+        "round": "Día 10"
       },
       "teams": {
         "local": {
@@ -82,61 +82,7 @@
       ],
       "event": {},
       "eventType": "tournament"
-    },
-    {
-      "sport": "boxeo",
-      "date": {
-        "hour": "19:00",
-        "day": "13/09/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Título Continental",
-        "round": "Peso Supermedio"
-      },
-      "teams": {
-        "local": {
-          "name": "J. Bank",
-          "image": "https://static.futbolenlatv.com/img/20130207060752_dinamarca.webp"
-        },
-        "visitor": {
-          "name": "T. Zeuge",
-          "image": "https://static.futbolenlatv.com/img/20130727123343-Alemania.webp"
-        }
-      },
-      "channels": [
-        "DAZN"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "boxeo",
-      "date": {
-        "hour": "20:00",
-        "day": "13/09/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Título Mundial",
-        "round": "Peso Welter"
-      },
-      "teams": {
-        "local": {
-          "name": "L. Crocker",
-          "image": "https://static.futbolenlatv.com/img/20130625051918-reino-unido.webp"
-        },
-        "visitor": {
-          "name": "P. Donovan",
-          "image": "https://static.futbolenlatv.com/img/20130521060225_republica-irlanda.webp"
-        }
-      },
-      "channels": [
-        "DAZN"
-      ],
-      "event": {},
-      "eventType": "match"
     }
   ],
-  "updated": "2025-09-13T00:11:39.217Z"
+  "updated": "2025-09-14T00:14:24.588Z"
 }
