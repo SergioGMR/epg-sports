@@ -3,34 +3,95 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "01:00",
-        "day": "16/09/2025",
+        "hour": "00:00",
+        "day": "17/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Serie A Brasil",
+        "competition": "Copa Libertadores",
+        "round": "1/4 de Final"
+      },
+      "teams": {
+        "local": {
+          "name": "Vélez Sarsfield",
+          "image": "https://static.futbolenlatv.com/img/20121219051943_vélez-sarsfield.webp"
+        },
+        "visitor": {
+          "name": "Racing Avellaneda",
+          "image": "https://static.futbolenlatv.com/img/20121219051639_racing-de-avellaneda.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus"
+      ],
+      "event": {
+        "name": "Vélez Sarsfield - Racing Avellaneda",
+        "description": "Vélez Sarsfield - Racing Avellaneda el miércoles, 17 de septiembre de 2025 a las 0:00",
+        "startDate": "2025-09-16T22:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:00",
+        "day": "17/09/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Colombiana",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Bahía",
-          "image": "https://static.futbolenlatv.com/img/20180209112818-bahia.webp"
+          "name": "América de Cali",
+          "image": "https://static.futbolenlatv.com/img/20140914123311-america-cali.webp"
         },
         "visitor": {
-          "name": "Cruzeiro",
-          "image": "https://static.futbolenlatv.com/img/20190115103202-cruzeiro.webp"
+          "name": "Bucaramanga",
+          "image": "https://static.futbolenlatv.com/img/20140228090756-bucaramanga.webp"
         }
       },
       "channels": [
-        "Fanatiz",
-        "M+ Vamos",
-        "M+ #Vamos Bar",
-        "Movistar+ Lite"
+        "RCN Nuestra Tele"
       ],
       "event": {
-        "name": "Bahía - Cruzeiro",
-        "description": "Bahía - Cruzeiro el martes, 16 de septiembre de 2025 a las 1:00",
-        "startDate": "2025-09-15T23:00:00",
+        "name": "América de Cali - Bucaramanga",
+        "description": "América de Cali - Bucaramanga el miércoles, 17 de septiembre de 2025 a las 1:00",
+        "startDate": "2025-09-16T23:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:30",
+        "day": "17/09/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "MLS",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Inter Miami CF",
+          "image": "https://static.futbolenlatv.com/img/20191208031649-inter-miami-cf.webp"
+        },
+        "visitor": {
+          "name": "Seattle Sounders",
+          "image": "https://static.futbolenlatv.com/img/20130222095250_seattle-saunders.webp"
+        }
+      },
+      "channels": [
+        "MLS Season Pass"
+      ],
+      "event": {
+        "name": "Inter Miami CF - Seattle Sounders",
+        "description": "Inter Miami CF - Seattle Sounders el miércoles, 17 de septiembre de 2025 a las 1:30",
+        "startDate": "2025-09-16T23:30:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -39,30 +100,128 @@
       "sport": "futbol",
       "date": {
         "hour": "02:00",
-        "day": "16/09/2025",
+        "day": "17/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Liga Pro Ecuador",
+        "competition": "Caribbean Club Championship",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Manta FC",
-          "image": "https://static.futbolenlatv.com/img/20140823020451-manta-fc.webp"
+          "name": "Central FC",
+          "image": "https://static.futbolenlatv.com/img/20150730023145-central-fc.webp"
         },
         "visitor": {
-          "name": "Aucas",
-          "image": "https://static.futbolenlatv.com/img/20140926023126-aucas.webp"
+          "name": "Moca FC",
+          "image": "https://static.futbolenlatv.com/img/20210414172757-moca-fc.webp"
+        }
+      },
+      "channels": [
+        "CONCACAF YouTube",
+        "CONCACAF GO"
+      ],
+      "event": {
+        "name": "Central FC - Moca FC",
+        "description": "Central FC - Moca FC el miércoles, 17 de septiembre de 2025 a las 2:00",
+        "startDate": "2025-09-17T00:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "02:30",
+        "day": "17/09/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa Sudamericana",
+        "round": "1/4 de Final"
+      },
+      "teams": {
+        "local": {
+          "name": "Lanús",
+          "image": "https://static.futbolenlatv.com/img/20121219051504_lanús.webp"
+        },
+        "visitor": {
+          "name": "Fluminense",
+          "image": "https://static.futbolenlatv.com/img/20180122105234-Fluminense.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus"
+      ],
+      "event": {
+        "name": "Lanús - Fluminense",
+        "description": "Lanús - Fluminense el miércoles, 17 de septiembre de 2025 a las 2:30",
+        "startDate": "2025-09-17T00:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "17/09/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "UEFA Youth League",
+        "round": "Fase Liga"
+      },
+      "teams": {
+        "local": {
+          "name": "Liverpool Academy",
+          "image": "https://static.futbolenlatv.com/img/20240923180630-liverpool-academy.webp"
+        },
+        "visitor": {
+          "name": "At. Madrid Academy",
+          "image": "https://static.futbolenlatv.com/img/20240712124125-atletico-madrid-cantera.webp"
+        }
+      },
+      "channels": [
+        "UEFA TV",
+        "M+ Liga de Campeones"
+      ],
+      "event": {
+        "name": "Liverpool Academy - At. Madrid Academy",
+        "description": "Liverpool Academy - At. Madrid Academy el miércoles, 17 de septiembre de 2025 a las 16:00",
+        "startDate": "2025-09-17T14:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "17/09/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Pro Serie B",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "9 de Octubre",
+          "image": "https://static.futbolenlatv.com/img/20200227105759-9-octubre.webp"
+        },
+        "visitor": {
+          "name": "Guayaquil City",
+          "image": "https://static.futbolenlatv.com/img/20170720055016-guayaquil-city.webp"
         }
       },
       "channels": [
         "ElCanalDelFutbol.com"
       ],
       "event": {
-        "name": "Manta FC - Aucas",
-        "description": "Manta FC - Aucas el martes, 16 de septiembre de 2025 a las 2:00",
-        "startDate": "2025-09-16T00:00:00",
+        "name": "9 de Octubre - Guayaquil City",
+        "description": "9 de Octubre - Guayaquil City el miércoles, 17 de septiembre de 2025 a las 17:00",
+        "startDate": "2025-09-17T15:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -70,31 +229,31 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "12:00",
-        "day": "16/09/2025",
+        "hour": "17:00",
+        "day": "17/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "UEFA Youth League",
-        "round": "Fase Liga"
+        "competition": "Liga Pro Serie B",
+        "round": null
       },
       "teams": {
         "local": {
-          "name": "Athletic Club Academy",
-          "image": "https://static.futbolenlatv.com/img/20151130110649-athletic.webp"
+          "name": "Chacaritas FC",
+          "image": "https://static.futbolenlatv.com/img/20200918182419-chacaritas-fc.webp"
         },
         "visitor": {
-          "name": "Arsenal Academy",
-          "image": "https://static.futbolenlatv.com/img/20151020084333-arsenal.webp"
+          "name": "Atlético Vinotinto",
+          "image": "https://static.futbolenlatv.com/img/20250704101323-atletico-vinotinto.webp"
         }
       },
       "channels": [
-        "M+ Liga de Campeones"
+        "ElCanalDelFutbol.com"
       ],
       "event": {
-        "name": "Athletic Club Academy - Arsenal Academy",
-        "description": "Athletic Club Academy - Arsenal Academy el martes, 16 de septiembre de 2025 a las 12:00",
-        "startDate": "2025-09-16T10:00:00",
+        "name": "Chacaritas FC - Atlético Vinotinto",
+        "description": "Chacaritas FC - Atlético Vinotinto el miércoles, 17 de septiembre de 2025 a las 17:00",
+        "startDate": "2025-09-17T15:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -102,69 +261,33 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "14:00",
-        "day": "16/09/2025",
+        "hour": "17:00",
+        "day": "17/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "UEFA Youth League",
-        "round": "Fase Liga"
+        "competition": "Primera Federación",
+        "round": "Grupo 1"
       },
       "teams": {
         "local": {
-          "name": "Juventus Academy",
-          "image": "https://static.futbolenlatv.com/img/20170117094900-juventus.webp"
-        },
-        "visitor": {
-          "name": "B. Dortmund Academy",
-          "image": "https://static.futbolenlatv.com/img/20170925010705-borussia-dortmund.webp"
-        }
-      },
-      "channels": [
-        "UEFA TV",
-        "M+ Liga de Campeones 2"
-      ],
-      "event": {
-        "name": "Juventus Academy - B. Dortmund Academy",
-        "description": "Juventus Academy - B. Dortmund Academy el martes, 16 de septiembre de 2025 a las 14:00",
-        "startDate": "2025-09-16T12:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "16:00",
-        "day": "16/09/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "UEFA Youth League",
-        "round": "Fase Liga"
-      },
-      "teams": {
-        "local": {
-          "name": "Real Madrid Academy",
+          "name": "RM Castilla",
           "image": "https://static.futbolenlatv.com/img/20160725122745-real-madrid.webp"
         },
         "visitor": {
-          "name": "O. Marseille Academy",
-          "image": "https://static.futbolenlatv.com/img/20130117033826_olympique-de-marseille.webp"
+          "name": "Racing Ferrol",
+          "image": "https://static.futbolenlatv.com/img/20121219085055_racing-ferrol.webp"
         }
       },
       "channels": [
-        "M+ Vamos",
-        "M+ #Vamos Bar",
-        "Movistar+ Lite",
-        "UEFA TV",
-        "M+ Liga de Campeones",
-        "Real Madrid TV"
+        "LaLiga+ Plus",
+        "TV FootballClub",
+        "Primera Federación"
       ],
       "event": {
-        "name": "Real Madrid Academy - O. Marseille Academy",
-        "description": "Real Madrid Academy - O. Marseille Academy el martes, 16 de septiembre de 2025 a las 16:00",
-        "startDate": "2025-09-16T14:00:00",
+        "name": "RM Castilla - Racing Ferrol",
+        "description": "RM Castilla - Racing Ferrol el miércoles, 17 de septiembre de 2025 a las 17:00",
+        "startDate": "2025-09-17T15:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -172,8 +295,137 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "16:00",
-        "day": "16/09/2025",
+        "hour": "18:45",
+        "day": "17/09/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League",
+        "round": "Fase Liga"
+      },
+      "teams": {
+        "local": {
+          "name": "Olympiacos",
+          "image": "https://static.futbolenlatv.com/img/20121221104850_olympiacos.webp"
+        },
+        "visitor": {
+          "name": "Pafos FC",
+          "image": "https://static.futbolenlatv.com/img/20210731103700-pafos-fc.webp"
+        }
+      },
+      "channels": [
+        "M+ Liga de Campeones 2"
+      ],
+      "event": {
+        "name": "Olympiacos - Pafos FC",
+        "description": "Olympiacos - Pafos FC el miércoles, 17 de septiembre de 2025 a las 18:45",
+        "startDate": "2025-09-17T16:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:45",
+        "day": "17/09/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League",
+        "round": "Fase Liga"
+      },
+      "teams": {
+        "local": {
+          "name": "Slavia Praha",
+          "image": "https://static.futbolenlatv.com/img/20140822072150-slavia-praga.webp"
+        },
+        "visitor": {
+          "name": "Bodø/Glimt",
+          "image": "https://static.futbolenlatv.com/img/20200603232642-bodo-glimt.webp"
+        }
+      },
+      "channels": [
+        "M+ Liga de Campeones 3"
+      ],
+      "event": {
+        "name": "Slavia Praha - Bodø/Glimt",
+        "description": "Slavia Praha - Bodø/Glimt el miércoles, 17 de septiembre de 2025 a las 18:45",
+        "startDate": "2025-09-17T16:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "17/09/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "3. Liga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Energie Cottbus",
+          "image": "https://static.futbolenlatv.com/img/20130404045206_energie-cottbus.webp"
+        },
+        "visitor": {
+          "name": "Erzgebirge Aue",
+          "image": "https://static.futbolenlatv.com/img/20130317094105_erzgebirgeaue.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Energie Cottbus - Erzgebirge Aue",
+        "description": "Energie Cottbus - Erzgebirge Aue el miércoles, 17 de septiembre de 2025 a las 19:00",
+        "startDate": "2025-09-17T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "17/09/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "3. Liga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Hansa Rostock",
+          "image": "https://static.futbolenlatv.com/img/20130515125550_hansa-rostock.webp"
+        },
+        "visitor": {
+          "name": "1860 München",
+          "image": "https://static.futbolenlatv.com/img/20130126033651_munich_1860.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV",
+        "German Football YouTube"
+      ],
+      "event": {
+        "name": "Hansa Rostock - 1860 München",
+        "description": "Hansa Rostock - 1860 München el miércoles, 17 de septiembre de 2025 a las 19:00",
+        "startDate": "2025-09-17T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:00",
+        "day": "17/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -182,21 +434,21 @@
       },
       "teams": {
         "local": {
-          "name": "Universitario",
-          "image": "https://static.futbolenlatv.com/img/20140603082828-club-universitario-de-deportes.webp"
+          "name": "Sporting Cristal",
+          "image": "https://static.futbolenlatv.com/img/20130410092728_sporting-cristal.webp"
         },
         "visitor": {
-          "name": "ACD Juan Pablo II College",
-          "image": "https://static.futbolenlatv.com/img/20241011103329-acd-juan-pablo-ii-college.webp"
+          "name": "Alianza Atlético",
+          "image": "https://static.futbolenlatv.com/img/20150130100414-alianza-atletico.webp"
         }
       },
       "channels": [
-        "GolTV Play"
+        "Fanatiz"
       ],
       "event": {
-        "name": "Universitario - ACD Juan Pablo II College",
-        "description": "Universitario - ACD Juan Pablo II College el martes, 16 de septiembre de 2025 a las 16:00",
-        "startDate": "2025-09-16T14:00:00",
+        "name": "Sporting Cristal - Alianza Atlético",
+        "description": "Sporting Cristal - Alianza Atlético el miércoles, 17 de septiembre de 2025 a las 20:00",
+        "startDate": "2025-09-17T18:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -204,161 +456,31 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "18:30",
-        "day": "16/09/2025",
+        "hour": "20:00",
+        "day": "17/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Amistoso Sub-16",
+        "competition": "Serie C",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "España",
-          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+          "name": "Salernitana",
+          "image": "https://static.futbolenlatv.com/img/20150904013546-salernitana.webp"
         },
         "visitor": {
-          "name": "Italia",
-          "image": "https://static.futbolenlatv.com/img/20130111045624_italia.webp"
-        }
-      },
-      "channels": [
-        "SeFutbol YouTube",
-        "Twitter @SeFutbol",
-        "Facebook SeFutbol"
-      ],
-      "event": {
-        "name": "España - Italia",
-        "description": "España - Italia el martes, 16 de septiembre de 2025 a las 18:30",
-        "startDate": "2025-09-16T16:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "18:45",
-        "day": "16/09/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Champions League",
-        "round": "Fase Liga"
-      },
-      "teams": {
-        "local": {
-          "name": "PSV Eindhoven",
-          "image": "https://static.futbolenlatv.com/img/20121219035535_psv-eindhoven.webp"
-        },
-        "visitor": {
-          "name": "Saint-Gilloise",
-          "image": "https://static.futbolenlatv.com/img/20200104093655-saint-gilloise.webp"
-        }
-      },
-      "channels": [
-        "M+ Liga de Campeones 3"
-      ],
-      "event": {
-        "name": "PSV Eindhoven - Saint-Gilloise",
-        "description": "PSV Eindhoven - Saint-Gilloise el martes, 16 de septiembre de 2025 a las 18:45",
-        "startDate": "2025-09-16T16:45:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "18:45",
-        "day": "16/09/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Champions League",
-        "round": "Fase Liga"
-      },
-      "teams": {
-        "local": {
-          "name": "Athletic Club",
-          "image": "https://static.futbolenlatv.com/img/20121218093611_bilbao.webp"
-        },
-        "visitor": {
-          "name": "Arsenal",
-          "image": "https://static.futbolenlatv.com/img/20121218091224_arsenal.webp"
-        }
-      },
-      "channels": [
-        "M+ Liga de Campeones 2"
-      ],
-      "event": {
-        "name": "Athletic Club - Arsenal",
-        "description": "Athletic Club - Arsenal el martes, 16 de septiembre de 2025 a las 18:45",
-        "startDate": "2025-09-16T16:45:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "19:00",
-        "day": "16/09/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "3. Liga",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "1. FC Saarbrücken",
-          "image": "https://static.futbolenlatv.com/img/20130730051858-saarbruecken.webp"
-        },
-        "visitor": {
-          "name": "SSV Ulm 1846",
-          "image": "https://static.futbolenlatv.com/img/20130726093313-ssv-ulm-1846.webp"
+          "name": "Atalanta B",
+          "image": "https://static.futbolenlatv.com/img/20121219034958_atalanta.webp"
         }
       },
       "channels": [
         "OneFootball PPV"
       ],
       "event": {
-        "name": "1. FC Saarbrücken - SSV Ulm 1846",
-        "description": "1. FC Saarbrücken - SSV Ulm 1846 el martes, 16 de septiembre de 2025 a las 19:00",
-        "startDate": "2025-09-16T17:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "19:00",
-        "day": "16/09/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "3. Liga",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Wehen Wiesbaden",
-          "image": "https://static.futbolenlatv.com/img/20140327100242-wehen.webp"
-        },
-        "visitor": {
-          "name": "Jahn Regensburg",
-          "image": "https://static.futbolenlatv.com/img/20140801052241-jahn-regensburg.webp"
-        }
-      },
-      "channels": [
-        "OneFootball PPV"
-      ],
-      "event": {
-        "name": "Wehen Wiesbaden - Jahn Regensburg",
-        "description": "Wehen Wiesbaden - Jahn Regensburg el martes, 16 de septiembre de 2025 a las 19:00",
-        "startDate": "2025-09-16T17:00:00",
+        "name": "Salernitana - Atalanta B",
+        "description": "Salernitana - Atalanta B el miércoles, 17 de septiembre de 2025 a las 20:00",
+        "startDate": "2025-09-17T18:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -367,7 +489,7 @@
       "sport": "futbol",
       "date": {
         "hour": "21:00",
-        "day": "16/09/2025",
+        "day": "17/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -376,12 +498,80 @@
       },
       "teams": {
         "local": {
-          "name": "Juventus",
-          "image": "https://static.futbolenlatv.com/img/20170117094900-juventus.webp"
+          "name": "PSG",
+          "image": "https://static.futbolenlatv.com/img/20131224050227-psg.webp"
         },
         "visitor": {
-          "name": "Borussia Dortmund",
-          "image": "https://static.futbolenlatv.com/img/20121218101655_borussia-dortmund.webp"
+          "name": "Atalanta",
+          "image": "https://static.futbolenlatv.com/img/20121219034958_atalanta.webp"
+        }
+      },
+      "channels": [
+        "M+ Liga de Campeones 3",
+        "M+ Liga de Campeones 4"
+      ],
+      "event": {
+        "name": "PSG - Atalanta",
+        "description": "PSG - Atalanta el miércoles, 17 de septiembre de 2025 a las 21:00",
+        "startDate": "2025-09-17T19:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "17/09/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League",
+        "round": "Fase Liga"
+      },
+      "teams": {
+        "local": {
+          "name": "Liverpool",
+          "image": "https://static.futbolenlatv.com/img/20240923180620-liverpool.webp"
+        },
+        "visitor": {
+          "name": "At. Madrid",
+          "image": "https://static.futbolenlatv.com/img/20240712123854-at-madrid.webp"
+        }
+      },
+      "channels": [
+        "Movistar Plus+ : VER PARTIDO",
+        "M+ Liga de Campeones",
+        "M+ Liga de Campeones 4",
+        "LaLiga TV Bar"
+      ],
+      "event": {
+        "name": "Liverpool - At. Madrid",
+        "description": "Liverpool - At. Madrid el miércoles, 17 de septiembre de 2025 a las 21:00",
+        "startDate": "2025-09-17T19:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "17/09/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League",
+        "round": "Fase Liga"
+      },
+      "teams": {
+        "local": {
+          "name": "Ajax",
+          "image": "https://static.futbolenlatv.com/img/20121219035603_ajax.webp"
+        },
+        "visitor": {
+          "name": "Inter Milan",
+          "image": "https://static.futbolenlatv.com/img/20210330172154-inter-milan.webp"
         }
       },
       "channels": [
@@ -389,9 +579,9 @@
         "M+ Liga de Campeones 5"
       ],
       "event": {
-        "name": "Juventus - Borussia Dortmund",
-        "description": "Juventus - Borussia Dortmund el martes, 16 de septiembre de 2025 a las 21:00",
-        "startDate": "2025-09-16T19:00:00",
+        "name": "Ajax - Inter Milan",
+        "description": "Ajax - Inter Milan el miércoles, 17 de septiembre de 2025 a las 21:00",
+        "startDate": "2025-09-17T19:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -400,7 +590,7 @@
       "sport": "futbol",
       "date": {
         "hour": "21:00",
-        "day": "16/09/2025",
+        "day": "17/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -409,12 +599,12 @@
       },
       "teams": {
         "local": {
-          "name": "Tottenham",
-          "image": "https://static.futbolenlatv.com/img/20200413194326-tottenham.webp"
+          "name": "FC Bayern",
+          "image": "https://static.futbolenlatv.com/img/20121218101641_bayern-munich.webp"
         },
         "visitor": {
-          "name": "Villarreal",
-          "image": "https://static.futbolenlatv.com/img/20121218093727_villareal.webp"
+          "name": "Chelsea",
+          "image": "https://static.futbolenlatv.com/img/20121218101333_chelsea.webp"
         }
       },
       "channels": [
@@ -422,9 +612,9 @@
         "M+ Liga de Campeones 4"
       ],
       "event": {
-        "name": "Tottenham - Villarreal",
-        "description": "Tottenham - Villarreal el martes, 16 de septiembre de 2025 a las 21:00",
-        "startDate": "2025-09-16T19:00:00",
+        "name": "FC Bayern - Chelsea",
+        "description": "FC Bayern - Chelsea el miércoles, 17 de septiembre de 2025 a las 21:00",
+        "startDate": "2025-09-17T19:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -432,75 +622,8 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "21:00",
-        "day": "16/09/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Champions League",
-        "round": "Fase Liga"
-      },
-      "teams": {
-        "local": {
-          "name": "Real Madrid",
-          "image": "https://static.futbolenlatv.com/img/20160725122745-real-madrid.webp"
-        },
-        "visitor": {
-          "name": "O. Marseille",
-          "image": "https://static.futbolenlatv.com/img/20130117033826_olympique-de-marseille.webp"
-        }
-      },
-      "channels": [
-        "M+ Liga de Campeones",
-        "M+ Liga de Campeones 4",
-        "LaLiga TV Bar"
-      ],
-      "event": {
-        "name": "Real Madrid - O. Marseille",
-        "description": "Real Madrid - O. Marseille el martes, 16 de septiembre de 2025 a las 21:00",
-        "startDate": "2025-09-16T19:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:00",
-        "day": "16/09/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Champions League",
-        "round": "Fase Liga"
-      },
-      "teams": {
-        "local": {
-          "name": "Benfica",
-          "image": "https://static.futbolenlatv.com/img/20121220121122_sporting-de-lisboa-benfica.webp"
-        },
-        "visitor": {
-          "name": "Qarabag FK",
-          "image": "https://static.futbolenlatv.com/img/20130813080725-qarabag-fk.webp"
-        }
-      },
-      "channels": [
-        "M+ Liga de Campeones 4",
-        "M+ Liga de Campeones 6"
-      ],
-      "event": {
-        "name": "Benfica - Qarabag FK",
-        "description": "Benfica - Qarabag FK el martes, 16 de septiembre de 2025 a las 21:00",
-        "startDate": "2025-09-16T19:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "22:00",
-        "day": "16/09/2025",
+        "hour": "22:15",
+        "day": "17/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -509,21 +632,21 @@
       },
       "teams": {
         "local": {
-          "name": "AD Tarma",
-          "image": "https://static.futbolenlatv.com/img/20211027103214-asociacion-deportiva-tarma.webp"
+          "name": "Comerciantes Unidos",
+          "image": "https://static.futbolenlatv.com/img/20160204051945-comerciantes-unidos.webp"
         },
         "visitor": {
-          "name": "UTC Cajamarca",
-          "image": "https://static.futbolenlatv.com/img/20140813051710-ut-cajamarca.webp"
+          "name": "Sport Huancayo",
+          "image": "https://static.futbolenlatv.com/img/20130729071510-huancayo.webp"
         }
       },
       "channels": [
         "Fanatiz"
       ],
       "event": {
-        "name": "AD Tarma - UTC Cajamarca",
-        "description": "AD Tarma - UTC Cajamarca el martes, 16 de septiembre de 2025 a las 22:00",
-        "startDate": "2025-09-16T20:00:00",
+        "name": "Comerciantes Unidos - Sport Huancayo",
+        "description": "Comerciantes Unidos - Sport Huancayo el miércoles, 17 de septiembre de 2025 a las 22:15",
+        "startDate": "2025-09-17T20:15:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -532,7 +655,7 @@
       "sport": "futbol",
       "date": {
         "hour": "22:30",
-        "day": "16/09/2025",
+        "day": "17/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -541,21 +664,21 @@
       },
       "teams": {
         "local": {
-          "name": "Gualaceo",
-          "image": "https://static.futbolenlatv.com/img/20170505090706-gualaceo.webp"
+          "name": "San Antonio",
+          "image": "https://static.futbolenlatv.com/img/20240320092331-san-antonio-fc-ecuador.webp"
         },
         "visitor": {
-          "name": "Independiente Juniors",
-          "image": "https://static.futbolenlatv.com/img/20190320121601-independiente-juniors.webp"
+          "name": "Leones del Norte",
+          "image": "https://static.futbolenlatv.com/img/20250409095342-leones-norte.webp"
         }
       },
       "channels": [
         "ElCanalDelFutbol.com"
       ],
       "event": {
-        "name": "Gualaceo - Independiente Juniors",
-        "description": "Gualaceo - Independiente Juniors el martes, 16 de septiembre de 2025 a las 22:30",
-        "startDate": "2025-09-16T20:30:00",
+        "name": "San Antonio - Leones del Norte",
+        "description": "San Antonio - Leones del Norte el miércoles, 17 de septiembre de 2025 a las 22:30",
+        "startDate": "2025-09-17T20:30:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -563,35 +686,35 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "22:30",
-        "day": "16/09/2025",
+        "hour": "23:00",
+        "day": "17/09/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Liga Pro Serie B",
+        "competition": "Liga Primera Nicaragua",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Cumbayá FC",
-          "image": "https://static.futbolenlatv.com/img/20201120214216-cumbaya-fc.webp"
+          "name": "Club Sport Sébaco",
+          "image": "https://static.futbolenlatv.com/img/20210627112125-hh-export-sebaco-fc.webp"
         },
         "visitor": {
-          "name": "22 de Julio FC",
-          "image": "https://static.futbolenlatv.com/img/20250706115041-22-de-julio-fc.webp"
+          "name": "Real Estelí",
+          "image": "https://static.futbolenlatv.com/img/20201011142317-real-esteli.webp"
         }
       },
       "channels": [
-        "ElCanalDelFutbol.com"
+        "FIFA+"
       ],
       "event": {
-        "name": "Cumbayá FC - 22 de Julio FC",
-        "description": "Cumbayá FC - 22 de Julio FC el martes, 16 de septiembre de 2025 a las 22:30",
-        "startDate": "2025-09-16T20:30:00",
+        "name": "Club Sport Sébaco - Real Estelí",
+        "description": "Club Sport Sébaco - Real Estelí el miércoles, 17 de septiembre de 2025 a las 23:00",
+        "startDate": "2025-09-17T21:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
     }
   ],
-  "updated": "2025-09-16T00:12:27.445Z"
+  "updated": "2025-09-17T00:14:15.096Z"
 }
