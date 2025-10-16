@@ -3,32 +3,63 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "01:00",
-        "day": "15/10/2025",
+        "hour": "00:00",
+        "day": "16/10/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Liga 1 Perú",
+        "competition": "Copa AUF Uruguay",
+        "round": "Semifinales"
+      },
+      "teams": {
+        "local": {
+          "name": "Defensor Sporting",
+          "image": "https://static.futbolenlatv.com/img/20140502100938-defensor-sporting.webp"
+        },
+        "visitor": {
+          "name": "Peñarol",
+          "image": "https://static.futbolenlatv.com/img/20130410092630_penarol.webp"
+        }
+      },
+      "channels": [
+        "GolTV Play"
+      ],
+      "event": {
+        "name": "Defensor Sporting - Peñarol",
+        "description": "Defensor Sporting - Peñarol el jueves, 16 de octubre de 2025 a las 0:00",
+        "startDate": "2025-10-15T22:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "00:00",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Brasil",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Melgar",
-          "image": "https://static.futbolenlatv.com/img/20130807112358-fc-melgar.webp"
+          "name": "Palmeiras",
+          "image": "https://static.futbolenlatv.com/img/20130207042018_palmeiras.webp"
         },
         "visitor": {
-          "name": "Alianza Universidad",
-          "image": "https://static.futbolenlatv.com/img/20190121122402-alianza-universidad.webp"
+          "name": "RB Bragantino",
+          "image": "https://static.futbolenlatv.com/img/20200122125639-rb-bragantino.webp"
         }
       },
       "channels": [
-        "Fanatiz",
-        "L1 Max YouTube"
+        "Fanatiz"
       ],
       "event": {
-        "name": "Melgar - Alianza Universidad",
-        "description": "Melgar - Alianza Universidad el miércoles, 15 de octubre de 2025 a las 1:00",
-        "startDate": "2025-10-14T23:00:00",
+        "name": "Palmeiras - RB Bragantino",
+        "description": "Palmeiras - RB Bragantino el jueves, 16 de octubre de 2025 a las 0:00",
+        "startDate": "2025-10-15T22:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -36,140 +67,8 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "01:00",
-        "day": "15/10/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "FIFA Copa Mundial 2026",
-        "round": "Eliminatorias CONCACAF"
-      },
-      "teams": {
-        "local": {
-          "name": "Curazao",
-          "image": "https://static.futbolenlatv.com/img/20150828015644-curazao.webp"
-        },
-        "visitor": {
-          "name": "Trinidad y Tobago",
-          "image": "https://static.futbolenlatv.com/img/20130531115042-Trinidad-y-Tobago.webp"
-        }
-      },
-      "channels": [
-        "CONCACAF GO",
-        "CONCACAF YouTube"
-      ],
-      "event": {
-        "name": "Curazao - Trinidad y Tobago",
-        "description": "Curazao - Trinidad y Tobago el miércoles, 15 de octubre de 2025 a las 1:00",
-        "startDate": "2025-10-14T23:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "02:00",
-        "day": "15/10/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "FIFA Copa Mundial 2026",
-        "round": "Eliminatorias CONCACAF"
-      },
-      "teams": {
-        "local": {
-          "name": "Jamaica",
-          "image": "https://static.futbolenlatv.com/img/20130528075437-Jamaica.webp"
-        },
-        "visitor": {
-          "name": "Bermudas",
-          "image": "https://static.futbolenlatv.com/img/20170224102921-bermudas.webp"
-        }
-      },
-      "channels": [
-        "CONCACAF GO",
-        "CONCACAF YouTube"
-      ],
-      "event": {
-        "name": "Jamaica - Bermudas",
-        "description": "Jamaica - Bermudas el miércoles, 15 de octubre de 2025 a las 2:00",
-        "startDate": "2025-10-15T00:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "02:30",
-        "day": "15/10/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Colombiana",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Atlético Nacional",
-          "image": "https://static.futbolenlatv.com/img/20130528115548-Atletico-Nacional.webp"
-        },
-        "visitor": {
-          "name": "Deportivo Cali",
-          "image": "https://static.futbolenlatv.com/img/20130218095458_deportivo-cali.webp"
-        }
-      },
-      "channels": [
-        "Win Sports TV YouTube",
-        "RCN Nuestra Tele"
-      ],
-      "event": {
-        "name": "Atlético Nacional - Deportivo Cali",
-        "description": "Atlético Nacional - Deportivo Cali el miércoles, 15 de octubre de 2025 a las 2:30",
-        "startDate": "2025-10-15T00:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "03:00",
-        "day": "15/10/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "FIFA Copa Mundial 2026",
-        "round": "Eliminatorias CONCACAF"
-      },
-      "teams": {
-        "local": {
-          "name": "Panamá",
-          "image": "https://static.futbolenlatv.com/img/20190512093725-panama2.webp"
-        },
-        "visitor": {
-          "name": "Surinam",
-          "image": "https://static.futbolenlatv.com/img/20170414094259-surinam.webp"
-        }
-      },
-      "channels": [
-        "CONCACAF GO",
-        "CONCACAF YouTube"
-      ],
-      "event": {
-        "name": "Panamá - Surinam",
-        "description": "Panamá - Surinam el miércoles, 15 de octubre de 2025 a las 3:00",
-        "startDate": "2025-10-15T01:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "03:00",
-        "day": "15/10/2025",
+        "hour": "00:15",
+        "day": "16/10/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -178,21 +77,21 @@
       },
       "teams": {
         "local": {
-          "name": "Alajuelense FF",
-          "image": "https://static.futbolenlatv.com/img/20200627200656-alajuelense-futbol-femenino.webp"
+          "name": "Washington Spirit",
+          "image": "https://static.futbolenlatv.com/img/20160423105800-washington-spirit.webp"
         },
         "visitor": {
-          "name": "Chorrillo FC Femenino",
-          "image": "https://static.futbolenlatv.com/img/20140814094257-chorrillo.webp"
+          "name": "Monterrey Femenino",
+          "image": "https://static.futbolenlatv.com/img/20130210115322_monterrey.webp"
         }
       },
       "channels": [
         "CONCACAF YouTube"
       ],
       "event": {
-        "name": "Alajuelense FF - Chorrillo FC Femenino",
-        "description": "Alajuelense FF - Chorrillo FC Femenino el miércoles, 15 de octubre de 2025 a las 3:00",
-        "startDate": "2025-10-15T01:00:00",
+        "name": "Washington Spirit - Monterrey Femenino",
+        "description": "Washington Spirit - Monterrey Femenino el jueves, 16 de octubre de 2025 a las 0:15",
+        "startDate": "2025-10-15T22:15:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -200,32 +99,35 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "04:00",
-        "day": "15/10/2025",
+        "hour": "00:30",
+        "day": "16/10/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "FIFA Copa Mundial 2026",
-        "round": "Eliminatorias CONCACAF"
+        "competition": "Serie A Brasil",
+        "round": null
       },
       "teams": {
         "local": {
-          "name": "El Salvador",
-          "image": "https://static.futbolenlatv.com/img/20130513110531_el-salvador.webp"
+          "name": "Botafogo",
+          "image": "https://static.futbolenlatv.com/img/20121222101953_botafogo.webp"
         },
         "visitor": {
-          "name": "Guatemala",
-          "image": "https://static.futbolenlatv.com/img/20140913092220-guatemala.webp"
+          "name": "CR Flamengo",
+          "image": "https://static.futbolenlatv.com/img/20121222102708_flamengo.webp"
         }
       },
       "channels": [
-        "CONCACAF GO",
-        "CONCACAF YouTube"
+        "Fanatiz",
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite",
+        "M+ Liga de Campeones"
       ],
       "event": {
-        "name": "El Salvador - Guatemala",
-        "description": "El Salvador - Guatemala el miércoles, 15 de octubre de 2025 a las 4:00",
-        "startDate": "2025-10-15T02:00:00",
+        "name": "Botafogo - CR Flamengo",
+        "description": "Botafogo - CR Flamengo el jueves, 16 de octubre de 2025 a las 0:30",
+        "startDate": "2025-10-15T22:30:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -233,297 +135,8 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "18:45",
-        "day": "15/10/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Champions League Femenina",
-        "round": "Fase Liga"
-      },
-      "teams": {
-        "local": {
-          "name": "O. Lyonnais Femenino",
-          "image": "https://static.futbolenlatv.com/img/20150914072922-Lyon.webp"
-        },
-        "visitor": {
-          "name": "St. Polten Femenino",
-          "image": "https://static.futbolenlatv.com/img/20210526210537-st-polten-women.webp"
-        }
-      },
-      "channels": [
-        "Disney+"
-      ],
-      "event": {
-        "name": "O. Lyonnais Femenino - St. Polten Femenino",
-        "description": "O. Lyonnais Femenino - St. Polten Femenino el miércoles, 15 de octubre de 2025 a las 18:45",
-        "startDate": "2025-10-15T16:45:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "18:45",
-        "day": "15/10/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Champions League Femenina",
-        "round": "Fase Liga"
-      },
-      "teams": {
-        "local": {
-          "name": "Vålerenga Kvinner",
-          "image": "https://static.futbolenlatv.com/img/20130426104133_valerenga.webp"
-        },
-        "visitor": {
-          "name": "Wolfsburg Femenino",
-          "image": "https://static.futbolenlatv.com/img/20150916064728-Wolfsburgo.webp"
-        }
-      },
-      "channels": [
-        "Disney+"
-      ],
-      "event": {
-        "name": "Vålerenga Kvinner - Wolfsburg Femenino",
-        "description": "Vålerenga Kvinner - Wolfsburg Femenino el miércoles, 15 de octubre de 2025 a las 18:45",
-        "startDate": "2025-10-15T16:45:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "19:00",
-        "day": "15/10/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa RFEF",
-        "round": "Semifinales"
-      },
-      "teams": {
-        "local": {
-          "name": "Atlètic Lleida",
-          "image": "https://static.futbolenlatv.com/img/20221122134302-atletic-lleida.webp"
-        },
-        "visitor": {
-          "name": "Ourense CF",
-          "image": "https://static.futbolenlatv.com/img/20171111092550-ourense.webp"
-        }
-      },
-      "channels": [
-        "Canal por confirmar"
-      ],
-      "event": {
-        "name": "Atlètic Lleida - Ourense CF",
-        "description": "Atlètic Lleida - Ourense CF el miércoles, 15 de octubre de 2025 a las 19:00",
-        "startDate": "2025-10-15T17:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:00",
-        "day": "15/10/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa RFEF",
-        "round": "Semifinales"
-      },
-      "teams": {
-        "local": {
-          "name": "CD Toledo",
-          "image": "https://static.futbolenlatv.com/img/20130401100416_toledo.webp"
-        },
-        "visitor": {
-          "name": "Orihuela",
-          "image": "https://static.futbolenlatv.com/img/20121227023453_orihuela.webp"
-        }
-      },
-      "channels": [
-        "Canal por confirmar"
-      ],
-      "event": {
-        "name": "CD Toledo - Orihuela",
-        "description": "CD Toledo - Orihuela el miércoles, 15 de octubre de 2025 a las 20:00",
-        "startDate": "2025-10-15T18:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:00",
-        "day": "15/10/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Premier League International Cup",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Leeds Utd. Academy",
-          "image": "https://static.futbolenlatv.com/img/20130207050812_leeds-united.webp"
-        },
-        "visitor": {
-          "name": "Bilbao Athletic",
-          "image": "https://static.futbolenlatv.com/img/20121218093611_bilbao.webp"
-        }
-      },
-      "channels": [
-        "TVAthleticClub YouTube"
-      ],
-      "event": {
-        "name": "Leeds Utd. Academy - Bilbao Athletic",
-        "description": "Leeds Utd. Academy - Bilbao Athletic el miércoles, 15 de octubre de 2025 a las 20:00",
-        "startDate": "2025-10-15T18:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:00",
-        "day": "15/10/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Champions League Femenina",
-        "round": "Fase Liga"
-      },
-      "teams": {
-        "local": {
-          "name": "Chelsea Femenino",
-          "image": "https://static.futbolenlatv.com/img/20150920013403-chelsea.webp"
-        },
-        "visitor": {
-          "name": "Paris FC Femenino",
-          "image": "https://static.futbolenlatv.com/img/20200203052645-paris-fc.webp"
-        }
-      },
-      "channels": [
-        "Disney+"
-      ],
-      "event": {
-        "name": "Chelsea Femenino - Paris FC Femenino",
-        "description": "Chelsea Femenino - Paris FC Femenino el miércoles, 15 de octubre de 2025 a las 21:00",
-        "startDate": "2025-10-15T19:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:00",
-        "day": "15/10/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Champions League Femenina",
-        "round": "Fase Liga"
-      },
-      "teams": {
-        "local": {
-          "name": "AS Roma Femenino",
-          "image": "https://static.futbolenlatv.com/img/20150914073021-Roma.webp"
-        },
-        "visitor": {
-          "name": "FC Barcelona Femenino",
-          "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
-        }
-      },
-      "channels": [
-        "Disney+",
-        "TV3"
-      ],
-      "event": {
-        "name": "AS Roma Femenino - FC Barcelona Femenino",
-        "description": "AS Roma Femenino - FC Barcelona Femenino el miércoles, 15 de octubre de 2025 a las 21:00",
-        "startDate": "2025-10-15T19:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:00",
-        "day": "15/10/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Champions League Femenina",
-        "round": "Fase Liga"
-      },
-      "teams": {
-        "local": {
-          "name": "OH Leuven Women",
-          "image": "https://static.futbolenlatv.com/img/20150727103948-oh-leuven.webp"
-        },
-        "visitor": {
-          "name": "Twente Femenino",
-          "image": "https://static.futbolenlatv.com/img/20210908141217-twente-women.webp"
-        }
-      },
-      "channels": [
-        "Disney+"
-      ],
-      "event": {
-        "name": "OH Leuven Women - Twente Femenino",
-        "description": "OH Leuven Women - Twente Femenino el miércoles, 15 de octubre de 2025 a las 21:00",
-        "startDate": "2025-10-15T19:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:00",
-        "day": "15/10/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa Libertadores Femenina",
-        "round": "Semifinales"
-      },
-      "teams": {
-        "local": {
-          "name": "Colo Colo Femenino",
-          "image": "https://static.futbolenlatv.com/img/20130208052500_colo-colo.webp"
-        },
-        "visitor": {
-          "name": "Deportivo Cali Femenino",
-          "image": "https://static.futbolenlatv.com/img/20201011101919-deportivo-cali-femenino.webp"
-        }
-      },
-      "channels": [
-        "CONMEBOL Libertadores YouTube"
-      ],
-      "event": {
-        "name": "Colo Colo Femenino - Deportivo Cali Femenino",
-        "description": "Colo Colo Femenino - Deportivo Cali Femenino el miércoles, 15 de octubre de 2025 a las 21:00",
-        "startDate": "2025-10-15T19:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "22:00",
-        "day": "15/10/2025",
+        "hour": "01:00",
+        "day": "16/10/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -532,12 +145,12 @@
       },
       "teams": {
         "local": {
-          "name": "Marruecos",
-          "image": "https://static.futbolenlatv.com/img/20130103114910_marruecos.webp"
+          "name": "Argentina",
+          "image": "https://static.futbolenlatv.com/img/20130204101418_argentina.webp"
         },
         "visitor": {
-          "name": "Francia",
-          "image": "https://static.futbolenlatv.com/img/20130124053558_francia.webp"
+          "name": "Colombia",
+          "image": "https://static.futbolenlatv.com/img/20130410092520_colombia.webp"
         }
       },
       "channels": [
@@ -546,13 +159,589 @@
         "RTVE Play"
       ],
       "event": {
-        "name": "Marruecos - Francia",
-        "description": "Marruecos - Francia el miércoles, 15 de octubre de 2025 a las 22:00",
-        "startDate": "2025-10-15T20:00:00",
+        "name": "Argentina - Colombia",
+        "description": "Argentina - Colombia el jueves, 16 de octubre de 2025 a las 1:00",
+        "startDate": "2025-10-15T23:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:00",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa Libertadores Femenina",
+        "round": "Semifinales"
+      },
+      "teams": {
+        "local": {
+          "name": "Corinthians Femenino",
+          "image": "https://static.futbolenlatv.com/img/20121222102336_corinthians.webp"
+        },
+        "visitor": {
+          "name": "Ferroviária Femenino",
+          "image": "https://static.futbolenlatv.com/img/20151107015201-ferroviaria.webp"
+        }
+      },
+      "channels": [
+        "CONMEBOL Libertadores YouTube"
+      ],
+      "event": {
+        "name": "Corinthians Femenino - Ferroviária Femenino",
+        "description": "Corinthians Femenino - Ferroviária Femenino el jueves, 16 de octubre de 2025 a las 1:00",
+        "startDate": "2025-10-15T23:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:00",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Brasil",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Mirassol",
+          "image": "https://static.futbolenlatv.com/img/20180207105031-mirassol.webp"
+        },
+        "visitor": {
+          "name": "Internacional",
+          "image": "https://static.futbolenlatv.com/img/20121222103104_internacional.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Mirassol - Internacional",
+        "description": "Mirassol - Internacional el jueves, 16 de octubre de 2025 a las 1:00",
+        "startDate": "2025-10-15T23:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:00",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Brasil",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Sport Recife",
+          "image": "https://static.futbolenlatv.com/img/20180131095506-sport-recife.webp"
+        },
+        "visitor": {
+          "name": "Ceará",
+          "image": "https://static.futbolenlatv.com/img/20140724053102-ceara.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Sport Recife - Ceará",
+        "description": "Sport Recife - Ceará el jueves, 16 de octubre de 2025 a las 1:00",
+        "startDate": "2025-10-15T23:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:20",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Colombiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Deportivo Pereira",
+          "image": "https://static.futbolenlatv.com/img/20140330122847-cd-pereira.webp"
+        },
+        "visitor": {
+          "name": "Millonarios",
+          "image": "https://static.futbolenlatv.com/img/20130210120225_millonarios.webp"
+        }
+      },
+      "channels": [
+        "RCN Nuestra Tele"
+      ],
+      "event": {
+        "name": "Deportivo Pereira - Millonarios",
+        "description": "Deportivo Pereira - Millonarios el jueves, 16 de octubre de 2025 a las 1:20",
+        "startDate": "2025-10-15T23:20:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:30",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LIDOM",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Estrellas Orientales",
+          "image": "https://static.futbolenlatv.com/img/20251014104853-estrellas-orientales.webp"
+        },
+        "visitor": {
+          "name": "Toros del Este",
+          "image": "https://static.futbolenlatv.com/img/20251014104930-toros-del-este.webp"
+        }
+      },
+      "channels": [
+        "BeisbolPlay"
+      ],
+      "event": {
+        "name": "Estrellas Orientales - Toros del Este",
+        "description": "Estrellas Orientales - Toros del Este el jueves, 16 de octubre de 2025 a las 1:30",
+        "startDate": "2025-10-15T23:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "02:15",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "CONCACAF Women's Champions Cup",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Orlando Pride",
+          "image": "https://static.futbolenlatv.com/img/20160423104631-orlando-pride.webp"
+        },
+        "visitor": {
+          "name": "Pachuca Femenino",
+          "image": "https://static.futbolenlatv.com/img/20170503111123-pachuca.webp"
+        }
+      },
+      "channels": [
+        "CONCACAF YouTube"
+      ],
+      "event": {
+        "name": "Orlando Pride - Pachuca Femenino",
+        "description": "Orlando Pride - Pachuca Femenino el jueves, 16 de octubre de 2025 a las 2:15",
+        "startDate": "2025-10-16T00:15:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "02:30",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Brasil",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Atlético Mineiro",
+          "image": "https://static.futbolenlatv.com/img/20180202125146-atletico-mineiro.webp"
+        },
+        "visitor": {
+          "name": "Cruzeiro",
+          "image": "https://static.futbolenlatv.com/img/20190115103202-cruzeiro.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Atlético Mineiro - Cruzeiro",
+        "description": "Atlético Mineiro - Cruzeiro el jueves, 16 de octubre de 2025 a las 2:30",
+        "startDate": "2025-10-16T00:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "02:30",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Brasil",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Santos",
+          "image": "https://static.futbolenlatv.com/img/20180213074034-santos.webp"
+        },
+        "visitor": {
+          "name": "Corinthians",
+          "image": "https://static.futbolenlatv.com/img/20121222102336_corinthians.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Santos - Corinthians",
+        "description": "Santos - Corinthians el jueves, 16 de octubre de 2025 a las 2:30",
+        "startDate": "2025-10-16T00:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "02:30",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Brasil",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Fortaleza SC",
+          "image": "https://static.futbolenlatv.com/img/20160516115803-fortaleza-sc.webp"
+        },
+        "visitor": {
+          "name": "Vasco da Gama",
+          "image": "https://static.futbolenlatv.com/img/20121222111424_vasco-da-gama.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Fortaleza SC - Vasco da Gama",
+        "description": "Fortaleza SC - Vasco da Gama el jueves, 16 de octubre de 2025 a las 2:30",
+        "startDate": "2025-10-16T00:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "03:00",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga 1 Perú",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Sporting Cristal",
+          "image": "https://static.futbolenlatv.com/img/20130410092728_sporting-cristal.webp"
+        },
+        "visitor": {
+          "name": "Universitario",
+          "image": "https://static.futbolenlatv.com/img/20140603082828-club-universitario-de-deportes.webp"
+        }
+      },
+      "channels": [
+        "Fanatiz"
+      ],
+      "event": {
+        "name": "Sporting Cristal - Universitario",
+        "description": "Sporting Cristal - Universitario el jueves, 16 de octubre de 2025 a las 3:00",
+        "startDate": "2025-10-16T01:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Veikkausliiga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "FC Ilves",
+          "image": "https://static.futbolenlatv.com/img/20160722121612-fc-Ilves.webp"
+        },
+        "visitor": {
+          "name": "KuPS",
+          "image": "https://static.futbolenlatv.com/img/20190712061543-kups.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "FC Ilves - KuPS",
+        "description": "FC Ilves - KuPS el jueves, 16 de octubre de 2025 a las 17:00",
+        "startDate": "2025-10-16T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:45",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League Femenina",
+        "round": "Fase Liga"
+      },
+      "teams": {
+        "local": {
+          "name": "At. Madrid Femenino",
+          "image": "https://static.futbolenlatv.com/img/20240712124213-atletico-madrid-femenino.webp"
+        },
+        "visitor": {
+          "name": "Man Utd Femenino",
+          "image": "https://static.futbolenlatv.com/img/20150916064627-Manchester-United.webp"
+        }
+      },
+      "channels": [
+        "Disney+"
+      ],
+      "event": {
+        "name": "At. Madrid Femenino - Man Utd Femenino",
+        "description": "At. Madrid Femenino - Man Utd Femenino el jueves, 16 de octubre de 2025 a las 18:45",
+        "startDate": "2025-10-16T16:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League Femenina",
+        "round": "Fase Liga"
+      },
+      "teams": {
+        "local": {
+          "name": "FC Bayern Femenino",
+          "image": "https://static.futbolenlatv.com/img/20140731073126-bayern-munich.webp"
+        },
+        "visitor": {
+          "name": "Juventus Femminile",
+          "image": "https://static.futbolenlatv.com/img/20170117094900-juventus.webp"
+        }
+      },
+      "channels": [
+        "Disney+"
+      ],
+      "event": {
+        "name": "FC Bayern Femenino - Juventus Femminile",
+        "description": "FC Bayern Femenino - Juventus Femminile el jueves, 16 de octubre de 2025 a las 21:00",
+        "startDate": "2025-10-16T19:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League Femenina",
+        "round": "Fase Liga"
+      },
+      "teams": {
+        "local": {
+          "name": "PSG Femenino",
+          "image": "https://static.futbolenlatv.com/img/20131224050227-psg.webp"
+        },
+        "visitor": {
+          "name": "Real Madrid Femenino",
+          "image": "https://static.futbolenlatv.com/img/20200916192901-real-madrid-femenino.webp"
+        }
+      },
+      "channels": [
+        "Disney+"
+      ],
+      "event": {
+        "name": "PSG Femenino - Real Madrid Femenino",
+        "description": "PSG Femenino - Real Madrid Femenino el jueves, 16 de octubre de 2025 a las 21:00",
+        "startDate": "2025-10-16T19:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Champions League Femenina",
+        "round": "Fase Liga"
+      },
+      "teams": {
+        "local": {
+          "name": "Benfica Femenino",
+          "image": "https://static.futbolenlatv.com/img/20200921100800-benfica-feminino.webp"
+        },
+        "visitor": {
+          "name": "Arsenal Femenino",
+          "image": "https://static.futbolenlatv.com/img/20151020084333-arsenal.webp"
+        }
+      },
+      "channels": [
+        "Disney+"
+      ],
+      "event": {
+        "name": "Benfica Femenino - Arsenal Femenino",
+        "description": "Benfica Femenino - Arsenal Femenino el jueves, 16 de octubre de 2025 a las 21:00",
+        "startDate": "2025-10-16T19:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "22:00",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Pro Serie B",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Independiente Juniors",
+          "image": "https://static.futbolenlatv.com/img/20190320121601-independiente-juniors.webp"
+        },
+        "visitor": {
+          "name": "Gualaceo",
+          "image": "https://static.futbolenlatv.com/img/20170505090706-gualaceo.webp"
+        }
+      },
+      "channels": [
+        "ElCanalDelFutbol.com"
+      ],
+      "event": {
+        "name": "Independiente Juniors - Gualaceo",
+        "description": "Independiente Juniors - Gualaceo el jueves, 16 de octubre de 2025 a las 22:00",
+        "startDate": "2025-10-16T20:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "22:00",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Pro Serie B",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Leones del Norte",
+          "image": "https://static.futbolenlatv.com/img/20250409095342-leones-norte.webp"
+        },
+        "visitor": {
+          "name": "San Antonio",
+          "image": "https://static.futbolenlatv.com/img/20240320092331-san-antonio-fc-ecuador.webp"
+        }
+      },
+      "channels": [
+        "ElCanalDelFutbol.com"
+      ],
+      "event": {
+        "name": "Leones del Norte - San Antonio",
+        "description": "Leones del Norte - San Antonio el jueves, 16 de octubre de 2025 a las 22:00",
+        "startDate": "2025-10-16T20:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "22:00",
+        "day": "16/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Pro Serie B",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Atlético Vinotinto",
+          "image": "https://static.futbolenlatv.com/img/20250704101323-atletico-vinotinto.webp"
+        },
+        "visitor": {
+          "name": "Chacaritas FC",
+          "image": "https://static.futbolenlatv.com/img/20200918182419-chacaritas-fc.webp"
+        }
+      },
+      "channels": [
+        "ElCanalDelFutbol.com"
+      ],
+      "event": {
+        "name": "Atlético Vinotinto - Chacaritas FC",
+        "description": "Atlético Vinotinto - Chacaritas FC el jueves, 16 de octubre de 2025 a las 22:00",
+        "startDate": "2025-10-16T20:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
     }
   ],
-  "updated": "2025-10-15T00:12:45.758Z"
+  "updated": "2025-10-16T00:12:53.667Z"
 }
