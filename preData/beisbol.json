@@ -4,7 +4,7 @@
       "sport": "beisbol",
       "date": {
         "hour": "01:00",
-        "day": "17/10/2025",
+        "day": "18/10/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -31,7 +31,7 @@
       "sport": "beisbol",
       "date": {
         "hour": "01:00",
-        "day": "17/10/2025",
+        "day": "18/10/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -58,7 +58,7 @@
       "sport": "beisbol",
       "date": {
         "hour": "01:00",
-        "day": "17/10/2025",
+        "day": "18/10/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -67,8 +67,35 @@
       },
       "teams": {
         "local": {
+          "name": "Cardenales de Lara",
+          "image": "https://static.futbolenlatv.com/img/20221021203011-cardenales-de-lara.webp"
+        },
+        "visitor": {
           "name": "Navegantes del Magallanes",
           "image": "https://static.futbolenlatv.com/img/20221021202928-navegantes-del-magallanes.webp"
+        }
+      },
+      "channels": [
+        "BeisbolPlay"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "beisbol",
+      "date": {
+        "hour": "01:00",
+        "day": "18/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LVBP",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Tigres de Aragua",
+          "image": "https://static.futbolenlatv.com/img/20221021202902-tigres-de-aragua.webp"
         },
         "visitor": {
           "name": "Caribes de Anzoátegui",
@@ -84,8 +111,8 @@
     {
       "sport": "beisbol",
       "date": {
-        "hour": "01:00",
-        "day": "17/10/2025",
+        "hour": "23:00",
+        "day": "18/10/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -94,12 +121,39 @@
       },
       "teams": {
         "local": {
-          "name": "Tigres de Aragua",
-          "image": "https://static.futbolenlatv.com/img/20221021202902-tigres-de-aragua.webp"
+          "name": "Leones del Caracas",
+          "image": "https://static.futbolenlatv.com/img/20221021202939-leones-del-caracas.webp"
         },
         "visitor": {
+          "name": "Caribes de Anzoátegui",
+          "image": "https://static.futbolenlatv.com/img/20221021202950-caribes-de-anzoategui.webp"
+        }
+      },
+      "channels": [
+        "BeisbolPlay"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "beisbol",
+      "date": {
+        "hour": "23:30",
+        "day": "18/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LVBP",
+        "round": null
+      },
+      "teams": {
+        "local": {
           "name": "Cardenales de Lara",
           "image": "https://static.futbolenlatv.com/img/20221021203011-cardenales-de-lara.webp"
+        },
+        "visitor": {
+          "name": "Tiburones de la Guaira",
+          "image": "https://static.futbolenlatv.com/img/20221021202914-tiburones-de-la-guaira.webp"
         }
       },
       "channels": [
@@ -109,5 +163,5 @@
       "eventType": "match"
     }
   ],
-  "updated": "2025-10-17T00:12:50.560Z"
+  "updated": "2025-10-18T00:12:35.938Z"
 }
