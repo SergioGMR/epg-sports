@@ -1,5 +1,5 @@
 import data from "./data/allMatches.json" assert { type: "json" };
-import fs from 'fs';
+import fs from "fs";
 
 interface Match {
   sport: string;
@@ -38,38 +38,178 @@ interface Channel {
   tags: string[];
 }
 
+const STOP_WORDS = new Set([
+  "de",
+  "del",
+  "la",
+  "el",
+  "los",
+  "las",
+  "y",
+  "en",
+  "con",
+  "por",
+  "para",
+  "the",
+  "tv",
+  "canal",
+]);
+
+function preprocessValue(value: string): string {
+  return value
+    .replace(/\bm\+\b/gi, "movistar plus")
+    .replace(/\bm plus\b/gi, "movistar plus")
+    .replace(/\bm\b/gi, "movistar")
+    .replace(/\bplus\b/gi, "plus")
+    .replace(/\bmovistarplus\b/gi, "movistar plus")
+    .replace(/\brtve\b/gi, "rtve")
+    .replace(/\bmitele\b/gi, "mitele");
+}
+
+function normalizeValue(value: string): string {
+  return preprocessValue(value)
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()
+    .replace(/\s+/g, " ");
+}
+
+function canonicalizeToken(token: string): string {
+  const replacements: Record<string, string> = {
+    movistarplus: "movistar",
+    movistar: "movistar",
+    plus: "plus",
+    mplus: "movistar",
+    mitele: "mitele",
+  };
+
+  return replacements[token] ?? token;
+}
+
+function tokenize(value: string): string[] {
+  return normalizeValue(value)
+    .split(" ")
+    .map(canonicalizeToken)
+    .filter((token) => token.length > 0 && !STOP_WORDS.has(token));
+}
+
+function isNumeric(token: string): boolean {
+  return /^[0-9]+$/.test(token);
+}
+
+function matchScore(matchChannel: string, candidateName: string): number {
+  const normalizedMatch = normalizeValue(matchChannel);
+  const normalizedCandidate = normalizeValue(candidateName);
+
+  if (!normalizedMatch || !normalizedCandidate) {
+    return 0;
+  }
+
+  if (normalizedMatch === normalizedCandidate) {
+    return 1;
+  }
+
+  let score = 0;
+
+  if (
+    normalizedMatch.length >= 5 &&
+    normalizedCandidate.includes(normalizedMatch)
+  ) {
+    const ratio = normalizedMatch.length / normalizedCandidate.length;
+    score = Math.max(score, 0.8 * ratio + 0.2);
+  }
+
+  if (
+    normalizedCandidate.length >= 5 &&
+    normalizedMatch.includes(normalizedCandidate)
+  ) {
+    const ratio = normalizedCandidate.length / normalizedMatch.length;
+    score = Math.max(score, 0.8 * ratio + 0.2);
+  }
+
+  const matchTokens = tokenize(matchChannel);
+  const candidateTokens = tokenize(candidateName);
+
+  if (matchTokens.length === 0 || candidateTokens.length === 0) {
+    return score;
+  }
+
+  const matchNumbers = matchTokens.filter(isNumeric);
+  const candidateNumbers = candidateTokens.filter(isNumeric);
+  if (matchNumbers.length && candidateNumbers.length) {
+    const hasNumberOverlap = matchNumbers.some((num) =>
+      candidateNumbers.includes(num)
+    );
+    if (!hasNumberOverlap) {
+      return 0;
+    }
+  }
+
+  const intersection = matchTokens.filter((token) =>
+    candidateTokens.includes(token)
+  );
+  const unionSize = new Set([...matchTokens, ...candidateTokens]).size;
+  const intersectionSize = intersection.length;
+
+  if (unionSize > 0) {
+    const jaccard = intersectionSize / unionSize;
+    score = Math.max(score, jaccard);
+  }
+
+  const containment =
+    intersectionSize / Math.min(matchTokens.length, candidateTokens.length);
+  score = Math.max(score, containment);
+
+  if (matchNumbers.length || candidateNumbers.length) {
+    score = Math.max(score, score + 0.05);
+  }
+
+  return Math.min(score, 1);
+}
+
 // Función para actualizar los partidos con los links correspondientes
 function updateMatchesWithLinks(
   matches: Match[],
   channels: Channel[]
 ): Match[] {
   return matches.map((match) => {
-    // Convertimos los nombres de los canales del partido a minúsculas
-    const matchChannels = match.channels.map((c) => c.toLowerCase());
+    const collectedLinks: string[] = [];
 
-    // Array para almacenar los links que coincidan
-    let accumulatedLinks: string[] = [];
+    match.channels.forEach((matchChannel) => {
+      let bestScore = 0;
+      let bestLinks: string[] = [];
 
-    // Recorremos el array de canales
-    channels.forEach((channel) => {
-      // Convertimos las tags del canal a minúsculas
-      const channelTags = channel.tags.map((t) => t.toLowerCase());
+      channels.forEach((channel) => {
+        const candidateScore = [channel.nombre, ...channel.tags].reduce(
+          (score, candidateName) =>
+            Math.max(score, matchScore(matchChannel, candidateName)),
+          0
+        );
 
-      // Verificamos si algún canal del partido coincide con las tags del canal
-      const exists = matchChannels.some((mc) => channelTags.includes(mc));
+        if (candidateScore > bestScore) {
+          bestScore = candidateScore;
+          bestLinks = channel.links;
+        }
+      });
 
-      if (exists) {
-        // Si hay coincidencia, acumulamos los links del canal
-        accumulatedLinks = accumulatedLinks.concat(channel.links);
+      const MATCH_THRESHOLD = 0.45;
+      if (bestScore >= MATCH_THRESHOLD) {
+        collectedLinks.push(...bestLinks);
       }
     });
 
-    if (accumulatedLinks.length > 0) {
-      // Si hay links acumulados, los añadimos al partido
-      match.links = accumulatedLinks;
+    const uniqueLinks = Array.from(new Set(collectedLinks));
+
+    if (uniqueLinks.length === 0) {
+      return match;
     }
 
-    return match;
+    return {
+      ...match,
+      links: uniqueLinks,
+    };
   });
 }
 
