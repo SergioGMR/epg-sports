@@ -251,51 +251,36 @@ function updateMatchesWithLinks(
 // Main function with error handling
 export async function processMatches(): Promise<void> {
   try {
-    // Fetch channel data from the new API
+    // Fetch channel data from elplan API (enlaces buenos)
     let response;
     let channelsData: ChannelApiResponse;
-    
-    try {
-      console.log("Attempting to fetch channel data from new API...");
-      response = await fetch("https://the-clerk-project.vercel.app/api/channels", {
-        headers: {
-          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-        }
-      });
-      
-      if (!response.ok) {
-        throw new Error(`Failed to fetch from new API: ${response.status} ${response.statusText}`);
-      }
-      
-      channelsData = await response.json() as ChannelApiResponse;
-      console.log("Successfully fetched data from new API");
-    } catch (error: any) {
-      console.log(`Error with new API: ${error.message}. Falling back to original API...`);
-      
-      // Fallback to original API
-      response = await fetch("https://elplan.vercel.app/api/getData");
-      if (!response.ok) {
-        throw new Error(`Failed to fetch from fallback API: ${response.status} ${response.statusText}`);
-      }
-      
-      const oldFormatData = await response.json();
-      // Convert old format to new format if necessary
-      if (oldFormatData && Array.isArray(oldFormatData)) {
-        channelsData = {
-          lastUpdated: new Date().toISOString(),
-          groups: [{
-            id: "legacy-group",
-            name: "legacy",
-            displayName: "Legacy Channels",
-            tags: [],
-            channels: oldFormatData
-          }]
-        };
-      } else {
-        channelsData = oldFormatData as ChannelApiResponse;
-      }
-      console.log("Successfully fetched data from fallback API");
+
+    console.log("Fetching channel data from elplan API...");
+    response = await fetch("https://elplan.vercel.app/api/getData");
+
+    if (!response.ok) {
+      throw new Error(`Failed to fetch from API: ${response.status} ${response.statusText}`);
     }
+
+    const apiData = await response.json();
+
+    // Convert to standard format if necessary
+    if (apiData && Array.isArray(apiData)) {
+      channelsData = {
+        lastUpdated: new Date().toISOString(),
+        groups: [{
+          id: "elplan-group",
+          name: "elplan",
+          displayName: "El Plan Channels",
+          tags: [],
+          channels: apiData
+        }]
+      };
+    } else {
+      channelsData = apiData as ChannelApiResponse;
+    }
+
+    console.log("Successfully fetched data from elplan API");
 
     // Validar que data.matches exista y sea un array
     if (!data || !data.matches || !Array.isArray(data.matches)) {
