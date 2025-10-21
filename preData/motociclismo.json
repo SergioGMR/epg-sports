@@ -8,11 +8,18 @@
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "MotoGP"
+        "competition": "MotoGP",
+        "round": "G.P. Malasia (Sepang)"
       },
       "teams": {
-        "local": {},
-        "visitor": {}
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
       },
       "channels": [
         "MotoGP Videopass",
@@ -20,7 +27,8 @@
         "DAZN 1",
         "DAZN 1 Bar"
       ],
-      "event": {}
+      "event": {},
+      "eventType": "tournament"
     },
     {
       "sport": "motociclismo",
@@ -31,8 +39,14 @@
       },
       "details": {},
       "teams": {
-        "local": {},
-        "visitor": {}
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
       },
       "channels": [
         "MotoGP Videopass",

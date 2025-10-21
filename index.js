@@ -41,12 +41,19 @@ const selectors = {
     },
     teams: {
         local: {
-            name: 'td.local > img',
-            image: 'td.local > img'
+            name: 'td.local > a',
+            image: 'td.local > img',
+            imgAlt: 'td.local img'
         },
         visitor: {
-            name: 'td.visitante > img',
-            image: 'td.visitante > img'
+            name: 'td.visitante > a',
+            image: 'td.visitante > img',
+            imgAlt: 'td.visitante img'
+        },
+        // Para eventos que solo tienen una columna para ambos equipos
+        singleColumn: {
+            selector: 'td.eventoUnaColumna',
+            content: 'span.eventoUnico'
         }
     },
     channels: {
@@ -113,6 +120,7 @@ async function scrapeMatches(sport) {
 }
 
 async function scrapeMatch(row, day, sport) {
+    // Crear un objeto limpio para el evento deportivo
     const match = {
         sport: sport,
         date: {},
@@ -122,45 +130,114 @@ async function scrapeMatch(row, day, sport) {
             visitor: {}
         },
         channels: [],
-        event: {}
+        event: {},
+        eventType: 'match' // 'match' por defecto para eventos normal equipo vs equipo, 'tournament' para eventos de una columna
     };
 
+    // Extraer información de fecha y hora solo una vez
     const horaElement = await row.$(selectors.hour);
     if (horaElement) {
         const horaText = await horaElement.innerText();
-        match.date.hour = horaText;
-        match.date.day = day;
-        match.date.zone = 'Europe/Madrid';
+        // Limpiar y asegurar que no hay duplicaciones
+        if (!match.date.hour) match.date.hour = horaText;
+        if (!match.date.day) match.date.day = day;
+        if (!match.date.zone) match.date.zone = 'Europe/Madrid';
     }
 
+    // Extraer detalles de competición y ronda
     const detailsElement = await row.$(selectors.details.selector);
     if (detailsElement) {
         const competitionElement = await detailsElement.$(selectors.details.competition);
         if (competitionElement) {
-            match.details.competition = await competitionElement.innerText();
+            const competitionText = await competitionElement.innerText();
+            // Comprobar que no es nulo o vacío y que no existe ya
+            if (competitionText && competitionText.trim() !== '' && !match.details.competition) {
+                match.details.competition = competitionText;
+            }
         }
+
         const roundElement = await detailsElement.$(selectors.details.round);
         if (roundElement) {
-            match.details.round = await roundElement.innerText();
+            const roundText = await roundElement.innerText();
+            // Comprobar que no es nulo o vacío y que no existe ya
+            if (roundText && roundText.trim() !== '' && !match.details.round) {
+                match.details.round = roundText;
+            }
         }
     }
 
-    const localElement = await row.$(selectors.teams.local.name);
-    if (localElement) {
-        match.teams.local.name = await localElement.getAttribute('alt');
-    }
-    const localImageElement = await row.$(selectors.teams.local.image);
-    if (localImageElement) {
-        match.teams.local.image = await localImageElement.getAttribute('src');
-    }
+    // Intentar detectar primero si es un evento de una columna
+    const singleColumnElement = await row.$(selectors.teams.singleColumn.selector);
+    if (singleColumnElement) {
+        // Es un evento que tiene una sola columna en lugar de equipos separados
+        match.eventType = 'tournament';
+        const singleColumnContentElement = await singleColumnElement.$(selectors.teams.singleColumn.content);
+        if (singleColumnContentElement) {
+            const eventText = await singleColumnContentElement.innerText();
+            // Intentar dividir el texto por <br> que en HTML se renderiza como nueva línea
+            const eventParts = eventText.split('\n');
+            if (eventParts.length >= 1) {
+                match.details.round = eventParts[0].trim();
+            }
+            if (eventParts.length >= 2) {
+                match.details.tournamentName = eventParts[1].trim();
+            }
+            // También guardamos el texto completo para referencia
+            match.details.fullEventText = eventText;
+        }
+    } else {
+        // Es un evento normal con equipos local y visitante
+        // Intentamos varias estrategias para obtener los nombres de los equipos
 
-    const visitorElement = await row.$(selectors.teams.visitor.name);
-    if (visitorElement) {
-        match.teams.visitor.name = await visitorElement.getAttribute('alt');
-    }
-    const visitorImageElement = await row.$(selectors.teams.visitor.image);
-    if (visitorImageElement) {
-        match.teams.visitor.image = await visitorImageElement.getAttribute('src');
+        // 1. Primero probamos con el elemento imgAlt que tiene el atributo alt
+        const localImgAlt = await row.$(selectors.teams.local.imgAlt);
+        if (localImgAlt) {
+            match.teams.local.name = await localImgAlt.getAttribute('alt');
+        }
+
+        // 2. Si aún no tenemos nombre, intentamos con el texto del enlace
+        if (!match.teams.local.name) {
+            const localElement = await row.$(selectors.teams.local.name);
+            if (localElement) {
+                match.teams.local.name = await localElement.innerText();
+            }
+        }
+
+        // Obtenemos la imagen del equipo local
+        const localImageElement = await row.$(selectors.teams.local.image);
+        if (localImageElement) {
+            let imageUrl = await localImageElement.getAttribute('src');
+            // Modificar la URL para obtener imágenes más grandes (eliminar el segmento "32/")
+            if (imageUrl && imageUrl.includes('/img/32/')) {
+                imageUrl = imageUrl.replace('/img/32/', '/img/');
+            }
+            match.teams.local.image = imageUrl;
+        }
+
+        // Mismo proceso para el equipo visitante
+        const visitorImgAlt = await row.$(selectors.teams.visitor.imgAlt);
+        if (visitorImgAlt) {
+            match.teams.visitor.name = await visitorImgAlt.getAttribute('alt');
+        }
+
+        if (!match.teams.visitor.name) {
+            const visitorElement = await row.$(selectors.teams.visitor.name);
+            if (visitorElement) {
+                match.teams.visitor.name = await visitorElement.innerText();
+            }
+        }
+
+        const visitorImageElement = await row.$(selectors.teams.visitor.image);
+        if (visitorImageElement) {
+            let imageUrl = await visitorImageElement.getAttribute('src');
+            // Modificar la URL para obtener imágenes más grandes (eliminar el segmento "32/")
+            if (imageUrl && imageUrl.includes('/img/32/')) {
+                imageUrl = imageUrl.replace('/img/32/', '/img/');
+            }
+            match.teams.visitor.image = imageUrl;
+        }
+
+        // Fin de la extracción de datos de equipos - los nombres se mejorarán con Schema.org más adelante
     }
 
     const channelsElements = await row.$$(selectors.channels.selector + ' > ' + selectors.channels.channel);
@@ -174,8 +251,24 @@ async function scrapeMatch(row, day, sport) {
     if (eventElement) {
         const nameElement = await eventElement.$(selectors.event.name);
         if (nameElement) {
-            match.event.name = await nameElement.getAttribute('content');
+            const nameContent = await nameElement.getAttribute('content');
+            match.event.name = nameContent;
+
+            // Usamos el nombre del evento para mejorar los nombres de los equipos si estamos en un partido (no torneo)
+            if (match.eventType === 'match' && nameContent && nameContent.includes(' - ')) {
+                const parts = nameContent.split(' - ');
+                if (parts.length === 2) {
+                    // Solo sobreescribimos si no tenemos ya nombres válidos
+                    if (!match.teams.local.name || match.teams.local.name === 'null') {
+                        match.teams.local.name = parts[0].trim();
+                    }
+                    if (!match.teams.visitor.name || match.teams.visitor.name === 'null') {
+                        match.teams.visitor.name = parts[1].trim();
+                    }
+                }
+            }
         }
+
         const descriptionElement = await eventElement.$(selectors.event.description);
         if (descriptionElement) {
             match.event.description = await descriptionElement.getAttribute('content');
@@ -194,22 +287,56 @@ async function scrapeMatch(row, day, sport) {
 }
 
 async function saveMatchesToFile(matches, fileName) {
-    matches = matches.filter(match => match.date && Object.keys(match.date).length > 0);
+    // Filtrar partidos válidos y limpiar cualquier posible estructura duplicada
+    matches = matches.filter(match => match.date && Object.keys(match.date).length > 0)
+        .map(match => {
+            // Crear un objeto limpio con estructura definida para evitar duplicaciones
+            return {
+                sport: match.sport,
+                date: {
+                    hour: match.date.hour || "",
+                    day: match.date.day || "",
+                    zone: match.date.zone || "Europe/Madrid"
+                },
+                details: {
+                    competition: match.details?.competition || null,
+                    round: match.details?.round || null
+                },
+                teams: {
+                    local: {
+                        name: match.teams?.local?.name || null,
+                        image: match.teams?.local?.image || null
+                    },
+                    visitor: {
+                        name: match.teams?.visitor?.name || null,
+                        image: match.teams?.visitor?.image || null
+                    }
+                },
+                channels: Array.isArray(match.channels) ? match.channels : [],
+                event: match.event || {},
+                eventType: match.eventType || 'match'
+            };
+        });
+
     const data = {
         matches: matches,
         updated: new Date().toISOString()
     };
 
-    const jsonData = JSON.stringify(data, null, 2);
-    const dirPath = path.join(__dirname, 'preData');
-    const filePath = path.join(dirPath, `${fileName}.json`);
-
+    // Validar que el JSON sea correcto antes de guardarlo
     try {
+        const jsonData = JSON.stringify(data, null, 2);
+        // Verificar que podemos parsear el JSON de nuevo (sanity check)
+        JSON.parse(jsonData);
+
+        const dirPath = path.join(__dirname, 'preData');
+        const filePath = path.join(dirPath, `${fileName}.json`);
+
         await fs.mkdir(dirPath, { recursive: true });
         await fs.writeFile(filePath, jsonData, 'utf8');
         console.log(`El archivo ${fileName}.json ha sido guardado.`);
     } catch (err) {
-        console.error('Error al escribir el archivo:', err);
+        console.error(`Error al procesar o escribir el archivo ${fileName}.json:`, err);
     }
 }
 

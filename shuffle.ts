@@ -14,27 +14,32 @@ interface Match {
   };
   teams: {
     local: {
-      name?: string;
-      image?: string;
+      name?: string | null;
+      image?: string | null;
     };
     visitor: {
-      name?: string;
-      image?: string;
+      name?: string | null;
+      image?: string | null;
     };
   };
   channels: string[];
-  event: {
+  event?: {
     name?: string;
     description?: string;
     startDate?: string;
     duration?: string;
   };
-  links?: string[]; // Propiedad opcional para añadir los links
+  links?: string[];
 }
 
+// Interfaces para la nueva estructura de API
 interface Channel {
-  nombre: string;
-  links: string[];
+  name: string;
+  id: string;
+  url: string;
+  quality?: string;
+  category?: string;
+  groupTitle?: string;
   tags: string[];
 }
 
@@ -172,8 +177,20 @@ function matchScore(matchChannel: string, candidateName: string): number {
 // Función para actualizar los partidos con los links correspondientes
 function updateMatchesWithLinks(
   matches: Match[],
-  channels: Channel[]
+  channelData: ChannelApiResponse
 ): Match[] {
+  if (!Array.isArray(matches) || !channelData || !channelData.groups) {
+    throw new Error('Invalid input: matches must be an array and channelData must be a valid response object');
+  }
+
+  // Extract all channels from all groups
+  const allChannels: Channel[] = [];
+  channelData.groups.forEach(group => {
+    if (group.channels && Array.isArray(group.channels)) {
+      allChannels.push(...group.channels);
+    }
+  });
+
   return matches.map((match) => {
     const collectedLinks: string[] = [];
 
@@ -213,38 +230,97 @@ function updateMatchesWithLinks(
   });
 }
 
-(async () => {
+// Main function with error handling
+export async function processMatches(): Promise<void> {
   try {
-    const channelsResponse = await fetch(
-      "https://elplan.vercel.app/api/getData"
-    );
-    const channelsData = await channelsResponse.json();
-
-    // Verify that channelsData is an array
-    if (!Array.isArray(channelsData)) {
-      throw new Error("The channels data retrieved is not an array.");
+    // Fetch channel data from the new API
+    let response;
+    let channelsData: ChannelApiResponse;
+    
+    try {
+      console.log("Attempting to fetch channel data from new API...");
+      response = await fetch("https://the-clerk-project.vercel.app/api/channels", {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+      });
+      
+      if (!response.ok) {
+        throw new Error(`Failed to fetch from new API: ${response.status} ${response.statusText}`);
+      }
+      
+      channelsData = await response.json() as ChannelApiResponse;
+      console.log("Successfully fetched data from new API");
+    } catch (error: any) {
+      console.log(`Error with new API: ${error.message}. Falling back to original API...`);
+      
+      // Fallback to original API
+      response = await fetch("https://elplan.vercel.app/api/getData");
+      if (!response.ok) {
+        throw new Error(`Failed to fetch from fallback API: ${response.status} ${response.statusText}`);
+      }
+      
+      const oldFormatData = await response.json();
+      // Convert old format to new format if necessary
+      if (oldFormatData && Array.isArray(oldFormatData)) {
+        channelsData = {
+          lastUpdated: new Date().toISOString(),
+          groups: [{
+            id: "legacy-group",
+            name: "legacy",
+            displayName: "Legacy Channels",
+            tags: [],
+            channels: oldFormatData
+          }]
+        };
+      } else {
+        channelsData = oldFormatData as ChannelApiResponse;
+      }
+      console.log("Successfully fetched data from fallback API");
     }
 
-    const channels: Channel[] = channelsData;
-
-    // Verify that data.matches is an array
-    if (!Array.isArray(data.matches)) {
-      throw new Error("data.matches is not an array.");
+    // Validar que data.matches exista y sea un array
+    if (!data || !data.matches || !Array.isArray(data.matches)) {
+      throw new Error('Invalid data: data.matches must be a valid array');
     }
 
-    const updatedMatches = updateMatchesWithLinks(data.matches, channels);
+    // Limpiar array de partidos para evitar errores y asegurar el tipo Match
+    const validMatches = data.matches.filter(match => 
+      match && 
+      typeof match === 'object' && 
+      match.sport && 
+      match.date && 
+      match.teams
+    ) as Match[];
 
-    // Save the updated matches to a JSON file
+    console.log(`Processing ${validMatches.length} valid matches out of ${data.matches.length} total`);
+
+    // Update matches with links
+    const updatedMatches = updateMatchesWithLinks(validMatches, channelsData);
+
+    // Save to file
+    const outputPath = "./data/updatedMatches.json";
     fs.writeFileSync(
-      "./data/updatedMatches.json",
+      outputPath,
       JSON.stringify(updatedMatches, null, 2),
       "utf-8"
     );
+    
+    console.log(`Successfully processed ${updatedMatches.length} matches`);
+    console.log(`Updated matches saved to: ${outputPath}`);
 
-    console.log(
-      "Updated matches have been saved to './data/updatedMatches.json'."
-    );
   } catch (error) {
-    console.error("An error occurred:", error);
+    console.error('Error processing matches:', error);
+    throw error; // Re-throw to allow external handling
+  }
+}
+
+// Run the main function
+(async () => {
+  try {
+    await processMatches();
+  } catch (error) {
+    console.error('Fatal error:', error);
+    process.exit(1);
   }
 })();

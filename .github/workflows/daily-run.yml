@@ -31,14 +31,8 @@ jobs:
       - name: Instalar las dependencias de Playwright
         run: bunx playwright install-deps chromium
 
-      - name: Ejecutar index.js
-        run: bun index.js # Ejecuta tu script con Bun
-
-      - name: Ejecutar combine.ts
-        run: bun combine.ts # Ejecuta tu script con Bun
-
-      - name: Ejecutar shuffle.ts
-        run: bun shuffle.ts # Ejecuta tu script con Bun 
+      - name: Ejecutar run-all
+        run: bun run-all # Ejecuta tu script con Bun
 
       - name: Commit y Push de los cambios
         uses: actions-js/push@v1.5

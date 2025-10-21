@@ -11,13 +11,20 @@
         "competition": "Genesis Championship"
       },
       "teams": {
-        "local": {},
-        "visitor": {}
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
       },
       "channels": [
         "Movistar Golf"
       ],
-      "event": {}
+      "event": {},
+      "eventType": "tournament"
     },
     {
       "sport": "golf",
@@ -30,8 +37,14 @@
         "competition": "International Series Philippines"
       },
       "teams": {
-        "local": {},
-        "visitor": {}
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
       },
       "channels": [
         "Movistar Golf 2"
@@ -55,7 +68,35 @@
       "channels": [
         "HBO MAX"
       ],
-      "event": {}
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "golf",
+      "date": {
+        "hour": "14:45",
+        "day": "23/10/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Black Desert Champions",
+        "round": "Jornada 1"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "HBO MAX"
+      ],
+      "event": {},
+      "eventType": "tournament"
     }
   ],
   "updated": "2025-10-21T18:46:52.651Z"
