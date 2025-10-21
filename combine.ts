@@ -14,6 +14,31 @@ const files = fs
   .readdirSync(preDataFolder)
   .filter((file) => path.extname(file) === ".json");
 
+// Función para transformar un partido
+function transformMatch(match: any): any {
+  const transformed = { ...match };
+
+  // 1. Quitar /32 de las URLs de imágenes para obtener 100x100px
+  if (transformed.teams && typeof transformed.teams === 'object') {
+    if (transformed.teams.local?.image) {
+      transformed.teams.local.image = transformed.teams.local.image.replace('/img/32/', '/img/');
+    }
+    if (transformed.teams.visitor?.image) {
+      transformed.teams.visitor.image = transformed.teams.visitor.image.replace('/img/32/', '/img/');
+    }
+
+    // 2. Cambiar teams a null si ambos equipos están vacíos o tienen name: null
+    const localEmpty = !transformed.teams.local?.name || Object.keys(transformed.teams.local).length === 0;
+    const visitorEmpty = !transformed.teams.visitor?.name || Object.keys(transformed.teams.visitor).length === 0;
+
+    if (localEmpty && visitorEmpty) {
+      transformed.teams = null;
+    }
+  }
+
+  return transformed;
+}
+
 // Inicializa un array para almacenar todos los encuentros deportivos
 let allMatches: any[] = [];
 
@@ -25,7 +50,9 @@ files.forEach((file) => {
 
   // Verifica si el archivo tiene la propiedad 'matches' y es un array
   if (jsonData.matches && Array.isArray(jsonData.matches)) {
-    allMatches = allMatches.concat(jsonData.matches);
+    // Aplica transformaciones a cada partido
+    const transformedMatches = jsonData.matches.map(transformMatch);
+    allMatches = allMatches.concat(transformedMatches);
   }
 });
 

@@ -21,7 +21,7 @@ interface Match {
       name?: string | null;
       image?: string | null;
     };
-  };
+  } | null;
   channels: string[];
   event?: {
     name?: string;
@@ -34,13 +34,28 @@ interface Match {
 
 // Interfaces para la nueva estructura de API
 interface Channel {
-  name: string;
-  id: string;
-  url: string;
+  nombre?: string; // Formato antiguo
+  name?: string;   // Formato nuevo
+  id?: string;
+  url?: string;
+  links?: string[]; // Formato antiguo
   quality?: string;
   category?: string;
   groupTitle?: string;
   tags: string[];
+}
+
+interface Group {
+  id: string;
+  name: string;
+  displayName: string;
+  tags: string[];
+  channels: Channel[];
+}
+
+interface ChannelApiResponse {
+  lastUpdated: string;
+  groups: Group[];
 }
 
 const STOP_WORDS = new Set([
@@ -198,8 +213,10 @@ function updateMatchesWithLinks(
       let bestScore = 0;
       let bestLinks: string[] = [];
 
-      channels.forEach((channel) => {
-        const candidateScore = [channel.nombre, ...channel.tags].reduce(
+      allChannels.forEach((channel) => {
+        // Soportar ambos formatos: antiguo (nombre) y nuevo (name)
+        const channelName = channel.nombre || channel.name || '';
+        const candidateScore = [channelName, ...channel.tags].reduce(
           (score, candidateName) =>
             Math.max(score, matchScore(matchChannel, candidateName)),
           0
@@ -207,7 +224,8 @@ function updateMatchesWithLinks(
 
         if (candidateScore > bestScore) {
           bestScore = candidateScore;
-          bestLinks = channel.links;
+          // Soportar ambos formatos: antiguo (links array) y nuevo (url string)
+          bestLinks = channel.links || (channel.url ? [channel.url] : []);
         }
       });
 
