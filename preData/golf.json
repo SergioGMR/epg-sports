@@ -3,13 +3,40 @@
     {
       "sport": "golf",
       "date": {
+        "hour": "05:00",
+        "day": "08/11/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Abu Dhabi Golf Championship",
+        "round": "Jornada 3"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "Movistar Golf"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "golf",
+      "date": {
         "hour": "05:30",
-        "day": "07/11/2025",
+        "day": "08/11/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "LPGA Aramco China Championship",
-        "round": "Jornada 2"
+        "round": "Jornada 3"
       },
       "teams": {
         "local": {
@@ -31,40 +58,13 @@
     {
       "sport": "golf",
       "date": {
-        "hour": "08:00",
-        "day": "07/11/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Abu Dhabi Golf Championship",
-        "round": "Jornada 2"
-      },
-      "teams": {
-        "local": {
-          "name": null,
-          "image": null
-        },
-        "visitor": {
-          "name": null,
-          "image": null
-        }
-      },
-      "channels": [
-        "Movistar Golf"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "golf",
-      "date": {
         "hour": "21:00",
-        "day": "07/11/2025",
+        "day": "08/11/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "World Wide Technology Championship",
-        "round": "Jornada 2"
+        "round": "Jornada 3"
       },
       "teams": {
         "local": {
@@ -83,5 +83,5 @@
       "eventType": "tournament"
     }
   ],
-  "updated": "2025-11-07T00:13:04.818Z"
+  "updated": "2025-11-08T00:13:28.017Z"
 }
