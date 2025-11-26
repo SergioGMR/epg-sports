@@ -3,8 +3,8 @@
     {
       "sport": "futbol-americano",
       "date": {
-        "hour": "02:15",
-        "day": "25/11/2025",
+        "hour": "19:00",
+        "day": "27/11/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -13,12 +13,40 @@
       },
       "teams": {
         "local": {
-          "name": "San Francisco 49ers",
-          "image": "https://static.futbolenlatv.com/img/20130901061746-san-francisco-49ers.webp"
+          "name": "Detroit Lions",
+          "image": "https://static.futbolenlatv.com/img/20130918094435-detroit-lions.webp"
         },
         "visitor": {
-          "name": "Carolina Panthers",
-          "image": "https://static.futbolenlatv.com/img/20131105070454-carolina-panthers.webp"
+          "name": "Green Bay Packers",
+          "image": "https://static.futbolenlatv.com/img/20130901061901-green-bay-packers.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "Mediaset Infinity"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-americano",
+      "date": {
+        "hour": "22:30",
+        "day": "27/11/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NFL",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Dallas Cowboys",
+          "image": "https://static.futbolenlatv.com/img/20130901062320-dallas-cowboys.webp"
+        },
+        "visitor": {
+          "name": "Kansas City Chiefs",
+          "image": "https://static.futbolenlatv.com/img/20131016093358-kansas-city-chiefs.webp"
         }
       },
       "channels": [
@@ -28,5 +56,5 @@
       "eventType": "match"
     }
   ],
-  "updated": "2025-11-25T00:11:23.538Z"
+  "updated": "2025-11-26T00:12:47.743Z"
 }
