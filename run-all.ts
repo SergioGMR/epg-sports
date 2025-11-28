@@ -18,13 +18,16 @@ async function main() {
   try {
     // Ejecutar index.js
     await runScript('bun index.js');
-    
+
     // Ejecutar combine.ts
     await runScript('bun run combine.ts');
-    
+
     // Ejecutar shuffle.ts
     await runScript('bun run shuffle.ts');
-    
+
+    // Ejecutar enrichChannels.ts
+    await runScript('bun run enrichChannels.ts');
+
     console.log('Todos los scripts se han ejecutado exitosamente');
   } catch (error) {
     console.error('Error en el proceso:', error);
