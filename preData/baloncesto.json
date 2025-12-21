@@ -3,26 +3,55 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "01:00",
-        "day": "20/12/2025",
+        "hour": "00:00",
+        "day": "21/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "LNB",
+        "competition": "NCAA",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Atenas de Córdoba",
-          "image": "https://static.futbolenlatv.com/img/20250311173156-atenas-cordoba.webp"
+          "name": "Bucknell University",
+          "image": "https://static.futbolenlatv.com/img/20221230194220-bucknell-university-basketball.webp"
         },
         "visitor": {
-          "name": "Racing Club Chivilcoy",
-          "image": "https://static.futbolenlatv.com/img/20250923215615-racing-club-chivilcoy-basquet.webp"
+          "name": "Iowa",
+          "image": "https://static.futbolenlatv.com/img/20210120200715-iowa-basketball.webp"
         }
       },
       "channels": [
-        "LaLiga+ Plus"
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "00:30",
+        "day": "21/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NCAA",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Auburn Tigers",
+          "image": "https://static.futbolenlatv.com/img/20190331103523-auburn-tigers.webp"
+        },
+        "visitor": {
+          "name": "Purdue",
+          "image": "https://static.futbolenlatv.com/img/20210120200619-purdue-basketball.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
       ],
       "event": {},
       "eventType": "match"
@@ -31,7 +60,7 @@
       "sport": "baloncesto",
       "date": {
         "hour": "01:00",
-        "day": "20/12/2025",
+        "day": "21/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -40,67 +69,12 @@
       },
       "teams": {
         "local": {
-          "name": "Boston Celtics",
-          "image": "https://static.futbolenlatv.com/img/20130808083552-boston-celtics.webp"
-        },
-        "visitor": {
-          "name": "Miami Heat",
-          "image": "https://static.futbolenlatv.com/img/20130614063349-Miami-Heat.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "01:00",
-        "day": "20/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "New York Knicks",
-          "image": "https://static.futbolenlatv.com/img/20130808083641-new-york-knicks.webp"
-        },
-        "visitor": {
           "name": "Philadelphia 76ers",
           "image": "https://static.futbolenlatv.com/img/20191028090432-philadelphia-76ers.webp"
-        }
-      },
-      "channels": [
-        "Amazon Prime Video",
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "01:30",
-        "day": "20/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Cleveland Cavaliers",
-          "image": "https://static.futbolenlatv.com/img/20191028090553-cleveland-cavaliers.webp"
         },
         "visitor": {
-          "name": "Chicago Bulls",
-          "image": "https://static.futbolenlatv.com/img/20130808083209-chicago-bulls.webp"
+          "name": "Dallas Mavericks",
+          "image": "https://static.futbolenlatv.com/img/20130808083728-dallas-mavericks.webp"
         }
       },
       "channels": [
@@ -112,8 +86,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "01:30",
-        "day": "20/12/2025",
+        "hour": "01:00",
+        "day": "21/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -122,12 +96,66 @@
       },
       "teams": {
         "local": {
-          "name": "Atlanta Hawks",
-          "image": "https://static.futbolenlatv.com/img/20191028090539-atlanta-hawks.webp"
+          "name": "Toronto Raptors",
+          "image": "https://static.futbolenlatv.com/img/20201220190859-toronto-raptors.webp"
         },
         "visitor": {
-          "name": "San Antonio Spurs",
-          "image": "https://static.futbolenlatv.com/img/20191028090705-san-antonio-spurs.webp"
+          "name": "Boston Celtics",
+          "image": "https://static.futbolenlatv.com/img/20130808083552-boston-celtics.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:00",
+        "day": "21/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "New Orleans Pelicans",
+          "image": "https://static.futbolenlatv.com/img/20141024125153-new-orleans-pelicans.webp"
+        },
+        "visitor": {
+          "name": "Indiana Pacers",
+          "image": "https://static.futbolenlatv.com/img/20191028090446-indiana-pacers.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:30",
+        "day": "21/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Detroit Pistons",
+          "image": "https://static.futbolenlatv.com/img/20191028090514-detroit-pistons.webp"
+        },
+        "visitor": {
+          "name": "Charlotte Hornets",
+          "image": "https://static.futbolenlatv.com/img/20141024124231-charlotte-hornets.webp"
         }
       },
       "channels": [
@@ -140,35 +168,7 @@
       "sport": "baloncesto",
       "date": {
         "hour": "02:00",
-        "day": "20/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NCAA",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Villanova",
-          "image": "https://static.futbolenlatv.com/img/20160401064221-villanova.webp"
-        },
-        "visitor": {
-          "name": "Wisconsin Badgers",
-          "image": "https://static.futbolenlatv.com/img/20140404105209-wisconsin.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "03:30",
-        "day": "20/12/2025",
+        "day": "21/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -177,16 +177,69 @@
       },
       "teams": {
         "local": {
-          "name": "Minnesota Timberwolves",
-          "image": "https://static.futbolenlatv.com/img/20201220190912-minnesota-timberwolves.webp"
+          "name": "Memphis Grizzlies",
+          "image": "https://static.futbolenlatv.com/img/20191028090731-memphis-grizzlies.webp"
         },
         "visitor": {
-          "name": "Oklahoma C. Thunder",
-          "image": "https://static.futbolenlatv.com/img/20130808083758-oc-thunder.webp"
+          "name": "Washington Wizards",
+          "image": "https://static.futbolenlatv.com/img/20191028090528-washington-wizards.webp"
         }
       },
       "channels": [
-        "Amazon Prime Video",
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "02:30",
+        "day": "21/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Golden State Warriors",
+          "image": "https://static.futbolenlatv.com/img/20130808083832-gs-warriors.webp"
+        },
+        "visitor": {
+          "name": "Phoenix Suns",
+          "image": "https://static.futbolenlatv.com/img/20130808083815-phoenix-suns.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "03:30",
+        "day": "21/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Utah Jazz",
+          "image": "https://static.futbolenlatv.com/img/20191028090654-utah-jazz.webp"
+        },
+        "visitor": {
+          "name": "Orlando Magic",
+          "image": "https://static.futbolenlatv.com/img/20191028090502-orlando-magic.webp"
+        }
+      },
+      "channels": [
         "NBA League Pass"
       ],
       "event": {},
@@ -196,26 +249,25 @@
       "sport": "baloncesto",
       "date": {
         "hour": "04:00",
-        "day": "20/12/2025",
+        "day": "21/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "NCAA",
-        "round": null
+        "competition": "NBA",
+        "round": "Liga Regular"
       },
       "teams": {
         "local": {
-          "name": "Cal Poly Mustangs",
-          "image": "https://static.futbolenlatv.com/img/20221230140816-cal-poly-mustangs-basketball.webp"
+          "name": "Sacramento Kings",
+          "image": "https://static.futbolenlatv.com/img/20201220190924-sacramento-kings.webp"
         },
         "visitor": {
-          "name": "UCLA",
-          "image": "https://static.futbolenlatv.com/img/20201209194243-ucla-basketball.webp"
+          "name": "Portland Trail Blazers",
+          "image": "https://static.futbolenlatv.com/img/20191028090608-portland-trail-blazers.webp"
         }
       },
       "channels": [
-        "DAZN",
-        "DAZN App Gratis"
+        "NBA League Pass"
       ],
       "event": {},
       "eventType": "match"
@@ -223,27 +275,26 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "16:30",
-        "day": "20/12/2025",
+        "hour": "04:30",
+        "day": "21/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "NCAA Women",
-        "round": null
+        "competition": "NBA",
+        "round": "Liga Regular"
       },
       "teams": {
         "local": {
-          "name": "Louisville",
-          "image": "https://static.futbolenlatv.com/img/20210114220907-university-of-louisville-basketball.webp"
+          "name": "Los Angeles Clippers",
+          "image": "https://static.futbolenlatv.com/img/20191028090717-los-angeles-clippers.webp"
         },
         "visitor": {
-          "name": "Tennessee Volunteers",
-          "image": "https://static.futbolenlatv.com/img/20201203212409-tennessee-volunteers.webp"
+          "name": "Los Angeles Lakers",
+          "image": "https://static.futbolenlatv.com/img/20130808083216-la-lakers.webp"
         }
       },
       "channels": [
-        "DAZN",
-        "DAZN App Gratis"
+        "NBA League Pass"
       ],
       "event": {},
       "eventType": "match"
@@ -251,35 +302,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "17:00",
-        "day": "20/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Segunda FEB",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Molina Basket",
-          "image": "https://static.futbolenlatv.com/img/20250911171226-molina-basket.webp"
-        },
-        "visitor": {
-          "name": "UPB Gandía",
-          "image": "https://static.futbolenlatv.com/img/20250911170352-units-pel-basquet-gandia.webp"
-        }
-      },
-      "channels": [
-        "LaLiga+ Plus"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "17:30",
-        "day": "20/12/2025",
+        "hour": "11:00",
+        "day": "21/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -288,17 +312,19 @@
       },
       "teams": {
         "local": {
-          "name": "CAB Estepona",
-          "image": "https://static.futbolenlatv.com/img/20240505141736-cab-estepona.webp"
+          "name": "Spar Girona",
+          "image": "https://static.futbolenlatv.com/img/20191215120328-spar-citylift-girona.webp"
         },
         "visitor": {
-          "name": "Joventut Badalona",
-          "image": "https://static.futbolenlatv.com/img/20190925101350-joventut.webp"
+          "name": "Valencia Basket",
+          "image": "https://static.futbolenlatv.com/img/20130803090213-valencia-basket.webp"
         }
       },
       "channels": [
         "Baloncesto España YouTube",
-        "FEB TV"
+        "FEB TV",
+        "Teledeporte",
+        "RTVE Play"
       ],
       "event": {},
       "eventType": "match"
@@ -306,119 +332,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "17:30",
-        "day": "20/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Segunda FEB",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "CEB Llíria",
-          "image": "https://static.futbolenlatv.com/img/20240906084229-ceb-liria.webp"
-        },
-        "visitor": {
-          "name": "CB Getafe",
-          "image": "https://static.futbolenlatv.com/img/20250911171247-cb-getafe.webp"
-        }
-      },
-      "channels": [
-        "LaLiga+ Plus"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "18:00",
-        "day": "20/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Femenina Endesa",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "IDK Euskotren",
-          "image": "https://static.futbolenlatv.com/img/20200922143934-donosti-basket.webp"
-        },
-        "visitor": {
-          "name": "Baloncesto Leganés",
-          "image": "https://static.futbolenlatv.com/img/20210913143957-baloncesto-leganes.webp"
-        }
-      },
-      "channels": [
-        "Baloncesto España YouTube",
-        "FEB TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "18:00",
-        "day": "20/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NCAA",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Oakland",
-          "image": "https://static.futbolenlatv.com/img/20210126212747-oakland-basketball.webp"
-        },
-        "visitor": {
-          "name": "Michigan State",
-          "image": "https://static.futbolenlatv.com/img/20210204211842-michigan-state-basketball.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "18:00",
-        "day": "20/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Endesa",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Basquet Girona",
-          "image": "https://static.futbolenlatv.com/img/20200910080222-basquet-girona.webp"
-        },
-        "visitor": {
-          "name": "La Laguna Tenerife",
-          "image": "https://static.futbolenlatv.com/img/20130803090548-cb-canarias.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN Baloncesto 2"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "18:30",
-        "day": "20/12/2025",
+        "hour": "12:00",
+        "day": "21/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -427,16 +342,17 @@
       },
       "teams": {
         "local": {
-          "name": "Baloncesto Fuenlabrada",
-          "image": "https://static.futbolenlatv.com/img/20220809170514-baloncesto-fuenlabrada.webp"
+          "name": "CB Tizona Burgos",
+          "image": "https://static.futbolenlatv.com/img/20140930111825-cb-tizona-burgos.webp"
         },
         "visitor": {
-          "name": "Súper Agropal Palencia",
-          "image": "https://static.futbolenlatv.com/img/20211001101211-palencia-baloncesto.webp"
+          "name": "HLA Alicante",
+          "image": "https://static.futbolenlatv.com/img/20190926102711-hla-alicante.webp"
         }
       },
       "channels": [
-        "LaLiga+ Plus"
+        "LaLiga+ Plus",
+        "La 8 Burgos"
       ],
       "event": {},
       "eventType": "match"
@@ -444,8 +360,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "19:00",
-        "day": "20/12/2025",
+        "hour": "12:00",
+        "day": "21/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -454,12 +370,12 @@
       },
       "teams": {
         "local": {
-          "name": "Club Ourense Baloncesto",
-          "image": "https://static.futbolenlatv.com/img/20130731064826-orense-baloncesto.webp"
+          "name": "GA Cantabria",
+          "image": "https://static.futbolenlatv.com/img/20220905181150-club-deportivo-elemental-estela-cantabria.webp"
         },
         "visitor": {
-          "name": "Gipuzkoa Basket",
-          "image": "https://static.futbolenlatv.com/img/20200903182221-san-sebastian-gipuzkoa-basket.webp"
+          "name": "Fibwi Palma",
+          "image": "https://static.futbolenlatv.com/img/20201001093416-cb-bahia-san-agustin.webp"
         }
       },
       "channels": [
@@ -471,35 +387,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "19:00",
-        "day": "20/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera FEB",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "FC Cartagena CB",
-          "image": "https://static.futbolenlatv.com/img/20130108015117_cartagena.webp"
-        },
-        "visitor": {
-          "name": "Básquet Coruña",
-          "image": "https://static.futbolenlatv.com/img/20210505093652-basquet-coruna.webp"
-        }
-      },
-      "channels": [
-        "LaLiga+ Plus"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "19:00",
-        "day": "20/12/2025",
+        "hour": "12:00",
+        "day": "21/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -508,124 +397,12 @@
       },
       "teams": {
         "local": {
-          "name": "Kutxabank Araski",
-          "image": "https://static.futbolenlatv.com/img/20181024101840-araski-aes.webp"
+          "name": "Perfumerías Avenida",
+          "image": "https://static.futbolenlatv.com/img/20131005094829-perfumerias-avenida.webp"
         },
         "visitor": {
-          "name": "Movistar Estudiantes",
-          "image": "https://static.futbolenlatv.com/img/20190925101244-movistar-estudiantes.webp"
-        }
-      },
-      "channels": [
-        "Baloncesto España YouTube",
-        "FEB TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "19:00",
-        "day": "20/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NCAA Women",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Iowa",
-          "image": "https://static.futbolenlatv.com/img/20210120200715-iowa-basketball.webp"
-        },
-        "visitor": {
-          "name": "U Connecticut",
-          "image": "https://static.futbolenlatv.com/img/20140404022046-connecticut.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "19:00",
-        "day": "20/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Endesa",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Força Lleida",
-          "image": "https://static.futbolenlatv.com/img/20130731064711-forca-lleida-baloncesto.webp"
-        },
-        "visitor": {
-          "name": "Real Madrid Baloncesto",
-          "image": "https://static.futbolenlatv.com/img/20160725122745-real-madrid.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN Baloncesto"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "19:15",
-        "day": "20/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Femenina Endesa",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Ensino Lugo",
-          "image": "https://static.futbolenlatv.com/img/20181225105021-ensino-lugo.webp"
-        },
-        "visitor": {
-          "name": "Cadi La Seu",
-          "image": "https://static.futbolenlatv.com/img/20131001101621-sedis-basquet.webp"
-        }
-      },
-      "channels": [
-        "Baloncesto España YouTube",
-        "FEB TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "20/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Femenina Endesa",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Spar Gran Canaria",
-          "image": "https://static.futbolenlatv.com/img/20131011083809-club-deportes-castro.webp"
-        },
-        "visitor": {
-          "name": "Lointek Gernika",
-          "image": "https://static.futbolenlatv.com/img/20141014112527-gernika-bizkaia.webp"
+          "name": "BAXI Ferrol",
+          "image": "https://static.futbolenlatv.com/img/20181024101642-baxi-ferrol.webp"
         }
       },
       "channels": [
@@ -639,8 +416,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "20:00",
-        "day": "20/12/2025",
+        "hour": "12:00",
+        "day": "21/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -649,18 +426,17 @@
       },
       "teams": {
         "local": {
-          "name": "Dreamland Gran Canaria",
-          "image": "https://static.futbolenlatv.com/img/20141001095538-gran-canaria.webp"
+          "name": "Río Breogán",
+          "image": "https://static.futbolenlatv.com/img/20130731070150-cb-breogan-lugo.webp"
         },
         "visitor": {
-          "name": "Coviran Granada",
-          "image": "https://static.futbolenlatv.com/img/20170827060158-fundacion-cb-granada.webp"
+          "name": "Bilbao Basket",
+          "image": "https://static.futbolenlatv.com/img/20161031060317-retabet-bilbao-basket.webp"
         }
       },
       "channels": [
         "DAZN",
-        "DAZN Baloncesto 3",
-        "DAZN App Gratis"
+        "DAZN Baloncesto 2"
       ],
       "event": {},
       "eventType": "match"
@@ -668,8 +444,179 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "21:00",
-        "day": "20/12/2025",
+        "hour": "12:30",
+        "day": "21/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera FEB",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "CB Zamora",
+          "image": "https://static.futbolenlatv.com/img/20230504170357-club-baloncesto-zamora.webp"
+        },
+        "visitor": {
+          "name": "Oviedo Baloncesto",
+          "image": "https://static.futbolenlatv.com/img/20211013184321-oviedo-club-baloncesto.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus",
+        "VinxTV YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "12:30",
+        "day": "21/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Endesa",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Barça Basket",
+          "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
+        },
+        "visitor": {
+          "name": "Joventut Badalona",
+          "image": "https://static.futbolenlatv.com/img/20190925101350-joventut.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN Baloncesto",
+        "TV3"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "13:00",
+        "day": "21/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Femenina Endesa",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "CB Jairis",
+          "image": "https://static.futbolenlatv.com/img/20201002093158-cb-jairis.webp"
+        },
+        "visitor": {
+          "name": "Casademont Zaragoza",
+          "image": "https://static.futbolenlatv.com/img/20190925100947-casademont-zaragoza.webp"
+        }
+      },
+      "channels": [
+        "Baloncesto España YouTube",
+        "FEB TV",
+        "As.com",
+        "Aragón Deporte",
+        "Aragón TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "17:00",
+        "day": "21/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Endesa",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "UCAM Murcia CB",
+          "image": "https://static.futbolenlatv.com/img/20190925101456-ucam-murcia.webp"
+        },
+        "visitor": {
+          "name": "Valencia Basket",
+          "image": "https://static.futbolenlatv.com/img/20130803090213-valencia-basket.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN Baloncesto"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:00",
+        "day": "21/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera FEB",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Melilla Sport Capital",
+          "image": "https://static.futbolenlatv.com/img/20130731064726-club-melilla-baloncesto.webp"
+        },
+        "visitor": {
+          "name": "Basquet Menorca",
+          "image": "https://static.futbolenlatv.com/img/20201001093427-basquet-menorca.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus",
+        "TV Melilla"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:00",
+        "day": "21/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera FEB",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Palmer Mallorca Palma",
+          "image": "https://static.futbolenlatv.com/img/20240906083154-palmer-mallorca-palma.webp"
+        },
+        "visitor": {
+          "name": "Monbus Obradoiro",
+          "image": "https://static.futbolenlatv.com/img/20200903182202-obradoiro-clube-baloncesto.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:00",
+        "day": "21/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -678,12 +625,12 @@
       },
       "teams": {
         "local": {
-          "name": "North Carolina",
-          "image": "https://static.futbolenlatv.com/img/20160401064353-north-carolina.webp"
+          "name": "Pittsburgh",
+          "image": "https://static.futbolenlatv.com/img/20210126212601-pittsburgh-athletics-basketball.webp"
         },
         "visitor": {
-          "name": "Ohio State",
-          "image": "https://static.futbolenlatv.com/img/20210120200609-ohio-state-basketball.webp"
+          "name": "Penn State",
+          "image": "https://static.futbolenlatv.com/img/20210120200728-penn-state-basketball.webp"
         }
       },
       "channels": [
@@ -696,8 +643,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "21:00",
-        "day": "20/12/2025",
+        "hour": "18:00",
+        "day": "21/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -706,16 +653,17 @@
       },
       "teams": {
         "local": {
-          "name": "San Pablo Burgos",
-          "image": "https://static.futbolenlatv.com/img/20190925100606-san-pablo-burgos.webp"
+          "name": "Casademont Zaragoza",
+          "image": "https://static.futbolenlatv.com/img/20190925100947-casademont-zaragoza.webp"
         },
         "visitor": {
-          "name": "BAXI Manresa",
-          "image": "https://static.futbolenlatv.com/img/20180803094908-baxi-manresa.webp"
+          "name": "MoraBanc Andorra",
+          "image": "https://static.futbolenlatv.com/img/20190925100830-morabanc-andorra.webp"
         }
       },
       "channels": [
-        "DAZN"
+        "DAZN",
+        "DAZN Baloncesto 3"
       ],
       "event": {},
       "eventType": "match"
@@ -723,8 +671,36 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "23:00",
-        "day": "20/12/2025",
+        "hour": "19:00",
+        "day": "21/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Endesa",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Unicaja Málaga",
+          "image": "https://static.futbolenlatv.com/img/20240318163823-unicaja-malaga.webp"
+        },
+        "visitor": {
+          "name": "Baskonia",
+          "image": "https://static.futbolenlatv.com/img/20160907115208-baskonia.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN Baloncesto 2"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "21:30",
+        "day": "21/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -733,22 +709,77 @@
       },
       "teams": {
         "local": {
-          "name": "Denver Nuggets",
-          "image": "https://static.futbolenlatv.com/img/20191028090619-denver-nuggets.webp"
+          "name": "Atlanta Hawks",
+          "image": "https://static.futbolenlatv.com/img/20191028090539-atlanta-hawks.webp"
         },
         "visitor": {
-          "name": "Houston Rockets",
-          "image": "https://static.futbolenlatv.com/img/20191028090908-houston-rockets.webp"
+          "name": "Chicago Bulls",
+          "image": "https://static.futbolenlatv.com/img/20130808083209-chicago-bulls.webp"
+        }
+      },
+      "channels": [
+        "Amazon Prime Video",
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "22:00",
+        "day": "21/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NCAA",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "La Salle",
+          "image": "https://static.futbolenlatv.com/img/20210224185508-la-salle-basketball.webp"
+        },
+        "visitor": {
+          "name": "Michigan",
+          "image": "https://static.futbolenlatv.com/img/20180324085157-michigan.webp"
         }
       },
       "channels": [
         "DAZN",
-        "NBA League Pass",
-        "DAZN Baloncesto"
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "22:30",
+        "day": "21/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NCAA",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "U Connecticut",
+          "image": "https://static.futbolenlatv.com/img/20140404022046-connecticut.webp"
+        },
+        "visitor": {
+          "name": "DePaul",
+          "image": "https://static.futbolenlatv.com/img/20210126212703-depaul-basketball.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
       ],
       "event": {},
       "eventType": "match"
     }
   ],
-  "updated": "2025-12-20T00:13:27.526Z"
+  "updated": "2025-12-21T00:14:48.478Z"
 }
