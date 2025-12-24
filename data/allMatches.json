@@ -118,48 +118,10 @@
       "eventType": "tournament"
     },
     {
-      "sport": "rugby",
-      "date": {
-        "hour": "12:30",
-        "day": "21/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Iberdrola Femenina",
-        "round": null
-      },
-      "teams": null,
-      "channels": [
-        "M+ Ellas Vamos : VER PARTIDO",
-        "M+ Deportes 2"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "rugby",
-      "date": {
-        "hour": "21:05",
-        "day": "21/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Top 14",
-        "round": null
-      },
-      "teams": null,
-      "channels": [
-        "M+ Deportes 2",
-        "M+ Deportes 3"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
       "sport": "beisbol",
       "date": {
         "hour": "00:00",
-        "day": "23/12/2025",
+        "day": "24/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -168,39 +130,12 @@
       },
       "teams": {
         "local": {
+          "name": "Águilas del Zulia",
+          "image": "https://static.futbolenlatv.com/img/20221021203021-aguilas-del-zulia.webp"
+        },
+        "visitor": {
           "name": "Caribes de Anzoátegui",
           "image": "https://static.futbolenlatv.com/img/20221021202950-caribes-de-anzoategui.webp"
-        },
-        "visitor": {
-          "name": "Navegantes del Magallanes",
-          "image": "https://static.futbolenlatv.com/img/20221021202928-navegantes-del-magallanes.webp"
-        }
-      },
-      "channels": [
-        "BeisbolPlay"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "beisbol",
-      "date": {
-        "hour": "00:00",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LVBP",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Leones del Caracas",
-          "image": "https://static.futbolenlatv.com/img/20221021202939-leones-del-caracas.webp"
-        },
-        "visitor": {
-          "name": "Bravos de Margarita",
-          "image": "https://static.futbolenlatv.com/img/20221021203001-bravos-de-margarita.webp"
         }
       },
       "channels": [
@@ -213,7 +148,7 @@
       "sport": "baloncesto",
       "date": {
         "hour": "00:00",
-        "day": "23/12/2025",
+        "day": "24/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -222,12 +157,12 @@
       },
       "teams": {
         "local": {
-          "name": "Siena College",
-          "image": "https://static.futbolenlatv.com/img/20221230194101-siena-college-basketball.webp"
+          "name": "Harvard Crimson",
+          "image": "https://static.futbolenlatv.com/img/20221230123340-harvard-crimson-basketball.webp"
         },
         "visitor": {
-          "name": "Indiana Hoosiers",
-          "image": "https://static.futbolenlatv.com/img/20210120200705-indiana-hoosiers-basketball.webp"
+          "name": "St. John's",
+          "image": "https://static.futbolenlatv.com/img/20210114221404-st-johns-basketball.webp"
         }
       },
       "channels": [
@@ -241,7 +176,7 @@
       "sport": "baloncesto",
       "date": {
         "hour": "01:00",
-        "day": "23/12/2025",
+        "day": "24/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -250,12 +185,39 @@
       },
       "teams": {
         "local": {
-          "name": "Cleveland Cavaliers",
-          "image": "https://static.futbolenlatv.com/img/20191028090553-cleveland-cavaliers.webp"
+          "name": "Philadelphia 76ers",
+          "image": "https://static.futbolenlatv.com/img/20191028090432-philadelphia-76ers.webp"
         },
         "visitor": {
+          "name": "Brooklyn Nets",
+          "image": "https://static.futbolenlatv.com/img/20130808083530-brooklyn-nets.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:00",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
           "name": "Charlotte Hornets",
           "image": "https://static.futbolenlatv.com/img/20141024124231-charlotte-hornets.webp"
+        },
+        "visitor": {
+          "name": "Washington Wizards",
+          "image": "https://static.futbolenlatv.com/img/20191028090528-washington-wizards.webp"
         }
       },
       "channels": [
@@ -268,7 +230,7 @@
       "sport": "baloncesto",
       "date": {
         "hour": "01:30",
-        "day": "23/12/2025",
+        "day": "24/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -277,12 +239,93 @@
       },
       "teams": {
         "local": {
-          "name": "Boston Celtics",
-          "image": "https://static.futbolenlatv.com/img/20130808083552-boston-celtics.webp"
+          "name": "Miami Heat",
+          "image": "https://static.futbolenlatv.com/img/20130614063349-Miami-Heat.webp"
         },
         "visitor": {
+          "name": "Toronto Raptors",
+          "image": "https://static.futbolenlatv.com/img/20201220190859-toronto-raptors.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:30",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
           "name": "Indiana Pacers",
           "image": "https://static.futbolenlatv.com/img/20191028090446-indiana-pacers.webp"
+        },
+        "visitor": {
+          "name": "Milwaukee Bucks",
+          "image": "https://static.futbolenlatv.com/img/20191028090415-milwaukee-bucks.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:30",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Cleveland Cavaliers",
+          "image": "https://static.futbolenlatv.com/img/20191028090553-cleveland-cavaliers.webp"
+        },
+        "visitor": {
+          "name": "New Orleans Pelicans",
+          "image": "https://static.futbolenlatv.com/img/20141024125153-new-orleans-pelicans.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:30",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Atlanta Hawks",
+          "image": "https://static.futbolenlatv.com/img/20191028090539-atlanta-hawks.webp"
+        },
+        "visitor": {
+          "name": "Chicago Bulls",
+          "image": "https://static.futbolenlatv.com/img/20130808083209-chicago-bulls.webp"
         }
       },
       "channels": [
@@ -295,7 +338,7 @@
       "sport": "baloncesto",
       "date": {
         "hour": "02:00",
-        "day": "23/12/2025",
+        "day": "24/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -304,94 +347,39 @@
       },
       "teams": {
         "local": {
-          "name": "New Orleans Pelicans",
-          "image": "https://static.futbolenlatv.com/img/20141024125153-new-orleans-pelicans.webp"
+          "name": "Minnesota Timberwolves",
+          "image": "https://static.futbolenlatv.com/img/20201220190912-minnesota-timberwolves.webp"
         },
         "visitor": {
+          "name": "New York Knicks",
+          "image": "https://static.futbolenlatv.com/img/20130808083641-new-york-knicks.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "02:00",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
           "name": "Dallas Mavericks",
           "image": "https://static.futbolenlatv.com/img/20130808083728-dallas-mavericks.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol-americano",
-      "date": {
-        "hour": "02:15",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NFL",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Indianápolis Colts",
-          "image": "https://static.futbolenlatv.com/img/20130918094430-indianapolis-colts.webp"
         },
         "visitor": {
-          "name": "San Francisco 49ers",
-          "image": "https://static.futbolenlatv.com/img/20130901061746-san-francisco-49ers.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN 2"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "03:00",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
           "name": "Denver Nuggets",
           "image": "https://static.futbolenlatv.com/img/20191028090619-denver-nuggets.webp"
-        },
-        "visitor": {
-          "name": "Utah Jazz",
-          "image": "https://static.futbolenlatv.com/img/20191028090654-utah-jazz.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "03:30",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Oklahoma C. Thunder",
-          "image": "https://static.futbolenlatv.com/img/20130808083758-oc-thunder.webp"
-        },
-        "visitor": {
-          "name": "Memphis Grizzlies",
-          "image": "https://static.futbolenlatv.com/img/20191028090731-memphis-grizzlies.webp"
         }
       },
       "channels": [
@@ -405,8 +393,91 @@
     {
       "sport": "baloncesto",
       "date": {
+        "hour": "02:30",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "San Antonio Spurs",
+          "image": "https://static.futbolenlatv.com/img/20191028090705-san-antonio-spurs.webp"
+        },
+        "visitor": {
+          "name": "Oklahoma C. Thunder",
+          "image": "https://static.futbolenlatv.com/img/20130808083758-oc-thunder.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "03:00",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Utah Jazz",
+          "image": "https://static.futbolenlatv.com/img/20191028090654-utah-jazz.webp"
+        },
+        "visitor": {
+          "name": "Memphis Grizzlies",
+          "image": "https://static.futbolenlatv.com/img/20191028090731-memphis-grizzlies.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "03:00",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Phoenix Suns",
+          "image": "https://static.futbolenlatv.com/img/20130808083815-phoenix-suns.webp"
+        },
+        "visitor": {
+          "name": "Los Angeles Lakers",
+          "image": "https://static.futbolenlatv.com/img/20130808083216-la-lakers.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass",
+        "DAZN",
+        "DAZN Baloncesto 2"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
         "hour": "04:00",
-        "day": "23/12/2025",
+        "day": "24/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -417,6 +488,33 @@
         "local": {
           "name": "Portland Trail Blazers",
           "image": "https://static.futbolenlatv.com/img/20191028090608-portland-trail-blazers.webp"
+        },
+        "visitor": {
+          "name": "Orlando Magic",
+          "image": "https://static.futbolenlatv.com/img/20191028090502-orlando-magic.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "04:00",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Sacramento Kings",
+          "image": "https://static.futbolenlatv.com/img/20201220190924-sacramento-kings.webp"
         },
         "visitor": {
           "name": "Detroit Pistons",
@@ -432,8 +530,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "04:00",
-        "day": "23/12/2025",
+        "hour": "04:30",
+        "day": "24/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -442,12 +540,12 @@
       },
       "teams": {
         "local": {
-          "name": "Golden State Warriors",
-          "image": "https://static.futbolenlatv.com/img/20130808083832-gs-warriors.webp"
+          "name": "Los Angeles Clippers",
+          "image": "https://static.futbolenlatv.com/img/20191028090717-los-angeles-clippers.webp"
         },
         "visitor": {
-          "name": "Orlando Magic",
-          "image": "https://static.futbolenlatv.com/img/20191028090502-orlando-magic.webp"
+          "name": "Houston Rockets",
+          "image": "https://static.futbolenlatv.com/img/20191028090908-houston-rockets.webp"
         }
       },
       "channels": [
@@ -459,72 +557,8 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "06:30",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "A-League Women",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Melbourne City Women",
-          "image": "https://static.futbolenlatv.com/img/20150717031722-melbourne-city.webp"
-        },
-        "visitor": {
-          "name": "Melbourne Victory Women",
-          "image": "https://static.futbolenlatv.com/img/20130716043228-melbourne-victory.webp"
-        }
-      },
-      "channels": [
-        "A-Leagues YouTube"
-      ],
-      "event": {
-        "name": "Melbourne City Women - Melbourne Victory Women",
-        "description": "Melbourne City Women - Melbourne Victory Women el martes, 23 de diciembre de 2025 a las 6:30",
-        "startDate": "2025-12-23T05:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "09:15",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "A-League",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Melbourne City",
-          "image": "https://static.futbolenlatv.com/img/20150717031722-melbourne-city.webp"
-        },
-        "visitor": {
-          "name": "Macarthur FC",
-          "image": "https://static.futbolenlatv.com/img/20201211182311-macarthur-fc.webp"
-        }
-      },
-      "channels": [
-        "A-Leagues YouTube"
-      ],
-      "event": {
-        "name": "Melbourne City - Macarthur FC",
-        "description": "Melbourne City - Macarthur FC el martes, 23 de diciembre de 2025 a las 9:15",
-        "startDate": "2025-12-23T08:15:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
         "hour": "13:30",
-        "day": "23/12/2025",
+        "day": "24/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -533,12 +567,277 @@
       },
       "teams": {
         "local": {
-          "name": "R.D. Congo",
-          "image": "https://static.futbolenlatv.com/img/20130103115032_rep.-democrática-congo.webp"
+          "name": "Burkina Faso",
+          "image": "https://static.futbolenlatv.com/img/20130103113933_burkina-faso.webp"
         },
         "visitor": {
-          "name": "Benín",
-          "image": "https://static.futbolenlatv.com/img/20141107103232-benin.webp"
+          "name": "Guinea Ecuatorial",
+          "image": "https://static.futbolenlatv.com/img/20131110083041-guinea-ecuatorial.webp"
+        }
+      },
+      "channels": [
+        "M+ #Vamos Bar 2",
+        "M+ Liga de Campeones"
+      ],
+      "event": {
+        "name": "Burkina Faso - Guinea Ecuatorial",
+        "description": "Burkina Faso - Guinea Ecuatorial el miércoles, 24 de diciembre de 2025 a las 13:30",
+        "startDate": "2025-12-24T12:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa Africana de Naciones",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Argelia",
+          "image": "https://static.futbolenlatv.com/img/20130103113849_argelia.webp"
+        },
+        "visitor": {
+          "name": "Sudán",
+          "image": "https://static.futbolenlatv.com/img/20130728022852-sudan.webp"
+        }
+      },
+      "channels": [
+        "Movistar Plus+ : VER PARTIDO",
+        "M+ #Vamos Bar 2",
+        "M+ Liga de Campeones"
+      ],
+      "event": {
+        "name": "Argelia - Sudán",
+        "description": "Argelia - Sudán el miércoles, 24 de diciembre de 2025 a las 16:00",
+        "startDate": "2025-12-24T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC Champions League Two",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Al Nassr",
+          "image": "https://static.futbolenlatv.com/img/20240522170910-al-nassr.webp"
+        },
+        "visitor": {
+          "name": "Al-Zawraa SC",
+          "image": "https://static.futbolenlatv.com/img/20220328174011-al-zawraa-sc.webp"
+        }
+      },
+      "channels": [
+        "The AFC Hub YouTube",
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Al Nassr - Al-Zawraa SC",
+        "description": "Al Nassr - Al-Zawraa SC el miércoles, 24 de diciembre de 2025 a las 17:00",
+        "startDate": "2025-12-24T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC Champions League Two",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Al Muharraq",
+          "image": "https://static.futbolenlatv.com/img/20130422093956_al-muharraq.webp"
+        },
+        "visitor": {
+          "name": "Esteghlal",
+          "image": "https://static.futbolenlatv.com/img/20130416064510_esteghlal.webp"
+        }
+      },
+      "channels": [
+        "The AFC Hub YouTube",
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Al Muharraq - Esteghlal",
+        "description": "Al Muharraq - Esteghlal el miércoles, 24 de diciembre de 2025 a las 17:00",
+        "startDate": "2025-12-24T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC Champions League Two",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Al Ahli SC",
+          "image": "https://static.futbolenlatv.com/img/20130501111059_al-ahli-sc.webp"
+        },
+        "visitor": {
+          "name": "FC Andijon",
+          "image": "https://static.futbolenlatv.com/img/20250912083536-fc-andijon.webp"
+        }
+      },
+      "channels": [
+        "The AFC Hub YouTube",
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Al Ahli SC - FC Andijon",
+        "description": "Al Ahli SC - FC Andijon el miércoles, 24 de diciembre de 2025 a las 17:00",
+        "startDate": "2025-12-24T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC Champions League Two",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "FC Goa",
+          "image": "https://static.futbolenlatv.com/img/20141014051907-fc-goa.webp"
+        },
+        "visitor": {
+          "name": "Istiklol",
+          "image": "https://static.futbolenlatv.com/img/20150220120619-istiklol.webp"
+        }
+      },
+      "channels": [
+        "The AFC Hub YouTube",
+        "OneFootball"
+      ],
+      "event": {
+        "name": "FC Goa - Istiklol",
+        "description": "FC Goa - Istiklol el miércoles, 24 de diciembre de 2025 a las 17:00",
+        "startDate": "2025-12-24T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC Champions League Two",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Al Wasl",
+          "image": "https://static.futbolenlatv.com/img/20180723114716-al-wasl.webp"
+        },
+        "visitor": {
+          "name": "Al Wehdat",
+          "image": "https://static.futbolenlatv.com/img/20150206102616-al-wehdat.webp"
+        }
+      },
+      "channels": [
+        "The AFC Hub YouTube",
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Al Wasl - Al Wehdat",
+        "description": "Al Wasl - Al Wehdat el miércoles, 24 de diciembre de 2025 a las 17:00",
+        "startDate": "2025-12-24T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC Champions League Two",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "FK Arkadag",
+          "image": "https://static.futbolenlatv.com/img/20241101102834-fk-arkadag.webp"
+        },
+        "visitor": {
+          "name": "Al Khalidiya FC",
+          "image": "https://static.futbolenlatv.com/img/20220114091447-al-khalidiya-fc.webp"
+        }
+      },
+      "channels": [
+        "The AFC Hub YouTube",
+        "OneFootball"
+      ],
+      "event": {
+        "name": "FK Arkadag - Al Khalidiya FC",
+        "description": "FK Arkadag - Al Khalidiya FC el miércoles, 24 de diciembre de 2025 a las 17:00",
+        "startDate": "2025-12-24T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:30",
+        "day": "24/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa Africana de Naciones",
+        "round": "Fase de grupos"
+      },
+      "teams": {
+        "local": {
+          "name": "Costa de Marfil",
+          "image": "https://static.futbolenlatv.com/img/20130103113744_cosa-de-marfil.webp"
+        },
+        "visitor": {
+          "name": "Mozambique",
+          "image": "https://static.futbolenlatv.com/img/20130712100714-mozambique.webp"
         }
       },
       "channels": [
@@ -548,9 +847,9 @@
         "M+ Liga de Campeones"
       ],
       "event": {
-        "name": "R.D. Congo - Benín",
-        "description": "R.D. Congo - Benín el martes, 23 de diciembre de 2025 a las 13:30",
-        "startDate": "2025-12-23T12:30:00",
+        "name": "Costa de Marfil - Mozambique",
+        "description": "Costa de Marfil - Mozambique el miércoles, 24 de diciembre de 2025 a las 18:30",
+        "startDate": "2025-12-24T17:30:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -558,73 +857,8 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "14:45",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "AFC Champions League Two",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Mohun Bagan",
-          "image": "https://static.futbolenlatv.com/img/20180928045335-mohun-bagan.webp"
-        },
-        "visitor": {
-          "name": "Sepahan",
-          "image": "https://static.futbolenlatv.com/img/20130410092754_sepahan.webp"
-        }
-      },
-      "channels": [
-        "The AFC Hub YouTube"
-      ],
-      "event": {
-        "name": "Mohun Bagan - Sepahan",
-        "description": "Mohun Bagan - Sepahan el martes, 23 de diciembre de 2025 a las 14:45",
-        "startDate": "2025-12-23T13:45:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "14:45",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "AFC Champions League Two",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Al-Hussein SC",
-          "image": "https://static.futbolenlatv.com/img/20231017094423-al-hussein-sc-irbid.webp"
-        },
-        "visitor": {
-          "name": "FC Ahal",
-          "image": "https://static.futbolenlatv.com/img/20251105170509-fc-ahal.webp"
-        }
-      },
-      "channels": [
-        "The AFC Hub YouTube",
-        "OneFootball"
-      ],
-      "event": {
-        "name": "Al-Hussein SC - FC Ahal",
-        "description": "Al-Hussein SC - FC Ahal el martes, 23 de diciembre de 2025 a las 14:45",
-        "startDate": "2025-12-23T13:45:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "16:00",
-        "day": "23/12/2025",
+        "hour": "21:00",
+        "day": "24/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -633,106 +867,12 @@
       },
       "teams": {
         "local": {
-          "name": "Senegal",
-          "image": "https://static.futbolenlatv.com/img/20130716094920-senegal.webp"
+          "name": "Camerún",
+          "image": "https://static.futbolenlatv.com/img/20130528114257-Camerun.webp"
         },
         "visitor": {
-          "name": "Botswana",
-          "image": "https://static.futbolenlatv.com/img/20130403093815_botswana.webp"
-        }
-      },
-      "channels": [
-        "Movistar Plus+ : VER PARTIDO",
-        "M+ #Vamos Bar 2",
-        "M+ Liga de Campeones"
-      ],
-      "event": {
-        "name": "Senegal - Botswana",
-        "description": "Senegal - Botswana el martes, 23 de diciembre de 2025 a las 16:00",
-        "startDate": "2025-12-23T15:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "17:00",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Euroliga",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Dubai Basketball",
-          "image": "https://static.futbolenlatv.com/img/20250519204831-dubai-basketball.webp"
-        },
-        "visitor": {
-          "name": "AX Olimpia Milano",
-          "image": "https://static.futbolenlatv.com/img/20180129060055-ax-olimpia-milano.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes 4"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "17:00",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "AFC Champions League Elite",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Al Sadd",
-          "image": "https://static.futbolenlatv.com/img/20250915145652-al-sadd.webp"
-        },
-        "visitor": {
-          "name": "Shabab Al Ahli",
-          "image": "https://static.futbolenlatv.com/img/20180720084253-shabab-al-ahli.webp"
-        }
-      },
-      "channels": [
-        "The AFC Hub YouTube",
-        "OneFootball"
-      ],
-      "event": {
-        "name": "Al Sadd - Shabab Al Ahli",
-        "description": "Al Sadd - Shabab Al Ahli el martes, 23 de diciembre de 2025 a las 17:00",
-        "startDate": "2025-12-23T16:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "18:30",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa Africana de Naciones",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Nigeria",
-          "image": "https://static.futbolenlatv.com/img/20130103114959_nigeria.webp"
-        },
-        "visitor": {
-          "name": "Tanzania",
-          "image": "https://static.futbolenlatv.com/img/20130712060732-tanzania.webp"
+          "name": "Gabón",
+          "image": "https://static.futbolenlatv.com/img/20130403093849_gabon.webp"
         }
       },
       "channels": [
@@ -740,299 +880,65 @@
         "M+ Liga de Campeones"
       ],
       "event": {
-        "name": "Nigeria - Tanzania",
-        "description": "Nigeria - Tanzania el martes, 23 de diciembre de 2025 a las 18:30",
-        "startDate": "2025-12-23T17:30:00",
+        "name": "Camerún - Gabón",
+        "description": "Camerún - Gabón el miércoles, 24 de diciembre de 2025 a las 21:00",
+        "startDate": "2025-12-24T20:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
     },
     {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "18:45",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Euroliga",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Fenerbahce Istanbul",
-          "image": "https://static.futbolenlatv.com/img/20130716022542-fenerbahce-ulker.webp"
-        },
-        "visitor": {
-          "name": "Barça Basket",
-          "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
+      "sport": "futbol-americano",
       "date": {
         "hour": "19:00",
-        "day": "23/12/2025",
+        "day": "25/12/2025",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Euroliga",
+        "competition": "NFL",
         "round": "Liga Regular"
       },
       "teams": {
         "local": {
-          "name": "Zalgiris Kaunas",
-          "image": "https://static.futbolenlatv.com/img/20240318163809-zalgiris-kaunas.webp"
+          "name": "Washington Commanders",
+          "image": "https://static.futbolenlatv.com/img/20200824175131-washington-redskins.webp"
         },
         "visitor": {
-          "name": "Panathinaikos BC",
-          "image": "https://static.futbolenlatv.com/img/20130716013710-panathinaikos-bc.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes 2"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "19:15",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "AFC Champions League Elite",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Al-Ittihad Jeddah Club",
-          "image": "https://static.futbolenlatv.com/img/20220416144007-al-ittihad-club-jeddah.webp"
-        },
-        "visitor": {
-          "name": "Nasaf Qarshi",
-          "image": "https://static.futbolenlatv.com/img/20220913114154-nasaf-qarshi.webp"
-        }
-      },
-      "channels": [
-        "The AFC Hub YouTube",
-        "OneFootball"
-      ],
-      "event": {
-        "name": "Al-Ittihad Jeddah Club - Nasaf Qarshi",
-        "description": "Al-Ittihad Jeddah Club - Nasaf Qarshi el martes, 23 de diciembre de 2025 a las 19:15",
-        "startDate": "2025-12-23T18:15:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "19:30",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Euroliga",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "FC Bayern Basketball",
-          "image": "https://static.futbolenlatv.com/img/20150901052257-fc-bayern-basketball.webp"
-        },
-        "visitor": {
-          "name": "Hapoel Tel Aviv BC",
-          "image": "https://static.futbolenlatv.com/img/20200601173327-hapoel-tel-aviv-fc.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes 5"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Euroliga",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Valencia Basket",
-          "image": "https://static.futbolenlatv.com/img/20130803090213-valencia-basket.webp"
-        },
-        "visitor": {
-          "name": "Baskonia",
-          "image": "https://static.futbolenlatv.com/img/20160907115208-baskonia.webp"
-        }
-      },
-      "channels": [
-        "M+ Vamos",
-        "M+ #Vamos Bar",
-        "Movistar+ Lite"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:45",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Euroliga",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "ASVEL Lyon-Villeurbanne",
-          "image": "https://static.futbolenlatv.com/img/20191001070955-asvel-lyon-villeurbanne.webp"
-        },
-        "visitor": {
-          "name": "Anadolu Efes Istanbul",
-          "image": "https://static.futbolenlatv.com/img/20191001065117-anadolu-efes-istanbul.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes 4"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:45",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Euroliga",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Paris Basketball",
-          "image": "https://static.futbolenlatv.com/img/20220711185727-paris-basketball.webp"
-        },
-        "visitor": {
-          "name": "Crvena Zvezda MTS Belgrade",
-          "image": "https://static.futbolenlatv.com/img/20130716013658-kk-estrella-roja.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes 3"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:00",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "EFL Carabao Cup",
-        "round": "1/4 de Final"
-      },
-      "teams": {
-        "local": {
-          "name": "Arsenal",
-          "image": "https://static.futbolenlatv.com/img/20121218091224_arsenal.webp"
-        },
-        "visitor": {
-          "name": "Crystal Palace",
-          "image": "https://static.futbolenlatv.com/img/20200619100938-crystal-palace.webp"
-        }
-      },
-      "channels": [
-        "* SIN TV EN DIRECTO *"
-      ],
-      "event": {
-        "name": "Arsenal - Crystal Palace",
-        "description": "Arsenal - Crystal Palace el martes, 23 de diciembre de 2025 a las 21:00",
-        "startDate": "2025-12-23T20:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:00",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa Africana de Naciones",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Túnez",
-          "image": "https://static.futbolenlatv.com/img/20130103113729_tunez.webp"
-        },
-        "visitor": {
-          "name": "Uganda",
-          "image": "https://static.futbolenlatv.com/img/20130712060740-uganda.webp"
-        }
-      },
-      "channels": [
-        "M+ #Vamos Bar 2",
-        "M+ Liga de Campeones"
-      ],
-      "event": {
-        "name": "Túnez - Uganda",
-        "description": "Túnez - Uganda el martes, 23 de diciembre de 2025 a las 21:00",
-        "startDate": "2025-12-23T20:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "22:00",
-        "day": "23/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NCAA",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "UC Riverside Highlanders",
-          "image": "https://static.futbolenlatv.com/img/20230115131948-uc-riverside-highlanders-basketball.webp"
-        },
-        "visitor": {
-          "name": "UCLA",
-          "image": "https://static.futbolenlatv.com/img/20201209194243-ucla-basketball.webp"
+          "name": "Dallas Cowboys",
+          "image": "https://static.futbolenlatv.com/img/20130901062320-dallas-cowboys.webp"
         }
       },
       "channels": [
         "DAZN",
-        "DAZN App Gratis"
+        "Netflix"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-americano",
+      "date": {
+        "hour": "22:30",
+        "day": "25/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NFL",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Minnesota Vikings",
+          "image": "https://static.futbolenlatv.com/img/20130924045457-minnesota-vikings.webp"
+        },
+        "visitor": {
+          "name": "Detroit Lions",
+          "image": "https://static.futbolenlatv.com/img/20130918094435-detroit-lions.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "Netflix"
       ],
       "event": {},
       "eventType": "match"
@@ -1278,7 +1184,35 @@
         }
       },
       "channels": [
-        "LaLiga+ Plus"
+        "LaLiga+ Plus",
+        "CMMPlay"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "rugby",
+      "date": {
+        "hour": "18:30",
+        "day": "27/12/2025",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Gallagher Premiership",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Bath Rugby",
+          "image": "https://static.futbolenlatv.com/img/20150326060257-bath-rugby.webp"
+        },
+        "visitor": {
+          "name": "Northampton Saints",
+          "image": "https://static.futbolenlatv.com/img/20141015071730-northampton-s.webp"
+        }
+      },
+      "channels": [
+        "M+ Deportes"
       ],
       "event": {},
       "eventType": "match"
