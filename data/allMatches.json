@@ -110,16 +110,7 @@
         "competition": "LVBP",
         "round": null
       },
-      "teams": {
-        "local": {
-          "name": "Caribes de Anzoátegui",
-          "image": "https://static.futbolenlatv.com/img/20221021202950-caribes-de-anzoategui.webp"
-        },
-        "visitor": {
-          "name": "Tigres de Aragua",
-          "image": "https://static.futbolenlatv.com/img/20221021202902-tigres-de-aragua.webp"
-        }
-      },
+      "teams": null,
       "channels": [
         "BeisbolPlay"
       ],
@@ -129,152 +120,171 @@
     {
       "sport": "baloncesto",
       "date": {
+        "hour": "01:00",
+        "day": "01/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "San Antonio Spurs",
+          "image": "https://static.futbolenlatv.com/img/20191028090705-san-antonio-spurs.webp"
+        },
+        "visitor": {
+          "name": "New York Knicks",
+          "image": "https://static.futbolenlatv.com/img/20130808083641-new-york-knicks.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:00",
+        "day": "01/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Chicago Bulls",
+          "image": "https://static.futbolenlatv.com/img/20130808083209-chicago-bulls.webp"
+        },
+        "visitor": {
+          "name": "New Orleans Pelicans",
+          "image": "https://static.futbolenlatv.com/img/20141024125153-new-orleans-pelicans.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:30",
+        "day": "01/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Toronto Raptors",
+          "image": "https://static.futbolenlatv.com/img/20201220190859-toronto-raptors.webp"
+        },
+        "visitor": {
+          "name": "Denver Nuggets",
+          "image": "https://static.futbolenlatv.com/img/20191028090619-denver-nuggets.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
         "hour": "02:00",
-        "day": "31/12/2025",
+        "day": "01/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Memphis Grizzlies",
-          "image": "https://static.futbolenlatv.com/img/20191028090731-memphis-grizzlies.webp"
-        },
-        "visitor": {
-          "name": "Philadelphia 76ers",
-          "image": "https://static.futbolenlatv.com/img/20191028090432-philadelphia-76ers.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "NBA League Pass",
-        "DAZN Baloncesto"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "03:00",
-        "day": "31/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Utah Jazz",
-          "image": "https://static.futbolenlatv.com/img/20191028090654-utah-jazz.webp"
-        },
-        "visitor": {
-          "name": "Boston Celtics",
-          "image": "https://static.futbolenlatv.com/img/20130808083552-boston-celtics.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "04:30",
-        "day": "31/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Los Angeles Lakers",
-          "image": "https://static.futbolenlatv.com/img/20130808083216-la-lakers.webp"
-        },
-        "visitor": {
-          "name": "Detroit Pistons",
-          "image": "https://static.futbolenlatv.com/img/20191028090514-detroit-pistons.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "05:00",
-        "day": "31/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Los Angeles Clippers",
-          "image": "https://static.futbolenlatv.com/img/20191028090717-los-angeles-clippers.webp"
-        },
-        "visitor": {
-          "name": "Sacramento Kings",
-          "image": "https://static.futbolenlatv.com/img/20201220190924-sacramento-kings.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "NBA League Pass",
-        "DAZN Baloncesto 2"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "06:15",
-        "day": "31/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "A-League Women",
+        "competition": "NCAA",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Central Coast Mariners Women",
-          "image": "https://static.futbolenlatv.com/img/20140410105101-central-coast-mariners.webp"
+          "name": "St. John's",
+          "image": "https://static.futbolenlatv.com/img/20210114221404-st-johns-basketball.webp"
         },
         "visitor": {
-          "name": "Brisbane Roar Women",
-          "image": "https://static.futbolenlatv.com/img/20150224110651-brisbane-roar.webp"
+          "name": "Georgetown",
+          "image": "https://static.futbolenlatv.com/img/20210224190414-georgetown-university-basketball.webp"
         }
       },
       "channels": [
-        "A-Leagues YouTube"
+        "DAZN",
+        "DAZN App Gratis"
       ],
-      "event": {
-        "name": "Central Coast Mariners Women - Brisbane Roar Women",
-        "description": "Central Coast Mariners Women - Brisbane Roar Women el miércoles, 31 de diciembre de 2025 a las 6:15",
-        "startDate": "2025-12-31T05:15:00",
-        "duration": "T1H45M"
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "02:00",
+        "day": "01/01/2026",
+        "zone": "Europe/Madrid"
       },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Milwaukee Bucks",
+          "image": "https://static.futbolenlatv.com/img/20191028090415-milwaukee-bucks.webp"
+        },
+        "visitor": {
+          "name": "Washington Wizards",
+          "image": "https://static.futbolenlatv.com/img/20191028090528-washington-wizards.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "02:00",
+        "day": "01/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Oklahoma C. Thunder",
+          "image": "https://static.futbolenlatv.com/img/20130808083758-oc-thunder.webp"
+        },
+        "visitor": {
+          "name": "Portland Trail Blazers",
+          "image": "https://static.futbolenlatv.com/img/20191028090608-portland-trail-blazers.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
       "eventType": "match"
     },
     {
       "sport": "futbol",
       "date": {
-        "hour": "09:00",
-        "day": "31/12/2025",
+        "hour": "05:00",
+        "day": "01/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -283,21 +293,21 @@
       },
       "teams": {
         "local": {
-          "name": "Central Coast Mariners",
-          "image": "https://static.futbolenlatv.com/img/20140410105101-central-coast-mariners.webp"
+          "name": "Auckland FC",
+          "image": "https://static.futbolenlatv.com/img/20240807092831-auckland-fc.webp"
         },
         "visitor": {
-          "name": "Brisbane Roar",
-          "image": "https://static.futbolenlatv.com/img/20150224110651-brisbane-roar.webp"
+          "name": "Newcastle Jets",
+          "image": "https://static.futbolenlatv.com/img/20151222015422-newcastle-jets.webp"
         }
       },
       "channels": [
         "A-Leagues YouTube"
       ],
       "event": {
-        "name": "Central Coast Mariners - Brisbane Roar",
-        "description": "Central Coast Mariners - Brisbane Roar el miércoles, 31 de diciembre de 2025 a las 9:00",
-        "startDate": "2025-12-31T08:00:00",
+        "name": "Auckland FC - Newcastle Jets",
+        "description": "Auckland FC - Newcastle Jets el jueves, 1 de enero de 2026 a las 5:00",
+        "startDate": "2026-01-01T04:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -305,35 +315,31 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "16:25",
-        "day": "31/12/2025",
+        "hour": "09:00",
+        "day": "01/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Saudi Pro League",
+        "competition": "A-League",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "NEOM SC",
-          "image": "https://static.futbolenlatv.com/img/20240821215115-neom-sc.webp"
+          "name": "Western Sydney",
+          "image": "https://static.futbolenlatv.com/img/20140326100732-western-sydney.webp"
         },
         "visitor": {
-          "name": "Al-Ittihad Jeddah Club",
-          "image": "https://static.futbolenlatv.com/img/20220416144007-al-ittihad-club-jeddah.webp"
+          "name": "Macarthur FC",
+          "image": "https://static.futbolenlatv.com/img/20201211182311-macarthur-fc.webp"
         }
       },
       "channels": [
-        "OneFootball",
-        "M+ Vamos",
-        "M+ #Vamos Bar",
-        "Movistar+ Lite",
-        "M+ Liga de Campeones 3"
+        "A-Leagues YouTube"
       ],
       "event": {
-        "name": "NEOM SC - Al-Ittihad Jeddah Club",
-        "description": "NEOM SC - Al-Ittihad Jeddah Club el miércoles, 31 de diciembre de 2025 a las 16:25",
-        "startDate": "2025-12-31T15:25:00",
+        "name": "Western Sydney - Macarthur FC",
+        "description": "Western Sydney - Macarthur FC el jueves, 1 de enero de 2026 a las 9:00",
+        "startDate": "2026-01-01T08:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -342,30 +348,30 @@
       "sport": "futbol",
       "date": {
         "hour": "17:00",
-        "day": "31/12/2025",
+        "day": "01/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Copa Africana de Naciones",
-        "round": "Fase de grupos"
+        "competition": "Bahrain Premier League",
+        "round": null
       },
       "teams": {
         "local": {
-          "name": "Sudán",
-          "image": "https://static.futbolenlatv.com/img/20130728022852-sudan.webp"
+          "name": "Al Hidd",
+          "image": "https://static.futbolenlatv.com/img/20140129102040-al-hidd.webp"
         },
         "visitor": {
-          "name": "Burkina Faso",
-          "image": "https://static.futbolenlatv.com/img/20130103113933_burkina-faso.webp"
+          "name": "Al-Ahli Club",
+          "image": "https://static.futbolenlatv.com/img/20231113095754-al-ahli-club-manama.webp"
         }
       },
       "channels": [
-        "M+ Liga de Campeones 2"
+        "FANSEAT"
       ],
       "event": {
-        "name": "Sudán - Burkina Faso",
-        "description": "Sudán - Burkina Faso el miércoles, 31 de diciembre de 2025 a las 17:00",
-        "startDate": "2025-12-31T16:00:00",
+        "name": "Al Hidd - Al-Ahli Club",
+        "description": "Al Hidd - Al-Ahli Club el jueves, 1 de enero de 2026 a las 17:00",
+        "startDate": "2026-01-01T16:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -374,264 +380,32 @@
       "sport": "futbol",
       "date": {
         "hour": "17:00",
-        "day": "31/12/2025",
+        "day": "01/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Copa Africana de Naciones",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Guinea Ecuatorial",
-          "image": "https://static.futbolenlatv.com/img/20131110083041-guinea-ecuatorial.webp"
-        },
-        "visitor": {
-          "name": "Argelia",
-          "image": "https://static.futbolenlatv.com/img/20130103113849_argelia.webp"
-        }
-      },
-      "channels": [
-        "Movistar Plus+ : VER PARTIDO",
-        "M+ Liga de Campeones"
-      ],
-      "event": {
-        "name": "Guinea Ecuatorial - Argelia",
-        "description": "Guinea Ecuatorial - Argelia el miércoles, 31 de diciembre de 2025 a las 17:00",
-        "startDate": "2025-12-31T16:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "18:00",
-        "day": "31/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NCAA Women",
+        "competition": "Bahrain Premier League",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Ohio State",
-          "image": "https://static.futbolenlatv.com/img/20210120200609-ohio-state-basketball.webp"
+          "name": "Al-Budaiya",
+          "image": "https://static.futbolenlatv.com/img/20250906014843-al-budaiya.webp"
         },
         "visitor": {
-          "name": "Purdue",
-          "image": "https://static.futbolenlatv.com/img/20210120200619-purdue-basketball.webp"
+          "name": "A'Ali SC",
+          "image": "https://static.futbolenlatv.com/img/20240923101718-aali-sc.webp"
         }
       },
       "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "19:00",
-        "day": "31/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Charlotte Hornets",
-          "image": "https://static.futbolenlatv.com/img/20141024124231-charlotte-hornets.webp"
-        },
-        "visitor": {
-          "name": "Golden State Warriors",
-          "image": "https://static.futbolenlatv.com/img/20130808083832-gs-warriors.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "31/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NCAA Women",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "UCLA",
-          "image": "https://static.futbolenlatv.com/img/20201209194243-ucla-basketball.webp"
-        },
-        "visitor": {
-          "name": "Penn State",
-          "image": "https://static.futbolenlatv.com/img/20210120200728-penn-state-basketball.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:00",
-        "day": "31/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa Africana de Naciones",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Gabón",
-          "image": "https://static.futbolenlatv.com/img/20130403093849_gabon.webp"
-        },
-        "visitor": {
-          "name": "Costa de Marfil",
-          "image": "https://static.futbolenlatv.com/img/20130103113744_cosa-de-marfil.webp"
-        }
-      },
-      "channels": [
-        "M+ Liga de Campeones"
+        "FANSEAT"
       ],
       "event": {
-        "name": "Gabón - Costa de Marfil",
-        "description": "Gabón - Costa de Marfil el miércoles, 31 de diciembre de 2025 a las 20:00",
-        "startDate": "2025-12-31T19:00:00",
+        "name": "Al-Budaiya - A'Ali SC",
+        "description": "Al-Budaiya - A'Ali SC el jueves, 1 de enero de 2026 a las 17:00",
+        "startDate": "2026-01-01T16:00:00",
         "duration": "T1H45M"
       },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:00",
-        "day": "31/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa Africana de Naciones",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Mozambique",
-          "image": "https://static.futbolenlatv.com/img/20130712100714-mozambique.webp"
-        },
-        "visitor": {
-          "name": "Camerún",
-          "image": "https://static.futbolenlatv.com/img/20130528114257-Camerun.webp"
-        }
-      },
-      "channels": [
-        "M+ Vamos",
-        "M+ #Vamos Bar",
-        "Movistar+ Lite",
-        "M+ Liga de Campeones 2"
-      ],
-      "event": {
-        "name": "Mozambique - Camerún",
-        "description": "Mozambique - Camerún el miércoles, 31 de diciembre de 2025 a las 20:00",
-        "startDate": "2025-12-31T19:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "21:00",
-        "day": "31/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Indiana Pacers",
-          "image": "https://static.futbolenlatv.com/img/20191028090446-indiana-pacers.webp"
-        },
-        "visitor": {
-          "name": "Orlando Magic",
-          "image": "https://static.futbolenlatv.com/img/20191028090502-orlando-magic.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "21:00",
-        "day": "31/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Atlanta Hawks",
-          "image": "https://static.futbolenlatv.com/img/20191028090539-atlanta-hawks.webp"
-        },
-        "visitor": {
-          "name": "Minnesota Timberwolves",
-          "image": "https://static.futbolenlatv.com/img/20201220190912-minnesota-timberwolves.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "21:30",
-        "day": "31/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Cleveland Cavaliers",
-          "image": "https://static.futbolenlatv.com/img/20191028090553-cleveland-cavaliers.webp"
-        },
-        "visitor": {
-          "name": "Phoenix Suns",
-          "image": "https://static.futbolenlatv.com/img/20130808083815-phoenix-suns.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
       "eventType": "match"
     },
     {
@@ -665,6 +439,198 @@
       "eventType": "match"
     },
     {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:00",
+        "day": "01/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NCAA Women",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Michigan State",
+          "image": "https://static.futbolenlatv.com/img/20210204211842-michigan-state-basketball.webp"
+        },
+        "visitor": {
+          "name": "Indiana Hoosiers",
+          "image": "https://static.futbolenlatv.com/img/20210120200705-indiana-hoosiers-basketball.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:30",
+        "day": "01/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Premier League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Liverpool",
+          "image": "https://static.futbolenlatv.com/img/20240923180620-liverpool.webp"
+        },
+        "visitor": {
+          "name": "Leeds Utd",
+          "image": "https://static.futbolenlatv.com/img/20130207050812_leeds-united.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN 1",
+        "DAZN 1 Bar"
+      ],
+      "event": {
+        "name": "Liverpool - Leeds Utd",
+        "description": "Liverpool - Leeds Utd el jueves, 1 de enero de 2026 a las 18:30",
+        "startDate": "2026-01-01T17:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:30",
+        "day": "01/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Premier League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Crystal Palace",
+          "image": "https://static.futbolenlatv.com/img/20200619100938-crystal-palace.webp"
+        },
+        "visitor": {
+          "name": "Fulham",
+          "image": "https://static.futbolenlatv.com/img/20121218101246_fulham.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN 2",
+        "DAZN 2 Bar"
+      ],
+      "event": {
+        "name": "Crystal Palace - Fulham",
+        "description": "Crystal Palace - Fulham el jueves, 1 de enero de 2026 a las 18:30",
+        "startDate": "2026-01-01T17:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:00",
+        "day": "01/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NCAA Women",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Nebraska",
+          "image": "https://static.futbolenlatv.com/img/20210224190402-nebraska-basketball.webp"
+        },
+        "visitor": {
+          "name": "Iowa",
+          "image": "https://static.futbolenlatv.com/img/20210120200715-iowa-basketball.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "01/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Premier League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Sunderland",
+          "image": "https://static.futbolenlatv.com/img/20121218101008_sunderland.webp"
+        },
+        "visitor": {
+          "name": "Manchester City",
+          "image": "https://static.futbolenlatv.com/img/20160723124026-manchester-city.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN 1",
+        "DAZN 1 Bar"
+      ],
+      "event": {
+        "name": "Sunderland - Manchester City",
+        "description": "Sunderland - Manchester City el jueves, 1 de enero de 2026 a las 21:00",
+        "startDate": "2026-01-01T20:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "01/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Premier League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Brentford",
+          "image": "https://static.futbolenlatv.com/img/20171127121055-brentford.webp"
+        },
+        "visitor": {
+          "name": "Tottenham",
+          "image": "https://static.futbolenlatv.com/img/20200413194326-tottenham.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN 2",
+        "DAZN 2 Bar"
+      ],
+      "event": {
+        "name": "Brentford - Tottenham",
+        "description": "Brentford - Tottenham el jueves, 1 de enero de 2026 a las 21:00",
+        "startDate": "2026-01-01T20:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
       "sport": "futbol-americano",
       "date": {
         "hour": "22:00",
@@ -687,6 +653,34 @@
       },
       "channels": [
         "M+ Deportes"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "22:00",
+        "day": "01/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NCAA Women",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Maryland",
+          "image": "https://static.futbolenlatv.com/img/20210120200514-university-of-maryland-basketball.webp"
+        },
+        "visitor": {
+          "name": "Illinois",
+          "image": "https://static.futbolenlatv.com/img/20201203212358-illinois-basketball.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
       ],
       "event": {},
       "eventType": "match"
