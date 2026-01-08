@@ -100,24 +100,6 @@
       "eventType": "tournament"
     },
     {
-      "sport": "beisbol",
-      "date": {
-        "hour": "00:00",
-        "day": "31/12/2025",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LVBP",
-        "round": null
-      },
-      "teams": null,
-      "channels": [
-        "BeisbolPlay"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
       "sport": "boxeo",
       "date": {
         "hour": "01:30",
@@ -137,47 +119,55 @@
       "eventType": "match"
     },
     {
-      "sport": "tenis",
+      "sport": "beisbol",
       "date": {
         "hour": "00:00",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "WTA Torneo de Auckland",
-        "round": "2ª Ronda"
-      },
-      "teams": null,
-      "channels": [
-        "WTA TV"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "00:30",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "United Cup",
-        "round": "Fase de grupos"
+        "competition": "LVBP",
+        "round": null
       },
       "teams": {
         "local": {
-          "name": "H. Hurkacz",
-          "image": "https://static.futbolenlatv.com/img/20130727123454-polonia.webp"
+          "name": "Bravos de Margarita",
+          "image": "https://static.futbolenlatv.com/img/20221021203001-bravos-de-margarita.webp"
         },
         "visitor": {
-          "name": "T. Griekspoor",
-          "image": "https://static.futbolenlatv.com/img/20130727123553-Holanda.webp"
+          "name": "Águilas del Zulia",
+          "image": "https://static.futbolenlatv.com/img/20221021203021-aguilas-del-zulia.webp"
         }
       },
       "channels": [
-        "ATP Tennis TV",
-        "Tennis Channel - Orange TV"
+        "BeisbolPlay"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "beisbol",
+      "date": {
+        "hour": "00:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LVBP",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Navegantes del Magallanes",
+          "image": "https://static.futbolenlatv.com/img/20221021202928-navegantes-del-magallanes.webp"
+        },
+        "visitor": {
+          "name": "Caribes de Anzoátegui",
+          "image": "https://static.futbolenlatv.com/img/20221021202950-caribes-de-anzoategui.webp"
+        }
+      },
+      "channels": [
+        "BeisbolPlay"
       ],
       "event": {},
       "eventType": "match"
@@ -185,8 +175,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "01:00",
-        "day": "07/01/2026",
+        "hour": "00:30",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -195,12 +185,12 @@
       },
       "teams": {
         "local": {
-          "name": "Michigan",
-          "image": "https://static.futbolenlatv.com/img/20180324085157-michigan.webp"
+          "name": "Indiana Hoosiers",
+          "image": "https://static.futbolenlatv.com/img/20210120200705-indiana-hoosiers-basketball.webp"
         },
         "visitor": {
-          "name": "Penn State",
-          "image": "https://static.futbolenlatv.com/img/20210120200728-penn-state-basketball.webp"
+          "name": "Maryland",
+          "image": "https://static.futbolenlatv.com/img/20210120200514-university-of-maryland-basketball.webp"
         }
       },
       "channels": [
@@ -211,10 +201,37 @@
       "eventType": "match"
     },
     {
+      "sport": "tenis",
+      "date": {
+        "hour": "01:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WTA Torneo de Auckland",
+        "round": "2ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "P. Marcinko",
+          "image": "https://static.futbolenlatv.com/img/20130317094139_croacia.webp"
+        },
+        "visitor": {
+          "name": "A. Eala",
+          "image": "https://static.futbolenlatv.com/img/20210804203405-alexandra-eala.webp"
+        }
+      },
+      "channels": [
+        "WTA TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
       "sport": "baloncesto",
       "date": {
         "hour": "01:00",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -223,12 +240,12 @@
       },
       "teams": {
         "local": {
-          "name": "Indiana Pacers",
-          "image": "https://static.futbolenlatv.com/img/20191028090446-indiana-pacers.webp"
+          "name": "Philadelphia 76ers",
+          "image": "https://static.futbolenlatv.com/img/20191028090432-philadelphia-76ers.webp"
         },
         "visitor": {
-          "name": "Cleveland Cavaliers",
-          "image": "https://static.futbolenlatv.com/img/20191028090553-cleveland-cavaliers.webp"
+          "name": "Washington Wizards",
+          "image": "https://static.futbolenlatv.com/img/20191028090528-washington-wizards.webp"
         }
       },
       "channels": [
@@ -241,7 +258,7 @@
       "sport": "baloncesto",
       "date": {
         "hour": "01:00",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -250,8 +267,91 @@
       },
       "teams": {
         "local": {
-          "name": "Washington Wizards",
-          "image": "https://static.futbolenlatv.com/img/20191028090528-washington-wizards.webp"
+          "name": "Boston Celtics",
+          "image": "https://static.futbolenlatv.com/img/20130808083552-boston-celtics.webp"
+        },
+        "visitor": {
+          "name": "Denver Nuggets",
+          "image": "https://static.futbolenlatv.com/img/20191028090619-denver-nuggets.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass",
+        "DAZN",
+        "DAZN Baloncesto"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Detroit Pistons",
+          "image": "https://static.futbolenlatv.com/img/20191028090514-detroit-pistons.webp"
+        },
+        "visitor": {
+          "name": "Chicago Bulls",
+          "image": "https://static.futbolenlatv.com/img/20130808083209-chicago-bulls.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Charlotte Hornets",
+          "image": "https://static.futbolenlatv.com/img/20141024124231-charlotte-hornets.webp"
+        },
+        "visitor": {
+          "name": "Toronto Raptors",
+          "image": "https://static.futbolenlatv.com/img/20201220190859-toronto-raptors.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Brooklyn Nets",
+          "image": "https://static.futbolenlatv.com/img/20130808083530-brooklyn-nets.webp"
         },
         "visitor": {
           "name": "Orlando Magic",
@@ -268,25 +368,52 @@
       "sport": "baloncesto",
       "date": {
         "hour": "01:30",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "LNB",
-        "round": null
+        "competition": "NBA",
+        "round": "Liga Regular"
       },
       "teams": {
         "local": {
-          "name": "Regatas Corrientes",
-          "image": "https://static.futbolenlatv.com/img/20250311173216-regatas-corrientes.webp"
+          "name": "New York Knicks",
+          "image": "https://static.futbolenlatv.com/img/20130808083641-new-york-knicks.webp"
         },
         "visitor": {
-          "name": "Oberá TC",
-          "image": "https://static.futbolenlatv.com/img/20250311173136-obera-tenis-club.webp"
+          "name": "Los Angeles Clippers",
+          "image": "https://static.futbolenlatv.com/img/20191028090717-los-angeles-clippers.webp"
         }
       },
       "channels": [
-        "LaLiga+ Plus"
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Atlanta Hawks",
+          "image": "https://static.futbolenlatv.com/img/20191028090539-atlanta-hawks.webp"
+        },
+        "visitor": {
+          "name": "New Orleans Pelicans",
+          "image": "https://static.futbolenlatv.com/img/20141024125153-new-orleans-pelicans.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
       ],
       "event": {},
       "eventType": "match"
@@ -295,7 +422,7 @@
       "sport": "tenis",
       "date": {
         "hour": "02:00",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -304,11 +431,11 @@
       },
       "teams": {
         "local": {
-          "name": "A. Michelsen",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+          "name": "C. Norrie",
+          "image": "https://static.futbolenlatv.com/img/20140820091418-Gran-Bretana.webp"
         },
         "visitor": {
-          "name": "L. Tien",
+          "name": "A. Kovacevic",
           "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
         }
       },
@@ -322,17 +449,453 @@
       "sport": "tenis",
       "date": {
         "hour": "02:00",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "WTA Torneo de Brisbane",
+        "round": "3ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "A. Sabalenka",
+          "image": "https://static.futbolenlatv.com/img/20130727123407-Bielorrusia.webp"
+        },
+        "visitor": {
+          "name": "S. Cirstea",
+          "image": "https://static.futbolenlatv.com/img/20130727123316-Rumania.webp"
+        }
+      },
+      "channels": [
+        "WTA TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "02:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Memphis Grizzlies",
+          "image": "https://static.futbolenlatv.com/img/20191028090731-memphis-grizzlies.webp"
+        },
+        "visitor": {
+          "name": "Phoenix Suns",
+          "image": "https://static.futbolenlatv.com/img/20130808083815-phoenix-suns.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "02:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Oklahoma C. Thunder",
+          "image": "https://static.futbolenlatv.com/img/20130808083758-oc-thunder.webp"
+        },
+        "visitor": {
+          "name": "Utah Jazz",
+          "image": "https://static.futbolenlatv.com/img/20191028090654-utah-jazz.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "02:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WTA Torneo de Auckland",
         "round": "2ª Ronda"
       },
       "teams": {
         "local": {
-          "name": "A. Kalinskaya",
-          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
+          "name": "M. Linette",
+          "image": "https://static.futbolenlatv.com/img/20140407095238-Polonia.webp"
+        },
+        "visitor": {
+          "name": "E. Cocciaretto",
+          "image": "https://static.futbolenlatv.com/img/20130727123437-Italia.webp"
+        }
+      },
+      "channels": [
+        "WTA TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "02:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NCAA",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Washington Athletics",
+          "image": "https://static.futbolenlatv.com/img/20210114221051-washington-athletics-basketball.webp"
+        },
+        "visitor": {
+          "name": "Purdue",
+          "image": "https://static.futbolenlatv.com/img/20210120200619-purdue-basketball.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "03:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NCAA",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Kansas State",
+          "image": "https://static.futbolenlatv.com/img/20180324085028-kansas-st.webp"
+        },
+        "visitor": {
+          "name": "Arizona",
+          "image": "https://static.futbolenlatv.com/img/20210120201542-university-pf-arizona-basketball.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "03:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Brisbane",
+        "round": "2ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "Q. Halys",
+          "image": "https://static.futbolenlatv.com/img/20130727123333-Francia.webp"
+        },
+        "visitor": {
+          "name": "B. Nakashima",
+          "image": "https://static.futbolenlatv.com/img/20200528104619-motoamerica-superbike.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "03:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WTA Torneo de Brisbane",
+        "round": "3ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "E. Rybakina",
+          "image": "https://static.futbolenlatv.com/img/20130727124441-Kazajistan.webp"
+        },
+        "visitor": {
+          "name": "P. Badosa",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+        }
+      },
+      "channels": [
+        "WTA TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "03:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "San Antonio Spurs",
+          "image": "https://static.futbolenlatv.com/img/20191028090705-san-antonio-spurs.webp"
+        },
+        "visitor": {
+          "name": "Los Angeles Lakers",
+          "image": "https://static.futbolenlatv.com/img/20130808083216-la-lakers.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "NBA League Pass",
+        "DAZN Baloncesto 2"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "04:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Portland Trail Blazers",
+          "image": "https://static.futbolenlatv.com/img/20191028090608-portland-trail-blazers.webp"
+        },
+        "visitor": {
+          "name": "Houston Rockets",
+          "image": "https://static.futbolenlatv.com/img/20191028090908-houston-rockets.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "04:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Golden State Warriors",
+          "image": "https://static.futbolenlatv.com/img/20130808083832-gs-warriors.webp"
+        },
+        "visitor": {
+          "name": "Milwaukee Bucks",
+          "image": "https://static.futbolenlatv.com/img/20191028090415-milwaukee-bucks.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "05:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Brisbane",
+        "round": "2ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "R. Hijikata",
+          "image": "https://static.futbolenlatv.com/img/20130501101148_australia.webp"
+        },
+        "visitor": {
+          "name": "G. Mpetshi Perricard",
+          "image": "https://static.futbolenlatv.com/img/20130124053558_francia.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "05:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WTA Torneo de Auckland",
+        "round": "2ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "E. Seidel",
+          "image": "https://static.futbolenlatv.com/img/20130727123343-Alemania.webp"
+        },
+        "visitor": {
+          "name": "S. Kartal",
+          "image": "https://static.futbolenlatv.com/img/20130625051918-reino-unido.webp"
+        }
+      },
+      "channels": [
+        "WTA TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "05:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WTA Torneo de Brisbane",
+        "round": "3ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "D. Shnaider",
+          "image": "https://static.futbolenlatv.com/img/20250902200151-diana-shnaider.webp"
+        },
+        "visitor": {
+          "name": "M. Keys",
+          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+        }
+      },
+      "channels": [
+        "WTA TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "06:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WTA Torneo de Auckland",
+        "round": "2ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "E. Svitolina",
+          "image": "https://static.futbolenlatv.com/img/20130727124612-Ucrania.webp"
+        },
+        "visitor": {
+          "name": "K. Boulter",
+          "image": "https://static.futbolenlatv.com/img/20140820091418-Gran-Bretana.webp"
+        }
+      },
+      "channels": [
+        "WTA TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "06:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo de Hong Kong",
+        "round": "2ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "L. Sonego",
+          "image": "https://static.futbolenlatv.com/img/20130727123437-Italia.webp"
+        },
+        "visitor": {
+          "name": "J. Shang",
+          "image": "https://static.futbolenlatv.com/img/20130221121827_china.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "07:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WTA Torneo de Brisbane",
+        "round": "3ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "D. Yastremska",
+          "image": "https://static.futbolenlatv.com/img/20130727124612-Ucrania.webp"
         },
         "visitor": {
           "name": "J. Pegula",
@@ -348,209 +911,50 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "02:00",
-        "day": "07/01/2026",
+        "hour": "07:30",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "United Cup",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "I. Swiatek",
-          "image": "https://static.futbolenlatv.com/img/20130727123454-polonia.webp"
-        },
-        "visitor": {
-          "name": "S. Lamens",
-          "image": "https://static.futbolenlatv.com/img/20200812224821-eredivisie-comeback.webp"
-        }
-      },
-      "channels": [
-        "ATP Tennis TV",
-        "Tennis Channel - Orange TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "02:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Minnesota Timberwolves",
-          "image": "https://static.futbolenlatv.com/img/20201220190912-minnesota-timberwolves.webp"
-        },
-        "visitor": {
-          "name": "Miami Heat",
-          "image": "https://static.futbolenlatv.com/img/20130614063349-Miami-Heat.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "02:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "New Orleans Pelicans",
-          "image": "https://static.futbolenlatv.com/img/20141024125153-new-orleans-pelicans.webp"
-        },
-        "visitor": {
-          "name": "Los Angeles Lakers",
-          "image": "https://static.futbolenlatv.com/img/20130808083216-la-lakers.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass",
-        "DAZN",
-        "DAZN Baloncesto"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "02:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Memphis Grizzlies",
-          "image": "https://static.futbolenlatv.com/img/20191028090731-memphis-grizzlies.webp"
-        },
-        "visitor": {
-          "name": "San Antonio Spurs",
-          "image": "https://static.futbolenlatv.com/img/20191028090705-san-antonio-spurs.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass",
-        "DAZN",
-        "DAZN Baloncesto 2"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "03:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": null,
         "round": "1/4 de Final"
       },
-      "teams": null,
+      "teams": {
+        "local": {
+          "name": "Z. Bergs",
+          "image": "https://static.futbolenlatv.com/img/20201019211102-zizou-bergs.webp"
+        },
+        "visitor": {
+          "name": "J. Mensik",
+          "image": "https://static.futbolenlatv.com/img/20130727123944-Republica-Checa.webp"
+        }
+      },
       "channels": [
         "ATP Tennis TV",
         "Tennis Channel - Orange TV"
       ],
       "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "03:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NCAA",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Texas Tech",
-          "image": "https://static.futbolenlatv.com/img/20180325054430-texas-tech.webp"
-        },
-        "visitor": {
-          "name": "Houston Cougars",
-          "image": "https://static.futbolenlatv.com/img/20201203212422-houston-cougars-basketball.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN App Gratis"
-      ],
-      "event": {},
       "eventType": "match"
     },
     {
       "sport": "tenis",
       "date": {
-        "hour": "03:30",
-        "day": "07/01/2026",
+        "hour": "08:00",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "WTA Torneo de Brisbane",
+        "competition": "Torneo de Hong Kong",
         "round": "2ª Ronda"
       },
       "teams": {
         "local": {
-          "name": "E. Jones",
-          "image": "https://static.futbolenlatv.com/img/20130727123414-Australia.webp"
-        },
-        "visitor": {
-          "name": "L. Samsonova",
-          "image": "https://static.futbolenlatv.com/img/20250820063441-liudmila-samsonova.webp"
-        }
-      },
-      "channels": [
-        "WTA TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "04:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Torneo de Brisbane",
-        "round": "2ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "D. Medvedev",
-          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
-        },
-        "visitor": {
-          "name": "F. Tiafoe",
+          "name": "M. Mmoh",
           "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+        },
+        "visitor": {
+          "name": "K. Khachanov",
+          "image": "https://static.futbolenlatv.com/img/20250820063840-karen-khachanov.webp"
         }
       },
       "channels": [
@@ -562,46 +966,18 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "04:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "United Cup",
-        "round": "Fase de grupos"
-      },
-      "teams": {
-        "local": {
-          "name": "Polonia",
-          "image": "https://static.futbolenlatv.com/img/20130528084142-Polonia.webp"
-        },
-        "visitor": {
-          "name": "Holanda",
-          "image": "https://static.futbolenlatv.com/img/20130130075711_holanda.webp"
-        }
-      },
-      "channels": [
-        "ATP Tennis TV",
-        "Tennis Channel - Orange TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "05:00",
-        "day": "07/01/2026",
+        "hour": "08:30",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "WTA Torneo de Brisbane",
-        "round": "2ª Ronda"
+        "round": "3ª Ronda"
       },
       "teams": {
         "local": {
-          "name": "M. Frech",
-          "image": "https://static.futbolenlatv.com/img/20140407095238-Polonia.webp"
+          "name": "M. Andreeva",
+          "image": "https://static.futbolenlatv.com/img/20250902200003-mirra-andreeva.webp"
         },
         "visitor": {
           "name": "L. Noskova",
@@ -615,127 +991,29 @@
       "eventType": "match"
     },
     {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "05:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Sacramento Kings",
-          "image": "https://static.futbolenlatv.com/img/20201220190924-sacramento-kings.webp"
-        },
-        "visitor": {
-          "name": "Dallas Mavericks",
-          "image": "https://static.futbolenlatv.com/img/20130808083728-dallas-mavericks.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "05:30",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Torneo de Brisbane",
-        "round": "2ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "J. Lehecka",
-          "image": "https://static.futbolenlatv.com/img/20220117155440-jiri-lehecka.webp"
-        },
-        "visitor": {
-          "name": "S. Korda",
-          "image": "https://static.futbolenlatv.com/img/20200528104619-motoamerica-superbike.webp"
-        }
-      },
-      "channels": [
-        "ATP Tennis TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "06:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Torneo de Hong Kong",
-        "round": "2ª Ronda"
-      },
-      "teams": null,
-      "channels": [
-        "ATP Tennis TV"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "06:30",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "WTA Torneo de Brisbane",
-        "round": "2ª Ronda"
-      },
-      "teams": {
-        "local": {
-          "name": "M. Andreeva",
-          "image": "https://static.futbolenlatv.com/img/20250902200003-mirra-andreeva.webp"
-        },
-        "visitor": {
-          "name": "O. Gadecki",
-          "image": "https://static.futbolenlatv.com/img/20200728161741-national-rugby-league.webp"
-        }
-      },
-      "channels": [
-        "WTA TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
       "sport": "tenis",
       "date": {
         "hour": "09:00",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Torneo de Brisbane",
-        "round": "2ª Ronda"
+        "competition": "United Cup",
+        "round": "1/4 de Final"
       },
       "teams": {
         "local": {
-          "name": "K. Majchrzak",
-          "image": "https://static.futbolenlatv.com/img/20130727123454-polonia.webp"
+          "name": "E. Mertens",
+          "image": "https://static.futbolenlatv.com/img/20130727123309-Belgica.webp"
         },
         "visitor": {
-          "name": "R. Opelka",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+          "name": "B. Krejcikova",
+          "image": "https://static.futbolenlatv.com/img/20130727123944-Republica-Checa.webp"
         }
       },
       "channels": [
-        "ATP Tennis TV"
+        "ATP Tennis TV",
+        "Tennis Channel - Orange TV"
       ],
       "event": {},
       "eventType": "match"
@@ -744,17 +1022,44 @@
       "sport": "tenis",
       "date": {
         "hour": "09:30",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "WTA Torneo de Brisbane",
+        "competition": "Torneo de Brisbane",
         "round": "2ª Ronda"
       },
       "teams": {
         "local": {
-          "name": "K. Birrell",
-          "image": "https://static.futbolenlatv.com/img/20130727123414-Australia.webp"
+          "name": "R. Collignon",
+          "image": "https://static.futbolenlatv.com/img/20130727123309-Belgica.webp"
+        },
+        "visitor": {
+          "name": "G. Dimitrov",
+          "image": "https://static.futbolenlatv.com/img/20130727124343-Bulgaria.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "11:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WTA Torneo de Brisbane",
+        "round": "3ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "M. Kostyuk",
+          "image": "https://static.futbolenlatv.com/img/20130727124612-Ucrania.webp"
         },
         "visitor": {
           "name": "A. Anisimova",
@@ -770,220 +1075,54 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "10:00",
-        "day": "07/01/2026",
+        "hour": "11:00",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": null,
+        "competition": "United Cup",
         "round": "1/4 de Final"
       },
-      "teams": null,
+      "teams": {
+        "local": {
+          "name": "Bélgica",
+          "image": "https://static.futbolenlatv.com/img/20130121023530_belgica.webp"
+        },
+        "visitor": {
+          "name": "República Checa",
+          "image": "https://static.futbolenlatv.com/img/20130410124454_republica-checa.webp"
+        }
+      },
       "channels": [
         "ATP Tennis TV",
         "Tennis Channel - Orange TV"
       ],
       "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "12:30",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "AFC U23 Asian Cup",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Japón",
-          "image": "https://static.futbolenlatv.com/img/20130208071559_japon.webp"
-        },
-        "visitor": {
-          "name": "Siria",
-          "image": "https://static.futbolenlatv.com/img/20130807113238-siria.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "Japón - Siria",
-        "description": "Japón - Siria el miércoles, 7 de enero de 2026 a las 12:30",
-        "startDate": "2026-01-07T11:30:00",
-        "duration": "T1H45M"
-      },
       "eventType": "match"
     },
     {
-      "sport": "futbol",
+      "sport": "tenis",
       "date": {
-        "hour": "12:30",
-        "day": "07/01/2026",
+        "hour": "11:00",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "AFC U23 Asian Cup",
-        "round": null
+        "competition": "Torneo de Hong Kong",
+        "round": "2ª Ronda"
       },
       "teams": {
         "local": {
-          "name": "Corea del Sur",
-          "image": "https://static.futbolenlatv.com/img/20130507121229_coreadelsur.webp"
+          "name": "B. Van de Zandschulp",
+          "image": "https://static.futbolenlatv.com/img/20200812224821-eredivisie-comeback.webp"
         },
         "visitor": {
-          "name": "Irán",
-          "image": "https://static.futbolenlatv.com/img/20130528074944-Iran.webp"
+          "name": "A. Bublik",
+          "image": "https://static.futbolenlatv.com/img/20130727124441-Kazajistan.webp"
         }
       },
       "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "Corea del Sur - Irán",
-        "description": "Corea del Sur - Irán el miércoles, 7 de enero de 2026 a las 12:30",
-        "startDate": "2026-01-07T11:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "13:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa del Rey",
-        "round": "Sorteo Octavos de Final"
-      },
-      "teams": null,
-      "channels": [
-        "RFEF.es",
-        "Movistar Plus+ : VER PARTIDO",
-        "M+ LALIGA",
-        "Teledeporte",
-        "RTVE Play",
-        "RFEF TV YouTube"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "15:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "AFC U23 Asian Cup",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Uzbekistán",
-          "image": "https://static.futbolenlatv.com/img/20130507121244_uzbekistan.webp"
-        },
-        "visitor": {
-          "name": "Líbano",
-          "image": "https://static.futbolenlatv.com/img/20130530102039-Libano.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "Uzbekistán - Líbano",
-        "description": "Uzbekistán - Líbano el miércoles, 7 de enero de 2026 a las 15:00",
-        "startDate": "2026-01-07T14:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "16:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Tercera Federación",
-        "round": "Grupo 6"
-      },
-      "teams": {
-        "local": {
-          "name": "Villarreal C",
-          "image": "https://static.futbolenlatv.com/img/20131007021135-villarreal.webp"
-        },
-        "visitor": {
-          "name": "Hércules B",
-          "image": "https://static.futbolenlatv.com/img/20160624091859-hercules.webp"
-        }
-      },
-      "channels": [
-        "Villarreal TV"
-      ],
-      "event": {
-        "name": "Villarreal C - Hércules B",
-        "description": "Villarreal C - Hércules B el miércoles, 7 de enero de 2026 a las 16:00",
-        "startDate": "2026-01-07T15:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "16:30",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa de la Reina",
-        "round": "Sorteo 1/4 Final"
-      },
-      "teams": null,
-      "channels": [
-        "RFEF.es",
-        "Teledeporte",
-        "RTVE Play",
-        "RFEF TV YouTube"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "futbol-sala",
-      "date": {
-        "hour": "18:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera Federación Futsal",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Barça FS",
-          "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
-        },
-        "visitor": {
-          "name": "Movistar Inter",
-          "image": "https://static.futbolenlatv.com/img/20130614064315-Inter-Movistar.webp"
-        }
-      },
-      "channels": [
-        "LaLiga+ Plus",
-        "Teledeporte",
-        "RTVE Play",
-        "Esport3"
+        "ATP Tennis TV"
       ],
       "event": {},
       "eventType": "match"
@@ -991,8 +1130,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "18:30",
-        "day": "07/01/2026",
+        "hour": "17:00",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -1001,12 +1140,12 @@
       },
       "teams": {
         "local": {
-          "name": "Anadolu Efes Istanbul",
-          "image": "https://static.futbolenlatv.com/img/20191001065117-anadolu-efes-istanbul.webp"
+          "name": "Dubai Basketball",
+          "image": "https://static.futbolenlatv.com/img/20250519204831-dubai-basketball.webp"
         },
         "visitor": {
-          "name": "Paris Basketball",
-          "image": "https://static.futbolenlatv.com/img/20220711185727-paris-basketball.webp"
+          "name": "Fenerbahce Istanbul",
+          "image": "https://static.futbolenlatv.com/img/20130716022542-fenerbahce-ulker.webp"
         }
       },
       "channels": [
@@ -1018,391 +1157,137 @@
     {
       "sport": "balonmano",
       "date": {
-        "hour": "18:30",
-        "day": "07/01/2026",
+        "hour": "17:15",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "EHF Europeo",
+        "competition": "Torneo Internacional España",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Bulgaria",
-          "image": "https://static.futbolenlatv.com/img/20130528081800-Bulgaria.webp"
+          "name": "Portugal",
+          "image": "https://static.futbolenlatv.com/img/20130204101449_portugal.webp"
         },
         "visitor": {
-          "name": "Turquía",
-          "image": "https://static.futbolenlatv.com/img/20130513110846_turquia.webp"
+          "name": "Egipto",
+          "image": "https://static.futbolenlatv.com/img/20130103115302_egipto.webp"
         }
       },
       "channels": [
-        "EHF TV"
+        "Teledeporte",
+        "RTVE Play"
       ],
       "event": {},
       "eventType": "match"
     },
     {
-      "sport": "balonmano",
+      "sport": "baloncesto",
       "date": {
-        "hour": "19:00",
-        "day": "07/01/2026",
+        "hour": "17:30",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "EHF Europeo",
-        "round": null
+        "competition": "Basketball Champions League",
+        "round": "Play-In"
       },
       "teams": {
         "local": {
-          "name": "Gran Bretaña",
-          "image": "https://static.futbolenlatv.com/img/20130625051918-reino-unido.webp"
+          "name": "ASK Karditsas BC",
+          "image": "https://static.futbolenlatv.com/img/20250926095442-ask-karditsas-bc.webp"
         },
         "visitor": {
-          "name": "Letonia",
-          "image": "https://static.futbolenlatv.com/img/20130524093608_letonia.webp"
+          "name": "KK Spartak Subotica BC",
+          "image": "https://static.futbolenlatv.com/img/20150917095054-spartak-subotica.webp"
         }
       },
       "channels": [
-        "EHF TV"
+        "DAZN",
+        "Courtside 1891"
       ],
       "event": {},
       "eventType": "match"
     },
     {
-      "sport": "futbol-sala",
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Basketball Champions League",
+        "round": "Play-In"
+      },
+      "teams": {
+        "local": {
+          "name": "Patrioti Levice",
+          "image": "https://static.futbolenlatv.com/img/20220924071704-patrioti-levice.webp"
+        },
+        "visitor": {
+          "name": "S. Oliver Baskets",
+          "image": "https://static.futbolenlatv.com/img/20130914110511-s-oliver-baskets.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "Courtside 1891"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Basketball Champions League",
+        "round": "Play-In"
+      },
+      "teams": {
+        "local": {
+          "name": "CEZl Nymburk",
+          "image": "https://static.futbolenlatv.com/img/20131006072337-basketball-nymburk.webp"
+        },
+        "visitor": {
+          "name": "USC Heidelberg",
+          "image": "https://static.futbolenlatv.com/img/20241115102653-usc-heidelberg.webp"
+        }
+      },
+      "channels": [
+        "Courtside 1891"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
       "date": {
         "hour": "19:30",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Primera Federación Futsal",
-        "round": null
+        "competition": "Basketball Champions League",
+        "round": "Play-In"
       },
       "teams": {
         "local": {
-          "name": "Palma Futsal",
-          "image": "https://static.futbolenlatv.com/img/20140923043256-palma-futsal.webp"
+          "name": "Promitheas Patras BC",
+          "image": "https://static.futbolenlatv.com/img/20190211103344-promitheas-patras-bc.webp"
         },
         "visitor": {
-          "name": "Manzanares FS",
-          "image": "https://static.futbolenlatv.com/img/20220811173804-manzanares-fs.webp"
+          "name": "Elan Chalon",
+          "image": "https://static.futbolenlatv.com/img/20131006071357-elan-chalon.webp"
         }
       },
       "channels": [
-        "LaLiga+ Plus"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol-sala",
-      "date": {
-        "hour": "20:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera Federación Futsal",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Servigroup Peñiscola FS",
-          "image": "https://static.futbolenlatv.com/img/20130716052411-peniscola.webp"
-        },
-        "visitor": {
-          "name": "Alzira FS",
-          "image": "https://static.futbolenlatv.com/img/20191003111042-nitida-alzira-fs.webp"
-        }
-      },
-      "channels": [
-        "LaLiga+ Plus"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Femenina Endesa",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Casademont Zaragoza",
-          "image": "https://static.futbolenlatv.com/img/20190925100947-casademont-zaragoza.webp"
-        },
-        "visitor": {
-          "name": "IDK Euskotren",
-          "image": "https://static.futbolenlatv.com/img/20200922143934-donosti-basket.webp"
-        }
-      },
-      "channels": [
-        "Baloncesto España YouTube",
-        "FEB TV",
-        "Teledeporte",
-        "RTVE Play",
-        "Aragón TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Femenina Endesa",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Joventut Badalona",
-          "image": "https://static.futbolenlatv.com/img/20190925101350-joventut.webp"
-        },
-        "visitor": {
-          "name": "Cadi La Seu",
-          "image": "https://static.futbolenlatv.com/img/20131001101621-sedis-basquet.webp"
-        }
-      },
-      "channels": [
-        "Baloncesto España YouTube",
-        "FEB TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Femenina Endesa",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Perfumerías Avenida",
-          "image": "https://static.futbolenlatv.com/img/20131005094829-perfumerias-avenida.webp"
-        },
-        "visitor": {
-          "name": "Movistar Estudiantes",
-          "image": "https://static.futbolenlatv.com/img/20190925101244-movistar-estudiantes.webp"
-        }
-      },
-      "channels": [
-        "Baloncesto España YouTube",
-        "FEB TV",
-        "LaLiga+ Plus"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Femenina Endesa",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Lointek Gernika",
-          "image": "https://static.futbolenlatv.com/img/20141014112527-gernika-bizkaia.webp"
-        },
-        "visitor": {
-          "name": "Spar Girona",
-          "image": "https://static.futbolenlatv.com/img/20191215120328-spar-citylift-girona.webp"
-        }
-      },
-      "channels": [
-        "Baloncesto España YouTube",
-        "FEB TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Femenina Endesa",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Kutxabank Araski",
-          "image": "https://static.futbolenlatv.com/img/20181024101840-araski-aes.webp"
-        },
-        "visitor": {
-          "name": "CB Jairis",
-          "image": "https://static.futbolenlatv.com/img/20201002093158-cb-jairis.webp"
-        }
-      },
-      "channels": [
-        "Baloncesto España YouTube",
-        "FEB TV",
-        "As.com"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Femenina Endesa",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Ensino Lugo",
-          "image": "https://static.futbolenlatv.com/img/20181225105021-ensino-lugo.webp"
-        },
-        "visitor": {
-          "name": "Valencia Basket",
-          "image": "https://static.futbolenlatv.com/img/20130803090213-valencia-basket.webp"
-        }
-      },
-      "channels": [
-        "Baloncesto España YouTube",
-        "FEB TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Femenina Endesa",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Baloncesto Leganés",
-          "image": "https://static.futbolenlatv.com/img/20210913143957-baloncesto-leganes.webp"
-        },
-        "visitor": {
-          "name": "BAXI Ferrol",
-          "image": "https://static.futbolenlatv.com/img/20181024101642-baxi-ferrol.webp"
-        }
-      },
-      "channels": [
-        "Baloncesto España YouTube",
-        "FEB TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga Femenina Endesa",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "CAB Estepona",
-          "image": "https://static.futbolenlatv.com/img/20240505141736-cab-estepona.webp"
-        },
-        "visitor": {
-          "name": "Spar Gran Canaria",
-          "image": "https://static.futbolenlatv.com/img/20131011083809-club-deportes-castro.webp"
-        }
-      },
-      "channels": [
-        "Baloncesto España YouTube",
-        "FEB TV",
-        "LaLiga+ Plus"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa de España",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Movistar Estudiantes",
-          "image": "https://static.futbolenlatv.com/img/20190925101244-movistar-estudiantes.webp"
-        },
-        "visitor": {
-          "name": "CB Tizona Burgos",
-          "image": "https://static.futbolenlatv.com/img/20140930111825-cb-tizona-burgos.webp"
-        }
-      },
-      "channels": [
-        "LaLiga+ Plus"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa de España",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "CB Morón",
-          "image": "https://static.futbolenlatv.com/img/20240823081418-cb-moron.webp"
-        },
-        "visitor": {
-          "name": "Baloncesto Fuenlabrada",
-          "image": "https://static.futbolenlatv.com/img/20220809170514-baloncesto-fuenlabrada.webp"
-        }
-      },
-      "channels": [
-        "LaLiga+ Plus"
+        "Courtside 1891"
       ],
       "event": {},
       "eventType": "match"
@@ -1410,53 +1295,55 @@
     {
       "sport": "balonmano",
       "date": {
+        "hour": "19:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo Internacional España",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "España",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+        },
+        "visitor": {
+          "name": "Eslovaquia",
+          "image": "https://static.futbolenlatv.com/img/20130410124517_eslovaquia.webp"
+        }
+      },
+      "channels": [
+        "Teledeporte",
+        "RTVE Play"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
         "hour": "20:00",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "EHF Europeo",
-        "round": null
+        "competition": "Basketball Champions League",
+        "round": "Play-In"
       },
       "teams": {
         "local": {
-          "name": "Chipre",
-          "image": "https://static.futbolenlatv.com/img/20130529043416-Chipre.webp"
+          "name": "Le Mans Sarthe Basket",
+          "image": "https://static.futbolenlatv.com/img/20131006071749-le-mans-sarthe-basket.webp"
         },
         "visitor": {
-          "name": "Estonia",
-          "image": "https://static.futbolenlatv.com/img/20130531113736-Estonia.webp"
+          "name": "Mersin Yenisehir Bld",
+          "image": "https://static.futbolenlatv.com/img/20211203134555-mersin-yenisehir-bld.webp"
         }
       },
       "channels": [
-        "EHF TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol-sala",
-      "date": {
-        "hour": "20:30",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera Federación Futsal",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Jimbee Cartagena FS",
-          "image": "https://static.futbolenlatv.com/img/20180912065412-jimbee-cartagena-fs.webp"
-        },
-        "visitor": {
-          "name": "Noia Portus Apostoli FS",
-          "image": "https://static.futbolenlatv.com/img/20201214210722-noia-futbol-sala.webp"
-        }
-      },
-      "channels": [
-        "LaLiga+ Plus"
+        "DAZN",
+        "Courtside 1891"
       ],
       "event": {},
       "eventType": "match"
@@ -1464,26 +1351,27 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "20:30",
-        "day": "07/01/2026",
+        "hour": "20:00",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Copa de España",
-        "round": null
+        "competition": "Basketball Champions League",
+        "round": "Play-In"
       },
       "teams": {
         "local": {
-          "name": "Súper Agropal Palencia",
-          "image": "https://static.futbolenlatv.com/img/20211001101211-palencia-baloncesto.webp"
+          "name": "Trieste Pallacanestro",
+          "image": "https://static.futbolenlatv.com/img/20240801122136-trieste-pallacanestro.webp"
         },
         "visitor": {
-          "name": "Monbus Obradoiro",
-          "image": "https://static.futbolenlatv.com/img/20200903182202-obradoiro-clube-baloncesto.webp"
+          "name": "Szolnoki Olaj",
+          "image": "https://static.futbolenlatv.com/img/20161117022546-szolnoki-olaj.webp"
         }
       },
       "channels": [
-        "LaLiga+ Plus"
+        "DAZN",
+        "Courtside 1891"
       ],
       "event": {},
       "eventType": "match"
@@ -1491,35 +1379,8 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "20:30",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa de España",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "LogroBasket Club",
-          "image": "https://static.futbolenlatv.com/img/20250911171126-logrobasket-club.webp"
-        },
-        "visitor": {
-          "name": "Club Ourense Baloncesto",
-          "image": "https://static.futbolenlatv.com/img/20130731064826-orense-baloncesto.webp"
-        }
-      },
-      "channels": [
-        "LaLiga+ Plus"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:30",
-        "day": "07/01/2026",
+        "hour": "20:15",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -1528,12 +1389,94 @@
       },
       "teams": {
         "local": {
-          "name": "FC Bayern Basketball",
-          "image": "https://static.futbolenlatv.com/img/20150901052257-fc-bayern-basketball.webp"
+          "name": "Panathinaikos BC",
+          "image": "https://static.futbolenlatv.com/img/20130716013710-panathinaikos-bc.webp"
         },
         "visitor": {
-          "name": "Baskonia",
-          "image": "https://static.futbolenlatv.com/img/20160907115208-baskonia.webp"
+          "name": "Virtus Bologna",
+          "image": "https://static.futbolenlatv.com/img/20181227045008-virtus-bologna.webp"
+        }
+      },
+      "channels": [
+        "M+ Deportes 2"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "hockey-patines",
+      "date": {
+        "hour": "20:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WSE Cup",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Liceo",
+          "image": "https://static.futbolenlatv.com/img/20130614064526-Liceo.webp"
+        },
+        "visitor": {
+          "name": "Hockey Bassano",
+          "image": "https://static.futbolenlatv.com/img/20130910063040-hockey-hassano.webp"
+        }
+      },
+      "channels": [
+        "TVG2"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Basketball Champions League",
+        "round": "Play-In"
+      },
+      "teams": {
+        "local": {
+          "name": "Trapani Shark",
+          "image": "https://static.futbolenlatv.com/img/20240929112634-trapani-shark.webp"
+        },
+        "visitor": {
+          "name": "Hapoel Holon",
+          "image": "https://static.futbolenlatv.com/img/20171011070228-hapoel-holon.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "Courtside 1891"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Euroliga",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Valencia Basket",
+          "image": "https://static.futbolenlatv.com/img/20130803090213-valencia-basket.webp"
+        },
+        "visitor": {
+          "name": "AS Monaco Basket",
+          "image": "https://static.futbolenlatv.com/img/20191001090801-as-monaco-basket.webp"
         }
       },
       "channels": [
@@ -1545,28 +1488,28 @@
       "eventType": "match"
     },
     {
-      "sport": "futbol-sala",
+      "sport": "baloncesto",
       "date": {
-        "hour": "21:00",
-        "day": "07/01/2026",
+        "hour": "20:45",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Primera Federación Femenina",
-        "round": null
+        "competition": "Euroliga",
+        "round": "Liga Regular"
       },
       "teams": {
         "local": {
-          "name": "AE Penya Esplugues",
-          "image": "https://static.futbolenlatv.com/img/20180901114045-ae-penya-esplugues.webp"
+          "name": "Real Madrid Baloncesto",
+          "image": "https://static.futbolenlatv.com/img/20160725122745-real-madrid.webp"
         },
         "visitor": {
-          "name": "Les Corts AE",
-          "image": "https://static.futbolenlatv.com/img/20220904103310-les-corts-ae.webp"
+          "name": "Maccabi Tel Aviv BC",
+          "image": "https://static.futbolenlatv.com/img/20130716013716-maccabi-tel-aviv-bc.webp"
         }
       },
       "channels": [
-        "RFEF.es"
+        "M+ Deportes"
       ],
       "event": {},
       "eventType": "match"
@@ -1574,13 +1517,13 @@
     {
       "sport": "automovilismo",
       "date": {
-        "hour": "21:45",
-        "day": "07/01/2026",
+        "hour": "21:00",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Rally Dakar",
-        "round": "Etapa 4"
+        "round": "Etapa 5"
       },
       "teams": null,
       "channels": [
@@ -1588,10 +1531,39 @@
         "DAZN",
         "Teledeporte",
         "RTVE Play",
+        "Esport3",
         "Eurosport 1"
       ],
       "event": {},
       "eventType": "tournament"
+    },
+    {
+      "sport": "hockey-patines",
+      "date": {
+        "hour": "21:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WSE Cup",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Reus Deportiu",
+          "image": "https://static.futbolenlatv.com/img/20130830073027-reus-hockey.webp"
+        },
+        "visitor": {
+          "name": "Igualada HC",
+          "image": "https://static.futbolenlatv.com/img/20130614064509-Igualada.webp"
+        }
+      },
+      "channels": [
+        "La Xarxa+",
+        "Canal Reus TV"
+      ],
+      "event": {},
+      "eventType": "match"
     },
     {
       "sport": "futbol-americano",
@@ -1621,28 +1593,55 @@
       "eventType": "match"
     },
     {
-      "sport": "hockey-patines",
+      "sport": "futbol-sala",
       "date": {
-        "hour": "13:00",
-        "day": "10/01/2026",
+        "hour": "20:00",
+        "day": "09/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "OK Liga Femenina",
+        "competition": "Primera Federación Futsal",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Bembibre HC",
-          "image": "https://static.futbolenlatv.com/img/20240119170102-bembibre-hockey-club.webp"
+          "name": "Osasuna Magna",
+          "image": "https://static.futbolenlatv.com/img/20170821102632-deportivo-xota.webp"
         },
         "visitor": {
-          "name": "CP Voltregá",
-          "image": "https://static.futbolenlatv.com/img/20130830091143-voltrega.webp"
+          "name": "O Parrulo Ferrol",
+          "image": "https://static.futbolenlatv.com/img/20131016055906-o-parrulo-ferrol.webp"
         }
       },
       "channels": [
-        "Esport3"
+        "LaLiga+ Plus"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "20:45",
+        "day": "09/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Futsal",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Industrias Santa Coloma",
+          "image": "https://static.futbolenlatv.com/img/20130716052051-Marfil-Santa-Coloma.webp"
+        },
+        "visitor": {
+          "name": "Viña Albali Valdepeñas",
+          "image": "https://static.futbolenlatv.com/img/20180924092419-vina-albali-valdepenas.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus"
       ],
       "event": {},
       "eventType": "match"
@@ -1758,31 +1757,130 @@
     {
       "sport": "futbol",
       "date": {
+        "hour": "12:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC U23 Asian Cup",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Australia",
+          "image": "https://static.futbolenlatv.com/img/20130501101148_australia.webp"
+        },
+        "visitor": {
+          "name": "Tailandia",
+          "image": "https://static.futbolenlatv.com/img/20130607094650-tailandia.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Australia - Tailandia",
+        "description": "Australia - Tailandia el jueves, 8 de enero de 2026 a las 12:30",
+        "startDate": "2026-01-08T11:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC U23 Asian Cup",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Irak",
+          "image": "https://static.futbolenlatv.com/img/20130513103718_irak.webp"
+        },
+        "visitor": {
+          "name": "China",
+          "image": "https://static.futbolenlatv.com/img/20130221121827_china.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Irak - China",
+        "description": "Irak - China el jueves, 8 de enero de 2026 a las 15:00",
+        "startDate": "2026-01-08T14:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:55",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Saudi Pro League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Al Hilal",
+          "image": "https://static.futbolenlatv.com/img/20230208190309-al-hilal.webp"
+        },
+        "visitor": {
+          "name": "Al-Hazem SC",
+          "image": "https://static.futbolenlatv.com/img/20230808115844-al-hazem-sc.webp"
+        }
+      },
+      "channels": [
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite",
+        "M+ Liga de Campeones"
+      ],
+      "event": {
+        "name": "Al Hilal - Al-Hazem SC",
+        "description": "Al Hilal - Al-Hazem SC el jueves, 8 de enero de 2026 a las 15:55",
+        "startDate": "2026-01-08T14:55:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
         "hour": "17:00",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Segunda Federación",
-        "round": "Grupo 3"
+        "competition": "Bahrain Premier League",
+        "round": null
       },
       "teams": {
         "local": {
-          "name": "Torrent CF",
-          "image": "https://static.futbolenlatv.com/img/20201003204220-torrent-cf.webp"
+          "name": "Al-Ahli Club",
+          "image": "https://static.futbolenlatv.com/img/20231113095754-al-ahli-club-manama.webp"
         },
         "visitor": {
-          "name": "Poblense",
-          "image": "https://static.futbolenlatv.com/img/20130225120032_ud-poblense.webp"
+          "name": "Al-Budaiya",
+          "image": "https://static.futbolenlatv.com/img/20250906014843-al-budaiya.webp"
         }
       },
       "channels": [
-        "TV FootballClub"
+        "FANSEAT"
       ],
       "event": {
-        "name": "Torrent CF - Poblense",
-        "description": "Torrent CF - Poblense el miércoles, 7 de enero de 2026 a las 17:00",
-        "startDate": "2026-01-07T16:00:00",
+        "name": "Al-Ahli Club - Al-Budaiya",
+        "description": "Al-Ahli Club - Al-Budaiya el jueves, 8 de enero de 2026 a las 17:00",
+        "startDate": "2026-01-08T16:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1790,31 +1888,63 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "18:00",
-        "day": "07/01/2026",
+        "hour": "17:00",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Segunda Federación",
-        "round": "Grupo 3"
+        "competition": "Bahrain Premier League",
+        "round": null
       },
       "teams": {
         "local": {
-          "name": "Barcelona Atlétic",
-          "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
+          "name": "Al-Shabab Manama",
+          "image": "https://static.futbolenlatv.com/img/20240407205526-al-shabab-manama.webp"
         },
         "visitor": {
-          "name": "Valencia-Mestalla",
-          "image": "https://static.futbolenlatv.com/img/20151004120005-valencia.webp"
+          "name": "Al Hidd",
+          "image": "https://static.futbolenlatv.com/img/20140129102040-al-hidd.webp"
         }
       },
       "channels": [
-        "FC Barcelona PPV YouTube"
+        "FANSEAT"
       ],
       "event": {
-        "name": "Barcelona Atlétic - Valencia-Mestalla",
-        "description": "Barcelona Atlétic - Valencia-Mestalla el miércoles, 7 de enero de 2026 a las 18:00",
-        "startDate": "2026-01-07T17:00:00",
+        "name": "Al-Shabab Manama - Al Hidd",
+        "description": "Al-Shabab Manama - Al Hidd el jueves, 8 de enero de 2026 a las 17:00",
+        "startDate": "2026-01-08T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:30",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC U23 Asian Cup",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Catar",
+          "image": "https://static.futbolenlatv.com/img/20130513104334_qatar.webp"
+        },
+        "visitor": {
+          "name": "EAU",
+          "image": "https://static.futbolenlatv.com/img/20130723025224-emirato-arabes-unido.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Catar - EAU",
+        "description": "Catar - EAU el jueves, 8 de enero de 2026 a las 17:30",
+        "startDate": "2026-01-08T16:30:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1823,31 +1953,32 @@
       "sport": "futbol",
       "date": {
         "hour": "18:30",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Serie A Italiana",
+        "competition": "Saudi Pro League",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Napoli",
-          "image": "https://static.futbolenlatv.com/img/20240923180502-napoles.webp"
+          "name": "Al Nassr",
+          "image": "https://static.futbolenlatv.com/img/20240522170910-al-nassr.webp"
         },
         "visitor": {
-          "name": "Hellas Verona",
-          "image": "https://static.futbolenlatv.com/img/20200907114144-hellas-verona.webp"
+          "name": "Al Qadisiya",
+          "image": "https://static.futbolenlatv.com/img/20240129094116-al-qadisiya-fc.webp"
         }
       },
       "channels": [
-        "DAZN",
-        "LaLiga TV M2"
+        "OneFootball",
+        "M+ Vamos 2",
+        "M+ Liga de Campeones"
       ],
       "event": {
-        "name": "Napoli - Hellas Verona",
-        "description": "Napoli - Hellas Verona el miércoles, 7 de enero de 2026 a las 18:30",
-        "startDate": "2026-01-07T17:30:00",
+        "name": "Al Nassr - Al Qadisiya",
+        "description": "Al Nassr - Al Qadisiya el jueves, 8 de enero de 2026 a las 18:30",
+        "startDate": "2026-01-08T17:30:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1856,7 +1987,7 @@
       "sport": "futbol",
       "date": {
         "hour": "18:30",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -1865,22 +1996,53 @@
       },
       "teams": {
         "local": {
-          "name": "Bologna",
-          "image": "https://static.futbolenlatv.com/img/20121219035023_bologna.webp"
+          "name": "US Cremonese",
+          "image": "https://static.futbolenlatv.com/img/20191027061151-us-cremonese.webp"
         },
         "visitor": {
-          "name": "Atalanta",
-          "image": "https://static.futbolenlatv.com/img/20121219034958_atalanta.webp"
+          "name": "Cagliari",
+          "image": "https://static.futbolenlatv.com/img/20170205100747-cagliari.webp"
         }
       },
       "channels": [
-        "DAZN",
-        "LaLiga TV M3"
+        "DAZN"
       ],
       "event": {
-        "name": "Bologna - Atalanta",
-        "description": "Bologna - Atalanta el miércoles, 7 de enero de 2026 a las 18:30",
-        "startDate": "2026-01-07T17:30:00",
+        "name": "US Cremonese - Cagliari",
+        "description": "US Cremonese - Cagliari el jueves, 8 de enero de 2026 a las 18:30",
+        "startDate": "2026-01-08T17:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "08/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Trophée des Champions",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "PSG",
+          "image": "https://static.futbolenlatv.com/img/20131224050227-psg.webp"
+        },
+        "visitor": {
+          "name": "O. Marseille",
+          "image": "https://static.futbolenlatv.com/img/20130117033826_olympique-de-marseille.webp"
+        }
+      },
+      "channels": [
+        "Canal por confirmar"
+      ],
+      "event": {
+        "name": "PSG - O. Marseille",
+        "description": "PSG - O. Marseille el jueves, 8 de enero de 2026 a las 19:00",
+        "startDate": "2026-01-08T18:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1889,7 +2051,7 @@
       "sport": "futbol",
       "date": {
         "hour": "20:00",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -1898,12 +2060,12 @@
       },
       "teams": {
         "local": {
-          "name": "FC Barcelona",
-          "image": "https://static.futbolenlatv.com/img/20121218093448_barcelona.webp"
+          "name": "Real Madrid",
+          "image": "https://static.futbolenlatv.com/img/20160725122745-real-madrid.webp"
         },
         "visitor": {
-          "name": "Athletic Club",
-          "image": "https://static.futbolenlatv.com/img/20121218093611_bilbao.webp"
+          "name": "At. Madrid",
+          "image": "https://static.futbolenlatv.com/img/20240712123854-at-madrid.webp"
         }
       },
       "channels": [
@@ -1912,207 +2074,9 @@
         "Hellotickets"
       ],
       "event": {
-        "name": "FC Barcelona - Athletic Club",
-        "description": "FC Barcelona - Athletic Club el miércoles, 7 de enero de 2026 a las 20:00",
-        "startDate": "2026-01-07T19:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:30",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Premier League",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Manchester City",
-          "image": "https://static.futbolenlatv.com/img/20160723124026-manchester-city.webp"
-        },
-        "visitor": {
-          "name": "Brighton",
-          "image": "https://static.futbolenlatv.com/img/20130126124919_brighton.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN 1",
-        "DAZN 1 Bar"
-      ],
-      "event": {
-        "name": "Manchester City - Brighton",
-        "description": "Manchester City - Brighton el miércoles, 7 de enero de 2026 a las 20:30",
-        "startDate": "2026-01-07T19:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:30",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Premier League",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Everton",
-          "image": "https://static.futbolenlatv.com/img/20150304024926-everton.webp"
-        },
-        "visitor": {
-          "name": "Wolverhampton",
-          "image": "https://static.futbolenlatv.com/img/20130801021453-wolverhamton.webp"
-        }
-      },
-      "channels": [
-        "DAZN"
-      ],
-      "event": {
-        "name": "Everton - Wolverhampton",
-        "description": "Everton - Wolverhampton el miércoles, 7 de enero de 2026 a las 20:30",
-        "startDate": "2026-01-07T19:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:30",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Premier League",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Fulham",
-          "image": "https://static.futbolenlatv.com/img/20121218101246_fulham.webp"
-        },
-        "visitor": {
-          "name": "Chelsea",
-          "image": "https://static.futbolenlatv.com/img/20121218101333_chelsea.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN 2",
-        "DAZN 2 Bar"
-      ],
-      "event": {
-        "name": "Fulham - Chelsea",
-        "description": "Fulham - Chelsea el miércoles, 7 de enero de 2026 a las 20:30",
-        "startDate": "2026-01-07T19:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:30",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Premier League",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Brentford",
-          "image": "https://static.futbolenlatv.com/img/20171127121055-brentford.webp"
-        },
-        "visitor": {
-          "name": "Sunderland",
-          "image": "https://static.futbolenlatv.com/img/20121218101008_sunderland.webp"
-        }
-      },
-      "channels": [
-        "DAZN"
-      ],
-      "event": {
-        "name": "Brentford - Sunderland",
-        "description": "Brentford - Sunderland el miércoles, 7 de enero de 2026 a las 20:30",
-        "startDate": "2026-01-07T19:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:30",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Premier League",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Crystal Palace",
-          "image": "https://static.futbolenlatv.com/img/20200619100938-crystal-palace.webp"
-        },
-        "visitor": {
-          "name": "Aston Villa",
-          "image": "https://static.futbolenlatv.com/img/20240923180723-aston-villa.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN 4"
-      ],
-      "event": {
-        "name": "Crystal Palace - Aston Villa",
-        "description": "Crystal Palace - Aston Villa el miércoles, 7 de enero de 2026 a las 20:30",
-        "startDate": "2026-01-07T19:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:30",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Premier League",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Bournemouth",
-          "image": "https://static.futbolenlatv.com/img/20130704095739-bournemouth.webp"
-        },
-        "visitor": {
-          "name": "Tottenham",
-          "image": "https://static.futbolenlatv.com/img/20200413194326-tottenham.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "DAZN 3"
-      ],
-      "event": {
-        "name": "Bournemouth - Tottenham",
-        "description": "Bournemouth - Tottenham el miércoles, 7 de enero de 2026 a las 20:30",
-        "startDate": "2026-01-07T19:30:00",
+        "name": "Real Madrid - At. Madrid",
+        "description": "Real Madrid - At. Madrid el jueves, 8 de enero de 2026 a las 20:00",
+        "startDate": "2026-01-08T19:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -2121,7 +2085,7 @@
       "sport": "futbol",
       "date": {
         "hour": "20:45",
-        "day": "07/01/2026",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -2130,44 +2094,12 @@
       },
       "teams": {
         "local": {
-          "name": "Lazio",
-          "image": "https://static.futbolenlatv.com/img/20121219035121_lazio.webp"
+          "name": "AC Milan",
+          "image": "https://static.futbolenlatv.com/img/20121219034733_milan.webp"
         },
         "visitor": {
-          "name": "Fiorentina",
-          "image": "https://static.futbolenlatv.com/img/20220713172317-fiorentina.webp"
-        }
-      },
-      "channels": [
-        "DAZN"
-      ],
-      "event": {
-        "name": "Lazio - Fiorentina",
-        "description": "Lazio - Fiorentina el miércoles, 7 de enero de 2026 a las 20:45",
-        "startDate": "2026-01-07T19:45:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:45",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Serie A Italiana",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Parma",
-          "image": "https://static.futbolenlatv.com/img/20121219035146_parma.webp"
-        },
-        "visitor": {
-          "name": "Inter Milan",
-          "image": "https://static.futbolenlatv.com/img/20210330172154-inter-milan.webp"
+          "name": "Genoa",
+          "image": "https://static.futbolenlatv.com/img/20121219034524_génova.webp"
         }
       },
       "channels": [
@@ -2175,9 +2107,9 @@
         "LaLiga TV M2"
       ],
       "event": {
-        "name": "Parma - Inter Milan",
-        "description": "Parma - Inter Milan el miércoles, 7 de enero de 2026 a las 20:45",
-        "startDate": "2026-01-07T19:45:00",
+        "name": "AC Milan - Genoa",
+        "description": "AC Milan - Genoa el jueves, 8 de enero de 2026 a las 20:45",
+        "startDate": "2026-01-08T19:45:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -2185,40 +2117,8 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "20:45",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Serie A Italiana",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Torino",
-          "image": "https://static.futbolenlatv.com/img/20121219035257_torino.webp"
-        },
-        "visitor": {
-          "name": "Udinese",
-          "image": "https://static.futbolenlatv.com/img/20121219035331_udinese.webp"
-        }
-      },
-      "channels": [
-        "DAZN"
-      ],
-      "event": {
-        "name": "Torino - Udinese",
-        "description": "Torino - Udinese el miércoles, 7 de enero de 2026 a las 20:45",
-        "startDate": "2026-01-07T19:45:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:15",
-        "day": "07/01/2026",
+        "hour": "21:00",
+        "day": "08/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -2227,53 +2127,25 @@
       },
       "teams": {
         "local": {
-          "name": "Newcastle",
-          "image": "https://static.futbolenlatv.com/img/20121218100604_newcastle-united.webp"
+          "name": "Arsenal",
+          "image": "https://static.futbolenlatv.com/img/20121218091224_arsenal.webp"
         },
         "visitor": {
-          "name": "Leeds Utd",
-          "image": "https://static.futbolenlatv.com/img/20130207050812_leeds-united.webp"
+          "name": "Liverpool",
+          "image": "https://static.futbolenlatv.com/img/20240923180620-liverpool.webp"
         }
       },
       "channels": [
-        "DAZN"
+        "DAZN",
+        "Movistar Plus+ : VER PARTIDO",
+        "M+ #Vamos Bar 2",
+        "DAZN 1",
+        "M+ Liga de Campeones"
       ],
       "event": {
-        "name": "Newcastle - Leeds Utd",
-        "description": "Newcastle - Leeds Utd el miércoles, 7 de enero de 2026 a las 21:15",
-        "startDate": "2026-01-07T20:15:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:15",
-        "day": "07/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Premier League",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Burnley",
-          "image": "https://static.futbolenlatv.com/img/20130416055614_burnley.webp"
-        },
-        "visitor": {
-          "name": "Manchester Utd.",
-          "image": "https://static.futbolenlatv.com/img/20121218101319_manchester-united.webp"
-        }
-      },
-      "channels": [
-        "DAZN"
-      ],
-      "event": {
-        "name": "Burnley - Manchester Utd.",
-        "description": "Burnley - Manchester Utd. el miércoles, 7 de enero de 2026 a las 21:15",
-        "startDate": "2026-01-07T20:15:00",
+        "name": "Arsenal - Liverpool",
+        "description": "Arsenal - Liverpool el jueves, 8 de enero de 2026 a las 21:00",
+        "startDate": "2026-01-08T20:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
