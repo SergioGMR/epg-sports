@@ -186,6 +186,7 @@ const availableLogos: string[] = [
   'movistar-laliga',
   'movistar-champions',
   'movistar-plus',
+  'navarra-tv',
   'nba-league-pass',
   'rtve',
 ];
