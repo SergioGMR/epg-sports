@@ -136,12 +136,9 @@ interface AllMatchesData {
 // DATA IMPORTS
 // ============================================================
 
-// @ts-ignore - JSON imports
-import allMatchesData from '../data/allMatches.json';
-// @ts-ignore - JSON imports
-import updatedMatchesData from '../data/updatedMatches.json';
-// @ts-ignore - JSON imports
-import channelsData from '../data/updatedChannels.json';
+import allMatchesData from '../data/allMatches.json' with { type: 'json' };
+import updatedMatchesData from '../data/updatedMatches.json' with { type: 'json' };
+import channelsData from '../data/updatedChannels.json' with { type: 'json' };
 
 const allMatches = allMatchesData as AllMatchesData;
 const updatedMatches = updatedMatchesData as Match[];
