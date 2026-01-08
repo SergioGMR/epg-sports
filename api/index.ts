@@ -12,7 +12,7 @@
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { handle } from "hono/vercel";
-import { getLogoPath } from "../src/logoMap";
+import { getLogoPath } from "./logoMap";
 
 // Tipos
 interface Channel {

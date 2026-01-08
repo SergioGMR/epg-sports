@@ -7,7 +7,7 @@
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { serveStatic } from "hono/bun";
-import { getLogoPath } from "./src/logoMap";
+import { getLogoPath } from "./api/logoMap";
 
 // Tipos
 interface Channel {

@@ -1,10 +1,16 @@
 /**
  * Mapeo de nombres de canales a archivos de logos
  * 
+ * Este archivo debe estar en api/ para que Vercel lo incluya en el bundle.
+ * 
  * primary: Path relativo en tv-logo/tv-logos repo
  * fallback: URL alternativa si primary no está disponible
  * local: Nombre del archivo local (sin extensión .webp)
  */
+
+// Importar lista de logos disponibles (generada por scripts/download-logos.ts)
+// @ts-ignore - JSON import
+import availableLogos from "../public/logos/available.json";
 
 export interface LogoSource {
   primary: string | null;
@@ -19,6 +25,10 @@ export const logoMap: Record<string, LogoSource> = {
     local: "dazn"
   },
   "DAZN 1": {
+    primary: "countries/spain/dazn-1-es.png",
+    local: "dazn-1"
+  },
+  "DAZN 1 Bar": {
     primary: "countries/spain/dazn-1-es.png",
     local: "dazn-1"
   },
@@ -131,6 +141,12 @@ export const logoMap: Record<string, LogoSource> = {
     local: "eurosport-2"
   },
 
+  // ============ REGIONALES ============
+  "Navarra TV": {
+    primary: "countries/spain/navarra-television-es.png",
+    local: "navarra-tv"
+  },
+
   // ============ CANALES SIN LOGO EN TV-LOGOS ============
   "Courtside 1891": {
     primary: null,
@@ -155,35 +171,9 @@ export const logoMap: Record<string, LogoSource> = {
 export const TV_LOGOS_BASE = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/";
 
 /**
- * Lista de logos disponibles (se carga desde available.json)
- * Este archivo es generado por scripts/download-logos.ts
+ * Set de logos disponibles (cargado desde available.json)
  */
-let availableLogos: Set<string> | null = null;
-
-/**
- * Carga la lista de logos disponibles (sync para uso en API)
- */
-function loadAvailableLogos(): Set<string> {
-  if (availableLogos) return availableLogos;
-  
-  try {
-    // Intentar cargar desde el archivo
-    const fs = require("fs");
-    const path = require("path");
-    const filePath = path.join(process.cwd(), "public/logos/available.json");
-    
-    if (fs.existsSync(filePath)) {
-      const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-      availableLogos = new Set(data);
-    } else {
-      availableLogos = new Set();
-    }
-  } catch {
-    availableLogos = new Set();
-  }
-  
-  return availableLogos;
-}
+const availableSet = new Set<string>(availableLogos as string[]);
 
 /**
  * Obtiene el nombre del archivo de logo para un canal
@@ -205,8 +195,7 @@ export function getLogoPath(channelName: string): string | null {
   const filename = getLogoFilename(channelName);
   if (!filename) return null;
   
-  const available = loadAvailableLogos();
-  if (!available.has(filename)) return null;
+  if (!availableSet.has(filename)) return null;
   
   return `/logos/${filename}.webp`;
 }

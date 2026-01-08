@@ -10,7 +10,7 @@
 
 import sharp from "sharp";
 import { existsSync } from "fs";
-import { logoMap, TV_LOGOS_BASE, type LogoSource } from "../src/logoMap";
+import { logoMap, TV_LOGOS_BASE, type LogoSource } from "../api/logoMap";
 
 const LOGOS_DIR = "./public/logos";
 const WEBP_QUALITY = 80;
