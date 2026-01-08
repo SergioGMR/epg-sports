@@ -6,7 +6,9 @@
     "start": "bun index.js",
     "combine": "bun run combine.ts",
     "shuffle": "bun run shuffle.ts",
+    "download-logos": "bun run scripts/download-logos.ts",
     "run-all": "bun run run-all.ts",
+    "dev": "bun run --watch dev-server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
@@ -15,7 +17,9 @@
   },
   "dependencies": {
     "@types/node": "^22.8.6",
-    "playwright": "^1.51.1"
+    "hono": "^4.6.0",
+    "playwright": "^1.51.1",
+    "sharp": "^0.33.5"
   },
   "postInstall": "tsc"
 }

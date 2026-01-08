@@ -6,86 +6,176 @@ EPG Sports automatiza la captura, normalización y enriquecimiento de la guía d
 - Rastrea múltiples deportes en paralelo con Playwright y genera un histórico homogéneo.
 - Limpia y estructura la información de horarios, competiciones, equipos y canales de TV.
 - Consolida todos los eventos en un único fichero y los enriquece con enlaces externos de emisión.
-- Expone endpoints sencillos (`api/getMatches.ts`, `api/getEvents.ts`) para integrarse con plataformas como Vercel o Next.js.
+- **API unificada con Hono** para consumir datos de partidos, eventos y canales.
+- **Logos de canales optimizados** en formato WebP, servidos como assets estáticos.
 
 ## Tecnologías y dependencias
 - Bun 1.1+ o Node.js 18+ (el proyecto está configurado como módulo ES).
 - Playwright para la automatización del navegador (Chromium headless).
-- TypeScript para los scripts auxiliares (`combine.ts`, `shuffle.ts`).
+- **Hono** como framework web para la API.
+- **Sharp** para optimización de imágenes a WebP.
+- TypeScript para los scripts auxiliares.
 
 ## Requisitos previos
 1. Instalar las dependencias del proyecto.
    ```bash
-   # Recomendado
    bun install
-
-   # Alternativa con npm
-   npm install
    ```
 2. Instalar los binarios de Playwright la primera vez.
    ```bash
    bunx playwright install chromium
-   # o
-   npx playwright install chromium
    ```
 
-## Flujo de trabajo recomendado
-1. **Scraping de cada deporte**  
-   Ejecuta `bun index.js` (o `node index.js`) para generar los ficheros `preData/<deporte>.json`. El proceso tarda unos minutos porque navega secuencialmente por todos los deportes definidos en `index.js`.
-2. **Unificación de la programación**  
-   Lanza `bun run combine.ts` (o `bunx tsx combine.ts`) para consolidar todos los partidos en `data/allMatches.json`, ordenados cronológicamente.
-3. **Enriquecimiento con enlaces externos**  
-   Ejecuta `bun run shuffle.ts` para descargar los canales externos desde `https://elplan.vercel.app/api/getData` y añadir sus `links` correspondientes en `data/updatedMatches.json`.
-4. **Consumir los datos**  
-   Reutiliza los ficheros de `data/` directamente o sirve los endpoints `api/getMatches.ts` y `api/getEvents.ts` en tu plataforma preferida.
+## Flujo de trabajo (Pipeline)
 
-> Consejo: puedes usar el script `bun start` como atajo para el scraping (corre `bun index.js`).
+Ejecutar todo el pipeline con un solo comando:
+```bash
+bun run run-all
+```
 
-## Formato de los datos generados
-- `preData/<deporte>.json` y `data/allMatches.json` comparten la misma estructura `{ matches: [...] }`.
-- `data/updatedMatches.json` contiene un array con los partidos enriquecidos (incluye `links` cuando hay coincidencias).
+Este comando ejecuta secuencialmente:
+1. **Scraping** (`index.js`): Genera `preData/<deporte>.json`
+2. **Unificación** (`combine.ts`): Consolida en `data/allMatches.json`
+3. **Enriquecimiento** (`shuffle.ts`): Añade enlaces AceStream en `data/updatedMatches.json`
+4. **Extracción de canales** (`enrichChannels.ts`): Genera `data/updatedChannels.json`
+5. **Descarga de logos** (`scripts/download-logos.ts`): Descarga y optimiza logos en `public/logos/`
+
+## API Endpoints
+
+La API está construida con [Hono](https://hono.dev/) y desplegada en Vercel.
+
+### `GET /api`
+Información general de la API.
+
+```json
+{
+  "name": "EPG Sports API",
+  "version": "1.0.0",
+  "description": "API de programacion deportiva con enlaces AceStream",
+  "endpoints": {
+    "GET /api": "Informacion de la API",
+    "GET /api/health": "Estado del servicio",
+    "GET /api/matches": "Partidos programados (sin enlaces)",
+    "GET /api/events": "Eventos con enlaces de streaming",
+    "GET /api/channels": "Canales con logos y enlaces AceStream"
+  },
+  "source": "futbolenlatv.es",
+  "lastUpdated": "2026-01-08T00:14:06.975Z"
+}
+```
+
+### `GET /api/health`
+Estado del servicio y estadísticas.
+
+```json
+{
+  "status": "ok",
+  "timestamp": "2026-01-08T15:00:00.000Z",
+  "data": {
+    "totalMatches": 79,
+    "totalEvents": 69,
+    "totalChannels": 24
+  }
+}
+```
+
+### `GET /api/matches`
+Partidos programados (sin enlaces de streaming).
+
+### `GET /api/events`
+Eventos con enlaces de streaming AceStream.
+
+### `GET /api/channels`
+Canales con logos y enlaces AceStream.
+
+```json
+{
+  "channels": [
+    {
+      "name": "DAZN",
+      "logo": "/logos/dazn.webp",
+      "links": ["acestream://..."]
+    },
+    {
+      "name": "Courtside 1891",
+      "logo": null,
+      "links": ["acestream://..."]
+    }
+  ],
+  "totalChannels": 24,
+  "lastUpdated": "2026-01-08T00:14:06.975Z"
+}
+```
+
+### Logos de canales
+Los logos están disponibles como assets estáticos en `/logos/{nombre}.webp`.
+
+Ejemplo: `/logos/dazn.webp`, `/logos/movistar-plus.webp`
+
+Los logos se cachean con `Cache-Control: public, max-age=31536000, immutable`.
+
+## Desarrollo local
+
+```bash
+# Iniciar servidor de desarrollo
+bun run dev
+
+# El servidor estará disponible en http://localhost:3000
+```
+
+## Estructura del proyecto
+```text
+├─ api/
+│  └─ index.ts           # App Hono (endpoints de la API)
+├─ data/
+│  ├─ allMatches.json    # Partidos consolidados
+│  ├─ updatedMatches.json # Partidos con enlaces
+│  └─ updatedChannels.json # Canales con enlaces
+├─ preData/              # Resultado bruto del scraping por deporte
+├─ public/
+│  └─ logos/             # Logos de canales (WebP optimizados)
+├─ scripts/
+│  └─ download-logos.ts  # Script de descarga de logos
+├─ src/
+│  └─ logoMap.ts         # Mapeo canal -> archivo de logo
+├─ index.js              # Script principal de scraping
+├─ combine.ts            # Une y ordena partidos
+├─ shuffle.ts            # Añade enlaces AceStream
+├─ enrichChannels.ts     # Extrae canales únicos
+├─ run-all.ts            # Orquestador del pipeline
+├─ dev-server.ts         # Servidor de desarrollo local
+├─ vercel.json           # Configuración de Vercel
+└─ package.json
+```
+
+## Formato de los datos
 
 ```json
 {
   "sport": "futbol",
-  "date": { "hour": "00:00", "day": "03/11/2024", "zone": "Europe/Madrid" },
-  "details": { "competition": "Primera Federación Femenina" },
+  "date": { "hour": "21:00", "day": "08/01/2026", "zone": "Europe/Madrid" },
+  "details": { "competition": "LaLiga", "round": "Jornada 18" },
   "teams": {
-    "local": { "name": "Cacereño Femenino", "image": "https://..." },
-    "visitor": { "name": "At. Baleares Femenino", "image": "https://..." }
+    "local": { "name": "Real Madrid", "image": "https://..." },
+    "visitor": { "name": "Barcelona", "image": "https://..." }
   },
-  "channels": ["Zapi Teleporte"],
+  "channels": ["DAZN", "M+ LaLiga"],
   "event": {
-    "name": "Cacereño Femenino - At. Baleares Femenino",
-    "description": "Cacereño Femenino - At. Baleares Femenino el domingo, 3 de noviembre de 2024 a las 0:00",
-    "startDate": "2024-11-02T23:00:00",
-    "duration": "T1H45M"
+    "name": "Real Madrid - Barcelona",
+    "startDate": "2026-01-08T20:00:00Z"
   },
-  "links": ["acestream://..."]  // Solo presente tras ejecutar shuffle.ts
+  "links": ["acestream://..."]
 }
-```
-
-## Endpoints incluidos
-- `api/getMatches.ts`: responde con `data/allMatches.json`. Pensado para exponer la parrilla consolidada.
-- `api/getEvents.ts`: responde con `data/updatedMatches.json`, ideal si necesitas los enlaces agregados.
-
-Ambos archivos siguen la convención de los API Routes de Next.js/Vercel (`req`, `res`) y pueden adaptarse con facilidad a otros entornos.
-
-## Estructura del proyecto
-```text
-├─ api/                 # Endpoints listos para desplegar en serverless
-├─ data/                # Datos normalizados y enriquecidos
-├─ preData/             # Resultado bruto del scraping por deporte
-├─ index.js             # Script principal de scraping con Playwright
-├─ combine.ts           # Une y ordena todos los partidos
-├─ shuffle.ts           # Añade enlaces según los canales disponibles
-└─ index.htm            # Placeholder utilizado durante el desarrollo
 ```
 
 ## Personalización
 - Añade o quita deportes editando la constante `sports` en `index.js`.
 - Ajusta selectores o la lógica de limpieza en `index.js` si cambia la estructura de la web origen.
-- Sustituye la URL de `shuffle.ts` por tu propio servicio de canales si controlas otra fuente de enlaces.
+- Añade nuevos canales en `src/logoMap.ts` para incluir sus logos.
+
+## Ejecución automática (GitHub Actions)
+El pipeline se ejecuta automáticamente cada día a las 00:00 UTC mediante GitHub Actions.
+Los datos actualizados se commitean automáticamente al repositorio.
 
 ## Contribuciones
 1. Haz un fork del repositorio.
