@@ -176,18 +176,15 @@ export const TV_LOGOS_BASE = 'https://raw.githubusercontent.com/tv-logo/tv-logos
 // AVAILABLE_LOGOS_START
 const availableLogos: string[] = [
   'dazn',
-  'dazn-1',
+  'dazn-laliga',
   'laliga-tv',
   'laliga-tv-2',
   'laliga-plus',
   'movistar-vamos',
   'movistar-deportes',
   'movistar-deportes-2',
-  'movistar-laliga',
   'movistar-champions',
   'movistar-plus',
-  'navarra-tv',
-  'nba-league-pass',
   'rtve',
 ];
 // AVAILABLE_LOGOS_END
