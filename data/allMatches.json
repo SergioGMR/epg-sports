@@ -85,7 +85,7 @@
       "sport": "beisbol",
       "date": {
         "hour": "00:00",
-        "day": "09/01/2026",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -94,35 +94,8 @@
       },
       "teams": {
         "local": {
-          "name": "Bravos de Margarita",
-          "image": "https://static.futbolenlatv.com/img/20221021203001-bravos-de-margarita.webp"
-        },
-        "visitor": {
-          "name": "Águilas del Zulia",
-          "image": "https://static.futbolenlatv.com/img/20221021203021-aguilas-del-zulia.webp"
-        }
-      },
-      "channels": [
-        "BeisbolPlay"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "beisbol",
-      "date": {
-        "hour": "00:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LVBP",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Cardenales de Lara",
-          "image": "https://static.futbolenlatv.com/img/20221021203011-cardenales-de-lara.webp"
+          "name": "Navegantes del Magallanes",
+          "image": "https://static.futbolenlatv.com/img/20221021202928-navegantes-del-magallanes.webp"
         },
         "visitor": {
           "name": "Caribes de Anzoátegui",
@@ -136,29 +109,28 @@
       "eventType": "match"
     },
     {
-      "sport": "baloncesto",
+      "sport": "beisbol",
       "date": {
         "hour": "00:30",
-        "day": "09/01/2026",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "NCAA",
+        "competition": "LVBP",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Nebraska",
-          "image": "https://static.futbolenlatv.com/img/20210224190402-nebraska-basketball.webp"
+          "name": "Bravos de Margarita",
+          "image": "https://static.futbolenlatv.com/img/20221021203001-bravos-de-margarita.webp"
         },
         "visitor": {
-          "name": "Michigan State",
-          "image": "https://static.futbolenlatv.com/img/20210204211842-michigan-state-basketball.webp"
+          "name": "Cardenales de Lara",
+          "image": "https://static.futbolenlatv.com/img/20221021203011-cardenales-de-lara.webp"
         }
       },
       "channels": [
-        "DAZN",
-        "DAZN App Gratis"
+        "BeisbolPlay"
       ],
       "event": {},
       "eventType": "match"
@@ -166,26 +138,29 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "01:00",
-        "day": "09/01/2026",
+        "hour": "00:30",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "WTA Torneo de Auckland",
-        "round": "1/4 de Final"
+        "competition": "United Cup",
+        "round": "Semifinal 1"
       },
       "teams": {
         "local": {
-          "name": "M. Linette",
-          "image": "https://static.futbolenlatv.com/img/20140407095238-Polonia.webp"
+          "name": "B. Bencic",
+          "image": "https://static.futbolenlatv.com/img/20130727123327-Suiza.webp"
         },
         "visitor": {
-          "name": "A. Eala",
-          "image": "https://static.futbolenlatv.com/img/20210804203405-alexandra-eala.webp"
+          "name": "E. Mertens",
+          "image": "https://static.futbolenlatv.com/img/20130727123309-Belgica.webp"
         }
       },
       "channels": [
-        "WTA TV"
+        "ATP Tennis TV",
+        "Tennis Channel - Orange TV",
+        "Teledeporte",
+        "RTVE Play"
       ],
       "event": {},
       "eventType": "match"
@@ -194,7 +169,7 @@
       "sport": "baloncesto",
       "date": {
         "hour": "01:00",
-        "day": "09/01/2026",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -203,12 +178,66 @@
       },
       "teams": {
         "local": {
-          "name": "Charlotte Hornets",
-          "image": "https://static.futbolenlatv.com/img/20141024124231-charlotte-hornets.webp"
+          "name": "Orlando Magic",
+          "image": "https://static.futbolenlatv.com/img/20191028090502-orlando-magic.webp"
         },
         "visitor": {
-          "name": "Indiana Pacers",
-          "image": "https://static.futbolenlatv.com/img/20191028090446-indiana-pacers.webp"
+          "name": "Philadelphia 76ers",
+          "image": "https://static.futbolenlatv.com/img/20191028090432-philadelphia-76ers.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Boston Celtics",
+          "image": "https://static.futbolenlatv.com/img/20130808083552-boston-celtics.webp"
+        },
+        "visitor": {
+          "name": "Toronto Raptors",
+          "image": "https://static.futbolenlatv.com/img/20201220190859-toronto-raptors.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Washington Wizards",
+          "image": "https://static.futbolenlatv.com/img/20191028090528-washington-wizards.webp"
+        },
+        "visitor": {
+          "name": "New Orleans Pelicans",
+          "image": "https://static.futbolenlatv.com/img/20141024125153-new-orleans-pelicans.webp"
         }
       },
       "channels": [
@@ -221,7 +250,7 @@
       "sport": "futbol-americano",
       "date": {
         "hour": "01:30",
-        "day": "09/01/2026",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -230,12 +259,12 @@
       },
       "teams": {
         "local": {
-          "name": "Ole Miss",
-          "image": "https://static.futbolenlatv.com/img/20201215174051-ole-miss-basketball.webp"
+          "name": "Indiana Hoosiers",
+          "image": "https://static.futbolenlatv.com/img/20131004095330-indiana-hoosiers.webp"
         },
         "visitor": {
-          "name": "Miami Hurricanes",
-          "image": "https://static.futbolenlatv.com/img/20201209195016-miami-hurricanes-football.webp"
+          "name": "Oregon",
+          "image": "https://static.futbolenlatv.com/img/20160325101508-oregon.webp"
         }
       },
       "channels": [
@@ -245,20 +274,92 @@
       "eventType": "match"
     },
     {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LNB",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Regatas Corrientes",
+          "image": "https://static.futbolenlatv.com/img/20250311173216-regatas-corrientes.webp"
+        },
+        "visitor": {
+          "name": "Racing Club Chivilcoy",
+          "image": "https://static.futbolenlatv.com/img/20250923215615-racing-club-chivilcoy-basquet.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "01:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Brooklyn Nets",
+          "image": "https://static.futbolenlatv.com/img/20130808083530-brooklyn-nets.webp"
+        },
+        "visitor": {
+          "name": "Los Angeles Clippers",
+          "image": "https://static.futbolenlatv.com/img/20191028090717-los-angeles-clippers.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "01:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga 1 Perú",
+        "round": "Sorteo Fixture"
+      },
+      "teams": null,
+      "channels": [
+        "L1 Max YouTube"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
       "sport": "tenis",
       "date": {
         "hour": "02:00",
-        "day": "09/01/2026",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "WTA Torneo de Brisbane",
-        "round": "1/4 de Final"
+        "round": "Semifinal 1"
       },
       "teams": {
         "local": {
-          "name": "E. Rybakina",
-          "image": "https://static.futbolenlatv.com/img/20130727124441-Kazajistan.webp"
+          "name": "A. Sabalenka",
+          "image": "https://static.futbolenlatv.com/img/20130727123407-Bielorrusia.webp"
         },
         "visitor": {
           "name": "K. Muchova",
@@ -272,82 +373,31 @@
       "eventType": "match"
     },
     {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "02:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Chicago Bulls",
-          "image": "https://static.futbolenlatv.com/img/20130808083209-chicago-bulls.webp"
-        },
-        "visitor": {
-          "name": "Miami Heat",
-          "image": "https://static.futbolenlatv.com/img/20130614063349-Miami-Heat.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "02:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "NBA",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Minnesota Timberwolves",
-          "image": "https://static.futbolenlatv.com/img/20201220190912-minnesota-timberwolves.webp"
-        },
-        "visitor": {
-          "name": "Cleveland Cavaliers",
-          "image": "https://static.futbolenlatv.com/img/20191028090553-cleveland-cavaliers.webp"
-        }
-      },
-      "channels": [
-        "NBA League Pass"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
       "sport": "tenis",
       "date": {
-        "hour": "02:30",
-        "day": "09/01/2026",
+        "hour": "02:00",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "WTA Torneo de Auckland",
-        "round": "1/4 de Final"
+        "competition": "United Cup",
+        "round": "Semifinal 1"
       },
       "teams": {
         "local": {
-          "name": "I. Jovic",
-          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
+          "name": "S. Wawrinka",
+          "image": "https://static.futbolenlatv.com/img/20130727123327-Suiza.webp"
         },
         "visitor": {
-          "name": "S. Costoulas",
-          "image": "https://static.futbolenlatv.com/img/20130727123309-Belgica.webp"
+          "name": "Z. Bergs",
+          "image": "https://static.futbolenlatv.com/img/20201019211102-zizou-bergs.webp"
         }
       },
       "channels": [
-        "WTA TV"
+        "ATP Tennis TV",
+        "Tennis Channel - Orange TV",
+        "Teledeporte",
+        "RTVE Play"
       ],
       "event": {},
       "eventType": "match"
@@ -355,27 +405,26 @@
     {
       "sport": "baloncesto",
       "date": {
-        "hour": "02:30",
-        "day": "09/01/2026",
+        "hour": "02:00",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "NCAA",
-        "round": null
+        "competition": "NBA",
+        "round": "Liga Regular"
       },
       "teams": {
         "local": {
-          "name": "Rutgers",
-          "image": "https://static.futbolenlatv.com/img/20201215174122-rutgers-basketball.webp"
+          "name": "Memphis Grizzlies",
+          "image": "https://static.futbolenlatv.com/img/20191028090731-memphis-grizzlies.webp"
         },
         "visitor": {
-          "name": "Illinois",
-          "image": "https://static.futbolenlatv.com/img/20201203212358-illinois-basketball.webp"
+          "name": "Oklahoma C. Thunder",
+          "image": "https://static.futbolenlatv.com/img/20130808083758-oc-thunder.webp"
         }
       },
       "channels": [
-        "DAZN",
-        "DAZN App Gratis"
+        "NBA League Pass"
       ],
       "event": {},
       "eventType": "match"
@@ -384,7 +433,7 @@
       "sport": "baloncesto",
       "date": {
         "hour": "03:00",
-        "day": "09/01/2026",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -393,12 +442,39 @@
       },
       "teams": {
         "local": {
-          "name": "Utah Jazz",
-          "image": "https://static.futbolenlatv.com/img/20191028090654-utah-jazz.webp"
+          "name": "Phoenix Suns",
+          "image": "https://static.futbolenlatv.com/img/20130808083815-phoenix-suns.webp"
         },
         "visitor": {
-          "name": "Dallas Mavericks",
-          "image": "https://static.futbolenlatv.com/img/20130808083728-dallas-mavericks.webp"
+          "name": "New York Knicks",
+          "image": "https://static.futbolenlatv.com/img/20130808083641-new-york-knicks.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "03:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Denver Nuggets",
+          "image": "https://static.futbolenlatv.com/img/20191028090619-denver-nuggets.webp"
+        },
+        "visitor": {
+          "name": "Atlanta Hawks",
+          "image": "https://static.futbolenlatv.com/img/20191028090539-atlanta-hawks.webp"
         }
       },
       "channels": [
@@ -410,72 +486,18 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "03:30",
-        "day": "09/01/2026",
+        "hour": "04:00",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Torneo de Brisbane",
-        "round": "1/4 de Final"
+        "round": "Semifinal 1"
       },
       "teams": {
         "local": {
           "name": "A. Kovacevic",
           "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
-        },
-        "visitor": {
-          "name": "G. Mpetshi Perricard",
-          "image": "https://static.futbolenlatv.com/img/20130124053558_francia.webp"
-        }
-      },
-      "channels": [
-        "ATP Tennis TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "03:30",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "WTA Torneo de Brisbane",
-        "round": "1/4 de Final"
-      },
-      "teams": {
-        "local": {
-          "name": "A. Sabalenka",
-          "image": "https://static.futbolenlatv.com/img/20130727123407-Bielorrusia.webp"
-        },
-        "visitor": {
-          "name": "M. Keys",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
-        }
-      },
-      "channels": [
-        "WTA TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "06:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Torneo de Brisbane",
-        "round": "1/4 de Final"
-      },
-      "teams": {
-        "local": {
-          "name": "R. Collignon",
-          "image": "https://static.futbolenlatv.com/img/20130727123309-Belgica.webp"
         },
         "visitor": {
           "name": "B. Nakashima",
@@ -491,13 +513,210 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "06:00",
-        "day": "09/01/2026",
+        "hour": "04:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "United Cup",
+        "round": "Semifinal 1"
+      },
+      "teams": {
+        "local": {
+          "name": "Suiza",
+          "image": "https://static.futbolenlatv.com/img/20130410124433_suiza.webp"
+        },
+        "visitor": {
+          "name": "Bélgica",
+          "image": "https://static.futbolenlatv.com/img/20130121023530_belgica.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV",
+        "Tennis Channel - Orange TV",
+        "Teledeporte",
+        "RTVE Play"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "04:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Portland Trail Blazers",
+          "image": "https://static.futbolenlatv.com/img/20191028090608-portland-trail-blazers.webp"
+        },
+        "visitor": {
+          "name": "Houston Rockets",
+          "image": "https://static.futbolenlatv.com/img/20191028090908-houston-rockets.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "04:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Golden State Warriors",
+          "image": "https://static.futbolenlatv.com/img/20130808083832-gs-warriors.webp"
+        },
+        "visitor": {
+          "name": "Sacramento Kings",
+          "image": "https://static.futbolenlatv.com/img/20201220190924-sacramento-kings.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "04:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "A-League Women",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Wellington Phoenix Women",
+          "image": "https://static.futbolenlatv.com/img/20220906193754-wellington-phoenix.webp"
+        },
+        "visitor": {
+          "name": "Melbourne City Women",
+          "image": "https://static.futbolenlatv.com/img/20150717031722-melbourne-city.webp"
+        }
+      },
+      "channels": [
+        "A-Leagues YouTube"
+      ],
+      "event": {
+        "name": "Wellington Phoenix Women - Melbourne City Women",
+        "description": "Wellington Phoenix Women - Melbourne City Women el sábado, 10 de enero de 2026 a las 4:00",
+        "startDate": "2026-01-10T03:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "04:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Los Angeles Lakers",
+          "image": "https://static.futbolenlatv.com/img/20130808083216-la-lakers.webp"
+        },
+        "visitor": {
+          "name": "Milwaukee Bucks",
+          "image": "https://static.futbolenlatv.com/img/20191028090415-milwaukee-bucks.webp"
+        }
+      },
+      "channels": [
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "05:30",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "WTA Torneo de Auckland",
-        "round": "1/4 de Final"
+        "round": "Semifinal 1"
+      },
+      "teams": {
+        "local": {
+          "name": "A. Eala",
+          "image": "https://static.futbolenlatv.com/img/20210804203405-alexandra-eala.webp"
+        },
+        "visitor": {
+          "name": "X. Wang",
+          "image": "https://static.futbolenlatv.com/img/20130727124235-China.webp"
+        }
+      },
+      "channels": [
+        "WTA TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "06:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WTA Torneo de Brisbane",
+        "round": "Semifinal 2"
+      },
+      "teams": {
+        "local": {
+          "name": "J. Pegula",
+          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+        },
+        "visitor": {
+          "name": "M. Kostyuk",
+          "image": "https://static.futbolenlatv.com/img/20130727124612-Ucrania.webp"
+        }
+      },
+      "channels": [
+        "WTA TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "07:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "WTA Torneo de Auckland",
+        "round": "Semifinal 2"
       },
       "teams": {
         "local": {
@@ -505,8 +724,8 @@
           "image": "https://static.futbolenlatv.com/img/20130727124612-Ucrania.webp"
         },
         "visitor": {
-          "name": "S. Kartal",
-          "image": "https://static.futbolenlatv.com/img/20130625051918-reino-unido.webp"
+          "name": "I. Jovic",
+          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
         }
       },
       "channels": [
@@ -516,28 +735,93 @@
       "eventType": "match"
     },
     {
-      "sport": "tenis",
+      "sport": "futbol",
       "date": {
-        "hour": "06:00",
-        "day": "09/01/2026",
+        "hour": "07:00",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "WTA Torneo de Brisbane",
-        "round": "1/4 de Final"
+        "competition": "A-League",
+        "round": null
       },
       "teams": {
         "local": {
-          "name": "L. Samsonova",
-          "image": "https://static.futbolenlatv.com/img/20250820063441-liudmila-samsonova.webp"
+          "name": "Melbourne Victory",
+          "image": "https://static.futbolenlatv.com/img/20130716043228-melbourne-victory.webp"
         },
         "visitor": {
-          "name": "J. Pegula",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+          "name": "Western Sydney",
+          "image": "https://static.futbolenlatv.com/img/20140326100732-western-sydney.webp"
         }
       },
       "channels": [
-        "WTA TV"
+        "A-Leagues YouTube"
+      ],
+      "event": {
+        "name": "Melbourne Victory - Western Sydney",
+        "description": "Melbourne Victory - Western Sydney el sábado, 10 de enero de 2026 a las 7:00",
+        "startDate": "2026-01-10T06:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "07:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "A-League Women",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Newcastle Jets Women",
+          "image": "https://static.futbolenlatv.com/img/20151222015422-newcastle-jets.webp"
+        },
+        "visitor": {
+          "name": "Central Coast Mariners Women",
+          "image": "https://static.futbolenlatv.com/img/20140410105101-central-coast-mariners.webp"
+        }
+      },
+      "channels": [
+        "A-Leagues YouTube"
+      ],
+      "event": {
+        "name": "Newcastle Jets Women - Central Coast Mariners Women",
+        "description": "Newcastle Jets Women - Central Coast Mariners Women el sábado, 10 de enero de 2026 a las 7:00",
+        "startDate": "2026-01-10T06:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "07:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "United Cup",
+        "round": "Semifinal 2"
+      },
+      "teams": {
+        "local": {
+          "name": "T. Fritz",
+          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+        },
+        "visitor": {
+          "name": "H. Hurkacz",
+          "image": "https://static.futbolenlatv.com/img/20130727123454-polonia.webp"
+        }
+      },
+      "channels": [
+        "ATP Tennis TV",
+        "Tennis Channel - Orange TV"
       ],
       "event": {},
       "eventType": "match"
@@ -545,13 +829,43 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "06:30",
-        "day": "09/01/2026",
+        "hour": "08:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Partido de Exhibición",
+        "round": "Seúl (Corea del Sur)"
+      },
+      "teams": {
+        "local": {
+          "name": "C. Alcaraz",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+        },
+        "visitor": {
+          "name": "J. Sinner",
+          "image": "https://static.futbolenlatv.com/img/20130727123437-Italia.webp"
+        }
+      },
+      "channels": [
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite",
+        "M+ Deportes"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "tenis",
+      "date": {
+        "hour": "08:30",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Torneo de Hong Kong",
-        "round": "1/4 de Final"
+        "round": "Semifinal 1"
       },
       "teams": {
         "local": {
@@ -559,8 +873,8 @@
           "image": "https://static.futbolenlatv.com/img/20200727124913-gran-trittico-lombardo.webp"
         },
         "visitor": {
-          "name": "C. Wong",
-          "image": "https://static.futbolenlatv.com/img/20131008054226-hong-kong.webp"
+          "name": "A. Rublev",
+          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
         }
       },
       "channels": [
@@ -572,18 +886,18 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "07:30",
-        "day": "09/01/2026",
+        "hour": "09:00",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "United Cup",
-        "round": "1/4 de Final"
+        "round": "Semifinal 2"
       },
       "teams": {
         "local": {
-          "name": "M. Joint",
-          "image": "https://static.futbolenlatv.com/img/20130727123414-Australia.webp"
+          "name": "C. Gauff",
+          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
         },
         "visitor": {
           "name": "I. Swiatek",
@@ -600,18 +914,18 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "08:00",
-        "day": "09/01/2026",
+        "hour": "09:30",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Torneo de Brisbane",
-        "round": "1/4 de Final"
+        "round": "Semifinal 2"
       },
       "teams": {
         "local": {
-          "name": "S. Korda",
-          "image": "https://static.futbolenlatv.com/img/20200528104619-motoamerica-superbike.webp"
+          "name": "D. Medvedev",
+          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
         },
         "visitor": {
           "name": "A. Michelsen",
@@ -625,124 +939,10 @@
       "eventType": "match"
     },
     {
-      "sport": "tenis",
-      "date": {
-        "hour": "08:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Torneo de Hong Kong",
-        "round": "1/4 de Final"
-      },
-      "teams": {
-        "local": {
-          "name": "A. Rublev",
-          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
-        },
-        "visitor": {
-          "name": "N. Borges",
-          "image": "https://static.futbolenlatv.com/img/20200813162320-open-loule.webp"
-        }
-      },
-      "channels": [
-        "ATP Tennis TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "09:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "United Cup",
-        "round": "1/4 de Final"
-      },
-      "teams": {
-        "local": {
-          "name": "A. De Miñaur",
-          "image": "https://static.futbolenlatv.com/img/20130727123414-Australia.webp"
-        },
-        "visitor": {
-          "name": "H. Hurkacz",
-          "image": "https://static.futbolenlatv.com/img/20130727123454-polonia.webp"
-        }
-      },
-      "channels": [
-        "ATP Tennis TV",
-        "Tennis Channel - Orange TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "09:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "A-League Women",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Sydney FC Women",
-          "image": "https://static.futbolenlatv.com/img/20171008093928-sydney.webp"
-        },
-        "visitor": {
-          "name": "Adelaide Utd. Women",
-          "image": "https://static.futbolenlatv.com/img/20140706051737-adelaide-utd.webp"
-        }
-      },
-      "channels": [
-        "A-Leagues YouTube"
-      ],
-      "event": {
-        "name": "Sydney FC Women - Adelaide Utd. Women",
-        "description": "Sydney FC Women - Adelaide Utd. Women el viernes, 9 de enero de 2026 a las 9:00",
-        "startDate": "2026-01-09T08:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "tenis",
-      "date": {
-        "hour": "09:30",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "WTA Torneo de Brisbane",
-        "round": "1/4 de Final"
-      },
-      "teams": {
-        "local": {
-          "name": "M. Andreeva",
-          "image": "https://static.futbolenlatv.com/img/20250902200003-mirra-andreeva.webp"
-        },
-        "visitor": {
-          "name": "M. Kostyuk",
-          "image": "https://static.futbolenlatv.com/img/20130727124612-Ucrania.webp"
-        }
-      },
-      "channels": [
-        "WTA TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
       "sport": "futbol",
       "date": {
         "hour": "09:35",
-        "day": "09/01/2026",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
@@ -751,21 +951,21 @@
       },
       "teams": {
         "local": {
-          "name": "Brisbane Roar",
-          "image": "https://static.futbolenlatv.com/img/20150224110651-brisbane-roar.webp"
+          "name": "Macarthur FC",
+          "image": "https://static.futbolenlatv.com/img/20201211182311-macarthur-fc.webp"
         },
         "visitor": {
-          "name": "Auckland FC",
-          "image": "https://static.futbolenlatv.com/img/20240807092831-auckland-fc.webp"
+          "name": "Sydney FC",
+          "image": "https://static.futbolenlatv.com/img/20171008093928-sydney.webp"
         }
       },
       "channels": [
         "A-Leagues YouTube"
       ],
       "event": {
-        "name": "Brisbane Roar - Auckland FC",
-        "description": "Brisbane Roar - Auckland FC el viernes, 9 de enero de 2026 a las 9:35",
-        "startDate": "2026-01-09T08:35:00",
+        "name": "Macarthur FC - Sydney FC",
+        "description": "Macarthur FC - Sydney FC el sábado, 10 de enero de 2026 a las 9:35",
+        "startDate": "2026-01-10T08:35:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -773,22 +973,22 @@
     {
       "sport": "tenis",
       "date": {
-        "hour": "11:00",
-        "day": "09/01/2026",
+        "hour": "10:00",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Torneo de Brisbane",
-        "round": "1/4 de Final"
+        "competition": "Torneo de Hong Kong",
+        "round": "Semifinal 2"
       },
       "teams": {
         "local": {
-          "name": "D. Medvedev",
-          "image": "https://static.futbolenlatv.com/img/20130727123153-Rusia.webp"
+          "name": "M. Giron",
+          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
         },
         "visitor": {
-          "name": "K. Majchrzak",
-          "image": "https://static.futbolenlatv.com/img/20130727123454-polonia.webp"
+          "name": "A. Bublik",
+          "image": "https://static.futbolenlatv.com/img/20130727124441-Kazajistan.webp"
         }
       },
       "channels": [
@@ -798,20 +998,49 @@
       "eventType": "match"
     },
     {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "10:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Femenina",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Poio Pescamar FS",
+          "image": "https://static.futbolenlatv.com/img/20201218092947-poio-pescamar-fs.webp"
+        },
+        "visitor": {
+          "name": "FSF O Castro",
+          "image": "https://static.futbolenlatv.com/img/20230824112301-fsf-o-castro-futsal.webp"
+        }
+      },
+      "channels": [
+        "RFEF.es",
+        "Teledeporte",
+        "RTVE Play"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
       "sport": "tenis",
       "date": {
         "hour": "11:00",
-        "day": "09/01/2026",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "United Cup",
-        "round": "1/4 de Final"
+        "round": "Semifinal 2"
       },
       "teams": {
         "local": {
-          "name": "Australia",
-          "image": "https://static.futbolenlatv.com/img/20130501101148_australia.webp"
+          "name": "Estados Unidos",
+          "image": "https://static.futbolenlatv.com/img/20130226100540_eeuu.webp"
         },
         "visitor": {
           "name": "Polonia",
@@ -826,753 +1055,68 @@
       "eventType": "match"
     },
     {
-      "sport": "tenis",
-      "date": {
-        "hour": "11:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Torneo de Hong Kong",
-        "round": "1/4 de Final"
-      },
-      "teams": {
-        "local": {
-          "name": "J. Shang",
-          "image": "https://static.futbolenlatv.com/img/20130221121827_china.webp"
-        },
-        "visitor": {
-          "name": "A. Bublik",
-          "image": "https://static.futbolenlatv.com/img/20130727124441-Kazajistan.webp"
-        }
-      },
-      "channels": [
-        "ATP Tennis TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
       "sport": "futbol",
       "date": {
-        "hour": "12:00",
-        "day": "09/01/2026",
+        "hour": "11:45",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "A-League Women",
+        "competition": "A-League",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Perth Glory Women",
+          "name": "Perth Glory",
           "image": "https://static.futbolenlatv.com/img/20140705101816-perth-glory.webp"
         },
         "visitor": {
-          "name": "Western Sydney Women",
-          "image": "https://static.futbolenlatv.com/img/20140326100732-western-sydney.webp"
+          "name": "Central Coast Mariners",
+          "image": "https://static.futbolenlatv.com/img/20140410105101-central-coast-mariners.webp"
         }
       },
       "channels": [
         "A-Leagues YouTube"
       ],
       "event": {
-        "name": "Perth Glory Women - Western Sydney Women",
-        "description": "Perth Glory Women - Western Sydney Women el viernes, 9 de enero de 2026 a las 12:00",
-        "startDate": "2026-01-09T11:00:00",
+        "name": "Perth Glory - Central Coast Mariners",
+        "description": "Perth Glory - Central Coast Mariners el sábado, 10 de enero de 2026 a las 11:45",
+        "startDate": "2026-01-10T10:45:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
     },
     {
-      "sport": "tenis",
-      "date": {
-        "hour": "12:30",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Torneo de Hong Kong",
-        "round": "1/4 de Final"
-      },
-      "teams": {
-        "local": {
-          "name": "M. Giron",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
-        },
-        "visitor": {
-          "name": "M. Mmoh",
-          "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
-        }
-      },
-      "channels": [
-        "ATP Tennis TV"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
       "sport": "futbol",
       "date": {
-        "hour": "14:25",
-        "day": "09/01/2026",
+        "hour": "12:00",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Bahrain Premier League",
+        "competition": "Liga F",
         "round": null
       },
       "teams": {
         "local": {
-          "name": "Al Khalidiya FC",
-          "image": "https://static.futbolenlatv.com/img/20220114091447-al-khalidiya-fc.webp"
+          "name": "Alhama CF",
+          "image": "https://static.futbolenlatv.com/img/20251017163231-alhama-cf.webp"
         },
         "visitor": {
-          "name": "Al Najma",
-          "image": "https://static.futbolenlatv.com/img/20180908121618-al-najma-hb.webp"
+          "name": "Eibar Femenino",
+          "image": "https://static.futbolenlatv.com/img/20190221063155-Eibar.webp"
         }
       },
       "channels": [
-        "FANSEAT"
-      ],
-      "event": {
-        "name": "Al Khalidiya FC - Al Najma",
-        "description": "Al Khalidiya FC - Al Najma el viernes, 9 de enero de 2026 a las 14:25",
-        "startDate": "2026-01-09T13:25:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "15:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "AFC U23 Asian Cup",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Kirguistán",
-          "image": "https://static.futbolenlatv.com/img/20140519093750-kirguizistan.webp"
-        },
-        "visitor": {
-          "name": "Vietnam",
-          "image": "https://static.futbolenlatv.com/img/20130709081744-vietnam.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "Kirguistán - Vietnam",
-        "description": "Kirguistán - Vietnam el viernes, 9 de enero de 2026 a las 15:00",
-        "startDate": "2026-01-09T14:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "17:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Bahrain Premier League",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Bahrain SC",
-          "image": "https://static.futbolenlatv.com/img/20240923101708-bahrain-sc.webp"
-        },
-        "visitor": {
-          "name": "Al Riffa",
-          "image": "https://static.futbolenlatv.com/img/20130410092415_al-riffa.webp"
-        }
-      },
-      "channels": [
-        "FANSEAT"
-      ],
-      "event": {
-        "name": "Bahrain SC - Al Riffa",
-        "description": "Bahrain SC - Al Riffa el viernes, 9 de enero de 2026 a las 17:00",
-        "startDate": "2026-01-09T16:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "17:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa Africana de Naciones",
-        "round": "1/4 de Final"
-      },
-      "teams": {
-        "local": {
-          "name": "Mali",
-          "image": "https://static.futbolenlatv.com/img/20130103114840_mali.webp"
-        },
-        "visitor": {
-          "name": "Senegal",
-          "image": "https://static.futbolenlatv.com/img/20130716094920-senegal.webp"
-        }
-      },
-      "channels": [
-        "Movistar Plus+ : VER PARTIDO",
-        "M+ #Vamos Bar 2",
-        "M+ Liga de Campeones"
-      ],
-      "event": {
-        "name": "Mali - Senegal",
-        "description": "Mali - Senegal el viernes, 9 de enero de 2026 a las 17:00",
-        "startDate": "2026-01-09T16:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "17:30",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "AFC U23 Asian Cup",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Jordania",
-          "image": "https://static.futbolenlatv.com/img/20130304045112_jordania.webp"
-        },
-        "visitor": {
-          "name": "Arabia Saudí",
-          "image": "https://static.futbolenlatv.com/img/20130730010609-arabia-saudi.webp"
-        }
-      },
-      "channels": [
-        "OneFootball"
-      ],
-      "event": {
-        "name": "Jordania - Arabia Saudí",
-        "description": "Jordania - Arabia Saudí el viernes, 9 de enero de 2026 a las 17:30",
-        "startDate": "2026-01-09T16:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "18:30",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Saudi Pro League",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Al Kholood",
-          "image": "https://static.futbolenlatv.com/img/20231003181910-al-kholood-club.webp"
-        },
-        "visitor": {
-          "name": "Al-Ittihad Jeddah Club",
-          "image": "https://static.futbolenlatv.com/img/20220416144007-al-ittihad-club-jeddah.webp"
-        }
-      },
-      "channels": [
-        "M+ Vamos 2",
-        "M+ Liga de Campeones 2"
-      ],
-      "event": {
-        "name": "Al Kholood - Al-Ittihad Jeddah Club",
-        "description": "Al Kholood - Al-Ittihad Jeddah Club el viernes, 9 de enero de 2026 a las 18:30",
-        "startDate": "2026-01-09T17:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "19:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga U",
-        "round": "Play-Out"
-      },
-      "teams": {
-        "local": {
-          "name": "San Pablo Burgos B",
-          "image": "https://static.futbolenlatv.com/img/20190925100606-san-pablo-burgos.webp"
-        },
-        "visitor": {
-          "name": "Valencia Basket B",
-          "image": "https://static.futbolenlatv.com/img/20130803090213-valencia-basket.webp"
-        }
-      },
-      "channels": [
-        "Liga U YouTube",
-        "Teledeporte",
-        "RTVE Play"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "19:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Euroliga",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Zalgiris Kaunas",
-          "image": "https://static.futbolenlatv.com/img/20240318163809-zalgiris-kaunas.webp"
-        },
-        "visitor": {
-          "name": "Crvena Zvezda MTS Belgrade",
-          "image": "https://static.futbolenlatv.com/img/20130716013658-kk-estrella-roja.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes 3"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "19:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera Federación",
-        "round": "Grupo 2"
-      },
-      "teams": {
-        "local": {
-          "name": "Sevilla At.",
-          "image": "https://static.futbolenlatv.com/img/20121219074201_sevilla-at.webp"
-        },
-        "visitor": {
-          "name": "Villarreal B",
-          "image": "https://static.futbolenlatv.com/img/20131007021135-villarreal.webp"
-        }
-      },
-      "channels": [
-        "LaLiga+ Plus",
-        "TV FootballClub",
-        "Primera Federación"
-      ],
-      "event": {
-        "name": "Sevilla At. - Villarreal B",
-        "description": "Sevilla At. - Villarreal B el viernes, 9 de enero de 2026 a las 19:00",
-        "startDate": "2026-01-09T18:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol-sala",
-      "date": {
-        "hour": "20:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera Federación Futsal",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Osasuna Magna",
-          "image": "https://static.futbolenlatv.com/img/20170821102632-deportivo-xota.webp"
-        },
-        "visitor": {
-          "name": "O Parrulo Ferrol",
-          "image": "https://static.futbolenlatv.com/img/20131016055906-o-parrulo-ferrol.webp"
-        }
-      },
-      "channels": [
-        "LaLiga+ Plus"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Basketball Champions League",
-        "round": "Play-In"
-      },
-      "teams": {
-        "local": {
-          "name": "Cholet Basket",
-          "image": "https://static.futbolenlatv.com/img/20231002161002-cholet-basket.webp"
-        },
-        "visitor": {
-          "name": "Tofas Bursa",
-          "image": "https://static.futbolenlatv.com/img/20171013023116-tofas-bursa.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "Courtside 1891"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Copa Africana de Naciones",
-        "round": "1/4 de Final"
-      },
-      "teams": {
-        "local": {
-          "name": "Camerún",
-          "image": "https://static.futbolenlatv.com/img/20130528114257-Camerun.webp"
-        },
-        "visitor": {
-          "name": "Marruecos",
-          "image": "https://static.futbolenlatv.com/img/20130103114910_marruecos.webp"
-        }
-      },
-      "channels": [
-        "M+ Vamos",
-        "Movistar+ Lite",
-        "M+ #Vamos Bar 2",
-        "M+ #Vamos Bar",
-        "M+ Liga de Campeones"
-      ],
-      "event": {
-        "name": "Camerún - Marruecos",
-        "description": "Camerún - Marruecos el viernes, 9 de enero de 2026 a las 20:00",
-        "startDate": "2026-01-09T19:00:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:15",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Euroliga",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Olympiacos Piraeus",
-          "image": "https://static.futbolenlatv.com/img/20130716014130-olympiacos-bc.webp"
-        },
-        "visitor": {
-          "name": "FC Bayern Basketball",
-          "image": "https://static.futbolenlatv.com/img/20150901052257-fc-bayern-basketball.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes 5"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:30",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Euroliga",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "AX Olimpia Milano",
-          "image": "https://static.futbolenlatv.com/img/20180129060055-ax-olimpia-milano.webp"
-        },
-        "visitor": {
-          "name": "Anadolu Efes Istanbul",
-          "image": "https://static.futbolenlatv.com/img/20191001065117-anadolu-efes-istanbul.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes 4",
-        "M+ Deportes 6"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:30",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Euroliga",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Barça Basket",
-          "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
-        },
-        "visitor": {
-          "name": "BC Partizan Beograd",
-          "image": "https://static.futbolenlatv.com/img/20180818103738-bc-partizan-beograd.webp"
-        }
-      },
-      "channels": [
-        "Movistar Plus+ : VER PARTIDO",
-        "M+ Deportes"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "20:30",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Euroliga",
-        "round": "Liga Regular"
-      },
-      "teams": {
-        "local": {
-          "name": "Baskonia",
-          "image": "https://static.futbolenlatv.com/img/20160907115208-baskonia.webp"
-        },
-        "visitor": {
-          "name": "ASVEL Lyon-Villeurbanne",
-          "image": "https://static.futbolenlatv.com/img/20191001070955-asvel-lyon-villeurbanne.webp"
-        }
-      },
-      "channels": [
-        "M+ Deportes 2"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:30",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "LaLiga Hypermotion",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Cádiz CF",
-          "image": "https://static.futbolenlatv.com/img/20121227104020_cadiz.webp"
-        },
-        "visitor": {
-          "name": "Sporting Gijón",
-          "image": "https://static.futbolenlatv.com/img/20121226111815_sporting-gijon.webp"
-        }
-      },
-      "channels": [
-        "LALIGA TV Hypermotion : VER PARTIDO",
-        "DAZN",
-        "LaLiga TV M2"
-      ],
-      "event": {
-        "name": "Cádiz CF - Sporting Gijón",
-        "description": "Cádiz CF - Sporting Gijón el viernes, 9 de enero de 2026 a las 20:30",
-        "startDate": "2026-01-09T19:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "20:30",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Bundesliga",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Eintracht Frankfurt",
-          "image": "https://static.futbolenlatv.com/img/20121218101809_eintracht-frankfurt.webp"
-        },
-        "visitor": {
-          "name": "Borussia Dortmund",
-          "image": "https://static.futbolenlatv.com/img/20121218101655_borussia-dortmund.webp"
-        }
-      },
-      "channels": [
-        "DAZN",
-        "LaLiga TV M3"
-      ],
-      "event": {
-        "name": "Eintracht Frankfurt - Borussia Dortmund",
-        "description": "Eintracht Frankfurt - Borussia Dortmund el viernes, 9 de enero de 2026 a las 20:30",
-        "startDate": "2026-01-09T19:30:00",
-        "duration": "T1H45M"
-      },
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol-sala",
-      "date": {
-        "hour": "20:45",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Primera Federación Futsal",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Industrias Santa Coloma",
-          "image": "https://static.futbolenlatv.com/img/20130716052051-Marfil-Santa-Coloma.webp"
-        },
-        "visitor": {
-          "name": "Viña Albali Valdepeñas",
-          "image": "https://static.futbolenlatv.com/img/20180924092419-vina-albali-valdepenas.webp"
-        }
-      },
-      "channels": [
-        "LaLiga+ Plus"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "automovilismo",
-      "date": {
-        "hour": "21:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Rally Dakar",
-        "round": "Etapa 6"
-      },
-      "teams": null,
-      "channels": [
-        "HBO MAX",
-        "DAZN",
-        "Teledeporte",
-        "RTVE Play",
-        "Esport3",
-        "Eurosport 1"
-      ],
-      "event": {},
-      "eventType": "tournament"
-    },
-    {
-      "sport": "baloncesto",
-      "date": {
-        "hour": "21:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "Liga U",
-        "round": "Play-Out"
-      },
-      "teams": {
-        "local": {
-          "name": "BAXI Manresa B",
-          "image": "https://static.futbolenlatv.com/img/20180803094908-baxi-manresa.webp"
-        },
-        "visitor": {
-          "name": "UCAM Murcia CB B",
-          "image": "https://static.futbolenlatv.com/img/20190925101456-ucam-murcia.webp"
-        }
-      },
-      "channels": [
-        "Liga U YouTube"
-      ],
-      "event": {},
-      "eventType": "match"
-    },
-    {
-      "sport": "futbol",
-      "date": {
-        "hour": "21:00",
-        "day": "09/01/2026",
-        "zone": "Europe/Madrid"
-      },
-      "details": {
-        "competition": "La Liga EA Sports",
-        "round": null
-      },
-      "teams": {
-        "local": {
-          "name": "Getafe",
-          "image": "https://static.futbolenlatv.com/img/20190410094027-getafe.webp"
-        },
-        "visitor": {
-          "name": "Real Sociedad",
-          "image": "https://static.futbolenlatv.com/img/20121218093019_real-sociedad.webp"
-        }
-      },
-      "channels": [
-        "DAZN LaLiga",
         "DAZN",
         "DAZN App Gratis",
-        "LaLiga TV Bar",
-        "Hellotickets"
+        "DAZN 2",
+        "DAZN 2 Bar"
       ],
       "event": {
-        "name": "Getafe - Real Sociedad",
-        "description": "Getafe - Real Sociedad el viernes, 9 de enero de 2026 a las 21:00",
-        "startDate": "2026-01-09T20:00:00",
+        "name": "Alhama CF - Eibar Femenino",
+        "description": "Alhama CF - Eibar Femenino el sábado, 10 de enero de 2026 a las 12:00",
+        "startDate": "2026-01-10T11:00:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1580,34 +1124,196 @@
     {
       "sport": "futbol",
       "date": {
-        "hour": "22:15",
-        "day": "09/01/2026",
+        "hour": "12:00",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Primera Federación",
-        "round": "Grupo 1"
+        "competition": "Liga F",
+        "round": null
       },
       "teams": {
         "local": {
-          "name": "CD Tenerife",
-          "image": "https://static.futbolenlatv.com/img/20121219073149_tenerife.webp"
+          "name": "At. Madrid Femenino",
+          "image": "https://static.futbolenlatv.com/img/20240712124213-atletico-madrid-femenino.webp"
         },
         "visitor": {
-          "name": "CF Talavera",
-          "image": "https://static.futbolenlatv.com/img/20121219073126_talavera-de-la-reina.webp"
+          "name": "Real Sociedad Femenino",
+          "image": "https://static.futbolenlatv.com/img/20151130110758-real-sociedad.webp"
         }
       },
       "channels": [
-        "LaLiga+ Plus",
-        "TV FootballClub",
-        "Primera Federación",
-        "CMMPlay"
+        "DAZN",
+        "DAZN App Gratis",
+        "DAZN 1 Bar",
+        "GOL",
+        "GolStadium",
+        "ETB1"
       ],
       "event": {
-        "name": "CD Tenerife - CF Talavera",
-        "description": "CD Tenerife - CF Talavera el viernes, 9 de enero de 2026 a las 22:15",
-        "startDate": "2026-01-09T21:15:00",
+        "name": "At. Madrid Femenino - Real Sociedad Femenino",
+        "description": "At. Madrid Femenino - Real Sociedad Femenino el sábado, 10 de enero de 2026 a las 12:00",
+        "startDate": "2026-01-10T11:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "12:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Tercera Federación",
+        "round": "Grupo 12"
+      },
+      "teams": {
+        "local": {
+          "name": "Real Unión Tenerife",
+          "image": "https://static.futbolenlatv.com/img/20201030121357-real-union-tenerife.webp"
+        },
+        "visitor": {
+          "name": "UD Lanzarote",
+          "image": "https://static.futbolenlatv.com/img/20180519062812-ud-lanzarote.webp"
+        }
+      },
+      "channels": [
+        "Movidadeportivatv YouTube"
+      ],
+      "event": {
+        "name": "Real Unión Tenerife - UD Lanzarote",
+        "description": "Real Unión Tenerife - UD Lanzarote el sábado, 10 de enero de 2026 a las 12:00",
+        "startDate": "2026-01-10T11:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "12:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Vasca Cadete",
+        "round": "Grupo 4"
+      },
+      "teams": {
+        "local": {
+          "name": "Real Sociedad Academy",
+          "image": "https://static.futbolenlatv.com/img/20151130110758-real-sociedad.webp"
+        },
+        "visitor": {
+          "name": "Antiguoko FC",
+          "image": "https://static.futbolenlatv.com/img/20210514212149-antiguoko-fc.webp"
+        }
+      },
+      "channels": [
+        "Real Sociedad TV YouTube"
+      ],
+      "event": {
+        "name": "Real Sociedad Academy - Antiguoko FC",
+        "description": "Real Sociedad Academy - Antiguoko FC el sábado, 10 de enero de 2026 a las 12:30",
+        "startDate": "2026-01-10T11:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "12:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC U23 Asian Cup",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Líbano",
+          "image": "https://static.futbolenlatv.com/img/20130530102039-Libano.webp"
+        },
+        "visitor": {
+          "name": "Corea del Sur",
+          "image": "https://static.futbolenlatv.com/img/20130507121229_coreadelsur.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Líbano - Corea del Sur",
+        "description": "Líbano - Corea del Sur el sábado, 10 de enero de 2026 a las 12:30",
+        "startDate": "2026-01-10T11:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "12:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC U23 Asian Cup",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "EAU",
+          "image": "https://static.futbolenlatv.com/img/20130723025224-emirato-arabes-unido.webp"
+        },
+        "visitor": {
+          "name": "Japón",
+          "image": "https://static.futbolenlatv.com/img/20130208071559_japon.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "EAU - Japón",
+        "description": "EAU - Japón el sábado, 10 de enero de 2026 a las 12:30",
+        "startDate": "2026-01-10T11:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "12:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "División Honor Cadete",
+        "round": "Grupo 1 (Madrid)"
+      },
+      "teams": {
+        "local": {
+          "name": "Real Madrid Academy",
+          "image": "https://static.futbolenlatv.com/img/20160725122745-real-madrid.webp"
+        },
+        "visitor": {
+          "name": "Fuenlabrada Academy",
+          "image": "https://static.futbolenlatv.com/img/20121226110046_fuenlabrada.webp"
+        }
+      },
+      "channels": [
+        "Real Madrid TV"
+      ],
+      "event": {
+        "name": "Real Madrid Academy - Fuenlabrada Academy",
+        "description": "Real Madrid Academy - Fuenlabrada Academy el sábado, 10 de enero de 2026 a las 12:30",
+        "startDate": "2026-01-10T11:30:00",
         "duration": "T1H45M"
       },
       "eventType": "match"
@@ -1634,7 +1340,1908 @@
         }
       },
       "channels": [
+        "RTVE Play",
         "Esport3"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "13:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FA Women's Super League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Arsenal Femenino",
+          "image": "https://static.futbolenlatv.com/img/20151020084333-arsenal.webp"
+        },
+        "visitor": {
+          "name": "Man Utd Femenino",
+          "image": "https://static.futbolenlatv.com/img/20150916064627-Manchester-United.webp"
+        }
+      },
+      "channels": [
+        "M+ Ellas Vamos : VER PARTIDO",
+        "Movistar+ Lite"
+      ],
+      "event": {
+        "name": "Arsenal Femenino - Man Utd Femenino",
+        "description": "Arsenal Femenino - Man Utd Femenino el sábado, 10 de enero de 2026 a las 13:30",
+        "startDate": "2026-01-10T12:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "14:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Futsal",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Movistar Inter",
+          "image": "https://static.futbolenlatv.com/img/20130614064315-Inter-Movistar.webp"
+        },
+        "visitor": {
+          "name": "ElPozo Murcia",
+          "image": "https://static.futbolenlatv.com/img/20130614064254-El-Pozo-Murcia.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus",
+        "Teledeporte",
+        "RTVE Play"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "La Liga EA Sports",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Real Oviedo",
+          "image": "https://static.futbolenlatv.com/img/20121219073017_oviedo.webp"
+        },
+        "visitor": {
+          "name": "Real Betis",
+          "image": "https://static.futbolenlatv.com/img/20130924050626-real-betis.webp"
+        }
+      },
+      "channels": [
+        "M+ LALIGA",
+        "M+ LALIGA HDR",
+        "LaLiga TV Bar",
+        "Hellotickets"
+      ],
+      "event": {
+        "name": "Real Oviedo - Real Betis",
+        "description": "Real Oviedo - Real Betis el sábado, 10 de enero de 2026 a las 14:00",
+        "startDate": "2026-01-10T13:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Hypermotion",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Mirandés",
+          "image": "https://static.futbolenlatv.com/img/20121218094206_mirandes.webp"
+        },
+        "visitor": {
+          "name": "UD Almería",
+          "image": "https://static.futbolenlatv.com/img/20190417031741-almeria.webp"
+        }
+      },
+      "channels": [
+        "LALIGA TV Hypermotion : VER PARTIDO",
+        "DAZN",
+        "LaLiga TV M2"
+      ],
+      "event": {
+        "name": "Mirandés - UD Almería",
+        "description": "Mirandés - UD Almería el sábado, 10 de enero de 2026 a las 14:00",
+        "startDate": "2026-01-10T13:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación",
+        "round": "Grupo 2"
+      },
+      "teams": {
+        "local": {
+          "name": "CE Europa",
+          "image": "https://static.futbolenlatv.com/img/20130526121754-CE-Europa.webp"
+        },
+        "visitor": {
+          "name": "Alcorcón",
+          "image": "https://static.futbolenlatv.com/img/20171124045105-alcorcon.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus",
+        "TV FootballClub",
+        "Primera Federación"
+      ],
+      "event": {
+        "name": "CE Europa - Alcorcón",
+        "description": "CE Europa - Alcorcón el sábado, 10 de enero de 2026 a las 14:00",
+        "startDate": "2026-01-10T13:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:25",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Bahrain Premier League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "A'Ali SC",
+          "image": "https://static.futbolenlatv.com/img/20240923101718-aali-sc.webp"
+        },
+        "visitor": {
+          "name": "Al Muharraq",
+          "image": "https://static.futbolenlatv.com/img/20130422093956_al-muharraq.webp"
+        }
+      },
+      "channels": [
+        "FANSEAT"
+      ],
+      "event": {
+        "name": "A'Ali SC - Al Muharraq",
+        "description": "A'Ali SC - Al Muharraq el sábado, 10 de enero de 2026 a las 14:25",
+        "startDate": "2026-01-10T13:25:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "14:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "División Honor Infantil",
+        "round": "Grupo 1 (Cataluña)"
+      },
+      "teams": {
+        "local": {
+          "name": "Espanyol Academy",
+          "image": "https://static.futbolenlatv.com/img/20150904084220-espanyol.webp"
+        },
+        "visitor": {
+          "name": "L'Hospitalet Academy",
+          "image": "https://static.futbolenlatv.com/img/20121227022857_hospitalet.webp"
+        }
+      },
+      "channels": [
+        "RCD Espanyol YouTube",
+        "Facebook RCD Espanyol",
+        "Twitter @RCDE_La21"
+      ],
+      "event": {
+        "name": "Espanyol Academy - L'Hospitalet Academy",
+        "description": "Espanyol Academy - L'Hospitalet Academy el sábado, 10 de enero de 2026 a las 14:30",
+        "startDate": "2026-01-10T13:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC U23 Asian Cup",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Irán",
+          "image": "https://static.futbolenlatv.com/img/20130528074944-Iran.webp"
+        },
+        "visitor": {
+          "name": "Uzbekistán",
+          "image": "https://static.futbolenlatv.com/img/20130507121244_uzbekistan.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Irán - Uzbekistán",
+        "description": "Irán - Uzbekistán el sábado, 10 de enero de 2026 a las 15:00",
+        "startDate": "2026-01-10T14:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga F",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Athletic Femenino",
+          "image": "https://static.futbolenlatv.com/img/20151130110649-athletic.webp"
+        },
+        "visitor": {
+          "name": "FC Badalona Women",
+          "image": "https://static.futbolenlatv.com/img/20240923181334-levante-las-planas.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis",
+        "DAZN 1",
+        "DAZN 1 Bar"
+      ],
+      "event": {
+        "name": "Athletic Femenino - FC Badalona Women",
+        "description": "Athletic Femenino - FC Badalona Women el sábado, 10 de enero de 2026 a las 15:00",
+        "startDate": "2026-01-10T14:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Italiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Udinese",
+          "image": "https://static.futbolenlatv.com/img/20121219035331_udinese.webp"
+        },
+        "visitor": {
+          "name": "Pisa Sporting Club",
+          "image": "https://static.futbolenlatv.com/img/20220907172213-ac-pisa-1909.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Udinese - Pisa Sporting Club",
+        "description": "Udinese - Pisa Sporting Club el sábado, 10 de enero de 2026 a las 15:00",
+        "startDate": "2026-01-10T14:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Italiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Como 1907",
+          "image": "https://static.futbolenlatv.com/img/20211013183924-calcio-como.webp"
+        },
+        "visitor": {
+          "name": "Bologna",
+          "image": "https://static.futbolenlatv.com/img/20121219035023_bologna.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Como 1907 - Bologna",
+        "description": "Como 1907 - Bologna el sábado, 10 de enero de 2026 a las 15:00",
+        "startDate": "2026-01-10T14:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Bundesliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Freiburg",
+          "image": "https://static.futbolenlatv.com/img/20121218101924_friburgo.webp"
+        },
+        "visitor": {
+          "name": "Hamburger SV",
+          "image": "https://static.futbolenlatv.com/img/20121218101947_hamburgo.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Freiburg - Hamburger SV",
+        "description": "Freiburg - Hamburger SV el sábado, 10 de enero de 2026 a las 15:30",
+        "startDate": "2026-01-10T14:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Bundesliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Werder Bremen",
+          "image": "https://static.futbolenlatv.com/img/20121218102210_werder-bremen.webp"
+        },
+        "visitor": {
+          "name": "Hoffenheim",
+          "image": "https://static.futbolenlatv.com/img/20121218101547_1899-hoffenheim.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Werder Bremen - Hoffenheim",
+        "description": "Werder Bremen - Hoffenheim el sábado, 10 de enero de 2026 a las 15:30",
+        "startDate": "2026-01-10T14:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Bundesliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "1. FC Union Berlin",
+          "image": "https://static.futbolenlatv.com/img/20130126035044_union_berlin.webp"
+        },
+        "visitor": {
+          "name": "Mainz 05",
+          "image": "https://static.futbolenlatv.com/img/20121218102018_mainz-05.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "1. FC Union Berlin - Mainz 05",
+        "description": "1. FC Union Berlin - Mainz 05 el sábado, 10 de enero de 2026 a las 15:30",
+        "startDate": "2026-01-10T14:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Bundesliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "St. Pauli",
+          "image": "https://static.futbolenlatv.com/img/20130126051232_stpauli.webp"
+        },
+        "visitor": {
+          "name": "RB Leipzig",
+          "image": "https://static.futbolenlatv.com/img/20190912052302-rb-leipzig.webp"
+        }
+      },
+      "channels": [
+        "APLAZADO"
+      ],
+      "event": {
+        "name": "St. Pauli - RB Leipzig",
+        "description": "St. Pauli - RB Leipzig el sábado, 10 de enero de 2026 a las 15:30",
+        "startDate": "2026-01-10T14:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Bundesliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Heidenheim",
+          "image": "https://static.futbolenlatv.com/img/20240923181052-fc-heidenheim-1846.webp"
+        },
+        "visitor": {
+          "name": "FC Köln",
+          "image": "https://static.futbolenlatv.com/img/20130126051303_colonia.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Heidenheim - FC Köln",
+        "description": "Heidenheim - FC Köln el sábado, 10 de enero de 2026 a las 15:30",
+        "startDate": "2026-01-10T14:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "15:45",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Tercera Federación",
+        "round": "Grupo 8"
+      },
+      "teams": {
+        "local": {
+          "name": "Virgen del Camino",
+          "image": "https://static.futbolenlatv.com/img/20180920054001-virgen-del-camino.webp"
+        },
+        "visitor": {
+          "name": "CD Mojados",
+          "image": "https://static.futbolenlatv.com/img/20240804103144-cd-mojados.webp"
+        }
+      },
+      "channels": [
+        "Doble V Televisión YouTube"
+      ],
+      "event": {
+        "name": "Virgen del Camino - CD Mojados",
+        "description": "Virgen del Camino - CD Mojados el sábado, 10 de enero de 2026 a las 15:45",
+        "startDate": "2026-01-10T14:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Futsal",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Noia Portus Apostoli FS",
+          "image": "https://static.futbolenlatv.com/img/20201214210722-noia-futbol-sala.webp"
+        },
+        "visitor": {
+          "name": "Ribera Navarra FS",
+          "image": "https://static.futbolenlatv.com/img/20130716053831-ribera-navarra-fs.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Femenina",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "AE Penya Esplugues",
+          "image": "https://static.futbolenlatv.com/img/20180901114045-ae-penya-esplugues.webp"
+        },
+        "visitor": {
+          "name": "Roldán FSF",
+          "image": "https://static.futbolenlatv.com/img/20220427201904-roldan-fsf.webp"
+        }
+      },
+      "channels": [
+        "RFEF.es"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Femenina",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Atlético Torcal FS",
+          "image": "https://static.futbolenlatv.com/img/20230823170326-atletico-torcal-fs.webp"
+        },
+        "visitor": {
+          "name": "AD Ceuta FS",
+          "image": "https://static.futbolenlatv.com/img/20161124011351-ad-ceuta.webp"
+        }
+      },
+      "channels": [
+        "RFEF.es"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Aldershot",
+          "image": "https://static.futbolenlatv.com/img/20141114105002-aldershot.webp"
+        },
+        "visitor": {
+          "name": "Solihull Moors",
+          "image": "https://static.futbolenlatv.com/img/20220906184418-solihull-moors-fc.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Aldershot - Solihull Moors",
+        "description": "Aldershot - Solihull Moors el sábado, 10 de enero de 2026 a las 16:00",
+        "startDate": "2026-01-10T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Sutton United",
+          "image": "https://static.futbolenlatv.com/img/20160804094805-sutton-united.webp"
+        },
+        "visitor": {
+          "name": "York City",
+          "image": "https://static.futbolenlatv.com/img/20140506065550-york-city.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Sutton United - York City",
+        "description": "Sutton United - York City el sábado, 10 de enero de 2026 a las 16:00",
+        "startDate": "2026-01-10T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Woking",
+          "image": "https://static.futbolenlatv.com/img/20220906184348-woking-fc.webp"
+        },
+        "visitor": {
+          "name": "Hartlepool United",
+          "image": "https://static.futbolenlatv.com/img/20130416055425_hartlepool.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Woking - Hartlepool United",
+        "description": "Woking - Hartlepool United el sábado, 10 de enero de 2026 a las 16:00",
+        "startDate": "2026-01-10T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Segunda Federación",
+        "round": "Grupo 1"
+      },
+      "teams": {
+        "local": {
+          "name": "Deportivo Fabril",
+          "image": "https://static.futbolenlatv.com/img/20121218091015_deportivo.webp"
+        },
+        "visitor": {
+          "name": "Coruxo",
+          "image": "https://static.futbolenlatv.com/img/20121226105938_coruxo.webp"
+        }
+      },
+      "channels": [
+        "RCDeportivo TV YouTube",
+        "TVG Web"
+      ],
+      "event": {
+        "name": "Deportivo Fabril - Coruxo",
+        "description": "Deportivo Fabril - Coruxo el sábado, 10 de enero de 2026 a las 16:00",
+        "startDate": "2026-01-10T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League South",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Dorking Wanderers",
+          "image": "https://static.futbolenlatv.com/img/20220725163745-dorking-wanderers.webp"
+        },
+        "visitor": {
+          "name": "Hornchurch FC",
+          "image": "https://static.futbolenlatv.com/img/20210517110655-hornchurch-fc.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Dorking Wanderers - Hornchurch FC",
+        "description": "Dorking Wanderers - Hornchurch FC el sábado, 10 de enero de 2026 a las 16:00",
+        "startDate": "2026-01-10T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Élite Cataluña",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "San Juan At. Montcada",
+          "image": "https://static.futbolenlatv.com/img/20240531222157-san-juan-at-montcada.webp"
+        },
+        "visitor": {
+          "name": "CD San ​​Mauro",
+          "image": "https://static.futbolenlatv.com/img/20230521194046-cd-san-mauro.webp"
+        }
+      },
+      "channels": [
+        "La Xarxa+"
+      ],
+      "event": {
+        "name": "San Juan At. Montcada - CD San ​​Mauro",
+        "description": "San Juan At. Montcada - CD San ​​Mauro el sábado, 10 de enero de 2026 a las 16:00",
+        "startDate": "2026-01-10T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Tercera Federación",
+        "round": "Grupo 9"
+      },
+      "teams": {
+        "local": {
+          "name": "Melilla B",
+          "image": "https://static.futbolenlatv.com/img/20121219074137_melilla.webp"
+        },
+        "visitor": {
+          "name": "Huétor Tájar",
+          "image": "https://static.futbolenlatv.com/img/20190906020403-huetor-tajar.webp"
+        }
+      },
+      "channels": [
+        "TV FootballClub"
+      ],
+      "event": {
+        "name": "Melilla B - Huétor Tájar",
+        "description": "Melilla B - Huétor Tájar el sábado, 10 de enero de 2026 a las 16:00",
+        "startDate": "2026-01-10T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FA Cup",
+        "round": "3ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "Manchester City",
+          "image": "https://static.futbolenlatv.com/img/20160723124026-manchester-city.webp"
+        },
+        "visitor": {
+          "name": "Exeter City",
+          "image": "https://static.futbolenlatv.com/img/20200625193204-exeter-city.webp"
+        }
+      },
+      "channels": [
+        "* SIN TV EN DIRECTO *"
+      ],
+      "event": {
+        "name": "Manchester City - Exeter City",
+        "description": "Manchester City - Exeter City el sábado, 10 de enero de 2026 a las 16:00",
+        "startDate": "2026-01-10T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "División Honor Juvenil",
+        "round": "Grupo 3"
+      },
+      "teams": {
+        "local": {
+          "name": "Real Zaragoza Academy",
+          "image": "https://static.futbolenlatv.com/img/20160125014737-Zaragoza.webp"
+        },
+        "visitor": {
+          "name": "FC Barcelona Academy",
+          "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
+        }
+      },
+      "channels": [
+        "Aragón Deporte"
+      ],
+      "event": {
+        "name": "Real Zaragoza Academy - FC Barcelona Academy",
+        "description": "Real Zaragoza Academy - FC Barcelona Academy el sábado, 10 de enero de 2026 a las 16:00",
+        "startDate": "2026-01-10T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "División Honor Juvenil",
+        "round": "Grupo 1"
+      },
+      "teams": {
+        "local": {
+          "name": "Racing Santander Academy",
+          "image": "https://static.futbolenlatv.com/img/20150909094609-Racing.webp"
+        },
+        "visitor": {
+          "name": "Roces Academy",
+          "image": "https://static.futbolenlatv.com/img/20171016112401-roces.webp"
+        }
+      },
+      "channels": [
+        "Real Racing Club YouTube",
+        "SPORTPUBLIC TV YouTube"
+      ],
+      "event": {
+        "name": "Racing Santander Academy - Roces Academy",
+        "description": "Racing Santander Academy - Roces Academy el sábado, 10 de enero de 2026 a las 16:00",
+        "startDate": "2026-01-10T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "División Honor Juvenil",
+        "round": "Grupo 3"
+      },
+      "teams": {
+        "local": {
+          "name": "UD Montecarlo",
+          "image": "https://static.futbolenlatv.com/img/20210608100323-ud-montecarlo.webp"
+        },
+        "visitor": {
+          "name": "Espanyol Academy",
+          "image": "https://static.futbolenlatv.com/img/20150904084220-espanyol.webp"
+        }
+      },
+      "channels": [
+        "Aragón Deporte"
+      ],
+      "event": {
+        "name": "UD Montecarlo - Espanyol Academy",
+        "description": "UD Montecarlo - Espanyol Academy el sábado, 10 de enero de 2026 a las 16:00",
+        "startDate": "2026-01-10T15:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "balonmano",
+      "date": {
+        "hour": "16:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "EHF Women's European League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "VfL Oldenburg HB",
+          "image": "https://static.futbolenlatv.com/img/20131017101928-vfl-oldenburg.webp"
+        },
+        "visitor": {
+          "name": "Lokomotiva Zagreb",
+          "image": "https://static.futbolenlatv.com/img/20140929023024-lokomotiva-zagreb.webp"
+        }
+      },
+      "channels": [
+        "EHF TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:15",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "La Liga EA Sports",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Villarreal",
+          "image": "https://static.futbolenlatv.com/img/20121218093727_villareal.webp"
+        },
+        "visitor": {
+          "name": "Alavés",
+          "image": "https://static.futbolenlatv.com/img/20210127191233-alaves-esports.webp"
+        }
+      },
+      "channels": [
+        "DAZN LaLiga",
+        "DAZN",
+        "LaLiga TV Bar",
+        "Hellotickets"
+      ],
+      "event": {
+        "name": "Villarreal - Alavés",
+        "description": "Villarreal - Alavés el sábado, 10 de enero de 2026 a las 16:15",
+        "startDate": "2026-01-10T15:15:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:15",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Hypermotion",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Real Sociedad B",
+          "image": "https://static.futbolenlatv.com/img/20121218093019_real-sociedad.webp"
+        },
+        "visitor": {
+          "name": "Albacete",
+          "image": "https://static.futbolenlatv.com/img/20121227103702_albacete.webp"
+        }
+      },
+      "channels": [
+        "LALIGA TV Hypermotion : VER PARTIDO",
+        "DAZN",
+        "LaLiga TV M2"
+      ],
+      "event": {
+        "name": "Real Sociedad B - Albacete",
+        "description": "Real Sociedad B - Albacete el sábado, 10 de enero de 2026 a las 16:15",
+        "startDate": "2026-01-10T15:15:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:15",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Hypermotion",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "FC Andorra",
+          "image": "https://static.futbolenlatv.com/img/20211013183455-fc-andorra.webp"
+        },
+        "visitor": {
+          "name": "Cultural Leonesa",
+          "image": "https://static.futbolenlatv.com/img/20130821100807-cultural-leonesa.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "LALIGA TV Hypermotion 2 : VER PARTIDO",
+        "LaLiga TV M3"
+      ],
+      "event": {
+        "name": "FC Andorra - Cultural Leonesa",
+        "description": "FC Andorra - Cultural Leonesa el sábado, 10 de enero de 2026 a las 16:15",
+        "startDate": "2026-01-10T15:15:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:15",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación",
+        "round": "Grupo 1"
+      },
+      "teams": {
+        "local": {
+          "name": "Racing Ferrol",
+          "image": "https://static.futbolenlatv.com/img/20121219085055_racing-ferrol.webp"
+        },
+        "visitor": {
+          "name": "Bilbao Athletic",
+          "image": "https://static.futbolenlatv.com/img/20121218093611_bilbao.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus",
+        "TV FootballClub",
+        "Primera Federación"
+      ],
+      "event": {
+        "name": "Racing Ferrol - Bilbao Athletic",
+        "description": "Racing Ferrol - Bilbao Athletic el sábado, 10 de enero de 2026 a las 16:15",
+        "startDate": "2026-01-10T15:15:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:15",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación",
+        "round": "Grupo 1"
+      },
+      "teams": {
+        "local": {
+          "name": "Arenas Club",
+          "image": "https://static.futbolenlatv.com/img/20130618124744-arenas-club.webp"
+        },
+        "visitor": {
+          "name": "RM Castilla",
+          "image": "https://static.futbolenlatv.com/img/20160725122745-real-madrid.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus",
+        "TV FootballClub"
+      ],
+      "event": {
+        "name": "Arenas Club - RM Castilla",
+        "description": "Arenas Club - RM Castilla el sábado, 10 de enero de 2026 a las 16:15",
+        "startDate": "2026-01-10T15:15:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:15",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación",
+        "round": "Grupo 1"
+      },
+      "teams": {
+        "local": {
+          "name": "Arenteiro",
+          "image": "https://static.futbolenlatv.com/img/20180417102724-arenteiro.webp"
+        },
+        "visitor": {
+          "name": "Lugo",
+          "image": "https://static.futbolenlatv.com/img/20121218094035_lugo.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus",
+        "TV FootballClub",
+        "TVG2",
+        "LaLiga TV M4"
+      ],
+      "event": {
+        "name": "Arenteiro - Lugo",
+        "description": "Arenteiro - Lugo el sábado, 10 de enero de 2026 a las 16:15",
+        "startDate": "2026-01-10T15:15:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "16:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Femenina",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Alcorcón FS",
+          "image": "https://static.futbolenlatv.com/img/20160707112332-alcorcon.webp"
+        },
+        "visitor": {
+          "name": "CD Chiloeches",
+          "image": "https://static.futbolenlatv.com/img/20250902084928-cd-chiloeches.webp"
+        }
+      },
+      "channels": [
+        "RFEF.es"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "automovilismo",
+      "date": {
+        "hour": "16:40",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FIA Fórmula E",
+        "round": "Ciudad de México (México)"
+      },
+      "teams": null,
+      "channels": [
+        "HBO MAX",
+        "Twitch SoyMotor",
+        "RTVE Play"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "16:45",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "División Honor Cadete",
+        "round": "Grupo 1 (Cataluña)"
+      },
+      "teams": {
+        "local": {
+          "name": "Espanyol Academy",
+          "image": "https://static.futbolenlatv.com/img/20150904084220-espanyol.webp"
+        },
+        "visitor": {
+          "name": "Girona Academy",
+          "image": "https://static.futbolenlatv.com/img/20240214173657-girona-cantera.webp"
+        }
+      },
+      "channels": [
+        "RCD Espanyol YouTube",
+        "Facebook RCD Espanyol",
+        "Twitter @RCDE_La21"
+      ],
+      "event": {
+        "name": "Espanyol Academy - Girona Academy",
+        "description": "Espanyol Academy - Girona Academy el sábado, 10 de enero de 2026 a las 16:45",
+        "startDate": "2026-01-10T15:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "17:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Futsal",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Córdoba FS",
+          "image": "https://static.futbolenlatv.com/img/20200916195010-cordoba-cf-futsal.webp"
+        },
+        "visitor": {
+          "name": "Palma Futsal",
+          "image": "https://static.futbolenlatv.com/img/20140923043256-palma-futsal.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "17:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Femenina",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Ourense FSF",
+          "image": "https://static.futbolenlatv.com/img/20200616224125-ourense-fsf.webp"
+        },
+        "visitor": {
+          "name": "Burela FS",
+          "image": "https://static.futbolenlatv.com/img/20211014091654-club-deportivo-burela-futbol-sala.webp"
+        }
+      },
+      "channels": [
+        "RFEF.es"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "17:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Femenina Endesa",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Spar Girona",
+          "image": "https://static.futbolenlatv.com/img/20191215120328-spar-citylift-girona.webp"
+        },
+        "visitor": {
+          "name": "Joventut Badalona",
+          "image": "https://static.futbolenlatv.com/img/20190925101350-joventut.webp"
+        }
+      },
+      "channels": [
+        "Baloncesto España YouTube",
+        "FEB TV",
+        "Esport3"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Segunda Federación",
+        "round": "Grupo 2"
+      },
+      "teams": {
+        "local": {
+          "name": "Ejea",
+          "image": "https://static.futbolenlatv.com/img/20170306095035-ejea.webp"
+        },
+        "visitor": {
+          "name": "Gernika",
+          "image": "https://static.futbolenlatv.com/img/20150602012828-gernika-club.webp"
+        }
+      },
+      "channels": [
+        "Aragón Deporte"
+      ],
+      "event": {
+        "name": "Ejea - Gernika",
+        "description": "Ejea - Gernika el sábado, 10 de enero de 2026 a las 17:00",
+        "startDate": "2026-01-10T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Bahrain Premier League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Malkiya Club",
+          "image": "https://static.futbolenlatv.com/img/20240923101728-malkiya-club.webp"
+        },
+        "visitor": {
+          "name": "Sitra Club",
+          "image": "https://static.futbolenlatv.com/img/20240407205606-sitra-club.webp"
+        }
+      },
+      "channels": [
+        "FANSEAT"
+      ],
+      "event": {
+        "name": "Malkiya Club - Sitra Club",
+        "description": "Malkiya Club - Sitra Club el sábado, 10 de enero de 2026 a las 17:00",
+        "startDate": "2026-01-10T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga F",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Real Madrid Femenino",
+          "image": "https://static.futbolenlatv.com/img/20200916192901-real-madrid-femenino.webp"
+        },
+        "visitor": {
+          "name": "Sevilla FC Femenino",
+          "image": "https://static.futbolenlatv.com/img/20150914072039-Sevilla.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "M+ Vamos 2",
+        "DAZN App Gratis",
+        "DAZN 2",
+        "DAZN 2 Bar"
+      ],
+      "event": {
+        "name": "Real Madrid Femenino - Sevilla FC Femenino",
+        "description": "Real Madrid Femenino - Sevilla FC Femenino el sábado, 10 de enero de 2026 a las 17:00",
+        "startDate": "2026-01-10T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Tercera Federación",
+        "round": "Grupo 6"
+      },
+      "teams": {
+        "local": {
+          "name": "Jove Español",
+          "image": "https://static.futbolenlatv.com/img/20140930105004-jove-espanyol.webp"
+        },
+        "visitor": {
+          "name": "CD Soneja",
+          "image": "https://static.futbolenlatv.com/img/20230527130706-cd-soneja.webp"
+        }
+      },
+      "channels": [
+        "Terreta Audiovisual YouTube"
+      ],
+      "event": {
+        "name": "Jove Español - CD Soneja",
+        "description": "Jove Español - CD Soneja el sábado, 10 de enero de 2026 a las 17:00",
+        "startDate": "2026-01-10T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Tercera Federación",
+        "round": "Grupo 7"
+      },
+      "teams": {
+        "local": {
+          "name": "México FC",
+          "image": "https://static.futbolenlatv.com/img/20251021220632-mexico-fc.webp"
+        },
+        "visitor": {
+          "name": "Leganés B",
+          "image": "https://static.futbolenlatv.com/img/20150930124019-Leganes.webp"
+        }
+      },
+      "channels": [
+        "México F.C. YouTube"
+      ],
+      "event": {
+        "name": "México FC - Leganés B",
+        "description": "México FC - Leganés B el sábado, 10 de enero de 2026 a las 17:00",
+        "startDate": "2026-01-10T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa Africana de Naciones",
+        "round": "1/4 de Final"
+      },
+      "teams": {
+        "local": {
+          "name": "Argelia",
+          "image": "https://static.futbolenlatv.com/img/20130103113849_argelia.webp"
+        },
+        "visitor": {
+          "name": "Nigeria",
+          "image": "https://static.futbolenlatv.com/img/20130103114959_nigeria.webp"
+        }
+      },
+      "channels": [
+        "Movistar Plus+ : VER PARTIDO",
+        "M+ #Vamos Bar 2",
+        "M+ Liga de Campeones"
+      ],
+      "event": {
+        "name": "Argelia - Nigeria",
+        "description": "Argelia - Nigeria el sábado, 10 de enero de 2026 a las 17:00",
+        "startDate": "2026-01-10T16:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "balonmano",
+      "date": {
+        "hour": "17:15",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo Internacional España",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Egipto",
+          "image": "https://static.futbolenlatv.com/img/20130103115302_egipto.webp"
+        },
+        "visitor": {
+          "name": "Irán",
+          "image": "https://static.futbolenlatv.com/img/20130528074944-Iran.webp"
+        }
+      },
+      "channels": [
+        "RTVE Play"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "17:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "AFC U23 Asian Cup",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Siria",
+          "image": "https://static.futbolenlatv.com/img/20130807113238-siria.webp"
+        },
+        "visitor": {
+          "name": "Catar",
+          "image": "https://static.futbolenlatv.com/img/20130513104334_qatar.webp"
+        }
+      },
+      "channels": [
+        "OneFootball"
+      ],
+      "event": {
+        "name": "Siria - Catar",
+        "description": "Siria - Catar el sábado, 10 de enero de 2026 a las 17:30",
+        "startDate": "2026-01-10T16:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "18:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Futsal",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Jaén FS",
+          "image": "https://static.futbolenlatv.com/img/20180219093859-jaenfs-tv.webp"
+        },
+        "visitor": {
+          "name": "Barça FS",
+          "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus",
+        "Esport3"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Femenina Endesa",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "IDK Euskotren",
+          "image": "https://static.futbolenlatv.com/img/20200922143934-donosti-basket.webp"
+        },
+        "visitor": {
+          "name": "Ensino Lugo",
+          "image": "https://static.futbolenlatv.com/img/20181225105021-ensino-lugo.webp"
+        }
+      },
+      "channels": [
+        "Baloncesto España YouTube",
+        "FEB TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NCAA",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Kansas Jayhawks",
+          "image": "https://static.futbolenlatv.com/img/20180325054529-kansas-jayhawks.webp"
+        },
+        "visitor": {
+          "name": "West Virginia",
+          "image": "https://static.futbolenlatv.com/img/20210120200450-west-virginia-basketball.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NCAA",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Nebraska",
+          "image": "https://static.futbolenlatv.com/img/20210224190402-nebraska-basketball.webp"
+        },
+        "visitor": {
+          "name": "Indiana Hoosiers",
+          "image": "https://static.futbolenlatv.com/img/20210120200705-indiana-hoosiers-basketball.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Endesa",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Casademont Zaragoza",
+          "image": "https://static.futbolenlatv.com/img/20190925100947-casademont-zaragoza.webp"
+        },
+        "visitor": {
+          "name": "Dreamland Gran Canaria",
+          "image": "https://static.futbolenlatv.com/img/20141001095538-gran-canaria.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Tercera Federación",
+        "round": "Grupo 12"
+      },
+      "teams": {
+        "local": {
+          "name": "CD San Miguel",
+          "image": "https://static.futbolenlatv.com/img/20240811113246-cd-arcangel-san-miguel.webp"
+        },
+        "visitor": {
+          "name": "Las Palmas C",
+          "image": "https://static.futbolenlatv.com/img/20130919094140-las-palmas.webp"
+        }
+      },
+      "channels": [
+        "AMIGOSSURENO YouTube"
+      ],
+      "event": {
+        "name": "CD San Miguel - Las Palmas C",
+        "description": "CD San Miguel - Las Palmas C el sábado, 10 de enero de 2026 a las 18:00",
+        "startDate": "2026-01-10T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Italiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "AS Roma",
+          "image": "https://static.futbolenlatv.com/img/20190415081153-roma.webp"
+        },
+        "visitor": {
+          "name": "Sassuolo",
+          "image": "https://static.futbolenlatv.com/img/20130412053356_sassuolo.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "AS Roma - Sassuolo",
+        "description": "AS Roma - Sassuolo el sábado, 10 de enero de 2026 a las 18:00",
+        "startDate": "2026-01-10T17:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "balonmano",
+      "date": {
+        "hour": "18:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "EHF Women's European League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Viborg HK",
+          "image": "https://static.futbolenlatv.com/img/20130903101536-viborg-hk.webp"
+        },
+        "visitor": {
+          "name": "MKS Zaglebie Lubin",
+          "image": "https://static.futbolenlatv.com/img/20200518202509-zaglebie-lubin.webp"
+        }
+      },
+      "channels": [
+        "EHF TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "balonmano",
+      "date": {
+        "hour": "18:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "EHF Women's European League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Larvik HK",
+          "image": "https://static.futbolenlatv.com/img/20130923112247-larvik-hk.webp"
+        },
+        "visitor": {
+          "name": "CS Minaur Baia Mare",
+          "image": "https://static.futbolenlatv.com/img/20210502105659-cs-minaur-baia-mare.webp"
+        }
+      },
+      "channels": [
+        "EHF TV"
       ],
       "event": {},
       "eventType": "match"
@@ -1667,6 +3274,305 @@
       "eventType": "match"
     },
     {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "18:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Endesa",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Valencia Basket",
+          "image": "https://static.futbolenlatv.com/img/20130803090213-valencia-basket.webp"
+        },
+        "visitor": {
+          "name": "Unicaja Málaga",
+          "image": "https://static.futbolenlatv.com/img/20240318163823-unicaja-malaga.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN Baloncesto"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "National League",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Braintree Town",
+          "image": "https://static.futbolenlatv.com/img/20160427124739-braintree-town.webp"
+        },
+        "visitor": {
+          "name": "Boston United",
+          "image": "https://static.futbolenlatv.com/img/20191124092443-boston-united.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {
+        "name": "Braintree Town - Boston United",
+        "description": "Braintree Town - Boston United el sábado, 10 de enero de 2026 a las 18:30",
+        "startDate": "2026-01-10T17:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "La Liga EA Sports",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Girona",
+          "image": "https://static.futbolenlatv.com/img/20240214173636-girona.webp"
+        },
+        "visitor": {
+          "name": "Osasuna",
+          "image": "https://static.futbolenlatv.com/img/20121218093507_osasuna.webp"
+        }
+      },
+      "channels": [
+        "M+ LALIGA",
+        "M+ LALIGA HDR",
+        "LaLiga TV Bar",
+        "Hellotickets"
+      ],
+      "event": {
+        "name": "Girona - Osasuna",
+        "description": "Girona - Osasuna el sábado, 10 de enero de 2026 a las 18:30",
+        "startDate": "2026-01-10T17:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Hypermotion",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "UD Las Palmas",
+          "image": "https://static.futbolenlatv.com/img/20121218094143_las-palmas.webp"
+        },
+        "visitor": {
+          "name": "Deportivo",
+          "image": "https://static.futbolenlatv.com/img/20121218091015_deportivo.webp"
+        }
+      },
+      "channels": [
+        "LALIGA TV Hypermotion : VER PARTIDO",
+        "DAZN",
+        "GOL",
+        "LaLiga TV M2"
+      ],
+      "event": {
+        "name": "UD Las Palmas - Deportivo",
+        "description": "UD Las Palmas - Deportivo el sábado, 10 de enero de 2026 a las 18:30",
+        "startDate": "2026-01-10T17:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Hypermotion",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Burgos CF",
+          "image": "https://static.futbolenlatv.com/img/20130523034010_burgos-cf.webp"
+        },
+        "visitor": {
+          "name": "Eibar",
+          "image": "https://static.futbolenlatv.com/img/20121219071513_eibar.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "LALIGA TV Hypermotion 2 : VER PARTIDO",
+        "LaLiga TV M3"
+      ],
+      "event": {
+        "name": "Burgos CF - Eibar",
+        "description": "Burgos CF - Eibar el sábado, 10 de enero de 2026 a las 18:30",
+        "startDate": "2026-01-10T17:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación",
+        "round": "Grupo 1"
+      },
+      "teams": {
+        "local": {
+          "name": "Real Avilés",
+          "image": "https://static.futbolenlatv.com/img/20220906171217-aviles.webp"
+        },
+        "visitor": {
+          "name": "Pontevedra",
+          "image": "https://static.futbolenlatv.com/img/20130105041538_pontevedra.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus",
+        "TV FootballClub",
+        "Primera Federación"
+      ],
+      "event": {
+        "name": "Real Avilés - Pontevedra",
+        "description": "Real Avilés - Pontevedra el sábado, 10 de enero de 2026 a las 18:30",
+        "startDate": "2026-01-10T17:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación",
+        "round": "Grupo 1"
+      },
+      "teams": {
+        "local": {
+          "name": "Guadalajara",
+          "image": "https://static.futbolenlatv.com/img/20121218094433_guadalajara.webp"
+        },
+        "visitor": {
+          "name": "Cacereño",
+          "image": "https://static.futbolenlatv.com/img/20121219074054_cacereno.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus",
+        "TV FootballClub"
+      ],
+      "event": {
+        "name": "Guadalajara - Cacereño",
+        "description": "Guadalajara - Cacereño el sábado, 10 de enero de 2026 a las 18:30",
+        "startDate": "2026-01-10T17:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Tercera Federación",
+        "round": "Grupo 4"
+      },
+      "teams": {
+        "local": {
+          "name": "CD Derio",
+          "image": "https://static.futbolenlatv.com/img/20230806105904-cd-derio.webp"
+        },
+        "visitor": {
+          "name": "Zarautz KE",
+          "image": "https://static.futbolenlatv.com/img/20211008175105-zarautz-ke.webp"
+        }
+      },
+      "channels": [
+        "Elviphotoss YouTube"
+      ],
+      "event": {
+        "name": "CD Derio - Zarautz KE",
+        "description": "CD Derio - Zarautz KE el sábado, 10 de enero de 2026 a las 18:30",
+        "startDate": "2026-01-10T17:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Bundesliga",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Bayer Leverkusen",
+          "image": "https://static.futbolenlatv.com/img/20121218101622_bayer-leverkusen.webp"
+        },
+        "visitor": {
+          "name": "Stuttgart",
+          "image": "https://static.futbolenlatv.com/img/20220520171113-stuttgart.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite",
+        "Orange Fútbol 3"
+      ],
+      "event": {
+        "name": "Bayer Leverkusen - Stuttgart",
+        "description": "Bayer Leverkusen - Stuttgart el sábado, 10 de enero de 2026 a las 18:30",
+        "startDate": "2026-01-10T17:30:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
       "sport": "boxeo",
       "date": {
         "hour": "18:45",
@@ -1692,6 +3598,924 @@
       ],
       "event": {},
       "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "18:45",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FA Cup",
+        "round": "3ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "Tottenham",
+          "image": "https://static.futbolenlatv.com/img/20200413194326-tottenham.webp"
+        },
+        "visitor": {
+          "name": "Aston Villa",
+          "image": "https://static.futbolenlatv.com/img/20240923180723-aston-villa.webp"
+        }
+      },
+      "channels": [
+        "* SIN TV EN DIRECTO *"
+      ],
+      "event": {
+        "name": "Tottenham - Aston Villa",
+        "description": "Tottenham - Aston Villa el sábado, 10 de enero de 2026 a las 18:45",
+        "startDate": "2026-01-10T17:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "19:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Futsal",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Manzanares FS",
+          "image": "https://static.futbolenlatv.com/img/20220811173804-manzanares-fs.webp"
+        },
+        "visitor": {
+          "name": "Servigroup Peñiscola FS",
+          "image": "https://static.futbolenlatv.com/img/20130716052411-peniscola.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus",
+        "CMMPlay"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "19:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera FEB",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Club Ourense Baloncesto",
+          "image": "https://static.futbolenlatv.com/img/20130731064826-orense-baloncesto.webp"
+        },
+        "visitor": {
+          "name": "Monbus Obradoiro",
+          "image": "https://static.futbolenlatv.com/img/20200903182202-obradoiro-clube-baloncesto.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus",
+        "TVG2"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Segunda Federación",
+        "round": "Grupo 2"
+      },
+      "teams": {
+        "local": {
+          "name": "SD Logroñés",
+          "image": "https://static.futbolenlatv.com/img/20121227023728_sd-logrones.webp"
+        },
+        "visitor": {
+          "name": "Alavés B",
+          "image": "https://static.futbolenlatv.com/img/20210127191233-alaves-esports.webp"
+        }
+      },
+      "channels": [
+        "TV FootballClub"
+      ],
+      "event": {
+        "name": "SD Logroñés - Alavés B",
+        "description": "SD Logroñés - Alavés B el sábado, 10 de enero de 2026 a las 19:00",
+        "startDate": "2026-01-10T18:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga F",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "FC Barcelona Femenino",
+          "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
+        },
+        "visitor": {
+          "name": "Madrid CFF",
+          "image": "https://static.futbolenlatv.com/img/20251017163013-madrid-cf-femenino.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "M+ Ellas Vamos : VER PARTIDO",
+        "Movistar+ Lite",
+        "DAZN App Gratis",
+        "DAZN 1",
+        "DAZN 1 Bar"
+      ],
+      "event": {
+        "name": "FC Barcelona Femenino - Madrid CFF",
+        "description": "FC Barcelona Femenino - Madrid CFF el sábado, 10 de enero de 2026 a las 19:00",
+        "startDate": "2026-01-10T18:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "19:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Tercera Federación",
+        "round": "Grupo 4"
+      },
+      "teams": {
+        "local": {
+          "name": "Real Sociedad C",
+          "image": "https://static.futbolenlatv.com/img/20151130110758-real-sociedad.webp"
+        },
+        "visitor": {
+          "name": "Añorga KKE",
+          "image": "https://static.futbolenlatv.com/img/20211126210254-anorga-kke.webp"
+        }
+      },
+      "channels": [
+        "Real Sociedad TV YouTube"
+      ],
+      "event": {
+        "name": "Real Sociedad C - Añorga KKE",
+        "description": "Real Sociedad C - Añorga KKE el sábado, 10 de enero de 2026 a las 19:00",
+        "startDate": "2026-01-10T18:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "19:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Segunda Federación Futsal",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "CD Leganés FS",
+          "image": "https://static.futbolenlatv.com/img/20200827133354-cd-leganes-web.webp"
+        },
+        "visitor": {
+          "name": "CFS Pinatar",
+          "image": "https://static.futbolenlatv.com/img/20241108121624-cfs-pinatar.webp"
+        }
+      },
+      "channels": [
+        "RFEF.es"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "19:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Femenina",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Torreblanca Melilla",
+          "image": "https://static.futbolenlatv.com/img/20230823170304-torreblanca-melilla-futsal.webp"
+        },
+        "visitor": {
+          "name": "Guadalcacin FSF",
+          "image": "https://static.futbolenlatv.com/img/20240907111521-guadalcacin-fsf.webp"
+        }
+      },
+      "channels": [
+        "RFEF.es",
+        "TV Melilla"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "balonmano",
+      "date": {
+        "hour": "19:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Torneo Internacional España",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "España",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+        },
+        "visitor": {
+          "name": "Túnez",
+          "image": "https://static.futbolenlatv.com/img/20130103113729_tunez.webp"
+        }
+      },
+      "channels": [
+        "Navarra TV",
+        "Teledeporte",
+        "RTVE Play"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "20:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación Futsal",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Alzira FS",
+          "image": "https://static.futbolenlatv.com/img/20191003111042-nitida-alzira-fs.webp"
+        },
+        "visitor": {
+          "name": "Jimbee Cartagena FS",
+          "image": "https://static.futbolenlatv.com/img/20180912065412-jimbee-cartagena-fs.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Copa Africana de Naciones",
+        "round": "1/4 de Final"
+      },
+      "teams": {
+        "local": {
+          "name": "Egipto",
+          "image": "https://static.futbolenlatv.com/img/20130103115302_egipto.webp"
+        },
+        "visitor": {
+          "name": "Costa de Marfil",
+          "image": "https://static.futbolenlatv.com/img/20130103113744_cosa-de-marfil.webp"
+        }
+      },
+      "channels": [
+        "Movistar Plus+ : VER PARTIDO",
+        "M+ #Vamos Bar 2",
+        "M+ Liga de Campeones"
+      ],
+      "event": {
+        "name": "Egipto - Costa de Marfil",
+        "description": "Egipto - Costa de Marfil el sábado, 10 de enero de 2026 a las 20:00",
+        "startDate": "2026-01-10T19:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie B Italiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Padova",
+          "image": "https://static.futbolenlatv.com/img/20130501052828_padova.webp"
+        },
+        "visitor": {
+          "name": "Modena",
+          "image": "https://static.futbolenlatv.com/img/20220907172145-modena-fc.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Padova - Modena",
+        "description": "Padova - Modena el sábado, 10 de enero de 2026 a las 20:45",
+        "startDate": "2026-01-10T19:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie B Italiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "AC Cesena",
+          "image": "https://static.futbolenlatv.com/img/20130820060914-ac-cesena.webp"
+        },
+        "visitor": {
+          "name": "Empoli",
+          "image": "https://static.futbolenlatv.com/img/20200116063133-empoli.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "AC Cesena - Empoli",
+        "description": "AC Cesena - Empoli el sábado, 10 de enero de 2026 a las 20:45",
+        "startDate": "2026-01-10T19:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie B Italiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Juve Stabia",
+          "image": "https://static.futbolenlatv.com/img/20130904075138-juve-stabia.webp"
+        },
+        "visitor": {
+          "name": "Pescara",
+          "image": "https://static.futbolenlatv.com/img/20121219034348_pescara.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Juve Stabia - Pescara",
+        "description": "Juve Stabia - Pescara el sábado, 10 de enero de 2026 a las 20:45",
+        "startDate": "2026-01-10T19:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie B Italiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Avellino",
+          "image": "https://static.futbolenlatv.com/img/20130917115412-Avellino.webp"
+        },
+        "visitor": {
+          "name": "Sampdoria",
+          "image": "https://static.futbolenlatv.com/img/20121219035223_sampdoria.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Avellino - Sampdoria",
+        "description": "Avellino - Sampdoria el sábado, 10 de enero de 2026 a las 20:45",
+        "startDate": "2026-01-10T19:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie B Italiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Frosinone",
+          "image": "https://static.futbolenlatv.com/img/20131126051712-frosinone.webp"
+        },
+        "visitor": {
+          "name": "Catanzaro",
+          "image": "https://static.futbolenlatv.com/img/20191029064352-catanzaro.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Frosinone - Catanzaro",
+        "description": "Frosinone - Catanzaro el sábado, 10 de enero de 2026 a las 20:45",
+        "startDate": "2026-01-10T19:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie B Italiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Virtus Entella",
+          "image": "https://static.futbolenlatv.com/img/20150220065530-virtus-entella.webp"
+        },
+        "visitor": {
+          "name": "Monza",
+          "image": "https://static.futbolenlatv.com/img/20191029064703-monza.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Virtus Entella - Monza",
+        "description": "Virtus Entella - Monza el sábado, 10 de enero de 2026 a las 20:45",
+        "startDate": "2026-01-10T19:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie B Italiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Südtirol",
+          "image": "https://static.futbolenlatv.com/img/20181203094019-sudtirol.webp"
+        },
+        "visitor": {
+          "name": "Spezia Calcio",
+          "image": "https://static.futbolenlatv.com/img/20130904075451-spezia-calcio.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Südtirol - Spezia Calcio",
+        "description": "Südtirol - Spezia Calcio el sábado, 10 de enero de 2026 a las 20:45",
+        "startDate": "2026-01-10T19:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie B Italiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Carrarese",
+          "image": "https://static.futbolenlatv.com/img/20191029064739-carrarese.webp"
+        },
+        "visitor": {
+          "name": "Bari",
+          "image": "https://static.futbolenlatv.com/img/20220907172158-bari.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Carrarese - Bari",
+        "description": "Carrarese - Bari el sábado, 10 de enero de 2026 a las 20:45",
+        "startDate": "2026-01-10T19:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie B Italiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "AC Reggiana",
+          "image": "https://static.futbolenlatv.com/img/20191029064456-reggio-audace-fc.webp"
+        },
+        "visitor": {
+          "name": "Venezia FC",
+          "image": "https://static.futbolenlatv.com/img/20220907172129-venezia-fc.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "AC Reggiana - Venezia FC",
+        "description": "AC Reggiana - Venezia FC el sábado, 10 de enero de 2026 a las 20:45",
+        "startDate": "2026-01-10T19:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie B Italiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Mantova 1911",
+          "image": "https://static.futbolenlatv.com/img/20191121062205-mantova-1911.webp"
+        },
+        "visitor": {
+          "name": "Palermo SSD",
+          "image": "https://static.futbolenlatv.com/img/20191029063639-palermo-ssd.webp"
+        }
+      },
+      "channels": [
+        "OneFootball PPV"
+      ],
+      "event": {
+        "name": "Mantova 1911 - Palermo SSD",
+        "description": "Mantova 1911 - Palermo SSD el sábado, 10 de enero de 2026 a las 20:45",
+        "startDate": "2026-01-10T19:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "20:45",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Serie A Italiana",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Atalanta",
+          "image": "https://static.futbolenlatv.com/img/20121219034958_atalanta.webp"
+        },
+        "visitor": {
+          "name": "Torino",
+          "image": "https://static.futbolenlatv.com/img/20121219035257_torino.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "LaLiga TV M3"
+      ],
+      "event": {
+        "name": "Atalanta - Torino",
+        "description": "Atalanta - Torino el sábado, 10 de enero de 2026 a las 20:45",
+        "startDate": "2026-01-10T19:45:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "La Liga EA Sports",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Valencia CF",
+          "image": "https://static.futbolenlatv.com/img/20151004120005-valencia.webp"
+        },
+        "visitor": {
+          "name": "Elche",
+          "image": "https://static.futbolenlatv.com/img/20190417031718-elche-cf.webp"
+        }
+      },
+      "channels": [
+        "DAZN LaLiga",
+        "DAZN",
+        "LaLiga TV Bar",
+        "Hellotickets"
+      ],
+      "event": {
+        "name": "Valencia CF - Elche",
+        "description": "Valencia CF - Elche el sábado, 10 de enero de 2026 a las 21:00",
+        "startDate": "2026-01-10T20:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LaLiga Hypermotion",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Racing Santander",
+          "image": "https://static.futbolenlatv.com/img/20121218095805_racing.webp"
+        },
+        "visitor": {
+          "name": "Real Zaragoza",
+          "image": "https://static.futbolenlatv.com/img/20121218093634_zaragoza.webp"
+        }
+      },
+      "channels": [
+        "LALIGA TV Hypermotion : VER PARTIDO",
+        "DAZN",
+        "LaLiga TV M2"
+      ],
+      "event": {
+        "name": "Racing Santander - Real Zaragoza",
+        "description": "Racing Santander - Real Zaragoza el sábado, 10 de enero de 2026 a las 21:00",
+        "startDate": "2026-01-10T20:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera Federación",
+        "round": "Grupo 1"
+      },
+      "teams": {
+        "local": {
+          "name": "Ponferradina",
+          "image": "https://static.futbolenlatv.com/img/20211013183402-ponferradina.webp"
+        },
+        "visitor": {
+          "name": "Ourense CF",
+          "image": "https://static.futbolenlatv.com/img/20171111092550-ourense.webp"
+        }
+      },
+      "channels": [
+        "LaLiga+ Plus",
+        "TV FootballClub",
+        "Primera Federación",
+        "TVG Web"
+      ],
+      "event": {
+        "name": "Ponferradina - Ourense CF",
+        "description": "Ponferradina - Ourense CF el sábado, 10 de enero de 2026 a las 21:00",
+        "startDate": "2026-01-10T20:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol",
+      "date": {
+        "hour": "21:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FA Cup",
+        "round": "3ª Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "Charlton Athletic",
+          "image": "https://static.futbolenlatv.com/img/20130918093714-charlton.webp"
+        },
+        "visitor": {
+          "name": "Chelsea",
+          "image": "https://static.futbolenlatv.com/img/20121218101333_chelsea.webp"
+        }
+      },
+      "channels": [
+        "* SIN TV EN DIRECTO *"
+      ],
+      "event": {
+        "name": "Charlton Athletic - Chelsea",
+        "description": "Charlton Athletic - Chelsea el sábado, 10 de enero de 2026 a las 21:00",
+        "startDate": "2026-01-10T20:00:00",
+        "duration": "T1H45M"
+      },
+      "eventType": "match"
+    },
+    {
+      "sport": "automovilismo",
+      "date": {
+        "hour": "21:05",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": null,
+        "round": "Ciudad de México (México)"
+      },
+      "teams": null,
+      "channels": [
+        "HBO MAX",
+        "DAZN",
+        "Teledeporte",
+        "RTVE Play",
+        "Eurosport 1"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "beisbol",
+      "date": {
+        "hour": "22:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "LVBP",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Águilas del Zulia",
+          "image": "https://static.futbolenlatv.com/img/20221021203021-aguilas-del-zulia.webp"
+        },
+        "visitor": {
+          "name": "Navegantes del Magallanes",
+          "image": "https://static.futbolenlatv.com/img/20221021202928-navegantes-del-magallanes.webp"
+        }
+      },
+      "channels": [
+        "BeisbolPlay"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-americano",
+      "date": {
+        "hour": "22:30",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NFL",
+        "round": "Wild Card Weekend"
+      },
+      "teams": {
+        "local": {
+          "name": "Carolina Panthers",
+          "image": "https://static.futbolenlatv.com/img/20131105070454-carolina-panthers.webp"
+        },
+        "visitor": {
+          "name": "Los Angeles Rams",
+          "image": "https://static.futbolenlatv.com/img/20201220190839-st-louis-rams.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN 1"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "golf",
+      "date": {
+        "hour": "18:00",
+        "day": "15/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Sony Open in Hawaii",
+        "round": "Jornada 1"
+      },
+      "teams": null,
+      "channels": [
+        "HBO MAX"
+      ],
+      "event": {},
+      "eventType": "tournament"
     },
     {
       "sport": "mma",
@@ -1775,77 +4599,282 @@
       "eventType": "tournament"
     },
     {
-      "sport": "balonmano",
+      "sport": "baloncesto",
       "date": {
-        "hour": "17:15",
-        "day": "09/01/2026",
+        "hour": "19:00",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Torneo Internacional España",
-        "round": null
+        "competition": "Primera FEB",
+        "round": "Liga Regular"
       },
       "teams": {
         "local": {
-          "name": "Irán",
-          "image": "https://static.futbolenlatv.com/img/20130528074944-Iran.webp"
+          "name": "GA Cantabria",
+          "image": "https://static.futbolenlatv.com/img/20220905181150-club-deportivo-elemental-estela-cantabria.webp"
         },
         "visitor": {
-          "name": "Portugal",
-          "image": "https://static.futbolenlatv.com/img/20130204101449_portugal.webp"
+          "name": "Palmer Mallorca Palma",
+          "image": "https://static.futbolenlatv.com/img/20240906083154-palmer-mallorca-palma.webp"
         }
       },
       "channels": [
-        "Teledeporte",
-        "RTVE Play"
+        "LaLiga+ Plus"
       ],
       "event": {},
       "eventType": "match"
     },
     {
-      "sport": "balonmano",
+      "sport": "baloncesto",
       "date": {
-        "hour": "19:30",
-        "day": "09/01/2026",
+        "hour": "19:00",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Torneo Internacional España",
-        "round": null
+        "competition": "Liga Femenina Endesa",
+        "round": "Liga Regular"
       },
       "teams": {
         "local": {
-          "name": "Eslovaquia",
-          "image": "https://static.futbolenlatv.com/img/20130410124517_eslovaquia.webp"
+          "name": "BAXI Ferrol",
+          "image": "https://static.futbolenlatv.com/img/20181024101642-baxi-ferrol.webp"
         },
         "visitor": {
-          "name": "Túnez",
-          "image": "https://static.futbolenlatv.com/img/20130103113729_tunez.webp"
+          "name": "Movistar Estudiantes",
+          "image": "https://static.futbolenlatv.com/img/20190925101244-movistar-estudiantes.webp"
         }
       },
       "channels": [
-        "RTVE Play"
+        "Baloncesto España YouTube",
+        "FEB TV"
       ],
       "event": {},
       "eventType": "match"
     },
     {
-      "sport": "golf",
+      "sport": "baloncesto",
       "date": {
-        "hour": "18:00",
-        "day": "15/01/2026",
+        "hour": "19:00",
+        "day": "10/01/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Sony Open in Hawaii",
-        "round": "Jornada 1"
+        "competition": "NCAA",
+        "round": null
       },
-      "teams": null,
+      "teams": {
+        "local": {
+          "name": "Wisconsin Badgers",
+          "image": "https://static.futbolenlatv.com/img/20140404105209-wisconsin.webp"
+        },
+        "visitor": {
+          "name": "Michigan",
+          "image": "https://static.futbolenlatv.com/img/20180324085157-michigan.webp"
+        }
+      },
       "channels": [
-        "HBO MAX"
+        "DAZN",
+        "DAZN App Gratis"
       ],
       "event": {},
-      "eventType": "tournament"
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "19:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Endesa",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Bilbao Basket",
+          "image": "https://static.futbolenlatv.com/img/20161031060317-retabet-bilbao-basket.webp"
+        },
+        "visitor": {
+          "name": "UCAM Murcia CB",
+          "image": "https://static.futbolenlatv.com/img/20190925101456-ucam-murcia.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN Baloncesto 2"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "19:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NBA",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Cleveland Cavaliers",
+          "image": "https://static.futbolenlatv.com/img/20191028090553-cleveland-cavaliers.webp"
+        },
+        "visitor": {
+          "name": "Minnesota Timberwolves",
+          "image": "https://static.futbolenlatv.com/img/20201220190912-minnesota-timberwolves.webp"
+        }
+      },
+      "channels": [
+        "Amazon Prime Video",
+        "NBA League Pass"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Femenina Endesa",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "Spar Gran Canaria",
+          "image": "https://static.futbolenlatv.com/img/20131011083809-club-deportes-castro.webp"
+        },
+        "visitor": {
+          "name": "Baloncesto Leganés",
+          "image": "https://static.futbolenlatv.com/img/20210913143957-baloncesto-leganes.webp"
+        }
+      },
+      "channels": [
+        "Baloncesto España YouTube",
+        "FEB TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NCAA",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "St. John's",
+          "image": "https://static.futbolenlatv.com/img/20210114221404-st-johns-basketball.webp"
+        },
+        "visitor": {
+          "name": "Creighton",
+          "image": "https://static.futbolenlatv.com/img/20210114221244-creighton-basketball.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NCAA",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Penn State",
+          "image": "https://static.futbolenlatv.com/img/20210120200728-penn-state-basketball.webp"
+        },
+        "visitor": {
+          "name": "Purdue",
+          "image": "https://static.futbolenlatv.com/img/20210120200619-purdue-basketball.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Endesa",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "La Laguna Tenerife",
+          "image": "https://static.futbolenlatv.com/img/20130803090548-cb-canarias.webp"
+        },
+        "visitor": {
+          "name": "Força Lleida",
+          "image": "https://static.futbolenlatv.com/img/20130731064711-forca-lleida-baloncesto.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN Baloncesto 3"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "21:00",
+        "day": "10/01/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Liga Endesa",
+        "round": "Liga Regular"
+      },
+      "teams": {
+        "local": {
+          "name": "BAXI Manresa",
+          "image": "https://static.futbolenlatv.com/img/20180803094908-baxi-manresa.webp"
+        },
+        "visitor": {
+          "name": "Río Breogán",
+          "image": "https://static.futbolenlatv.com/img/20130731070150-cb-breogan-lugo.webp"
+        }
+      },
+      "channels": [
+        "DAZN"
+      ],
+      "event": {},
+      "eventType": "match"
     }
   ]
 }
