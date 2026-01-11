@@ -34,10 +34,10 @@ const availableLogos = new Set([
   'laliga-plus',
   'movistar-vamos',
   'movistar-deportes',
+  'movistar-deportes-2',
   'movistar-laliga',
-  'movistar-champions',
   'movistar-plus',
-  'navarra-tv',
+  'nba-league-pass',
   'rtve',
 ]);
 

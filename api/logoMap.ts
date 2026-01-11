@@ -184,10 +184,10 @@ const availableLogos: string[] = [
   'laliga-plus',
   'movistar-vamos',
   'movistar-deportes',
+  'movistar-deportes-2',
   'movistar-laliga',
-  'movistar-champions',
   'movistar-plus',
-  'navarra-tv',
+  'nba-league-pass',
   'rtve',
 ];
 // AVAILABLE_LOGOS_END
