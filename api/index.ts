@@ -26,15 +26,10 @@ import { cors } from 'hono/cors';
  */
 const availableLogos = new Set([
   'dazn',
-  'dazn-1',
   'dazn-2',
-  'dazn-laliga',
   'laliga-tv',
   'laliga-tv-2',
-  'laliga-plus',
   'movistar-vamos',
-  'movistar-deportes',
-  'movistar-deportes-2',
   'movistar-laliga',
   'movistar-plus',
   'nba-league-pass',
