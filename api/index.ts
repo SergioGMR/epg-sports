@@ -25,24 +25,24 @@ import { cors } from 'hono/cors';
  * SINCRONIZADO con api/logoMap.ts por scripts/download-logos.ts
  */
 const availableLogos = new Set([
-  'courtside-1891',
+  'cuatro',
   'dazn',
-  'dazn-1',
   'dazn-2',
-  'dazn-laliga',
+  'dazn-3',
+  'fifa-plus',
   'hellotickets',
-  'laliga-plus',
   'laliga-tv',
+  'laliga-tv-hypermotion',
   'laliga-tv-2',
-  'movistar-champions',
-  'movistar-deportes',
-  'movistar-deportes-2',
-  'movistar-laliga',
-  'movistar-plus',
+  'laliga-tv-3',
   'movistar-vamos',
-  'navarra-tv',
+  'movistar-laliga',
+  'movistar-laliga-hdr',
+  'mediaset-infinity',
+  'movistar-plus',
   'nba-league-pass',
   'onefootball',
+  'rfef',
   'rtve',
   'teledeporte',
 ]);
@@ -91,6 +91,10 @@ const logoMap: Record<string, LogoSource> = {
     primary: 'countries/spain/dazn-es.png',
     local: 'dazn',
   },
+  'DAZN Baloncesto 3': {
+    primary: 'countries/spain/dazn-3-es.png',
+    local: 'dazn-3',
+  },
   'DAZN LaLiga': {
     primary: 'countries/spain/dazn-laliga-es.png',
     local: 'dazn-laliga',
@@ -129,6 +133,10 @@ const logoMap: Record<string, LogoSource> = {
     primary: 'countries/spain/laliga-tv-por-movistar-plus-es.png',
     local: 'movistar-laliga',
   },
+  'M+ LALIGA HDR': {
+    primary: 'countries/spain/laliga-hdr-por-movistar-plus-es.png',
+    local: 'movistar-laliga-hdr',
+  },
   'Movistar Plus+ : VER PARTIDO': {
     primary: 'countries/spain/movistar-plus-es.png',
     local: 'movistar-plus',
@@ -151,6 +159,14 @@ const logoMap: Record<string, LogoSource> = {
     primary: 'countries/spain/laliga-tv-2-por-movistar-plus-es.png',
     local: 'laliga-tv-2',
   },
+  'LaLiga TV M3': {
+    primary: 'countries/spain/laliga-tv-3-por-movistar-plus-es.png',
+    local: 'laliga-tv-3',
+  },
+  'LALIGA TV Hypermotion : VER PARTIDO': {
+    primary: 'countries/spain/laliga-tv-hypermotion-es.png',
+    local: 'laliga-tv-hypermotion',
+  },
   'LaLiga+ Plus': {
     primary: null,
     fallback: 'https://assets.laliga.com/assets/logos/laliga-v/laliga-v-300x300.png',
@@ -172,6 +188,12 @@ const logoMap: Record<string, LogoSource> = {
     primary: 'countries/spain/tdp-es.png',
     fallback: 'https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoTDP.png',
     local: 'teledeporte',
+  },
+
+  // ============ GENERALISTAS ============
+  Cuatro: {
+    primary: 'countries/spain/cuatro-es.png',
+    local: 'cuatro',
   },
 
   // ============ EUROSPORT ============
@@ -197,16 +219,39 @@ const logoMap: Record<string, LogoSource> = {
       'https://www.courtside1891.basketball/resources/v1.28.1/i/elements/pwa/manifest-icon-512.png',
     local: 'courtside-1891',
   },
+  'FIFA+': {
+    primary: null,
+    fallback: 'https://www.plus.fifa.com/favicon/apple-touch-icon.png',
+    local: 'fifa-plus',
+  },
   Hellotickets: {
     primary: null,
     fallback: 'https://static.hellotickets.com/logo/hellotickets-logo.svg',
     local: 'hellotickets',
+  },
+  'Mediaset Infinity': {
+    primary: null,
+    fallback:
+      'https://img-prod-api2.mediasetplay.mediaset.it/api/images/by/v5/esp/aHR0cHM6Ly9kYW0uY2xvdWQubWVkaWFzZXQubmV0L20vN2NjZGZhZTY1ZDVlMzE0Mi9vcmlnaW5hbC9hcHBsZS10b3VjaC1pY29uLnBuZw/-/192/192',
+    local: 'mediaset-infinity',
   },
   OneFootball: {
     primary: null,
     fallback:
       'https://play-lh.googleusercontent.com/mXog2BuRhYPqKITgx29PpfjFoqAESP3PXF96dc0UEQPz4CxD35xL3cyfw-OECqA2baiR',
     local: 'onefootball',
+  },
+  'OneFootball PPV': {
+    primary: null,
+    fallback:
+      'https://play-lh.googleusercontent.com/mXog2BuRhYPqKITgx29PpfjFoqAESP3PXF96dc0UEQPz4CxD35xL3cyfw-OECqA2baiR',
+    local: 'onefootball',
+  },
+  'RFEF.es': {
+    primary: null,
+    fallback:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Royal_Spanish_Football_Federation_logo.svg/330px-Royal_Spanish_Football_Federation_logo.svg.png',
+    local: 'rfef',
   },
 };
 
