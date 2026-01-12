@@ -25,67 +25,211 @@ import { cors } from 'hono/cors';
  * SINCRONIZADO con api/logoMap.ts por scripts/download-logos.ts
  */
 const availableLogos = new Set([
+  'courtside-1891',
   'dazn',
+  'dazn-1',
   'dazn-2',
+  'dazn-laliga',
+  'hellotickets',
+  'laliga-plus',
   'laliga-tv',
   'laliga-tv-2',
-  'movistar-vamos',
+  'movistar-champions',
+  'movistar-deportes',
+  'movistar-deportes-2',
   'movistar-laliga',
   'movistar-plus',
+  'movistar-vamos',
+  'navarra-tv',
   'nba-league-pass',
+  'onefootball',
   'rtve',
+  'teledeporte',
 ]);
 
 /**
- * Mapeo de nombres de canales a nombres de archivo de logo
+ * URL base del repositorio tv-logo/tv-logos en GitHub
  */
-const logoMap: Record<string, string> = {
-  // DAZN
-  DAZN: 'dazn',
-  'DAZN 1': 'dazn-1',
-  'DAZN 1 Bar': 'dazn-1',
-  'DAZN 2': 'dazn-2',
-  'DAZN App Gratis': 'dazn',
-  'DAZN Baloncesto': 'dazn',
-  'DAZN Baloncesto 2': 'dazn',
-  'DAZN LaLiga': 'dazn-laliga',
-  // MOVISTAR+
-  'M+ Deportes': 'movistar-deportes',
-  'M+ Deportes 2': 'movistar-deportes-2',
-  'M+ Liga de Campeones': 'movistar-champions',
-  'M+ Vamos': 'movistar-vamos',
-  'M+ Vamos 2': 'movistar-vamos',
-  'M+ #Vamos Bar': 'movistar-vamos',
-  'M+ #Vamos Bar 2': 'movistar-vamos',
-  'M+ LALIGA': 'movistar-laliga',
-  'Movistar Plus+ : VER PARTIDO': 'movistar-plus',
-  'Movistar+ Lite': 'movistar-plus',
-  'M+ Golf': 'movistar-golf',
-  // LALIGA
-  'LaLiga TV Bar': 'laliga-tv',
-  'LaLiga TV M2': 'laliga-tv-2',
-  'LaLiga+ Plus': 'laliga-plus',
-  // NBA
-  'NBA League Pass': 'nba-league-pass',
-  // RTVE
-  'RTVE Play': 'rtve',
-  Teledeporte: 'teledeporte',
-  // EUROSPORT
-  'Eurosport 1': 'eurosport-1',
-  'Eurosport 2': 'eurosport-2',
-  // REGIONALES
-  'Navarra TV': 'navarra-tv',
-  // OTROS
-  'Courtside 1891': 'courtside-1891',
-  Hellotickets: 'hellotickets',
-  OneFootball: 'onefootball',
+const TV_LOGOS_BASE = 'https://raw.githubusercontent.com/tv-logo/tv-logos/main/';
+
+interface LogoSource {
+  primary: string | null;
+  fallback?: string;
+  local: string;
+}
+
+/**
+ * Mapeo de nombres de canales a fuentes de logo
+ */
+const logoMap: Record<string, LogoSource> = {
+  // ============ DAZN ============
+  DAZN: {
+    primary: 'countries/spain/dazn-es.png',
+    local: 'dazn',
+  },
+  'DAZN 1': {
+    primary: 'countries/spain/dazn-1-es.png',
+    local: 'dazn-1',
+  },
+  'DAZN 1 Bar': {
+    primary: 'countries/spain/dazn-1-es.png',
+    local: 'dazn-1',
+  },
+  'DAZN 2': {
+    primary: 'countries/spain/dazn-2-es.png',
+    local: 'dazn-2',
+  },
+  'DAZN App Gratis': {
+    primary: 'countries/spain/dazn-es.png',
+    local: 'dazn',
+  },
+  'DAZN Baloncesto': {
+    primary: 'countries/spain/dazn-es.png',
+    local: 'dazn',
+  },
+  'DAZN Baloncesto 2': {
+    primary: 'countries/spain/dazn-es.png',
+    local: 'dazn',
+  },
+  'DAZN LaLiga': {
+    primary: 'countries/spain/dazn-laliga-es.png',
+    local: 'dazn-laliga',
+  },
+
+  // ============ MOVISTAR+ ============
+  'M+ Deportes': {
+    primary: 'countries/spain/deportes-por-movistar-plus-es.png',
+    local: 'movistar-deportes',
+  },
+  'M+ Deportes 2': {
+    primary: 'countries/spain/deportes-2-por-movistar-plus-es.png',
+    local: 'movistar-deportes-2',
+  },
+  'M+ Liga de Campeones': {
+    primary: 'countries/spain/liga-de-campeones-por-movistar-plus-es.png',
+    local: 'movistar-champions',
+  },
+  'M+ Vamos': {
+    primary: 'countries/spain/vamos-por-movistar-plus-es.png',
+    local: 'movistar-vamos',
+  },
+  'M+ Vamos 2': {
+    primary: 'countries/spain/vamos-por-movistar-plus-es.png',
+    local: 'movistar-vamos',
+  },
+  'M+ #Vamos Bar': {
+    primary: 'countries/spain/vamos-por-movistar-plus-es.png',
+    local: 'movistar-vamos',
+  },
+  'M+ #Vamos Bar 2': {
+    primary: 'countries/spain/vamos-por-movistar-plus-es.png',
+    local: 'movistar-vamos',
+  },
+  'M+ LALIGA': {
+    primary: 'countries/spain/laliga-tv-por-movistar-plus-es.png',
+    local: 'movistar-laliga',
+  },
+  'Movistar Plus+ : VER PARTIDO': {
+    primary: 'countries/spain/movistar-plus-es.png',
+    local: 'movistar-plus',
+  },
+  'Movistar+ Lite': {
+    primary: 'countries/spain/movistar-plus-es.png',
+    local: 'movistar-plus',
+  },
+  'M+ Golf': {
+    primary: 'countries/spain/golf-por-movistar-plus-es.png',
+    local: 'movistar-golf',
+  },
+
+  // ============ LALIGA ============
+  'LaLiga TV Bar': {
+    primary: 'countries/spain/laliga-tv-por-movistar-plus-es.png',
+    local: 'laliga-tv',
+  },
+  'LaLiga TV M2': {
+    primary: 'countries/spain/laliga-tv-2-por-movistar-plus-es.png',
+    local: 'laliga-tv-2',
+  },
+  'LaLiga+ Plus': {
+    primary: null,
+    fallback: 'https://assets.laliga.com/assets/logos/laliga-v/laliga-v-300x300.png',
+    local: 'laliga-plus',
+  },
+
+  // ============ NBA ============
+  'NBA League Pass': {
+    primary: 'countries/united-states/nba-league-pass-us.png',
+    local: 'nba-league-pass',
+  },
+
+  // ============ RTVE ============
+  'RTVE Play': {
+    primary: 'countries/spain/tve-1-es.png',
+    local: 'rtve',
+  },
+  Teledeporte: {
+    primary: 'countries/spain/tdp-es.png',
+    fallback: 'https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoTDP.png',
+    local: 'teledeporte',
+  },
+
+  // ============ EUROSPORT ============
+  'Eurosport 1': {
+    primary: 'countries/spain/eurosport-1-es.png',
+    local: 'eurosport-1',
+  },
+  'Eurosport 2': {
+    primary: 'countries/spain/eurosport-2-es.png',
+    local: 'eurosport-2',
+  },
+
+  // ============ REGIONALES ============
+  'Navarra TV': {
+    primary: 'countries/spain/navarra-television-es.png',
+    local: 'navarra-tv',
+  },
+
+  // ============ CANALES SIN LOGO EN TV-LOGOS ============
+  'Courtside 1891': {
+    primary: null,
+    fallback:
+      'https://www.courtside1891.basketball/resources/v1.28.1/i/elements/pwa/manifest-icon-512.png',
+    local: 'courtside-1891',
+  },
+  Hellotickets: {
+    primary: null,
+    fallback: 'https://static.hellotickets.com/logo/hellotickets-logo.svg',
+    local: 'hellotickets',
+  },
+  OneFootball: {
+    primary: null,
+    fallback:
+      'https://play-lh.googleusercontent.com/mXog2BuRhYPqKITgx29PpfjFoqAESP3PXF96dc0UEQPz4CxD35xL3cyfw-OECqA2baiR',
+    local: 'onefootball',
+  },
 };
 
+function getLogoExternalPath(channelName: string): string | null {
+  const mapping = logoMap[channelName];
+  if (!mapping) return null;
+
+  if (mapping.primary) {
+    return `${TV_LOGOS_BASE}${mapping.primary}`;
+  }
+
+  return mapping.fallback ?? null;
+}
+
 function getLogoPath(channelName: string): string | null {
-  const filename = logoMap[channelName];
-  if (!filename) return null;
-  if (!availableLogos.has(filename)) return null;
-  return `/logos/${filename}.webp`;
+  const mapping = logoMap[channelName];
+  if (!mapping) return null;
+
+  if (availableLogos.has(mapping.local)) {
+    return `/logos/${mapping.local}.webp`;
+  }
+
+  return getLogoExternalPath(channelName);
 }
 
 // ============================================================
@@ -206,6 +350,7 @@ app.get('/channels', (c) => {
   const channelsWithLogos = channels.channels.map((channel) => ({
     name: channel.name,
     logo: getLogoPath(channel.name),
+    logoExternal: getLogoExternalPath(channel.name),
     links: channel.links,
   }));
 

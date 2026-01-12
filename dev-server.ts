@@ -7,7 +7,7 @@
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { serveStatic } from "hono/bun";
-import { getLogoPath } from "./api/logoMap";
+import { getLogoExternalPath, getLogoPath } from "./api/logoMap";
 
 // Tipos
 interface Channel {
@@ -88,6 +88,7 @@ app.get("/api/channels", (c) => {
   const channelsWithLogos = channelsData.channels.map((channel) => ({
     name: channel.name,
     logo: getLogoPath(channel.name),
+    logoExternal: getLogoExternalPath(channel.name),
     links: channel.links,
   }));
 

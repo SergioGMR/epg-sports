@@ -74,7 +74,7 @@ Estado del servicio y estadísticas.
   "data": {
     "totalMatches": 79,
     "totalEvents": 69,
-    "totalChannels": 24
+    "totalChannels": 26
   }
 }
 ```
@@ -94,15 +94,17 @@ Canales con logos y enlaces AceStream.
     {
       "name": "DAZN",
       "logo": "/logos/dazn.webp",
+      "logoExternal": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dazn-es.png",
       "links": ["acestream://..."]
     },
     {
       "name": "Courtside 1891",
-      "logo": null,
+      "logo": "/logos/courtside-1891.webp",
+      "logoExternal": "https://www.courtside1891.basketball/resources/v1.28.1/i/elements/pwa/manifest-icon-512.png",
       "links": ["acestream://..."]
     }
   ],
-  "totalChannels": 24,
+  "totalChannels": 26,
   "lastUpdated": "2026-01-08T00:14:06.975Z"
 }
 ```
@@ -113,6 +115,9 @@ Los logos están disponibles como assets estáticos en `/logos/{nombre}.webp`.
 Ejemplo: `/logos/dazn.webp`, `/logos/movistar-plus.webp`
 
 Los logos se cachean con `Cache-Control: public, max-age=31536000, immutable`.
+
+`logo` devuelve el asset local si existe; si no, cae a una URL externa (tv-logos o `fallback`).
+`logoExternal` siempre devuelve la URL externa si está disponible (útil como respaldo o CDN).
 
 ## Desarrollo local
 
@@ -126,7 +131,8 @@ bun run dev
 ## Estructura del proyecto
 ```text
 ├─ api/
-│  └─ index.ts           # App Hono (endpoints de la API)
+│  ├─ index.ts           # App Hono (endpoints de la API)
+│  └─ logoMap.ts         # Mapeo canal -> logo (local/external)
 ├─ data/
 │  ├─ allMatches.json    # Partidos consolidados
 │  ├─ updatedMatches.json # Partidos con enlaces
@@ -136,8 +142,6 @@ bun run dev
 │  └─ logos/             # Logos de canales (WebP optimizados)
 ├─ scripts/
 │  └─ download-logos.ts  # Script de descarga de logos
-├─ src/
-│  └─ logoMap.ts         # Mapeo canal -> archivo de logo
 ├─ index.js              # Script principal de scraping
 ├─ combine.ts            # Une y ordena partidos
 ├─ shuffle.ts            # Añade enlaces AceStream
@@ -171,7 +175,7 @@ bun run dev
 ## Personalización
 - Añade o quita deportes editando la constante `sports` en `index.js`.
 - Ajusta selectores o la lógica de limpieza en `index.js` si cambia la estructura de la web origen.
-- Añade nuevos canales en `src/logoMap.ts` para incluir sus logos.
+- Añade nuevos canales en `api/logoMap.ts` para incluir sus logos.
 
 ## Ejecución automática (GitHub Actions)
 El pipeline se ejecuta automáticamente cada día a las 00:00 UTC mediante GitHub Actions.

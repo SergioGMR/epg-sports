@@ -125,7 +125,7 @@ export const logoMap: Record<string, LogoSource> = {
     local: 'rtve',
   },
   Teledeporte: {
-    primary: null,
+    primary: 'countries/spain/tdp-es.png',
     fallback: 'https://img2.rtve.es/css/rtve.commons/rtve.header.footer/i/logoTDP.png',
     local: 'teledeporte',
   },
@@ -149,17 +149,19 @@ export const logoMap: Record<string, LogoSource> = {
   // ============ CANALES SIN LOGO EN TV-LOGOS ============
   'Courtside 1891': {
     primary: null,
-    fallback: 'https://www.euroleaguebasketball.net/wp-content/uploads/2024/01/cropped-favicon-192x192.png',
+    fallback:
+      'https://www.courtside1891.basketball/resources/v1.28.1/i/elements/pwa/manifest-icon-512.png',
     local: 'courtside-1891',
   },
   Hellotickets: {
     primary: null,
-    fallback: 'https://cdn.hellotickets.com/assets/images/ht-logo.png',
+    fallback: 'https://static.hellotickets.com/logo/hellotickets-logo.svg',
     local: 'hellotickets',
   },
   OneFootball: {
     primary: null,
-    fallback: 'https://onefootball.com/favicon-32x32.png',
+    fallback:
+      'https://play-lh.googleusercontent.com/mXog2BuRhYPqKITgx29PpfjFoqAESP3PXF96dc0UEQPz4CxD35xL3cyfw-OECqA2baiR',
     local: 'onefootball',
   },
 };
@@ -175,15 +177,26 @@ export const TV_LOGOS_BASE = 'https://raw.githubusercontent.com/tv-logo/tv-logos
  */
 // AVAILABLE_LOGOS_START
 const availableLogos: string[] = [
+  'courtside-1891',
   'dazn',
+  'dazn-1',
   'dazn-2',
+  'dazn-laliga',
+  'hellotickets',
+  'laliga-plus',
   'laliga-tv',
   'laliga-tv-2',
-  'movistar-vamos',
+  'movistar-champions',
+  'movistar-deportes',
+  'movistar-deportes-2',
   'movistar-laliga',
   'movistar-plus',
+  'movistar-vamos',
+  'navarra-tv',
   'nba-league-pass',
+  'onefootball',
   'rtve',
+  'teledeporte',
 ];
 // AVAILABLE_LOGOS_END
 
@@ -200,18 +213,36 @@ export function getLogoFilename(channelName: string): string | null {
 }
 
 /**
- * Obtiene la URL del logo para un canal
- * Solo devuelve el path si el logo está disponible
+ * Obtiene la URL externa del logo para un canal (tv-logos o fallback).
  * @param channelName Nombre del canal
- * @returns Path relativo al logo (/logos/nombre.webp) o null
+ * @returns URL externa del logo o null
+ */
+export function getLogoExternalPath(channelName: string): string | null {
+  const mapping = logoMap[channelName];
+  if (!mapping) return null;
+
+  if (mapping.primary) {
+    return `${TV_LOGOS_BASE}${mapping.primary}`;
+  }
+
+  return mapping.fallback ?? null;
+}
+
+/**
+ * Obtiene la URL del logo para un canal.
+ * Usa el archivo local si existe; si no, devuelve una URL externa.
+ * @param channelName Nombre del canal
+ * @returns Path relativo al logo (/logos/nombre.webp), URL externa o null
  */
 export function getLogoPath(channelName: string): string | null {
-  const filename = getLogoFilename(channelName);
-  if (!filename) return null;
+  const mapping = logoMap[channelName];
+  if (!mapping) return null;
 
-  if (!availableSet.has(filename)) return null;
+  if (availableSet.has(mapping.local)) {
+    return `/logos/${mapping.local}.webp`;
+  }
 
-  return `/logos/${filename}.webp`;
+  return getLogoExternalPath(channelName);
 }
 
 /**
