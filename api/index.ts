@@ -281,9 +281,18 @@ function getLogoPath(channelName: string): string | null {
 // TYPES
 // ============================================================
 
+// Interface para links organizados por calidad
+interface QualityLinks {
+  "4k": string[];
+  "1080p": string[];
+  "720p": string[];
+  "sd": string[];
+  "unknown": string[];
+}
+
 interface Channel {
   name: string;
-  links: string[];
+  links: QualityLinks;
 }
 
 interface ChannelsData {
@@ -310,6 +319,7 @@ interface Match {
   channels: string[];
   event: Record<string, unknown>;
   eventType: string;
+  links?: QualityLinks;
 }
 
 interface AllMatchesData {

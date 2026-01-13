@@ -2,303 +2,545 @@
   "channels": [
     {
       "name": "Cuatro",
-      "links": [
-        "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://43004e955731cd3afcc34d24e5178d4b427bff37",
-        "acestream://50a8a13c474848d1efbd5586efdb5b6cdd173fa9",
-        "acestream://6538b79ce0da657d8455d1da6a5f342398899a0e",
-        "acestream://8670df538a11c6ec97b3f634981ddc4409ca0333",
-        "acestream://8d66979e705a8b532b9243bbc0862c0f1c734ef0",
-        "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025",
-        "acestream://fb2dd566824658eeab27aae19a01c09430f1a97d"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
+          "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+          "acestream://43004e955731cd3afcc34d24e5178d4b427bff37",
+          "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+          "acestream://8670df538a11c6ec97b3f634981ddc4409ca0333",
+          "acestream://8b081c8afbd9beafc8c5fbf0115eb36eadb07a35",
+          "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025",
+          "acestream://fb2dd566824658eeab27aae19a01c09430f1a97d"
+        ],
+        "720p": [
+          "acestream://5b776533534b767a84dfda263825ad10f30a8ec7"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
+          "acestream://9afc89481b721ce6c326c85e47148676077b8e62",
+          "acestream://ae68a0835039fab28fd2314108fabd4fab33b8ab",
+          "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276",
+          "acestream://f12038c7fe603ed93fa9475d60692dd95bb7b17f"
+        ]
+      }
     },
     {
       "name": "DAZN",
-      "links": [
-        "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://43004e955731cd3afcc34d24e5178d4b427bff37",
-        "acestream://4e401fdceebffdf1f09aef954844d09f6c62f460",
-        "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
-        "acestream://50a8a13c474848d1efbd5586efdb5b6cdd173fa9",
-        "acestream://635b61c1f240449163260cd914d10d886a54fee3",
-        "acestream://6538b79ce0da657d8455d1da6a5f342398899a0e",
-        "acestream://778d2f60bb7207addedcca0b9aed98f41529724e",
-        "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
-        "acestream://8670df538a11c6ec97b3f634981ddc4409ca0333",
-        "acestream://8a86cd6152154a25ad4b76523160552a40313b28",
-        "acestream://8d66979e705a8b532b9243bbc0862c0f1c734ef0",
-        "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
-        "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025",
-        "acestream://d641cd0fca0f467b3130754a091e2f4d22e68eb1",
-        "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276",
-        "acestream://fb2dd566824658eeab27aae19a01c09430f1a97d"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
+          "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+          "acestream://43004e955731cd3afcc34d24e5178d4b427bff37",
+          "acestream://4e401fdceebffdf1f09aef954844d09f6c62f460",
+          "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
+          "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+          "acestream://70f22be1286ef224b5e4e9451d9a42468152cda4",
+          "acestream://8670df538a11c6ec97b3f634981ddc4409ca0333",
+          "acestream://87bb542f974b6b9e89d0f2e20ed6dc93426f4be0",
+          "acestream://8a86cd6152154a25ad4b76523160552a40313b28",
+          "acestream://8b081c8afbd9beafc8c5fbf0115eb36eadb07a35",
+          "acestream://8ee52f6208e33706171856f99d2ed2dabd317f3a",
+          "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
+          "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025",
+          "acestream://d641cd0fca0f467b3130754a091e2f4d22e68eb1",
+          "acestream://fb2dd566824658eeab27aae19a01c09430f1a97d"
+        ],
+        "720p": [
+          "acestream://5b776533534b767a84dfda263825ad10f30a8ec7",
+          "acestream://a4f072c9b614323ac1258a175f868a909ea3c8cd",
+          "acestream://c976c7b37964322752db562b4ad65515509c8d36"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
+          "acestream://9afc89481b721ce6c326c85e47148676077b8e62",
+          "acestream://ae68a0835039fab28fd2314108fabd4fab33b8ab",
+          "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276",
+          "acestream://f12038c7fe603ed93fa9475d60692dd95bb7b17f"
+        ]
+      }
     },
     {
       "name": "DAZN 2",
-      "links": [
-        "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://43004e955731cd3afcc34d24e5178d4b427bff37",
-        "acestream://50a8a13c474848d1efbd5586efdb5b6cdd173fa9",
-        "acestream://6538b79ce0da657d8455d1da6a5f342398899a0e",
-        "acestream://8670df538a11c6ec97b3f634981ddc4409ca0333",
-        "acestream://8d66979e705a8b532b9243bbc0862c0f1c734ef0",
-        "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025",
-        "acestream://fb2dd566824658eeab27aae19a01c09430f1a97d"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
+          "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+          "acestream://43004e955731cd3afcc34d24e5178d4b427bff37",
+          "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+          "acestream://8670df538a11c6ec97b3f634981ddc4409ca0333",
+          "acestream://8b081c8afbd9beafc8c5fbf0115eb36eadb07a35",
+          "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025",
+          "acestream://fb2dd566824658eeab27aae19a01c09430f1a97d"
+        ],
+        "720p": [
+          "acestream://5b776533534b767a84dfda263825ad10f30a8ec7"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
+          "acestream://9afc89481b721ce6c326c85e47148676077b8e62",
+          "acestream://ae68a0835039fab28fd2314108fabd4fab33b8ab",
+          "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276",
+          "acestream://f12038c7fe603ed93fa9475d60692dd95bb7b17f"
+        ]
+      }
     },
     {
       "name": "DAZN App Gratis",
-      "links": [
-        "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://50a8a13c474848d1efbd5586efdb5b6cdd173fa9",
-        "acestream://6538b79ce0da657d8455d1da6a5f342398899a0e",
-        "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
-        "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025",
-        "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
+          "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+          "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+          "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025"
+        ],
+        "720p": [
+          "acestream://5b776533534b767a84dfda263825ad10f30a8ec7"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
+          "acestream://9afc89481b721ce6c326c85e47148676077b8e62",
+          "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276"
+        ]
+      }
     },
     {
       "name": "DAZN Baloncesto",
-      "links": [
-        "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://50a8a13c474848d1efbd5586efdb5b6cdd173fa9",
-        "acestream://6538b79ce0da657d8455d1da6a5f342398899a0e",
-        "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
+          "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+          "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+          "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025"
+        ],
+        "720p": [
+          "acestream://5b776533534b767a84dfda263825ad10f30a8ec7"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
+          "acestream://9afc89481b721ce6c326c85e47148676077b8e62",
+          "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276"
+        ]
+      }
     },
     {
       "name": "DAZN Baloncesto 3",
-      "links": [
-        "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://4e401fdceebffdf1f09aef954844d09f6c62f460",
-        "acestream://50a8a13c474848d1efbd5586efdb5b6cdd173fa9",
-        "acestream://6538b79ce0da657d8455d1da6a5f342398899a0e",
-        "acestream://8a86cd6152154a25ad4b76523160552a40313b28",
-        "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025",
-        "acestream://d641cd0fca0f467b3130754a091e2f4d22e68eb1"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
+          "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+          "acestream://4e401fdceebffdf1f09aef954844d09f6c62f460",
+          "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+          "acestream://8a86cd6152154a25ad4b76523160552a40313b28",
+          "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025",
+          "acestream://d641cd0fca0f467b3130754a091e2f4d22e68eb1"
+        ],
+        "720p": [
+          "acestream://5b776533534b767a84dfda263825ad10f30a8ec7"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
+          "acestream://9afc89481b721ce6c326c85e47148676077b8e62",
+          "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276"
+        ]
+      }
     },
     {
       "name": "FIFA+",
-      "links": [
-        "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
-        "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
+          "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+          "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+          "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025"
+        ],
+        "720p": [
+          "acestream://5b776533534b767a84dfda263825ad10f30a8ec7"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
+          "acestream://9afc89481b721ce6c326c85e47148676077b8e62",
+          "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276"
+        ]
+      }
     },
     {
       "name": "Hellotickets",
-      "links": [
-        "acestream://00c9bc9c5d7d87680a5a6bed349edfa775a89947",
-        "acestream://107c3ce5a5d2527c9f06e4eab87477201791f231",
-        "acestream://4b528d10eaad747ddf52251206177573ee3e9f74",
-        "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
-        "acestream://635b61c1f240449163260cd914d10d886a54fee3",
-        "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
-        "acestream://c9321006921967d6258df6945f1d598a5c0cbf1e",
-        "acestream://d2ddf9802ccfdc456f872eea4d24596880a638a0",
-        "acestream://d4ff041287a43e3114d411d671c4b4e92e21f33y"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://107c3ce5a5d2527c9f06e4eab87477201791f231",
+          "acestream://4b528d10eaad747ddf52251206177573ee3e9f74",
+          "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
+          "acestream://8c30b600cc48899991b452805df48b68d998e61c",
+          "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
+          "acestream://c9321006921967d6258df6945f1d598a5c0cbf1e",
+          "acestream://d4ff041287a43e3114d411d671c4b4e92e21f33y"
+        ],
+        "720p": [
+          "acestream://14b6cd8769cd485f2cffdca64be9698d9bfeac58",
+          "acestream://c976c7b37964322752db562b4ad65515509c8d36"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://00c9bc9c5d7d87680a5a6bed349edfa775a89947"
+        ]
+      }
     },
     {
       "name": "LaLiga TV Bar",
-      "links": [
-        "acestream://00c9bc9c5d7d87680a5a6bed349edfa775a89947",
-        "acestream://107c3ce5a5d2527c9f06e4eab87477201791f231",
-        "acestream://4b528d10eaad747ddf52251206177573ee3e9f74",
-        "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
-        "acestream://635b61c1f240449163260cd914d10d886a54fee3",
-        "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
-        "acestream://c9321006921967d6258df6945f1d598a5c0cbf1e",
-        "acestream://d2ddf9802ccfdc456f872eea4d24596880a638a0",
-        "acestream://d4ff041287a43e3114d411d671c4b4e92e21f33y"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://107c3ce5a5d2527c9f06e4eab87477201791f231",
+          "acestream://4b528d10eaad747ddf52251206177573ee3e9f74",
+          "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
+          "acestream://8c30b600cc48899991b452805df48b68d998e61c",
+          "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
+          "acestream://c9321006921967d6258df6945f1d598a5c0cbf1e",
+          "acestream://d4ff041287a43e3114d411d671c4b4e92e21f33y"
+        ],
+        "720p": [
+          "acestream://14b6cd8769cd485f2cffdca64be9698d9bfeac58",
+          "acestream://c976c7b37964322752db562b4ad65515509c8d36"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://00c9bc9c5d7d87680a5a6bed349edfa775a89947"
+        ]
+      }
     },
     {
       "name": "LALIGA TV Hypermotion : VER PARTIDO",
-      "links": [
-        "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
-        "acestream://50a8a13c474848d1efbd5586efdb5b6cdd173fa9",
-        "acestream://635b61c1f240449163260cd914d10d886a54fee3",
-        "acestream://6538b79ce0da657d8455d1da6a5f342398899a0e",
-        "acestream://778d2f60bb7207addedcca0b9aed98f41529724e",
-        "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
-        "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
+          "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+          "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
+          "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+          "acestream://70f22be1286ef224b5e4e9451d9a42468152cda4",
+          "acestream://87bb542f974b6b9e89d0f2e20ed6dc93426f4be0",
+          "acestream://8ee52f6208e33706171856f99d2ed2dabd317f3a",
+          "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
+          "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025"
+        ],
+        "720p": [
+          "acestream://5b776533534b767a84dfda263825ad10f30a8ec7",
+          "acestream://a4f072c9b614323ac1258a175f868a909ea3c8cd",
+          "acestream://c976c7b37964322752db562b4ad65515509c8d36"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
+          "acestream://9afc89481b721ce6c326c85e47148676077b8e62",
+          "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276"
+        ]
+      }
     },
     {
       "name": "LaLiga TV M2",
-      "links": [
-        "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
-        "acestream://50a8a13c474848d1efbd5586efdb5b6cdd173fa9",
-        "acestream://635b61c1f240449163260cd914d10d886a54fee3",
-        "acestream://6538b79ce0da657d8455d1da6a5f342398899a0e",
-        "acestream://778d2f60bb7207addedcca0b9aed98f41529724e",
-        "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
-        "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
+          "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+          "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
+          "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+          "acestream://70f22be1286ef224b5e4e9451d9a42468152cda4",
+          "acestream://87bb542f974b6b9e89d0f2e20ed6dc93426f4be0",
+          "acestream://8ee52f6208e33706171856f99d2ed2dabd317f3a",
+          "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
+          "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025"
+        ],
+        "720p": [
+          "acestream://5b776533534b767a84dfda263825ad10f30a8ec7",
+          "acestream://a4f072c9b614323ac1258a175f868a909ea3c8cd",
+          "acestream://c976c7b37964322752db562b4ad65515509c8d36"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
+          "acestream://9afc89481b721ce6c326c85e47148676077b8e62",
+          "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276"
+        ]
+      }
     },
     {
       "name": "LaLiga TV M3",
-      "links": [
-        "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
-        "acestream://50a8a13c474848d1efbd5586efdb5b6cdd173fa9",
-        "acestream://635b61c1f240449163260cd914d10d886a54fee3",
-        "acestream://6538b79ce0da657d8455d1da6a5f342398899a0e",
-        "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
-        "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
+          "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+          "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
+          "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+          "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
+          "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025"
+        ],
+        "720p": [
+          "acestream://5b776533534b767a84dfda263825ad10f30a8ec7",
+          "acestream://c976c7b37964322752db562b4ad65515509c8d36"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
+          "acestream://9afc89481b721ce6c326c85e47148676077b8e62",
+          "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276"
+        ]
+      }
     },
     {
       "name": "M+ #Vamos Bar",
-      "links": [
-        "acestream://4e99e755aa32c4bc043a4bb1cd1de35f9bd94dde",
-        "acestream://651d6be899d1fafa107a265a9dc00ff914c1b548",
-        "acestream://73d38feaa770d788848ec098470e32670fe55a61",
-        "acestream://c7c81acdd1a03ecc418c94c2f28e2adb0556c40b",
-        "acestream://edd06f11e1cef292a1d795e15207ef2f580e298c",
-        "acestream://f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://2940120bf034db79a7f5849846ccea0255172eae",
+          "acestream://3b2a8b41e7097c16b0468b42d7de0320886fa933",
+          "acestream://4e99e755aa32c4bc043a4bb1cd1de35f9bd94dde",
+          "acestream://651d6be899d1fafa107a265a9dc00ff914c1b548",
+          "acestream://6e212a916c83638268047dd2757c95b14f7d25a3",
+          "acestream://73d38feaa770d788848ec098470e32670fe55a61",
+          "acestream://c7c81acdd1a03ecc418c94c2f28e2adb0556c40b",
+          "acestream://f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
+        ],
+        "720p": [
+          "acestream://0e5d8c9724fa9163f49096b70484e315251eb785",
+          "acestream://bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://476b6f6583517bd75c15c4663bf45fab7c8da9cf"
+        ]
+      }
     },
     {
       "name": "M+ LALIGA",
-      "links": [
-        "acestream://00c9bc9c5d7d87680a5a6bed349edfa775a89947",
-        "acestream://107c3ce5a5d2527c9f06e4eab87477201791f231",
-        "acestream://4b528d10eaad747ddf52251206177573ee3e9f74",
-        "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
-        "acestream://635b61c1f240449163260cd914d10d886a54fee3",
-        "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
-        "acestream://c9321006921967d6258df6945f1d598a5c0cbf1e",
-        "acestream://d2ddf9802ccfdc456f872eea4d24596880a638a0",
-        "acestream://d4ff041287a43e3114d411d671c4b4e92e21f33y"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://107c3ce5a5d2527c9f06e4eab87477201791f231",
+          "acestream://4b528d10eaad747ddf52251206177573ee3e9f74",
+          "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
+          "acestream://8c30b600cc48899991b452805df48b68d998e61c",
+          "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
+          "acestream://c9321006921967d6258df6945f1d598a5c0cbf1e",
+          "acestream://d4ff041287a43e3114d411d671c4b4e92e21f33y"
+        ],
+        "720p": [
+          "acestream://14b6cd8769cd485f2cffdca64be9698d9bfeac58",
+          "acestream://c976c7b37964322752db562b4ad65515509c8d36"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://00c9bc9c5d7d87680a5a6bed349edfa775a89947"
+        ]
+      }
     },
     {
       "name": "M+ LALIGA HDR",
-      "links": [
-        "acestream://00c9bc9c5d7d87680a5a6bed349edfa775a89947",
-        "acestream://107c3ce5a5d2527c9f06e4eab87477201791f231",
-        "acestream://4b528d10eaad747ddf52251206177573ee3e9f74",
-        "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
-        "acestream://635b61c1f240449163260cd914d10d886a54fee3",
-        "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
-        "acestream://c9321006921967d6258df6945f1d598a5c0cbf1e",
-        "acestream://d2ddf9802ccfdc456f872eea4d24596880a638a0",
-        "acestream://d4ff041287a43e3114d411d671c4b4e92e21f33y"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://107c3ce5a5d2527c9f06e4eab87477201791f231",
+          "acestream://4b528d10eaad747ddf52251206177573ee3e9f74",
+          "acestream://5091ea94b75ba4b50b078b4102a3d0e158ef59c3",
+          "acestream://8c30b600cc48899991b452805df48b68d998e61c",
+          "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
+          "acestream://c9321006921967d6258df6945f1d598a5c0cbf1e",
+          "acestream://d4ff041287a43e3114d411d671c4b4e92e21f33y"
+        ],
+        "720p": [
+          "acestream://14b6cd8769cd485f2cffdca64be9698d9bfeac58",
+          "acestream://c976c7b37964322752db562b4ad65515509c8d36"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://00c9bc9c5d7d87680a5a6bed349edfa775a89947"
+        ]
+      }
     },
     {
       "name": "M+ Vamos",
-      "links": [
-        "acestream://4e99e755aa32c4bc043a4bb1cd1de35f9bd94dde",
-        "acestream://651d6be899d1fafa107a265a9dc00ff914c1b548",
-        "acestream://73d38feaa770d788848ec098470e32670fe55a61",
-        "acestream://c7c81acdd1a03ecc418c94c2f28e2adb0556c40b",
-        "acestream://edd06f11e1cef292a1d795e15207ef2f580e298c",
-        "acestream://f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://2940120bf034db79a7f5849846ccea0255172eae",
+          "acestream://3b2a8b41e7097c16b0468b42d7de0320886fa933",
+          "acestream://4e99e755aa32c4bc043a4bb1cd1de35f9bd94dde",
+          "acestream://651d6be899d1fafa107a265a9dc00ff914c1b548",
+          "acestream://6e212a916c83638268047dd2757c95b14f7d25a3",
+          "acestream://73d38feaa770d788848ec098470e32670fe55a61",
+          "acestream://c7c81acdd1a03ecc418c94c2f28e2adb0556c40b",
+          "acestream://f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
+        ],
+        "720p": [
+          "acestream://0e5d8c9724fa9163f49096b70484e315251eb785",
+          "acestream://bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://476b6f6583517bd75c15c4663bf45fab7c8da9cf"
+        ]
+      }
     },
     {
       "name": "M+ Vamos 2",
-      "links": [
-        "acestream://73d38feaa770d788848ec098470e32670fe55a61",
-        "acestream://edd06f11e1cef292a1d795e15207ef2f580e298c",
-        "acestream://f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://9934906503661142f97a044ae1509a294057c2ed"
+        ],
+        "720p": [],
+        "sd": [],
+        "unknown": []
+      }
     },
     {
       "name": "Mediaset Infinity",
-      "links": [
-        "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://43004e955731cd3afcc34d24e5178d4b427bff37",
-        "acestream://50a8a13c474848d1efbd5586efdb5b6cdd173fa9",
-        "acestream://6538b79ce0da657d8455d1da6a5f342398899a0e",
-        "acestream://8670df538a11c6ec97b3f634981ddc4409ca0333",
-        "acestream://8d66979e705a8b532b9243bbc0862c0f1c734ef0",
-        "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025",
-        "acestream://fb2dd566824658eeab27aae19a01c09430f1a97d"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
+          "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+          "acestream://43004e955731cd3afcc34d24e5178d4b427bff37",
+          "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+          "acestream://8670df538a11c6ec97b3f634981ddc4409ca0333",
+          "acestream://8b081c8afbd9beafc8c5fbf0115eb36eadb07a35",
+          "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025",
+          "acestream://fb2dd566824658eeab27aae19a01c09430f1a97d"
+        ],
+        "720p": [
+          "acestream://5b776533534b767a84dfda263825ad10f30a8ec7"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
+          "acestream://9afc89481b721ce6c326c85e47148676077b8e62",
+          "acestream://ae68a0835039fab28fd2314108fabd4fab33b8ab",
+          "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276",
+          "acestream://f12038c7fe603ed93fa9475d60692dd95bb7b17f"
+        ]
+      }
     },
     {
       "name": "Movistar+ Lite",
-      "links": [
-        "acestream://4e99e755aa32c4bc043a4bb1cd1de35f9bd94dde",
-        "acestream://651d6be899d1fafa107a265a9dc00ff914c1b548",
-        "acestream://73d38feaa770d788848ec098470e32670fe55a61",
-        "acestream://c7c81acdd1a03ecc418c94c2f28e2adb0556c40b",
-        "acestream://edd06f11e1cef292a1d795e15207ef2f580e298c",
-        "acestream://f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://2940120bf034db79a7f5849846ccea0255172eae",
+          "acestream://3b2a8b41e7097c16b0468b42d7de0320886fa933",
+          "acestream://4e99e755aa32c4bc043a4bb1cd1de35f9bd94dde",
+          "acestream://651d6be899d1fafa107a265a9dc00ff914c1b548",
+          "acestream://6e212a916c83638268047dd2757c95b14f7d25a3",
+          "acestream://73d38feaa770d788848ec098470e32670fe55a61",
+          "acestream://c7c81acdd1a03ecc418c94c2f28e2adb0556c40b",
+          "acestream://f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
+        ],
+        "720p": [
+          "acestream://0e5d8c9724fa9163f49096b70484e315251eb785",
+          "acestream://bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://476b6f6583517bd75c15c4663bf45fab7c8da9cf"
+        ]
+      }
     },
     {
       "name": "NBA League Pass",
-      "links": [
-        "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://4e401fdceebffdf1f09aef954844d09f6c62f460",
-        "acestream://50a8a13c474848d1efbd5586efdb5b6cdd173fa9",
-        "acestream://6538b79ce0da657d8455d1da6a5f342398899a0e",
-        "acestream://8a86cd6152154a25ad4b76523160552a40313b28",
-        "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025",
-        "acestream://d641cd0fca0f467b3130754a091e2f4d22e68eb1"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://36394be1db2e20b5997d987c32fd38c7f0f194b7",
+          "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+          "acestream://4e401fdceebffdf1f09aef954844d09f6c62f460",
+          "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+          "acestream://8a86cd6152154a25ad4b76523160552a40313b28",
+          "acestream://b03f9310155cf3b4eafc1dfba763781abc3ff025",
+          "acestream://d641cd0fca0f467b3130754a091e2f4d22e68eb1"
+        ],
+        "720p": [
+          "acestream://5b776533534b767a84dfda263825ad10f30a8ec7"
+        ],
+        "sd": [],
+        "unknown": [
+          "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
+          "acestream://9afc89481b721ce6c326c85e47148676077b8e62",
+          "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276"
+        ]
+      }
     },
     {
       "name": "OneFootball",
-      "links": [
-        "acestream://73d38feaa770d788848ec098470e32670fe55a61",
-        "acestream://edd06f11e1cef292a1d795e15207ef2f580e298c",
-        "acestream://f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
-      ]
-    },
-    {
-      "name": "OneFootball PPV",
-      "links": [
-        "acestream://0f86119f233fd64fe85cc0b4a9059590d06d242a",
-        "acestream://34944c86bad01c3963ef113c28c033858085adb7"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://9934906503661142f97a044ae1509a294057c2ed"
+        ],
+        "720p": [],
+        "sd": [],
+        "unknown": []
+      }
     },
     {
       "name": "RFEF.es",
-      "links": [
-        "acestream://9fb99c40a2c45d5c5342b30626eb56140f980612",
-        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://9fb99c40a2c45d5c5342b30626eb56140f980612",
+          "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
+        ],
+        "720p": [],
+        "sd": [],
+        "unknown": []
+      }
     },
     {
       "name": "RTVE Play",
-      "links": [
-        "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
-        "acestream://7d910d9480e023608d1fe77eaf47c2ed34592155",
-        "acestream://9fb99c40a2c45d5c5342b30626eb56140f980612",
-        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
+          "acestream://7d910d9480e023608d1fe77eaf47c2ed34592155",
+          "acestream://9fb99c40a2c45d5c5342b30626eb56140f980612",
+          "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
+        ],
+        "720p": [],
+        "sd": [],
+        "unknown": []
+      }
     },
     {
       "name": "Teledeporte",
-      "links": [
-        "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
-        "acestream://7d910d9480e023608d1fe77eaf47c2ed34592155",
-        "acestream://9fb99c40a2c45d5c5342b30626eb56140f980612",
-        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
-      ]
+      "links": {
+        "4k": [],
+        "1080p": [
+          "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
+          "acestream://7d910d9480e023608d1fe77eaf47c2ed34592155",
+          "acestream://9fb99c40a2c45d5c5342b30626eb56140f980612",
+          "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
+        ],
+        "720p": [],
+        "sd": [],
+        "unknown": []
+      }
     }
   ],
-  "totalChannels": 25,
-  "lastUpdated": "2026-01-12T00:45:29.814Z"
+  "totalChannels": 24,
+  "lastUpdated": "2026-01-13T13:46:28.630Z"
 }

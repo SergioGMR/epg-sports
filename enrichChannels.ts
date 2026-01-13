@@ -1,6 +1,15 @@
 import data from "./data/updatedMatches.json" assert { type: "json" };
 import fs from "fs";
 
+// Interface para links organizados por calidad
+interface QualityLinks {
+  "4k": string[];
+  "1080p": string[];
+  "720p": string[];
+  "sd": string[];
+  "unknown": string[];
+}
+
 interface Match {
   sport: string;
   date: {
@@ -29,18 +38,63 @@ interface Match {
     startDate?: string;
     duration?: string;
   };
-  links?: string[];
+  links?: QualityLinks;
 }
 
 interface Channel {
   name: string;
-  links: string[];
+  links: QualityLinks;
 }
 
 interface ChannelsOutput {
   channels: Channel[];
   totalChannels: number;
   lastUpdated: string;
+}
+
+// Función auxiliar para crear un objeto QualityLinks vacío
+function createEmptyQualityLinks(): QualityLinks {
+  return {
+    "4k": [],
+    "1080p": [],
+    "720p": [],
+    "sd": [],
+    "unknown": [],
+  };
+}
+
+// Función auxiliar para fusionar links por calidad (sin duplicados)
+function mergeQualityLinks(target: QualityLinks, source: QualityLinks): void {
+  const qualities: (keyof QualityLinks)[] = ["4k", "1080p", "720p", "sd", "unknown"];
+  for (const quality of qualities) {
+    for (const link of source[quality]) {
+      if (!target[quality].includes(link)) {
+        target[quality].push(link);
+      }
+    }
+  }
+}
+
+// Función auxiliar para verificar si un QualityLinks tiene algún link
+function hasAnyLinks(links: QualityLinks): boolean {
+  return (
+    links["4k"].length > 0 ||
+    links["1080p"].length > 0 ||
+    links["720p"].length > 0 ||
+    links["sd"].length > 0 ||
+    links["unknown"].length > 0
+  );
+}
+
+// Función auxiliar para contar todos los links en un QualityLinks
+function countAllLinks(links: QualityLinks): number {
+  return (
+    links["4k"].length +
+    links["1080p"].length +
+    links["720p"].length +
+    links["sd"].length +
+    links["unknown"].length
+  );
 }
 
 // Main function to extract and deduplicate channels with links
@@ -60,16 +114,16 @@ export async function enrichChannels(): Promise<void> {
         match.channels &&
         Array.isArray(match.channels) &&
         match.links &&
-        Array.isArray(match.links) &&
-        match.links.length > 0
+        typeof match.links === "object" &&
+        hasAnyLinks(match.links as QualityLinks)
     ) as Match[];
 
     console.log(
       `Processing ${validMatches.length} matches with links out of ${data.length} total`
     );
 
-    // Create a map to aggregate channels and their links
-    const channelMap = new Map<string, Set<string>>();
+    // Create a map to aggregate channels and their links by quality
+    const channelMap = new Map<string, QualityLinks>();
 
     // Process each match
     validMatches.forEach((match) => {
@@ -78,20 +132,27 @@ export async function enrichChannels(): Promise<void> {
       // Associate each channel in the match with all the links
       channels.forEach((channelName) => {
         if (!channelMap.has(channelName)) {
-          channelMap.set(channelName, new Set<string>());
+          channelMap.set(channelName, createEmptyQualityLinks());
         }
 
         const channelLinks = channelMap.get(channelName)!;
-        links!.forEach((link) => channelLinks.add(link));
+        mergeQualityLinks(channelLinks, links!);
       });
     });
 
     // Convert map to array format
     const channelsArray: Channel[] = Array.from(channelMap.entries())
-      .map(([name, linksSet]) => ({
-        name,
-        links: Array.from(linksSet).sort(), // Sort links for consistency
-      }))
+      .map(([name, links]) => {
+        // Sort links within each quality for consistency
+        const sortedLinks: QualityLinks = {
+          "4k": [...links["4k"]].sort(),
+          "1080p": [...links["1080p"]].sort(),
+          "720p": [...links["720p"]].sort(),
+          "sd": [...links["sd"]].sort(),
+          "unknown": [...links["unknown"]].sort(),
+        };
+        return { name, links: sortedLinks };
+      })
       .sort((a, b) => a.name.localeCompare(b.name)); // Sort channels alphabetically
 
     // Create output object
@@ -108,7 +169,7 @@ export async function enrichChannels(): Promise<void> {
     console.log(`Successfully processed ${output.totalChannels} unique channels`);
     console.log(
       `Total unique links across all channels: ${channelsArray.reduce(
-        (sum, ch) => sum + ch.links.length,
+        (sum, ch) => sum + countAllLinks(ch.links),
         0
       )}`
     );

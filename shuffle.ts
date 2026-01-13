@@ -1,6 +1,15 @@
 import data from "./data/allMatches.json" assert { type: "json" };
 import fs from "fs";
 
+// Interface para links organizados por calidad
+interface QualityLinks {
+  "4k": string[];
+  "1080p": string[];
+  "720p": string[];
+  "sd": string[];
+  "unknown": string[];
+}
+
 interface Match {
   sport: string;
   date: {
@@ -29,33 +38,21 @@ interface Match {
     startDate?: string;
     duration?: string;
   };
-  links?: string[];
+  links?: QualityLinks;
 }
 
-// Interfaces para la nueva estructura de API
-interface Channel {
-  nombre?: string; // Formato antiguo
-  name?: string;   // Formato nuevo
-  id?: string;
-  url?: string;
-  links?: string[]; // Formato antiguo
-  quality?: string;
-  category?: string;
-  groupTitle?: string;
-  tags: string[];
-}
-
-interface Group {
-  id: string;
+// Interfaces para la nueva estructura de API (elplan.vercel.app/api/channels)
+interface ApiChannel {
   name: string;
-  displayName: string;
-  tags: string[];
-  channels: Channel[];
+  logo: string | null;
+  logoExternal: string | null;
+  links: QualityLinks;
 }
 
 interface ChannelApiResponse {
+  channels: ApiChannel[];
+  totalChannels: number;
   lastUpdated: string;
-  groups: Group[];
 }
 
 const STOP_WORDS = new Set([
@@ -189,61 +186,81 @@ function matchScore(matchChannel: string, candidateName: string): number {
   return Math.min(score, 1);
 }
 
+// Función auxiliar para crear un objeto QualityLinks vacío
+function createEmptyQualityLinks(): QualityLinks {
+  return {
+    "4k": [],
+    "1080p": [],
+    "720p": [],
+    "sd": [],
+    "unknown": [],
+  };
+}
+
+// Función auxiliar para fusionar dos objetos QualityLinks
+function mergeQualityLinks(target: QualityLinks, source: QualityLinks): void {
+  const qualities: (keyof QualityLinks)[] = ["4k", "1080p", "720p", "sd", "unknown"];
+  for (const quality of qualities) {
+    for (const link of source[quality]) {
+      if (!target[quality].includes(link)) {
+        target[quality].push(link);
+      }
+    }
+  }
+}
+
+// Función auxiliar para verificar si un QualityLinks tiene algún link
+function hasAnyLinks(links: QualityLinks): boolean {
+  return (
+    links["4k"].length > 0 ||
+    links["1080p"].length > 0 ||
+    links["720p"].length > 0 ||
+    links["sd"].length > 0 ||
+    links["unknown"].length > 0
+  );
+}
+
 // Función para actualizar los partidos con los links correspondientes
 function updateMatchesWithLinks(
   matches: Match[],
   channelData: ChannelApiResponse
 ): Match[] {
-  if (!Array.isArray(matches) || !channelData || !channelData.groups) {
+  if (!Array.isArray(matches) || !channelData || !channelData.channels) {
     throw new Error('Invalid input: matches must be an array and channelData must be a valid response object');
   }
 
-  // Extract all channels from all groups
-  const allChannels: Channel[] = [];
-  channelData.groups.forEach(group => {
-    if (group.channels && Array.isArray(group.channels)) {
-      allChannels.push(...group.channels);
-    }
-  });
+  const allChannels = channelData.channels;
 
   return matches.map((match) => {
-    const collectedLinks: string[] = [];
+    const collectedLinks = createEmptyQualityLinks();
 
     match.channels.forEach((matchChannel) => {
       let bestScore = 0;
-      let bestLinks: string[] = [];
+      let bestLinks: QualityLinks | null = null;
 
       allChannels.forEach((channel) => {
-        // Soportar ambos formatos: antiguo (nombre) y nuevo (name)
-        const channelName = channel.nombre || channel.name || '';
-        const candidateScore = [channelName, ...channel.tags].reduce(
-          (score, candidateName) =>
-            Math.max(score, matchScore(matchChannel, candidateName)),
-          0
-        );
+        const channelName = channel.name || '';
+        const candidateScore = matchScore(matchChannel, channelName);
 
         if (candidateScore > bestScore) {
           bestScore = candidateScore;
-          // Soportar ambos formatos: antiguo (links array) y nuevo (url string)
-          bestLinks = channel.links || (channel.url ? [channel.url] : []);
+          bestLinks = channel.links;
         }
       });
 
       const MATCH_THRESHOLD = 0.45;
-      if (bestScore >= MATCH_THRESHOLD) {
-        collectedLinks.push(...bestLinks);
+      if (bestScore >= MATCH_THRESHOLD && bestLinks) {
+        mergeQualityLinks(collectedLinks, bestLinks);
       }
     });
 
-    const uniqueLinks = Array.from(new Set(collectedLinks));
-
-    if (uniqueLinks.length === 0) {
+    if (!hasAnyLinks(collectedLinks)) {
       return match;
     }
 
     return {
       ...match,
-      links: uniqueLinks,
+      links: collectedLinks,
     };
   });
 }
@@ -251,36 +268,16 @@ function updateMatchesWithLinks(
 // Main function with error handling
 export async function processMatches(): Promise<void> {
   try {
-    // Fetch channel data from elplan API (enlaces buenos)
-    let response;
-    let channelsData: ChannelApiResponse;
-
+    // Fetch channel data from elplan API (nueva API con links por calidad)
     console.log("Fetching channel data from elplan API...");
-    response = await fetch("https://elplan.vercel.app/api/getData");
+    const response = await fetch("https://elplan.vercel.app/api/channels");
 
     if (!response.ok) {
       throw new Error(`Failed to fetch from API: ${response.status} ${response.statusText}`);
     }
 
-    const apiData = await response.json();
-
-    // Convert to standard format if necessary
-    if (apiData && Array.isArray(apiData)) {
-      channelsData = {
-        lastUpdated: new Date().toISOString(),
-        groups: [{
-          id: "elplan-group",
-          name: "elplan",
-          displayName: "El Plan Channels",
-          tags: [],
-          channels: apiData
-        }]
-      };
-    } else {
-      channelsData = apiData as ChannelApiResponse;
-    }
-
-    console.log("Successfully fetched data from elplan API");
+    const channelsData = await response.json() as ChannelApiResponse;
+    console.log(`Successfully fetched ${channelsData.totalChannels} channels from elplan API`);
 
     // Validar que data.matches exista y sea un array
     if (!data || !data.matches || !Array.isArray(data.matches)) {

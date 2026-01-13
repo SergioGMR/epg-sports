@@ -10,9 +10,17 @@ import { serveStatic } from "hono/bun";
 import { getLogoExternalPath, getLogoPath } from "./api/logoMap";
 
 // Tipos
+interface QualityLinks {
+  "4k": string[];
+  "1080p": string[];
+  "720p": string[];
+  "sd": string[];
+  "unknown": string[];
+}
+
 interface Channel {
   name: string;
-  links: string[];
+  links: QualityLinks;
 }
 
 interface ChannelsData {
