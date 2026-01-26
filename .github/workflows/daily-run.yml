@@ -40,7 +40,7 @@ jobs:
           restore-keys: playwright-chromium-
 
       - name: Install dependencies
-        run: bun install --frozen-lockfile
+        run: bun install
 
       - name: Install Playwright browsers
         if: steps.playwright-cache.outputs.cache-hit != 'true'
