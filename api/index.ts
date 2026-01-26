@@ -27,7 +27,6 @@ import { cors } from 'hono/cors';
 const availableLogos = new Set([
   '24h',
   'amc',
-  'antena-3',
   'aragon-tv',
   'canal-cocina',
   'cuatro',
@@ -36,11 +35,11 @@ const availableLogos = new Set([
   'dazn-2',
   'dazn-3',
   'dazn-4',
+  'dazn',
   'dazn-f1',
   'dazn-laliga',
   'dazn-laliga-2',
   'decasa',
-  'esport-3',
   'eurosport-1',
   'eurosport-2',
   'gol',
@@ -72,11 +71,9 @@ const availableLogos = new Set([
   'movistar-champions',
   'movistar-originales',
   'movistar-vamos',
-  'syfy',
   'telecinco',
   'teledeporte',
   'tvg',
-  'xtrm',
 ]);
 
 /**
