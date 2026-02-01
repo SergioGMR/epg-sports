@@ -3,25 +3,26 @@
     {
       "sport": "futbol-sala",
       "date": {
-        "hour": "12:30",
-        "day": "31/01/2026",
+        "hour": "13:00",
+        "day": "01/02/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Supercopa España Femenina",
-        "round": "Semifinales"
+        "round": "Final"
       },
       "teams": {
         "local": {
-          "name": "Roldán FSF",
-          "image": "https://static.futbolenlatv.com/img/20220427201904-roldan-fsf.webp"
-        },
-        "visitor": {
           "name": "At. Navalcarnero FS",
           "image": "https://static.futbolenlatv.com/img/20220620083331-atletico-navalcarnero-fs.webp"
+        },
+        "visitor": {
+          "name": "Torreblanca Melilla",
+          "image": "https://static.futbolenlatv.com/img/20230823170304-torreblanca-melilla-futsal.webp"
         }
       },
       "channels": [
+        "Teledeporte",
         "RTVE Play"
       ],
       "event": {},
@@ -30,30 +31,112 @@
     {
       "sport": "futbol-sala",
       "date": {
-        "hour": "14:30",
-        "day": "31/01/2026",
+        "hour": "15:30",
+        "day": "01/02/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Supercopa España Femenina",
-        "round": "Semifinales"
+        "competition": "Copa América",
+        "round": "5/6 Puesto"
       },
       "teams": {
         "local": {
-          "name": "Torreblanca Melilla",
-          "image": "https://static.futbolenlatv.com/img/20230823170304-torreblanca-melilla-futsal.webp"
+          "name": "Uruguay",
+          "image": "https://static.futbolenlatv.com/img/20130108083741_uruguay.webp"
         },
         "visitor": {
-          "name": "Burela FS",
-          "image": "https://static.futbolenlatv.com/img/20211014091654-club-deportivo-burela-futbol-sala.webp"
+          "name": "Colombia",
+          "image": "https://static.futbolenlatv.com/img/20130410092520_colombia.webp"
         }
       },
       "channels": [
+        "Copa América YouTube"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "18:00",
+        "day": "01/02/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": null,
+        "round": "3er Puesto"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "Copa América YouTube"
+      ],
+      "event": {},
+      "eventType": "tournament"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "19:30",
+        "day": "01/02/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Eurocopa",
+        "round": "1/4 de Final"
+      },
+      "teams": {
+        "local": {
+          "name": "España",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+        },
+        "visitor": {
+          "name": "Italia",
+          "image": "https://static.futbolenlatv.com/img/20130111045624_italia.webp"
+        }
+      },
+      "channels": [
+        "Teledeporte",
         "RTVE Play"
       ],
       "event": {},
       "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "21:00",
+        "day": "01/02/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": null,
+        "round": "Final"
+      },
+      "teams": {
+        "local": {
+          "name": null,
+          "image": null
+        },
+        "visitor": {
+          "name": null,
+          "image": null
+        }
+      },
+      "channels": [
+        "Copa América YouTube"
+      ],
+      "event": {},
+      "eventType": "tournament"
     }
   ],
-  "updated": "2026-01-30T00:49:29.139Z"
+  "updated": "2026-02-01T00:58:57.215Z"
 }
