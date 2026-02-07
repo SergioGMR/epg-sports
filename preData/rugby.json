@@ -651,6 +651,33 @@
     {
       "sport": "rugby",
       "date": {
+        "hour": "13:00",
+        "day": "07/02/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Rugby Europe Championships",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Holanda",
+          "image": "https://static.futbolenlatv.com/img/20130130075711_holanda.webp"
+        },
+        "visitor": {
+          "name": "España",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+        }
+      },
+      "channels": [
+        "RTVE Play"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "rugby",
+      "date": {
         "hour": "15:10",
         "day": "07/02/2026",
         "zone": "Europe/Madrid"
@@ -670,7 +697,9 @@
         }
       },
       "channels": [
-        "M+ #Vamos Bar"
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite"
       ],
       "event": {},
       "eventType": "match"
@@ -697,11 +726,13 @@
         }
       },
       "channels": [
-        "M+ #Vamos Bar"
+        "M+ Vamos",
+        "M+ #Vamos Bar",
+        "Movistar+ Lite"
       ],
       "event": {},
       "eventType": "match"
     }
   ],
-  "updated": "2026-02-06T00:48:57.047Z"
+  "updated": "2026-02-07T00:48:22.172Z"
 }
