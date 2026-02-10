@@ -3,6 +3,34 @@
     {
       "sport": "baloncesto",
       "date": {
+        "hour": "00:30",
+        "day": "10/02/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "NCAA",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Xavier",
+          "image": "https://static.futbolenlatv.com/img/20201203212500-xavier-basketball.webp"
+        },
+        "visitor": {
+          "name": "St. John's",
+          "image": "https://static.futbolenlatv.com/img/20210114221404-st-johns-basketball.webp"
+        }
+      },
+      "channels": [
+        "DAZN",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
         "hour": "01:00",
         "day": "10/02/2026",
         "zone": "Europe/Madrid"
@@ -77,7 +105,8 @@
       },
       "channels": [
         "DAZN",
-        "NBA League Pass"
+        "NBA League Pass",
+        "DAZN Baloncesto"
       ],
       "event": {},
       "eventType": "match"
@@ -213,7 +242,8 @@
       },
       "channels": [
         "DAZN",
-        "NBA League Pass"
+        "NBA League Pass",
+        "DAZN Baloncesto 2"
       ],
       "event": {},
       "eventType": "match"
@@ -439,7 +469,35 @@
       ],
       "event": {},
       "eventType": "match"
+    },
+    {
+      "sport": "baloncesto",
+      "date": {
+        "hour": "20:00",
+        "day": "10/02/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "FIBA Europe Cup",
+        "round": "Segunda Ronda"
+      },
+      "teams": {
+        "local": {
+          "name": "Casademont Zaragoza",
+          "image": "https://static.futbolenlatv.com/img/20190925100947-casademont-zaragoza.webp"
+        },
+        "visitor": {
+          "name": "Dinamo Sassari",
+          "image": "https://static.futbolenlatv.com/img/20131006071158-dinamo-sassari.webp"
+        }
+      },
+      "channels": [
+        "FIBA YouTube",
+        "Aragón Deporte"
+      ],
+      "event": {},
+      "eventType": "match"
     }
   ],
-  "updated": "2026-02-09T00:53:31.314Z"
+  "updated": "2026-02-10T00:58:35.771Z"
 }
