@@ -469,9 +469,10 @@ const availableLogos: string[] = [
   'dazn-laliga',
   'dazn-laliga-2',
   'eurosport-1',
-  'eurosport-2',
+  'gol',
   'la-1',
   'la-2',
+  'laliga-tv-hypermotion',
   'movistar-deportes',
   'movistar-deportes-2',
   'movistar-deportes-3',
@@ -479,11 +480,11 @@ const availableLogos: string[] = [
   'movistar-deportes-5',
   'movistar-ellas',
   'movistar-golf',
-  'movistar-golf-2',
   'movistar-laliga-tv',
   'movistar-champions',
   'movistar-vamos',
   'movistar-plus',
+  'teledeporte',
 ];
 // AVAILABLE_LOGOS_END
 
