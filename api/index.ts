@@ -39,7 +39,6 @@ const availableLogos = new Set([
   'gol',
   'la-1',
   'la-2',
-  'laliga-tv-hypermotion',
   'movistar-deportes',
   'movistar-deportes-2',
   'movistar-deportes-3',
