@@ -465,6 +465,7 @@ const availableLogos: string[] = [
   'dark',
   'dazn-1',
   'dazn-2',
+  'dazn',
   'dazn-f1',
   'dazn-laliga',
   'dazn-laliga-2',
