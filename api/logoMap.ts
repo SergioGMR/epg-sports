@@ -473,7 +473,6 @@ const availableLogos: string[] = [
   'dazn-laliga-2',
   'decasa',
   'eurosport-1',
-  'eurosport-2',
   'gol',
   'la-1',
   'la-2',
