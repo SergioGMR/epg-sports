@@ -3,22 +3,106 @@
     {
       "sport": "futbol-sala",
       "date": {
+        "hour": "00:00",
+        "day": "21/03/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Primera División Futsal AFA",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Club Jorge Newbery FS",
+          "image": "https://static.futbolenlatv.com/img/20250424121848-club-jorge-newbery-futsal.webp"
+        },
+        "visitor": {
+          "name": "Estrella de Boedo Futsal",
+          "image": "https://static.futbolenlatv.com/img/20250715102846-estrella-boedo-futsal.webp"
+        }
+      },
+      "channels": [
+        "LPF Play"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "17:45",
+        "day": "21/03/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Eurocopa Femenina",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Eslovenia",
+          "image": "https://static.futbolenlatv.com/img/20130204101247_eslovenia.webp"
+        },
+        "visitor": {
+          "name": "Francia",
+          "image": "https://static.futbolenlatv.com/img/20130124053558_francia.webp"
+        }
+      },
+      "channels": [
+        "FIFA+",
+        "DAZN App Gratis"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
         "hour": "18:00",
-        "day": "20/03/2026",
+        "day": "21/03/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
         "competition": "Copa de España",
-        "round": "1/4 de Final"
+        "round": "Semifinales"
       },
       "teams": {
         "local": {
-          "name": "Manzanares FS",
-          "image": "https://static.futbolenlatv.com/img/20220811173804-manzanares-fs.webp"
+          "name": "Movistar Inter",
+          "image": "https://static.futbolenlatv.com/img/20130614064315-Inter-Movistar.webp"
         },
         "visitor": {
-          "name": "Palma Futsal",
-          "image": "https://static.futbolenlatv.com/img/20140923043256-palma-futsal.webp"
+          "name": "Jaén FS",
+          "image": "https://static.futbolenlatv.com/img/20180219093859-jaenfs-tv.webp"
+        }
+      },
+      "channels": [
+        "Teledeporte",
+        "RTVE Play",
+        "Andalucía TV"
+      ],
+      "event": {},
+      "eventType": "match"
+    },
+    {
+      "sport": "futbol-sala",
+      "date": {
+        "hour": "21:00",
+        "day": "21/03/2026",
+        "zone": "Europe/Madrid"
+      },
+      "details": {
+        "competition": "Amistoso Femenino",
+        "round": null
+      },
+      "teams": {
+        "local": {
+          "name": "Portugal",
+          "image": "https://static.futbolenlatv.com/img/20130204101449_portugal.webp"
+        },
+        "visitor": {
+          "name": "España",
+          "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
         }
       },
       "channels": [
@@ -31,30 +115,31 @@
       "sport": "futbol-sala",
       "date": {
         "hour": "21:30",
-        "day": "20/03/2026",
+        "day": "21/03/2026",
         "zone": "Europe/Madrid"
       },
       "details": {
-        "competition": "Copa de España",
-        "round": "1/4 de Final"
+        "competition": null,
+        "round": "Semifinales"
       },
       "teams": {
         "local": {
-          "name": "Barça FS",
-          "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
+          "name": null,
+          "image": null
         },
         "visitor": {
-          "name": "Viña Albali Valdepeñas",
-          "image": "https://static.futbolenlatv.com/img/20180924092419-vina-albali-valdepenas.webp"
+          "name": null,
+          "image": null
         }
       },
       "channels": [
+        "Teledeporte",
         "RTVE Play",
-        "Esport3"
+        "IB3"
       ],
       "event": {},
-      "eventType": "match"
+      "eventType": "tournament"
     }
   ],
-  "updated": "2026-03-20T00:51:18.534Z"
+  "updated": "2026-03-21T00:48:33.823Z"
 }
