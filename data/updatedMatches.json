@@ -3,7 +3,7 @@
     "sport": "baloncesto",
     "date": {
       "hour": "00:00",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -12,12 +12,12 @@
     },
     "teams": {
       "local": {
-        "name": "Miami Heat",
-        "image": "https://static.futbolenlatv.com/img/20130614063349-Miami-Heat.webp"
+        "name": "Charlotte Hornets",
+        "image": "https://static.futbolenlatv.com/img/20141024124231-charlotte-hornets.webp"
       },
       "visitor": {
-        "name": "San Antonio Spurs",
-        "image": "https://static.futbolenlatv.com/img/20191028090705-san-antonio-spurs.webp"
+        "name": "Sacramento Kings",
+        "image": "https://static.futbolenlatv.com/img/20201220190924-sacramento-kings.webp"
       }
     },
     "channels": [
@@ -27,10 +27,77 @@
     "eventType": "match"
   },
   {
-    "sport": "baloncesto",
+    "sport": "tenis",
     "date": {
       "hour": "00:00",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Masters Miami",
+      "round": "1/8 de final"
+    },
+    "teams": {
+      "local": {
+        "name": "U. Humbert",
+        "image": "https://static.futbolenlatv.com/img/20130727123333-Francia.webp"
+      },
+      "visitor": {
+        "name": "F. Cerúndolo",
+        "image": "https://static.futbolenlatv.com/img/20200515205331-guillermo-canas.webp"
+      }
+    },
+    "channels": [
+      "ATP Tennis TV",
+      "M+ Deportes 2",
+      "M+ Deportes 5"
+    ],
+    "event": {},
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://9934906503661142f97a044ae1509a294057c2ed",
+        "acestream://f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": []
+    }
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "00:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "WTA Miami",
+      "round": "1/4 de Final"
+    },
+    "teams": {
+      "local": {
+        "name": "B. Bencic",
+        "image": "https://static.futbolenlatv.com/img/20130727123327-Suiza.webp"
+      },
+      "visitor": {
+        "name": "C. Gauff",
+        "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+      }
+    },
+    "channels": [
+      "WTA TV",
+      "Tennis Channel - Orange TV"
+    ],
+    "event": {},
+    "eventType": "match"
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "00:30",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -39,44 +106,76 @@
     },
     "teams": {
       "local": {
+        "name": "New York Knicks",
+        "image": "https://static.futbolenlatv.com/img/20130808083641-new-york-knicks.webp"
+      },
+      "visitor": {
+        "name": "New Orleans Pelicans",
+        "image": "https://static.futbolenlatv.com/img/20141024125153-new-orleans-pelicans.webp"
+      }
+    },
+    "channels": [
+      "NBA League Pass"
+    ],
+    "event": {},
+    "eventType": "match"
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "00:30",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Liga AUF Uruguaya",
+      "round": null
+    },
+    "teams": {
+      "local": {
+        "name": "Nacional",
+        "image": "https://static.futbolenlatv.com/img/20130227101637_club-nacional-uruguay.webp"
+      },
+      "visitor": {
+        "name": "Cerro Largo",
+        "image": "https://static.futbolenlatv.com/img/20141206100136-cerro-largo.webp"
+      }
+    },
+    "channels": [
+      "Antel TV Internacional"
+    ],
+    "event": {
+      "name": "Nacional - Cerro Largo",
+      "description": "Nacional - Cerro Largo el miércoles, 25 de marzo de 2026 a las 0:30",
+      "startDate": "2026-03-24T23:30:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match"
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "01:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "NBA",
+      "round": "Liga Regular"
+    },
+    "teams": {
+      "local": {
+        "name": "Cleveland Cavaliers",
+        "image": "https://static.futbolenlatv.com/img/20191028090553-cleveland-cavaliers.webp"
+      },
+      "visitor": {
         "name": "Orlando Magic",
         "image": "https://static.futbolenlatv.com/img/20191028090502-orlando-magic.webp"
-      },
-      "visitor": {
-        "name": "Indiana Pacers",
-        "image": "https://static.futbolenlatv.com/img/20191028090446-indiana-pacers.webp"
       }
     },
     "channels": [
-      "NBA League Pass"
-    ],
-    "event": {},
-    "eventType": "match"
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "00:00",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Philadelphia 76ers",
-        "image": "https://static.futbolenlatv.com/img/20191028090432-philadelphia-76ers.webp"
-      },
-      "visitor": {
-        "name": "Oklahoma C. Thunder",
-        "image": "https://static.futbolenlatv.com/img/20130808083758-oc-thunder.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass",
       "DAZN",
+      "NBA League Pass",
       "DAZN Baloncesto"
     ],
     "event": {},
@@ -98,97 +197,28 @@
     }
   },
   {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "00:00",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Detroit Pistons",
-        "image": "https://static.futbolenlatv.com/img/20191028090514-detroit-pistons.webp"
-      },
-      "visitor": {
-        "name": "Los Angeles Lakers",
-        "image": "https://static.futbolenlatv.com/img/20130808083216-la-lakers.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {},
-    "eventType": "match"
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "00:00",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Primera B Argentina",
-      "round": null
-    },
-    "teams": {
-      "local": {
-        "name": "Comunicaciones",
-        "image": "https://static.futbolenlatv.com/img/20160226124816-comunicaciones.webp"
-      },
-      "visitor": {
-        "name": "CSD Liniers",
-        "image": "https://static.futbolenlatv.com/img/20151125120134-csd-liniers.webp"
-      }
-    },
-    "channels": [
-      "LPF Play"
-    ],
-    "event": {
-      "name": "Comunicaciones - CSD Liniers",
-      "description": "Comunicaciones - CSD Liniers el martes, 24 de marzo de 2026 a las 0:00",
-      "startDate": "2026-03-23T23:00:00",
-      "duration": "T1H45M"
-    },
-    "eventType": "match",
-    "links": {
-      "4k": [],
-      "1080p": [
-        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
-      ],
-      "720p": [],
-      "sd": [],
-      "unknown": []
-    }
-  },
-  {
     "sport": "tenis",
     "date": {
-      "hour": "00:00",
-      "day": "24/03/2026",
+      "hour": "01:30",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
       "competition": "Masters Miami",
-      "round": "3ª Ronda"
+      "round": "1/8 de final"
     },
     "teams": {
       "local": {
-        "name": "C. Moutet",
+        "name": "Q. Halys",
         "image": "https://static.futbolenlatv.com/img/20130727123333-Francia.webp"
       },
       "visitor": {
-        "name": "J. Sinner",
-        "image": "https://static.futbolenlatv.com/img/20130727123437-Italia.webp"
+        "name": "A. Zverev",
+        "image": "https://static.futbolenlatv.com/img/20130727123343-Alemania.webp"
       }
     },
     "channels": [
       "ATP Tennis TV",
-      "Movistar Plus+ : VER PARTIDO",
       "M+ Deportes 2",
       "M+ Deportes 3"
     ],
@@ -197,8 +227,6 @@
     "links": {
       "4k": [],
       "1080p": [
-        "acestream://8c67cdb5ba81976662c3a67984a9545d9cfb0f70",
-        "acestream://b6ffbbc72a5b6b579faf79ebac229af7a25b933b",
         "acestream://9934906503661142f97a044ae1509a294057c2ed",
         "acestream://f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
       ],
@@ -208,292 +236,369 @@
     }
   },
   {
-    "sport": "tenis",
+    "sport": "baloncesto",
     "date": {
-      "hour": "00:00",
-      "day": "24/03/2026",
+      "hour": "04:00",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "WTA Miami",
-      "round": "1/8 de final"
+      "competition": "NBA",
+      "round": "Liga Regular"
     },
     "teams": {
       "local": {
-        "name": "A. Anisimova",
-        "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+        "name": "Phoenix Suns",
+        "image": "https://static.futbolenlatv.com/img/20130808083815-phoenix-suns.webp"
       },
       "visitor": {
-        "name": "B. Bencic",
-        "image": "https://static.futbolenlatv.com/img/20130727123327-Suiza.webp"
+        "name": "Denver Nuggets",
+        "image": "https://static.futbolenlatv.com/img/20191028090619-denver-nuggets.webp"
       }
     },
     "channels": [
-      "WTA TV",
-      "Tennis Channel - Orange TV"
+      "DAZN",
+      "NBA League Pass",
+      "DAZN Baloncesto 2"
     ],
     "event": {},
-    "eventType": "match"
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://8b081c8afbd9beafc8c5fbf0115eb36eadb07a35",
+        "acestream://fb2dd566824658eeab27aae19a01c09430f1a97d"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://01ce89b571b6c89bc19ccaafc913d483ac65c61d",
+        "acestream://b0eabe0fdd02fdd165896236765a9b753a2ff516",
+        "acestream://d60b8c154828cb990b7bb1570764b215bd979e74"
+      ]
+    }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "00:20",
-      "day": "24/03/2026",
+      "hour": "09:00",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga Colombiana",
+      "competition": "A-League Women",
       "round": null
     },
     "teams": {
       "local": {
-        "name": "Jaguares FC",
-        "image": "https://static.futbolenlatv.com/img/20160701102243-jaguares-fc.webp"
+        "name": "Central Coast Mariners Women",
+        "image": "https://static.futbolenlatv.com/img/20140410105101-central-coast-mariners.webp"
       },
       "visitor": {
-        "name": "Águilas Doradas Rionegro",
-        "image": "https://static.futbolenlatv.com/img/20150625113319-aguilas-doradas.webp"
+        "name": "Wellington Phoenix Women",
+        "image": "https://static.futbolenlatv.com/img/20220906193754-wellington-phoenix.webp"
       }
     },
     "channels": [
-      "RCN Nuestra Tele"
+      "A-Leagues YouTube"
     ],
     "event": {
-      "name": "Jaguares FC - Águilas Doradas Rionegro",
-      "description": "Jaguares FC - Águilas Doradas Rionegro el martes, 24 de marzo de 2026 a las 0:20",
-      "startDate": "2026-03-23T23:20:00",
+      "name": "Central Coast Mariners Women - Wellington Phoenix Women",
+      "description": "Central Coast Mariners Women - Wellington Phoenix Women el miércoles, 25 de marzo de 2026 a las 9:00",
+      "startDate": "2026-03-25T08:00:00",
       "duration": "T1H45M"
     },
     "eventType": "match"
   },
   {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "00:30",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Atlanta Hawks",
-        "image": "https://static.futbolenlatv.com/img/20191028090539-atlanta-hawks.webp"
-      },
-      "visitor": {
-        "name": "Memphis Grizzlies",
-        "image": "https://static.futbolenlatv.com/img/20191028090731-memphis-grizzlies.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {},
-    "eventType": "match"
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "01:00",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Chicago Bulls",
-        "image": "https://static.futbolenlatv.com/img/20130808083209-chicago-bulls.webp"
-      },
-      "visitor": {
-        "name": "Houston Rockets",
-        "image": "https://static.futbolenlatv.com/img/20191028090908-houston-rockets.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {},
-    "eventType": "match"
-  },
-  {
     "sport": "futbol",
     "date": {
-      "hour": "01:15",
-      "day": "24/03/2026",
+      "hour": "09:30",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Primera División Argentina",
-      "round": "Torneo Apertura"
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
     },
     "teams": {
       "local": {
-        "name": "CA Huracán",
-        "image": "https://static.futbolenlatv.com/img/20140821093122-ca-huracan.webp"
+        "name": "At. Madrid Academy",
+        "image": "https://static.futbolenlatv.com/img/20240712124125-atletico-madrid-cantera.webp"
       },
       "visitor": {
-        "name": "Barracas Central",
-        "image": "https://static.futbolenlatv.com/img/20141118022620-barracas.webp"
+        "name": "Real Betis Academy",
+        "image": "https://static.futbolenlatv.com/img/20160830072242-real-betis.webp"
       }
     },
     "channels": [
-      "Fanatiz"
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "GolStadium"
     ],
     "event": {
-      "name": "CA Huracán - Barracas Central",
-      "description": "CA Huracán - Barracas Central el martes, 24 de marzo de 2026 a las 1:15",
-      "startDate": "2026-03-24T00:15:00",
+      "name": "At. Madrid Academy - Real Betis Academy",
+      "description": "At. Madrid Academy - Real Betis Academy el miércoles, 25 de marzo de 2026 a las 9:30",
+      "startDate": "2026-03-25T08:30:00",
       "duration": "T1H45M"
     },
-    "eventType": "match"
-  },
-  {
-    "sport": "tenis",
-    "date": {
-      "hour": "01:30",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "WTA Miami",
-      "round": "1/8 de final"
-    },
-    "teams": {
-      "local": {
-        "name": "E. Rybakina",
-        "image": "https://static.futbolenlatv.com/img/20130727124441-Kazajistan.webp"
-      },
-      "visitor": {
-        "name": "T. Gibson",
-        "image": "https://static.futbolenlatv.com/img/20130501101148_australia.webp"
-      }
-    },
-    "channels": [
-      "WTA TV",
-      "Tennis Channel - Orange TV"
-    ],
-    "event": {},
-    "eventType": "match"
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "02:00",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Utah Jazz",
-        "image": "https://static.futbolenlatv.com/img/20191028090654-utah-jazz.webp"
-      },
-      "visitor": {
-        "name": "Toronto Raptors",
-        "image": "https://static.futbolenlatv.com/img/20201220190859-toronto-raptors.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {},
-    "eventType": "match"
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "02:30",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Dallas Mavericks",
-        "image": "https://static.futbolenlatv.com/img/20130808083728-dallas-mavericks.webp"
-      },
-      "visitor": {
-        "name": "Golden State Warriors",
-        "image": "https://static.futbolenlatv.com/img/20130808083832-gs-warriors.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {},
-    "eventType": "match"
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "03:00",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Portland Trail Blazers",
-        "image": "https://static.futbolenlatv.com/img/20191028090608-portland-trail-blazers.webp"
-      },
-      "visitor": {
-        "name": "Brooklyn Nets",
-        "image": "https://static.futbolenlatv.com/img/20130808083530-brooklyn-nets.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {},
-    "eventType": "match"
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "03:30",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "NBA",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Los Angeles Clippers",
-        "image": "https://static.futbolenlatv.com/img/20191028090717-los-angeles-clippers.webp"
-      },
-      "visitor": {
-        "name": "Milwaukee Bucks",
-        "image": "https://static.futbolenlatv.com/img/20191028090415-milwaukee-bucks.webp"
-      }
-    },
-    "channels": [
-      "NBA League Pass"
-    ],
-    "event": {},
-    "eventType": "match"
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
+    }
   },
   {
     "sport": "futbol",
     "date": {
-      "hour": "14:00",
-      "day": "24/03/2026",
+      "hour": "10:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "Galatasaray Academy",
+        "image": "https://static.futbolenlatv.com/img/20210928165040-galatasaray-esports.webp"
+      },
+      "visitor": {
+        "name": "Inter Milan Academy",
+        "image": "https://static.futbolenlatv.com/img/20210330172154-inter-milan.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "GolStadium"
+    ],
+    "event": {
+      "name": "Galatasaray Academy - Inter Milan Academy",
+      "description": "Galatasaray Academy - Inter Milan Academy el miércoles, 25 de marzo de 2026 a las 10:00",
+      "startDate": "2026-03-25T09:00:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "10:30",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "Bayer Leverkusen Academy",
+        "image": "https://static.futbolenlatv.com/img/20150916054924-Bayer-Leverkusen.webp"
+      },
+      "visitor": {
+        "name": "PSG Academy",
+        "image": "https://static.futbolenlatv.com/img/20131224050227-psg.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "Teledeporte",
+      "RTVE Play",
+      "GolStadium"
+    ],
+    "event": {
+      "name": "Bayer Leverkusen Academy - PSG Academy",
+      "description": "Bayer Leverkusen Academy - PSG Academy el miércoles, 25 de marzo de 2026 a las 10:30",
+      "startDate": "2026-03-25T09:30:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a",
+        "acestream://2d997da301573c5aba78f969d0d37eb6107941b2"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "11:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "Palmeiras Academy",
+        "image": "https://static.futbolenlatv.com/img/20130207042018_palmeiras.webp"
+      },
+      "visitor": {
+        "name": "Boca Juniors Academy",
+        "image": "https://static.futbolenlatv.com/img/20121219051310_boca-juniors.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "Teledeporte",
+      "RTVE Play",
+      "GolStadium"
+    ],
+    "event": {
+      "name": "Palmeiras Academy - Boca Juniors Academy",
+      "description": "Palmeiras Academy - Boca Juniors Academy el miércoles, 25 de marzo de 2026 a las 11:00",
+      "startDate": "2026-03-25T10:00:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a",
+        "acestream://2d997da301573c5aba78f969d0d37eb6107941b2"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "11:30",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "CR Flamengo Academy",
+        "image": "https://static.futbolenlatv.com/img/20121222102708_flamengo.webp"
+      },
+      "visitor": {
+        "name": "Inter Miami CF Academy",
+        "image": "https://static.futbolenlatv.com/img/20191208031649-inter-miami-cf.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "Teledeporte",
+      "RTVE Play",
+      "GolStadium"
+    ],
+    "event": {
+      "name": "CR Flamengo Academy - Inter Miami CF Academy",
+      "description": "CR Flamengo Academy - Inter Miami CF Academy el miércoles, 25 de marzo de 2026 a las 11:30",
+      "startDate": "2026-03-25T10:30:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a",
+        "acestream://2d997da301573c5aba78f969d0d37eb6107941b2"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "11:30",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -502,21 +607,596 @@
     },
     "teams": {
       "local": {
-        "name": "Aizawl FC",
-        "image": "https://static.futbolenlatv.com/img/20230110094607-aizawl-fc.webp"
+        "name": "Real Kashmir FC",
+        "image": "https://static.futbolenlatv.com/img/20221216093135-real-kashmir-fc.webp"
       },
       "visitor": {
-        "name": "Chanmari FC",
-        "image": "https://static.futbolenlatv.com/img/20260309092719-chanmari-fc.webp"
+        "name": "Namdhari FC",
+        "image": "https://static.futbolenlatv.com/img/20231030172600-namdhari-fc.webp"
       }
     },
     "channels": [
       "OneFootball"
     ],
     "event": {
-      "name": "Aizawl FC - Chanmari FC",
-      "description": "Aizawl FC - Chanmari FC el martes, 24 de marzo de 2026 a las 14:00",
-      "startDate": "2026-03-24T13:00:00",
+      "name": "Real Kashmir FC - Namdhari FC",
+      "description": "Real Kashmir FC - Namdhari FC el miércoles, 25 de marzo de 2026 a las 11:30",
+      "startDate": "2026-03-25T10:30:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match"
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "12:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "Espanyol Academy",
+        "image": "https://static.futbolenlatv.com/img/20150904084220-espanyol.webp"
+      },
+      "visitor": {
+        "name": "Valencia CF Academy",
+        "image": "https://static.futbolenlatv.com/img/20151004120005-valencia.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "Teledeporte",
+      "RTVE Play",
+      "GolStadium"
+    ],
+    "event": {
+      "name": "Espanyol Academy - Valencia CF Academy",
+      "description": "Espanyol Academy - Valencia CF Academy el miércoles, 25 de marzo de 2026 a las 12:00",
+      "startDate": "2026-03-25T11:00:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a",
+        "acestream://2d997da301573c5aba78f969d0d37eb6107941b2"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "12:30",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "FC Barcelona Academy",
+        "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
+      },
+      "visitor": {
+        "name": "Shanghai Port Academy",
+        "image": "https://static.futbolenlatv.com/img/20150703051851-shanghai-sipg.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "Teledeporte",
+      "RTVE Play",
+      "GolStadium"
+    ],
+    "event": {
+      "name": "FC Barcelona Academy - Shanghai Port Academy",
+      "description": "FC Barcelona Academy - Shanghai Port Academy el miércoles, 25 de marzo de 2026 a las 12:30",
+      "startDate": "2026-03-25T11:30:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a",
+        "acestream://2d997da301573c5aba78f969d0d37eb6107941b2"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "13:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "Real Madrid Academy",
+        "image": "https://static.futbolenlatv.com/img/20160725122745-real-madrid.webp"
+      },
+      "visitor": {
+        "name": "WAC Casablanca Academy",
+        "image": "https://static.futbolenlatv.com/img/20130427045908_wac-casablanca.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "Teledeporte",
+      "RTVE Play",
+      "GolStadium"
+    ],
+    "event": {
+      "name": "Real Madrid Academy - WAC Casablanca Academy",
+      "description": "Real Madrid Academy - WAC Casablanca Academy el miércoles, 25 de marzo de 2026 a las 13:00",
+      "startDate": "2026-03-25T12:00:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a",
+        "acestream://2d997da301573c5aba78f969d0d37eb6107941b2"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "14:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "I-League",
+      "round": null
+    },
+    "teams": {
+      "local": {
+        "name": "Sreenidi Deccan FC",
+        "image": "https://static.futbolenlatv.com/img/20221222175543-sreenidi-deccan-fc.webp"
+      },
+      "visitor": {
+        "name": "Dempo SC",
+        "image": "https://static.futbolenlatv.com/img/20240827102229-dempo-sc.webp"
+      }
+    },
+    "channels": [
+      "OneFootball"
+    ],
+    "event": {
+      "name": "Sreenidi Deccan FC - Dempo SC",
+      "description": "Sreenidi Deccan FC - Dempo SC el miércoles, 25 de marzo de 2026 a las 14:00",
+      "startDate": "2026-03-25T13:00:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match"
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "15:30",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Europeo Sub-19",
+      "round": "Ronda 1"
+    },
+    "teams": {
+      "local": {
+        "name": "España",
+        "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+      },
+      "visitor": {
+        "name": "Croacia",
+        "image": "https://static.futbolenlatv.com/img/20130317094139_croacia.webp"
+      }
+    },
+    "channels": [
+      "SeFutbol YouTube"
+    ],
+    "event": {
+      "name": "España - Croacia",
+      "description": "España - Croacia el miércoles, 25 de marzo de 2026 a las 15:30",
+      "startDate": "2026-03-25T14:30:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match"
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Europeo Sub-17",
+      "round": null
+    },
+    "teams": {
+      "local": {
+        "name": "Alemania",
+        "image": "https://static.futbolenlatv.com/img/20130130075653_alemania.webp"
+      },
+      "visitor": {
+        "name": "Macedonia Norte",
+        "image": "https://static.futbolenlatv.com/img/20130528081503-Macedonia.webp"
+      }
+    },
+    "channels": [
+      "German Football YouTube"
+    ],
+    "event": {
+      "name": "Alemania - Macedonia Norte",
+      "description": "Alemania - Macedonia Norte el miércoles, 25 de marzo de 2026 a las 16:00",
+      "startDate": "2026-03-25T15:00:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match"
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "Arsenal Academy",
+        "image": "https://static.futbolenlatv.com/img/20151020084333-arsenal.webp"
+      },
+      "visitor": {
+        "name": "Galatasaray Academy",
+        "image": "https://static.futbolenlatv.com/img/20210928165040-galatasaray-esports.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "RTVE Play",
+      "GolStadium"
+    ],
+    "event": {
+      "name": "Arsenal Academy - Galatasaray Academy",
+      "description": "Arsenal Academy - Galatasaray Academy el miércoles, 25 de marzo de 2026 a las 16:00",
+      "startDate": "2026-03-25T15:00:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
+    }
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "16:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "WTA Miami",
+      "round": "1/4 de Final"
+    },
+    "teams": {
+      "local": {
+        "name": "A. Sabalenka",
+        "image": "https://static.futbolenlatv.com/img/20130727123407-Bielorrusia.webp"
+      },
+      "visitor": {
+        "name": "H. Baptiste",
+        "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+      }
+    },
+    "channels": [
+      "WTA TV",
+      "Tennis Channel - Orange TV"
+    ],
+    "event": {},
+    "eventType": "match"
+  },
+  {
+    "sport": "tenis",
+    "date": {
+      "hour": "16:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "WTA Miami",
+      "round": "1/4 de Final"
+    },
+    "teams": {
+      "local": {
+        "name": "E. Rybakina",
+        "image": "https://static.futbolenlatv.com/img/20130727124441-Kazajistan.webp"
+      },
+      "visitor": {
+        "name": "J. Pegula",
+        "image": "https://static.futbolenlatv.com/img/20130727120523-EEUU.webp"
+      }
+    },
+    "channels": [
+      "WTA TV",
+      "Tennis Channel - Orange TV"
+    ],
+    "event": {},
+    "eventType": "match"
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "16:30",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "Bayer Leverkusen Academy",
+        "image": "https://static.futbolenlatv.com/img/20150916054924-Bayer-Leverkusen.webp"
+      },
+      "visitor": {
+        "name": "Inter Milan Academy",
+        "image": "https://static.futbolenlatv.com/img/20210330172154-inter-milan.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "RTVE Play",
+      "GolStadium"
+    ],
+    "event": {
+      "name": "Bayer Leverkusen Academy - Inter Milan Academy",
+      "description": "Bayer Leverkusen Academy - Inter Milan Academy el miércoles, 25 de marzo de 2026 a las 16:30",
+      "startDate": "2026-03-25T15:30:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "17:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "River Plate Academy",
+        "image": "https://static.futbolenlatv.com/img/20121219051705_river-plate.webp"
+      },
+      "visitor": {
+        "name": "Inter Miami CF Academy",
+        "image": "https://static.futbolenlatv.com/img/20191208031649-inter-miami-cf.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "RTVE Play",
+      "GolStadium"
+    ],
+    "event": {
+      "name": "River Plate Academy - Inter Miami CF Academy",
+      "description": "River Plate Academy - Inter Miami CF Academy el miércoles, 25 de marzo de 2026 a las 17:00",
+      "startDate": "2026-03-25T16:00:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "17:30",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "CR Flamengo Academy",
+        "image": "https://static.futbolenlatv.com/img/20121222102708_flamengo.webp"
+      },
+      "visitor": {
+        "name": "Boca Juniors Academy",
+        "image": "https://static.futbolenlatv.com/img/20121219051310_boca-juniors.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "RTVE Play",
+      "GolStadium"
+    ],
+    "event": {
+      "name": "CR Flamengo Academy - Boca Juniors Academy",
+      "description": "CR Flamengo Academy - Boca Juniors Academy el miércoles, 25 de marzo de 2026 a las 17:30",
+      "startDate": "2026-03-25T16:30:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "18:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Europeo Sub-19",
+      "round": "Fase de Clasificación"
+    },
+    "teams": {
+      "local": {
+        "name": "España",
+        "image": "https://static.futbolenlatv.com/img/20130727123206-espana.webp"
+      },
+      "visitor": {
+        "name": "Eslovenia",
+        "image": "https://static.futbolenlatv.com/img/20130204101247_eslovenia.webp"
+      }
+    },
+    "channels": [
+      "SeFutbol YouTube"
+    ],
+    "event": {
+      "name": "España - Eslovenia",
+      "description": "España - Eslovenia el miércoles, 25 de marzo de 2026 a las 18:00",
+      "startDate": "2026-03-25T17:00:00",
       "duration": "T1H45M"
     },
     "eventType": "match"
@@ -525,7 +1205,39 @@
     "sport": "futbol",
     "date": {
       "hour": "18:00",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Europeo Sub-19",
+      "round": null
+    },
+    "teams": {
+      "local": {
+        "name": "Alemania",
+        "image": "https://static.futbolenlatv.com/img/20130130075653_alemania.webp"
+      },
+      "visitor": {
+        "name": "Suecia",
+        "image": "https://static.futbolenlatv.com/img/20130204101348_suecia.webp"
+      }
+    },
+    "channels": [
+      "German Football YouTube"
+    ],
+    "event": {
+      "name": "Alemania - Suecia",
+      "description": "Alemania - Suecia el miércoles, 25 de marzo de 2026 a las 18:00",
+      "startDate": "2026-03-25T17:00:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match"
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "18:00",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -534,66 +1246,144 @@
     },
     "teams": {
       "local": {
-        "name": "Deportivo Maldonado",
-        "image": "https://static.futbolenlatv.com/img/20201015221447-deportivo-maldonado.webp"
+        "name": "Albión",
+        "image": "https://static.futbolenlatv.com/img/20180406095333-albion.webp"
       },
       "visitor": {
-        "name": "Montevideo City Torque",
-        "image": "https://static.futbolenlatv.com/img/20200807001922-ca-torque.webp"
+        "name": "Montevideo Wanderers",
+        "image": "https://static.futbolenlatv.com/img/20170306054007-m-wanderers.webp"
       }
     },
     "channels": [
       "Antel TV Internacional"
     ],
     "event": {
-      "name": "Deportivo Maldonado - Montevideo City Torque",
-      "description": "Deportivo Maldonado - Montevideo City Torque el martes, 24 de marzo de 2026 a las 18:00",
-      "startDate": "2026-03-24T17:00:00",
+      "name": "Albión - Montevideo Wanderers",
+      "description": "Albión - Montevideo Wanderers el miércoles, 25 de marzo de 2026 a las 18:00",
+      "startDate": "2026-03-25T17:00:00",
       "duration": "T1H45M"
     },
     "eventType": "match"
   },
   {
-    "sport": "baloncesto",
+    "sport": "futbol",
     "date": {
-      "hour": "18:30",
-      "day": "24/03/2026",
+      "hour": "18:00",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Euroliga",
-      "round": "Liga Regular"
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
     },
     "teams": {
       "local": {
-        "name": "Maccabi Tel Aviv BC",
-        "image": "https://static.futbolenlatv.com/img/20130716013716-maccabi-tel-aviv-bc.webp"
+        "name": "Espanyol Academy",
+        "image": "https://static.futbolenlatv.com/img/20150904084220-espanyol.webp"
       },
       "visitor": {
-        "name": "Fenerbahce Istanbul",
-        "image": "https://static.futbolenlatv.com/img/20130716022542-fenerbahce-ulker.webp"
+        "name": "Villarreal Academy",
+        "image": "https://static.futbolenlatv.com/img/20131007021135-villarreal.webp"
       }
     },
     "channels": [
-      "M+ Deportes"
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "Teledeporte",
+      "RTVE Play",
+      "GolStadium"
     ],
-    "event": {},
+    "event": {
+      "name": "Espanyol Academy - Villarreal Academy",
+      "description": "Espanyol Academy - Villarreal Academy el miércoles, 25 de marzo de 2026 a las 18:00",
+      "startDate": "2026-03-25T17:00:00",
+      "duration": "T1H45M"
+    },
     "eventType": "match",
     "links": {
       "4k": [],
       "1080p": [
-        "acestream://f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a",
+        "acestream://2d997da301573c5aba78f969d0d37eb6107941b2"
       ],
       "720p": [],
       "sd": [],
-      "unknown": []
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "18:30",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
+    },
+    "teams": {
+      "local": {
+        "name": "Sevilla FC Academy",
+        "image": "https://static.futbolenlatv.com/img/20150914072039-Sevilla.webp"
+      },
+      "visitor": {
+        "name": "At. Madrid Academy",
+        "image": "https://static.futbolenlatv.com/img/20240712124125-atletico-madrid-cantera.webp"
+      }
+    },
+    "channels": [
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "Teledeporte",
+      "RTVE Play",
+      "GolStadium"
+    ],
+    "event": {
+      "name": "Sevilla FC Academy - At. Madrid Academy",
+      "description": "Sevilla FC Academy - At. Madrid Academy el miércoles, 25 de marzo de 2026 a las 18:30",
+      "startDate": "2026-03-25T17:30:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a",
+        "acestream://2d997da301573c5aba78f969d0d37eb6107941b2"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
     }
   },
   {
     "sport": "futbol",
     "date": {
       "hour": "18:45",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -602,165 +1392,177 @@
     },
     "teams": {
       "local": {
-        "name": "Wolfsburg Femenino",
-        "image": "https://static.futbolenlatv.com/img/20150916064728-Wolfsburgo.webp"
+        "name": "Real Madrid Femenino",
+        "image": "https://static.futbolenlatv.com/img/20200916192901-real-madrid-femenino.webp"
       },
       "visitor": {
-        "name": "O. Lyonnais Femenino",
-        "image": "https://static.futbolenlatv.com/img/20150914072922-Lyon.webp"
+        "name": "FC Barcelona Femenino",
+        "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
       }
     },
     "channels": [
-      "Disney+"
+      "Disney+",
+      "TV3"
     ],
     "event": {
-      "name": "Wolfsburg Femenino - O. Lyonnais Femenino",
-      "description": "Wolfsburg Femenino - O. Lyonnais Femenino el martes, 24 de marzo de 2026 a las 18:45",
-      "startDate": "2026-03-24T17:45:00",
+      "name": "Real Madrid Femenino - FC Barcelona Femenino",
+      "description": "Real Madrid Femenino - FC Barcelona Femenino el miércoles, 25 de marzo de 2026 a las 18:45",
+      "startDate": "2026-03-25T17:45:00",
       "duration": "T1H45M"
     },
     "eventType": "match"
   },
   {
-    "sport": "baloncesto",
+    "sport": "futbol",
     "date": {
       "hour": "19:00",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Euroliga",
-      "round": "Liga Regular"
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
     },
     "teams": {
       "local": {
-        "name": "Zalgiris Kaunas",
-        "image": "https://static.futbolenlatv.com/img/20240318163809-zalgiris-kaunas.webp"
+        "name": "Real Madrid Academy",
+        "image": "https://static.futbolenlatv.com/img/20160725122745-real-madrid.webp"
       },
       "visitor": {
-        "name": "FC Bayern Basketball",
-        "image": "https://static.futbolenlatv.com/img/20150901052257-fc-bayern-basketball.webp"
+        "name": "Real Betis Academy",
+        "image": "https://static.futbolenlatv.com/img/20160830072242-real-betis.webp"
       }
     },
     "channels": [
-      "M+ Deportes 8"
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "Teledeporte",
+      "RTVE Play",
+      "GolStadium"
     ],
-    "event": {},
+    "event": {
+      "name": "Real Madrid Academy - Real Betis Academy",
+      "description": "Real Madrid Academy - Real Betis Academy el miércoles, 25 de marzo de 2026 a las 19:00",
+      "startDate": "2026-03-25T18:00:00",
+      "duration": "T1H45M"
+    },
     "eventType": "match",
     "links": {
       "4k": [],
       "1080p": [
-        "acestream://f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a",
+        "acestream://2d997da301573c5aba78f969d0d37eb6107941b2"
       ],
       "720p": [],
       "sd": [],
-      "unknown": []
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
     }
   },
   {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "19:00",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Euroliga",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "AS Monaco Basket",
-        "image": "https://static.futbolenlatv.com/img/20191001090801-as-monaco-basket.webp"
-      },
-      "visitor": {
-        "name": "AX Olimpia Milano",
-        "image": "https://static.futbolenlatv.com/img/20180129060055-ax-olimpia-milano.webp"
-      }
-    },
-    "channels": [
-      "M+ Deportes 7"
-    ],
-    "event": {},
-    "eventType": "match",
-    "links": {
-      "4k": [],
-      "1080p": [
-        "acestream://f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
-      ],
-      "720p": [],
-      "sd": [],
-      "unknown": []
-    }
-  },
-  {
-    "sport": "baloncesto",
+    "sport": "futbol",
     "date": {
       "hour": "19:30",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Euroliga",
-      "round": "Liga Regular"
+      "competition": "LaLiga Futures",
+      "round": "Fase de grupos"
     },
     "teams": {
       "local": {
-        "name": "Dubai Basketball",
-        "image": "https://static.futbolenlatv.com/img/20250519204831-dubai-basketball.webp"
+        "name": "FC Barcelona Academy",
+        "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
       },
       "visitor": {
-        "name": "Panathinaikos BC",
-        "image": "https://static.futbolenlatv.com/img/20130716013710-panathinaikos-bc.webp"
+        "name": "Valencia CF Academy",
+        "image": "https://static.futbolenlatv.com/img/20151004120005-valencia.webp"
       }
     },
     "channels": [
-      "M+ Deportes 6"
+      "DAZN",
+      "DAZN App Gratis",
+      "DAZN LaLiga",
+      "GOL",
+      "Teledeporte",
+      "RTVE Play",
+      "GolStadium"
     ],
-    "event": {},
+    "event": {
+      "name": "FC Barcelona Academy - Valencia CF Academy",
+      "description": "FC Barcelona Academy - Valencia CF Academy el miércoles, 25 de marzo de 2026 a las 19:30",
+      "startDate": "2026-03-25T18:30:00",
+      "duration": "T1H45M"
+    },
     "eventType": "match",
     "links": {
       "4k": [],
       "1080p": [
-        "acestream://f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d",
+        "acestream://d1596a3988b84a4d2711fd380eb8a53256ad74ae",
+        "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a",
+        "acestream://2d997da301573c5aba78f969d0d37eb6107941b2"
       ],
       "720p": [],
       "sd": [],
-      "unknown": []
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d",
+        "acestream://19f28f60c908f987b1a03da078e63320d7bf29e8",
+        "acestream://dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      ]
     }
   },
   {
-    "sport": "baloncesto",
+    "sport": "futbol",
     "date": {
       "hour": "20:00",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Liga U",
-      "round": "Segunda Fase"
+      "competition": "Tercera Federación",
+      "round": "Grupo 5"
     },
     "teams": {
       "local": {
-        "name": "Joventut Badalona B",
-        "image": "https://static.futbolenlatv.com/img/20190925101350-joventut.webp"
+        "name": "L'Escala",
+        "image": "https://static.futbolenlatv.com/img/20130711093822-l-escala.webp"
       },
       "visitor": {
-        "name": "Barça Basket B",
-        "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
+        "name": "Badalona",
+        "image": "https://static.futbolenlatv.com/img/20121227022638_badalona.webp"
       }
     },
     "channels": [
-      "Liga U YouTube"
+      "La Xarxa+"
     ],
-    "event": {},
+    "event": {
+      "name": "L'Escala - Badalona",
+      "description": "L'Escala - Badalona el miércoles, 25 de marzo de 2026 a las 20:00",
+      "startDate": "2026-03-25T19:00:00",
+      "duration": "T1H45M"
+    },
     "eventType": "match"
   },
   {
     "sport": "balonmano",
     "date": {
       "hour": "20:00",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -769,109 +1571,79 @@
     },
     "teams": {
       "local": {
-        "name": "CBM Burgos",
-        "image": "https://static.futbolenlatv.com/img/20240606093102-club-balonmano-burgos.webp"
+        "name": "BM Puerto Sagunto",
+        "image": "https://static.futbolenlatv.com/img/20130725082643-puerto-sagunto.webp"
       },
       "visitor": {
-        "name": "Bada Huesca",
-        "image": "https://static.futbolenlatv.com/img/20141003083333-bm-huesca.webp"
+        "name": "BM Cuenca",
+        "image": "https://static.futbolenlatv.com/img/20130725082534-ciudad-encantada.webp"
       }
     },
     "channels": [
-      "Aragón Deporte"
+      "BM Puerto Sagunto YouTube"
     ],
     "event": {},
-    "eventType": "match",
-    "links": {
-      "4k": [],
-      "1080p": [],
-      "720p": [
-        "acestream://ba4597903f099695e7d6bcc5938f91cb0798006b"
-      ],
-      "sd": [],
-      "unknown": []
-    }
+    "eventType": "match"
   },
   {
-    "sport": "baloncesto",
+    "sport": "balonmano",
     "date": {
-      "hour": "20:30",
-      "day": "24/03/2026",
+      "hour": "20:00",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Euroliga",
-      "round": "Liga Regular"
+      "competition": "Copa del Rey",
+      "round": "2ª Ronda"
     },
     "teams": {
       "local": {
-        "name": "Valencia Basket",
-        "image": "https://static.futbolenlatv.com/img/20130803090213-valencia-basket.webp"
+        "name": "Helvetia Anaitasuna",
+        "image": "https://static.futbolenlatv.com/img/20130725082228-Anaitasuna.webp"
       },
       "visitor": {
-        "name": "Olympiacos Piraeus",
-        "image": "https://static.futbolenlatv.com/img/20130716014130-olympiacos-bc.webp"
+        "name": "BM Cangas",
+        "image": "https://static.futbolenlatv.com/img/20130725083912-cangas-balonmano.webp"
       }
     },
     "channels": [
-      "Movistar Plus+ : VER PARTIDO",
-      "M+ Deportes 4"
+      "Balonmano Anaitasuna YouTube"
     ],
     "event": {},
-    "eventType": "match",
-    "links": {
-      "4k": [],
-      "1080p": [
-        "acestream://8c67cdb5ba81976662c3a67984a9545d9cfb0f70",
-        "acestream://b6ffbbc72a5b6b579faf79ebac229af7a25b933b",
-        "acestream://f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
-      ],
-      "720p": [],
-      "sd": [],
-      "unknown": []
-    }
+    "eventType": "match"
   },
   {
-    "sport": "baloncesto",
+    "sport": "balonmano",
     "date": {
-      "hour": "20:30",
-      "day": "24/03/2026",
+      "hour": "20:00",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
-      "competition": "Euroliga",
-      "round": "Liga Regular"
+      "competition": "Copa del Rey",
+      "round": "2ª Ronda"
     },
     "teams": {
       "local": {
-        "name": "Barça Basket",
+        "name": "Barça B BM",
         "image": "https://static.futbolenlatv.com/img/20150808023001-barcelona-b.webp"
       },
       "visitor": {
-        "name": "Anadolu Efes Istanbul",
-        "image": "https://static.futbolenlatv.com/img/20191001065117-anadolu-efes-istanbul.webp"
+        "name": "BM Guadalajara",
+        "image": "https://static.futbolenlatv.com/img/20220811173838-balonmano-guadalajara.webp"
       }
     },
     "channels": [
-      "M+ Deportes 3"
+      "Barça Handbol YouTube"
     ],
     "event": {},
-    "eventType": "match",
-    "links": {
-      "4k": [],
-      "1080p": [
-        "acestream://f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
-      ],
-      "720p": [],
-      "sd": [],
-      "unknown": []
-    }
+    "eventType": "match"
   },
   {
     "sport": "baloncesto",
     "date": {
-      "hour": "20:45",
-      "day": "24/03/2026",
+      "hour": "20:30",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -880,34 +1652,48 @@
     },
     "teams": {
       "local": {
-        "name": "BC Partizan Beograd",
-        "image": "https://static.futbolenlatv.com/img/20180818103738-bc-partizan-beograd.webp"
+        "name": "Baskonia",
+        "image": "https://static.futbolenlatv.com/img/20160907115208-baskonia.webp"
       },
       "visitor": {
-        "name": "ASVEL Lyon-Villeurbanne",
-        "image": "https://static.futbolenlatv.com/img/20191001070955-asvel-lyon-villeurbanne.webp"
+        "name": "Crvena Zvezda MTS Belgrade",
+        "image": "https://static.futbolenlatv.com/img/20130716013658-kk-estrella-roja.webp"
       }
     },
     "channels": [
-      "M+ Deportes 8"
+      "M+ Vamos",
+      "M+ #Vamos Bar",
+      "Movistar+ Lite"
     ],
     "event": {},
     "eventType": "match",
     "links": {
       "4k": [],
       "1080p": [
-        "acestream://f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
+        "acestream://2940120bf034db79a7f5849846ccea0255172eae",
+        "acestream://651d6be899d1fafa107a265a9dc00ff914c1b548",
+        "acestream://edd06f11e1cef292a1d795e15207ef2f580e298c"
       ],
-      "720p": [],
+      "720p": [
+        "acestream://3afe1af18f8ff78e9946856911b00c67477052b5"
+      ],
       "sd": [],
-      "unknown": []
+      "unknown": [
+        "acestream://5e310dbffed8c941d20ad819cb8ef43c34b07884",
+        "acestream://ad5ca6e24f87f47a9c3c5bc10c7e8e5af46767fc",
+        "acestream://f51674b1dd1ab5a668fa97a0f13a490632f0d7ca",
+        "acestream://3774d8feab016ca766b35ea8488e7514ca30e0ee",
+        "acestream://6b15368775693c33c49fab02e7900c1976a5da90",
+        "acestream://bfa01c11c5c6b7a616a516de4f2c769a89d26b25",
+        "acestream://f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
+      ]
     }
   },
   {
     "sport": "futbol",
     "date": {
       "hour": "20:45",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -916,21 +1702,21 @@
     },
     "teams": {
       "local": {
-        "name": "Gateshead",
-        "image": "https://static.futbolenlatv.com/img/20131114091447-gateshead.webp"
+        "name": "Morecambe",
+        "image": "https://static.futbolenlatv.com/img/20211013184008-morecambe.webp"
       },
       "visitor": {
-        "name": "York City",
-        "image": "https://static.futbolenlatv.com/img/20140506065550-york-city.webp"
+        "name": "Hartlepool United",
+        "image": "https://static.futbolenlatv.com/img/20130416055425_hartlepool.webp"
       }
     },
     "channels": [
       "DAZN"
     ],
     "event": {
-      "name": "Gateshead - York City",
-      "description": "Gateshead - York City el martes, 24 de marzo de 2026 a las 20:45",
-      "startDate": "2026-03-24T19:45:00",
+      "name": "Morecambe - Hartlepool United",
+      "description": "Morecambe - Hartlepool United el miércoles, 25 de marzo de 2026 a las 20:45",
+      "startDate": "2026-03-25T19:45:00",
       "duration": "T1H45M"
     },
     "eventType": "match",
@@ -953,7 +1739,7 @@
     "sport": "futbol",
     "date": {
       "hour": "20:45",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -962,21 +1748,21 @@
     },
     "teams": {
       "local": {
-        "name": "Brackley Town",
-        "image": "https://static.futbolenlatv.com/img/20160121104919-brackley-town.webp"
+        "name": "Southend Utd.",
+        "image": "https://static.futbolenlatv.com/img/20140121010135-southend-united.webp"
       },
       "visitor": {
-        "name": "Braintree Town",
-        "image": "https://static.futbolenlatv.com/img/20160427124739-braintree-town.webp"
+        "name": "Woking",
+        "image": "https://static.futbolenlatv.com/img/20220906184348-woking-fc.webp"
       }
     },
     "channels": [
       "DAZN"
     ],
     "event": {
-      "name": "Brackley Town - Braintree Town",
-      "description": "Brackley Town - Braintree Town el martes, 24 de marzo de 2026 a las 20:45",
-      "startDate": "2026-03-24T19:45:00",
+      "name": "Southend Utd. - Woking",
+      "description": "Southend Utd. - Woking el miércoles, 25 de marzo de 2026 a las 20:45",
+      "startDate": "2026-03-25T19:45:00",
       "duration": "T1H45M"
     },
     "eventType": "match",
@@ -999,7 +1785,7 @@
     "sport": "futbol",
     "date": {
       "hour": "20:45",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -1008,21 +1794,21 @@
     },
     "teams": {
       "local": {
-        "name": "Halifax Town",
-        "image": "https://static.futbolenlatv.com/img/20141105100438-halifax-town.webp"
+        "name": "Wealdstone FC",
+        "image": "https://static.futbolenlatv.com/img/20201007161441-wealdstone-fc.webp"
       },
       "visitor": {
-        "name": "Carlisle Utd.",
-        "image": "https://static.futbolenlatv.com/img/20130801021738-carlisle-utd.webp"
+        "name": "Yeovil Town",
+        "image": "https://static.futbolenlatv.com/img/20250817175543-yeovil-town.webp"
       }
     },
     "channels": [
       "DAZN"
     ],
     "event": {
-      "name": "Halifax Town - Carlisle Utd.",
-      "description": "Halifax Town - Carlisle Utd. el martes, 24 de marzo de 2026 a las 20:45",
-      "startDate": "2026-03-24T19:45:00",
+      "name": "Wealdstone FC - Yeovil Town",
+      "description": "Wealdstone FC - Yeovil Town el miércoles, 25 de marzo de 2026 a las 20:45",
+      "startDate": "2026-03-25T19:45:00",
       "duration": "T1H45M"
     },
     "eventType": "match",
@@ -1045,7 +1831,7 @@
     "sport": "futbol",
     "date": {
       "hour": "20:45",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -1054,21 +1840,21 @@
     },
     "teams": {
       "local": {
-        "name": "Aldershot",
-        "image": "https://static.futbolenlatv.com/img/20141114105002-aldershot.webp"
+        "name": "Tamworth FC",
+        "image": "https://static.futbolenlatv.com/img/20240211193519-tamworth-fc.webp"
       },
       "visitor": {
-        "name": "Boreham Wood",
-        "image": "https://static.futbolenlatv.com/img/20161102113648-boreham-wood.webp"
+        "name": "Forest Green Rovers",
+        "image": "https://static.futbolenlatv.com/img/20151204113429-forest-green-rovers.webp"
       }
     },
     "channels": [
       "DAZN"
     ],
     "event": {
-      "name": "Aldershot - Boreham Wood",
-      "description": "Aldershot - Boreham Wood el martes, 24 de marzo de 2026 a las 20:45",
-      "startDate": "2026-03-24T19:45:00",
+      "name": "Tamworth FC - Forest Green Rovers",
+      "description": "Tamworth FC - Forest Green Rovers el miércoles, 25 de marzo de 2026 a las 20:45",
+      "startDate": "2026-03-25T19:45:00",
       "duration": "T1H45M"
     },
     "eventType": "match",
@@ -1091,7 +1877,7 @@
     "sport": "futbol",
     "date": {
       "hour": "20:45",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -1100,21 +1886,21 @@
     },
     "teams": {
       "local": {
-        "name": "Eastleigh FC",
-        "image": "https://static.futbolenlatv.com/img/20200831201942-eastleigh-fc.webp"
+        "name": "Truro City",
+        "image": "https://static.futbolenlatv.com/img/20241218095744-truro-city-fc.webp"
       },
       "visitor": {
-        "name": "Sutton United",
-        "image": "https://static.futbolenlatv.com/img/20160804094805-sutton-united.webp"
+        "name": "Solihull Moors",
+        "image": "https://static.futbolenlatv.com/img/20220906184418-solihull-moors-fc.webp"
       }
     },
     "channels": [
       "DAZN"
     ],
     "event": {
-      "name": "Eastleigh FC - Sutton United",
-      "description": "Eastleigh FC - Sutton United el martes, 24 de marzo de 2026 a las 20:45",
-      "startDate": "2026-03-24T19:45:00",
+      "name": "Truro City - Solihull Moors",
+      "description": "Truro City - Solihull Moors el miércoles, 25 de marzo de 2026 a las 20:45",
+      "startDate": "2026-03-25T19:45:00",
       "duration": "T1H45M"
     },
     "eventType": "match",
@@ -1131,233 +1917,13 @@
         "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
         "acestream://dddff67edfa7061f643ec5ae0be110169850363d"
       ]
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:45",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "National League",
-      "round": null
-    },
-    "teams": {
-      "local": {
-        "name": "Boston United",
-        "image": "https://static.futbolenlatv.com/img/20191124092443-boston-united.webp"
-      },
-      "visitor": {
-        "name": "Altrincham",
-        "image": "https://static.futbolenlatv.com/img/20160216110459-altrincham.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {
-      "name": "Boston United - Altrincham",
-      "description": "Boston United - Altrincham el martes, 24 de marzo de 2026 a las 20:45",
-      "startDate": "2026-03-24T19:45:00",
-      "duration": "T1H45M"
-    },
-    "eventType": "match",
-    "links": {
-      "4k": [],
-      "1080p": [
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d"
-      ],
-      "720p": [],
-      "sd": [],
-      "unknown": [
-        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
-        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
-        "acestream://dddff67edfa7061f643ec5ae0be110169850363d"
-      ]
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:45",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "National League North",
-      "round": null
-    },
-    "teams": {
-      "local": {
-        "name": "AFC Fylde",
-        "image": "https://static.futbolenlatv.com/img/20170717122400-afc-fylde.webp"
-      },
-      "visitor": {
-        "name": "Marine FC",
-        "image": "https://static.futbolenlatv.com/img/20201030114223-marine-fc.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {
-      "name": "AFC Fylde - Marine FC",
-      "description": "AFC Fylde - Marine FC el martes, 24 de marzo de 2026 a las 20:45",
-      "startDate": "2026-03-24T19:45:00",
-      "duration": "T1H45M"
-    },
-    "eventType": "match",
-    "links": {
-      "4k": [],
-      "1080p": [
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d"
-      ],
-      "720p": [],
-      "sd": [],
-      "unknown": [
-        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
-        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
-        "acestream://dddff67edfa7061f643ec5ae0be110169850363d"
-      ]
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:45",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "National League South",
-      "round": null
-    },
-    "teams": {
-      "local": {
-        "name": "Torquay Utd.",
-        "image": "https://static.futbolenlatv.com/img/20200831202000-torquay-united.webp"
-      },
-      "visitor": {
-        "name": "Dorking Wanderers",
-        "image": "https://static.futbolenlatv.com/img/20220725163745-dorking-wanderers.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {
-      "name": "Torquay Utd. - Dorking Wanderers",
-      "description": "Torquay Utd. - Dorking Wanderers el martes, 24 de marzo de 2026 a las 20:45",
-      "startDate": "2026-03-24T19:45:00",
-      "duration": "T1H45M"
-    },
-    "eventType": "match",
-    "links": {
-      "4k": [],
-      "1080p": [
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d"
-      ],
-      "720p": [],
-      "sd": [],
-      "unknown": [
-        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
-        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
-        "acestream://dddff67edfa7061f643ec5ae0be110169850363d"
-      ]
-    }
-  },
-  {
-    "sport": "futbol",
-    "date": {
-      "hour": "20:45",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "National League South",
-      "round": null
-    },
-    "teams": {
-      "local": {
-        "name": "Weston-super-Mare AFC",
-        "image": "https://static.futbolenlatv.com/img/20241031110450-weston-super-mare-afc.webp"
-      },
-      "visitor": {
-        "name": "Worthing FC",
-        "image": "https://static.futbolenlatv.com/img/20230323181009-worthing-fc.webp"
-      }
-    },
-    "channels": [
-      "DAZN"
-    ],
-    "event": {
-      "name": "Weston-super-Mare AFC - Worthing FC",
-      "description": "Weston-super-Mare AFC - Worthing FC el martes, 24 de marzo de 2026 a las 20:45",
-      "startDate": "2026-03-24T19:45:00",
-      "duration": "T1H45M"
-    },
-    "eventType": "match",
-    "links": {
-      "4k": [],
-      "1080p": [
-        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
-        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d"
-      ],
-      "720p": [],
-      "sd": [],
-      "unknown": [
-        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
-        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
-        "acestream://dddff67edfa7061f643ec5ae0be110169850363d"
-      ]
-    }
-  },
-  {
-    "sport": "baloncesto",
-    "date": {
-      "hour": "21:00",
-      "day": "24/03/2026",
-      "zone": "Europe/Madrid"
-    },
-    "details": {
-      "competition": "Euroliga",
-      "round": "Liga Regular"
-    },
-    "teams": {
-      "local": {
-        "name": "Real Madrid Baloncesto",
-        "image": "https://static.futbolenlatv.com/img/20160725122745-real-madrid.webp"
-      },
-      "visitor": {
-        "name": "Hapoel Tel Aviv BC",
-        "image": "https://static.futbolenlatv.com/img/20200601173327-hapoel-tel-aviv-fc.webp"
-      }
-    },
-    "channels": [
-      "M+ Deportes"
-    ],
-    "event": {},
-    "eventType": "match",
-    "links": {
-      "4k": [],
-      "1080p": [
-        "acestream://f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
-      ],
-      "720p": [],
-      "sd": [],
-      "unknown": []
     }
   },
   {
     "sport": "futbol",
     "date": {
       "hour": "21:00",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -1366,21 +1932,21 @@
     },
     "teams": {
       "local": {
-        "name": "Arsenal Femenino",
-        "image": "https://static.futbolenlatv.com/img/20151020084333-arsenal.webp"
+        "name": "Man Utd Femenino",
+        "image": "https://static.futbolenlatv.com/img/20150916064627-Manchester-United.webp"
       },
       "visitor": {
-        "name": "Chelsea Femenino",
-        "image": "https://static.futbolenlatv.com/img/20150920013403-chelsea.webp"
+        "name": "FC Bayern Femenino",
+        "image": "https://static.futbolenlatv.com/img/20140731073126-bayern-munich.webp"
       }
     },
     "channels": [
       "Disney+"
     ],
     "event": {
-      "name": "Arsenal Femenino - Chelsea Femenino",
-      "description": "Arsenal Femenino - Chelsea Femenino el martes, 24 de marzo de 2026 a las 21:00",
-      "startDate": "2026-03-24T20:00:00",
+      "name": "Man Utd Femenino - FC Bayern Femenino",
+      "description": "Man Utd Femenino - FC Bayern Femenino el miércoles, 25 de marzo de 2026 a las 21:00",
+      "startDate": "2026-03-25T20:00:00",
       "duration": "T1H45M"
     },
     "eventType": "match"
@@ -1389,7 +1955,7 @@
     "sport": "futbol",
     "date": {
       "hour": "21:00",
-      "day": "24/03/2026",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -1398,21 +1964,21 @@
     },
     "teams": {
       "local": {
-        "name": "Liverpool FC",
-        "image": "https://static.futbolenlatv.com/img/20141217063415-liverpool-fc.webp"
+        "name": "CA Cerro",
+        "image": "https://static.futbolenlatv.com/img/20141108081457-ca-cerro.webp"
       },
       "visitor": {
-        "name": "Central Español",
-        "image": "https://static.futbolenlatv.com/img/20141206095956-central-espanyol.webp"
+        "name": "CA Juventud",
+        "image": "https://static.futbolenlatv.com/img/20141121093950-ca-juventud.webp"
       }
     },
     "channels": [
       "Antel TV Internacional"
     ],
     "event": {
-      "name": "Liverpool FC - Central Español",
-      "description": "Liverpool FC - Central Español el martes, 24 de marzo de 2026 a las 21:00",
-      "startDate": "2026-03-24T20:00:00",
+      "name": "CA Cerro - CA Juventud",
+      "description": "CA Cerro - CA Juventud el miércoles, 25 de marzo de 2026 a las 21:00",
+      "startDate": "2026-03-25T20:00:00",
       "duration": "T1H45M"
     },
     "eventType": "match"
@@ -1420,8 +1986,8 @@
   {
     "sport": "futbol",
     "date": {
-      "hour": "23:00",
-      "day": "24/03/2026",
+      "hour": "21:30",
+      "day": "25/03/2026",
       "zone": "Europe/Madrid"
     },
     "details": {
@@ -1430,21 +1996,137 @@
     },
     "teams": {
       "local": {
-        "name": "Fortaleza Femenino",
-        "image": "https://static.futbolenlatv.com/img/20160323124727-fortaleza.webp"
+        "name": "Llaneros Femenino",
+        "image": "https://static.futbolenlatv.com/img/20250501114331-club-llaneros-fc-femenino.webp"
       },
       "visitor": {
-        "name": "Real Santander Femenino",
-        "image": "https://static.futbolenlatv.com/img/20140929032123-real-santander.webp"
+        "name": "Orsomarso Femenino",
+        "image": "https://static.futbolenlatv.com/img/20160222120004-orsomarso.webp"
       }
     },
     "channels": [
       "Win Sports TV YouTube"
     ],
     "event": {
-      "name": "Fortaleza Femenino - Real Santander Femenino",
-      "description": "Fortaleza Femenino - Real Santander Femenino el martes, 24 de marzo de 2026 a las 23:00",
-      "startDate": "2026-03-24T22:00:00",
+      "name": "Llaneros Femenino - Orsomarso Femenino",
+      "description": "Llaneros Femenino - Orsomarso Femenino el miércoles, 25 de marzo de 2026 a las 21:30",
+      "startDate": "2026-03-25T20:30:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match"
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "21:50",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "FIFA Series",
+      "round": null
+    },
+    "teams": {
+      "local": {
+        "name": "Islas Vírgenes EEUU",
+        "image": "https://static.futbolenlatv.com/img/20210525162841-united-states-virgin-islands.webp"
+      },
+      "visitor": {
+        "name": "Samoa Americana",
+        "image": "https://static.futbolenlatv.com/img/20240901204340-samoa-americana.webp"
+      }
+    },
+    "channels": [
+      "FIFA+",
+      "DAZN",
+      "DAZN App Gratis"
+    ],
+    "event": {
+      "name": "Islas Vírgenes EEUU - Samoa Americana",
+      "description": "Islas Vírgenes EEUU - Samoa Americana el miércoles, 25 de marzo de 2026 a las 21:50",
+      "startDate": "2026-03-25T20:50:00",
+      "duration": "T1H45M"
+    },
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://4141892f5df7d6474bf0279895ce02b7336c9928",
+        "acestream://691739972eb3468cf16b25e84dafdeaa40dead6d"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": [
+        "acestream://a116ce3ff95c41c60e987e2b1aa247007f707884",
+        "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
+        "acestream://dddff67edfa7061f643ec5ae0be110169850363d"
+      ]
+    }
+  },
+  {
+    "sport": "baloncesto",
+    "date": {
+      "hour": "22:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "LNB",
+      "round": null
+    },
+    "teams": {
+      "local": {
+        "name": "Oberá TC",
+        "image": "https://static.futbolenlatv.com/img/20250311173136-obera-tenis-club.webp"
+      },
+      "visitor": {
+        "name": "Boca Juniors Básquet",
+        "image": "https://static.futbolenlatv.com/img/20121219051310_boca-juniors.webp"
+      }
+    },
+    "channels": [
+      "LaLiga+ Plus"
+    ],
+    "event": {},
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://635b61c1f240449163260cd914d10d886a54fee3"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": []
+    }
+  },
+  {
+    "sport": "futbol",
+    "date": {
+      "hour": "23:00",
+      "day": "25/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Primera División Argentina",
+      "round": "Torneo Apertura"
+    },
+    "teams": {
+      "local": {
+        "name": "Deportivo Riestra",
+        "image": "https://static.futbolenlatv.com/img/20141205114007-deportivo-riestra.webp"
+      },
+      "visitor": {
+        "name": "San Lorenzo",
+        "image": "https://static.futbolenlatv.com/img/20121219051730_san-lorenzo-de-almagro.webp"
+      }
+    },
+    "channels": [
+      "Fanatiz"
+    ],
+    "event": {
+      "name": "Deportivo Riestra - San Lorenzo",
+      "description": "Deportivo Riestra - San Lorenzo el miércoles, 25 de marzo de 2026 a las 23:00",
+      "startDate": "2026-03-25T22:00:00",
       "duration": "T1H45M"
     },
     "eventType": "match"
@@ -1479,6 +2161,42 @@
       "4k": [],
       "1080p": [
         "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
+      ],
+      "720p": [],
+      "sd": [],
+      "unknown": []
+    }
+  },
+  {
+    "sport": "rugby",
+    "date": {
+      "hour": "14:30",
+      "day": "28/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "Top 14",
+      "round": null
+    },
+    "teams": {
+      "local": {
+        "name": "Stade Toulouse",
+        "image": "https://static.futbolenlatv.com/img/20131225102047-stade-toulouse.webp"
+      },
+      "visitor": {
+        "name": "Montpellier HR",
+        "image": "https://static.futbolenlatv.com/img/20160505072229-montpellier-hr.webp"
+      }
+    },
+    "channels": [
+      "M+ Deportes"
+    ],
+    "event": {},
+    "eventType": "match",
+    "links": {
+      "4k": [],
+      "1080p": [
+        "acestream://f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
       ],
       "720p": [],
       "sd": [],
@@ -2006,5 +2724,32 @@
         "acestream://dddff67edfa7061f643ec5ae0be110169850363d"
       ]
     }
+  },
+  {
+    "sport": "hockey-patines",
+    "date": {
+      "hour": "20:00",
+      "day": "29/03/2026",
+      "zone": "Europe/Madrid"
+    },
+    "details": {
+      "competition": "OK Liga",
+      "round": null
+    },
+    "teams": {
+      "local": {
+        "name": "CE Lleida Llista Blava",
+        "image": "https://static.futbolenlatv.com/img/20130614064450-ICG-Lleida.webp"
+      },
+      "visitor": {
+        "name": "Calafell",
+        "image": "https://static.futbolenlatv.com/img/20130614064431-Calafell.webp"
+      }
+    },
+    "channels": [
+      "Esport3"
+    ],
+    "event": {},
+    "eventType": "match"
   }
 ]
